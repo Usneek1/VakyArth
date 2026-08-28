@@ -1,0 +1,108 @@
+{
+  "dataset": "Punjabi Pragmatics - Discourse & Coherence Translation",
+  "version": "0.1",
+  "direction": "punjabi_to_english",
+  "task_description": "Translate the Punjabi passage into natural, idiomatic English. Correct translation requires preserving discourse-level coherence, including causal links, contrastive relations, timeline progression, and topic continuity.",
+  "items": [
+    {
+      "id": "pa_disc_trans_001",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "cause-effect"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Pichhle kujh saalan vich shehar di abaadi tezi naal vadh gayi hai, is karke sadkan te traffic vi kaafi vad gaya hai, te hun rozana office pahunchna pehlan nalon zyada sama lainda hai.",
+          "gurmukhi": "ਪਿਛਲੇ ਕੁਝ ਸਾਲਾਂ ਵਿੱਚ ਸ਼ਹਿਰ ਦੀ ਅਬਾਦੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਗਈ ਹੈ, ਇਸ ਕਰਕੇ ਸੜਕਾਂ ‘ਤੇ ਟ੍ਰੈਫਿਕ ਵੀ ਕਾਫ਼ੀ ਵੱਧ ਗਿਆ ਹੈ, ਅਤੇ ਹੁਣ ਰੋਜ਼ਾਨਾ ਦਫ਼ਤਰ ਪਹੁੰਚਣਾ ਪਹਿਲਾਂ ਨਾਲੋਂ ਜ਼ਿਆਦਾ ਸਮਾਂ ਲੈਂਦਾ ਹੈ।"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "In the past few years, the city’s population has grown rapidly, which has increased traffic on the roads, and as a result reaching the office every day now takes more time than before."
+      },
+      "notes": "Requires preserving the causal chain across clauses."
+    },
+    {
+      "id": "pa_disc_trans_002",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "contrast-structure"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "School vich nave computers ta lag gaye ne, par kai teachers nu ohna di training nahi mili, is karke classroom vich technology di varton haje vi seemit hi reh gayi hai.",
+          "gurmukhi": "ਸਕੂਲ ਵਿੱਚ ਨਵੇਂ ਕੰਪਿਊਟਰ ਤਾਂ ਲੱਗ ਗਏ ਨੇ, ਪਰ ਕਈ ਅਧਿਆਪਕਾਂ ਨੂੰ ਉਹਨਾਂ ਦੀ ਟ੍ਰੇਨਿੰਗ ਨਹੀਂ ਮਿਲੀ, ਇਸ ਕਰਕੇ ਕਲਾਸਰੂਮ ਵਿੱਚ ਟੈਕਨੋਲੋਜੀ ਦੀ ਵਰਤੋਂ ਹਜੇ ਵੀ ਸੀਮਿਤ ਹੀ ਰਹਿ ਗਈ ਹੈ।"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "New computers have been installed in the school, but many teachers have not received training to use them, so the use of technology in classrooms is still quite limited."
+      },
+      "notes": "Tests correct translation of contrast ('but') followed by causal consequence."
+    },
+    {
+      "id": "pa_disc_trans_003",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-continuation"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Kai log kehnde ne ke online padhai naal bachiyan nu zyada resources milde ne, par kujh hor lokan da manna hai ke bina classroom interaction de ohna di samajh unni mazboot nahi bandi.",
+          "gurmukhi": "ਕਈ ਲੋਕ ਕਹਿੰਦੇ ਨੇ ਕਿ ਆਨਲਾਈਨ ਪੜ੍ਹਾਈ ਨਾਲ ਬੱਚਿਆਂ ਨੂੰ ਜ਼ਿਆਦਾ ਰਿਸੋਰਸ ਮਿਲਦੇ ਨੇ, ਪਰ ਕੁਝ ਹੋਰ ਲੋਕਾਂ ਦਾ ਮੰਨਣਾ ਹੈ ਕਿ ਬਿਨਾਂ ਕਲਾਸਰੂਮ ਇੰਟਰੈਕਸ਼ਨ ਦੇ ਉਹਨਾਂ ਦੀ ਸਮਝ ਉਤਨੀ ਮਜ਼ਬੂਤ ਨਹੀਂ ਬਣਦੀ।"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Some people say that online education provides children with more resources, but others believe that without classroom interaction their understanding does not develop as strongly."
+      },
+      "notes": "Requires maintaining two competing viewpoints within a single coherent structure."
+    },
+    {
+      "id": "pa_disc_trans_004",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "reasoning-chain"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Pehla shehar vich bahut ghatt public transport si, is karke zyada log apni gaadi vartde si, par jado nave bus routes shuru hoye, tan kujh lok hun bus nu tarjeeh den lagge ne.",
+          "gurmukhi": "ਪਹਿਲਾਂ ਸ਼ਹਿਰ ਵਿੱਚ ਬਹੁਤ ਘੱਟ ਪਬਲਿਕ ਟ੍ਰਾਂਸਪੋਰਟ ਸੀ, ਇਸ ਕਰਕੇ ਜ਼ਿਆਦਾ ਲੋਕ ਆਪਣੀ ਗੱਡੀ ਵਰਤਦੇ ਸੀ, ਪਰ ਜਦੋਂ ਨਵੇਂ ਬੱਸ ਰੂਟ ਸ਼ੁਰੂ ਹੋਏ, ਤਾਂ ਕੁਝ ਲੋਕ ਹੁਣ ਬੱਸ ਨੂੰ ਤਰਜੀਹ ਦੇਣ ਲੱਗੇ ਨੇ।"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Earlier the city had very little public transport, so most people used their own vehicles, but when new bus routes were introduced, some people began to prefer taking the bus."
+      },
+      "notes": "Requires maintaining the timeline and causal progression."
+    },
+    {
+      "id": "pa_disc_trans_005",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "summary-inference"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Kai saalan ton shehar vich hawa di quality kharab ho rahi hai; factoryan te traffic dono is vich yogdaan paa rahe ne, is karke hun kai log mask paake bahar nikalna zyada surakhyat samajhde ne.",
+          "gurmukhi": "ਕਈ ਸਾਲਾਂ ਤੋਂ ਸ਼ਹਿਰ ਵਿੱਚ ਹਵਾ ਦੀ ਕੁਆਲਿਟੀ ਖ਼ਰਾਬ ਹੋ ਰਹੀ ਹੈ; ਫੈਕਟਰੀਆਂ ਅਤੇ ਟ੍ਰੈਫਿਕ ਦੋਵੇਂ ਇਸ ਵਿੱਚ ਯੋਗਦਾਨ ਪਾ ਰਹੇ ਨੇ, ਇਸ ਕਰਕੇ ਹੁਣ ਕਈ ਲੋਕ ਮਾਸਕ ਪਾ ਕੇ ਬਾਹਰ ਨਿਕਲਣਾ ਜ਼ਿਆਦਾ ਸੁਰੱਖਿਅਤ ਸਮਝਦੇ ਨੇ।"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "For many years the city’s air quality has been deteriorating; both factories and traffic contribute to this, so many people now consider it safer to wear masks when going outside."
+      },
+      "notes": "Tests whether the model preserves the discourse summary and causal link."
+    }
+  ]
+}

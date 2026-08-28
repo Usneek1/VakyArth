@@ -1,0 +1,187 @@
+{
+  "dataset": "Tamil Pragmatics - Discourse & Coherence NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_disc_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kovaiyil dengue, kaichal paravalai thadukka 1,200 oozhiyargal niyamanam! Vadakizhakku paruvamuzhaiyaal thanneer thenggi kosukkal perugum apayam. Sirappu maruthuva mugamgal, nadamaaduum kuzhuppugal thayaar. Podhumakkal veedugalil mazhainheer thengamal paarthukollavum, kaichal vandhaal udanadiyamaaga maruthuvamanai sellavum sukadharatthu arivuruththal.",
+          "hypothesis": "Kovaiyil mazhaiyaal kosukkal perugum apayathai thadukka arasu nadavadikkai edukkirathu."
+        },
+        "tamil": {
+          "premise": "கோவையில் டெங்கு, காய்ச்சல் பரவலை தடுக்க 1,200 ஊழியர்கள் நியமனம்! வடகிழக்கு பருவமழையால் தண்ணீர் தேங்கி கொசுக்கள் பெருகும் அபாயம். சிறப்பு மருத்துவ முகாம்கள், நடமாடும் குழுக்கள் தயார். பொதுமக்கள் வீடுகளில் மழைநீர் தேங்காமல் பார்த்துக்கொள்ளவும், காய்ச்சல் வந்தால் உடனடியாக மருத்துவமனை செல்லவும் சுகாதாரத்துறை அறிவுறுத்தல்.",
+          "hypothesis": "கோவையில் மழையால் கொசுக்கள் பெருகும் அபாயத்தைத் தடுக்க அரசு நடவடிக்கை எடுக்கிறது."
+        },
+        "english": {
+          "premise": "In Coimbatore, 1,200 workers have been appointed to prevent the spread of dengue and fever! Due to the northeast monsoon, there is a risk of water stagnation and an increase in mosquitoes. Special medical camps and mobile teams are ready. The health department advises the public to ensure that rainwater does not accumulate in their homes and to visit the hospital immediately if fever occurs.",
+          "hypothesis": "To avoid the risk of increased mosquitoes due to rain in Coimbatore, the government is taking action."
+        }
+      },
+      "explanation": "The premise details government actions to prevent mosquito-borne diseases due to rain, which entails the hypothesis that the government is taking action to mitigate this risk.",
+      "metadata": {
+        "register": "public-health",
+        "cultural_markers": []
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_disc_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Social media thagavalgalai romba vegamaaga parapputhu. Arasiyal kadchigal social mediala periya levella piracharam panranga. Ilaigyargalum ithula pangethukkuranga. Election commission itha kankanikkuthu.",
+          "hypothesis": "Ilaigyargal social media vai arasiyal pathi pesurrathukku payanpaduththuraanga."
+        },
+        "tamil": {
+          "premise": "சோஷல் மீடியா தகவல்களை ரொம்ப வேகமாக பரப்புது. அரசியல் கட்சிகள் சோஷல் மீடியால பெரிய லெவல்ல பிரசாரம் பண்ணுறாங்க. இளைஞர்களும் இதுல பங்கேற்குறாங்க. எலெக்ஷன் கமிஷன் இத கண்ணகிக்குது.",
+          "hypothesis": "இளைஞர்கள் சோஷல் மீடியாவை அரசியல் பற்றி பேசுவதற்கு பயன்படுத்துறாங்க."
+        },
+        "english": {
+          "premise": "Social media spreads information rapidly. Political parties run campaigns online. Young people join these discussions. The Election Commission monitors misinformation.",
+          "hypothesis": "Young people use social media for political discussions."
+        }
+      },
+      "explanation": "Youth is not only using social media for political discussions.",
+      "metadata": {
+        "register": "civic-media",
+        "cultural_markers": []
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_disc_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "policy-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Tamilnadu oda madhya unavu thittam arasu palli maanavarkalukku thinamum saththana saappadu koduthutu varra oru nalla thittam. Idhu kuzhandhaigalukku pasi illama padikka help pannuthu, school ku varathaiyum athigamaakkuthu.",
+          "hypothesis": "Tamilnadu la palli ku vara manavargalukku saapaadu kedaikkuruthu romba kashtam"
+        },
+        "tamil": {
+          "premise": "தமிழ்நாடு ஓடா மத்திய உணவு திட்டம் அரசு பள்ளி மாணவர்களுக்கு தினமும் சத்தான சாப்பாடு கொடுத்துது வர்ற ஒரு நல்ல திட்டம். இது குழந்தைகளுக்கு பசி இல்லாம படிக்க ஹெல்ப் பண்ணுது, பள்ளிக்கு வரத்தைமும் அதிகமாக்குது.",
+          "hypothesis": "தமிழ்நாட்டில் பள்ளிக்கு வர மாணவர்களுக்கு சாப்பாடு கிடைக்காது ரொம்ப கஷ்டம்"
+        },
+        "english": {
+          "premise": "Tamil Nadu's mid-day meal scheme provides nutritious food daily to government school students. This helps children study without hunger and increases school attendance.",
+          "hypothesis": "It is very difficult for students attending school in Tamil Nadu to get food."
+        }
+      },
+      "explanation": "The mid-day meal scheme ensures students receive nutritious food, contradicting the hypothesis that it is difficult for them to get food.",
+      "metadata": {
+        "register": "education-policy",
+        "cultural_markers": [
+          "mid-day-meal-scheme",
+          "school-attendance"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_disc_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "cultural-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Eppovum pola nyaayitrukkizhamai vandhaale namma oorula chicken biryani vaasanaiya thappikkave mudiyadhu. Kadayil poyi varisaiyil ninnalum, andha biryani rusikku naakka oorikkittu ellaarum kaathukittu iruppaanga.",
+          "hypothesis": "Nyaayitrukkizhamai naalae biryani saappiduraathu namma oorula oru vazhakkama irukku."
+        },
+        "tamil": {
+          "premise": "எப்போதும் போல நாயிற்றுக்கிழமை வந்தாலே நம்ம ஊருலா சிக்கன் பிரியாணி வாசனையை தப்பிக்கவே முடியாது. கடையில் போய் வரிசையில் நின்றாலும், அந்த பிரியாணி ருசிக்கு நாக்கு ஊரிக்கிட்டு எல்லாரும் காத்துக்கிட்டு இருப்பாங்க.",
+          "hypothesis": "ஞாயிற்றுக்கிழமைனாலே பிரியாணி சாப்பிடுறது நம்ம ஊருல ஒரு வழக்கமா இருக்கு."
+        },
+        "english": {
+          "premise": "As always, when Sunday comes, it's impossible to escape the aroma of chicken biryani in our city. Even if you go to the shop and stand in line, everyone waits eagerly for that biryani taste.",
+          "hypothesis": "Eating biryani on Sundays is a common practice in our city."
+        }
+      },
+      "explanation": "The premise describes the strong presence of chicken biryani on Sundays, which implies that eating biryani on Sundays is indeed a common practice, contradicting the hypothesis.",
+      "metadata": {
+        "register": "cultural-practices",
+        "cultural_markers": [
+          "food-culture",
+          "weekly-traditions"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_disc_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Intha veyil kaalaththula Coimbatorela irukkirathukke mudiyala, oru nimisham kooda veliyil poga mudiyala. veyilukku thappikkurathukku ice cream, ilaneernu thedith thēdi alaiya vendiyatha irukku.",
+          "hypothesis": "Veyil adhigamaa irukkurathaala makkal thagaththukku paanangalai naadi poraanga."
+        },
+        "tamil": {
+          "premise": "இந்த வெயில் காலத்துல கோயம்புத்தூர்ல இருக்கறதுக்கே முடியல, ஒரு நிமிஷம் கூட வெளியில போக முடியல. வெயிலுக்கு தப்பிக்குறதுக்கு ஐஸ் கிரீம், இளநீர்னு தேடித் தேடி அலைய வேண்டியதா இருக்கு.",
+          "hypothesis": "வெயில் அதிகமா இருக்குறதால மக்கள் தாகத்துக்குப் பானங்களை நாடி போறாங்க."
+        },
+        "english": {
+          "premise": "During this hot season, it's unbearable to be in Coimbatore, you can't even step outside for a minute. To escape the heat, people are wandering around looking for ice cream and coconut water.",
+          "hypothesis": "Due to the intense heat, people are looking for beverages to quench their thirst."
+        }
+      },
+      "explanation": "The premise says the heat is so intense that people go in search of cooling options like ice cream and tender coconut water. That directly supports the hypothesis that, because of the weather, people seek out drinks and refreshments to cope with the heat.",
+      "metadata": {
+        "register": "casual-discourse",
+        "cultural_markers": [
+          "summer-heat",
+          "tender-coconut-water",
+          "ice-cream-stalls"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_disc_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "health-awareness"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ippo irukkira pasanga ellam veliyil poyi vilaiyaaduraathae vittuttanga, eppo paathaalum mobailleye edhaachum game vilaiyaadittu irukkanga. idhu kannukkum, udambukkum romba keduthalnu therinjchum avanga vida maatteengiranga.",
+          "hypothesis": "Ippo irukkura pasanga mobile gamekku adimaiyaayittanga."
+        },
+        "tamil": {
+          "premise": "இப்போ இருக்கிற பசங்க எல்லாம் வெளியில போய் விளையாடுறதையே விட்டுட்டாங்க, எப்போ பாத்தாலும் மொபைல்லயே ஏதாச்சும் கேம் விளையாடிட்டு இருக்காங்க. இது கண்ணுக்கும், உடம்புக்கும் ரொம்ப கெடுதல்னு தெரிஞ்சும் அவங்க விட மாட்டேங்கிறாங்க.",
+          "hypothesis": "இப்போ இருக்குற பசங்க மொபைல் கேம்க்கு அடிமையாயிட்டாங்க."
+        },
+        "english": {
+          "premise": "Kids these days have stopped playing outside, whenever you see them they are on their mobile phones playing some game. Even though they know it's bad for their eyes and body, they won't give it up.",
+          "hypothesis": "Kids these days are addicted to mobile games."
+        }
+      },
+      "explanation": "The premise describes how children have stopped playing outside and are constantly on their mobile phones playing games, even though they are aware of the negative effects on their health. This directly supports the hypothesis that kids are addicted to mobile games.",
+      "metadata": {
+        "register": "casual-discourse",
+        "cultural_markers": [
+          "mobile-gaming",
+          "youth-culture",
+          "health-awareness"
+        ]
+      },
+      "label": "entailment"
+    }
+  ]
+}

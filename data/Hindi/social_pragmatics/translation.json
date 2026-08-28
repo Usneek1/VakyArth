@@ -1,0 +1,323 @@
+{
+  "dataset": "Hindi Pragmatics - Translation (Social Pragmatics)",
+  "version": "0.1",
+  "direction": "hindi_to_english",
+  "task_description": "Translate the given Hindi sentence or exchange into natural, idiomatic English. Correct translation requires recognizing the underlying social speech act, whether a nostalgic comment is really a reprimand, a refusal is really a ritual, or an expression of concern is really a pressure tactic, and rendering the pragmatic force faithfully, not just the literal words.",
+  "items": [
+    {
+      "id": "hi_social_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "elder-authority",
+        "indirect-reprimand"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "दादा जी ख़ामोशी से बैठके बोले, 'हमारे ज़माने में बच्चे इतना फोन नहीं देखते थे। एक दूसरे से बात करते थे।'",
+          "latin": "Dada ji khamoshi se baithke bole, 'Hamare zamane mein bacche itna phone nahi dekhte the. Ek doosre se baat karte the.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Grandfather sat in silence and said, 'In our day, children didn't stare at their phones like this. They actually talked to each other.'"
+      },
+      "notes": "The surface form is a nostalgic observation but the speech act is an indirect reprimand aimed at someone present in the room. Elderly Indians frequently use generational comparison as a third-person criticism to avoid a direct confrontation while still making the target feel the sting. The quietness ('khamoshi se') sharpens the implied rebuke. 'In our day' and 'actually' in the English preserve this tone. A translation like 'In our time there were no phones' flattens the criticism into a historical fact, and 'He told the children to put their phones down' over-specifies what the speaker deliberately left indirect."
+    },
+    {
+      "id": "hi_social_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "education-pressure",
+        "neighbor-comparison"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "पापा ने डिनर पर कहा, 'शर्मा जी का बेटा अब लंदन में है। पढ़ाई में मेहनत करो तो ज़िंदगी बन जाती है।'",
+          "latin": "Papa ne dinner par kaha, 'Sharma ji ka beta ab London mein hai. Padhai mein mehnat karo toh zindagi ban jaati hai.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "At dinner, Dad said, 'Sharma ji's son is in London now. Work hard at your studies and your life is set.'"
+      },
+      "notes": "This is a two-move indirect pressure tactic. The first move establishes a neighbour's child as a success benchmark; the second delivers a general maxim that implies the listener is not living up to it. Neither move addresses the child directly, which is precisely the point, the indirectness preserves the parent's affectionate persona while the pressure lands. 'Zindagi ban jaati hai' is a culturally loaded phrase meaning life becomes settled or made; 'your life is set' approximates this. Translating as 'Study hard and go to London like Sharma ji's son' makes the comparison explicit in a way the speaker carefully avoided, destroying the indirectness that is the entire mechanism of the speech act."
+    },
+    {
+      "id": "hi_social_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "gift-refusal",
+        "reciprocity-ritual"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "मिठाई का डिब्बा देखकर नीलम बोली, 'अरे ये क्या ज़रूरत थी, आप भी ना, खाली हाथ आते तो कौन सा बुरा लगता।'",
+          "latin": "Mithai ka dibba dekhkar Neelam boli, 'Are ye kya zaroorat thi, aap bhi na, khaali haath aate toh kaun sa bura lagta.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Seeing the box of sweets, Neelam said, 'Oh, you really didn't have to, honestly, you could have come empty-handed and it wouldn't have mattered at all.'"
+      },
+      "notes": "'Ye kya zaroorat thi' is a formulaic expression of pleased surprise, not a genuine complaint that the gift was unnecessary. The speaker is delighted; the protest is a social script that signals the relationship is close enough that gifts are not obligatory, while simultaneously acknowledging the gift warmly. 'You really didn't have to' in English carries exactly this double function. Translating as 'Why did you bring this' or 'You should not have brought anything' misreads the emotional register entirely, converting a warm reception into a mild rebuke."
+    },
+    {
+      "id": "hi_social_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "sibling-rivalry",
+        "parental-comparison"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "माँ ने कहा, 'तेरे भैया को देख, कभी नहीं कहा कि नहीं होगा। जो ठान लिया वो कर दिखाया।'",
+          "latin": "Maa ne kaha, 'Tere bhaiya ko dekh, kabhi nahi kaha ki nahi hoga. Jo thaan liya wo kar dikhaya.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Mum said, 'Look at your brother — he never once said it couldn't be done. Whatever he set his mind to, he saw it through.'"
+      },
+      "notes": "The surface form is praise for the brother but the speech act is a reprimand directed at the listener, who has presumably expressed doubt, resistance, or failure. The brother is instrumentalized as a mirror to make the contrast visible without the parent having to say 'you are failing' directly. 'Look at your brother' in English preserves the triangulated criticism. Translating as 'Your brother is better than you' makes the comparison explicit in a way the speaker deliberately avoided. Translating as 'She was praising her son' describes only one half of the speech act and misses the disciplinary force aimed at the other child."
+    },
+    {
+      "id": "hi_social_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "leaving-ritual",
+        "prolonged-goodbye"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "दरवाज़े पर खड़े होकर मेज़बान बोले, 'अच्छा चलते हैं, रुको एक मिनट, वो मैंने आचार रखा था तुम्हारे लिए, और हाँ माँ को प्रणाम कहना।'",
+          "latin": "Darwaze par khade hokar mezbaan bole, 'Accha chalte hain, ruko ek minute, wo maine achaar rakha tha tumhare liye, aur haan maa ko pranaam kehna.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Standing at the door, the host said, 'Right then, off you go — wait, one minute, I'd kept some pickle aside for you, and yes, do give my regards to your mother.'"
+      },
+      "notes": "'Accha chalte hain' is not the host dismissing the guest; it is a leave-taking ritual opener that both parties understand will be followed by several more exchanges before actual departure occurs. The pickle, the message for the mother, and whatever follows are not afterthoughts — they are the social mechanism by which both host and guest extend the farewell without either party having to admit they are reluctant to part. 'Right then, off you go' in English captures the false finality of the opener. Translating as 'The host said goodbye and gave pickle' compresses a drawn-out social ritual into a transaction, losing the texture of the extended Indian farewell entirely."
+    },
+    {
+      "id": "hi_social_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "friendship",
+        "indirect-money-request"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "विकास बोला, 'यार बहुत दिन हो गए कहीं बाहर खाए। सोच रहा था इस हफ्ते कहीं चलते हैं, पर इस महीने जेब थोड़ी ढीली है।'",
+          "latin": "Vikas bola, 'Yaar bahut din ho gaye kahin bahar khaye. Soch raha tha is hafte kahin chalte hain, par is mahine jeb thodi dheeli hai.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Vikas said, 'Yaar, it's been ages since we ate out. I was thinking we could go somewhere this week, but my wallet's a bit thin this month.'"
+      },
+      "notes": "'Jeb thodi dheeli hai' is not a withdrawal of the plan — it is a financial disclosure that functions as an indirect request for the friend to offer to cover the bill, or at minimum to choose somewhere affordable. The outing is still desired; the money comment is a social signal to negotiate the terms without the embarrassment of directly asking for a subsidy. 'My wallet's a bit thin this month' in English replicates this — it floats the constraint without making an explicit ask. Translating as 'Vikas said he had no money and could not go out' converts a soft negotiating move into a firm cancellation, which is precisely what the speaker was trying to avoid."
+    },
+    {
+      "id": "hi_social_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "elder-authority",
+        "indirect-reprimand"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "नानी ने चावल फेंकते देखकर कहा, 'हमारे ज़माने में तो एक दाना भी बर्बाद नहीं होता था, अन्न का बड़ा मान होता था।'",
+          "latin": "Nani ne chawal phenkte dekhkar kaha, 'Hamare zamane mein toh ek daana bhi barbaad nahi hota tha, anna ka bada maan hota tha.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Seeing the rice being thrown out, Grandma said, 'In our day, not a single grain went to waste — food was treated with real respect.'"
+      },
+      "notes": "Like the phone example in this set, this is generational comparison used as indirect reprimand rather than nostalgia for its own sake. The trigger (rice being thrown away) is never named as the target of criticism; the grandmother instead frames it as a historical observation about a bygone, more virtuous era, which is precisely what makes the rebuke land without confrontation. 'In our day' and 'real respect' preserve the implicit judgment. A translation like 'She talked about how people used to value food' erases the reprimand entirely by narrating it as neutral reminiscence."
+    },
+    {
+      "id": "hi_social_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "career-pressure",
+        "relative-comparison"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "मामी ने चाय पीते हुए कहा, 'तुम्हारी कजिन ki toh government job lag gayi pehle hi try mein. Aajkal stability bahut zaroori hai.'",
+          "latin": "Mami ne chai peete hue kaha, 'Tumhari cousin ki toh government job lag gayi pehle hi try mein. Aajkal stability bahut zaroori hai.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Sipping her tea, Aunty said, 'Your cousin landed a government job on her very first try, you know. Stability really matters these days.'"
+      },
+      "notes": "Structurally identical to the Sharma ji/London example: a relative's achievement is presented first as a neutral update, followed by a general maxim that implicitly measures the listener against it. Neither sentence directly criticizes the listener's own job situation, and that omission is the point, the comparison is meant to be inferred, not stated. 'You know' softens the delivery in English the way the casual tea-drinking frame does in Hindi. Translating this as 'She told them to get a government job like their cousin' makes explicit what the speaker carefully left implicit."
+    },
+    {
+      "id": "hi_social_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "gift-refusal",
+        "reciprocity-ritual"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "साड़ी का पैकेट देखकर सुमन बोली, 'ये इतना सब लाने की क्या ज़रूरत थी भाई, तुम आ जाते यही बहुत था।'",
+          "latin": "Saadi ka packet dekhkar Suman boli, 'Ye itna sab laane ki kya zaroorat thi bhai, tum aa jaate yahi bahut tha.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Seeing the sari packet, Suman said, 'Oh, you really didn't need to bring all this, just you coming would've been more than enough.'"
+      },
+      "notes": "As with the mithai example, the protest here is a ritual response of pleased surprise, not a genuine objection to receiving the gift. The phrase performs warmth and closeness by insisting the relationship doesn't require material gestures, while the speaker is visibly pleased by the sari. Rendering this literally as 'What was the need to bring this' risks sounding like disapproval in English; 'you really didn't need to' captures the same socially expected, affectionate deflection."
+    },
+    {
+      "id": "hi_social_tr_010",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "sibling-rivalry",
+        "parental-comparison"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "पापा ने कहा, 'तेरी didi ko dekh, kabhi paisa maangne se pehle soch bhi nahi ke maangna hai. Khud kama leti hai apna kharcha.'",
+          "latin": "Papa ne kaha, 'Teri didi ko dekh, kabhi paisa maangne se pehle soch bhi nahi ke maangna hai. Khud kama leti hai apna kharcha.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Dad said, 'Look at your sister — she never even thinks about asking for money. She earns her own way.'"
+      },
+      "notes": "Same triangulated-criticism structure as the 'tere bhaiya' example: praise for one sibling functions as an implicit rebuke of the other, who has presumably just asked for money. The father never says 'you should earn your own money' directly; the sister is deployed as the unspoken standard. 'Look at your sister' preserves this indirect comparative force in English, whereas a flattened translation like 'He said his daughter was independent' would lose the disciplinary aim entirely."
+    },
+    {
+      "id": "hi_social_tr_011",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "leaving-ritual",
+        "prolonged-goodbye"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "गेट तक छोड़ने आई मेज़बान बोलीं, 'ठीक है फिर, ध्यान से जाना — अरे रुको, ये लड्डू पैक करके दिए हैं बच्चों के लिए, और फोन करके बताना पहुँच के।'",
+          "latin": "Gate tak chhodne aayi mezbaan boleen, 'Theek hai phir, dhyaan se jaana — are ruko, ye laddoo pack karke diye hain bacchon ke liye, aur phone karke bataana pahunch ke.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Walking them to the gate, the host said, 'Alright then, take care on the way — oh wait, I've packed some laddoos for the kids, and call to let us know once you've reached.'"
+      },
+      "notes": "As with the pickle example, 'theek hai phir, dhyaan se jaana' functions as a ritual opener rather than a true final goodbye; both parties expect at least one more exchange before actual departure. The laddoos and the request to call upon arrival are the socially sanctioned mechanisms for stretching the farewell a little longer, expressing care without either side naming the reluctance to part. Rendering this as a single clean 'Goodbye, here are some laddoos' would erase the extended, layered nature of the leave-taking."
+    },
+    {
+      "id": "hi_social_tr_012",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "friendship",
+        "indirect-money-request"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "रोहित ने कहा, 'यार trip ka plan toh बहुत अच्छा लग raha hai, बस ये mahina थोड़ा tight जा raha hai salary ke hisaab se.'",
+          "latin": "Rohit ne kaha, 'Yaar trip ka plan toh bahut accha lag raha hai, bas ye mahina thoda tight ja raha hai salary ke hisaab se.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Rohit said, 'Dude, the trip plan sounds great, it's just that this month's a bit tight, salary-wise.'"
+      },
+      "notes": "Structurally parallel to the Vikas example: the financial disclosure is not a cancellation of interest in the trip but an invitation for the group to either adjust the plan, split costs differently, or offer him some flexibility, without Rohit having to make an explicit request. The enthusiasm ('sounds great') stays intact precisely so the constraint reads as circumstantial rather than a refusal. Translating this as 'Rohit said he couldn't afford the trip' would misrepresent the speech act as a firm decline rather than an opening bid for negotiation."
+    },
+    {
+      "id": "hi_social_tr_013",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "marriage-pressure",
+        "age-comparison"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "बुआ ने फोन पर कहा, 'तेरी उम्र की सब लड़कियों के तो बच्चे भी हो गए। वक्त बहुत जल्दी निकल जाता है बेटा।'",
+          "latin": "Bua ne phone par kaha, 'Teri umar ki sab ladkiyon ke toh bacche bhi ho gaye. Waqt bahut jaldi nikal jaata hai beta.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Aunty said on the phone, 'Girls your age already have children of their own, you know. Time really slips by fast, beta.'"
+      },
+      "notes": "This is a two-move pressure tactic aimed at marriage, structurally close to the education-pressure example: an unfavorable peer comparison followed by a general cautionary maxim, with no direct mention of the listener's own marital status. The affectionate 'beta' softens the delivery while the underlying message ('you're falling behind') is unmistakable to the listener. The English retains 'you know' and 'beta' to keep both the warmth and the pressure intact; stripping these would turn the utterance into a flat demographic observation."
+    },
+    {
+      "id": "hi_social_tr_014",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "gift-refusal",
+        "reciprocity-ritual"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "बच्चे के लिए खिलौना देखकर भाभी बोलीं, 'अरे इतना महंगा gift kyun laaye, इसकी toh koi zaroorat hi nahi thi.'",
+          "latin": "Bacche ke liye khilona dekhkar bhabhi boleen, 'Are itna mehenga gift kyun laaye, iski toh koi zaroorat hi nahi thi.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Seeing the toy for the baby, Bhabhi said, 'Oh, why did you bring such an expensive gift, there was really no need at all.'"
+      },
+      "notes": "Following the same reciprocity-ritual pattern as the earlier mithai and sari examples, this protest is a formulaic acknowledgment of generosity rather than genuine displeasure at the expense. The emphasis on 'itna mehenga' (so expensive) actually flatters the giver by noting their generosity, while the ritual objection maintains modesty on the receiving end. A flat translation like 'She scolded them for buying an expensive gift' would misread the warm social function as a genuine complaint."
+    },
+    {
+      "id": "hi_social_tr_015",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "sibling-rivalry",
+        "parental-comparison"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "मम्मी ने कहा, 'तेरी chhoti behen ko dekh, subah panch baje uth ke padhti hai, koi bahana nahi banati.'",
+          "latin": "Mummy ne kaha, 'Teri chhoti behen ko dekh, subah paanch baje uth ke padhti hai, koi bahana nahi banati.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Mum said, 'Look at your little sister — up at five every morning to study, no excuses at all.'"
+      },
+      "notes": "This follows the identical triangulated-comparison structure seen elsewhere in this set: the younger sibling is invoked as the unspoken standard the listener is failing to meet, most likely after being caught oversleeping or avoiding study. 'Look at your little sister' in English keeps the comparison implicit rather than turning it into a direct accusation like 'you make excuses,' which the Hindi carefully avoids stating about the addressee."
+    }
+  ]
+}

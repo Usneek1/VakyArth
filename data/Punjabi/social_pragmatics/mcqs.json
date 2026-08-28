@@ -1,0 +1,398 @@
+{
+  "dataset": "Punjabi Pragmatics - Social Pragmatics MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_social_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness",
+        "address-forms",
+        "honorifics"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Tussi apne dost Rohit de ghar gye. Tussi uhdi vaddi bhen 'Jasmine' nu mile.",
+          "question": "Tussi Jasmine nu ki keh ke bulaoge?",
+          "options": [
+            "jasmine",
+            "jasmine ji",
+            "didi",
+            "aunty"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "didi"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਤੁਸੀਂ ਆਪਣੇ ਦੋਸਤ ਰੋਹਿਤ ਦੇ ਘਰ ਗਏ। ਤੁਸੀਂ ਉਸਦੀ ਵੱਡੀ ਭੈਣ ‘ਜੈਸਮਿਨ’ ਨੂੰ ਮਿਲੇ।",
+          "question": "ਤੁਸੀਂ ਜੈਸਮਿਨ ਨੂੰ ਕੀ ਕਹਿ ਕੇ ਬੁਲਾਉਗੇ?",
+          "options": [
+            "ਜੈਸਮਿਨ",
+            "ਜੈਸਮਿਨ ਜੀ",
+            "ਦੀਦੀ",
+            "ਆੰਟੀ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਦੀਦੀ"
+          }
+        },
+        "english": {
+          "context": "You visited your friend Rohit’s home and met his older sister Jasmine.",
+          "question": "How should you address her politely in Punjabi?",
+          "options": [
+            "Jasmine",
+            "Jasmine ji",
+            "Didi (older sister)",
+            "Aunty"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Didi (older sister)"
+          }
+        }
+      },
+      "explanation": "In Punjabi social norms, addressing a friend’s older sister as ‘didi’ signals respect and appropriate relational distance.",
+      "metadata": {
+        "register": "family/friend",
+        "cultural_markers": [
+          "Punjabi kinship-based address terms"
+        ]
+      }
+    },
+    {
+      "id": "pa_social_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "respect",
+        "seniority",
+        "gestural-politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Jaddo tussi apne vadde chacha ji nu vyah te mile…",
+          "question": "Tussi unha naal kiven miloge?",
+          "options": [
+            "hath jod ke",
+            "pairi hath la ke",
+            "hello keh ke",
+            "hath naal hath mila ke"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "pairi hath la ke"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਜਦੋਂ ਤੁਸੀਂ ਆਪਣੇ ਵੱਡੇ ਚਾਚਾ ਜੀ ਨੂੰ ਵਿਆਹ ‘ਤੇ ਮਿਲੇ…",
+          "question": "ਤੁਸੀਂ ਉਹਨਾਂ ਨਾਲ ਕਿਵੇਂ ਮਿਲੋਗੇ?",
+          "options": [
+            "ਹੱਥ ਜੋੜ ਕੇ",
+            "ਪੈਰੀ ਹੱਥ ਲਾ ਕੇ",
+            "ਹੈਲੋ ਕਹਿ ਕੇ",
+            "ਹੱਥ ਮਿਲਾ ਕੇ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਪੈਰੀ ਹੱਥ ਲਾ ਕੇ"
+          }
+        },
+        "english": {
+          "context": "When you meet your elder uncle at a wedding…",
+          "question": "What is the culturally appropriate greeting?",
+          "options": [
+            "Joining hands (namaste)",
+            "Touching his feet as a sign of respect",
+            "Saying ‘hello’ casually",
+            "Shaking hands"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Touching his feet as a sign of respect"
+          }
+        }
+      },
+      "explanation": "Touching the feet (pairi hath) is a traditional Punjabi gesture to show deep respect to elders at formal occasions.",
+      "metadata": {
+        "register": "family/elders",
+        "cultural_markers": [
+          "gesture-based respect",
+          "seniority norms"
+        ]
+      }
+    },
+    {
+      "id": "pa_social_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "family-discipline",
+        "face-saving"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Jado Preeti raat nu late ghar aayi, ta uhdi mummy ne keha, 'log ki kehnge'.",
+          "question": "Iss vich 'log ki kehnge' da ki matlab hai?",
+          "options": [
+            "Unha toh guandi kal puchnge",
+            "Baaki log chintit honge",
+            "Social reputation rakhan vaaste",
+            "Preeti nu draun vaaste"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Social reputation rakhan vaaste"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਜਦੋਂ ਪ੍ਰੀਤੀ ਰਾਤ ਨੂੰ ਲੇਟ ਘਰ ਆਈ, ਤਾਂ ਉਸਦੀ ਮੰਮੀ ਨੇ ਕਿਹਾ, ‘ਲੋਕ ਕੀ ਕਹਿਣਗੇ’।",
+          "question": "‘ਲੋਕ ਕੀ ਕਹਿਣਗੇ’ ਦਾ ਕੀ ਮਤਲਬ ਹੈ?",
+          "options": [
+            "ਉਹ ਗੁਆਂਡੀ ਕੱਲ੍ਹ ਪੁੱਛਣਗੇ",
+            "ਲੋਕ ਚਿੰਤਿਤ ਹੋਣਗੇ",
+            "ਸਮਾਜਿਕ ਇੱਜ਼ਤ ਬਚਾਉਣ ਲਈ",
+            "ਪ੍ਰੀਤੀ ਨੂੰ ਡਰਾਉਣ ਲਈ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਸਮਾਜਿਕ ਇੱਜ਼ਤ ਬਚਾਉਣ ਲਈ"
+          }
+        },
+        "english": {
+          "context": "When Preeti came home late, her mother said, 'What will people say?'",
+          "question": "What does the phrase intend?",
+          "options": [
+            "The neighbors will ask tomorrow",
+            "People will be worried",
+            "It is about maintaining social reputation",
+            "She is trying to scare Preeti"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Maintaining social reputation"
+          }
+        }
+      },
+      "explanation": "‘Log ki kehnge’ is a culturally common indirect reminder about family honor and societal perception.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "honor norms",
+          "social reputation pressure"
+        ]
+      }
+    },
+    {
+      "id": "pa_social_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "ritual-exchange",
+        "auspiciousness-norms",
+        "shagun"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Vyah te jaan lagi, kudi ne lifafe vich 500 rupaye paa ditte. Maa ne vekh ke keha, \"Ni kudiye, ik rupaya hor paa de.\"",
+          "question": "Maa ne aisa kyun keha?",
+          "options": [
+            "Maa nu lagda si ki 500 bahut ghatt ne",
+            "Maa kol bahut chhutte paise pye si",
+            "Lifafa halka lag reha si",
+            "Riwaaz anusaar"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Riwaaz anusaar"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਵਿਆਹ ਤੇ ਜਾਣ ਲੱਗੀ, ਕੁੜੀ ਨੇ ਲਿਫ਼ਾਫ਼ੇ ਵਿੱਚ 500 ਰੁਪਏ ਪਾ ਦਿੱਤੇ। ਮਾਂ ਨੇ ਵੇਖ ਕੇ ਕਿਹਾ, \"ਨੀ ਕੁੜੀਏ, ਇੱਕ ਰੁਪਇਆ ਹੋਰ ਪਾ ਦੇ।\"",
+          "question": "ਮਾਂ ਨੇ ਅਜਿਹਾ ਕਿਉਂ ਕਿਹਾ?",
+          "options": [
+            "ਮਾਂ ਨੂੰ ਲੱਗਦਾ ਸੀ ਕਿ 500 ਬਹੁਤ ਘੱਟ ਨੇ",
+            "ਮਾਂ ਕੋਲ ਬਹੁਤ ਛੁੱਟੇ ਪੈਸੇ ਪਏ ਸੀ",
+            "ਲਿਫ਼ਾਫ਼ਾ ਹਲਕਾ ਲੱਗ ਰਿਹਾ ਸੀ",
+            "ਰਿਵਾਜ਼ ਅਨੁਸਾਰ"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "ਰਿਵਾਜ਼ ਅਨੁਸਾਰ"
+          }
+        },
+        "english": {
+          "context": "As they were leaving for the wedding, the girl put 500 rupees into the envelope. Her mother saw it and said, \"Girl, add one more rupee.\"",
+          "question": "Why did the mother say this?",
+          "options": [
+            "She thought 500 was too little",
+            "She happened to have a lot of loose change",
+            "The envelope looked too light",
+            "Because of custom"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Because of custom"
+          }
+        }
+      },
+      "explanation": "Shagun amounts conventionally end in one rupee — 501, 1101, and so on. The extra rupee makes the sum indivisible and marks continuity, whereas a round figure is treated as inauspicious, as though closing something off.",
+      "metadata": {
+        "register": "family/wedding",
+        "cultural_markers": [
+          "shagun amounts ending in one rupee",
+          "round sums treated as inauspicious"
+        ],
+        "authors_note": "Norm surfaces inside an overheard exchange; the question asks why the utterance was made rather than what the participant should do.",
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "pa_social_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "reciprocity",
+        "gift-exchange-norms"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Gawandan di kheer wali katori wapis karan lagi, kudi ne oh dho ke rakh diti. Bebe ne vekh ke keha, \"Ni kudiye, ehnu aive khali na moddi, kuch paa de vich.\"",
+          "question": "Bebe ne aisa kyun keha?",
+          "options": [
+            "Khali bartan wapis modna changa nahi mannya janda",
+            "Katori changi tarah saaf nahi hoyi si",
+            "Bebe nu kheer hor chahidi si",
+            "Gawandan ne badle vich kuch mangya si"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Khali bartan wapis modna changa nahi mannya janda"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਗੁਆਂਢਣ ਦੀ ਖੀਰ ਵਾਲੀ ਕਟੋਰੀ ਵਾਪਸ ਕਰਨ ਲੱਗੀ, ਕੁੜੀ ਨੇ ਉਹ ਧੋ ਕੇ ਰੱਖ ਦਿੱਤੀ। ਬੇਬੇ ਨੇ ਵੇਖ ਕੇ ਕਿਹਾ, \"ਨੀ ਕੁੜੀਏ, ਇਹਨੂੰ ਐਵੇਂ ਖਾਲੀ ਨਾ ਮੋੜੀ, ਕੁਝ ਪਾ ਦੇ ਵਿੱਚ।\"",
+          "question": "ਬੇਬੇ ਨੇ ਅਜਿਹਾ ਕਿਉਂ ਕਿਹਾ?",
+          "options": [
+            "ਖਾਲੀ ਬਰਤਨ ਵਾਪਸ ਮੋੜਨਾ ਚੰਗਾ ਨਹੀਂ ਮੰਨਿਆ ਜਾਂਦਾ",
+            "ਕਟੋਰੀ ਚੰਗੀ ਤਰ੍ਹਾਂ ਸਾਫ਼ ਨਹੀਂ ਹੋਈ ਸੀ",
+            "ਬੇਬੇ ਨੂੰ ਖੀਰ ਹੋਰ ਚਾਹੀਦੀ ਸੀ",
+            "ਗੁਆਂਢਣ ਨੇ ਬਦਲੇ ਵਿੱਚ ਕੁਝ ਮੰਗਿਆ ਸੀ"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ਖਾਲੀ ਬਰਤਨ ਵਾਪਸ ਮੋੜਨਾ ਚੰਗਾ ਨਹੀਂ ਮੰਨਿਆ ਜਾਂਦਾ"
+          }
+        },
+        "english": {
+          "context": "As she was returning the neighbour's bowl that had held kheer, the girl washed it and set it aside. Her grandmother saw this and said, \"Girl, don't send it back empty like that — put something in it.\"",
+          "question": "Why did the grandmother say this?",
+          "options": [
+            "Returning a vessel empty is not considered proper",
+            "The bowl had not been cleaned properly",
+            "The grandmother wanted more kheer",
+            "The neighbour had asked for something in return"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Returning a vessel empty is not considered proper"
+          }
+        }
+      },
+      "explanation": "Sending a vessel back empty is treated as returning the giver's goodwill unreciprocated. Something — sugar, a few sweets, whatever is at hand — goes back in it, keeping the exchange open rather than settling it.",
+      "metadata": {
+        "register": "family/neighbours",
+        "cultural_markers": [
+          "vessels never returned empty",
+          "open-ended reciprocity between households"
+        ],
+        "authors_note": "Targets reciprocity norms, which no prior item in the set covers.",
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "pa_social_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "affectionate-reproach",
+        "indirect-complaint"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kai mahine baad jado Harpreet apne chacha de ghar gaya, chacha ne hass ke keha, \"Aao ji, tussi taan saade ghar da rasta hi bhul gaye.\"",
+          "question": "Chacha ki keh rahe ne?",
+          "options": [
+            "Harpreet nu sach much rasta yaad nahi reha",
+            "Harpreet nu shikayat kar rahe ne ki oh bahut chir toh nahi aaya",
+            "Ghar da pata badal gaya hai",
+            "Harpreet nu aaun toh mana kar rahe ne"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Harpreet nu shikayat kar rahe ne ki oh bahut chir toh nahi aaya"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਕਈ ਮਹੀਨੇ ਬਾਅਦ ਜਦੋਂ ਹਰਪ੍ਰੀਤ ਆਪਣੇ ਚਾਚੇ ਦੇ ਘਰ ਗਿਆ, ਚਾਚੇ ਨੇ ਹੱਸ ਕੇ ਕਿਹਾ, \"ਆਓ ਜੀ, ਤੁਸੀਂ ਤਾਂ ਸਾਡੇ ਘਰ ਦਾ ਰਸਤਾ ਹੀ ਭੁੱਲ ਗਏ।\"",
+          "question": "ਚਾਚਾ ਕੀ ਕਹਿ ਰਹੇ ਨੇ?",
+          "options": [
+            "ਹਰਪ੍ਰੀਤ ਨੂੰ ਸੱਚਮੁੱਚ ਰਸਤਾ ਯਾਦ ਨਹੀਂ ਰਿਹਾ",
+            "ਹਰਪ੍ਰੀਤ ਨੂੰ ਸ਼ਿਕਾਇਤ ਕਰ ਰਹੇ ਨੇ ਕਿ ਉਹ ਬਹੁਤ ਚਿਰ ਤੋਂ ਨਹੀਂ ਆਇਆ",
+            "ਘਰ ਦਾ ਪਤਾ ਬਦਲ ਗਿਆ ਹੈ",
+            "ਹਰਪ੍ਰੀਤ ਨੂੰ ਆਉਣ ਤੋਂ ਮਨ੍ਹਾ ਕਰ ਰਹੇ ਨੇ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਹਰਪ੍ਰੀਤ ਨੂੰ ਸ਼ਿਕਾਇਤ ਕਰ ਰਹੇ ਨੇ ਕਿ ਉਹ ਬਹੁਤ ਚਿਰ ਤੋਂ ਨਹੀਂ ਆਇਆ"
+          }
+        },
+        "english": {
+          "context": "When Harpreet visited his uncle's house after several months, his uncle laughed and said, \"Come in — you've forgotten the way to our house altogether.\"",
+          "question": "What is the uncle doing?",
+          "options": [
+            "He genuinely thinks Harpreet has forgotten the route",
+            "He is complaining that Harpreet hasn't visited in a long time",
+            "The house address has changed",
+            "He is telling Harpreet not to come"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He is complaining that Harpreet hasn't visited in a long time"
+          }
+        }
+      },
+      "explanation": "A welcome and a complaint delivered in one breath. ‘Rasta bhul gaye’ is a conventional affectionate reproach for a long absence; the laugh and the ‘aao ji’ mark it as warm rather than hostile.",
+      "metadata": {
+        "register": "family/relatives",
+        "cultural_markers": [
+          "affectionate reproach for infrequent visits"
+        ],
+        "authors_note": "Interpretive item; the literal reading is available but contextually blocked by the greeting and the laugh.",
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

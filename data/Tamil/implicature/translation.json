@@ -1,0 +1,126 @@
+{
+  "dataset": "Tamil Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "tamil_to_english",
+  "task_description": "Translate the given Tamil sentence into natural, idiomatic English. Correct translation requires understanding idioms and pragmatic meaning, not just literal word mapping.",
+  "items": [
+    {
+      "id": "ta_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "character-judgment",
+        "work-ethic"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Namma velai paathuttu irukkapo Raju mattum nalla kulir kaanjuttu irukkan."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When everyone else is working, without helping, Raju is just relaxing and doing nothing."
+      },
+      "notes": "The idiom 'nalla kulir kaanjuttu irukkan' implies that Raju is being lazy or shirking responsibilities rather than the literal meaning of drying in the cold."
+    },
+    {
+      "id": "ta_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "time-management"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Athu kedakkudhu, epo paathaalum puraanathaye pesittu irukkatha"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Let it be, don't keep talking about the past all the time, let's focus on the present."
+      },
+      "notes": "Puraanam literally means ancient literature. It is used here to refer to past events. The phrase suggests that dwelling on the past is unproductive and we should focus on current issues."
+    },
+    {
+      "id": "ta_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "marriage"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Sekarukku oru kaal kattu potta ellame seri aayidum."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Everything will be fine if Sekar gets married"
+      },
+      "notes": "The idiom 'oru kaal kattu potta' implies that marriage will solve all of Sekar's problems, which is a common cultural belief."
+    },
+    {
+      "id": "ta_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "metaphor",
+        "sibling-relationship",
+        "conflict"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Nalla naal nu kooda paakkama akkaum thambium eliyum poonaiyuma irukkanga"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The sibling relationship is so bad that they are like cats and dogs, always fighting and never getting along, even on special occasions."
+      },
+      "notes": "The phrase 'eliyum poonaiyuma irukkanga' is a metaphor comparing the siblings to cats and dogs, which implies constant conflict and animosity between them."
+    },
+    {
+      "id": "ta_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "celebrity-culture",
+        "emotional-expression"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Pakkathu santhula shooting nadakkuthu pola, Abhinaya Kamal ah pathuta nu vaanathukkum boomikkum paranthuttu irukka."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "It seems like there is a shooting happening in the next street. Abhinaya saw actor Kamal there and is extremely happy, as if she is flying in the sky."
+      },
+      "notes": "The phrase 'vaanathukkum boomikkum paranthuttu irukka' is an idiom that implies Abhinaya is extremely happy and elated, not literally flying in the sky."
+    },
+    {
+      "id": "ta_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "cultural-reference",
+        "emotional-expression"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Ipdiye avala nenachu thanni pottutu iruntha devadas ayiduva."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "If he keeps thinking about her like this and keep drinking, he will end up like Devadas."
+      },
+      "notes": "The reference to 'Devadas' is a cultural allusion to a tragic character who is known for his excessive drinking and heartbreak. The sentence implies that if he continues to dwell on her and drink, he will meet a similar tragic fate."
+    }
+  ]
+}

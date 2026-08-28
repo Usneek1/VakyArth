@@ -1,0 +1,177 @@
+{
+  "dataset": "Punjabi Pragmatics - Discourse & Coherence NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_disc_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Punjab vich pichle 10 saalan vich factoriyan di ginti tezi naal vadh gayi hai. Eh factoriyan bahut saara dhuaan ate chemical vatavaran vich chhad rahiyan han. Es karke hawa te paani dono pradoshit ho rahe han. Log saah lain waliyan bimariyaan ton joojh rahe han. Hospitals vich patients di ginti vadh gayi hai. Aspatalan te bojh bahut vadh gaya hai.",
+          "hypothesis": "Je factory di ginti vadhegi, te aspatalan te bojh vi vadega."
+        },
+        "gurmukhi": {
+          "premise": "ਪੰਜਾਬ ਵਿਚ ਪਿਛਲੇ 10 ਸਾਲਾਂ ਵਿਚ ਫੈਕਟਰੀਆਂ ਦੀ ਗਿਣਤੀ ਤੇਜ਼ੀ ਨਾਲ ਵੱਧ ਗਈ ਹੈ। ਇਹ ਫੈਕਟਰੀਆਂ ਬਹੁਤ ਸਾਰਾ ਧੂੰਆਂ ਅਤੇ ਕੈਮੀਕਲ ਵਾਤਾਵਰਣ ਵਿਚ ਛੱਡ ਰਹੀਆਂ ਹਨ। ਇਸ ਕਰਕੇ ਹਵਾ ਤੇ ਪਾਣੀ ਦੋਵੇਂ ਪ੍ਰਦੂਸ਼ਿਤ ਹੋ ਰਹੇ ਹਨ। ਲੋਕ ਸਾਹ ਲੈਣ ਵਾਲੀਆਂ ਬਿਮਾਰੀਆਂ ਤੋਂ ਜੂਝ ਰਹੇ ਹਨ। ਹਸਪਤਾਲਾਂ ਵਿਚ ਮਰੀਜ਼ਾਂ ਦੀ ਗਿਣਤੀ ਵਧ ਗਈ ਹੈ। ਅਸਪਤਾਲਾਂ ‘ਤੇ ਬੋਝ ਬਹੁਤ ਵੱਧ ਗਿਆ ਹੈ।",
+          "hypothesis": "ਜੇ ਫੈਕਟਰੀਆਂ ਦੀ ਗਿਣਤੀ ਵਧੇਗੀ, ਤਾਂ ਅਸਪਤਾਲਾਂ ‘ਤੇ ਬੋਝ ਵੀ ਵਧੇਗਾ।"
+        },
+        "english": {
+          "premise": "In the last 10 years, the number of factories in Punjab has rapidly increased. These factories release large amounts of smoke and chemicals into the environment. As a result, both air and water are polluted. People are struggling with respiratory diseases. The number of patients in hospitals has risen. The burden on hospitals has increased heavily.",
+          "hypothesis": "If the number of factories increases, the burden on hospitals will also increase."
+        }
+      },
+      "explanation": "The premise directly connects factory growth → pollution → illness → increased hospital pressure. Therefore the causal hypothesis is supported by the given chain.",
+      "metadata": {
+        "register": "public-health",
+        "cultural_markers": []
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "pa_disc_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Social media ne jaankari saanjhi karan vaste kranti lehi aundi hai. Khabran te updates turant lakhan takk pahunch jande han. Siyasi partiyan social media te vade paddar te prachar kardiyan han. Naujawan khaas taur te enha charchavan vich shamil hunde han. Voter registration drive vi social media karke safal ho rahi hai. Election Commission galat jaankari nu tyaan vich rakhde hoye social media di nigrani kar rahi hai.",
+          "hypothesis": "Yuva social media di varton siyasi charcha vaste kar rahe han."
+        },
+        "gurmukhi": {
+          "premise": "ਸੋਸ਼ਲ ਮੀਡੀਆ ਨੇ ਜਾਣਕਾਰੀ ਸਾਂਝੀ ਕਰਨ ਲਈ ਕ੍ਰਾਂਤੀ ਲੈ ਕੇ ਆਈ ਹੈ। ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਤੁਰੰਤ ਲੱਖਾਂ ਤੱਕ ਪਹੁੰਚ ਜਾਂਦੇ ਹਨ। ਸਿਆਸੀ ਪਾਰਟੀਆਂ ਸੋਸ਼ਲ ਮੀਡੀਆ ‘ਤੇ ਵੱਡੇ ਪੱਧਰ ‘ਤੇ ਪ੍ਰਚਾਰ ਕਰਦੀਆਂ ਹਨ। ਨੌਜਵਾਨ ਖ਼ਾਸ ਤੌਰ ‘ਤੇ ਇਨ੍ਹਾਂ ਚਰਚਾਵਾਂ ਵਿਚ ਸ਼ਾਮਿਲ ਹੁੰਦੇ ਹਨ। ਵੋਟਰ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਡਰਾਈਵ ਵੀ ਸੋਸ਼ਲ ਮੀਡੀਆ ਕਰਕੇ ਸਫਲ ਹੋ ਰਹੀ ਹੈ। ਇਲੇਕਸ਼ਨ ਕਮਿਸ਼ਨ ਗਲਤ ਜਾਣਕਾਰੀ ਨੂੰ ਧਿਆਨ ਵਿਚ ਰੱਖਦਿਆਂ ਸੋਸ਼ਲ ਮੀਡੀਆ ਦੀ ਨਿਗਰਾਨੀ ਕਰ ਰਹੀ ਹੈ।",
+          "hypothesis": "ਯੁਵਾ ਸੋਸ਼ਲ ਮੀਡੀਆ ਦੀ ਵਰਤੋਂ ਸਿਆਸੀ ਚਰਚਾ ਲਈ ਕਰ ਰਹੇ ਹਨ।"
+        },
+        "english": {
+          "premise": "Social media spreads information rapidly. Political parties run campaigns online. Young people join these discussions. The Election Commission monitors misinformation.",
+          "hypothesis": "Young people use social media for political discussions."
+        }
+      },
+      "explanation": "Youth is not only using social media for political discussions.",
+      "metadata": {
+        "register": "civic-media",
+        "cultural_markers": []
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_disc_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "policy-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Punjab vich aurtan di kaam-kaaj vich hissedari 35% tak vadh gayi hai. Aurtan di shiksha vich kaafi sudhar aya hai. Sarkar aurtan nu apna karobaar shuru karan lai madad kar rahi hai. Corporate sector vich leadership positions te kaafi aurtan agge aa rahi han. Par phir vi informal sector vich haje kaafi sudhar di lodh hai kyunki aurtan vaste ghat tankha ate koi job security nahi hai. Pindaan vich purane reeti-riwaaj haje badle nahi han.",
+          "hypothesis": "Je sarkar pindan di aurtan di tankha vadhaugi, te aurtan di workforce participation vadegi."
+        },
+        "gurmukhi": {
+          "premise": "ਪੰਜਾਬ ਵਿਚ ਔਰਤਾਂ ਦੀ ਕੰਮ-ਕਾਜ ਵਿਚ ਹਿੱਸੇਦਾਰੀ 35% ਤੱਕ ਵਧ ਗਈ ਹੈ। ਔਰਤਾਂ ਦੀ ਸਿੱਖਿਆ ਵਿਚ ਕਾਫ਼ੀ ਸੁਧਾਰ ਆਇਆ ਹੈ। ਸਰਕਾਰ ਔਰਤਾਂ ਨੂੰ ਆਪਣਾ ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਮਦਦ ਕਰ ਰਹੀ ਹੈ। ਕੌਰਪੋਰੇਟ ਸੈਕਟਰ ਵਿਚ ਲੀਡਰਸ਼ਿਪ ਪਦਾਂ ‘ਤੇ ਕਾਫ਼ੀ ਔਰਤਾਂ ਅੱਗੇ ਆ ਰਹੀਆਂ ਹਨ। ਪਰ ਫਿਰ ਵੀ ਇਨਫਾਰਮਲ ਸੈਕਟਰ ਵਿਚ ਹਜੇ ਬਹੁਤ ਸੁਧਾਰ ਦੀ ਲੋੜ ਹੈ ਕਿਉਂਕਿ ਔਰਤਾਂ ਲਈ ਘੱਟ ਤਨਖ਼ਾਹ ਅਤੇ ਕੋਈ ਨੌਕਰੀ ਸੁਰੱਖਿਆ ਨਹੀਂ ਹੈ। ਪਿੰਡਾਂ ਵਿਚ ਪੁਰਾਣੇ ਰੀਤਿ-ਰਿਵਾਜ ਹਜੇ ਬਦਲੇ ਨਹੀਂ।",
+          "hypothesis": "ਜੇ ਸਰਕਾਰ ਪਿੰਡਾਂ ਦੀਆਂ ਔਰਤਾਂ ਦੀ ਤਨਖ਼ਾਹ ਵਧਾਏਗੀ, ਤਾਂ ਔਰਤਾਂ ਦੀ ਵਰਕਫ਼ੋਸ ਹਿੱਸੇਦਾਰੀ ਵਧੇਗੀ।"
+        },
+        "english": {
+          "premise": "Women’s participation has increased due to education and entrepreneurship support, but the informal sector still pays low wages and villages retain old traditions.",
+          "hypothesis": "If wages for rural women increase, workforce participation will increase."
+        }
+      },
+      "explanation": "Rural women are not able to work due to old cutoms.",
+      "metadata": {
+        "register": "economic-policy",
+        "cultural_markers": []
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_disc_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference",
+        "policy-generalization"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Pichhle kujh saalan vich Punjab de kai ilaqeyan vich jal da star lagataar thalle ja reha hai. Kisanan ne zyada paidavaar lai tubewell te bahut nirbhar hona shuru kar ditta hai. Dujje passe, barsaat da pattern vi anishchit ho gaya hai, jis karke kudrati recharge pehlan wang nahi ho rahi. Kai pindan vich peen wala paani vi ghatt mil reha hai, te lok door-door ton paani leke aa rahe ne. Sarkar valon kujh ilaqeyan vich paani bachao muhim shuru kiti gayi hai, par hun tak vaddi padar te sudhar nazar nahi aa reha.",
+          "hypothesis": "Je sinchai vaste jal di varton ise tarah chaldi rahi, tan paani di samasya hor gambhir hovegi."
+        },
+        "gurmukhi": {
+          "premise": "ਪਿਛਲੇ ਕੁਝ ਸਾਲਾਂ ਵਿੱਚ ਪੰਜਾਬ ਦੇ ਕਈ ਇਲਾਕਿਆਂ ਵਿੱਚ ਭੂਜਲ ਦਾ ਸਤਰ ਲਗਾਤਾਰ ਹੇਠਾਂ ਜਾ ਰਿਹਾ ਹੈ। ਕਿਸਾਨਾਂ ਨੇ ਵੱਧ ਪੈਦਾਵਾਰ ਲਈ ਟਿਊਬਵੈੱਲ ‘ਤੇ ਬਹੁਤ ਨਿਰਭਰ ਹੋਣਾ ਸ਼ੁਰੂ ਕਰ ਦਿੱਤਾ ਹੈ। ਦੂਜੇ ਪਾਸੇ, ਬਰਸਾਤ ਦਾ ਪੈਟਰਨ ਵੀ ਅਨਿਸ਼ਚਿਤ ਹੋ ਗਿਆ ਹੈ, ਜਿਸ ਕਰਕੇ ਕੁਦਰਤੀ ਰੀਚਾਰਜ ਪਹਿਲਾਂ ਵਾਂਗ ਨਹੀਂ ਹੋ ਰਹੀ। ਕਈ ਪਿੰਡਾਂ ਵਿੱਚ ਪੀਣ ਵਾਲਾ ਪਾਣੀ ਵੀ ਘੱਟ ਮਿਲ ਰਿਹਾ ਹੈ, ਤੇ ਲੋਕ ਦੂਰ-ਦੂਰ ਤੋਂ ਪਾਣੀ ਲੈ ਕੇ ਆ ਰਹੇ ਨੇ। ਸਰਕਾਰ ਵੱਲੋਂ ਕੁਝ ਇਲਾਕਿਆਂ ਵਿੱਚ ਪਾਣੀ ਬਚਾਓ ਮੁਹਿੰਮ ਸ਼ੁਰੂ ਕੀਤੀ ਗਈ ਹੈ, ਪਰ ਹੁਣ ਤੱਕ ਵੱਡੇ ਪੱਧਰ ‘ਤੇ ਸੁਧਾਰ ਨਜ਼ਰ ਨਹੀਂ ਆ ਰਿਹਾ।",
+          "hypothesis": "ਜੇ ਸਿੰਚਾਈ ਵਾਸਤੇ ਭੂਜਲ ਦੀ ਵਰਤੋਂ ਇਸੇ ਤਰ੍ਹਾਂ ਚਲਦੀ ਰਹੀ, ਤਾਂ ਪਾਣੀ ਦੀ ਸਮੱਸਿਆ ਹੋਰ ਗੰਭੀਰ ਹੋਵੇਗੀ।"
+        },
+        "english": {
+          "premise": "In recent years, the groundwater level in many parts of Punjab has been steadily falling. Farmers have become heavily dependent on tubewells to increase crop yield. At the same time, rainfall patterns have become uncertain, so natural recharge is no longer happening as before. In many villages, even drinking water has become scarce, and people are bringing water from far away. The government has launched water-conservation campaigns in some areas, but so far no large-scale improvement is visible.",
+          "hypothesis": "If groundwater continues to be used for irrigation in the same way, the water crisis will become more severe."
+        }
+      },
+      "explanation": "The premise builds a clear causal chain: overuse of groundwater + weak recharge + drinking-water scarcity + no major improvement yet. The hypothesis is a supported forward-looking generalization.",
+      "metadata": {
+        "register": "environment/public-policy",
+        "cultural_markers": []
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "pa_disc_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-inference",
+        "overclaim-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Online shopping ne sheharan de kharid-farokht de tareeke nu kaafi badal ditta hai. Hun kapde, electronics, hatta ki kirane da samaan vi phone ton order ho janda hai. Discounts te home delivery karke kai grahak online kharidari nu asaan samajhde ne. Par dujje passe, kai local dukandaran di bikri ghat gayi hai, khas taur te ohna ilaqeyan vich jithe online delivery bahut tez hai. Kuch chhote vyapari hun social media te apni dukaan da prachar karke nave tareeke naal grahak jodan di koshish kar rahe ne. Is de bawajood, kai bazaar ajj vi sham nu pehlan wang hi bhare hunde ne.",
+          "hypothesis": "Online shopping karke local bazaar hun gair-zaroori ho gaye ne."
+        },
+        "gurmukhi": {
+          "premise": "ਆਨਲਾਈਨ ਸ਼ਾਪਿੰਗ ਨੇ ਸ਼ਹਿਰਾਂ ਦੇ ਖਰੀਦ-ਫਰੋਖ਼ਤ ਦੇ ਤਰੀਕੇ ਨੂੰ ਕਾਫ਼ੀ ਬਦਲ ਦਿੱਤਾ ਹੈ। ਹੁਣ ਕੱਪੜੇ, ਇਲੈਕਟ੍ਰਾਨਿਕਸ, ਹੱਤਾ ਕਿ ਕਿਰਾਨੇ ਦਾ ਸਮਾਨ ਵੀ ਫ਼ੋਨ ਤੋਂ ਆਰਡਰ ਹੋ ਜਾਂਦਾ ਹੈ। ਡਿਸਕਾਊਂਟਸ ਅਤੇ ਹੋਮ ਡਿਲਿਵਰੀ ਕਰਕੇ ਕਈ ਗ੍ਰਾਹਕ ਆਨਲਾਈਨ ਖਰੀਦਾਰੀ ਨੂੰ ਆਸਾਨ ਸਮਝਦੇ ਨੇ। ਪਰ ਦੂਜੇ ਪਾਸੇ, ਕਈ ਲੋਕਲ ਦੁਕਾਨਦਾਰਾਂ ਦੀ ਵਿਕਰੀ ਘੱਟ ਗਈ ਹੈ, ਖ਼ਾਸ ਤੌਰ ‘ਤੇ ਉਹਨਾਂ ਇਲਾਕਿਆਂ ਵਿੱਚ ਜਿੱਥੇ ਆਨਲਾਈਨ ਡਿਲਿਵਰੀ ਬਹੁਤ ਤੇਜ਼ ਹੈ। ਕੁਝ ਛੋਟੇ ਵਪਾਰੀ ਹੁਣ ਸੋਸ਼ਲ ਮੀਡੀਆ ‘ਤੇ ਆਪਣੀ ਦੁਕਾਨ ਦਾ ਪ੍ਰਚਾਰ ਕਰਕੇ ਨਵੇਂ ਤਰੀਕੇ ਨਾਲ ਗ੍ਰਾਹਕ ਜੋੜਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਨੇ। ਇਸ ਦੇ ਬਾਵਜੂਦ, ਕਈ ਬਾਜ਼ਾਰ ਅੱਜ ਵੀ ਸ਼ਾਮ ਨੂੰ ਪਹਿਲਾਂ ਵਾਂਗ ਹੀ ਭਰੇ ਹੁੰਦੇ ਨੇ।",
+          "hypothesis": "ਆਨਲਾਈਨ ਸ਼ਾਪਿੰਗ ਕਰਕੇ ਲੋਕਲ ਬਾਜ਼ਾਰ ਹੁਣ ਬਿਲਕੁਲ ਗੈਰ-ਜ਼ਰੂਰੀ ਹੋ ਗਏ ਨੇ।"
+        },
+        "english": {
+          "premise": "Online shopping has significantly changed the way buying and selling happens in cities. Clothes, electronics, and even groceries can now be ordered by phone. Because of discounts and home delivery, many customers find online shopping convenient. On the other hand, sales of many local shopkeepers have declined, especially in areas where online delivery is very fast. Some small traders are now trying to attract customers in new ways by promoting their shops on social media. Despite this, many markets are still just as crowded in the evening as before.",
+          "hypothesis": "Because of online shopping, local markets have now become completely unnecessary."
+        }
+      },
+      "explanation": "The premise presents change and pressure on local sellers, but it explicitly says many markets are still crowded. So the absolute claim that local markets have become unnecessary is contradicted.",
+      "metadata": {
+        "register": "economy/urban-life",
+        "cultural_markers": []
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_disc_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "policy-inference",
+        "contrast-structure"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Punjab de kai schoolan vich digital classroom di suvidha lagayi gayi hai. Smart boards, projectors te online content karke padhai nu hor rochak banan di koshish ho rahi hai. Kai teachers kehnde ne ke is naal bachiyan di dilchaspi vadhi hai te visual examples naal samjhana asaan ho gaya hai. Par kai pindan de schoolan vich bijli te internet di samasya karke eh system lagataar theek tareeke naal nahi chal pa reha. Kujh teachers nu nave tools di training vi poori nahi mili. Is karke kujh schoolan vich eh suvidha changa prabhav pa rahi hai, jadki kujh hor thavan te eh ajj vi seemit upyog tak hi ruki hoyi hai.",
+          "hypothesis": "Digital classroom di suvidha har school vich ikko tarah safal rahi hai."
+        },
+        "gurmukhi": {
+          "premise": "ਪੰਜਾਬ ਦੇ ਕਈ ਸਕੂਲਾਂ ਵਿੱਚ ਡਿਜ਼ਿਟਲ ਕਲਾਸਰੂਮ ਦੀ ਸੁਵਿਧਾ ਲਗਾਈ ਗਈ ਹੈ। ਸਮਾਰਟ ਬੋਰਡ, ਪ੍ਰੋਜੈਕਟਰ ਅਤੇ ਆਨਲਾਈਨ ਕੰਟੈਂਟ ਕਰਕੇ ਪੜ੍ਹਾਈ ਨੂੰ ਹੋਰ ਰੋਚਕ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਹੋ ਰਹੀ ਹੈ। ਕਈ ਟੀਚਰ ਕਹਿੰਦੇ ਨੇ ਕਿ ਇਸ ਨਾਲ ਬੱਚਿਆਂ ਦੀ ਦਿਲਚਸਪੀ ਵਧੀ ਹੈ ਅਤੇ ਵਿਜ਼ੂਅਲ ਉਦਾਹਰਣਾਂ ਨਾਲ ਸਮਝਾਉਣਾ ਆਸਾਨ ਹੋ ਗਿਆ ਹੈ। ਪਰ ਕਈ ਪਿੰਡਾਂ ਦੇ ਸਕੂਲਾਂ ਵਿੱਚ ਬਿਜਲੀ ਅਤੇ ਇੰਟਰਨੈੱਟ ਦੀ ਸਮੱਸਿਆ ਕਰਕੇ ਇਹ ਸਿਸਟਮ ਲਗਾਤਾਰ ਠੀਕ ਤਰੀਕੇ ਨਾਲ ਨਹੀਂ ਚੱਲ ਪਾ ਰਿਹਾ। ਕੁਝ ਟੀਚਰਾਂ ਨੂੰ ਨਵੇਂ ਟੂਲਜ਼ ਦੀ ਟ੍ਰੇਨਿੰਗ ਵੀ ਪੂਰੀ ਨਹੀਂ ਮਿਲੀ। ਇਸ ਕਰਕੇ ਕੁਝ ਸਕੂਲਾਂ ਵਿੱਚ ਇਹ ਸੁਵਿਧਾ ਚੰਗਾ ਪ੍ਰਭਾਵ ਪਾ ਰਹੀ ਹੈ, ਜਦਕਿ ਕੁਝ ਹੋਰ ਥਾਵਾਂ ‘ਤੇ ਇਹ ਅੱਜ ਵੀ ਸੀਮਿਤ ਉਪਯੋਗ ਤੱਕ ਹੀ ਰੁਕੀ ਹੋਈ ਹੈ।",
+          "hypothesis": "ਡਿਜ਼ਿਟਲ ਕਲਾਸਰੂਮ ਦੀ ਸੁਵਿਧਾ ਹਰ ਸਕੂਲ ਵਿੱਚ ਇਕੋ ਤਰ੍ਹਾਂ ਸਫਲ ਰਹੀ ਹੈ।"
+        },
+        "english": {
+          "premise": "Digital classroom facilities have been introduced in many schools in Punjab. Smart boards, projectors, and online content are being used to make learning more engaging. Many teachers say this has increased students’ interest and made it easier to explain concepts through visual examples. However, in many village schools, problems with electricity and internet mean the system cannot function properly on a regular basis. Some teachers also have not received full training in the new tools. As a result, in some schools the facilities are having a positive impact, while in others they are still limited in use.",
+          "hypothesis": "Digital classroom facilities have been equally successful in every school."
+        }
+      },
+      "explanation": "The paragraph is built around a contrast: benefits in some schools versus infrastructure and training barriers in others. The hypothesis ignores that contrast and makes an unsupported universal claim.",
+      "metadata": {
+        "register": "education/policy",
+        "cultural_markers": []
+      },
+      "label": "contradiction"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "dataset": "Malayalam Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "malayalam_to_english",
+  "task_description": "Translate the given Malayam sentence into natural, idiomatic English. Correct translation requires understanding idioms and pragmatic meaning, not just literal word mapping.",
+  "items": [
+    {
+      "id": "ma_sop_tra_001",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "irony",
+        "moral-hypocrisy"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ചില സമൂഹങ്ങളിൽ ആളുകൾ പൊതുവേദികളിൽ സംസ്കാരത്തെയും ധാർമികതയെയും കുറിച്ച് വലിയ പ്രസംഗങ്ങൾ നടത്താറുണ്ട്. എന്നാൽ അവരുടെ സ്വകാര്യജീവിതത്തെക്കുറിച്ച് പല വിവാദങ്ങളും കഥകളും കേൾക്കാം. ഇതിനെക്കുറിച്ച് സംസാരിക്കുമ്പോൾ ഒരാൾ ചിരിച്ചുകൊണ്ട് പറഞ്ഞു: \"പുറമേ മഹത്വം പ്രകടിപ്പിച്ച സമൂഹം അകത്ത് മനുഷ്യദുർബലതകളുടെ ശ്മശാനമായിരുന്നു.\"",
+          "latin": "Chila samuhangalil aalukal pothuvedikalil samskaaratheyum dharmikathayeyum kurich valiya prasangangal nadatharundu. Ennal avarude swakaryajeevithathekurich pala vivaadangalum kathakalum kelkkam. Ithinekurich samsarikkumbol oral chirichukondu paranju: \"Purame mahathvam prakatippicha samuham akath manushya durbalathakalude shmasaanamaayirunnu.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "In some societies, people often give grand speeches about culture and morality in public. Yet stories and controversies about their private lives are frequently heard. Commenting on this, someone remarked with a smile, \"A society that proudly displays virtue on the outside can, in truth, be a graveyard of human weaknesses within.\""
+      },
+      "notes": "The metaphor 'graveyard of human weaknesses' implies social hypocrisy. The speaker is criticizing societies that publicly project moral greatness while privately harboring the very flaws they condemn."
+    },
+    {
+      "id": "ma_sop_tra_002",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "agrarian-decline",
+        "economic-critique"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ഒരു കർഷകന്റെ ജീവിതത്തെക്കുറിച്ച് സംസാരിക്കുമ്പോൾ ഒരാൾ ദുഃഖത്തോടെ പറഞ്ഞു: \"നീണ്ട കാലത്തെ അധ്വാനത്തിനുശേഷവും അയാൾക്ക് ദാരിദ്ര്യം മിച്ചമാണ്.\"",
+          "latin": "Oru karshakante jeevithathekurich samsarikkumbol oral dukhathode paranju: \"Neenda kaalatte adhvaanathinusheshavum ayaalkku daaridryam michchamaan.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "While speaking about the life of a farmer, someone remarked with sadness: \"Even after many years of hard labour, poverty is all that remains for him.\""
+      },
+      "notes": "The statement carries a pragmatic critique of agrarian inequality. The speaker is not merely describing one farmer’s hardship; it implies a broader social reality where long years of agricultural labour fail to bring economic security."
+    },
+    {
+      "id": "ma_sop_tra_003",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "ritual-purity",
+        "caste-hierarchy"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ക്ഷേത്രത്തിന്റെ മുന്നിൽ രണ്ട് ഗ്രാമവാസികൾ സംസാരിക്കുകയായിരുന്നു. അപ്പോഴേക്കും ചേരി ഭാഗത്തുനിന്നുള്ള ഒരു യുവാവ് അകത്തേക്ക് നടക്കാൻ തുടങ്ങി. അത് കണ്ട ഒരാൾ പൂജാരിയോട് പതുക്കെ പറഞ്ഞു: \"ഇവിടെ ഒന്ന് അകലം പാലിച്ചാൽ നന്നായിരിക്കും.\"",
+          "latin": "Kshethrathinte munnil randu graamavaasikal samsaarikkukayirunnu. Appozhekkum cheri bhaagath ninnulla oru yuvaav akathekku nadakkaan thudangi. Athu kanda oral poojaariyodu pathukke paranju: 'Ivide onnu akalam paalichaal nannaayirikkum.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Two villagers were talking in front of the temple. Just then a young man from the cheri side of the village started walking inside. Seeing this, one of them quietly said to the priest, “It would be better if he kept a little distance here.”"
+      },
+      "notes": "The reference to 'cheri side of the village' culturally signals a marginalized settlement historically associated with lower-caste communities. The suggestion to 'keep some distance' functions as an indirect way of enforcing ritual purity norms at the temple without explicitly mentioning caste exclusion."
+    },
+    {
+      "id": "ma_sop_tra_004",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "power-asymmetry",
+        "indigenous-displacement",
+        "development-discourse"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കാട്ടിനുള്ളിലൂടെ പോകുന്ന പുതിയ റോഡ് പദ്ധതിയെക്കുറിച്ച് രണ്ട് നാട്ടുകാർ സംസാരിക്കുകയായിരുന്നു. സമീപത്തെ ആദിവാസി കുടിയിലുള്ള ആളുകളെ അതിനായി മാറ്റിപ്പാർപ്പിക്കുമെന്ന വാർത്തയും ഗ്രാമത്തിൽ പ്രചരിച്ചിരുന്നു. അത് കേട്ട ഒരാൾ പതുക്കെ പറഞ്ഞു: \"കാട്ടിലെ പരമ്പരാഗത താമസക്കാർക്ക് ഇനി ഇവിടെ ഇടമില്ലെന്നല്ലേ ഇതിന്റെ അർത്ഥം.\"",
+          "latin": "Kaattinullilude pokunna puthiya road padhathiyekkurich randu nattukaar samsarikkukayirunnu. Sameepathe aadivaasi kudiyilulla aalukale athinaayi maattipaarppikkumenn vaarthayum graamathil pracharichirunnu. Athu kett oraal pathukke paranju: 'Kaattile paramparagatha thaamasakkarkku ini ivide idamillennalle ithinte artham.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Two villagers were discussing a new road project planned through the forest. News had spread in the village that the nearby Adivasi settlement would be relocated for the project. Hearing this, one of them quietly remarked, “So this means there will be no place here anymore for the forest’s traditional inhabitants.”"
+      },
+      "notes": "The phrase 'പരമ്പരാഗത താമസക്കാർ' (traditional inhabitants) signals long-standing indigenous communities with historical ties to the land. The speaker’s remark indirectly criticizes development policies that displace such communities, illustrating social pragmatics through implicature and commentary on power and land rights."
+    },
+    {
+      "id": "ma_sop_tra_005",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "power-asymmetry",
+        "migrant-labor",
+        "kafala-system"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ഗള്‍ഫില്‍ വര്‍ഷങ്ങളായി കെട്ടിടനിര്‍മ്മാണ ജോലിയില്‍ കഷ്ടപ്പെട്ട് ജോലി ചെയ്യുന്ന ഒരു മലയാളി സഹപ്രവര്‍ത്തകനോടു പറഞ്ഞു: \"വീട്ടില്‍ പോയിട്ട് വര്‍ഷങ്ങളായി. ഒന്നു പോയി അമ്മയെ കണ്ടുവരാമെന്നു തോന്നുന്നു. പക്ഷേ ആദ്യം അര്‍ബാബ് സമ്മതിക്കണം.\"",
+          "latin": "Gulf-il varshangalayi kettida-nirmaana joliyil kashtappettu joli cheyyunna oru Malayali sahapravarthakanodu paranju: 'Veettil poyittu varshangalayi. Onnu poyi ammaye kanduvaaramenna thonnunnu. Pakse aadyam arbaab sammathikkanam.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "A Malayali who has been doing hard construction work in the Gulf for many years said to his coworker: “It has been years since I went home. I feel like going back once to see my mother. But first the arbab has to agree.”"
+      },
+      "notes": "The term 'അര്‍ബാബ്' refers to the employer or sponsor controlling the worker’s legal status under the Gulf kafala system. The speaker indirectly reveals that even visiting home depends on the employer’s approval, highlighting the power asymmetry in migrant labor relations."
+    },
+    {
+      "id": "ma_sop_tra_006",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "gender-roles",
+        "emotional-labour"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "വീട്ടിലെ എല്ലാവരുടെയും ഇഷ്ടവും സ്വഭാവവും വരെ അമ്മയ്ക്ക് മനപ്പാഠം പോലെ അറിയാം. പക്ഷേ ഒരു ദിവസം അമ്മ രോഗബാധിതയായി കിടക്കുമ്പോള്‍ മകന്‍ പതുക്കെ പറഞ്ഞു: \"അമ്മയ്ക്ക് നമ്മളെ അറിയുന്നതിന്റെ കോടിയില്‍ ഒരംശംപോലും നമുക്ക് അമ്മയെക്കുറിച്ച് അറിഞ്ഞുകൂടല്ലോ.\"",
+          "latin": "Veettil ellavarudeyum ishtavum swabhaavavum vare ammakku manappaatham pole ariyaam. Pakse oru divasam amma rogabhaadhithayaayi kidakkumbol makan pathukke paranju: 'Ammakku nammalle ariyunnathinte kodiyil oramsham polum namukku ammaye kurich arinjukoodallo.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The mother seemed to know everyone's likes and habits in the household by heart. But one day, as she lay ill, her son quietly said: “Not even a millionth of how much a mother knows about us do we really know about her.”"
+      },
+      "notes": "The remark indirectly reflects the social expectation that mothers carefully observe and remember the needs of everyone in the household, while their own identities and inner lives often remain unnoticed. The statement highlights the asymmetry created by gendered caregiving roles."
+    },
+    {
+      "id": "ma_sop_tra_007",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "narrative-ambiguity",
+        "gendered-expectations"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "രാജകുമാരൻ കുതിരപ്പുറത്തെത്തി രാജകുമാരിയെ കൂട്ടിക്കൊണ്ടുപോകുന്ന കഥകൾ കേട്ടാണ് പൂക്കുഞ്ഞിബീ വളർന്നത്. കാലം കഴിഞ്ഞ് അവളുടെ വിവാഹവും നടന്നു. പക്ഷേ, അവൾക്കു കിട്ടിയ മണവാളൻ നിസ്സഹായനായ ഒരു ക്ഷയരോഗിയായിരുന്നു; കട്ടിലിൽ കിടന്ന് അയാൾ ചുമച്ചു ചോര തുപ്പി. ഏറെക്കാലമായി അവൾ കാത്തിരുന്ന വിളിപോലെ, പതിനാലാം രാവിന്റെ നിലാവിൽ ജനൽക്കൽനിന്ന് കേട്ടു: ‘വാ.’ പൂക്കുഞ്ഞിബീ മണിയറയുടെ വാതിൽ തുറന്നു; പിന്നെ തറവാടിന്റെ ഓരോ വാതിലും ഒന്നിനു പിറകെ ഒന്നായി തുറന്ന് പുറത്തേക്കു നടന്നു.",
+          "latin": "Raajakumaaran kuthirappurathethi raajakumaariye koottikkondupokunna kathakal kettaanu Pookkunjibi valarnnathu. Kaalam kazhinju avalude vivaahavum nadannu. Pakshe, avalkku kittiya manavaalan nissahaayanaaya oru kshayarogiyaayirunnu; kattilil kidannu ayaal chumachu chora thuppi. Erekkalamaayi aval kaathirunna vilipole, pathinaalaam raavinte nilaavil janalkkalninnu kettu: 'Vaa.' Pookkunjibi maniyarayude vaathil thurannu; pinne tharavaadinte oro vaathilum onninu pirake onnaayi thurannu purathekku nadannu."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Pookkunjibi grew up listening to stories in which a prince arrived on horseback and carried the princess away. In time, she too was married. But the bridegroom she got was a helpless consumptive; lying in bed, he coughed and spat blood. In the moonlight of the fourteenth night, from the window came what seemed like the call she had long been waiting for: “Come.” Pookkunjibi opened the door of the bridal chamber; then, one after another, she opened each door of the tharavad and walked outside."
+      },
+      "notes": "The difficulty lies in preserving the contrast between the romantic narrative Pookkunjibi grew up with and the reality of the marriage she enters. The text places the horseback prince and the helpless, seriously ill bridegroom beside each other without explicitly explaining what that contrast means for her. The later call therefore resonates with the earlier prince-and-princess stories, but the narrative does not establish that a literal prince or rescuer is present. The phrase meaning 'like the call she had long been waiting for' must preserve this ambiguity rather than turning it into 'the prince she had been waiting for called her.' Likewise, her opening the bridal-chamber door and then each door of the tharavad may carry implications beyond the physical act, but the translation should not resolve them into an explicit statement that she escaped her marriage, rejected the household, or committed suicide. A strong translation preserves the tension among expectation, lived reality, and implied departure while leaving the final interpretation to the reader."
+    },
+    {
+      "id": "ma_sop_tra_008",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "generational-values",
+        "changing-social-norms",
+        "gendered-freedom"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "പുതിയ തലമുറയുടെ സ്വാതന്ത്ര്യദാഹത്തെപ്പറ്റി ചോദിച്ചപ്പോൾ ശ്രീദേവി അന്തർജനം പറഞ്ഞു: “സ്വാതന്ത്ര്യം വേണം. എന്നുവെച്ചിട്ട് അധികമാവരുത്. പണ്ട് ഞങ്ങൾ മുലക്കച്ചയിടാൻ വെമ്പൽ കൂട്ടി. ഇന്നതു വേണ്ടാതായി. ഇതിലേതാ സ്വാതന്ത്ര്യം എന്ന് ആർക്കറിയാം.”",
+          "latin": "Puthiya thalamurayude swaathanthryadaahatheppatti chodichappol Sreedevi Antharjanam paranju: 'Swaathanthryam venam. Ennuvechittu adhikamaavaruthu. Pandu njangal mulakkachayidaan vembal kootti. Innathu vendaathaayi. Ithilethaa swaathanthryam ennu aarkkariyaam.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Asked about the younger generation's desire for freedom, Sreedevi Antharjanam said: “Freedom is necessary, but it should not go too far. In our day, we longed to wear a cloth over our breasts. Today, they do not want to wear one. Who knows which of these is freedom?”"
+      },
+      "notes": "The phrase 'മുലക്കച്ചയിടാൻ വെമ്പൽ കൂട്ടി' means that women of her generation eagerly wished to wear a breast-cloth or upper-body covering. Its social significance comes from the historical context: under older Namboothiri customs, women such as Sreedevi Antharjanam had lived with restrictive conventions concerning dress, and wearing an upper-body covering could itself represent social change and greater autonomy. She contrasts this experience with a younger generation for whom rejecting such clothing conventions may itself signify freedom. Her final rhetorical question, 'ഇതിലേതാ സ്വാതന്ത്ര്യം എന്ന് ആർക്കറിയാം,' does not simply reject freedom or condemn the younger generation. It reflects the changing social meaning of freedom across generations. A strong translation should preserve this generational tension without turning her observation into either straightforward conservatism or an explicit endorsement of the younger generation's choices."
+    },
+    {
+      "id": "ma_sop_tra_009",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "stereotype-reversal",
+        "social-evaluation",
+        "crisis-solidarity",
+        "contrastive-implicature"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ദുരന്തത്തിന് മുമ്പ് ഓട്ടോ-ടാക്സി ഡ്രൈവർമാരെക്കുറിച്ച് നാട്ടിൽ പലർക്കും വലിയ മതിപ്പൊന്നുമുണ്ടായിരുന്നില്ല. പത്തും ഇരുപതും പൈസയ്ക്ക് പോലും വാശിപിടിക്കുന്നവരെന്നാണ് അവരെ പലപ്പോഴും കുറ്റപ്പെടുത്തിയിരുന്നത്. എന്നാൽ അപകടം നടന്ന രാത്രിയിൽ അതേ ഡ്രൈവർമാർ പ്രതിഫലം ഒന്നും വാങ്ങാതെ സ്വന്തം വാഹനങ്ങൾ പരിക്കേറ്റവരെ ആശുപത്രിയിലെത്തിക്കാൻ വിട്ടുകൊടുത്തു. സാധാരണ ദിവസങ്ങളിലെ ചെറിയ കണക്കുകൂട്ടലുകൾ മനുഷ്യന്റെ മനസ്സിന്റെ മുഴുവൻ കണക്കല്ലെന്ന് അന്ന് പലർക്കും മനസ്സിലായി.",
+          "latin": "Duranthathinu mump auto-taxi drivermarekkurich naattil palarkkum valiya mathipponnum undaayirunnilla. Pathum irupathum paisaykku polum vaashipidikkunnavar ennanu avare palappozhum kuttappettirunnathu. Ennaal apakadam nadanna raathriyil athe drivermar prathiphalam onnum vaangaathe swantham vaahanangal parikkettavare aashupathriyilethikkaan vittukoduthu. Saadhaarana divasangalile cheriya kanakkukoottalukal manushyante manassinte muzhuvan kanakkalla ennu annu palarkkum manassilaayi."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Before the disaster, many people in the area had little regard for auto and taxi drivers, who were often accused of haggling even over ten or twenty paise. Yet on the night of the accident, those same drivers gave their vehicles freely to carry the injured to hospital without accepting any payment. That night, many people realized that the petty calculations of ordinary days do not tell the whole story of a person's humanity."
+      },
+      "notes": "The passage deliberately invokes a familiar negative stereotype about auto and taxi drivers and then overturns it through their conduct during a crisis. The final sentence is not about arithmetic: 'ചെറിയ കണക്കുകൂട്ടലുകൾ' refers to the small monetary calculations and bargaining associated with everyday transactions, while 'മനുഷ്യന്റെ മനസ്സിന്റെ മുഴുവൻ കണക്കല്ല' implies that such behavior is an inadequate measure of a person's generosity, solidarity, or moral character. A strong translation must preserve both levels of contrast. Rendering the passage merely as 'the drivers were actually kind people' loses the tension between everyday social judgment and crisis behavior; translating the final line literally as a statement about calculations or accounting misses the pragmatic meaning."
+    }
+  ]
+}

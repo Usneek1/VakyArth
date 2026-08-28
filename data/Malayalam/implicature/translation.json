@@ -1,0 +1,183 @@
+{
+  "dataset": "Malayalam Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "malayalam_to_english",
+  "task_description": "Translate the given Malayam sentence into natural, idiomatic English. Correct translation requires understanding idioms and pragmatic meaning, not just literal word mapping.",
+  "items": [
+    {
+      "id": "ma_imp_tra_002",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "idiomatic-expression",
+        "poverty-context"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "വീട്ടുടമ ചോദിച്ചു: \"നീയാരാ? എന്താ വേണ്ടേ?\" അവൻ തലകുനിച്ച് പതുക്കെ പറഞ്ഞു: \"രണ്ടു വറ്റു പെറുക്കിത്തിന്നാൻ.\"",
+          "latin": "Vīṭṭuṭama cōdichu: \"Nīyārā? entha vēṇḍē?\" avan talakunichu patukke paṟaññu: \"Raṇṭu vaṭṭu peṟukki tinnān.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The house owner asked, \"Who are you? What do you want?\" Lowering his head, the man quietly replied, \"I just wanted a little food to eat—I was starving.\""
+      },
+      "notes": "The Malayalam expression 'രണ്ടു വറ്റു പെറുക്കിത്തിന്നാൻ' literally means 'to pick and eat two handfuls of rice,' but pragmatically implies extreme hunger and the need to eat just a small amount to survive."
+    },
+    {
+      "id": "ma_imp_tra_003",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "social-pragmatics",
+        "feudal-decline"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "പഴയ അറയ്ക്കൽ തറവാട് കണ്ട് ഒരു യുവാവ് പറഞ്ഞു: \"എത്ര മഹത്തായ വീടാണിത്!\" അപ്പോൾ അവിടുത്തെ ഒരു വയോധികൻ മന്ദഹസിച്ച് പറഞ്ഞു: \"തറവാടിന്റെ മഹത്വം നിലനിർത്തിയത് ചരിത്രം മാത്രമായിരുന്നു; ജീവിതം ഇതിനകം തന്നെ അതിൽ നിന്ന് മാറിപ്പോയിരുന്നു.\"",
+          "latin": "Pazha araykkal tharavaad kandu oru yuvaav paranju: \"Ethra mahaththaya veedaanithu!\" appol aviduthe oru vayodhikan mandahasichu paranju: \"Tharavaadinte mahathvam nilanirthiyathu charithram mathramaayirunnu; jeevitham ithinakam thanne athil ninnu maarippoyirunnu.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Looking at the old ancestral mansion, a young man said, \"What a magnificent house!\" The old man smiled faintly and replied, \"Its greatness survives only in its history—the life that once gave it meaning has long since faded away.\""
+      },
+      "notes": "The statement carries an implicature that the feudal household appears prestigious because of its past reputation, but in reality its social vitality and moral authority have already declined."
+    },
+    {
+      "id": "ma_imp_tra_004",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "social-pragmatics",
+        "irony",
+        "religious-hypocrisy"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "അടുത്തകാലത്ത് ചില മതപണ്ഡിതന്മാരെ ചുറ്റിപ്പറ്റിയ വിവാദങ്ങൾ വാർത്തകളിൽ നിറഞ്ഞുനിന്നു. ഇതിനെക്കുറിച്ച് സംസാരിക്കുമ്പോൾ ഒരാൾ ശാന്തമായി പറഞ്ഞു: \"ധാർമികതയുടെ പേരിൽ ജീവിച്ചിരുന്നവർ സ്വന്തം ജീവിതത്തിൽ അതിന്റെ വിരുദ്ധമായ വഴികളിലൂടെയായിരുന്നു നടന്നത്.\"",
+          "latin": "Aduthakaalath chila mathapandithanmaraye chuttippattiya vivaadangal vaarthakalil niranjuninnu. Ithinekurich samsarikkumbol oral shaantamaayi paranju: \"Dharmikathayude perril jeevichirunnavar swantham jeevithathil athinte viruddhamaaya vazhikaliloodeyaayirunnu nadannathu.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Recently, the news was filled with controversies surrounding certain religious leaders. While discussing this, someone quietly remarked, \"Those who claimed to live in the name of morality often walked paths in their own lives that completely contradicted it.\""
+      },
+      "notes": "The speaker does not directly accuse any specific person. Instead, the statement functions as an implicature criticizing the hypocrisy of individuals who publicly promote moral or religious values while privately violating them."
+    },
+    {
+      "id": "ma_imp_tra_005",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "idiom",
+        "social-pragmatics",
+        "social-reform"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "പഴയ ആചാരങ്ങളെയും കുടുംബരീതികളെയും എതിർത്ത് പുതിയ ആശയങ്ങളുമായി അദ്ദേഹം വീടുവിട്ടിറങ്ങിയ കാലത്തെക്കുറിച്ച് ഗ്രാമത്തിൽ ഇന്നും ആളുകൾ പറയാറുണ്ട്. അതിനെക്കുറിച്ച് ഒരാൾ ഓർത്തുപറഞ്ഞു: \"അന്നവൻ ചുറ്റിയ മുണ്ടു മാത്രം ഉടുത്തോണ്ടാ അവിടെ നിന്നിറങ്ങിയത്.\"",
+          "latin": "Pazhaya aacharangaleyum kudumba reethikaleyum ethirthu puthiya aashayangalumaayi adheham veeduvittirangiya kaalattekurich graamathil innnum aalukal parayaarundu. Athinekurich oral orthuparanju: \"Ann avan chuttiya mundu maathram uduthondaa avide ninnu irangiyathu.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "People in the village still talk about the time he left home challenging old customs and family traditions. Recalling that moment, someone said, \"That day, he walked out with nothing but the mundu he was wearing.\""
+      },
+      "notes": "The phrase 'chuttiya mundu maathram uduthondaa' is an idiomatic Malayalam expression. It implies that the person left without property or possessions. The statement indirectly highlights the cost of standing up against social conventions."
+    },
+    {
+      "id": "ma_imp_tra_006",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "euphemism",
+        "social-pragmatics",
+        "aging-discourse"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കൃപാകരൻ അമ്മമ്മയെ തന്റെ പുതിയ നഗരവീട്ടിലേക്ക് കൊണ്ടുപോകാൻ ക്ഷണിച്ചു. പക്ഷേ അമ്മമ്മ യാത്ര ചെയ്യാൻ മടിച്ചു. തന്റെ വയസിനെക്കുറിച്ച് പറഞ്ഞുകൊണ്ട് അവർ പറഞ്ഞു: \"ഈ വീട്ടീന്ന് പൊറത്തിറങ്ങീട്ട് കാലം കൊറേയാായി. വയസ്സ് എമ്പതു കഴിഞ്ഞു. ഇനി എന്തു കാണാനാ? കാണാനുള്ളതെല്ലാം ഇനി അങ്ങ് ചെന്നിട്ട്.\"",
+          "latin": "Kripakaran ammammaye thante puthiya nagaraveettilēkku kondupokaan kshanichu. Pakṣe ammamma yaathra cheyyaan madiyichu. Thante vayassinekurich paranjukondu avar paranju: 'Ee veettinnu porathirangeettu kaalam koreyaayi. Vayassu embathu kazhinju. Ini enthu kaanana? Kaananullathellaam ini anggu chennittu.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Kripakaran invited his grandmother to visit his new house in the city, but she hesitated to travel. Speaking about her age, she said, “It has been a long time since I stepped outside this house. I am already past eighty. What is left for me to see now? Whatever there is to see, I will see after I go there.”"
+      },
+      "notes": "The expression 'anggu chennittu' (after going there) is a euphemistic implicature commonly used by elderly speakers in Malayalam to refer indirectly to death or the afterlife. The grandmother does not explicitly mention death, but implies that at her age there is little left to experience in this world."
+    },
+    {
+      "id": "ma_imp_tra_007",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "metaphor",
+        "social-pragmatics",
+        "family-protection"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "മുറ്റത്ത് പരുന്തിന്റെ നിഴൽ വീണപ്പോൾ തള്ളക്കോഴി കൊക്കിലെ തീറ്റയുപേക്ഷിച്ച് കുഞ്ഞുങ്ങളെ ചിറകിനടിയിൽ ഒതുക്കി. അതു നോക്കിയിരുന്ന എനിക്ക് എന്റെ വീടും ഏതോ പരുന്തിനെ കണ്ടിട്ട് തെല്ലൊന്നു ചിറകുകൾ വിടർത്തിനിൽക്കുന്ന തള്ളക്കോഴിയെപ്പോലെ തോന്നി; അതിന്റെ പള്ളയിൽ പറ്റിപ്പതുങ്ങിനിൽക്കുന്ന കുഞ്ഞുങ്ങളിലെല്ലാം എന്റെ മുഖമായിരുന്നു.",
+          "latin": "Muttathu parunthinte nizhal veenappol thallakkozhi kokkile theettayupakshichu kunjungale chirakinadiyil othukki. Athu nokkiyirunna enikku ente veedum etho parunthine kandittu thellonnu chirakukal vidarthinilkkunna thallakkozhiyeppole thonni; athinte pallayil pattippathunginilkkunna kunjungalilellaam ente mukhamaayirunnu."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When the shadow of a hawk fell across the courtyard, the mother hen dropped the food in her beak and gathered her chicks beneath her wings. Watching her, I felt that my house too was like a mother hen spreading her wings a little at the sight of some hawk; in every chick huddled close beneath her, I saw my own face."
+      },
+      "notes": "The hawk, mother hen, and chicks begin as a literal scene but become a metaphor through the speaker's comparison with his house. The house is imagined as a protective presence sheltering vulnerable lives from dangers outside it, while 'some hawk' leaves those dangers deliberately unspecified. The statement that the speaker sees his own face in all the chicks should not be flattened into physical resemblance: it suggests identification with those who depend on the home's shelter and recognition of his own vulnerability in them. A translation that renders the passage merely as an observation about birds misses the implicature; one that replaces the hawk with a specific social threat or explicitly explains the house as protection over-interprets what the poem leaves metaphorical."
+    },
+    {
+      "id": "ma_imp_tra_008",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "figurative-language",
+        "parent-child-relations",
+        "individual-autonomy"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "മക്കളെക്കുറിച്ചുള്ള ആശങ്കയെപ്പറ്റി സംസാരിക്കുമ്പോൾ ഒരച്ഛൻ പറഞ്ഞു: “നാം അവരുടേതാണ്. എന്നാൽ ഒരിക്കലും അവർ നമ്മുടേതല്ല. അവർ ജീവിതത്തിലേക്ക് വരുമ്പോൾ നമ്മുടെ ജീവിതവും കൂടെ കൊണ്ടുവരുന്നു. പക്ഷേ വളർന്നുകഴിഞ്ഞാൽ അവരുടെ സ്നേഹങ്ങളും സ്വപ്നങ്ങളും വഴികളും അവർ തന്നെ തിരഞ്ഞെടുക്കും.”",
+          "latin": "Makkalekkurichulla aashankayeppatti samsaarikkumbol orachan paranju: “Naam avarudethaanu. Ennaal orikkalum avar nammudetalla. Avar jeevithathilekku varumbol nammude jeevithavum koode konduvarunnu. Pakshe valarnnukazhinjaal avarude snehangalum swapnangalum vazhikalum avar thanne thiranjedukkum.”"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Speaking about the anxieties of parenthood, a father said, “We belong to our children, but they never truly belong to us. When they enter our lives, they take our lives up with theirs; yet once they grow up, their loves, dreams, and paths are theirs to choose.”"
+      },
+      "notes": "The contrast ‘നാം അവരുടേതാണ്; അവർ നമ്മുടേതല്ല’ is not about literal ownership. It conveys an asymmetry in the parent-child relationship: parents may devote themselves deeply to their children, but children are not possessions and ultimately have independent lives, attachments, aspirations, and choices. A good translation should preserve both the emotional force of ‘belonging’ and the rejection of parental ownership, without flattening the passage into a generic statement about independence."
+    },
+    {
+      "id": "ma_imp_tra_009",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "rhetorical-question",
+        "spontaneous-solidarity",
+        "collective-action",
+        "social-pragmatics"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ദുരന്തം നടന്നതിനു പിന്നാലെ ആരുടെയും നിർദേശത്തിനായി കാത്തുനിൽക്കാതെ നാട്ടുകാർ രക്ഷാപ്രവർത്തനത്തിനിറങ്ങി. ചിലർ പരിക്കേറ്റവരെ പുറത്തെടുത്തു, ചിലർ വാഹനങ്ങൾ നിയന്ത്രിച്ചു, മറ്റുചിലർ രക്തം നൽകാനും ഭക്ഷണം എത്തിക്കാനും മുന്നോട്ടുവന്നു. ഇതെല്ലാം കണ്ട ഒരാൾ അത്ഭുതത്തോടെ പറഞ്ഞു: ‘ആരുപറഞ്ഞിട്ടാണ് ഇവരിതൊക്കെ ചെയ്തത്? ആരാണ് ഇവരെക്കൊണ്ട് ഇത്രയും ചെയ്യിപ്പിച്ചത്? ഒരാൾക്കും അറിഞ്ഞുകൂടാ.’",
+          "latin": "Durantham nadannathinu pinnaale aarudeyum nirdeshathinaayi kaathunilkkaathe naattukaar rakshaapravarthanathinirangi. Chilar parikkettavare puratheduthu, chilar vaahanangal niyanthrichu, mattuchilar raktham nalkaanum bhakshanam ethikkaanum munnottuvannu. Ithellaam kanda oraal athbhuthathode paranju: 'Aaru paranjittaanu ivar ithokke cheythathu? Aaraanu ivarekkondu ithrayum cheyyippichathu? Oraalkkum arinjukooda.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "In the aftermath of the disaster, local people joined the rescue effort without waiting for anyone to direct them. Some pulled the injured to safety, some managed the traffic, and others came forward to donate blood and bring food. Watching all this, someone remarked in amazement: ‘Who told them to do all this? Who made them do so much? No one could say.’"
+      },
+      "notes": "The questions ‘Who told them to do all this?’ and ‘Who made them do so much?’ superficially invite the reader to look for a person or authority directing the volunteers. In context, however, the point is precisely that no such organizer was needed: the people acted spontaneously and collectively in response to the disaster. The final ‘No one could say’ should therefore not be translated in a way that implies an unidentified organizer actually existed. A strong translation preserves the rhetorical questions and their ambiguity while allowing the context to convey voluntary solidarity rather than externally directed action."
+    }
+  ]
+}

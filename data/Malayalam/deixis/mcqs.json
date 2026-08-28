@@ -1,0 +1,617 @@
+{
+  "dataset": "Malayalam Diexis - MCQs",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ma_di_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "reported-speech",
+        "social-deixis"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Anu ammāyoṭe paranju: \"Amme, enre class teacher paranju, 'ningal oru kurippu ezhuthanam ennu'.\"",
+          "question": "\"'ningal' ennu parayumpōl Anu āreyāṇ sūcippiccat?\"",
+          "options": [
+            "Class teacher-ne",
+            "Anuvine thanne",
+            "Ammaye",
+            "Veedile mattoru aaline"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Ammaye"
+          }
+        },
+        "malayalam": {
+          "context": "അനു അമ്മയോട് പറഞ്ഞു: \"അമ്മേ, എന്റെ ക്ലാസ് ടീച്ചർ പറഞ്ഞു, ‘നിങ്ങൾ ഒരു കുറിപ്പ് എഴുതണം എന്ന്’.\"",
+          "question": "“നിങ്ങൾ” എന്ന് പറയുമ്പോൾ അനു ആരെയാണ് സൂചിപ്പിച്ചത്?",
+          "options": [
+            "ക്ലാസ് ടീച്ചറെ",
+            "അനു തന്നെ",
+            "അമ്മയെ",
+            "വീട്ടിലെ മറ്റൊരാളെ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "അമ്മയെ"
+          }
+        },
+        "english": {
+          "context": "Anu told her mom: \"Mom, my class teacher said that you should write a note.\"",
+          "question": "Who is Anu referring to with 'you' (ningal)?",
+          "options": [
+            "The class teacher",
+            "Herself (Anu)",
+            "Her mom",
+            "Someone else in the house"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Her mom"
+          }
+        }
+      }
+    },
+    {
+      "id": "ma_di_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "time-deixis",
+        "mattannal"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Thingalaazhcha Anu sahodariyode paranju: \"Mattannal ente pareekshayanu, ningal enne ormappeṭuttane.\"",
+          "question": "Anuvinte exam etha divasam?",
+          "options": [
+            "Thingalaazhcha",
+            "Budhanaazhcha",
+            "Chovvaazhcha",
+            "Vyaazhaazhcha"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Budhanaazhcha"
+          }
+        },
+        "malayalam": {
+          "context": "തിങ്കളാഴ്ച അനു സഹോദരിയോട് പറഞ്ഞു: \"മറ്റന്നാൾ എന്റെ പരീക്ഷയാണ്, നിങ്ങള്‍ എന്നെ ഓർമ്മപ്പെടുത്തണേ.\"",
+          "question": "അനുവിന്റെ പരീക്ഷ ഏത് ദിവസമാണ്?",
+          "options": [
+            "തിങ്കളാഴ്ച",
+            "ബുധനാഴ്ച",
+            "ചൊവ്വാഴ്ച",
+            "വ്യാഴാഴ്ച"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ബുധനാഴ്ച"
+          }
+        },
+        "english": {
+          "context": "On Monday, Anu told her sister: \"My exam is the day after tomorrow (mattannal).\"",
+          "question": "Which day is Anu's exam?",
+          "options": [
+            "Monday",
+            "Wednesday",
+            "Tuesday",
+            "Thursday"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Wednesday"
+          }
+        }
+      }
+    },
+    {
+      "id": "ma_di_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "place-deixis",
+        "speaker-shift",
+        "reported-speech"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Arun Kozhikode-il aanu. Ernakulath ninn̄u avante sahodari vilichu. Ammachiyum avide thanne aanu. Sahodari paranju: \"Maman ivide vannirikunnu. Ammachi paranju: 'Arun ingottu vannal nallathu.'\"",
+          "question": "\"Ingottu\" ennu parayumbol ammachi etha sthalathilekku varanam ennanu parayunnathu?",
+          "options": [
+            "Kozhikode",
+            "Ernakulam",
+            "Thiruvananthapuram",
+            "Palakkad"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ernakulam"
+          }
+        },
+        "malayalam": {
+          "context": "അരുൺ കോഴിക്കോട് ആണ്. എറണാകുളത്ത് നിന്ന് അവന്റെ സഹോദരി വിളിച്ചു. അമ്മച്ചിയും അവിടെ തന്നെയാണ്. സഹോദരി പറഞ്ഞു: \"മാമൻ ഇവിടെ വന്നിരിക്കുകയാണ്. അമ്മച്ചി പറഞ്ഞു: ‘അരുൺ ഇങ്ങോട്ട് വന്നാൽ നല്ലതു.’\"",
+          "question": "“ഇങ്ങോട്ട്” എന്ന് പറയുമ്പോൾ അമ്മച്ചി ഏത് സ്ഥലത്തേക്കാണ് വരണമെന്ന് പറയുന്നത്?",
+          "options": [
+            "കോഴിക്കോട്",
+            "എറണാകുളം",
+            "തിരുവനന്തപുരം",
+            "പാലക്കാട്"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "എറണാകുളം"
+          }
+        },
+        "english": {
+          "context": "Arun is in Kozhikode. His sister called from Ernakulam. Grandma is also there. The sister said: \"Uncle has come here. Grandma said: 'Arun should come this way.'\"",
+          "question": "When grandma says 'this way', which place is she referring to?",
+          "options": [
+            "Kozhikode",
+            "Ernakulam",
+            "Thiruvananthapuram",
+            "Palakkad"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ernakulam"
+          }
+        }
+      },
+      "explanation": "‘ഇങ്ങോട്ട്’ refers to the location of the original speaker (grandma). Grandma is in Ernakulam, so ‘this way’ = Ernakulam.",
+      "metadata": {
+        "difficulty": "hard",
+        "cultural_markers": [
+          "ivide/avide vs ingottu/angottu",
+          "embedded reported speech"
+        ],
+        "register": "informal"
+      }
+    },
+    {
+      "id": "ma_di_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Nikhil",
+              "utterance": "Enikku thonnunnu online meetingsil aalukal oru pole samsarikkarilla."
+            },
+            {
+              "speaker": "Asha",
+              "utterance": "Avide athu offline meetingsilum undu."
+            },
+            {
+              "speaker": "Nikhil",
+              "utterance": "Ath true aanu… pakshe ith online-il kooduthal kaanunnu."
+            }
+          ],
+          "question": "\"Ith\" ennu parayumbol Nikhil ethu kaaryattane sūcippikkunnu?",
+          "options": [
+            "Online meeting",
+            "People",
+            "Offline meeting",
+            "Oru pole samsarikkathirikkuka"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Oru pole samsarikkathirikkuka"
+          }
+        },
+        "malayalam": {
+          "dialogue": [
+            {
+              "speaker": "നിഖിൽ",
+              "utterance": "എനിക്ക് തോന്നുന്നു ഓൺലൈൻ മീറ്റിംഗിൽ ആളുകൾ ഒരുപോലെ സംസാരിക്കാറില്ല."
+            },
+            {
+              "speaker": "ആശ",
+              "utterance": "അത് ഓഫ്‌ലൈൻ മീറ്റിംഗിലും ഉണ്ടല്ലോ."
+            },
+            {
+              "speaker": "നിഖിൽ",
+              "utterance": "അതെ… പക്ഷെ ഇത് ഓൺലൈൻ-ലാണ് കൂടുതലായി കാണുന്നത്."
+            }
+          ],
+          "question": "“ഇത്” എന്ന് പറയുമ്പോൾ നിഖിൽ ഏത് കാര്യത്തെയാണ് സൂചിപ്പിക്കുന്നത്?",
+          "options": [
+            "ഓൺലൈൻ മീറ്റിംഗ്",
+            "ആളുകൾ",
+            "ഓഫ്‌ലൈൻ മീറ്റിംഗ്",
+            "ഒരുപോലെ സംസാരിക്കാത്തത്"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "ഒരുപോലെ സംസാരിക്കാത്തത്"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Nikhil",
+              "utterance": "I feel that in online meetings people don’t speak evenly."
+            },
+            {
+              "speaker": "Asha",
+              "utterance": "That happens in offline meetings too."
+            },
+            {
+              "speaker": "Nikhil",
+              "utterance": "True… but this is more common online."
+            }
+          ],
+          "question": "In Nikhil’s last sentence, what does “this” refer to?",
+          "options": [
+            "The online meeting setting",
+            "People",
+            "Offline meetings",
+            "Not speaking evenly"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Not speaking evenly"
+          }
+        }
+      },
+      "explanation": "“ഇത്” refers to the abstract issue introduced earlier — people not speaking evenly. It does not refer to the online meeting itself, the people, or offline meetings.",
+      "metadata": {
+        "register": "informal-professional",
+        "cultural_markers": [
+          "Malayalam discourse deixis: 'ithu/athu' referring to abstract situations"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "ma_di_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Randu vayassukariyāyi kunjine madiyil kidathikkondu alpam konchalode velakkāri chechiyodu amma paranju: \"Enne kulippikkunnille?\"",
+          "question": "Amma āre kulippikkunna kāryamānu sūcippikkunnathu?",
+          "options": [
+            "Ammaye",
+            "Kunjine",
+            "Velakkāri chechiyē",
+            "Ammayude ammayē"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Kunjine"
+          }
+        },
+        "malayalam": {
+          "context": "രണ്ടു വയസ്സുകാരിയായി കുഞ്ഞിനെ മടിയിൽ കിടത്തിക്കൊണ്ട്  അല്പം കൊഞ്ചലോടെ വേലക്കാരി ചേച്ചിയോട് അമ്മ പറഞ്ഞു: \"എന്നെ കുളിപ്പിക്കുന്നില്ലേ?\"",
+          "question": "അമ്മ ആരെ കുളിപ്പിക്കുന്ന കാര്യമാണ് സൂചിപ്പിക്കുന്നത്",
+          "options": [
+            "അമ്മയെ",
+            "കുഞ്ഞിനെ",
+            "വേലക്കാരി ചേച്ചിയെ",
+            "അമ്മയുടെ അമ്മയെ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 2,
+            "text": "കുഞ്ഞിനെ"
+          }
+        },
+        "english": {
+          "context": "While holding her two-year-old child on her lap, the mother playfully said to the maid, \"Won’t you bathe me?\"",
+          "question": "Whom is the mother actually referring to bathing?",
+          "options": [
+            "The mother herself",
+            "The child",
+            "The maid",
+            "The grandmother"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The child"
+          }
+        }
+      },
+      "explanation": "Although the mother says \"me,\" she is actually referring to the child in her lap. This is a case of person deixis where the first-person pronoun is used playfully to refer to someone else (the child).",
+      "metadata": {
+        "register": "informal-professional",
+        "cultural_markers": [
+          "Malayalam caregiving speech: mothers referring to children as 'me' in playful talk"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "ma_di_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "temporal-deixis",
+        "calendar-knowledge",
+        "relative-time"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Veettil vivahathinekurichu samsaram nadakkunnu. Ammavan paranju: \"Ippol Mithunamaanu. Ippol thanne vivaham nadathiyal nannayirikkum. Allenkil Karkidakam kazhinjal nadatham.\"",
+          "question": "Mithunathil vivaham nadakkunnillenkil, ettavum nerathe vivaham nadakkan sadhyamaaya masam ethaanu?",
+          "options": [
+            "Mithunam",
+            "Karkidakam",
+            "Chingam",
+            "Kanni"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Chingam"
+          }
+        },
+        "malayalam": {
+          "context": "വീട്ടിൽ വിവാഹത്തെക്കുറിച്ച് സംസാരിക്കുന്നു. അമ്മാവൻ പറഞ്ഞു: \"ഇപ്പോൾ മിഥുനമാണ്. ഇപ്പോൾ തന്നെ വിവാഹം നടത്തുന്നത് നല്ലതാണ്. അല്ലെങ്കിൽ കർക്കിടകം കഴിഞ്ഞാൽ നടത്താം.\"",
+          "question": "മിഥുനത്തിൽ വിവാഹം നടക്കാത്ത പക്ഷം, ഏറ്റവും നേരത്തെ വിവാഹം നടത്താൻ കഴിയുന്ന മാസം ഏതാണ്?",
+          "options": [
+            "മിഥുനം",
+            "കർക്കിടകം",
+            "ചിങ്ങം",
+            "കന്നി"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ചിങ്ങം"
+          }
+        },
+        "english": {
+          "context": "A family is discussing a wedding. An uncle says, \"It is Mithunam now. It would be good if we conduct the wedding now. Otherwise we can do it after Karkidakam is over.\"",
+          "question": "If the wedding does not take place in Mithunam, what is the earliest month it could happen?",
+          "options": [
+            "Mithunam",
+            "Karkidakam",
+            "Chingam",
+            "Kanni"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Chingam"
+          }
+        }
+      },
+      "metadata": {
+        "register": "everyday conversation",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Malayalam calendar months",
+          "Karkidakam avoidance for weddings",
+          "Kerala wedding customs"
+        ]
+      }
+    },
+    {
+      "id": "ma_di_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "place-deixis",
+        "speaker-perspective",
+        "source-goal-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Aniyeyum kootti rahasyamaayi ari vaangi madangukayaayirunnu Ammama. Vazhiyil aripiduthakkar avare thadanjhu chodichu: “Evdnnaanu ee nerath?” Ari vaangiya kaaryam marachuvechukondu Ammama paranju: “Njaanente molude veettinnaanu. Ente veettilekku povaanu.”",
+          "question": "Ammamayude marupadiyil ninnu, Ammama evide ninnaanu varunnathennum evidekkaanu pokunnathennum aripiduthakkar manassilaakkuka?",
+          "options": [
+            "Aniyude veettil ninnu Ammamayude makalude veettilekku",
+            "Ammamayude makalude veettil ninnu Ammamayude swantham veettilekku",
+            "Ari vaangiya veettil ninnu Aniyude veettilekku",
+            "Kochathiyude veettil ninnu Ammamayude makalude veettilekku"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ammamayude makalude veettil ninnu Ammamayude swantham veettilekku"
+          }
+        },
+        "malayalam": {
+          "context": "ആനിയെയും കൂട്ടി രഹസ്യമായി അരി വാങ്ങി മടങ്ങുകയായിരുന്നു അമ്മാമ. വഴിയിൽ അരിപിടുത്തക്കാർ അവരെ തടഞ്ഞ് ചോദിച്ചു: “എവ്ട്ന്നണ് ഈ നേരത്ത്?” അരി വാങ്ങിയ കാര്യം മറച്ചുവെച്ചുകൊണ്ട് അമ്മാമ പറഞ്ഞു: “ഞാനെന്റെ മോളടെ വീട്ടിന്നണ്. എന്റെ വീട്ടിലയ്ക്ക് പൂവ്ണ്.”",
+          "question": "അമ്മാമയുടെ മറുപടിയിൽ നിന്ന്, അമ്മാമ എവിടെ നിന്നാണ് വരുന്നതെന്നും എവിടേക്കാണ് പോകുന്നതെന്നും അരിപിടുത്തക്കാർ മനസ്സിലാക്കുക?",
+          "options": [
+            "ആനിയുടെ വീട്ടിൽ നിന്ന് അമ്മാമയുടെ മകളുടെ വീട്ടിലേക്ക്",
+            "അമ്മാമയുടെ മകളുടെ വീട്ടിൽ നിന്ന് അമ്മാമയുടെ സ്വന്തം വീട്ടിലേക്ക്",
+            "അരി വാങ്ങിയ വീട്ടിൽ നിന്ന് ആനിയുടെ വീട്ടിലേക്ക്",
+            "കോച്ചാത്തിയുടെ വീട്ടിൽ നിന്ന് അമ്മാമയുടെ മകളുടെ വീട്ടിലേക്ക്"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "അമ്മാമയുടെ മകളുടെ വീട്ടിൽ നിന്ന് അമ്മാമയുടെ സ്വന്തം വീട്ടിലേക്ക്"
+          }
+        },
+        "english": {
+          "context": "Ammama and Ani are returning after secretly buying rice. On the way, rice inspectors stop them and ask, “Where are you coming from at this hour?” Concealing the rice purchase, Ammama replies, “I’m coming from my daughter’s house. I’m going to my house.”",
+          "question": "From Ammama's reply, where would the rice inspectors understand her to be coming from and going to?",
+          "options": [
+            "From Ani’s house to Ammama’s daughter’s house",
+            "From Ammama’s daughter’s house to Ammama’s own house",
+            "From the house where the rice was bought to Ani’s house",
+            "From Kochathi’s house to Ammama’s daughter’s house"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "From Ammama’s daughter’s house to Ammama’s own house"
+          }
+        }
+      },
+      "explanation": "The expressions ‘എന്റെ മോളടെ വീട്ടിന്ന്’ and ‘എന്റെ വീട്ടിലയ്ക്ക്’ are anchored to Ammama as the speaker. Therefore, the route presented in her reply is from her daughter's house to her own house. The surrounding context tells us that Ammama is actually returning after secretly buying rice elsewhere, but interpreting the deictic expressions requires resolving ‘എന്റെ’ relative to Ammama rather than to Ani or another participant.",
+      "metadata": {
+        "register": "literary-dialogue",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "speaker-centered reference",
+          "kinship-based place reference",
+          "dialectal Malayalam",
+          "concealment during rice inspection"
+        ]
+      }
+    },
+    {
+      "id": "ma_di_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "spatial-deixis",
+        "deictic-center",
+        "directional-reference",
+        "perspective-resolution"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kokkaanchara-yil ninnu Thankamanikkettathekku pokaan padinjaattu nadakkanamennu Ani arinjirunnu. Pakshe padinjaaru ethu disha aanu ennu avalkku pettennu manassilaayilla. Appol school-il padichathu aval orthu: “Sooryanabhimukhamaayi nilkkunna oralude munvasham kizhakkum pinvasham padinjaarum aayirikkum.” Ani sooryane nokki ninnu.",
+          "question": "Ee nilayil Thankamanikkettathekku pokaan Ani ethu dishayilekku nadakkanam?",
+          "options": [
+            "Aval nokkinilkkunna dishayilekku",
+            "Avalude valathuvashathekku",
+            "Aval nokkinilkkunna dishayude ethirvashathekku",
+            "Avalude idathuvashathekku"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Aval nokkinilkkunna dishayude ethirvashathekku"
+          }
+        },
+        "malayalam": {
+          "context": "കൊക്കാഞ്ചറയിൽ നിന്ന് തങ്കമണിക്കേറ്റത്തേക്ക് പോകാൻ പടിഞ്ഞാട്ട് നടക്കണമെന്ന് ആനിക്ക് അറിയാമായിരുന്നു. പക്ഷേ പടിഞ്ഞാറ് ഏത് ദിശയാണെന്ന് അവൾക്ക് പെട്ടെന്ന് മനസ്സിലായില്ല. അപ്പോൾ സ്കൂളിൽ പഠിച്ചത് അവൾ ഓർത്തു: “സൂര്യനഭിമുഖമായി നിൽക്കുന്ന ഒരാളുടെ മുൻവശം കിഴക്കും പിൻവശം പടിഞ്ഞാറും ആയിരിക്കും.” ആനി സൂര്യനെ നോക്കി നിന്നു.",
+          "question": "ഈ നിലയിൽ തങ്കമണിക്കേറ്റത്തേക്ക് പോകാൻ ആനി ഏത് ദിശയിലേക്കാണ് നടക്കേണ്ടത്?",
+          "options": [
+            "അവൾ നോക്കിനിൽക്കുന്ന ദിശയിലേക്ക്",
+            "അവളുടെ വലതുവശത്തേക്ക്",
+            "അവൾ നോക്കിനിൽക്കുന്ന ദിശയുടെ എതിർവശത്തേക്ക്",
+            "അവളുടെ ഇടതുവശത്തേക്ക്"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "അവൾ നോക്കിനിൽക്കുന്ന ദിശയുടെ എതിർവശത്തേക്ക്"
+          }
+        },
+        "english": {
+          "context": "Ani knew that she had to travel west from Kokkachara to reach Thankamanikkettam, but she could not immediately work out which direction was west. Then she remembered what she had learned at school: “For a person standing facing the sun, east is in front and west is behind.” Ani stood facing the sun.",
+          "question": "From this position, in which direction should Ani walk to go toward Thankamanikkettam?",
+          "options": [
+            "In the direction she is facing",
+            "To her right",
+            "In the direction opposite to where she is facing",
+            "To her left"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "In the direction opposite to where she is facing"
+          }
+        }
+      },
+      "explanation": "Ani must travel west. In the spatial frame established in the passage, when she faces the sun, east is in front of her and west is behind her. Therefore, she must walk in the direction opposite to where she is facing.",
+      "metadata": {
+        "register": "literary-narrative",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "direction finding through bodily orientation",
+          "Malayalam spatial deixis",
+          "route finding"
+        ],
+        "authors_note": "The item requires converting an absolute direction ('west') into an egocentric spatial relation based on Ani's orientation. It is therefore harder than simply identifying the meaning of 'padinjaaru'."
+      }
+    },
+    {
+      "id": "ma_di_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "temporal-deixis",
+        "narrative-deictic-center",
+        "deictic-shift",
+        "context-dependent-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Satiyude dehaviyogathil duhkhithanaaya Paramashivan Himalaya paarshwathil thapassu cheyyukayaayirunnu. Himavaan Paarvathiye Shivane shushrooshikkaan niyogichu. Ikkalathu Thaarakaasurante upadravam asahyamaayathinaal devanmar Brahmaavinodu sahaayam aavashyappettu.",
+          "question": "\"Ikkalathu\" enna prayogam ivide ethu kaalathteyaanu soochippikkunnathu?",
+          "options": [
+            "Lekhakante ippolathe kaalathe",
+            "Kaalidaasan jeevichirunna charithrakaalathe",
+            "Shivan Himalayathil thapassu cheythirunna kathayile aa ghattathe",
+            "Paarvathi-Shiva vivaahathinu sheshamulla kaalathe"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Shivan Himalayathil thapassu cheythirunna kathayile aa ghattathe"
+          }
+        },
+        "malayalam": {
+          "context": "തന്റെ പതിയായ സതിയുടെ ദേഹവിയോഗത്തിൽ ദുഃഖിതനായ പരമശിവൻ ഇതിനിടെ ഹിമാലയപാർശ്വത്തിൽ തപസ്സുചെയ്യുകയായിരുന്നു. ഹിമവാൻ ശിവനെ സൽക്കരിക്കുവാൻ പാർവതിയെ നിയോഗിച്ചു. ഇക്കാലത്ത് താരകാസുരന്റെ ഉപദ്രവം അസഹ്യമായതിനാൽ ദേവന്മാർ ബ്രഹ്മാവിനോട് സഹായം ആവശ്യപ്പെട്ടു.",
+          "question": "“ഇക്കാലത്ത്” എന്ന പ്രയോഗം ഇവിടെ ഏത് കാലത്തെയാണ് സൂചിപ്പിക്കുന്നത്?",
+          "options": [
+            "ലേഖകന്റെ ഇപ്പോഴത്തെ കാലത്തെ",
+            "കാളിദാസൻ ജീവിച്ചിരുന്ന ചരിത്രകാലത്തെ",
+            "ശിവൻ ഹിമാലയത്തിൽ തപസ്സുചെയ്തിരുന്ന കഥയിലെ ആ ഘട്ടത്തെ",
+            "പാർവതി-ശിവ വിവാഹത്തിനു ശേഷമുള്ള കാലത്തെ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ശിവൻ ഹിമാലയത്തിൽ തപസ്സുചെയ്തിരുന്ന കഥയിലെ ആ ഘട്ടത്തെ"
+          }
+        },
+        "english": {
+          "context": "Grieving the death of Sati, Shiva was at this time performing penance on the slopes of the Himalayas. Himavan appointed Parvati to attend to Shiva. During this period, Tarakasura's oppression became unbearable, and the gods appealed to Brahma for help.",
+          "question": "What time period does the Malayalam expression 'ikkalathu' ('at this time') refer to here?",
+          "options": [
+            "The present time of the essay's author",
+            "The historical period in which Kalidasa lived",
+            "That stage of the story when Shiva was performing penance in the Himalayas",
+            "The period after the marriage of Parvati and Shiva"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "That stage of the story when Shiva was performing penance in the Himalayas"
+          }
+        }
+      },
+      "explanation": "Although 'ഇക്കാലത്ത്' contains the proximal form 'ഇ-', its deictic center is not the essayist's present. The narration has shifted into the world of the Kumarasambhavam story. Therefore 'ഇക്കാലത്ത്' refers to the narrative period in which Shiva is performing penance and Parvati has begun attending on him.",
+      "metadata": {
+        "register": "literary-criticism / embedded-narrative",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Kalidasa",
+          "Kumarasambhavam",
+          "Shiva-Parvati narrative",
+          "Malayalam proximal temporal deixis"
+        ],
+        "authors_note": "The distractors separate three possible temporal centers: the essayist's present, Kalidasa's historical period, and the internal time of the narrated myth. Correct interpretation requires shifting the deictic center into the embedded narrative."
+      }
+    }
+  ]
+}

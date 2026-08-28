@@ -1,0 +1,894 @@
+{
+  "dataset": "Hindi Pragmatics - Discourse & Coherence MCQ",
+  "version": "0.2",
+  "items": [
+    {
+      "id": "hi_disc_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Sharma ji ne apne bete ke liye rishta dekhne ka socha. Unhone ek matrimonial site par profile banaya. Kai ladkiyon ke profiles dekhe aur kuch families se baat bhi hui. Ek family Pune se hai jo unhe pasand aayi. Dono families ne milne ka time fix kar liya.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Sharma ji ko kundli milwani padegi.",
+            "Pune mein bahut achhe IT companies hain.",
+            "Matrimonial sites par kai log fake profiles bana dete hain.",
+            "Sharma ji ke bete ki salary bahut achhi hai."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Sharma ji ko kundli milwani padegi."
+          }
+        },
+        "devanagari": {
+          "context": "शर्मा जी ने अपने बेटे के लिए रिश्ता देखने का सोचा। उन्होंने एक मैट्रिमोनियल साइट पर प्रोफाइल बनाया। कई लड़कियों के प्रोफाइल्स देखे और कुछ फैमिलीज़ से बात भी हुई। एक फैमिली पुणे से है जो उन्हें पसंद आई। दोनों फैमिलीज़ ने मिलने का टाइम फिक्स कर लिया।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "शर्मा जी को कुंडली मिलवानी पड़ेगी।",
+            "पुणे में बहुत अच्छी IT कंपनियाँ हैं।",
+            "मैट्रिमोनियल साइट्स पर कई लोग फेक प्रोफाइल्स बना देते हैं।",
+            "शर्मा जी के बेटे की सैलरी बहुत अच्छी है।"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "शर्मा जी को कुंडली मिलवानी पड़ेगी।"
+          }
+        },
+        "english": {
+          "context": "Sharma ji thought of finding a match for his son. He created a profile on a matrimonial site. He viewed many girls' profiles and talked to some families. One family from Pune appealed to him. Both families fixed a time to meet.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Sharma ji will need to get the horoscopes matched.",
+            "Pune has many good IT companies.",
+            "Many people create fake profiles on matrimonial sites.",
+            "Sharma ji's son has a very good salary."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Sharma ji will need to get the horoscopes matched."
+          }
+        }
+      },
+      "explanation": "After families fix a meeting, the next traditional step in Indian arranged marriages is horoscope matching.",
+      "metadata": {
+        "register": "marriage-arrangement",
+        "cultural_markers": [
+          "arranged marriage",
+          "horoscope matching"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Mumbai mein monsoon aa gaya hai. Baarish lagatar do din se ho rahi hai. Local trains ki timings disturb ho gayi hain. Kai jagah paani bhar gaya hai aur roads band ho gaye hain. Aam logo ki zindagi mushkil ho gayi hai. Mumbai ki vada pav bahut famous hai. Schools aur offices ne chutti declare kar di hai.",
+          "question": "Kaun sa sentence paragraph mein fit nahi ho raha?",
+          "options": [
+            "Baarish lagatar do din se ho rahi hai.",
+            "Local trains ki timings disturb ho gayi hain.",
+            "Mumbai ki vada pav bahut famous hai.",
+            "Schools aur offices ne chutti declare kar di hai."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Mumbai ki vada pav bahut famous hai."
+          }
+        },
+        "devanagari": {
+          "context": "मुंबई में मॉनसून आ गया है। बारिश लगातार दो दिन से हो रही है। लोकल ट्रेनों की टाइमिंग डिस्टर्ब हो गई हैं। कई जगह पानी भर गया है और रोड्स बंद हो गए हैं। आम लोगों की ज़िंदगी मुश्किल हो गई है। मुंबई की वड़ा पाव बहुत फेमस है। स्कूल्स और ऑफिसेज़ ने छुट्टी डिक्लेयर कर दी है।",
+          "question": "कौन सा वाक्य पैराग्राफ में फिट नहीं हो रहा?",
+          "options": [
+            "बारिश लगातार दो दिन से हो रही है।",
+            "लोकल ट्रेनों की टाइमिंग डिस्टर्ब हो गई हैं।",
+            "मुंबई की वड़ा पाव बहुत फेमस है।",
+            "स्कूल्स और ऑफिसेज़ ने छुट्टी डिक्लेयर कर दी है।"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "मुंबई की वड़ा पाव बहुत फेमस है।"
+          }
+        },
+        "english": {
+          "context": "Monsoon has arrived in Mumbai. It has been raining continuously for two days. Local train timings are disturbed. Water has accumulated in many places and roads are closed. Common people's lives have become difficult. Mumbai's vada pav is very famous. Schools and offices have declared holidays.",
+          "question": "Which sentence does NOT fit the paragraph?",
+          "options": [
+            "It has been raining continuously for two days.",
+            "Local train timings are disturbed.",
+            "Mumbai's vada pav is very famous.",
+            "Schools and offices have declared holidays."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Mumbai's vada pav is very famous."
+          }
+        }
+      },
+      "explanation": "All sentences discuss monsoon problems except the one about vada pav, which is completely unrelated to the topic.",
+      "metadata": {
+        "register": "weather-crisis",
+        "cultural_markers": [
+          "Mumbai monsoon"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "profile-continuity"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Zomato aur Swiggy delivery boys subah se raat tak kaam karte hain. Unhein har din 40-50 deliveries karni padti hain. Garmi ho, baarish ho ya thand, ye log hamesha chalte rahte hain. Kai baar customers se badtameezi bhi sunni padti hai. Phir bhi ye log haste muskurate kaam karte hain.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Swiggy aur Zomato ka competition bahut tight hai.",
+            "Delivery boys ko zyada tips milne chahiye.",
+            "Inki mehnat aur lagaan ko salaam karna chahiye.",
+            "Online food ordering ab bahut popular ho gaya hai."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Inki mehnat aur lagaan ko salaam karna chahiye."
+          }
+        },
+        "devanagari": {
+          "context": "ज़ोमैटो और स्विगी डिलीवरी बॉयज़ सुबह से रात तक काम करते हैं। उन्हें हर दिन 40-50 डिलीवरीज़ करनी पड़ती हैं। गर्मी हो, बारिश हो या ठंड, ये लोग हमेशा चलते रहते हैं। कई बार कस्टमर्स से बदतमीज़ी भी सुननी पड़ती है। फिर भी ये लोग हंसते मुस्कुराते काम करते हैं।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "स्विगी और ज़ोमैटो का कम्पटीशन बहुत टाइट है।",
+            "डिलीवरी बॉयज़ को ज़्यादा टिप्स मिलने चाहिए।",
+            "इनकी मेहनत और लगन को सलाम करना चाहिए।",
+            "ऑनलाइन फूड ऑर्डरिंग अब बहुत पॉपुलर हो गया है।"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "इनकी मेहनत और लगन को सलाम करना चाहिए।"
+          }
+        },
+        "english": {
+          "context": "Zomato and Swiggy delivery boys work from morning till night. They have to make 40-50 deliveries every day. Whether it's heat, rain or cold, these people keep going. Many times they have to hear rudeness from customers. Still, these people work with smiles.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Swiggy and Zomato's competition is very tight.",
+            "Delivery boys should get more tips.",
+            "Their hard work and dedication should be saluted.",
+            "Online food ordering has become very popular now."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Their hard work and dedication should be saluted."
+          }
+        }
+      },
+      "explanation": "After describing the hardships and positive attitude of delivery workers, the natural conclusion is appreciation for their efforts.",
+      "metadata": {
+        "register": "gig-economy",
+        "cultural_markers": [
+          "delivery workers",
+          "service appreciation"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "cause-effect"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "IPL ka season shuru hone wala hai. Cricket fans ki excitement charam par hai. Companies advertising ke liye croro rupaye kharch kar rahi hain. Stadiums mein tickets sold out ho gaye hain. Social media par har team ke fans apni team ko support kar rahe hain.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "IPL mein kai videshi khiladi khelte hain.",
+            "Television channels ko iss season se bahut revenue milega.",
+            "Cricket India ka sabse popular sport hai.",
+            "IPL matches raat mein zyada hote hain."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Television channels ko iss season se bahut revenue milega."
+          }
+        },
+        "devanagari": {
+          "context": "IPL का सीज़न शुरू होने वाला है। क्रिकेट फैंस की एक्साइटमेंट चरम पर है। कंपनियाँ एडवर्टाइज़िंग के लिए करोड़ों रुपए खर्च कर रही हैं। स्टेडियमों में टिकट्स सोल्ड आउट हो गए हैं। सोशल मीडिया पर हर टीम के फैंस अपनी टीम को सपोर्ट कर रहे हैं।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "IPL में कई विदेशी खिलाड़ी खेलते हैं।",
+            "टेलीविज़न चैनल्स को इस सीज़न से बहुत रेवेन्यू मिलेगा।",
+            "क्रिकेट भारत का सबसे पॉपुलर स्पोर्ट है।",
+            "IPL मैचेज़ रात में ज़्यादा होते हैं।"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "टेलीविज़न चैनल्स को इस सीज़न से बहुत रेवेन्यू मिलेगा।"
+          }
+        },
+        "english": {
+          "context": "IPL season is about to start. Cricket fans' excitement is at its peak. Companies are spending crores of rupees on advertising. Tickets in stadiums are sold out. On social media, fans of every team are supporting their team.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Many foreign players play in IPL.",
+            "Television channels will get a lot of revenue this season.",
+            "Cricket is India's most popular sport.",
+            "IPL matches happen more at night."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Television channels will get a lot of revenue this season."
+          }
+        }
+      },
+      "explanation": "After mentioning fan excitement, sold-out tickets, and heavy advertising, the logical conclusion is high television revenue.",
+      "metadata": {
+        "register": "sports-business",
+        "cultural_markers": [
+          "IPL",
+          "cricket culture"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ramesh ji ke gaon mein is saal bahut kam baarish hui. Khet sukhne lage aur fasal kharab ho gayi. Sarkar ne rahat rashi ka wada kiya par abhi tak kuch nahi aaya. Karz mein doobe kisan ab aage ki raah nahi dekh pa rahe. Puri ki puri family ek-ek din kaat rahi hai.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Gaon ke schools mein naye teachers ki niyukti ho gayi.",
+            "Kai kisan apni zameen bechne ya sheher jaane par majboor ho rahe hain.",
+            "Is saal wheat ki international market mein demand badh gayi hai.",
+            "Ramesh ji ke bete ne engineering college mein admission le liya."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Kai kisan apni zameen bechne ya sheher jaane par majboor ho rahe hain."
+          }
+        },
+        "devanagari": {
+          "context": "रमेश जी के गाँव में इस साल बहुत कम बारिश हुई। खेत सूखने लगे और फसल खराब हो गई। सरकार ने राहत राशि का वादा किया पर अभी तक कुछ नहीं आया। कर्ज़ में डूबे किसान अब आगे की राह नहीं देख पा रहे। पूरी की पूरी फैमिली एक-एक दिन काट रही है।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "गाँव के स्कूलों में नए टीचर्स की नियुक्ति हो गई।",
+            "कई किसान अपनी ज़मीन बेचने या शहर जाने पर मजबूर हो रहे हैं।",
+            "इस साल गेहूँ की इंटरनेशनल मार्केट में डिमांड बढ़ गई है।",
+            "रमेश जी के बेटे ने इंजीनियरिंग कॉलेज में एडमिशन ले लिया।"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "कई किसान अपनी ज़मीन बेचने या शहर जाने पर मजबूर हो रहे हैं।"
+          }
+        },
+        "english": {
+          "context": "Ramesh ji's village received very little rain this year. The fields began to dry up and the harvest was ruined. The government promised relief funds but nothing has arrived yet. Farmers drowning in debt can no longer see a way forward. Entire families are surviving day by day.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "New teachers have been appointed in the village schools.",
+            "Many farmers are being forced to sell their land or migrate to the city.",
+            "This year wheat demand has increased in the international market.",
+            "Ramesh ji's son has taken admission in an engineering college."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Many farmers are being forced to sell their land or migrate to the city."
+          }
+        }
+      },
+      "explanation": "The paragraph builds a cause-effect chain: drought → crop failure → absent relief → debt → desperation. The only sentence that continues this chain coherently is forced land sale or urban migration, the classic endpoint of agrarian distress in India. The other options introduce entirely unrelated threads.",
+      "metadata": {
+        "register": "rural-distress",
+        "cultural_markers": [
+          "farmer crisis",
+          "agrarian distress",
+          "rural-to-urban migration",
+          "government relief"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Diwali ki taiyariyan shuru ho gayi hain. Bazaaron mein raunak aa gayi hai aur har taraf lights lagi hain. Log apne ghar saaf kar rahe hain aur naye kapde khareed rahe hain. Mithai ki dukanen grahkon se bhari hain. Rang aur gubaare bhi bazaar mein bik rahe hain. Patakhe bechne wale har gali mein nazar aa rahe hain.",
+          "question": "Kaun sa sentence paragraph mein fit nahi ho raha?",
+          "options": [
+            "Bazaaron mein raunak aa gayi hai aur har taraf lights lagi hain.",
+            "Mithai ki dukanen grahkon se bhari hain.",
+            "Rang aur gubaare bhi bazaar mein bik rahe hain.",
+            "Patakhe bechne wale har gali mein nazar aa rahe hain."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Rang aur gubaare bhi bazaar mein bik rahe hain."
+          }
+        },
+        "devanagari": {
+          "context": "दिवाली की तैयारियाँ शुरू हो गई हैं। बाज़ारों में रौनक आ गई है और हर तरफ लाइट्स लगी हैं। लोग अपने घर साफ कर रहे हैं और नए कपड़े खरीद रहे हैं। मिठाई की दुकानें ग्राहकों से भरी हैं। रंग और गुब्बारे भी बाज़ार में बिक रहे हैं। पटाखे बेचने वाले हर गली में नज़र आ रहे हैं।",
+          "question": "कौन सा वाक्य पैराग्राफ में फिट नहीं हो रहा?",
+          "options": [
+            "बाज़ारों में रौनक आ गई है और हर तरफ लाइट्स लगी हैं।",
+            "मिठाई की दुकानें ग्राहकों से भरी हैं।",
+            "रंग और गुब्बारे भी बाज़ार में बिक रहे हैं।",
+            "पटाखे बेचने वाले हर गली में नज़र आ रहे हैं।"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "रंग और गुब्बारे भी बाज़ार में बिक रहे हैं।"
+          }
+        },
+        "english": {
+          "context": "Diwali preparations have begun. Markets have lit up and there are lights everywhere. People are cleaning their homes and buying new clothes. Sweet shops are filled with customers. Colours and balloons are also being sold in the market. Firecracker sellers are visible in every lane.",
+          "question": "Which sentence does NOT fit the paragraph?",
+          "options": [
+            "Markets have lit up and there are lights everywhere.",
+            "Sweet shops are filled with customers.",
+            "Colours and balloons are also being sold in the market.",
+            "Firecracker sellers are visible in every lane."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Colours and balloons are also being sold in the market."
+          }
+        }
+      },
+      "explanation": "Every sentence describes Diwali preparations, lights, cleaning, new clothes, sweets, and firecrackers. The sentence about colours and balloons refers more to Holi, not Diwali, and therefore breaks the topical coherence of the paragraph.",
+      "metadata": {
+        "register": "festival-culture",
+        "cultural_markers": [
+          "Diwali",
+          "festival preparations",
+          "Holi",
+          "Indian festivals"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "India cricket team World Cup final tak pahunchi thi. Poora desh match dekh raha tha. Last over mein sirf do runs chahiye the. Last ball par wicket gir gayi aur match haath se nikal gaya. Stadium mein ekdum sannata cha gaya, players ka mooh utar gaya.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Fans ne social media par apna dukh aur gussa zahir kiya.",
+            "Agla IPL season do mahine baad shuru hoga.",
+            "Team ne new coach hire kiya hai.",
+            "Stadium mein naye seats lagaye gaye the."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Fans ne social media par apna dukh aur gussa zahir kiya."
+          }
+        },
+        "devanagari": {
+          "context": "इंडिया क्रिकेट टीम वर्ल्ड कप फाइनल तक पहुँची थी। पूरा देश मैच देख रहा था। लास्ट ओवर में सिर्फ दो रन चाहिए थे। लास्ट बॉल पर विकेट गिर गई और मैच हाथ से निकल गया। स्टेडियम में एकदम सन्नाटा छा गया, प्लेयर्स का मुँह उतर गया।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "फैंस ने सोशल मीडिया पर अपना दुख और गुस्सा ज़ाहिर किया।",
+            "अगला IPL सीज़न दो महीने बाद शुरू होगा।",
+            "टीम ने नया कोच हायर किया है।",
+            "स्टेडियम में नई सीट्स लगाई गई थीं।"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "फैंस ने सोशल मीडिया पर अपना दुख और गुस्सा ज़ाहिर किया।"
+          }
+        },
+        "english": {
+          "context": "The Indian cricket team had reached the World Cup final. The whole country was watching the match. Only two runs were needed in the last over. A wicket fell on the last ball and the match slipped away. Silence fell over the stadium, and the players' faces dropped.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Fans expressed their heartbreak and anger on social media.",
+            "The next IPL season will start in two months.",
+            "The team has hired a new coach.",
+            "New seats had been installed in the stadium."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Fans expressed their heartbreak and anger on social media."
+          }
+        }
+      },
+      "explanation": "The emotional buildup of a last-ball loss most naturally continues into the public's immediate emotional reaction, not into unrelated future events.",
+      "metadata": {
+        "register": "sports-emotion",
+        "cultural_markers": [
+          "cricket World Cup",
+          "fan culture",
+          "last-over finish"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "CBSE board exam ke results aane wale hain. Students bahut nervous hain aur baar baar website refresh kar rahe hain. Parents bhi tension mein hain aur puja-paath kar rahe hain. Agle mahine se cricket ka naya season shuru ho raha hai. School ke bahar media wale toppers ka interview lene ke liye khade hain. Kai students result dekhne se pehle mandir gaye.",
+          "question": "Kaun sa sentence paragraph mein fit nahi ho raha?",
+          "options": [
+            "Students bahut nervous hain aur baar baar website refresh kar rahe hain.",
+            "Parents bhi tension mein hain aur puja-paath kar rahe hain.",
+            "Agle mahine se cricket ka naya season shuru ho raha hai.",
+            "Kai students result dekhne se pehle mandir gaye."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Agle mahine se cricket ka naya season shuru ho raha hai."
+          }
+        },
+        "devanagari": {
+          "context": "CBSE बोर्ड एग्ज़ाम के रिज़ल्ट्स आने वाले हैं। स्टूडेंट्स बहुत नर्वस हैं और बार बार वेबसाइट रिफ्रेश कर रहे हैं। पेरेंट्स भी टेंशन में हैं और पूजा-पाठ कर रहे हैं। अगले महीने से क्रिकेट का नया सीज़न शुरू हो रहा है। स्कूल के बाहर मीडिया वाले टॉपर्स का इंटरव्यू लेने के लिए खड़े हैं। कई स्टूडेंट्स रिज़ल्ट देखने से पहले मंदिर गए।",
+          "question": "कौन सा वाक्य पैराग्राफ में फिट नहीं हो रहा?",
+          "options": [
+            "स्टूडेंट्स बहुत नर्वस हैं और बार बार वेबसाइट रिफ्रेश कर रहे हैं।",
+            "पेरेंट्स भी टेंशन में हैं और पूजा-पाठ कर रहे हैं।",
+            "अगले महीने से क्रिकेट का नया सीज़न शुरू हो रहा है।",
+            "कई स्टूडेंट्स रिज़ल्ट देखने से पहले मंदिर गए।"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "अगले महीने से क्रिकेट का नया सीज़न शुरू हो रहा है।"
+          }
+        },
+        "english": {
+          "context": "CBSE board exam results are about to be released. Students are very nervous and keep refreshing the website. Parents are also tense and are praying. A new cricket season starts next month. Media outside the school are waiting to interview toppers. Many students visited temples before checking their results.",
+          "question": "Which sentence does NOT fit the paragraph?",
+          "options": [
+            "Students are very nervous and keep refreshing the website.",
+            "Parents are also tense and are praying.",
+            "A new cricket season starts next month.",
+            "Many students visited temples before checking their results."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "A new cricket season starts next month."
+          }
+        }
+      },
+      "explanation": "Every sentence in the paragraph relates to the anxiety and rituals surrounding board exam results; the cricket season sentence is unrelated to this discourse topic.",
+      "metadata": {
+        "register": "exam-anxiety",
+        "cultural_markers": [
+          "board exam results",
+          "temple visits before results",
+          "topper interviews"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "",
+        "cause-effect"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Office hours mein Delhi Metro mein bahut bheed hoti hai. Platform par log dhakka-mukki karte hain taaki agli train mein chadh sake. Trains har do-teen minute mein aati hain, phir bhi bheed kam nahi hoti. Log office late na hone ke daar se subah jaldi ghar se nikalte hain.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Isliye kai log ab car pooling ya cab lena prefer karne lage hain.",
+            "Delhi Metro ka pehla station 2002 mein khula tha.",
+            "Metro card recharge karna ab online ho gaya hai.",
+            "Weekend par metro mein bheed kam hoti hai."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Isliye kai log ab car pooling ya cab lena prefer karne lage hain."
+          }
+        },
+        "devanagari": {
+          "context": "ऑफिस ऑवर्स में दिल्ली मेट्रो में बहुत भीड़ होती है। प्लेटफार्म पर लोग धक्का-मुक्की करते हैं ताकि अगली ट्रेन में चढ़ सकें। ट्रेनें हर दो-तीन मिनट में आती हैं, फिर भी भीड़ कम नहीं होती। लोग ऑफिस लेट न होने के डर से सुबह जल्दी घर से निकलते हैं।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "इसलिए कई लोग अब कार पूलिंग या कैब लेना प्रेफर करने लगे हैं।",
+            "दिल्ली मेट्रो का पहला स्टेशन 2002 में खुला था।",
+            "मेट्रो कार्ड रिचार्ज करना अब ऑनलाइन हो गया है।",
+            "वीकेंड पर मेट्रो में भीड़ कम होती है।"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "इसलिए कई लोग अब कार पूलिंग या कैब लेना प्रेफर करने लगे हैं।"
+          }
+        },
+        "english": {
+          "context": "During office hours, Delhi Metro gets extremely crowded. People push and shove on the platform to catch the next train. Trains arrive every two to three minutes, yet the crowd never thins out. Fearing being late for office, people leave home early in the morning.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "So many people now prefer car pooling or taking a cab instead.",
+            "Delhi Metro's first station opened in 2002.",
+            "Metro card recharging has now gone online.",
+            "There is less crowd in the metro on weekends."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "So many people now prefer car pooling or taking a cab instead."
+          }
+        }
+      },
+      "explanation": "The paragraph builds a cause-effect chain of overcrowding despite frequent trains, which naturally leads to commuters seeking alternative modes of transport.",
+      "metadata": {
+        "register": "urban-commute",
+        "cultural_markers": [
+          "Delhi Metro",
+          "office rush hour",
+          "car pooling"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_010",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "profile-continuity"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ramu kaka pichle bees saal se colony ke corner par chai ki tapri chalate hain. Subah panch baje se hi unki kettle chadh jaati hai. Office jaane wale log, students, aur retired uncle log sab wahan ruk kar chai peete hain. Sardi ho ya garmi, unki tapri kabhi band nahi hoti. Log wahan chai ke saath desh-duniya ki baatein bhi karte hain.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Ye chhoti si tapri kai logon ke din ki shuruaat ka zaroori hissa ban gayi hai.",
+            "Chai patti ke daam is saal badh gaye hain.",
+            "Colony mein ab naya shopping mall khul gaya hai.",
+            "Ramu kaka ka beta software engineer hai."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Ye chhoti si tapri kai logon ke din ki shuruaat ka zaroori hissa ban gayi hai."
+          }
+        },
+        "devanagari": {
+          "context": "रामू काका पिछले बीस साल से कॉलोनी के कॉर्नर पर चाय की टपरी चलाते हैं। सुबह पाँच बजे से ही उनकी केतली चढ़ जाती है। ऑफिस जाने वाले लोग, स्टूडेंट्स, और रिटायर्ड अंकल लोग सब वहाँ रुककर चाय पीते हैं। सर्दी हो या गर्मी, उनकी टपरी कभी बंद नहीं होती। लोग वहाँ चाय के साथ देश-दुनिया की बातें भी करते हैं।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "ये छोटी सी टपरी कई लोगों के दिन की शुरुआत का ज़रूरी हिस्सा बन गई है।",
+            "चाय पत्ती के दाम इस साल बढ़ गए हैं।",
+            "कॉलोनी में अब नया शॉपिंग मॉल खुल गया है।",
+            "रामू काका का बेटा सॉफ्टवेयर इंजीनियर है।"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ये छोटी सी टपरी कई लोगों के दिन की शुरुआत का ज़रूरी हिस्सा बन गई है।"
+          }
+        },
+        "english": {
+          "context": "Ramu kaka has been running a tea stall at the colony corner for the last twenty years. His kettle is on the boil from five in the morning itself. Office-goers, students, and retired uncles all stop by for tea. Whether winter or summer, his stall never closes. People discuss the news of the world there over tea.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "This small stall has become an essential part of many people's morning routine.",
+            "Tea leaf prices have gone up this year.",
+            "A new shopping mall has opened in the colony.",
+            "Ramu kaka's son is a software engineer."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "This small stall has become an essential part of many people's morning routine."
+          }
+        }
+      },
+      "explanation": "The description builds the tapri's role as a community fixture across years and seasons, so the natural continuation is a summarizing statement about its social importance rather than an unrelated new fact.",
+      "metadata": {
+        "register": "neighborhood-life",
+        "cultural_markers": [
+          "chai tapri",
+          "community gathering spot"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_011",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Priya ne ek badi IT company mein job interview diya. HR round mein unhone uske resume aur past experience ke baare mein poocha. Uske baad ek technical round hua jisme coding test bhi tha. Interview do ghante chala. Ghar aakar usne apne parents aur dosto ko sara kissa sunaya.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Do din baad usko company se offer letter mil gaya.",
+            "Priya ne college mein computer science padhi thi.",
+            "IT companies mein salary packages alag-alag hote hain.",
+            "Interview ke din bahut baarish ho rahi thi."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Do din baad usko company se offer letter mil gaya."
+          }
+        },
+        "devanagari": {
+          "context": "प्रिया ने एक बड़ी IT कंपनी में जॉब इंटरव्यू दिया। HR राउंड में उन्होंने उसके रिज़्यूमे और पास्ट एक्सपीरियंस के बारे में पूछा। उसके बाद एक टेक्निकल राउंड हुआ जिसमें कोडिंग टेस्ट भी था। इंटरव्यू दो घंटे चला। घर आकर उसने अपने पेरेंट्स और दोस्तों को सारा किस्सा सुनाया।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "दो दिन बाद उसको कंपनी से ऑफर लेटर मिल गया।",
+            "प्रिया ने कॉलेज में कंप्यूटर साइंस पढ़ी थी।",
+            "IT कंपनियों में सैलरी पैकेजेज़ अलग-अलग होते हैं।",
+            "इंटरव्यू के दिन बहुत बारिश हो रही थी।"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "दो दिन बाद उसको कंपनी से ऑफर लेटर मिल गया।"
+          }
+        },
+        "english": {
+          "context": "Priya gave a job interview at a large IT company. In the HR round, they asked about her resume and past experience. After that came a technical round which included a coding test. The interview lasted two hours. When she got home, she told her parents and friends all about it.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Two days later she received an offer letter from the company.",
+            "Priya had studied computer science in college.",
+            "Salary packages vary across IT companies.",
+            "It was raining heavily on the day of the interview."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Two days later she received an offer letter from the company."
+          }
+        }
+      },
+      "explanation": "After a detailed account of the interview process, the natural narrative continuation is the outcome of the interview, i.e., the offer letter.",
+      "metadata": {
+        "register": "job-interview",
+        "cultural_markers": [
+          "IT industry hiring process",
+          "HR and technical rounds"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_012",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "cause-effect"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Sarkari hospital ke OPD mein subah se hi lambi line lag jaati hai. Ek doctor ke paas ek din mein sau se zyada patients aate hain. Register banwane mein hi ek ghanta lag jaata hai. Marizon ko ghanton wait karna padta hai apni bari ke liye.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Isliye kai log majboori mein mehenge private clinic ka rukh karte hain.",
+            "Sarkari hospital mein dawaiyan muft milti hain.",
+            "Doctor banne ke liye NEET exam paas karna padta hai.",
+            "Hospital ki building bees saal purani hai."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Isliye kai log majboori mein mehenge private clinic ka rukh karte hain."
+          }
+        },
+        "devanagari": {
+          "context": "सरकारी हॉस्पिटल के OPD में सुबह से ही लंबी लाइन लग जाती है। एक डॉक्टर के पास एक दिन में सौ से ज़्यादा पेशेंट्स आते हैं। रजिस्टर बनवाने में ही एक घंटा लग जाता है। मरीज़ों को घंटों वेट करना पड़ता है अपनी बारी के लिए।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "इसलिए कई लोग मजबूरी में महँगे प्राइवेट क्लिनिक का रुख करते हैं।",
+            "सरकारी हॉस्पिटल में दवाइयाँ मुफ्त मिलती हैं।",
+            "डॉक्टर बनने के लिए NEET एग्ज़ाम पास करना पड़ता है।",
+            "हॉस्पिटल की बिल्डिंग बीस साल पुरानी है।"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "इसलिए कई लोग मजबूरी में महँगे प्राइवेट क्लिनिक का रुख करते हैं।"
+          }
+        },
+        "english": {
+          "context": "Long queues form from early morning at government hospital OPDs. A single doctor sees more than a hundred patients in a day. It takes an hour just to get registered. Patients have to wait for hours for their turn.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "So out of compulsion, many people turn to expensive private clinics instead.",
+            "Medicines are given free at government hospitals.",
+            "One has to clear the NEET exam to become a doctor.",
+            "The hospital building is twenty years old."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "So out of compulsion, many people turn to expensive private clinics instead."
+          }
+        }
+      },
+      "explanation": "The paragraph establishes a cause-effect chain of overcrowded, slow government healthcare, which logically leads patients to seek costlier private alternatives.",
+      "metadata": {
+        "register": "healthcare-access",
+        "cultural_markers": [
+          "government hospital OPD",
+          "private clinic alternative"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_013",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Flipkart ka Big Billion Days sale kal se start hone wala hai. Log apni wishlist bana rahe hain aur cart mein items daal rahe hain. Company ne bade discounts aur bank offers ka ailaan kiya hai. Website par pehle se hi zyada traffic aana shuru ho gaya hai.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Sale ke pehle ghante mein hi lakhon orders aa gaye.",
+            "Flipkart ki shuruaat 2007 mein hui thi.",
+            "Online shopping ke liye internet zaroori hota hai.",
+            "Amazon bhi ek e-commerce company hai."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Sale ke pehle ghante mein hi lakhon orders aa gaye."
+          }
+        },
+        "devanagari": {
+          "context": "फ्लिपकार्ट का बिग बिलियन डेज़ सेल कल से स्टार्ट होने वाला है। लोग अपनी विशलिस्ट बना रहे हैं और कार्ट में आइटम्स डाल रहे हैं। कंपनी ने बड़े डिस्काउंट्स और बैंक ऑफर्स का ऐलान किया है। वेबसाइट पर पहले से ही ज़्यादा ट्रैफिक आना शुरू हो गया है।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "सेल के पहले घंटे में ही लाखों ऑर्डर्स आ गए।",
+            "फ्लिपकार्ट की शुरुआत 2007 में हुई थी।",
+            "ऑनलाइन शॉपिंग के लिए इंटरनेट ज़रूरी होता है।",
+            "अमेज़न भी एक ई-कॉमर्स कंपनी है।"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "सेल के पहले घंटे में ही लाखों ऑर्डर्स आ गए।"
+          }
+        },
+        "english": {
+          "context": "Flipkart's Big Billion Days sale is set to start tomorrow. People are making their wishlists and adding items to their carts. The company has announced big discounts and bank offers. The website has already started seeing higher traffic than usual.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Lakhs of orders came in within the very first hour of the sale.",
+            "Flipkart was founded in 2007.",
+            "Internet access is necessary for online shopping.",
+            "Amazon is also an e-commerce company."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Lakhs of orders came in within the very first hour of the sale."
+          }
+        }
+      },
+      "explanation": "The paragraph builds anticipation leading up to the sale's launch, so the coherent continuation reports the immediate outcome once the sale begins, not unrelated background facts.",
+      "metadata": {
+        "register": "e-commerce-sale",
+        "cultural_markers": [
+          "Big Billion Days",
+          "online shopping culture"
+        ]
+      }
+    },
+    {
+      "id": "hi_disc_mcq_014",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "cause-effect"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Garmi ke mausam mein bijli ka load bahut badh jaata hai. AC aur cooler chalne se demand aur zyada ho jaati hai. Kai ilako mein bijli vibhag load-shedding karne par majboor ho jaata hai. Ghanton bijli gul rehti hai, khaas kar dopahar ke waqt.",
+          "question": "Agla sentence kya ho sakta (sab se uchit)?",
+          "options": [
+            "Garmi mein log zyada paani peete hain.",
+            "Bijli ka bill har mahine online bhara ja sakta hai.",
+            "Solar panels lagane se paise bachaye ja sakte hain.",
+            "Log inverter ya generator ka sahara lene lagte hain."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Log inverter ya generator ka sahara lene lagte hain."
+          }
+        },
+        "devanagari": {
+          "context": "गर्मी के मौसम में बिजली का लोड बहुत बढ़ जाता है। AC और कूलर चलने से डिमांड और ज़्यादा हो जाती है। कई इलाकों में बिजली विभाग लोड-शेडिंग करने पर मजबूर हो जाता है। घंटों बिजली गुल रहती है, खासकर दोपहर के वक्त।",
+          "question": "अगला वाक्य क्या हो सकता (सब से उचित)?",
+          "options": [
+            "गर्मी में लोग ज़्यादा पानी पीते हैं।",
+            "बिजली का बिल हर महीने ऑनलाइन भरा जा सकता है।",
+            "सोलर पैनल लगाने से पैसे बचाए जा सकते हैं।",
+            "लोग इनवर्टर या जनरेटर का सहारा लेने लगते हैं।"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "लोग इनवर्टर या जनरेटर का सहारा लेने लगते हैं।"
+          }
+        },
+        "english": {
+          "context": "During summer, the load on the power grid rises sharply. Demand increases further as ACs and coolers run continuously. In many areas the electricity department is forced to resort to load-shedding. Power stays out for hours, especially in the afternoons.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "People drink more water during summer.",
+            "Electricity bills can now be paid online every month.",
+            "Installing solar panels can save money.",
+            "People start relying on inverters or generators."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "People start relying on inverters or generators."
+          }
+        }
+      },
+      "explanation": "The cause-effect chain of rising demand leading to load-shedding logically continues with people's immediate coping response, i.e. backup power sources.",
+      "metadata": {
+        "register": "summer-utilities",
+        "cultural_markers": [
+          "load-shedding",
+          "inverter/generator backup"
+        ]
+      }
+    }
+  ]
+}

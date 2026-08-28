@@ -1,0 +1,206 @@
+{
+  "dataset": "Punjabi Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "punjabi_to_english",
+  "task_description": "Translate the given Punjabi sentence into natural, idiomatic English. Correct translation requires understanding sarcasm, politeness formulas, and pragmatic meaning.",
+  "items": [
+    {
+      "id": "pa_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "sarcasm",
+        "indirect-complaint"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Jado Uday ne kamm pura nahi kita te der naal boss nu message kita, tan boss ne keha, \"Tussi vi kamaal karde ho, hun yaad aaya message karna?\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When Uday didn’t finish the work and messaged the boss very late, the boss said, “Wow, I am really disappointed, you only remembered to message now?”"
+      },
+      "notes": "‘Tussi vi kamaal karde ho’ is sarcastic here. The speaker is expressing annoyance rather than genuine praise."
+    },
+    {
+      "id": "pa_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "sarcasm",
+        "social-reproach"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Kai dina baad jado Aman ne apne dost nu phone kita, tan dost ne hass ke keha, \"Tussi tan ajj kal bathere busy lag rahe ho, sadi yaad vi nahi aayi.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "After many days when Aman finally called his friend, the friend laughed and said, “You seem to have been very busy lately ,you dprobably have forgotten me.”"
+      },
+      "notes": "This sentence carries a mild sarcastic complaint about being ignored."
+    },
+    {
+      "id": "pa_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "politeness",
+        "leave-taking"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Jado mehmaan kaafi der tak baith chuke si, tan uthde hoye oh kehnde ne, \"Chalo ji, hun asi vi chalde haan, tuhanu hor tang nahi karde.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "After sitting for quite a while, the guests got up and said, “Alright then, we should get going now, we won’t trouble you any longer.”"
+      },
+      "notes": "A conventional polite leave-taking formula used in Punjabi hospitality."
+    },
+    {
+      "id": "pa_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "resignation",
+        "character-judgment"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Kai vaar samjhaun de baad vi jado Ravi ne apni aadat nahi badli, tan ohda dost kehnda hai, \"Ohnu bathera samjhaya, par oh taan ji... eho jeha hi hai.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Even after explaining many times when Ravi still didn’t change his habit, his friend said, “I’ve explained it to him so many times, but well… that’s just the way he is.”"
+      },
+      "notes": "Expresses resignation about someone's unchanging nature."
+    },
+    {
+      "id": "pa_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "ritual-modesty",
+        "gratitude"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Jado kise ne Gurpreet di bahut tareef kiti, tan oh nimrata naal kehnda hai, \"Sada ki, assi taan kuch nahi, bas tuhadi meherbani hai ji.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When someone praised Gurpreet a lot, he humbly replied, “Oh, it’s nothing on my part — it’s all thanks to your kindness.”"
+      },
+      "notes": "A humility formula where the speaker downplays their own contribution."
+    },
+    {
+      "id": "pa_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "affectionate-scolding",
+        "rhetorical-question"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Jado chhota bhra phir koi bewakoofi wali gal kar dinda hai, tan vadda bhra hass ke kehnda hai, \"Oye pagle, tera ki banega?\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When the younger brother says something silly again, the older brother laughs and says, “Oh you silly one — what’s going to become of you?”"
+      },
+      "notes": "An affectionate scolding expressed through a rhetorical question."
+    },
+    {
+      "id": "pa_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "oath",
+        "self-curse",
+        "assertion"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Jado sabhne usda yakeen na kita, tan usne keha, \"Je main jhoot bolda hovan taan mainu maa da doodh na bakshe.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When no one believed him, he said, “I swear on my mother - may I never be forgiven if I'm lying.”"
+      },
+      "notes": "The form is a curse the speaker calls down upon himself, but the act is an emphatic assertion of truthfulness. A literal rendering reads as strange self-directed violence and hides the fact that he is simply swearing he is telling the truth."
+    },
+    {
+      "id": "pa_tr_010",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "blessing-as-dismissal",
+        "refusal",
+        "face-saving"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Jado feriwala vaar vaar bhukan laga, tan bibi ne darwaze toh keha, \"Rabb bhala kare puttar, agge jao.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When the hawker kept insisting, the woman said from the doorway, “Bless you, son, now move along.”"
+      },
+      "notes": "A blessing wrapped around a directive: the words are entirely warm while the act is a refusal and dismissal. A translation keeping only the blessing loses the refusal; one keeping only the dismissal loses the face-saving warmth. Both halves must survive."
+    },
+    {
+      "id": "pa_tr_011",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "ritual-apology",
+        "pre-emptive-face-work",
+        "disagreement"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Meeting vich sab ton chhote employee ne keha, \"Gustakhi maaf ho ji, par mainu lagda hai eh figures theek nahi ne.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "In the meeting, the most junior employee said, “With respect, sir, but I don't think these figures are right.”"
+      },
+      "notes": "‘Gustakhi maaf ho ji’ is not an apology for anything already done; it is advance face-work that licenses the disagreement which follows. Rendering it as a genuine apology (‘Please forgive my rudeness’) implies the speaker has already given offence."
+    },
+    {
+      "id": "pa_tr_012",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "honorific-third-person",
+        "deference",
+        "offer"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Chah da cup faddi Simran ne apne sohre nu keha, \"Papa ji nu chah chahidi hai?\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Holding the cup of tea, Simran said to her father-in-law, “Would you like some tea, Papa ji?”"
+      },
+      "notes": "Simran addresses her father-in-law directly but refers to him in the third person as a deference convention. English has no equivalent, so a literal translation makes it sound as though she is asking someone else about an absent person, converting a direct offer into a report."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "dataset": "Tamil Pragmatics - Speech Acts NLI",
+  "version": "0.1",
+  "label_space": [
+    "entailment",
+    "contradiction",
+    "neutral"
+  ],
+  "items": [
+    {
+      "id": "ta_sa_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "hyperbole",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Na nooru thadava veetla vilayaadathanu sollirukennu kovama appa Rajuta sonnanga",
+          "hypothesis": "Appa Raju kitta 99 thadava ithu sollirukanga."
+        },
+        "tamil": {
+          "premise": "நா நூறு தடவ வீட்ட்ல விளையாடாதனு சொல்றுகேன்னு கோவமா அப்பா ராஜுட சொன்னாங்க",
+          "hypothesis": "அப்பா ராஜு கிட்ட 99 தடவ இது சொல்றிருக்காங்க."
+        },
+        "english": {
+          "premise": "The father angrily told Raju, \"I have told you 100 times, don’t play ball in the house.\"",
+          "hypothesis": "The father has said this same thing to Raju 99 times before."
+        }
+      },
+      "explanation": "The father's '100 times' is conventional numeric hyperbole used in scolding, not a literal count. The utterance does not entail he said it exactly 99 times before, so the hypothesis is false (contradiction).",
+      "metadata": {
+        "register": "family/home",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Tamil parental scolding commonly uses numeric hyperbole (e.g., '100 times')"
+        ],
+        "annotation_policy_note": "Treat numeric expressions in parental scolding as non-literal hyperbole unless context shows precise counting.",
+        "authors_note": "Checks whether models wrongly infer exact counts from hyperbolic speech acts."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_sa_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "desire-for-information",
+        "obligation-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Parkku polaam ana epo assignment deadline irukunu yosichutu irundennu Murugan sonnan",
+          "hypothesis": "Muruganta deadline eponu sollanum"
+        },
+        "tamil": {
+          "premise": "பார்க்கு போலாம் ஆனா எப்போ அசைன்மெண்ட் டெட்லைன் இருக்குனு யோசிச்சுடு இருந்தென்னு முருகன் சொன்னான்",
+          "hypothesis": "முருகன்டா டெட்லைன் எப்போனு சொல்லணும்"
+        },
+        "english": {
+          "premise": "Murugan said, \"We can go to the park, but I was wondering when our assignment deadline is.\"",
+          "hypothesis": "I should tell Murugan the deadline."
+        }
+      },
+      "explanation": "The premise shows Murugan is curious about the deadline, but it doesn’t state that the speaker knows it or that they have an obligation to tell. That’s a pragmatic inference, not entailed.",
+      "metadata": {
+        "register": "friends/student-life",
+        "cultural_markers": [
+          "casual park hangout, study talk"
+        ],
+        "authors_note": "Tests separation of desire-for-information from deontic obligation (“should tell”)."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_sa_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "modesty-formula",
+        "emotion-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Edhum perusa panla, chumma bun parotta panna try pannennu Geetha sonnanga",
+          "hypothesis": "Geetha ethuvum nallaa samaikkala"
+        },
+        "tamil": {
+          "premise": "எதும்பெருசா பண்ணல, சும்மா பன் பரோட்டா பண்ணா ட்ரை பண்ணென்னு கீதா சொன்னாங்க",
+          "hypothesis": "கீதா எதுவும் நல்லா சமைக்கல"
+        },
+        "english": {
+          "premise": "Geetha said, \"I didn’t do anything special, I just tried making some bun parotta.\"",
+          "hypothesis": "Geetha did not cook anything well."
+        }
+      },
+      "explanation": "This is a modesty formula where Geetha downplays her cooking skills. The hypothesis incorrectly infers genuine poor cooking ability from this modesty talk, leading to contradiction.",
+      "metadata": {
+        "register": "home/cooking",
+        "cultural_markers": [
+          "ritual modesty in self-evaluation of cooking"
+        ],
+        "authors_note": "Designed to test whether the model overcommits from modesty talk to strong negative emotion."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_sa_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "request-for-action"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kamal, Seval koovi ivlo neram aachu innuma thoongittu irukkanu amma kettanga",
+          "hypothesis": "Amma Kamal kitta enthirikka solranga"
+        },
+        "tamil": {
+          "premise": "கமல், செவல் கூவி இவ்ளோ நேரம் ஆச்சு இன்னுமா தூங்கிட்டு இருக்குனு அம்மா கேட்டாங்க",
+          "hypothesis": "அம்மா கமல் கிட்ட எந்திரிக்க சொல்றாங்க"
+        },
+        "english": {
+          "premise": "Kamal, how much time has passed since the cock crowed? Are you still sleeping? asked mother",
+          "hypothesis": "Mother is asking Kamal to wake up."
+        }
+      },
+      "explanation": "The premise shows a mother asking Kamal how much time has passed since the cock crowed and whether he is still sleeping. The hypothesis correctly identifies that the mother is asking Kamal to wake up.",
+      "metadata": {
+        "register": "home/family",
+        "cultural_markers": [
+          "mother's concern for child's well-being",
+          "traditional family communication patterns",
+          "significance of waking up early"
+        ],
+        "authors_note": "Tests recognition of a request-for-action speech act."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_sa_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "pragmatic-refusal"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Naalaikku dhan thaathaavukku devasam adhukku aprom Raadha nichayadhaarthathukku varamudiyuma theriyala, pakkalamnu Rekha sonnanga",
+          "hypothesis": "Rekha Raadha Nichayadhaarthathukku povanga"
+        },
+        "tamil": {
+          "premise": "நாளைக்கு தான் தாத்தாவுக்கு தேவசம், அதுக்கு அப்புறம் ராதா நிச்சயதார்த்தத்துக்கு வர முடியுமா தெரியல, பாக்கலாம்னு ரேகா சொன்னாங்க",
+          "hypothesis": "ரேகா ராதா நிச்சயதார்த்தத்துக்கு போவாங்க"
+        },
+        "english": {
+          "premise": "Tomorrow is grandfather's memorial Rite, and after that we don't know if we can come for Radha's engagement, let's see, said Rekha",
+          "hypothesis": "Rekha will go to Radha's engagement."
+        }
+      },
+      "explanation": "Rekha's statement uses 'pakkalam' ('we'll see'), which in this context is often a polite refusal rather than genuine uncertainty. Given the mention of the grandfather's memorial rite, Tamil cultural norms also make attendance at an auspicious function like an engagement unlikely during mourning observance. So the hypothesis that Rekha will go is contradicted by the premise.",
+      "metadata": {
+        "register": "home/family",
+        "cultural_markers": [
+          "polite refusal via 'pakkalam' (we'll see)",
+          "mourning observance before auspicious events",
+          "family ritual scheduling constraints"
+        ],
+        "authors_note": "Tests whether models capture pragmatic refusal and mourning-related cultural constraints, rather than reading the utterance as a plan to attend."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_sa_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "compliment",
+        "pragmatic-implication"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Intha pattu paavaadai unakkaagave alaveduthu senja madiri irukku, kandipa vangikalamnu Raji sonnnaga",
+          "hypothesis": "Raji pattu paavadai vaanga kadaikku vandhurukanga"
+        },
+        "tamil": {
+          "premise": "இந்த பட்டு பாவாடை உனக்காகவே அலவெடுத்து செஞ்ச மாதிரி இருக்க, கண்டிப்பா வாங்கலாம் என்று ராஜி சொன்னாங்க",
+          "hypothesis": "ராஜி பட்டு பாவாடை வாங்க கடைக்கு வந்துருக்காங்க"
+        },
+        "english": {
+          "premise": "This silk skirt looks like it was made just for you, we can definitely buy it, said Raji",
+          "hypothesis": "Raji has come to the store to buy silk skirt."
+        }
+      },
+      "explanation": "Raji's statement is a compliment and an expression of willingness to buy the skirt, but it does not confirm that Raji has actually come to the store or that the purchase will happen. The hypothesis is neutral because it could be true or false based on the premise.",
+      "metadata": {
+        "register": "home/shopping",
+        "cultural_markers": [
+          "affirmation vs. commitment distinction",
+          "politeness in expressing preferences"
+        ],
+        "authors_note": "Tests whether models correctly identify that an expression of willingness to buy does not entail that the buyer has arrived at the store or that the purchase is certain."
+      },
+      "label": "neutral"
+    }
+  ]
+}

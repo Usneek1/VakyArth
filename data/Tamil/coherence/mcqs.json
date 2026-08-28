@@ -1,0 +1,389 @@
+{
+  "dataset": "Tamil Pragmatics - Discourse & Coherence MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_disc_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction",
+        "profile-continuity"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Tamilnadu, India la irukurathulaaye south la irukkura state. Idhu areavula 10-avathu periya state, janathila 6-avathu periyadhu. Tamilnadula la iruka makkal tamil pesuvaanga",
+          "question": "Ithukku aduthu enna vari varalaam",
+          "options": [
+            "Tamilnadukku naraya sutrula payanigal varuvaanga",
+            "Chennai dhan thalainagaram",
+            "Tamil classica solappadum Thirukkural, Thiruvalluvar ezhuthina irattai vari kavithai thoguppu.",
+            "Tamil cinema industryah kollywoodnu solluvaanga."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Chennai dhan thalainagaram"
+          }
+        },
+        "tamil": {
+          "context": "தமிழ்நாடு இந்தியாவின் தென்மேற்கு மாநிலமாகும். பரப்பளவின்படி பத்தாவது பெரிய மாநிலமாகவும், மக்கள் தொகை அடிப்படையில் ஆறாவது பெரிய மாநிலமாகவும் தமிழ்நாடு உள்ளது. தமிழ்நாட்டில் தமிழர் வாழ்கின்றனர், அவர்கள் தமிழ் மொழியை பேசுகின்றனர்.",
+          "question": "அதற்கு அடுத்த வரி என்னவாக இருக்கலாம்?",
+          "options": [
+            "தமிழ்நாட்டுக்கு நிறைய சுற்றுலா பயணிகள் வருவார்கள்",
+            "சென்னை தான் தலைநகரமம்",
+            "தமிழ் கிளாசிக்கா சொல்லப்படும் திருக்குறள், திருவள்ளுவர் எழுதின இரட்டை வரிக் கவிதை தொகுப்பு.",
+            "தமிழ் சினிமா இன்டஸ்ட்ரியை கொலிவுட்னு சொல்லுவாங்க."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "சென்னை தான் தலைநகரமும்"
+          }
+        },
+        "english": {
+          "context": "Tamil Nadu is the southernmost state of India. The tenth largest Indian state by area and the sixth largest by population, Tamil Nadu is the home of the Tamil people, who speak the Tamil language",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Many tourists visit Tamilnadu.",
+            "The capital city is Chennai.",
+            "Tamil classic Tirukkural by Thiruvalluvar, a collection of couplets.",
+            "The Tamil film industry, nicknamed as Kollywood."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The capital and largest city is Chennai."
+          }
+        }
+      },
+      "explanation": "The paragraph introduces Tamil Nadu and its people; the most coherent next sentence is about its capital city, Chennai, continuing the factual description.",
+      "metadata": {
+        "register": "geography/general",
+        "cultural_markers": []
+      }
+    },
+    {
+      "id": "ta_disc_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction",
+        "causal-coherence"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Nethu madhiyam romba mazhai peinjudhu. Kaathum vegama adichuthu. Mazhai ninnathukappuram ella roadlayum thanni thengi ninnuchu. Adhanala innaiku school bus konjam latea vandhuchu. Pasanga ellam kudai eduthutu vandhaanga.",
+          "question": "Aduthu vaakiyam enna irukkalaam?",
+          "options": [
+            "Mazhai konjam kashtatha undaakiduchu",
+            "Ellaarum mazhaiyai enjoy panninaanga",
+            "Sila pasangalukku mazhainaala sali kaichal vanduruchu",
+            "Nathu modama irunduchu"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Sila pasangalukku mazhai naala sali kaichal vanduruchu"
+          }
+        },
+        "tamil": {
+          "context": "நேத்து மதியம் ரொம்ப மழை பெய்ஞ்சுது. காத்தும் வேகமா அடிச்சுது. மழை நின்னதுக்கப்புறம் எல்லா ரோட்லயும் தண்ணி தேங்கிநின்னுச்சு. அதனால இன்று ஸ்கூல் பஸ் கொஞ்சம் லேட்டா வந்துச்சு. பசங்க எல்லாம் குடை எடுத்துட்டு வந்தாங்க.",
+          "question": "அடுத்த வாக்கியம் என்ன இருக்கலாம்?",
+          "options": [
+            "மழை கொஞ்சம் கஷ்டதா உண்டாகிடுச்சு",
+            "எல்லாரும் மழையை எஞ்சாய் பண்ணினாங்க",
+            "சில பசங்களுக்கு மழைநால சளி காய்ச்சல் வந்துருச்சு",
+            "நேத்து மோடமா இருந்துச்சு"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "சில பசங்களுக்கு மழைநால சளி காய்ச்சல் வந்துருச்சு"
+          }
+        },
+        "english": {
+          "context": "It rained a lot yesterday evening. The wind was really strong too. After the rain stopped, water got collected all over the roads. So, the school bus came a bit late today. The kids brought umbrellas.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "The rain caused some inconvenience.",
+            "Everyone enjoyed the rain",
+            "A few kids got cold and fever due to the rain.",
+            "It was gloomy yesterday"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "A few kids got cold and fever due to the rain."
+          }
+        }
+      },
+      "explanation": "The paragraph describes the weather conditions and their effects; the most coherent next sentence is about some kids getting cold and fever due to the rain.",
+      "metadata": {
+        "register": "school/weather",
+        "cultural_markers": []
+      }
+    },
+    {
+      "id": "ta_disc_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Doctor aagurathukku naraya effort podanum. Mudhalla NEET exam clear pannanum. Medical collegela la 5½ varusham MBBS padikkanum. Anga padikkurathu romba kashtama irukkum. Aana idhu oru punithamaana velai. Specialization panna innum konjam varusham aagum.",
+          "question": "Entha vari intha paragraphukku sariya serala",
+          "options": [
+            "Doctor aagurathukku naraya effort podanum.",
+            "Anga padikkurathu romba kashtama irukkum.",
+            "Aana idhu oru punithamaana velai.",
+            "Specialization panna innum konjam varusham aagum."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Aana idhu oru punithamaana velai."
+          }
+        },
+        "tamil": {
+          "context": "டாக்டர் ஆகுறதுக்கு நிறைய எஃபோர்ட் போடணும். முதல்ல NEET எக்ஸாம் கிளியர் பண்ணணும். மெடிக்கல் கல்லூரியில் 5½ வருடம் MBBS படிக்கணும். அங்க படிக்குறது ரொம்ப கஷ்டமா இருக்கும். ஆனா இது ஒரு புனிதமான வேலை. ஸ்பெஷலிசேஷன் பண்ண இன்னும் கொஞ்சம் வருடம் ஆகும்.",
+          "question": "எந்த வரி இந்த பாராக்ராஃபுக்கு சரியா சேரல",
+          "options": [
+            "டாக்டர் ஆகுறதுக்கு நிறைய எஃபோர்ட் போடணும்.",
+            "அங்க படிக்குறது ரொம்ப கஷ்டமா இருக்கும்.",
+            "ஆனா இது ஒரு புனிதமான வேலை.",
+            "ஸ்பெஷலிசேஷன் பண்ண இன்னும் கொஞ்சம் வருடம் ஆகும்."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ஆனா இது ஒரு புனிதமான வேலை."
+          }
+        },
+        "english": {
+          "context": "Becoming a doctor requires a lot of hard work. The first step is clearing the NEET exam. Medical college requires completing a 5.5-year MBBS degree. The studies there are quite difficult. But medicine is a noble profession. Specializing in medicine takes several additional years.",
+          "question": "Which sentence does NOT fit the paragraph?",
+          "options": [
+            "Becoming a doctor requires a lot of effort.",
+            "The studies there are very difficult.",
+            "But medicine is a noble service.",
+            "Specialization takes several more years."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "But medicine is a noble service."
+          }
+        }
+      },
+      "explanation": "All sentences describe steps, duration, or effort; only the moral evaluation about 'noble service' breaks the structural coherence.",
+      "metadata": {
+        "register": "education/careers",
+        "cultural_markers": [
+          "medical-education",
+          "NEET-exam",
+          "MBBS",
+          "specialization"
+        ]
+      }
+    },
+    {
+      "id": "ta_disc_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Tamilnadunaale koyil thaan mudalla nyaapakam varum, aana malaipakuthiyum semma azhaga irukkum. Ooty, Kodaikanal maathiri idangalukku veyil kaalathula kootam alaimodum. Andha malai mela irukkura jillunna irukkira kaathum, iyarkai azhagum avlo nallaa irukkum!",
+          "question": "Aduthu vari ennavaaga irukkalaam?",
+          "options": [
+            "Tamilnattula kadarkaraiyku velaiye illa.",
+            "Ooty, Kodaikanal ellam tourist porathukku semma spot.",
+            "Malaipakuthiyil veyil adichu oore kaaynchu poyirukkum.",
+            "Yaarume Tamilnattukku tourist poga maattaanga."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Aana idhu oru punithamaana velai."
+          }
+        },
+        "tamil": {
+          "context": "தமிழ்நாடுன்னாலே கோயில் தான் முதல்ல ஞாபகம் வரும், ஆனா மலைப்பகுதியும் செம்ம அழகா இருக்கும். ஊட்டி, கொடைக்கானல் மாதிரி இடங்களுக்கு வெயில் காலத்துல கூட்டம் அலைமோதும். அந்த மலை மேல இருக்குற ஜில்லுன்னு இருக்கிற காத்தும், இயற்கை அழகும் அவ்ளோ நல்லா இருக்கும்!",
+          "question": "அடுத்த வரி என்னவாக இருக்கலாம்?",
+          "options": [
+            "தமிழ்நாட்டுல கடற்கரைக்கு வேலையே இல்ல.",
+            "ஊட்டி, கொடைக்கானல் எல்லாம் டூரிஸ்ட் போறதுக்கு செம்ம ஸ்பாட்.",
+            "மலைப் பகுதில வெயில் அடிச்சு ஊரே காய்ஞ்சு போயிருக்கும்.",
+            "யாருமே தமிழ்நாட்டுக்கு டூரிஸ்ட் போக மாட்டாங்க."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ஊட்டி, கொடைக்கானல் எல்லாம் டூரிஸ்ட் போறதுக்கு செம்ம ஸ்பாட்."
+          }
+        },
+        "english": {
+          "context": "Tamil Nadu is known for its temples, but the hill stations are also very beautiful. Places like Ooty and Kodaikanal are crowded with tourists during the summer. The cool breeze and natural beauty of the hills make it a wonderful experience!",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Tamilnadu does not need any beaches.",
+            "Ooty and Kodaikanal are great tourist spots.",
+            "The heat in the hills can be unbearable.",
+            "No one visits Tamilnadu as a tourist."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ooty and Kodaikanal are great tourist spots."
+          }
+        }
+      },
+      "explanation": "The paragraph describes the beauty of Tamil Nadu's temples and hill stations; the most coherent next sentence is about Ooty and Kodaikanal being great tourist spots, which fits the theme of natural beauty and tourism.",
+      "metadata": {
+        "register": "travel/tourism",
+        "cultural_markers": [
+          "hill-stations",
+          "temples",
+          "tourism"
+        ]
+      }
+    },
+    {
+      "id": "ta_disc_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection",
+        "cultural-specificity"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Namma ooru viseshamaanaave vaazhai ilaiyil podura saappadu thaan highlight! Suda sudha saadam, athukku mela paruppu, nei, appuram varisaiyaa vaikkira kootu, poriyalnu oru periya listae irukkum. Kadasiyaa andha paayasaathula mudiyarappo irukke, andha sugame thanithaan.",
+          "question": "Aduthu vari ennavaaga irukkalaam?",
+          "options": [
+            "Vaazhai ilaiyil saappiduraathu ippothu yaarum pannurathae illa.",
+            "Ilai pottu saappiduraathu romba kashtamaana velai.",
+            "Athoada oraththula varra vadaiyo, appalamao andha virundukké oru thani keththudhaan.",
+            "Vaazhai ilai virundunalé namakku alarjithaan."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Athoada oraththula varra vadaiyo, appalamao andha virundukke oru thani keththudhaan."
+          }
+        },
+        "tamil": {
+          "context": "நம்ம ஊரு விசேஷம்னாவே வாழை இலையில போடுற சாப்பாடு தான் ஹைலைட்டு! சுட சுட சாதம், அதுக்கு மேல பருப்பு, நெய், அப்புறம் வரிசையா வைக்கிற கூட்டு, பொரியல்னு ஒரு பெரிய லிஸ்ட்டே இருக்கும். கடைசியா அந்த பாயசத்துல முடியறப்போ இருக்கே, அந்த சுகமே தனிதான்.",
+          "question": "இந்த விஷயத்துக்கு அடுத்து என்ன சொன்னா கரெக்டா இருக்கும்?",
+          "options": [
+            "வாழை இலையில சாப்பிடுறது இப்போ யாரும் பண்ணுறதே இல்ல.",
+            "இலை போட்டு சாப்பிடுறது ரொம்ப கஷ்டமான வேலை.",
+            "அதோட ஒரு ஓரத்துல வர்ற வடையோ, அப்பளமோ அந்த விருந்துக்கே ஒரு தனி கெத்துதான்.",
+            "வாழை இலை விருந்துனாலே நமக்கு அலர்ஜிதான்."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "அதோட ஒரு ஓரத்துல வர்ற வடையோ, அப்பளமோ அந்த விருந்துக்கே ஒரு தனி கெத்துதான்."
+          }
+        },
+        "english": {
+          "context": "The banana leaf meal is a highlight of our town! Steaming hot rice, topped with lentils, ghee, and a variety of side dishes like poriyal and kootu. Finally, the sweet payasam to end the meal is the ultimate delight.",
+          "question": "What would be a coherent next sentence?",
+          "options": [
+            "Eating on a banana leaf is not common anymore.",
+            "Using a banana leaf for meals is a very difficult task.",
+            "Along with this, the vadai or appalam on the side is the special touch to the feast.",
+            "Banana leaf meals cause allergies."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Along with this, the vadai or appalam on the side is the special touch to the feast."
+          }
+        }
+      },
+      "explanation": "The paragraph describes the components of a traditional banana leaf meal; the most coherent next sentence is about the vadai or appalam being a special touch, which fits the theme of describing the meal's elements.",
+      "metadata": {
+        "register": "food/culture",
+        "cultural_markers": [
+          "banana-leaf-meal",
+          "traditional-food",
+          "payasam",
+          "poriyal",
+          "kootu"
+        ]
+      }
+    },
+    {
+      "id": "ta_disc_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ooru thiruvizhaannaale andha areaave amarkalappadum! Raatinam suthura satham, kadalai avikkura vaasanai, appuram koyil munnaadi andha aattam paattamnu ore kondattama irukkum. Indha varusham nadakkappora thiruvizhaakku oore vidiya vidiya kaathirukkum, avvalavu pandavaaa andha thiruvizhaa irukkum.",
+          "question": "Indha vishayathukku aduthu enna sonna sariya irukkum?",
+          "options": [
+            "Thiruvizhaavula yendha oru viseshamum irukkadhu.",
+            "Andha nerathula ellaarum veettai poottittu veliyurukku poyiduvanga.",
+            "Sontha pandamellam onnaa serndhu andha thiruvizhaa oru oor thiruvizhaa illaama oru kudumba vizhaavaave kondadhuvanga.",
+            "Koyil thiruvizhaanna saami kumbida mattum thaane povanga, mathapadi ethuvume irukkadhu."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Athoada oraththula varra vadaiyo, appalamao andha virundukke oru thani keththudhaan."
+          }
+        },
+        "tamil": {
+          "context": "ஊர் திருவிழாவானாலே அந்த ஏரியாவே அமர்க்களப்படும்! ராத்தினம் சுத்துர சத்தம், கடலை அவிக்குற வாசனை, அப்புறம் கோயில் முன்னாடி அந்த ஆட்டம் பாட்டம்னு ஒரே கொண்டாட்டமா இருக்கும். இந்த வருடம் நடக்கப்போற திருவிழாவுக்கு ஊர் விடிய விடிய காத்திருக்கும, அவ்வளவு பண்டவா அந்த திருவிழா இருக்கும்.",
+          "question": "இந்த விஷயத்துக்கு அடுத்து என்ன சொன்னா சரியா இருக்கும்?",
+          "options": [
+            "திருவிழாவுல எந்த ஒரு விசேஷமும் இருக்காது.",
+            "அந்த நேரத்துல எல்லாரும் வீட்டை பூட்டிட்டு வெளியூருக்கு போயிடுவாங்க.",
+            "சொந்த பந்தமெல்லாம் ஒண்ணா சேர்ந்து அந்த திருவிழாவை ஒரு ஊர் திருவிழாவா இல்லாம ஒரு குடும்ப விழாவாவே கொண்டாடுவாங்க.",
+            "கோயில் திருவிழானா சாமி கும்பிட மட்டும் தான் போவாங்க, மத்தபடி எதுவுமே இருக்காது."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "சொந்த பந்தமெல்லாம் ஒண்ணா சேர்ந்து அந்த திருவிழாவை ஒரு ஊர் திருவிழாவா இல்லாம ஒரு குடும்ப விழாவாவே கொண்டாடுவாங்க."
+          }
+        },
+        "english": {
+          "context": "The town's festival is a grand celebration! The sound of giant wheel, the aroma of cooked peanuts, and the traditional dance and music in front of the temple create a festive atmosphere. This year, the whole town is eagerly waiting for the festival, which promises to be a grand event.",
+          "question": "What would be a coherent next sentence?",
+          "options": [
+            "There is nothing special about the festival.",
+            "Everyone locks their homes and goes out of town during the festival.",
+            "All the families come together to celebrate the festival as a family event rather than just a community gathering.",
+            "The temple festival is only for worshiping the deity, there are no other activities."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "All the families come together to celebrate the festival as a family event rather than just a community gathering."
+          }
+        }
+      },
+      "explanation": "The paragraph describes the vibrant atmosphere of the town's festival, highlighting the communal celebration. The most coherent next sentence is about all the families coming together to celebrate the festival as a community event, which fits the theme of unity and festivity.",
+      "metadata": {
+        "register": "cultural-festivals",
+        "cultural_markers": [
+          "local-festivals",
+          "community-celebration",
+          "traditional-dance",
+          "cooked-peanuts"
+        ]
+      }
+    }
+  ]
+}

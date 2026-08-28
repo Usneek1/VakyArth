@@ -1,0 +1,489 @@
+{
+  "dataset": "Punjabi Pragmatics - Deixis NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_deix_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Aakhri line vich Gagan apni job baare gal kar reha hai.",
+          "premise": [
+            {
+              "speaker": "Gagan",
+              "utterance": "Yaar, mai apni job chhad ke business shuru karan di soch raha han."
+            },
+            {
+              "speaker": "Navdeep",
+              "utterance": "Bai, eh taan bahut risk vaala kaam hai."
+            },
+            {
+              "speaker": "Gagan",
+              "utterance": "Haan, par bina eh kite, success nahi mil sakdi."
+            }
+          ]
+        },
+        "gurmukhi": {
+          "hypothesis": "ਆਖਰੀ ਲਾਈਨ ਵਿੱਚ ਗਗਨ ਆਪਣੀ ਜੌਬ ਬਾਰੇ ਗੱਲ ਕਰ ਰਿਹਾ ਹੈ।",
+          "premise": [
+            {
+              "speaker": "ਗਗਨ",
+              "utterance": "ਯਾਰ, ਮੈਂ ਆਪਣੀ ਜੌਬ ਛੱਡ ਕੇ ਬਿਜ਼ਨਸ ਸ਼ੁਰੂ ਕਰਨ ਦੀ ਸੋਚ ਰਿਹਾ ਹਾਂ।"
+            },
+            {
+              "speaker": "ਨਵਦੀਪ",
+              "utterance": "ਭਰਾ, ਇਹ ਤਾਂ ਬਹੁਤ ਰਿਸਕ ਵਾਲਾ ਕੰਮ ਹੈ।"
+            },
+            {
+              "speaker": "ਗਗਨ",
+              "utterance": "ਹਾਂ, ਪਰ ਬਿਨਾਂ ਇਹ ਕੀਤੇ, ਸਫਲਤਾ ਨਹੀਂ ਮਿਲ ਸਕਦੀ।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "In the last line, Gagan is talking about his job.",
+          "premise": [
+            {
+              "speaker": "Gagan",
+              "utterance": "I'm thinking of quitting my job to start a business."
+            },
+            {
+              "speaker": "Navdeep",
+              "utterance": "Bro, that's a very risky thing."
+            },
+            {
+              "speaker": "Gagan",
+              "utterance": "Yes, but without doing this, you can’t get success."
+            }
+          ]
+        }
+      },
+      "explanation": "Deictic 'eh/this' in the last line picks out the plan/action of starting the business (the risky thing), not the old job; hence the hypothesis is false.",
+      "metadata": {
+        "register": "friendly-conversation",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "discourse 'eh' used for abstract proposition"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_deix_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "reported-speech",
+        "person-deixis",
+        "social-deixis-kinship"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Shaam ne Raam nu keha, 'Mumma keh rhe si ki oh ajj shaam nu bahar ja rhe.'",
+          "hypothesis": "Shaam te Raam bhra han."
+        },
+        "gurmukhi": {
+          "premise": "ਸ਼ਿਆਮ ਨੇ ਰਾਮ ਨੂੰ ਕਿਹਾ, 'ਮੁੰਮਾ ਕਹਿ ਰਹੇ ਸਨ ਕਿ ਉਹ ਅੱਜ ਸ਼ਾਮ ਨੂੰ ਬਾਹਰ ਜਾ ਰਹੇ ਹਨ।'",
+          "hypothesis": "ਸ਼ਿਆਮ ਤੇ ਰਾਮ ਭਰਾ ਹਨ।"
+        },
+        "english": {
+          "premise": "Shyam told Ram, 'Mom was saying that she is going out this evening.'",
+          "hypothesis": "Shyam and Ram are brothers."
+        }
+      },
+      "explanation": "Under the dataset’s annotation policy we assume family address terms like 'Mumma' used when directly addressing a sibling refer to a shared mother; thus the premise licenses that Shyam and Ram are brothers. (If annotators choose a different policy, this item becomes 'neutral'.)",
+      "metadata": {
+        "register": "family",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "kinship term 'Mumma' implying shared parent under family-register assumption"
+        ],
+        "annotation_policy_note": "Treat 'Mumma' as shared mother when speaker directly addresses a sibling."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "pa_deix_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "time-deixis",
+        "reported-speech",
+        "center-shift"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Simran ne mainu raat 2 baje message kita: 'Ajj raat party bahut vadiya si.'",
+          "hypothesis": "Party ajj hai."
+        },
+        "gurmukhi": {
+          "premise": "ਸਿਮਰਨ ਨੇ ਮੈਨੂੰ ਰਾਤ 2 ਵਜੇ ਮੈਸੇਜ ਕੀਤਾ: 'ਅੱਜ ਰਾਤ ਪਾਰਟੀ ਬਹੁਤ ਵਧੀਆ ਸੀ।'",
+          "hypothesis": "ਪਾਰਟੀ ਅੱਜ ਹੈ।"
+        },
+        "english": {
+          "premise": "Simran messaged me at 2 a.m.: 'Tonight’s party was great.'",
+          "hypothesis": "The party is today."
+        }
+      },
+      "explanation": "At 2 a.m., Simran’s 'ajj raat/tonight' is already past (same night that just ended), marked by past 'si/was'; the hypothesis claims it is today (future/present), hence contradiction.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "midnight rollover affecting 'today/tonight' interpretation"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_deix_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "event-reference",
+        "scope-ambiguity-resolved"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Aakhri line vich ‘eh’ resign karan di gall wal ishara karda hai.",
+          "premise": [
+            {
+              "speaker": "Gurman",
+              "utterance": "Main kal resign kar reha haan."
+            },
+            {
+              "speaker": "Mehak",
+              "utterance": "Par interview taan agle hafte hai."
+            },
+            {
+              "speaker": "Gurman",
+              "utterance": "Eh sun ke hi main ruk gya."
+            }
+          ]
+        },
+        "gurmukhi": {
+          "hypothesis": "ਆਖ਼ਰੀ ਲਾਈਨ ਵਿੱਚ ‘ਇਹ’ ਰਿਜ਼ਾਈਨ ਕਰਨ ਵਾਲੀ ਗੱਲ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ।",
+          "premise": [
+            {
+              "speaker": "ਗੁਰਮਨ",
+              "utterance": "ਮੈਂ ਕੱਲ੍ਹ ਰਿਜ਼ਾਈਨ ਕਰ ਰਿਹਾ ਹਾਂ।"
+            },
+            {
+              "speaker": "ਮੇਹਕ",
+              "utterance": "ਪਰ ਇੰਟਰਵਿਊ ਤਾਂ ਅਗਲੇ ਹਫ਼ਤੇ ਹੈ।"
+            },
+            {
+              "speaker": "ਗੁਰਮਨ",
+              "utterance": "ਇਹ ਸੁਣ ਕੇ ਹੀ ਮੈਂ ਰੁਕ ਗਿਆ।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "In the last line, ‘this’ refers to the plan of resigning.",
+          "premise": [
+            {
+              "speaker": "Gurman",
+              "utterance": "I’m resigning tomorrow."
+            },
+            {
+              "speaker": "Mehak",
+              "utterance": "But the interview is next week."
+            },
+            {
+              "speaker": "Gurman",
+              "utterance": "Hearing this is exactly why I stopped."
+            }
+          ]
+        }
+      },
+      "label": "contradiction",
+      "explanation": "‘Eh/this’ in “Eh sun ke” points to Mehak’s immediately preceding statement about the interview timing, not Gurman’s earlier resign plan.",
+      "metadata": {
+        "difficulty": "very-hard",
+        "register": "friendly"
+      }
+    },
+    {
+      "id": "pa_deix_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "place-deixis",
+        "motion-deixis",
+        "conversation-grounding",
+        "reference-resolution"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "B nu pichle gate toh muhrle gate val jaana hai.",
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Yaar, tu kithe khada aa?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Paaji, mai station de muhrle gate te."
+            },
+            {
+              "speaker": "A",
+              "utterance": "Oh, mai pichla gate samjh ke odhe vall turr paya."
+            },
+            {
+              "speaker": "B",
+              "utterance": "Nhi nhi, tussi edher aa jao."
+            },
+            {
+              "speaker": "A",
+              "utterance": "Haan, mai halle parking vich aa, mai aunda haan."
+            }
+          ]
+        },
+        "gurmukhi": {
+          "hypothesis": "ਬੀ ਨੂੰ ਪਿੱਛਲੇ ਗੇਟ ਤੋਂ ਮੁਹਰਲੇ ਗੇਟ ਵੱਲ ਜਾਣਾ ਹੈ।",
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "ਯਾਰ, ਤੂੰ ਕਿੱਥੇ ਖੜਾ ਆਂ?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "ਪਾਜੀ, ਮੈਂ ਸਟੇਸ਼ਨ ਦੇ ਮੁਹਰਲੇ ਗੇਟ ‘ਤੇ।"
+            },
+            {
+              "speaker": "A",
+              "utterance": "ਓਹ, ਮੈਂ ਪਿੱਛਲਾ ਗੇਟ ਸਮਝ ਕੇ ਓਧੇ ਵੱਲ ਤੁਰ ਪਿਆ।"
+            },
+            {
+              "speaker": "B",
+              "utterance": "ਨਹੀਂ ਨਹੀਂ, ਤੁਸੀਂ ਐਧਰ ਆ ਜਾਓ।"
+            },
+            {
+              "speaker": "A",
+              "utterance": "ਹਾਂ, ਮੈਂ ਹਾਲੇ ਪਾਰਕਿੰਗ ਵਿੱਚ ਆਂ, ਮੈਂ ਆਉਂਦਾ ਹਾਂ।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "B has to go from the back gate to the front gate.",
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Hey, where are you standing?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "I’m at the front gate of the station."
+            },
+            {
+              "speaker": "A",
+              "utterance": "Oh, I started walking toward the back gate, thinking it was that one."
+            },
+            {
+              "speaker": "B",
+              "utterance": "No no, you come over here."
+            },
+            {
+              "speaker": "A",
+              "utterance": "Yes, I’m in the parking area right now, I’m coming."
+            }
+          ]
+        }
+      },
+      "label": "contradiction",
+      "explanation": "B is already at the front gate and asks A to come there ('edher aa jao'). The movement is assigned to A, not B, so the hypothesis is false.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "edher/odhe spatial contrast anchored to speaker location"
+        ]
+      }
+    },
+    {
+      "id": "pa_deix_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "place-deixis",
+        "speaker-perspective",
+        "climate-inference",
+        "discourse-update"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "BLR vich garmi nahi hai.",
+          "premise": [
+            {
+              "speaker": "Simran",
+              "utterance": "Yaar, ajj kal Akash kithe hai?"
+            },
+            {
+              "speaker": "Raj",
+              "utterance": "Akash BLR vich hai."
+            },
+            {
+              "speaker": "Simran",
+              "utterance": "Vadiya gal hai, uthe tan garmi hai, sade ethe bahut thand hai."
+            },
+            {
+              "speaker": "Raj",
+              "utterance": "Par uhda message aaya si, uthe vi bahut barish hundi hai."
+            }
+          ]
+        },
+        "gurmukhi": {
+          "hypothesis": "ਬੀ.ਐਲ.ਆਰ. ਵਿੱਚ ਗਰਮੀ ਨਹੀਂ ਹੈ।",
+          "premise": [
+            {
+              "speaker": "ਸਿਮਰਨ",
+              "utterance": "ਯਾਰ, ਅੱਜ ਕੱਲ੍ਹ ਆਕਾਸ਼ ਕਿੱਥੇ ਹੈ?"
+            },
+            {
+              "speaker": "ਰਾਜ",
+              "utterance": "ਆਕਾਸ਼ ਬੀ.ਐਲ.ਆਰ. ਵਿੱਚ ਹੈ।"
+            },
+            {
+              "speaker": "ਸਿਮਰਨ",
+              "utterance": "ਵਧੀਆ ਗੱਲ ਹੈ, ਉੱਥੇ ਤਾਂ ਗਰਮੀ ਹੈ, ਸਾਡੇ ਇੱਥੇ ਬਹੁਤ ਠੰਢ ਹੈ।"
+            },
+            {
+              "speaker": "ਰਾਜ",
+              "utterance": "ਪਰ ਉਹਦਾ ਮੈਸੇਜ ਆਇਆ ਸੀ, ਉੱਥੇ ਵੀ ਬਹੁਤ ਬਾਰਿਸ਼ ਹੁੰਦੀ ਹੈ।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "It is not warm in Bangalore.",
+          "premise": [
+            {
+              "speaker": "Simran",
+              "utterance": "Hey, where is Akash these days?"
+            },
+            {
+              "speaker": "Raj",
+              "utterance": "Akash is in Bangalore."
+            },
+            {
+              "speaker": "Simran",
+              "utterance": "That’s good — it’s warm there; it’s very cold here where we are."
+            },
+            {
+              "speaker": "Raj",
+              "utterance": "But he had messaged that it rains a lot there too."
+            }
+          ]
+        }
+      },
+      "label": "contradiction",
+      "explanation": "Simran says Bangalore is warm, while Raj adds that it also gets a lot of rain there. Rain does not contradict warmth, so the hypothesis 'it is not warm in Bangalore' is not entailed and not contradicted.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "uthe/ethe contrast with later discourse update about the same location"
+        ]
+      }
+    },
+    {
+      "id": "pa_deix_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "social-deixis",
+        "fictive-kinship",
+        "address-terms"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ek naujawan ne rickshaw wale nu keha, \"Bhaji, mainu station chhad dyo.\"",
+          "hypothesis": "Rickshaw wala naujawan da sagga bhira hai."
+        },
+        "gurmukhi": {
+          "premise": "ਇੱਕ ਨੌਜਵਾਨ ਨੇ ਰਿਕਸ਼ਾ ਵਾਲੇ ਨੂੰ ਕਿਹਾ, 'ਭਾਜੀ, ਮੈਨੂੰ ਸਟੇਸ਼ਨ ਛੱਡ ਦਿਓ।'",
+          "hypothesis": "ਰਿਕਸ਼ਾ ਵਾਲਾ ਨੌਜਵਾਨ ਦਾ ਸੱਗਾ ਭਰਾ ਹੈ।"
+        },
+        "english": {
+          "premise": "A young man told the rickshaw driver, 'Brother (bhaji), drop me at the station.'",
+          "hypothesis": "The rickshaw driver is the young man's biological brother."
+        }
+      },
+      "explanation": "'Bhaji' is a fictive-kinship term of respect commonly used to address strangers (rickshaw drivers, shopkeepers, etc.) in Punjabi, not a literal sibling reference. Nothing in the premise indicates an actual family relationship.",
+      "metadata": {
+        "register": "public/stranger-interaction",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "'bhaji' as a generalized respectful address term for strangers, not literal kinship"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_deix_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "time-deixis",
+        "place-deixis",
+        "asynchronous-communication",
+        "frozen-deictic-center"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Amit ne Rohan nu Priya da purana voice message forward kita jisde vich Priya keh rahi si, \"Main hun ethon sirf 5 minute door haan.\" Rohan ne oh voice note 2 ghante baad sunya.",
+          "hypothesis": "Jado Rohan ne voice note sunya, Priya othon sirf 5 minute door si."
+        },
+        "gurmukhi": {
+          "premise": "ਅਮਿਤ ਨੇ ਰੋਹਨ ਨੂੰ ਪ੍ਰਿਆ ਦਾ ਪੁਰਾਣਾ ਵੌਇਸ ਮੈਸੇਜ ਫਾਰਵਰਡ ਕੀਤਾ ਜਿਸ ਵਿੱਚ ਪ੍ਰਿਆ ਕਹਿ ਰਹੀ ਸੀ, 'ਮੈਂ ਹੁਣ ਇੱਥੋਂ ਸਿਰਫ਼ 5 ਮਿੰਟ ਦੂਰ ਹਾਂ।' ਰੋਹਨ ਨੇ ਉਹ ਵੌਇਸ ਨੋਟ 2 ਘੰਟੇ ਬਾਅਦ ਸੁਣਿਆ।",
+          "hypothesis": "ਜਦੋਂ ਰੋਹਨ ਨੇ ਵੌਇਸ ਨੋਟ ਸੁਣਿਆ, ਪ੍ਰਿਆ ਉੱਥੋਂ ਸਿਰਫ਼ 5 ਮਿੰਟ ਦੂਰ ਸੀ।"
+        },
+        "english": {
+          "premise": "Amit forwarded Rohan an old voice message from Priya in which she was saying, 'I'm just 5 minutes away from here now.' Rohan listened to the voice note 2 hours later.",
+          "hypothesis": "When Rohan listened to the voice note, Priya was still just 5 minutes away from there."
+        }
+      },
+      "explanation": "'Hun/ethon' (now/from here) in a recorded message are frozen at the moment of recording, not of listening. Two hours later, the '5 minutes away' claim no longer holds at playback time — this tests whether the model distinguishes recording-time from listening-time as separate deictic centers.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "forwarded voice notes freezing deictic 'now/here' at recording time"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_deix_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "time-deixis",
+        "place-deixis",
+        "synchronous-communication",
+        "deictic-center-alignment"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Simran ne apne dost Rita nu call te keha, \"Main hun ethe airport te khadi haan, flight land ho gayi hai.\"",
+          "hypothesis": "Simran call karde vele airport te si."
+        },
+        "gurmukhi": {
+          "premise": "ਸਿਮਰਨ ਨੇ ਆਪਣੀ ਦੋਸਤ ਰੀਤਾ ਨੂੰ ਕਾਲ 'ਤੇ ਕਿਹਾ, 'ਮੈਂ ਹੁਣ ਇੱਥੇ ਏਅਰਪੋਰਟ 'ਤੇ ਖੜ੍ਹੀ ਹਾਂ, ਫਲਾਈਟ ਲੈਂਡ ਹੋ ਗਈ ਹੈ।'",
+          "hypothesis": "ਸਿਮਰਨ ਕਾਲ ਕਰਦੇ ਵੇਲੇ ਏਅਰਪੋਰਟ 'ਤੇ ਸੀ।"
+        },
+        "english": {
+          "premise": "Simran told her friend Rita on a call, 'I'm standing here at the airport now, the flight has landed.'",
+          "hypothesis": "Simran was at the airport at the time of the call."
+        }
+      },
+      "explanation": "In a live, synchronous call, 'hun/ethe' (now/here) directly describe the speaker's real-time location at the moment of utterance, so the premise directly entails that Simran was at the airport while making the call.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "live call preserving real-time deictic alignment between speaker and utterance"
+        ]
+      },
+      "label": "entailment"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "dataset": "Punjabi Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "punjabi_to_english",
+  "task_description": "Translate the Punjabi sentence into natural, idiomatic English. Correct translation requires understanding idioms and pragmatic meaning rather than literal word-by-word translation.",
+  "items": [
+    {
+      "id": "pa_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "blessing",
+        "cultural-expression"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Jado main jaan lagga, taan daadi ne keha, 'Doodho nahao, pooto phalo.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When I was leaving, my grandmother blessed me saying, 'May you prosper and have many children.'"
+      },
+      "notes": "This is a traditional blessing. Literally it refers to bathing in milk and having many sons, but the meaning is wishing prosperity and a flourishing family."
+    },
+    {
+      "id": "pa_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "family-honor",
+        "reputation"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Sheila di sass kehndi, 'Gharo bhajj ke ohne saadi nakk katati.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Sheila’s mother-in-law said, 'By running away from home, she has brought shame to our family.'"
+      },
+      "notes": "‘Nakk katna’ (cutting the nose) is an idiom meaning losing family honor or reputation."
+    },
+    {
+      "id": "pa_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "marriage-relationship",
+        "figurative-language"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Shaam apni vohti nu akhan te bitha ke rakhda hai; je main kuch kahvan tan agg baboola ho janda hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Shaam treats his wife like a queen; if I say anything about her, he becomes furious."
+      },
+      "notes": "‘Akhan te bitha ke rakhna’ literally means 'to seat someone on one’s eyes' but idiomatically means treating someone with extreme affection or importance."
+    },
+    {
+      "id": "pa_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "proverb",
+        "moral-judgment"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Bhenji, jinha de ghar sheeshe de hunde ne, unhan dujeyan de ghar pathar nahi sutne chahide."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Sister, people who live in glass houses should not throw stones at others."
+      },
+      "notes": "This proverb warns against criticizing others when one has similar faults."
+    },
+    {
+      "id": "pa_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "marriage-expectations",
+        "social-commentary"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Gurbhajan jinna banda hai, par kehnde ne uhde kamm phoke han; is karke ohde baare kehnde ne 'uchha lamba gabru te palle thekkriyan.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Gurbhajan may look impressive, but people say he’s actually useless — all show and no substance."
+      },
+      "notes": "The phrase ‘uchha lamba gabru te palle thekkriyan’ suggests someone who looks strong or capable but lacks real ability or achievement."
+    },
+    {
+      "id": "pa_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "financial-hardship",
+        "metaphor"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Jado Seeta de ghar tin parivaran da gujara chal reha si, oh roh roh ke kehndi, 'Isabgol te kuch na phol.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When three families were depending on Seeta’s household for support, she cried and said, 'There’s barely anything to live on.'"
+      },
+      "notes": "The idiom suggests extreme scarcity — like something that cannot even swell like isabgol husk in water, implying there is not enough to sustain everyone."
+    },
+    {
+      "id": "pa_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "kinship-terms",
+        "lexical-gap",
+        "information-loss"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Vyah te taya ji, mama ji te phuphad ji teeno ikathe aa gaye, te bhua ji te mami ji vi naal si."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "At the wedding my father's elder brother, my mother's brother and my father's sister's husband all arrived together, along with my father's sister and my mother's brother's wife."
+      },
+      "notes": "Five kinship terms, each encoding side of the family, relative age, and blood versus marriage. English offers only 'uncle' and 'aunt', so a fluent translation loses every relationship while a faithful one becomes unwieldy. The item forces an explicit trade-off; models typically choose fluency and silently discard the distinctions."
+    },
+    {
+      "id": "pa_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "name-avoidance",
+        "honorific-plural",
+        "teknonymy"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Apne pati baare gall karde hoye Simran ne keha, \"Inhaan de papa ajj shehar gaye ne, aa ke dassange.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Speaking about her husband, Simran said, “My husband has gone to the city today; he'll tell us when he gets back.”"
+      },
+      "notes": "Simran never names her husband, referring to him as 'their father' (the children's) with honorific plural verb forms — a traditional avoidance convention. 'My husband' is the only natural English rendering, but it erases both the avoidance and the deference marking. The reference translation is deliberately the lossy one; the loss itself is what the item documents."
+    },
+    {
+      "id": "pa_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "culture-specific-event",
+        "collective-reference",
+        "register"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Bebe ne phone te keha, \"Agle etwaar munde wale kudi vekhan aa rahe ne, ghar theek kar lao.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Grandmother said on the phone, “Next Sunday the boy's family is coming to see the girl — get the house in order.”"
+      },
+      "notes": "'Kudi vekhan aaun' names a specific arranged-marriage viewing that has no English equivalent and sounds inspectional if rendered literally. 'Munde wale' is a collective social unit (the boy's side) for which English has no clean term. The challenge is keeping this as ordinary domestic speech rather than expanding it into an anthropological gloss."
+    }
+  ]
+}

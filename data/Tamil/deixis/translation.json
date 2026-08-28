@@ -1,0 +1,132 @@
+{
+  "dataset": "Tamil Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "tamil_to_english",
+  "task_description": "Translate the given Tamil sentence into natural, idiomatic English. Correct translation requires understanding deictic expressions words that encode spatial, temporal, and personal reference and rendering them accurately in context, not just literally.",
+  "items": [
+    {
+      "id": "ta_deix_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "spatial-deixis",
+        "demonstratives",
+        "object-reference"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "இந்த பூசணி பார்க்க பிஞ்சா இருக்கு, அந்த பூசணி நல்லா இருக்கு, அத வைத்து கூட்டு வச்ச நல்லா இருக்கும்",
+          "latin": "Intha poosani paaka pinjaa irukku, antha poosani nallaa irukku, athu vechu koottu vecha nalla irukkum"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "This pumpkin looks less ripe, that one looks better, if you make koottu with that one it will be good."
+      },
+      "notes": "The demonstrative deixis 'intha' (this) and 'antha' (that) are crucial for understanding spatial reference. The translation must preserve the contrast between proximal and distal objects."
+    },
+    {
+      "id": "ta_deix_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "reported-speech",
+        "tense-anchoring"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "நேத்து ராஜுகிட்ட பேசிட்டு இருந்தப்போ, நாளைக்கு வீட்டுக்கு வரென்னு சொன்னான், ஆனா இன்னும் ஆள காணோம், இப்போ இன்னிக்கு வருவான்னு தெரியல",
+          "latin": "Nethu Raju kitta pesittu irunthappo, nalaikku veetukku varennu sonnan, ana innum aala kaanom, ipo inikku varuvaananu theriyala"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Yesterday when I was talking to Raju, he said he would come home tomorrow, but we haven't seen him yet, now we don't know if he's coming today."
+      },
+      "notes": "The temporal deixis 'nalaikku' (tomorrow) is anchored to the time of the reported speech, not the time of utterance. The translation must reflect this shift in temporal perspective to accurately convey the timeline of events."
+    },
+    {
+      "id": "ta_deix_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "personal-deixis",
+        "honorifics"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "ஷாந்தி, உன்னுடைய பிரண்ட்ஸ் எல்லாரும் வந்துட்டாங்க, வெளியா சாப்பிட்டு இருக்காங்க, நீயும் போய் செந்தும் சாப்புடு.",
+          "latin": "Shanthi, unnoda friends ellarum vanthutanga, veliya saaptutu irukkanga, neeyum poi senthum saappudu."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Shanthi, all your friends have come, they are eating outside, you also go and eat with them."
+      },
+      "notes": "The plural forms 'vanthutanga' (have come) and 'irukkanga' (are [doing]) use the plural suffix '-anga' to agree with 'friends ellarum' (all friends), not for honorific purposes. The translation must accurately convey the plural reference to the friends while maintaining natural English."
+    },
+    {
+      "id": "ta_deix_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "spatial-deixis",
+        "motion-verbs",
+        "speaker-orientation"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "அங்க எதோ மாநாடு நடக்குற மாதிரி தெரியுது, நீ இங்கயே இரு, நான் மட்டும் போய் பாதுத்து வரேன்",
+          "latin": "Anga etho maanadu nadakkura maadiri theriyuthu, ne ingaye iru, na mattum poi paathuttu varen"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "There seems to be some conference going on there, you stay here, I'll just go and check it out and come back."
+      },
+      "notes": "The spatial deixis 'anga' (there) indicates a location away from the speaker, while 'inga' (here) indicates the speaker's current location. The translation must preserve this spatial orientation to accurately reflect the speaker's perspective and the implied motion towards the conference location."
+    },
+    {
+      "id": "ta_deix_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "relative-time"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "முந்தா நேத்து போலுது சாஞ்சத்துக்கு அப்புறம் தான் செய்தியே வந்துச்சு, அப்புறம் அடுத்த நாள் டிக்கெட் போட்டு இன்னைக்கு தான் வந்து சேர்ந்தோம்.",
+          "latin": "Muntha nethu poluthu saanjathukku aprom dhan seithiye vanduchu, aprom adutha naal ticket pottu innaiku dhan vandhu sernthom."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "It was dusk when got the news the day before wednesday, and then we booked the ticket the next day and just reached today."
+      },
+      "notes": "The temporal deixis 'aprom' (then) and 'adutha naal' (next day) are relative to the time of the events being described, not the time of utterance. The translation must accurately reflect this relative temporal framework to convey the sequence of events correctly."
+    },
+    {
+      "id": "ta_deix_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "discourse-deixis",
+        "pragmatic-focus",
+        "emphatic-contrast"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "இப்போ நான் சொன்னத எப்போதும் மறந்துராத, கடைசி மூச்சு வர",
+          "latin": "Ipo na sonnatha eppodhum marandhuraatha, kadaisi moochu vara"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Don't ever forget what I said now, until your last breath."
+      },
+      "notes": "The discourse deixis 'ippo' (now) refers to the current moment of speaking, 'eppodhum' (ever/always) emphasizes the permanence of the instruction, while 'kadaisi moochu vara' (until your last breath) is a temporal expression that extends indefinitely into the future. The translation must maintain this contrast between the immediate present and the indefinite future, along with the emphatic nature of 'eppodhum', to preserve the speaker's emphasis on the importance of their words."
+    }
+  ]
+}

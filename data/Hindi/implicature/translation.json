@@ -1,0 +1,295 @@
+{
+  "dataset": "Hindi Pragmatics - Translation",
+  "version": "0.2",
+  "direction": "hindi_to_english",
+  "task_description": "Translate the given Hindi sentence into natural, idiomatic English. Correct translation requires understanding idioms and pragmatic meaning, not just literal word mapping.",
+  "items": [
+    {
+      "id": "hi_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "euphemism",
+        "death"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "पिछले महीने उनके दादाजी चल बसे",
+          "latin": "Pichhle mahine unke daadaji chal base."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "His grandfather passed away last month."
+      },
+      "notes": "'Chal basna' is a euphemistic expression for dying, literally meaning 'departed' or 'left for heavenly abode'."
+    },
+    {
+      "id": "hi_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "social-obligation",
+        "kinship"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "बड़ों का आदर करना हमारी संस्कृति है",
+          "latin": "Badon ka aadar karna hamaari sanskriti hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Respecting elders is part of our culture."
+      },
+      "notes": "Cultural value statement about hierarchical respect, 'badon ka aadar' is a core social principle."
+    },
+    {
+      "id": "hi_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "futility"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "उससे बात करना तो दीवार से सिर मारने जैसा है",
+          "latin": "Usse baat karna toh deewar se sir maarne jaisa hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Talking to him is like banging your head against a wall."
+      },
+      "notes": "'Deewar se sir maarna' (hitting one's head against a wall) is an idiom for futile effort against an unresponsive person. The English equivalent is near-identical in structure, but a literal translation still requires recognizing it as idiomatic rather than describing a physical act."
+    },
+    {
+      "id": "hi_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "understatement",
+        "hospitality",
+        "guest-culture"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "'कुछ नहीं बनाया, बस यही थोड़ा सा है' यह कहते हुए उन्होंने दस पकवान मेज़ पर रख दिए।",
+          "latin": "'Kuch nahi banaya, bas yahi thoda sa hai' yeh kehte hue unhone das pakwaan mez par rakh diye."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "'I haven't made much, it's just a little something' and with that, she laid out ten dishes on the table."
+      },
+      "notes": "'Kuch nahi banaya, thoda sa hai' is a ritualized understatement of hospitality, used to appear modest while presenting an elaborate spread. Translating it sincerely ('I made nothing') misses the performative modesty that is a core feature of Indian guest culture. The irony must be preserved through the contrast with the ten dishes."
+    },
+    {
+      "id": "hi_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "rhetorical-question",
+        "resignation",
+        "fate"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "अब क्या करें, जो होना था वो हो गया।",
+          "latin": "Ab kya karein, jo hona tha voh ho gaya."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "What can you do what was meant to happen has happened."
+      },
+      "notes": "'Jo hona tha voh ho gaya' expresses fatalistic acceptance, a common pragmatic stance in Hindi after an irreversible event. 'Ab kya karein' is a rhetorical question meaning resignation, not a genuine request for suggestions. Translating as 'What should we do now? Whatever had to happen has happened' sounds stilted and loses the philosophical resignation."
+    },
+    {
+      "id": "hi_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "sarcasm",
+        "irony",
+        "academic-context"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "परीक्षा में 35 नंबर लाए और घर में जश्न मना रहे हैं।",
+          "latin": "Pareeksha mein 35 number laaye aur ghar mein jashn mana rahe hain."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Got 35 marks in the exam and they're throwing a party at home."
+      },
+      "notes": "The speech act is sarcastic criticism, 35 is a bare-pass score in the Indian grading system, making the celebration absurd. There is no explicit marker of sarcasm in the Hindi; it relies entirely on shared knowledge of what 35 marks implies. The English must preserve the deadpan tone so the irony lands the same way."
+    },
+    {
+      "id": "hi_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "euphemism",
+        "illness"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "उनकी तबीयत कुछ ठीक नहीं चल रही आजकल।",
+          "latin": "Unki tabiyat kuchh theek nahi chal rahi aajkal."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "He hasn't been keeping too well lately."
+      },
+      "notes": "'Tabiyat theek nahi chalna' is a softened, indirect way of referring to illness often used to avoid naming a serious condition outright, especially with elders. A flat literal rendering ('his health is not walking well') misses the euphemistic register; the English equivalent leans on a similarly vague, gentle phrase."
+    },
+    {
+      "id": "hi_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "social-obligation",
+        "hospitality-refusal-ritual"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "अरे नहीं नहीं, बस इतना ही काफी है और मत डालिए।",
+          "latin": "Are nahi nahi, bas itna hi kaafi hai aur mat daaliye."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Oh no, no, this is more than enough please don't add any more."
+      },
+      "notes": "This is a ritualized token refusal common in Indian hospitality guests are expected to say this at least once even while wanting more, and hosts often serve more anyway. Translating it as a firm, literal refusal loses the performative, expected nature of the exchange; the English should retain the same polite insistence without over-emphasizing finality."
+    },
+    {
+      "id": "hi_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "deception"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "वो तो शुरू से ही मुझे उल्लू बना रहा था।",
+          "latin": "Voh toh shuru se hi mujhe ullu bana raha tha."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "He'd been making a fool of me right from the start."
+      },
+      "notes": "'Ullu banana' (literally 'turning someone into an owl') is a common Hindi idiom for fooling or deceiving someone the owl here symbolizes foolishness, not wisdom, unlike its connotation in English. A literal translation ('turning me into an owl') would be nonsensical to an English reader and must be replaced with the equivalent idiom 'making a fool of'."
+    },
+    {
+      "id": "hi_tr_010",
+      "type": "translation",
+      "phenomena": [
+        "understatement",
+        "modesty",
+        "achievement-context"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "'बस ऐसे ही, थोड़ी मेहनत की थी' यह कहते हुए उसने अपना गोल्ड मेडल दिखाया।",
+          "latin": "'Bas aise hi, thodi mehnat ki thi' yeh kehte hue usne apna gold medal dikhaya."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "'Oh, it was nothing, just put in a little effort' and with that, she showed off her gold medal."
+      },
+      "notes": "Downplaying a major achievement with 'thodi mehnat' (a little effort) is a culturally expected modesty ritual, especially when the achievement is being visibly displayed. As in the hospitality example, the irony depends on the contrast between the understated words and the impressive object being shown a sincere literal rendering would flatten this performative humility."
+    },
+    {
+      "id": "hi_tr_011",
+      "type": "translation",
+      "phenomena": [
+        "rhetorical-question",
+        "resignation",
+        "bureaucracy"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "अब सरकारी दफ्तर है, यहाँ तो ऐसा ही चलता है।",
+          "latin": "Ab sarkari daftar hai, yahan toh aisa hi chalta hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Well, it's a government office what do you expect, this is just how things work here."
+      },
+      "notes": "'Yahan toh aisa hi chalta hai' (this is just how it goes here) is a resigned acknowledgment of systemic inefficiency, not a genuine description of a rule. The phrase carries a shrug of weary acceptance toward Indian bureaucratic delays, which the English translation must render with a similarly resigned, slightly exasperated tone rather than a neutral statement of fact."
+    },
+    {
+      "id": "hi_tr_012",
+      "type": "translation",
+      "phenomena": [
+        "sarcasm",
+        "irony",
+        "household-context"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "दो प्लेट धो दीं और लग रहा है जैसे पूरा घर संभाल लिया।",
+          "latin": "Do plate dho din aur lag raha hai jaise poora ghar sambhal liya."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Washed two plates and now it's like he's single-handedly run the whole household."
+      },
+      "notes": "The speech act is sarcastic mockery of someone overstating a minor domestic contribution. There is no explicit marker of sarcasm in the Hindi it relies on the absurd gap between the trivial act (washing two plates) and the grand claim implied ('running the whole household'). The English must preserve this deadpan disproportion for the irony to land."
+    },
+    {
+      "id": "hi_tr_013",
+      "type": "translation",
+      "phenomena": [
+        "euphemism",
+        "unemployment"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "फिलहाल वो घर पर ही हैं, कुछ नया देख रहे हैं।",
+          "latin": "Filhaal voh ghar par hi hain, kuchh naya dekh rahe hain."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "He's at home for now, looking into something new."
+      },
+      "notes": "This is a softened way of saying someone is currently unemployed or between jobs, avoiding the more direct and socially uncomfortable 'berozgaar hai' (is unemployed). 'Kuchh naya dekh rahe hain' (looking at something new) is a face-saving euphemism, and the English translation should preserve this same vague, hopeful phrasing rather than stating unemployment outright."
+    },
+    {
+      "id": "hi_tr_014",
+      "type": "translation",
+      "phenomena": [
+        "social-obligation",
+        "kinship",
+        "duty"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "माता-पिता का ख्याल रखना बेटे का फ़र्ज़ होता है।",
+          "latin": "Maata-pita ka khyaal rakhna bete ka farz hota hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Taking care of one's parents is a son's duty."
+      },
+      "notes": "This is a cultural value statement rooted in filial obligation, similar in register to the 'respecting elders' example. 'Farz' (duty/obligation) carries moral and social weight beyond a simple preference, and the English translation should retain the sense of an expected, near-obligatory social role rather than softening it to a suggestion."
+    }
+  ]
+}

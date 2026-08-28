@@ -1,0 +1,342 @@
+{
+  "dataset": "Hindi Pragmatics - Translation",
+  "version": "0.2",
+  "direction": "hindi_to_english",
+  "task_description": "Translate the given Hindi sentence into natural, idiomatic English. Correct translation requires understanding deictic expressions words that encode spatial, temporal, and personal reference and rendering them accurately in context, not just literally.",
+  "items": [
+    {
+      "id": "hi_deix_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "demonstrative-deixis",
+        "proximal-distal-contrast"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "यह वाला लो, वो वाला मत लो वो ज़्यादा पका हुआ है।",
+          "latin": "Yeh wala lo, voh wala mat lo voh zyaada paka hua hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Take this one, not that one that one is overripe."
+      },
+      "notes": "'Yeh wala' and 'voh wala' mark proximal vs. distal demonstratives. A literal rendering ('this type'/'that type') loses the pointing/selection meaning critical to the speaker's intent."
+    },
+    {
+      "id": "hi_deix_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "reported-speech",
+        "tense-anchoring"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "उसने कहा था कि वो कल आएगा, लेकिन कल भी नहीं आया।",
+          "latin": "Usne kaha tha ki voh kal aayega, lekin kal bhi nahi aaya."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "He had said he would come the next day, but he didn't come then either."
+      },
+      "notes": "'Kal' in the first clause is anchored to the past speech event (= the day after he spoke), not to today. Translating both instances as 'tomorrow' collapses the deictic shift and produces a mistranslation."
+    },
+    {
+      "id": "hi_deix_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "person-deixis",
+        "honorific",
+        "social-distance"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "आप बैठिए, मैं अभी उन्हें बुलाकर लाता हूँ।",
+          "latin": "Aap baithiye, main abhi unhe bulakar laata hoon."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Please have a seat I'll go call him right away."
+      },
+      "notes": "'Aap' marks respectful address to the listener; 'unhe' is the honorific third-person reference to an absent person of higher status. Both distinctions collapse in English 'you/him' but must be conveyed through register cues like 'please'."
+    },
+    {
+      "id": "hi_deix_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "spatial-deixis",
+        "motion-verbs",
+        "speaker-orientation"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "तुम यहाँ रुको, मैं वहाँ जाकर देखता हूँ।",
+          "latin": "Tum yahan ruko, main wahan jakar dekhta hoon."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "You stay here I'll go over there and check."
+      },
+      "notes": "'Yahan' (here, near speaker) vs. 'wahan' (there, away from speaker) establish two distinct spatial anchors. The motion verb 'jakar' (having gone) reinforces that the speaker is moving away from their current deictic center."
+    },
+    {
+      "id": "hi_deix_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "calendar-reference",
+        "relative-time"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "परसों की मीटिंग अब अगले हफ्ते के लिए टाल दी गई है।",
+          "latin": "Parson ki meeting ab agle hafte ke liye taal di gayi hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The meeting that was scheduled for the day after tomorrow has now been pushed to next week."
+      },
+      "notes": "'Parson' is a single-word deictic for 'day after tomorrow' (or 'day before yesterday' depending on context). English has no single-word equivalent, requiring an explicit phrase. A mistranslation as 'yesterday' or 'tomorrow' would misplace the event entirely."
+    },
+    {
+      "id": "hi_deix_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "referent-tracking"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "सुनो, मैंने जो बात अभी कही उसे भूलना मत।",
+          "latin": "Suno, maine jo baat abhi kahi use bhoolna mat."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Listen, don't forget what I just said."
+      },
+      "notes": "'Jo baat abhi kahi' is a discourse-deictic phrase pointing back to the speaker's immediately preceding utterance. 'Use' then anaphorically resumes that reference. A literal translation ('that thing which I said just now don't forget it') is grammatical but unnatural; the idiomatic English collapses both into a single relative clause."
+    },
+    {
+      "id": "hi_deix_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "person-deixis",
+        "inclusive-exclusive",
+        "group-reference"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "हम सब मिलकर यह काम करेंगे तुम्हें अकेले नहीं करना है।",
+          "latin": "Hum sab milkar yeh kaam karenge tumhe akele nahi karna hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "We'll all do this together, you don't have to do it alone."
+      },
+      "notes": "'Hum sab' (we all) is inclusive of the listener here, as the contrast with 'tum' doing it alone makes clear. Hindi 'hum' is ambiguous between inclusive and exclusive first-person plural; context resolves it as inclusive, and the English translation must reflect that solidarity."
+    },
+    {
+      "id": "hi_deix_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "habitual-vs-immediate",
+        "aspect"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "वो रोज़ यहाँ आता है, लेकिन आज नहीं आया।",
+          "latin": "Voh roz yahan aata hai, lekin aaj nahi aaya."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "He comes here every day, but he didn't come today."
+      },
+      "notes": "The first clause uses habitual present ('aata hai'), the second uses past perfective ('nahi aaya'). The temporal deictic 'aaj' anchors the exception to the current day. Mistranslating the tenses ('he was coming here' / 'he didn't come') loses the habitual-vs-punctual contrast that is the pragmatic core of the sentence."
+    },
+    {
+      "id": "hi_deix_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "demonstrative-deixis",
+        "proximal-distal-contrast"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "यह किताब मेरी है, वो वाली लाइब्रेरी की है वापस कर देना।",
+          "latin": "Yeh kitaab meri hai, voh wali library ki hai wapas kar dena."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "This book is mine that one belongs to the library, so make sure to return it."
+      },
+      "notes": "'Yeh' marks the book near the speaker as personal property, while 'voh wali' distinguishes a second, more distant book with a different ownership status. The proximal-distal contrast here does double duty: spatial location and ownership category. Losing the contrast in translation (e.g. rendering both as 'this book') erases the instruction embedded in the deixis."
+    },
+    {
+      "id": "hi_deix_tr_010",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "reported-speech",
+        "tense-anchoring"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "उसने बताया था कि परसों उसका इंटरव्यू है, पर मुझे नहीं पता आज कौनसा दिन गिना जाएगा।",
+          "latin": "Usne bataya tha ki parson uska interview hai, par mujhe nahi pata aaj kaunsa din gina jaayega."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "She had told me her interview was the day after tomorrow, but I don't know which day that counts as from today."
+      },
+      "notes": "'Parson' in the original statement was anchored to the day she spoke, not to today's deictic center. The speaker's added remark acknowledges this ambiguity explicitly, so the translation must preserve the uncertainty rather than resolving it by guessing an actual date the source itself leaves the exact day unresolved relative to 'today'."
+    },
+    {
+      "id": "hi_deix_tr_011",
+      "type": "translation",
+      "phenomena": [
+        "person-deixis",
+        "honorific",
+        "social-distance"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "सर ने कहा है कि आप उनसे कल मिल लीजिए, वो आजकल थोड़े व्यस्त हैं।",
+          "latin": "Sir ne kaha hai ki aap unse kal mil lijiye, voh aajkal thode vyast hain."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Sir said you should meet him tomorrow he's a bit busy these days."
+      },
+      "notes": "Both 'unse' and 'voh' are honorific third-person forms referring to the same respected referent ('Sir'), while 'aap' respectfully addresses the listener. English collapses all three into 'him/you', so the translation relies on the honorific title 'Sir' retained from the source and a polite register to signal the deference that Hindi encodes grammatically."
+    },
+    {
+      "id": "hi_deix_tr_012",
+      "type": "translation",
+      "phenomena": [
+        "spatial-deixis",
+        "motion-verbs",
+        "speaker-orientation"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "तुम वहीं रहो, मैं इधर आ रहा हूँ मत हिलना।",
+          "latin": "Tum wahin raho, main idhar aa raha hoon mat hilna."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Stay right there, I'm coming over here don't move."
+      },
+      "notes": "'Idhar' marks the speaker's own location as the deictic anchor, and 'aa raha hoon' (coming) shows movement toward that anchor, contrasting with the earlier 'jakar' examples where the speaker moves away. 'Wahin' (right there, emphatic) reinforces the addressee's fixed position relative to the speaker. The English 'coming over here' must retain this speaker-centered orientation rather than switching to 'going there', which would invert the deictic frame."
+    },
+    {
+      "id": "hi_deix_tr_013",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "calendar-reference",
+        "relative-time"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "पिछले सोमवार वाली छुट्टी अब इस सोमवार में शिफ्ट कर दी गई है।",
+          "latin": "Pichhle Somvar wali chutti ab is Somvar mein shift kar di gayi hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The holiday that was on last Monday has now been shifted to this coming Monday."
+      },
+      "notes": "'Pichhle Somvar' and 'is Somvar' anchor two different Mondays relative to the moment of utterance one in the past, one upcoming. The demonstrative 'is' (this) here functions temporally rather than spatially, picking out the nearest future occurrence of the day. A flat translation like 'Monday's holiday has shifted to Monday' erases the distinction and makes the sentence nonsensical."
+    },
+    {
+      "id": "hi_deix_tr_014",
+      "type": "translation",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "referent-tracking"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "पिछली मीटिंग में जो प्लान बना था, उसी पर आज भी चलेंगे कोई बदलाव नहीं।",
+          "latin": "Pichhli meeting mein jo plan bana tha, usi par aaj bhi chalenge koi badlaav nahi."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "We'll stick to the same plan we made in the last meeting no changes."
+      },
+      "notes": "'Jo plan bana tha' points backward to a plan established in a prior discourse event (the last meeting), and 'usi par' anaphorically resumes that exact referent with added emphasis ('usi' = 'that very same'). The emphatic force of 'usi' should surface in English as 'the same plan' rather than a plain 'that plan', to preserve the speaker's insistence on continuity."
+    },
+    {
+      "id": "hi_deix_tr_015",
+      "type": "translation",
+      "phenomena": [
+        "person-deixis",
+        "inclusive-exclusive",
+        "group-reference"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "हम लोग तो निकल रहे हैं, तुम आओगे या यहीं रुकोगे?",
+          "latin": "Hum log toh nikal rahe hain, tum aaoge ya yahin rukoge?"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "We're heading out are you coming, or staying here?"
+      },
+      "notes": "Unlike hi_deix_tr_007, 'hum log' here is exclusive: the group referred to does not yet include the addressee, whose participation is precisely what's being asked about with the following question. The contrastive 'tum' confirms the exclusive reading. The translation must not accidentally imply inclusion (e.g. 'shall we all go') since that would contradict the question that follows."
+    },
+    {
+      "id": "hi_deix_tr_016",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "habitual-vs-immediate",
+        "aspect"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "वो हमेशा टाइम पर पहुँचता है, पर अभी तक नहीं आया, कुछ गड़बड़ लगती है।",
+          "latin": "Voh hamesha time par pahunchta hai, par abhi tak nahi aaya, kuchh gadbad lagti hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "He's always on time, but he still hasn't arrived something seems off."
+      },
+      "notes": "'Hamesha... pahunchta hai' establishes a habitual pattern in the present tense, while 'abhi tak nahi aaya' (still hasn't come) uses the present-perfect-like construction anchored to 'right now' to flag a deviation from that pattern. 'Abhi tak' should be rendered as 'still hasn't', not 'didn't come yet', to preserve the sense of an ongoing gap between expectation and the present moment that motivates the speaker's concern."
+    }
+  ]
+}

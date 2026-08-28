@@ -1,0 +1,616 @@
+{
+  "dataset": "Malayalam Speech Acts - MCQs",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ml_spa_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-instruction",
+        "face-saving"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Mini oru vibhavam tayyārākkukayāyirunnu, pūrṇatayilekkulla ōro cuvaṭum sūkṣmatayōṭe tayyārākkukayāyirunnu. Athu kaṇṭappōl avaḷuṭe amma paranju: \"Angane cheythāl mathi, mōlle.\"",
+          "question": "Amma entān ceyyunnathu?",
+          "options": [
+            "Mini-ku oru praśamsa nalkunnu",
+            "vibhavam pūrttiyākkān viśadamaaya nirdēśaṅṅaḷ nalkunnu",
+            "Mini jōli vēgam tīrkkānennu uddēśikkunnu",
+            "Mini athiyāyi utkaṇṭhappeṭātirikān mṛduvāyi vazhikaṭṭunnu"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Mini adhika utkaṇṭha aṭakkān mṛduvayi vazhikaṭṭunnu"
+          }
+        },
+        "malayalam": {
+          "context": "മിനി ഒരു വിഭവം തയ്യാറാക്കുകയായിരുന്നു, പൂർണതയിലേക്കുള്ള ഓരോ ചുവടും സൂക്ഷ്മതയോടെ തയ്യാറാക്കുകയായിരുന്നു. അത് കണ്ടപ്പോൾ അവളുടെ അമ്മ പറഞ്ഞു, \"അങ്ങനെ ചെയ്താൽ മതി, മോളെ.\"",
+          "question": "അമ്മ എന്താണ് ചെയ്യുന്നത്?",
+          "options": [
+            "മിനിക്ക് ഒരു പ്രശംസ നൽകുന്നു",
+            "വിഭവം പൂർത്തിയാക്കാൻ വിശദമായ നിർദേശം നൽകുന്നു",
+            "മിനി ജോലി വേഗം തീർക്കണമെന്ന് ഉദ്ദേശിക്കുന്നു",
+            "മിനി അതിയായി ഉത്കണ്ഠപ്പെടാതിരിക്കാൻ മൃദുവായി വഴികാട്ടുന്നു"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "മിനി അതിയായി ഉത്കണ്ഠപ്പെടുത്താതിരിക്കാൻ മൃദുവായി വഴികാട്ടുന്നു"
+          }
+        },
+        "english": {
+          "context": "Mini was preparing a dish, carefully perfecting every step. Seeing this, her mother said, \"Doing it that way is enough, dear.\"",
+          "question": "What is the mother actually doing?",
+          "options": [
+            "Giving Mini a compliment",
+            "Giving detailed cooking instructions",
+            "Telling Mini to finish the work quickly",
+            "Gently guiding Mini so she doesn't overthink or stress"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Gently guiding Mini so she doesn't overthink or stress"
+          }
+        }
+      },
+      "explanation": "The phrase ‘angane cheythāl mathi’ frames the instruction as sufficiency rather than command, functioning as a gentle, face-saving directive to reduce Mini’s anxiety.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "Malayalam indirect instruction",
+          "sufficiency framing",
+          "non-imposing guidance"
+        ],
+        "authors_note": "Emphasizes how Malayalam uses 'madi/mathi' constructions to soften directive force."
+      }
+    },
+    {
+      "id": "ml_spa_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-offer",
+        "hospitality",
+        "social-bonding"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Oru āzhcha kazhinju Anita ammāvante veettil poyappōl ammāvam snēhapūrvvam paranju, “Chāya edukkattē?”",
+          "question": "Ammāv entān ceyyunnathu?",
+          "options": [
+            "Anitayōṭu chāya vēṇō ennu cōdikkunnu",
+            "Anitayude varavinōṭulla ādarasūchakamāyi avarkku ūṣmaḷamāya svīkaraṇaṁ nalkunnu",
+            "Anitayude ārogyattekkuriċċu cōdikkunnu, avaḷ kṣīṇitayāyirikkumennu karuti",
+            "Chāya kuṭikkān thonn̄iyatināl ammāvan tanne oru sādhāraṇa parāmārśaṁ naṭatti"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Anitayude varavinōṭulla ādarasūchakamāyi avarkku ūṣmaḷamāya svīkaraṇaṁ nalkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "ഒരാഴ്ച കഴിഞ്ഞ് അനിത അമ്മാവന്റെ വീട്ടിൽ പോയപ്പോൾ അമ്മാവൻ സ്നേഹപൂർവ്വം പറഞ്ഞു, \"ചായ എടുക്കട്ടെ?\"",
+          "question": "അമ്മാവ് എന്താണ് ചെയ്യുന്നത്?",
+          "options": [
+            "അനിതയോട് ചായ വേണോ എന്ന് ചോദിക്കുന്നു",
+            "അനിതയുടെ വരവിനോടുള്ള ആദരസൂചകമായി അവർക്ക് ഊഷ്മളമായ സ്വീകരണം നൽകുന്നു.",
+            "അനിതയുടെ ആരോഗ്യത്തെക്കുറിച്ച് ചോദിക്കുന്നു, അവൾ ക്ഷീണിതയായിരിക്കുമെന്ന് കരുതി.",
+            "ചായ കുടിക്കാൻ തോന്നിയതിനാൽ അമ്മാവൻ തന്നെ ഒരു സാധാരണ പരാമർശം നടത്തി."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "അനിതയുടെ വരവിനോടുള്ള ആദരസൂചകമായി അവർക്ക് ഊഷ്മളമായ സ്വീകരണം നൽകുന്നു."
+          }
+        },
+        "english": {
+          "context": "When Anita visited her uncle’s house after a week, he warmly greeted her and said, \"Would you like some tea?\"",
+          "question": "What is the uncle actually doing with this question?",
+          "options": [
+            "Simply asking whether Anita wants tea",
+            "Welcoming her respectfully and offering hospitality as a warm gesture",
+            "Asking about her well-being, assuming she must be tired",
+            "Making a casual remark because he personally felt like having tea"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Welcoming her respectfully and offering hospitality as a warm gesture"
+          }
+        }
+      },
+      "explanation": "‘Chaaya edukkattē?’ functions as a culturally rich hospitality formula. Rather than a literal inquiry, it extends warmth, respect, and social bonding.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "Malayalam tea-offer ritual",
+          "hospitality as social bonding",
+          "indirect offer phrasing"
+        ],
+        "authors_note": "Distractors contrast literal inquiry, health-concern readings, and self-directed intent to test pragmatic inference."
+      }
+    },
+    {
+      "id": "ml_spa_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-complaint",
+        "emotional-expression",
+        "expectation-violation"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Lathayude puthiya jōliyekkuṟiccu oru WhatsApp status vazhi aṟiññappōl Rēṇuvin nirāsha toṉṉi, Latha aa āvēśakaramāya vārtta thanneṭe nēr̥ittu paṅkuveccirunnenkil ennu avaḷ āgrahichu. Lathaye kaṇṭappōl Rēṇu patukkē paranju: \"Nī onnum paranjillallō?\"",
+          "question": "Renu entān ceyyunnathu?",
+          "options": [
+            "jōliyude vārtta nēr̥ittu kēḷkkān pratikṣiccirunnu enna vaikkārika paraṭi saumyamāyi prakaṭippikkunnu",
+            "Lathayude jōliyekkuṟiccu kūṭutal vivaraṅṅaḷ cōdikkunnu",
+            "Lathayude status kaṇṭatil santōṣaṁ prakaṭippikkunnu",
+            "Latha marannupoyirikkumenn karuti athine laghuvāyi kāṇikkunnu"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "jōliyude vārtta nēr̥ittu kēḷkkān pratikṣiccirunnu enna vaikkārika paraṭi saumyamāyi prakaṭippikkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "ലതയുടെ പുതിയ ജോലിയെക്കുറിച്ച് ഒരു വാട്ട്‌സ്ആപ്പ് സ്റ്റാറ്റസ് വഴി അറിഞ്ഞപ്പോൾ രേണുവിന് നിരാശ തോന്നി, ലത ആ ആവേശകരമായ വാർത്ത തന്നോട് നേരിട്ട് പങ്കുവെച്ചിരുന്നെങ്കിൽ എന്ന് അവൾ ആഗ്രഹിച്ചു. ലതയെ കണ്ടപ്പോൾ രേണു പതുക്കെ പറഞ്ഞു: \"നീ ഒന്നും പറഞ്ഞില്ലല്ലോ?\"",
+          "question": "റേനു എന്താണ് ചെയ്യുന്നത്?",
+          "options": [
+            "ജോലിയുടെ വാർത്ത നേരിട്ട് കേൾക്കാൻ പ്രതീക്ഷിച്ചിരുന്നു എന്ന വൈകാരിക പരാതി സൗമ്യമായി പ്രകടിപ്പിക്കുന്നു",
+            "ലതയുടെ ജോലിയെക്കുറിച്ച് കൂടുതൽ വിവരങ്ങൾ ചോദിക്കുന്നു",
+            "ലതയുടെ സ്റ്റാറ്റസ് കണ്ടതിൽ സന്തോഷം പ്രകടിപ്പിക്കുന്നു",
+            "ലത മറന്നുപോയിരിക്കുമെന്ന് കരുതി അതിനെ ലഘുവായി കാണിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ജോലിയുടെ വാർത്ത നേരിട്ട് കേൾക്കാൻ പ്രതീക്ഷിച്ചിരുന്നു എന്ന വൈകാരിക പരാതി സൗമ്യമായി പ്രകടിപ്പിക്കുന്നു"
+          }
+        },
+        "english": {
+          "context": "Renu learned about Latha’s new job through a WhatsApp status and felt disappointed, wishing Latha had shared such exciting news with her personally. When they met, Renu quietly said, “You didn’t tell me anything?”",
+          "question": "What is Renu actually doing with this utterance?",
+          "options": [
+            "Softly expressing an emotional complaint that something she expected to hear personally was not shared with her",
+            "Asking Latha for more details about the new job",
+            "Expressing happiness after seeing Latha’s status",
+            "Assumes Latha must have simply forgotten and treats it lightly"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Softly expressing an emotional complaint that something she expected to hear personally was not shared with her"
+          }
+        }
+      },
+      "explanation": "‘Nī onnum paranjillallō?’ is framed as a question, but its pragmatic force is a mild emotional complaint indicating that an expected, personally significant update was not communicated.",
+      "metadata": {
+        "register": "friends / relational closeness",
+        "cultural_markers": [
+          "Malayalam indirect emotional complaint",
+          "expectation of personal disclosure in close relationships",
+          "emotion expressed via softened questioning"
+        ],
+        "authors_note": "N/A"
+      }
+    },
+    {
+      "id": "ml_spa_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "directive",
+        "emotional-expression",
+        "casual-complaint"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Akhilum avante suhr̥ttum oru sthalattil kāṇān niścayiccu. Suhr̥t mumpē etthi kāttirikkunnu. Kuraccu samayattil śēṣam Akhil etthi cōdikkunnu: \"Etra nēramāyi wait ceyyunnadā?\"",
+          "question": "Akhilinte cōdhyattinte prāyōgika artham entāṇ?",
+          "options": [
+            "Suhr̥t etra samayam kāttirunnu enn ariyān sādhyāraṇa vivaram cōdikkunnu",
+            "Vaikiyatinte oru laghu paraṭi sādhāraṇa bhāṣayil prakaṭippikkunnu",
+            "Suhr̥ttine avide ninn pōkān ājñāpeṭunnu",
+            "Suhr̥ttin santōṣaṁ prakaṭippikkunnu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Vaikiyatinte oru laghu paraṭi sādhāraṇa bhāṣayil prakaṭippikkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "അഖിലും അവന്റെ സുഹൃത്തും ഒരു സ്ഥലത്ത് കാണാൻ തീരുമാനിച്ചു. സുഹൃത്ത് മുമ്പേ എത്തി കാത്തിരിക്കുന്നു. കുറച്ച് സമയത്തിന് ശേഷം അഖിൽ എത്തി ചോദിക്കുന്നു: \"എത്ര നേരമായി വെയിറ്റ് ചെയ്യുന്നടാ?\"",
+          "question": "അഖിലിന്റെ ചോദ്യം പ്രായോഗികമായി എന്താണ് സൂചിപ്പിക്കുന്നത്?",
+          "options": [
+            "സുഹൃത്ത് എത്ര സമയം കാത്തിരുന്നു എന്ന് അറിയാൻ സാധാരണ വിവരം ചോദിക്കുന്നു",
+            "വൈകിയതിന്റെ ഒരു ലഘു പരാതി സാധാരണ ഭാഷയിൽ പ്രകടിപ്പിക്കുന്നു",
+            "സുഹൃത്തിനെ അവിടെ നിന്ന് പോകാൻ ആജ്ഞാപിക്കുന്നു",
+            "സുഹൃത്തിന് സന്തോഷം പ്രകടിപ്പിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "വൈകിയതിന്റെ ഒരു ലഘു പരാതി സാധാരണ ഭാഷയിൽ പ്രകടിപ്പിക്കുന്നു"
+          }
+        },
+        "english": {
+          "context": "Akhil and his friend planned to meet at a place. The friend arrived earlier and was waiting. After some time, Akhil arrived and asked, “How long have you been waiting?”",
+          "question": "What does Akhil’s question pragmatically imply?",
+          "options": [
+            "He is neutrally asking for information about the waiting time",
+            "He is casually expressing a mild complaint about the delay",
+            "He is instructing the friend to leave",
+            "He is expressing happiness toward his friend"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He is casually expressing a mild complaint about the delay"
+          }
+        }
+      },
+      "explanation": "Although framed as a question, “എത്ര നേരമായി വെയിറ്റ് ചെയ്യുന്നടാ?” functions pragmatically as a mild, casual complaint about delay, typical in informal close-friend interactions. The illocutionary force extends beyond mere information-seeking.",
+      "metadata": {
+        "register": "informal / close friends",
+        "cultural_markers": [
+          "Malayalam casual masculine address particle 'ടാ'",
+          "indirect complaint through interrogative form",
+          "delay-oriented social expectation"
+        ],
+        "authors_note": "Illustrates how interrogatives in Malayalam can function as mild expressive complaints in informal settings."
+      }
+    },
+    {
+      "id": "ml_spa_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request",
+        "implicature",
+        "off-record-strategy"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Tirakkēriya tuṇi kaṭayile bill counter-il nilkkumpōḷ, Anu suhr̥ttinōṭ paṟaññu: “Ayyō, purse eṭukkān maṟannu poyi.”",
+          "question": "Anuvinte vākkŭ prāyōgikamay entāṇ sūcippikkunnathu?",
+          "options": [
+            "Tanre purse maṟannennu mātram ariyikkunnu",
+            "Ippōl tanne veettilekkŭ tiriccu pōkān āgrahikkunnu",
+            "Suhr̥ttin tanikkāyi bill aṭakkān oru apratyakṣa abhyarthana naṭattunnu",
+            "Shopping niṟttān tirumānikunnu"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Suhr̥ttin tanikkāyi bill aṭakkān oru apratyakṣa abhyarthana naṭattunnu"
+          }
+        },
+        "malayalam": {
+          "context": "തിരക്കേറിയ തുണിക്കടയിലെ ബിൽ കൗണ്ടറിൽ നിൽക്കുമ്പോൾ, അനു സുഹൃത്തിനോട് പറഞ്ഞു: \"അയ്യോ, പേഴ്സ് എടുക്കാൻ മറന്നു പോയി.\"",
+          "question": "അനുവിന്റെ വാക്ക് പ്രായോഗികമായി എന്താണ് സൂചിപ്പിക്കുന്നത്?",
+          "options": [
+            "തന്റെ പേഴ്സ് മറന്നുവെന്ന വിവരം മാത്രം അറിയിക്കുന്നു",
+            "ഇപ്പോൾ തന്നെ വീട്ടിലേക്ക് തിരിച്ചു പോകാൻ ആഗ്രഹിക്കുന്നു",
+            "സുഹൃത്ത് തന്റെ ബിൽ അടയ്ക്കണമെന്ന ഒരു അപ്രത്യക്ഷ അഭ്യർത്ഥനയാണ് നടത്തുന്നത്",
+            "ഷോപ്പിംഗ് നിർത്താൻ തീരുമാനിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "സുഹൃത്ത് തന്റെ ബിൽ അടയ്ക്കണമെന്ന ഒരു അപ്രത്യക്ഷ അഭ്യർത്ഥനയാണ് നടത്തുന്നത്"
+          }
+        },
+        "english": {
+          "context": "While standing at the billing counter of a crowded clothing store, Anu told her friend, “Oh no, I forgot to bring my purse.”",
+          "question": "What does Anu’s utterance pragmatically imply?",
+          "options": [
+            "She is merely informing that she forgot her purse",
+            "She wants to immediately go back home",
+            "She is indirectly requesting her friend to pay the bill for her",
+            "She has decided to stop shopping"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "She is indirectly requesting her friend to pay the bill for her"
+          }
+        }
+      },
+      "explanation": "Although framed as a simple statement about forgetting her purse, the utterance functions pragmatically as an indirect request. In this context, Anu is tactfully prompting her friend to offer financial help rather than literally intending to leave.",
+      "metadata": {
+        "register": "informal / friends",
+        "cultural_markers": [
+          "Malayalam off-record politeness strategy",
+          "indirect financial request",
+          "implicature-based help-seeking"
+        ],
+        "authors_note": "This item evaluates whether the model distinguishes literal assertion from indirect directive force in a socially sensitive monetary situation."
+      }
+    },
+    {
+      "id": "ml_spa_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "directive",
+        "complaint",
+        "implicature",
+        "off-record-strategy"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ammā makanōṭ pala pravāśyam paṟaññu: \"Room vr̥ttiyākkaṇam.\" Makan athu avagāṇiccu. Pinne ammā kuṭukkē śabdattōṭ cōdikkunnu: \"Etra tavaṇa paṟaññāl āṇ nī kēḷkkunnathu?\"",
+          "question": "Ammayude vākkŭ prāyōgikamay entāṇ nirvahikkunnathu?",
+          "options": [
+            "Ammā vāstavattāl eṟṟa saṅkhyā aṟiyān cōdikkunnu",
+            "Makan kettittillennŭ urappākkān oru vivara cōdyaṁ",
+            "Ammā oru saṁbhāṣaṇaṁ toṭarān mātram cōdikkunnu",
+            "Makan uṭane kēḷkkukayuṁ anuṣṭhikkukayuṁ ceyyēṇam ennŭ oru śāsanaṁ"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Makan uṭane kēḷkkukayuṁ anuṣṭhikkukayuṁ ceyyēṇam ennŭ oru śāsanaṁ"
+          }
+        },
+        "malayalam": {
+          "context": "അമ്മ മകനോട് പല പ്രാവശ്യം പറഞ്ഞു: \"റൂം വൃത്തിയാക്കണം.\" മകൻ അത് അവഗണിച്ചു. പിന്നീട് അമ്മ കടുത്ത ശബ്ദത്തിൽ ചോദിക്കുന്നു: \"എത്ര തവണ പറഞ്ഞാലാണ് നീ കേൾക്കുന്നത്?\"",
+          "question": "അമ്മയുടെ വാക്ക് പ്രായോഗികമായി എന്താണ് നിർവഹിക്കുന്നത്?",
+          "options": [
+            "അമ്മ യഥാർത്ഥത്തിൽ എത്ര തവണ പറഞ്ഞാൽ കേൾക്കും എന്ന് അറിയാൻ ചോദിക്കുന്നു",
+            "മകൻ കേട്ടോ ഇല്ലയോ എന്ന് ഉറപ്പാക്കാൻ വിവരചോദ്യം ചോദിക്കുന്നു",
+            "സംഭാഷണം തുടരാനായി ഒരു സാധാരണ ചോദ്യം ചോദിക്കുന്നു",
+            "മകൻ ഉടനെ കേൾക്കുകയും നിർദ്ദേശം പാലിക്കുകയും ചെയ്യണമെന്ന ഒരു ശാസനയാണ്"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "മകൻ ഉടനെ കേൾക്കുകയും നിർദ്ദേശം പാലിക്കുകയും ചെയ്യണമെന്ന ഒരു ശാസനയാണ്"
+          }
+        },
+        "english": {
+          "context": "A mother repeatedly told her son to clean his room. He ignored it. Later, in a stern tone, she asks, “How many times do I have to tell you before you listen?”",
+          "question": "What does the mother's utterance pragmatically perform?",
+          "options": [
+            "She is literally asking for a number",
+            "She is checking whether her son heard her",
+            "She is simply continuing the conversation",
+            "She is reprimanding him and directing him to obey immediately"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "She is reprimanding him and directing him to obey immediately"
+          }
+        }
+      },
+      "explanation": "Although grammatically framed as a question, the utterance functions as a directive speech act. It expresses frustration and implicitly commands immediate compliance rather than seeking information.",
+      "metadata": {
+        "register": "informal / family",
+        "cultural_markers": [
+          "Malayalam parental authority discourse",
+          "rhetorical reprimand question",
+          "off-record directive through complaint"
+        ]
+      }
+    },
+    {
+      "id": "ml_spa_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "consolation",
+        "rhetorical-question",
+        "expressive"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Veedum panavum illaathe bharthavumayi kadaltheerath kazhiyunna sthri sankadathode paranju: \"Enikku enthu bhaagyamaanu ippol? Kidakkaan veedilla, kaivasham orotta paisayilla.\" Appol yuvaav paranju: \"Kadalinte vakkathu paarkkuvaanum bhaagyam venam. Raathriyil kadalinte paattum kettu nakshathrangalum nokkikkondu malarnnu kidakkuvaanulla bhaagyam ningalkkillē?\"",
+          "question": "Yuvaav ee chodyathiloode pradhaanmāyi enthu speech act aanu nirvahikkunnathu?",
+          "options": [
+            "Avalude jeevithasaahacharyathekkurichu vivaram chodikkunnu",
+            "Avalude paraathi nyaayamallennu vimarshikkunnu",
+            "Avalude sankadam kuraykkaan avale aashwasippikkunnu",
+            "Kadaltheerathu thanne thaamasikkaan avale upadeshikkunnu"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Avalude sankadam kuraykkaan avale aashwasippikkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "വീടും പണവും ഇല്ലാതെ ഭർത്താവുമായി കടൽത്തീരത്ത് കഴിയുന്ന സ്ത്രീ സങ്കടത്തോടെ പറഞ്ഞു: \"എനിക്ക് എന്തു ഭാഗ്യമാണ് ഇപ്പോൾ? കിടക്കാൻ വീടില്ല, കൈവശം ഒരൊറ്റ പൈസയില്ല.\" അപ്പോൾ യുവാവ് പറഞ്ഞു: \"കടലിന്റെ വക്കത്തു പാർക്കുവാനും ഭാഗ്യം വേണം. രാത്രിയിൽ കടലിന്റെ പാട്ടും കേട്ട് നക്ഷത്രങ്ങളും നോക്കിക്കൊണ്ടു മലർന്നു കിടക്കുവാനുള്ള ഭാഗ്യം നിങ്ങൾക്കില്ലേ?\"",
+          "question": "യുവാവ് ഈ ചോദ്യത്തിലൂടെ പ്രധാനമായി എന്ത് സംസാരപ്രവൃത്തിയാണ് നിർവഹിക്കുന്നത്?",
+          "options": [
+            "അവളുടെ ജീവിതസാഹചര്യത്തെക്കുറിച്ച് വിവരം ചോദിക്കുന്നു",
+            "അവളുടെ പരാതി ന്യായമല്ലെന്ന് വിമർശിക്കുന്നു",
+            "അവളുടെ സങ്കടം കുറയ്ക്കാൻ അവളെ ആശ്വസിപ്പിക്കുന്നു",
+            "കടൽത്തീരത്തുതന്നെ താമസിക്കാൻ അവളെ ഉപദേശിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "അവളുടെ സങ്കടം കുറയ്ക്കാൻ അവളെ ആശ്വസിപ്പിക്കുന്നു"
+          }
+        },
+        "english": {
+          "context": "Living by the seashore with her husband, without a home or money, the woman said sadly: \"What luck do I have now? I have no house to sleep in and not a single coin.\" The young man replied: \"Even living by the sea takes some luck. Don't you have the fortune of lying under the stars at night and listening to the sea sing?\"",
+          "question": "What speech act is the young man primarily performing through this question?",
+          "options": [
+            "Asking for information about her living conditions",
+            "Criticizing her for making an unjustified complaint",
+            "Consoling her and trying to ease her sadness",
+            "Advising her to continue living by the seashore"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Consoling her and trying to ease her sadness"
+          }
+        }
+      },
+      "explanation": "Although the utterance is grammatically framed as a question, the young man is not seeking information. It functions primarily as an act of consolation: in response to the woman's despair, he draws attention to the sea, stars, and night in an attempt to ease her sadness. The positive reinterpretation of her circumstances is the strategy through which the consoling speech act is performed.",
+      "metadata": {
+        "register": "literary-dialogue",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "consolation",
+          "rhetorical questioning",
+          "indirect expressive speech act"
+        ],
+        "authors_note": "Tests whether the model can distinguish the interrogative form of the utterance from its primary illocutionary force of consolation."
+      }
+    },
+    {
+      "id": "ml_spa_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "directive",
+        "dismissal",
+        "pragmatic-force",
+        "literal-vs-pragmatic",
+        "social-power"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Keralathile pazhaya jaathivyavastha shakthamaayirunna kaalath, Kannanum jyeshthanum Alathoorilekku pokaan oru kaalavandiyil kayari. Yaathraykkidayil avar Pulaya jaathikkaar aanennu arinja vandikkaaran pettennu vandi nirthi avare thaazhe irakki. Thangal kulichu vrithiyaayi vannathaanennum thangale thottaal vandi engane ashuddhamaakumennum Kannan chodichappol vandikkaaran deshyathode paranju: \"Ningal Pulayaraanu. Ningal thottaal ente vandiyum kaalayum njaanum ashuddhamaakum. Um... nadannu poykkollin.\"",
+          "question": "\"Um... nadannu poykkollin\" ennu parayunnathiloode vandikkaaran pradhaanmāyi enthu speech act aanu nirvahikkunnathu?",
+          "options": [
+            "Kuttikalkku nadannu pokaan anumathi nalkunnu",
+            "Kuttikal yaathra nadannu thudarunnathaanu nallathennu upadeshikkunnu",
+            "Kuttikalodu avide ninnu nadannu pokaan aajnaapichu avare ozhivakkunnu",
+            "Kuttikalkku Alathoorilekku nadannu pokaan kazhiyumennu ariyikkunnu"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Kuttikalodu avide ninnu nadannu pokaan aajnaapichu avare ozhivakkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "കേരളത്തിലെ പഴയ ജാതിവ്യവസ്ഥ ശക്തമായിരുന്ന കാലത്ത്, കണ്ണനും ജ്യേഷ്ഠനും ആലത്തൂരിലേക്കു പോകാൻ ഒരു കാളവണ്ടിയിൽ കയറി. യാത്രയ്ക്കിടെ അവർ പുലയ ജാതിക്കാരാണെന്ന് അറിഞ്ഞ വണ്ടിക്കാരൻ പെട്ടെന്ന് വണ്ടി നിർത്തി അവരെ താഴെയിറക്കി. തങ്ങൾ കുളിച്ചു വൃത്തിയായി വന്നതാണെന്നും തങ്ങളെ തൊട്ടാൽ വണ്ടി എങ്ങനെ അശുദ്ധമാകുമെന്നും കണ്ണൻ ചോദിച്ചപ്പോൾ വണ്ടിക്കാരൻ ദേഷ്യത്തോടെ പറഞ്ഞു: \"നിങ്ങൾ പുലയരാണ്. നിങ്ങൾ തൊട്ടാൽ എന്റെ വണ്ടിയും കാളയും ഞാനും അശുദ്ധമാകും. ഉം.... നടന്നു പൊയ്ക്കൊള്ളിൻ.\"",
+          "question": "\"ഉം.... നടന്നു പൊയ്ക്കൊള്ളിൻ\" എന്നു പറയുന്നതിലൂടെ വണ്ടിക്കാരൻ പ്രധാനമായി എന്ത് സംസാരപ്രവൃത്തിയാണ് നിർവഹിക്കുന്നത്?",
+          "options": [
+            "കുട്ടികൾക്ക് നടന്നുപോകാൻ അനുമതി നൽകുന്നു",
+            "കുട്ടികൾ യാത്ര നടന്നുതുടരുന്നതാണ് നല്ലതെന്ന് ഉപദേശിക്കുന്നു",
+            "കുട്ടികളോട് അവിടെനിന്ന് നടന്നുപോകാൻ ആജ്ഞാപിച്ച് അവരെ ഒഴിവാക്കുന്നു",
+            "കുട്ടികൾക്ക് ആലത്തൂരിലേക്കു നടന്നുപോകാൻ കഴിയുമെന്ന് അറിയിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "കുട്ടികളോട് അവിടെനിന്ന് നടന്നുപോകാൻ ആജ്ഞാപിച്ച് അവരെ ഒഴിവാക്കുന്നു"
+          }
+        },
+        "english": {
+          "context": "During a period when caste restrictions were strongly enforced in Kerala, Kannan and his older brother got into a bullock cart to travel to Alathur. During the journey, the driver learned that they belonged to the Pulaya community and abruptly stopped the cart and made them get down. When Kannan protested that they had bathed and were clean and asked how their touch could make the cart impure, the driver angrily replied, \"You are Pulayas. If you touch them, my cart, my bullocks, and I will all become impure. Hmph... go on, walk away.\"",
+          "question": "What speech act is the driver primarily performing when he says, \"Hmph... go on, walk away\"?",
+          "options": [
+            "Giving the boys permission to continue on foot",
+            "Advising the boys that continuing the journey on foot would be better",
+            "Ordering the boys to leave on foot and dismissing them",
+            "Informing the boys that Alathur can be reached on foot"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Ordering the boys to leave on foot and dismissing them"
+          }
+        }
+      },
+      "explanation": "The expression \"നടന്നു പൊയ്ക്കൊള്ളിൻ\" can superficially resemble permission or advice. In this context, however, the driver's anger and his refusal to allow the children to remain in the cart establish its pragmatic force. He is dismissively ordering them to leave and continue on foot. The item therefore tests whether the model distinguishes the literal or permissive possibilities of \"പൊയ്ക്കൊള്ളിൻ\" from its force as a hostile directive in context.",
+      "metadata": {
+        "register": "historical / confrontational dialogue",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "historical caste practices in Kerala",
+          "Pulaya community",
+          "Malayalam directive construction 'പൊയ്ക്കൊള്ളിൻ'",
+          "dismissive imperative"
+        ],
+        "authors_note": "The scenario is adapted to a historical Kerala setting. The target is the pragmatic interpretation of 'നടന്നു പൊയ്ക്കൊള്ളിൻ', whose surface form can suggest permission but functions here as a hostile dismissive command."
+      }
+    },
+    {
+      "id": "ml_spa_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "rhetorical-question",
+        "protest",
+        "indirect-criticism",
+        "literal-vs-pragmatic",
+        "social-pragmatics"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Pazhaya Keralathile oru graamathil thaazhna jaathiyilpetta Kannan mudivettaan barber shopilethi. Kannan panam neettikkaanichappol kshaurakan paranju: \"Ninte kaash aarkku venam? Ninte mudi vettunnathinekkal bhedam valla mrugathinteyum mudi vettunnathalle?\" Athu kettu Kannan chodichu: \"Athentha? Njaan mrugathinekkal moshamaano?\"",
+          "question": "\"Njaan mrugathinekkal moshamaano?\" enna chodyathiloode Kannan pradhaanmāyi enthu speech act aanu nirvahikkunnathu?",
+          "options": [
+            "Kshaurakan thanne mrugathodu thaarathamyappeduthiyathinte kaaranam vyakthamaakkaan aavashyappedunnu",
+            "Kshaurakante apamaanakaramaaya nilapaadine chodhyam cheythu thanikkethiraaya vivechanathil prathishedhikkunnu",
+            "Kshaurakan thanne mattullavarekkal thaazhnnavanaayi kaanunnundo ennu urappuvaruthaan shramikkunnu",
+            "Kshaurakante vaakkukal thanikku manassilaayilla ennu ariyichu kooduthal vivaram chodikkunnu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Kshaurakante apamaanakaramaaya nilapaadine chodhyam cheythu thanikkethiraaya vivechanathil prathishedhikkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "പഴയ കേരളത്തിലെ ഒരു ഗ്രാമത്തിൽ താഴ്ന്ന ജാതിയിൽപ്പെട്ട കണ്ണൻ മുടിവെട്ടാൻ ബാർബർ ഷോപ്പിലെത്തി. കണ്ണൻ പണം നീട്ടിക്കാണിച്ചപ്പോൾ ക്ഷുരകൻ പറഞ്ഞു: \"നിന്റെ കാശ് ആർക്കുവേണം? നിന്റെ മുടി വെട്ടുന്നതിനേക്കാൾ ഭേദം വല്ല മൃഗത്തിന്റെയും മുടി വെട്ടുന്നതല്ലേ?\" അതുകേട്ട് കണ്ണൻ ചോദിച്ചു: \"അതെന്താ? ഞാൻ മൃഗത്തിനേക്കാൾ മോശമാണോ?\"",
+          "question": "\"ഞാൻ മൃഗത്തിനേക്കാൾ മോശമാണോ?\" എന്ന ചോദ്യത്തിലൂടെ കണ്ണൻ പ്രധാനമായി എന്ത് സംസാരപ്രവൃത്തിയാണ് നിർവഹിക്കുന്നത്?",
+          "options": [
+            "ക്ഷുരകൻ തന്നെ മൃഗത്തോട് താരതമ്യപ്പെടുത്തിയതിന്റെ കാരണം വ്യക്തമാക്കാൻ ആവശ്യപ്പെടുന്നു",
+            "ക്ഷുരകന്റെ അപമാനകരമായ നിലപാടിനെ ചോദ്യം ചെയ്ത് തനിക്കെതിരായ വിവേചനത്തിൽ പ്രതിഷേധിക്കുന്നു",
+            "ക്ഷുരകൻ തന്നെ മറ്റുള്ളവരെക്കാൾ താഴ്ന്നവനായി കാണുന്നുണ്ടോ എന്ന് ഉറപ്പുവരുത്താൻ ശ്രമിക്കുന്നു",
+            "ക്ഷുരകന്റെ വാക്കുകൾ തനിക്ക് മനസ്സിലായില്ലെന്ന് അറിയിച്ച് കൂടുതൽ വിവരം ചോദിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ക്ഷുരകന്റെ അപമാനകരമായ നിലപാടിനെ ചോദ്യം ചെയ്ത് തനിക്കെതിരായ വിവേചനത്തിൽ പ്രതിഷേധിക്കുന്നു"
+          }
+        },
+        "english": {
+          "context": "In a village in old Kerala, Kannan, who belonged to a lower caste, went to a barber shop for a haircut. When Kannan held out the money, the barber said, \"Who wants your money? I'd rather cut an animal's hair than yours.\" Kannan responded, \"Why is that? Am I worse than an animal?\"",
+          "question": "What speech act is Kannan primarily performing by asking, \"Am I worse than an animal?\"",
+          "options": [
+            "Asking the barber to explain why he compared him to an animal",
+            "Challenging the barber's degrading attitude and protesting the discrimination against him",
+            "Trying to confirm whether the barber considers him inferior to other people",
+            "Indicating that he did not understand the barber and asking for more information"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Challenging the barber's degrading attitude and protesting the discrimination against him"
+          }
+        }
+      },
+      "explanation": "Although \"ഞാൻ മൃഗത്തിനേക്കാൾ മോശമാണോ?\" is grammatically an interrogative, Kannan is not primarily seeking information about how the barber ranks him relative to an animal. The barber's preceding remark has already made his degrading attitude clear. Kannan's question therefore functions rhetorically as a challenge to that attitude and as a protest against discriminatory treatment. A literal information-seeking interpretation misses the utterance's primary pragmatic force.",
+      "metadata": {
+        "register": "historical / confrontational dialogue",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "historical caste discrimination in Kerala",
+          "rhetorical questioning",
+          "protest against social exclusion"
+        ],
+        "authors_note": "The distractors deliberately preserve plausible information-seeking interpretations of the interrogative. The intended reading requires recognizing that the preceding insult makes a literal request for information pragmatically unnecessary."
+      }
+    }
+  ]
+}

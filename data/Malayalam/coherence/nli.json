@@ -1,0 +1,321 @@
+{
+  "dataset": "Malayalam Coherence - NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ml_dis_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "കേരളത്തിൽ കഴിഞ്ഞ വർഷങ്ങളിലായി മൺസൂൺ മഴ കനത്തുവരുന്നു. പല പ്രദേശങ്ങളിലും വെള്ളക്കെട്ട് രൂപപ്പെട്ടത് കൊണ്ടു കൊതുകുകളുടെ വ്യാപനം കൂടിയിട്ടുണ്ട്. ഇതിന്റെ ഫലമായി ഡെങ്കിപ്പനി പോലുള്ള രോഗങ്ങൾ വർദ്ധിച്ചു. ആശുപത്രികളിൽ രോഗികളുടെ എണ്ണം ദിനംപ്രതി ഉയരുന്നു. ആരോഗ്യ വിഭാഗം അടിയന്തര നടപടികൾ സ്വീകരിക്കേണ്ട സാഹചര്യം വന്നിട്ടുണ്ട്.",
+          "hypothesis": "മൺസൂൺ മഴ ശക്തമായാൽ ആശുപത്രികളുടെ തിരക്ക് കൂടി വരും."
+        },
+        "latin": {
+          "premise": "Keralathil kazhinja varshangalilayi monsoon mazha kanaththavarunnu. Pala pradeshangalilum vellakkettu roopappedath kondu kothukukalude vyapanam koodiyittundu. Ithinte phalamayi dengippani polulla rogangal vardhichu. Aashupathrikalil rogeekalude ennam dinamprathi uyarnnu. Aarogya vibhagam adiyanthara nadapadikal sweekarikkenda saahayyam vannittundu.",
+          "hypothesis": "Monsoon mazha shakthamayaal aashupathrikalude thirakku koodivarum."
+        },
+        "english": {
+          "premise": "In recent years, monsoon rains in Kerala have become heavier. Waterlogging in many areas has led to an increase in mosquito breeding. As a result, diseases like dengue have risen. The number of patients in hospitals is increasing daily. The health department has had to take emergency measures.",
+          "hypothesis": "If monsoon rains are intense, the burden on hospitals will increase."
+        }
+      },
+      "explanation": "The premise clearly describes a causal chain: heavy monsoon → waterlogging → mosquito-borne & waterborne diseases → more hospital visits. Therefore the hypothesis logically follows.",
+      "metadata": {
+        "register": "public-health",
+        "cultural_markers": [
+          "Kerala monsoon",
+          "public health system",
+          "mosquito-borne diseases"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_dis_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "കേരളത്തിൽ വിവിധ മതവിഭാഗങ്ങൾ ഒരുമിച്ച് ജീവിക്കുന്നത് പതിവാണ്. പല ഗ്രാമങ്ങളിലും പള്ളിയുടെ ഉത്സവത്തിന് ഹിന്ദുക്കളും ക്ഷേത്രോത്സവങ്ങൾക്ക് മുസ്ലിമുകളും ക്രൈസ്തവർയും സഹായിക്കുന്നതാണ് കാണുന്നത്. ഓണം, വിഷു, ഈദ്, ക്രിസ്മസ് പോലുള്ള ആഘോഷങ്ങൾ മതഭേദമെന്യേ ആളുകൾ ഒരുമിച്ച് ആചരിക്കുന്നു.",
+          "hypothesis": "കേരള സമൂഹത്തിൽ മതസംഘങ്ങൾക്കിടയിൽ പരസ്പര ബഹുമാനം കുറവാണ്."
+        },
+        "latin": {
+          "premise": "Keralathil vivida matha vibhagangal orumichu jeevikkunnathu pathivaanu. Pala gramangalilum palliyude utsavathinu hindukkalum kshethrothsavangalkku muslimukalum kristyavarum sahayikkunnathu kaanan sadhikkunnu. Onam, Vishu, Eid, Christmas pole ullaa aaghoshangal mathabhedamillathe aalukal orumichu aacharikkuunnu.",
+          "hypothesis": "Kerala samuhathil matha sanghangalkkidail paraspara bahumanam kuravaanu."
+        },
+        "english": {
+          "premise": "In Kerala, people from different religious communities commonly live together in harmony. In many villages, Hindus help during church festivals, and Muslims and Christians participate in temple festivals. Celebrations like Onam, Vishu, Eid, and Christmas are observed collectively, regardless of religion.",
+          "hypothesis": "There is little mutual respect among religious groups in Kerala."
+        }
+      },
+      "explanation": "The premise emphasizes strong interfaith cooperation and shared celebrations that build mutual respect. The hypothesis states the opposite—that mutual respect is lacking—directly contradicting the premise.",
+      "metadata": {
+        "register": "social-life",
+        "cultural_markers": [
+          "Kerala communal harmony",
+          "interfaith cooperation",
+          "social unity"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ml_dis_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "രാജ്യത്തെ ഏറ്റവും ഉയർന്ന സാക്ഷരതാ നിരക്കുകളിൽ ഒന്നാണ് കേരളം. സ്കൂളുകളിലെ പൊതുവിദ്യാഭ്യാസ സമ്പ്രദായം, സാഹിത്യ പ്രസ്ഥാനങ്ങൾ, സാഹിത്യ സംസ്കാരം എന്നിവ ഇതിൽ ഒരു പ്രധാന പങ്ക് വഹിക്കുന്നു.",
+          "hypothesis": "കേരളത്തിൽ ആളുകൾക്ക് വിദ്യാഭ്യാസത്തെ കുറിച്ചുള്ള താൽപ്പര്യം വളരെ കുറവാണ്."
+        },
+        "latin": {
+          "premise": "Rajyathe ettavum uyarnna saaksharatha nirakkukalil onnan keralam. Schoolukalile pothuvidyaabhyasa sampradhaayam, saahithya prasthanangal, saahithya samskaaravum ithil oru pradhana panku vahikkunnu.",
+          "hypothesis": "Keralathil aalukalkku vidyaabhyasathine kurichulla thaalparyam valare kuravaanu."
+        },
+        "english": {
+          "premise": "Kerala has one of the highest literacy rates in the country. The public education system in schools, literary movements, and a strong literary culture all play an important role in this achievement.",
+          "hypothesis": "People in Kerala have very little interest in education."
+        }
+      },
+      "explanation": "The premise highlights Kerala’s high literacy rate and strong educational and literary foundations. This directly contradicts the hypothesis that people in Kerala have little interest in education.",
+      "metadata": {
+        "register": "education",
+        "cultural_markers": [
+          "Kerala literacy",
+          "public education system",
+          "literary culture"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ml_dis_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "temporal-contrast",
+        "implicature",
+        "social-pragmatics"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "പച്ചക്കറി കടയിൽ നിന്ന് മടങ്ങുമ്പോൾ ഒരു വയോധിക സ്ത്രീ വഴിയിൽ ഒന്നു വഴുതി വീണു. സമീപത്ത് നിന്നിരുന്ന ഒരാൾ അവരെ എഴുന്നേൽപ്പിച്ച് “അമ്മേ, സൂക്ഷിക്കണം” എന്ന് പറഞ്ഞു. ആ വിളി കേട്ടപ്പോൾ അവർക്ക് പെട്ടെന്ന് തന്റെ മക്കൾ ചുറ്റുമുണ്ടായിരുന്ന കാലം ഓർമ്മ വന്നു. അന്ന് അവർ തന്നെ ഉപേക്ഷിച്ച് പുറംരാജ്യങ്ങളിലേക്കു പോയിരുന്നില്ല. അന്ന് താനും സ്നേഹിക്കപ്പെട്ടവളായിരുന്നു.",
+          "hypothesis": "ആ വയോധിക സ്ത്രീക്ക് ഇപ്പോഴും മക്കളുടെ സ്നേഹവും സാന്നിധ്യവും ദിവസേന ലഭിക്കുന്നു."
+        },
+        "latin": {
+          "premise": "Pachakkari kadayil ninnu madangumbol oru vayodhika sthri vazhiyil onnu vazhuthi veenu. Sameepath ninnirunna oral avare ezhunneelppichu 'amme, sookshikkanam' ennu paranju. Aa vili kettappol avarkku pettennu thante makkal chuttumundayirunna kaalam orma vannu. Ann avar thanne upekshichu puramrajyangalilekku poyirunnilla. Ann thaanum snehikkappettavalayirunnu.",
+          "hypothesis": "Aa vayodhika sthrikku ippolum makkalude snehavum sannidhyavum divasena labhikkunnu."
+        },
+        "english": {
+          "premise": "While returning from a grocery stall, an elderly woman slipped slightly on the road. A passerby helped her up and said, 'Mother, be careful.' Hearing that word suddenly reminded her of the time when her children used to be around her. In those days they had not left her and gone abroad; back then she too had been loved.",
+          "hypothesis": "The elderly woman still receives daily love and companionship from her children."
+        }
+      },
+      "explanation": "The premise recalls a past time when the woman's children were still around her and she was loved. The narrative contrast implies that the children are no longer with her. The hypothesis claims that she still receives love and companionship from them now, which contradicts the discourse context.",
+      "metadata": {
+        "register": "literary",
+        "cultural_markers": [
+          "Malayalam honorific usage 'avar'",
+          "address term 'amme'",
+          "migration of children abroad",
+          "elderly loneliness in Kerala society"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ml_dis_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "metaphorical-implicature",
+        "foreshadowing",
+        "literary-pragmatics"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "സന്ധ്യാസമയം. വലിയ ബംഗ്ലാവിന്റെ വരാന്തയിൽ ഒറ്റയ്ക്ക് ഇരുന്നുകൊണ്ട് ധനികനായ വൃദ്ധൻ മറയാൻ പോകുന്ന സൂര്യൻ വൃക്ഷത്തലപ്പുകളിൽ മഞ്ഞയും ചുവപ്പും വാരിവിതറുന്നതും നോക്കിക്കൊണ്ടിരുന്നു. മങ്ങുന്ന ആ വെളിച്ചം അദ്ദേഹത്തിന് തന്റെ ജീവിതത്തിന്റെ മങ്ങുന്ന ഘട്ടംപോലെ തോന്നി. ഒരിക്കൽ ഈ വീട്ടിൽ മക്കളുടെയും കുടുംബത്തിന്റെയും ശബ്ദങ്ങൾ നിറഞ്ഞിരുന്ന കാലം അദ്ദേഹം ഓർത്തെടുത്തു. ഇപ്പോൾ ആ വലിയ വീട്ടിൽ സന്ധ്യകൾ കൂടുതലും നിശ്ശബ്ദമായിത്തന്നെ കടന്നുപോകുന്നു.",
+          "hypothesis": "ആ വൃദ്ധൻ തന്റെ ജീവിതത്തിൽ ഇപ്പോൾ സമാധാനത്തോടെയും തൃപ്തിയോടെയും സന്തോഷത്തോടെയും കഴിയുകയാണ്."
+        },
+        "latin": {
+          "premise": "Sandhyasamayam. Valiya banglaavinte varanthayil ottaykku irunnukondu dhanikanaya vriddhan marayaan pokunna sooryan vrikshathalappukalil manjum chuvappum vaarivitharunnathum nokkikkondirunnu. Mangunna aa velicham adhehathinu thante jeevithathinte mangunna ghattam pole thonni. Orikkal ee veettil makkaludeyum kudumbattinteyum shabdangal niranjirunna kaalam adheham orthueduthu. Ippol aa valiya veettil sandhyakal kooduthalum nishabdamayithanne kadannupokunnu.",
+          "hypothesis": "Aa vriddhan thante jeevithathil ippol samaadhaanathodeyum thripthiyodeyum santhoshathodeyum kazhiyunnu."
+        },
+        "english": {
+          "premise": "It was evening. Sitting alone on the veranda of his large bungalow, the wealthy old man watched the setting sun scatter yellow and red light across the treetops. The fading light felt to him like the fading stage of his own life. He remembered a time when the house was filled with the voices of his children and family. Now most evenings in the vast house pass in silence.",
+          "hypothesis": "The old man now lives peacefully and contentedly, feeling satisfied and happy with his life."
+        }
+      },
+      "explanation": "The premise depicts an elderly man sitting alone and reminiscing about the past when his house was full of family voices. The metaphor of the fading sunset and the description of silent evenings imply loneliness and emotional decline. The hypothesis claims that he is currently peaceful and content, which contradicts the discourse implications.",
+      "metadata": {
+        "register": "literary",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "symbolism of sunset in Malayalam literature",
+          "loneliness of wealthy elderly",
+          "migration of children abroad",
+          "nature imagery reflecting stages of life"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ml_dis_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "cultural-belief",
+        "heredity-implicature",
+        "literary-pragmatics"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "തന്റെ തറവാട്ടില്‍ പല തലമുറകളിലും കള്ളത്തരത്തിലേർപ്പെട്ട ആളുകൾ ഉണ്ടായിരുന്നുവെന്ന് പറഞ്ഞുകൊണ്ട് ഒരു കള്ളൻ തന്റെ ജീവിതകഥ പറഞ്ഞു. ചിരിച്ചുകൊണ്ട് അവൻ കൂട്ടിച്ചേർത്തു: “മക്കത്തായ വഴിക്കും മരുമക്കത്തായ വഴിക്കും എനിക്കു കള്ളനാവാനുള്ള യോഗവും വാസനയും ഉണ്ടായിരുന്നു.”",
+          "hypothesis": "താൻ കള്ളനായത് തന്റെ കുടുംബപരമ്പരയുടെയും തറവാട്ടിലൂടെയെത്തിയ സ്വഭാവത്തിന്റെയും ഫലമാണെന്ന് ആ കള്ളൻ പറയുകയാണ്."
+        },
+        "latin": {
+          "premise": "Thante tharavatt'il pala thalamurakalilum kallatharathil erpettu aalukal undaayirunnu ennu paranjukondu oru kallan thante jeevithakatha paranju. Chirichukondu avan koottichearthu: 'Makkathaaya vazhikkum marumakkathaaya vazhikkum enikku kallanaavaanulla yogavum vaasanayum undaayirunnu.'",
+          "hypothesis": "Than kallanaayathu thante kudumba paramparayudeyum tharavatt'il ninn ethiy svabhaavathinteyum phalamanennu aa kallan parayukayaanu."
+        },
+        "english": {
+          "premise": "While telling his life story, a thief said that several people in his ancestral family had been involved in theft across generations. Smiling, he added, 'From both my paternal and maternal lineages I had the qualification and inclination to become a thief.'",
+          "hypothesis": "The thief is saying that he became a thief because of his family lineage and inherited tendencies."
+        }
+      },
+      "explanation": "The premise explicitly connects the thief’s tendency toward theft to both paternal and maternal lineage and to repeated behavior across generations in his family. Therefore the hypothesis, which states that he attributes his becoming a thief to lineage, follows directly from the premise.",
+      "metadata": {
+        "register": "literary",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "tharavadu lineage in Kerala society",
+          "belief that traits pass through generations",
+          "humorous self-narration in Malayalam storytelling"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_dis_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "conceptual-contrast",
+        "metaphorical-interpretation",
+        "temporal-progression",
+        "literary-pragmatics"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "ചിത്രകലയും കവിതയും തമ്മിലുള്ള വ്യത്യാസങ്ങളെക്കുറിച്ച് വിശദീകരിക്കുമ്പോൾ ലേഖകൻ അവയുടെ അവതരണരീതികളെ താരതമ്യം ചെയ്യുന്നു. ചിത്രകലയ്ക്ക് ഒരേയൊരു നിമിഷത്തെ നിശ്ചലമായി അവതരിപ്പിക്കാനാണ് കൂടുതൽ കഴിവുള്ളത്. കവിതയ്ക്കാകട്ടെ ഒരു സംഭവത്തിന്റെ മുൻപും പിന്നും, കഥാപാത്രങ്ങളുടെ മാറുന്ന ഭാവങ്ങളും പ്രവർത്തനങ്ങളും മാനസികാവസ്ഥകളിലെ പരിവർത്തനങ്ങളും കാലക്രമത്തിൽ അവതരിപ്പിക്കാം. അതുകൊണ്ടാണ് ലേഖകൻ പറയുന്നത്: “ചലനമാണ് കവിതയുടെ ജീവൻ.”",
+          "hypothesis": "‘ചലനമാണ് കവിതയുടെ ജീവൻ’ എന്നതിലൂടെ, നിശ്ചലമായ അവസ്ഥകളേക്കാൾ പുറമേ കാണാവുന്ന പ്രവർത്തനങ്ങളുടെയും സംഭവങ്ങളുടെയും ആവിഷ്കാരത്തിലാണ് കവിതയുടെ സവിശേഷശക്തി പ്രധാനമായും നിലകൊള്ളുന്നതെന്ന് ലേഖകൻ സൂചിപ്പിക്കുന്നു."
+        },
+        "latin": {
+          "premise": "Chitrakalayum kavithayum thammilulla vyathyaasangalekkurichu vishadeekarikkumbol lekhakan avayude avatharana reethikale thaarathamyam cheyyunnu. Chitrakalakku oreyoru nimishathe nishchalamaayi avatharippikkaanaanu kooduthal kazhivullathu. Kavithaykkaakatte oru sambhavathinte munpum pinnum, kathapathrangalude maarunna bhaavangalum pravarthanangalum maanasikaavasthakalile parivarthanangalum kaalakramathil avatharippikkaam. Athukondaanu lekhakan parayunnathu: 'Chalanamaanu kavithayude jeevan.'",
+          "hypothesis": "'Chalanamaanu kavithayude jeevan' ennathiloode, nishchalamaaya avasthakalekkaal purame kaanaavunna pravarthanangaludeyum sambhavangaludeyum aavishkaarathilaanu kavithayude savisheshashakthi pradhaanamaayum nilakollunnathennu lekhakan soochippikkunnu."
+        },
+        "english": {
+          "premise": "While explaining the differences between painting and poetry, the essayist compares how the two art forms represent experience. Painting is especially suited to presenting a single moment in a fixed form. Poetry, by contrast, can present what comes before and after an event, changing emotions and actions, and transformations in mental states as they unfold through time. This is why the essayist says, 'Movement is the life of poetry.'",
+          "hypothesis": "By saying that 'movement is the life of poetry,' the essayist suggests that poetry derives its distinctive power primarily from representing externally observable actions and events rather than static states."
+        }
+      },
+      "explanation": "The hypothesis correctly recognizes the essay's contrast between static representation and movement, but it incorrectly restricts poetic 'movement' to externally observable actions and events. The passage explicitly includes changing emotions and transformations in mental states within poetry's temporal unfolding. Thus the relevant contrast is between static representation and change unfolding through time, not between internal experience and externally visible action.",
+      "metadata": {
+        "register": "literary criticism",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam literary criticism",
+          "painting versus poetry",
+          "temporal progression in poetry",
+          "dynamic versus static representation"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ml_dis_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "metaphorical-interpretation",
+        "identity-loss",
+        "generational-change",
+        "literary-pragmatics"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "പതിറ്റാണ്ടുകളായി കലാനിരൂപകനായി പ്രവർത്തിച്ച ശിവരാമൻ കലയെക്കുറിച്ചുള്ള തന്റെ നിലപാടുകളിലും മൂല്യങ്ങളിലും വിട്ടുവീഴ്ച ചെയ്യാൻ തയ്യാറായിരുന്നില്ല. എന്നാൽ പത്രത്തിലും കലാലോകത്തും പുതിയ തലമുറയും പുതിയ അഭിരുചികളും സ്ഥാനം പിടിച്ചതോടെ അയാൾ ക്രമേണ ഒറ്റപ്പെട്ടു. ഒടുവിൽ ചിത്രകല പഠിക്കുന്ന മകൾ സമ്മാനം നേടിയ തന്റെ ചിത്രം അയാളെ കാണിച്ചു. ചിത്രത്തിന് “എൻ അച്ഛൻ” എന്നായിരുന്നു പേര്. പക്ഷേ അതിൽ അയാളുടെ രൂപമൊന്നുമില്ലായിരുന്നു; കടുംനിറങ്ങളിലുള്ള ത്രികോണങ്ങളും ചതുരങ്ങളും വൃത്തങ്ങളും മാത്രമായിരുന്നു. എങ്ങനെ നോക്കിയിട്ടും അയാൾക്ക് ആ ചിത്രത്തിൽ തന്റെ മുഖം കാണാൻ കഴിഞ്ഞില്ല. അയാൾക്ക് തന്റെ മുഖം നഷ്ടപ്പെട്ടിരുന്നു. എന്നേക്കുമായി.",
+          "hypothesis": "“അയാൾക്ക് തന്റെ മുഖം നഷ്ടപ്പെട്ടിരുന്നു” എന്നത് ശിവരാമന്റെ മുഖം ചിത്രത്തിൽ തിരിച്ചറിയാൻ കഴിയാത്തതിനെ മാത്രം സൂചിപ്പിക്കുന്നില്ല; മാറിയ കലാലോകത്തിലും പുതിയ തലമുറയുടെ കാഴ്ചപ്പാടുകളിലും തന്റെ പഴയ കലാബോധത്തിനും സ്വത്വത്തിനും ഇനി സ്ഥാനം കണ്ടെത്താൻ കഴിയാത്ത അവസ്ഥയെയും സൂചിപ്പിക്കുന്നു."
+        },
+        "latin": {
+          "premise": "Pathittaandukalaayi kalaaniroopakanaayi pravarthicha Shivaraman kalayekkurichulla thante nilapaadukalilum moolyangalilum vittuveezhcha cheyyaan thayyaaraayirunnilla. Ennaal pathrathilum kalaalokathum puthiya thalamurayum puthiya abhiruchikalum sthaanam pidichathode ayaal kramena ottappettu. Oduvil chitrakala padikkunna makal sammaanam nediya thante chitram ayaale kaanichu. Chitrathinu 'En Achan' ennaayirunnu peru. Pakshe athil ayaalude roopam onnum undaayirunnilla; kadumnirangalilulla thrikonangalum chathurangalum vrithangalum maathramaayirunnu. Engane nokkiyittum ayaalkku aa chitrathil thante mukham kaanaan kazhinjilla. Ayaalkku thante mukham nashtappettirunnu. Ennekkumaayi.",
+          "hypothesis": "'Ayaalkku thante mukham nashtappettirunnu' ennathu Shivaramaninte mukham chitrathil thirichariyaan kazhiyaathathine maathram soochippikkunnilla; maariya kalaalokathilum puthiya thalamurayude kaazhchappaadukalilum thante pazhaya kalaabodhathinum swathvathinum ini sthaanam kandethaan kazhiyaatha avasthayeyum soochippikkunnu."
+        },
+        "english": {
+          "premise": "For decades, Shivaraman had worked as an art critic without compromising his artistic convictions and values. But as a new generation and new tastes took over both his newspaper and the art world, he became increasingly isolated. Finally, his daughter, an art student, showed him her prize-winning painting titled 'My Father.' Yet the painting contained no recognizable likeness of him, only strongly colored triangles, squares, and circles. No matter how he looked at it, he could not find his face in the painting. He had lost his face. Forever.",
+          "hypothesis": "The statement that Shivaraman had 'lost his face' refers not merely to his inability to recognize his physical likeness in the painting, but also to his inability to find a place for his old artistic identity and values in the changed art world and the perspective of the new generation."
+        }
+      },
+      "explanation": "The final image becomes coherent only when connected with the larger trajectory of the passage. Shivaraman has progressively become alienated from the changing newspaper, language, artistic culture, and younger generation. His inability to recognize himself in his daughter's abstract portrait therefore functions both literally at the level of the painting and metaphorically as a culmination of his loss of cultural and artistic identity. The hypothesis captures this discourse-level meaning and is therefore entailed.",
+      "metadata": {
+        "register": "literary",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam literary fiction",
+          "generational change in artistic values",
+          "traditional versus modern conceptions of art",
+          "metaphorical loss of identity"
+        ],
+        "authors_note": "The item requires integration of the final metaphor with the preceding discourse. A purely local reading of 'lost his face' as referring only to the abstract portrait misses the broader coherence relation."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_dis_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "contrastive-inference",
+        "social-norms",
+        "literary-pragmatics"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "സാഹിത്യത്തിലെ സ്ത്രീപാത്രങ്ങൾ പലപ്പോഴും വായനക്കാരുടെ കൂടുതൽ സഹാനുഭൂതി നേടുന്നതിന്റെ കാരണം പരിശോധിക്കുകയാണ് ലേഖകൻ. പരമ്പരാഗത സാമൂഹ്യനീതിയിൽ സ്ത്രീകൾ പുരുഷാധിപത്യത്തിനു കീഴിൽ കഷ്ടപ്പാടുകളും ദുരിതങ്ങളും സഹിക്കേണ്ടിവന്നു. സാഹിത്യത്തിലും സീത, ദമയന്തി, ശകുന്തള, ഡെസ്ഡമോണ തുടങ്ങിയ സ്ത്രീകൾ ദുഃഖവും ത്യാഗവും സഹിക്കുന്നവരായി വായനക്കാരുടെ ഹൃദയം കവരുന്നു. എന്നാൽ സ്ത്രീ സ്വന്തം വ്യക്തിത്വവും ആത്മാഭിമാനവും പ്രകടിപ്പിക്കുമ്പോൾ ഈ സമീപനം മാറുന്നു. കുമാരനാശാന്റെ സീത രാമനീതിയെ വിമർശിക്കുന്നതും 'ദുരവസ്ഥ'യിലെ സാവിത്രി സ്വന്തം ജീവിതത്തെക്കുറിച്ച് തീരുമാനമെടുക്കുന്നതും പരമ്പരാഗത ആസ്വാദകർക്ക് അസ്വസ്ഥതയുണ്ടാക്കുന്നതായി ലേഖകൻ ചൂണ്ടിക്കാണിക്കുന്നു. ഒടുവിൽ അദ്ദേഹം പറയുന്നു: “താൻപോരിമ കാണിക്കുന്ന സ്ത്രീ—അവളെ പുരുഷന്റെ സാഹിത്യവും ആസ്വാദനപാരമ്പര്യവും വെറുക്കുന്നു.”",
+          "hypothesis": "സ്ത്രീയുടെ ദുഃഖത്തെയും ത്യാഗത്തെയും സഹാനുഭൂതിയോടെ സ്വീകരിക്കുന്ന അതേ സാഹിത്യ-ആസ്വാദനപാരമ്പര്യം, അവൾ സ്വന്തം വ്യക്തിത്വവും സ്വാതന്ത്ര്യവും അവകാശപ്പെടുമ്പോൾ അവളെ അംഗീകരിക്കാൻ മടിക്കുന്നുവെന്നാണ് ലേഖകന്റെ വിമർശനം."
+        },
+        "latin": {
+          "premise": "Saahithyathile sthreepaathrangal palappozhum vaayanakkaarude kooduthal sahaanubhoothi nedunnathinte kaaranam parishodhikkukayaanu lekhakan. Paaramparya samoohaneethiyil sthreekal purushaadhipathyathinu keezhil kashtappaadukalum durithangalum sahikkendivannu. Saahithyathilum Seetha, Damayanthi, Shakunthala, Desdemona thudangiya sthreekal duhkhavum thyaagavum sahikkunnavaraayi vaayanakkaarude hridayam kavarunnu. Ennaal sthri swantham vyakthithwavum aathmaabhimaanavum prakadippikkumbol ee sameepanam maarunnu. Kumaaranaashante Seetha raamaneethiye vimarshikkunnathum 'Duravastha'yile Savithri swantham jeevithathekkurichu theerumaanamedukkunnathum paaramparya aaswaadakarkku aswasthathayundaakkunnathaayi lekhakan choondikkaanikkunnu. Oduvil adheham parayunnu: 'Thaanporima kaanikkunna sthri—avale purushante saahithyavum aaswaadanapaaramparyavum verukkunnu.'",
+          "hypothesis": "Sthreeyude duhkhattheyum thyaagattheyum sahaanubhoothiyode sweekarikkunna athe saahithya-aaswaadanapaaramparyam, aval swantham vyakthithwavum swaathanthryavum avakaashappedumbol avale angeekarikkaan madikkunnuvennaanu lekhakante vimarshanam."
+        },
+        "english": {
+          "premise": "The essayist examines why female characters in literature often receive greater sympathy from readers. Under traditional social arrangements, women were forced to endure suffering and hardship under male domination. In literature too, women such as Sita, Damayanti, Shakuntala, and Desdemona win readers' sympathy as figures who endure suffering and sacrifice. But this response changes when a woman asserts her individuality and self-respect. The essayist points out that traditional readers become uncomfortable when Kumaran Asan's Sita questions Rama's justice or when Savitri in 'Duravastha' makes a consequential choice about her own life. He concludes: 'The self-assertive woman—male-dominated literature and its tradition of literary appreciation detest her.'",
+          "hypothesis": "The essayist's criticism is that the same literary tradition that responds sympathetically to women's suffering and sacrifice becomes reluctant to accept women when they assert their own individuality and freedom."
+        }
+      },
+      "explanation": "The hypothesis follows from a contrast developed across the passage rather than from the final sentence alone. The essayist first explains why suffering and self-sacrificing women become objects of sympathy in literature, and then contrasts this with the resistance encountered by women such as Asan's Sita and Savitri when they assert autonomy or challenge established expectations. The concluding statement about the 'self-assertive woman' generalizes this contrast. Therefore the hypothesis captures the discourse-level argument and is entailed.",
+      "metadata": {
+        "register": "literary criticism",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Kumaran Asan",
+          "Sita",
+          "Duravastha",
+          "Savitri",
+          "patriarchal literary tradition",
+          "female agency in Malayalam literature"
+        ]
+      },
+      "label": "entailment"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "dataset": "Malayalam Speech Acts - NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ml_spa_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-disagreement",
+        "dismissal",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Weekend planine kuṟiccu Ramesh oru uracha nirdēśam paranju. Suresh athu kēṭṭa śēṣam oru nimisham ālōchichu, pinne paranju: \"Nī parayunnathapōlē.\"",
+          "hypothesis": "Suresh Ramesh parayunnathōṭe pūrṇamāyi sammathikkunnu."
+        },
+        "malayalam": {
+          "premise": "വീക്കന്റ് പ്ലാനിനെ കുറിച്ച് രമേഷ് ഒരു ഉറച്ച നിർദേശം പറഞ്ഞു. സുരേഷ് അത് കേട്ട ശേഷം ഒരു നിമിഷം ആലോചിച്ചു, പിന്നെ പറഞ്ഞു: \"നീ പറയുന്നതുപോലെ.\"",
+          "hypothesis": "സുരേഷ് രമേഷ് പറയുന്നതോട് പൂർണമായി സമ്മതിക്കുന്നു."
+        },
+        "english": {
+          "premise": "Ramesh suggested a firm plan for the weekend. Suresh listened, paused for a moment, and then said, “As you say.”",
+          "hypothesis": "Suresh fully agrees with what Ramesh said."
+        }
+      },
+      "explanation": "In Malayalam, “Nī parayunnatha pōlē” sounds like agreement on the surface but typically conveys reluctant acceptance or polite withdrawal, not full alignment. The hypothesis misinterprets the pragmatic force of the utterance.",
+      "metadata": {
+        "register": "conversation among friends",
+        "cultural_markers": [
+          "Malayalam face-saving agreement",
+          "indirect dissent",
+          "conflict avoidance"
+        ],
+        "authors_note": "Premise is intentionally neutral so the model must rely on pragmatic understanding of the utterance rather than narrative cues."
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "ml_sa_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "warning",
+        "social-dominance",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Angadiyil koottam koodiyirikkumbol Arun oru cheriya tharkkil pettu. Athu kaṇṭappōl avante achchan shantamayittu paranju: \"Nokki nadakkande.\"",
+          "hypothesis": "Arunte achchan avane snehapoorvamaya oru upadeshamaanu നൽകുന്നത്."
+        },
+        "malayalam": {
+          "premise": "അങ്ങാടിയിൽ കൂട്ടം കൂടിയിരിക്കുമ്പോൾ അരുണ് ഒരു ചെറിയ തർക്കത്തിൽ പെട്ടു. അത് കണ്ടപ്പോൾ അവന്റെ അച്ഛൻ ശാന്തമായി പറഞ്ഞു: \"നോക്കി നടക്കണ്ടേ.\"",
+          "hypothesis": "അരുണിന്റെ അച്ഛൻ അവനോട് സ്നേഹപൂർവ്വമായ ഒരു ഉപദേശമാണ് നൽകുന്നത്."
+        },
+        "english": {
+          "premise": "In the crowded local market, Arun got into a small argument. Seeing this, his father calmly said, “Behave carefully.”",
+          "hypothesis": "Arun’s father is simply giving him a gentle, friendly piece of advice."
+        }
+      },
+      "explanation": "“Nokki nadakkande” is a mild warning that asserts authority, especially when used by a parent in a public setting like a crowded market. It is not a soft, friendly suggestion. Thus the hypothesis contradicts the pragmatic force of the utterance.",
+      "metadata": {
+        "register": "family/authority",
+        "cultural_markers": [
+          "Malayalam soft-imperative -(n)de warning form",
+          "public setting increasing parental caution",
+          "hierarchical tone common in Malayalam parent-child interactions"
+        ],
+        "authors_note": "The angadi argument context fits naturally with the parental warning 'nokki nadakkande', while still keeping the premise neutral enough for true NLI reasoning."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ml_sa_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-complaint",
+        "responsibility-avoidance",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Atithikaḷ veettilēkkŭ varumpōl, ellāṁ orukkānŭlla cumatala Śyāmin āyirunnu. Pakše samayaṁ āyappōl, avane eviteyuṁ kāṇānilla. Pinne atithikaḷ poyikkaḻiññaṟapōl avan pinnil ninnu vannappōl, avante mūtta sahōdari ciriccu koṇṭŭ paṟaññu: “Aṅṅane aṅṅŭ poyallō”Atithikaḷ veettilēkkŭ varumpōl, ellāṁ orukkānŭlla cumatala Śyāmin āyirunnu. Pakše samayaṁ āyappōl, avane eviteyuṁ kāṇānilla. Pinne atithikaḷ poyikkaḻiññaṟapōl avan pinnil ninnu vannappōl, avante mūtta sahōdari ciriccu koṇṭŭ paṟaññu: “Aṅṅane aṅṅŭ poyallō”",
+          "hypothesis": "Śyām sahāyam ozhivākān śramicchatāyi cēchi sūcippikkunnu."
+        },
+        "malayalam": {
+          "premise": "അതിഥികൾ വീട്ടിലേക്ക് വരുമ്പോൾ, എല്ലാം ഒരുക്കാനുള്ള ചുമതല ശ്യാമിന് ആയിരുന്നു. പക്ഷേ സമയം ആയപ്പോൾ, അവനെ എവിടെയും കാണാനില്ല. പിന്നെ അതിഥികൾ പോയിക്കഴിഞ്ഞപ്പോൾ അവൻ പിന്നിൽ നിന്ന് വന്നപ്പോൾ, അവന്റെ മൂത്ത സഹോദരി ചിരിച്ചുകൊണ്ട് പറഞ്ഞു: \"അങ്ങനെ അങ്ങ് പോയല്ലോ\"",
+          "hypothesis": "ശ്യാം സഹായം ഒഴിവാക്കാൻ ശ്രമിച്ചതായി ചേച്ചി സൂചിപ്പിക്കുന്നു."
+        },
+        "english": {
+          "premise": "When guests arrived, Shyam was supposed to help with the preparations. But he was nowhere to be found; when he finally appeared from the back after everything was over, his older sister smiled and said, “hey you Cant leave like that?”",
+          "hypothesis": "His sister is implying that Shyam tried to avoid helping."
+        }
+      },
+      "explanation": "In Malayalam, “Angane angu poyallo?” is a mild, indirect complaint that subtly accuses someone of avoiding responsibility. In this context, it clearly implies that Shyam slipped away from helping, so the hypothesis is entailed.",
+      "metadata": {
+        "register": "family / informal",
+        "cultural_markers": [
+          "Malayalam indirect accusation",
+          "responsibility-avoidance implicature",
+          "soft reprimand through rhetorical questioning"
+        ],
+        "authors_note": "This item tests whether the model can correctly infer the implied blame encoded in the rhetorical question, rather than interpret it as literal curiosity or praise."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_sa_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "directive",
+        "parental-authority",
+        "literal-vs-pragmatic",
+        "corrective-directive"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Oru divasam, makan vāṇṭi ōṭikkukayāyirunnu, achchan munnile seat-il irunnu. Drive ceyyunnatinite, makan mobile phone-il nōkki śraddha tiriccu. Appōl achchan kaṭhinamāyi paṟaññu: “Nēre nōkki vāṇṭi ōṭikkŭ!”",
+          "hypothesis": "Ivide, “Nēre nōkki vāṇṭi ōṭikkŭ” enna vākkŭ śabdikamāya arthattinēkkāl kūṭutalāyi, makane śraddhayōṭe vāṇṭi ōṭikkān achchan nirdēśikkukayāṇ."
+        },
+        "malayalam": {
+          "premise": "ഒരു ദിവസം, മകൻ വണ്ടി ഓടിക്കുകയായിരുന്നു, അച്ഛൻ മുന്നിലെ സീറ്റിൽ ഇരുന്നു. ഡ്രൈവ് ചെയ്യുന്നതിനിടെ, മകൻ മൊബൈൽ ഫോണിലേക്ക് നോക്കി ശ്രദ്ധ തിരിച്ചു. അപ്പോൾ അച്ഛൻ കഠിനമായി പറഞ്ഞു: \"നേരെ നോക്കി വണ്ടിയോടിക്ക്!\"",
+          "hypothesis": "ഇവിടെ, “നേരെ നോക്കി വണ്ടിയോടിക്ക്” എന്നത് ശബ്ദാർത്ഥത്തെക്കാൾ കൂടുതലായി, മകനെ ശ്രദ്ധയോടെ വണ്ടി ഓടിക്കാൻ അച്ഛൻ നിർദ്ദേശിക്കുകയാണ്."
+        },
+        "english": {
+          "premise": "One day, the son was driving while his father sat in the front seat. While driving, the son became distracted by looking at his mobile phone. The father firmly said, “Look straight and drive!”",
+          "hypothesis": "Here, the utterance functions not merely as a literal instruction about gaze direction, but as the father instructing his son to drive attentively."
+        }
+      },
+      "explanation": "Although the literal content refers to looking straight, the illocutionary force of the imperative is directive and corrective. In this context, the father is instructing his son to drive attentively. Therefore, the hypothesis is entailed.",
+      "metadata": {
+        "register": "family / authoritative",
+        "cultural_markers": [
+          "Malayalam bare imperative construction",
+          "parental corrective directive",
+          "distinction between literal meaning and pragmatic force"
+        ],
+        "authors_note": "This item tests whether the model can recognize that the speech act extends beyond literal gaze direction and instead encodes a corrective directive about attentive driving."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_sa_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request",
+        "expressive-vs-directive",
+        "power-dynamics",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Achchan hall-il patram vāyikkunnu. Amma aṭukkalayil joli ceyyunnu. Appōl achchan paṟaññu: “Oru kāppi kuṭikkān tōnnunnu.”",
+          "hypothesis": "Ivide, achchan paṟañña vākkŭ śabdikamāyi tanṟe āgraham prakaṭippikkunnatāṇeṅkilum, pragmāṭikamay ammaye kāppi tayyārākkān oru apratyakṣa abhyarthanāyāṇ pravarttikkunnathu."
+        },
+        "malayalam": {
+          "premise": "അച്ഛൻ ഹാളിൽ പത്രം വായിക്കുന്നു. അമ്മ അടുക്കളയിൽ ജോലി ചെയ്യുന്നു. അപ്പോൾ അച്ഛൻ പറഞ്ഞു: \"ഒരു കാപ്പി കുടിക്കാൻ തോന്നുന്നു.\"",
+          "hypothesis": "ഇവിടെ, “ഒരു കാപ്പി കുടിക്കാൻ തോന്നുന്നു” എന്നത് ശബ്ദാർത്ഥത്തിൽ ഇച്ഛ പ്രകടിപ്പിക്കുന്ന വാചകമായാലും, സന്ദർഭത്തിൽ അത് അമ്മയോട് കാപ്പി തയ്യാറാക്കാൻ പറയുന്ന ഒരു അപ്രത്യക്ഷ അഭ്യർത്ഥനയായി പ്രവർത്തിക്കുന്നു."
+        },
+        "english": {
+          "premise": "The father is reading the newspaper in the hall while the mother is working in the kitchen. The father says, “I feel like having a coffee.”",
+          "hypothesis": "In this context, although the utterance literally expresses a desire, it pragmatically functions as an indirect request for the mother to make coffee."
+        }
+      },
+      "explanation": "The utterance 'I feel like having a coffee' is grammatically an expression of desire. However, in the domestic context where the mother is present in the kitchen, it pragmatically functions as an indirect request. Therefore, the hypothesis correctly interprets the pragmatic speech act and is entailed by the premise.",
+      "metadata": {
+        "register": "family / domestic",
+        "cultural_markers": [
+          "Malayalam indirect request strategy",
+          "expressive functioning as directive",
+          "household implicature pattern"
+        ],
+        "authors_note": "This item evaluates whether the model can identify an indirect directive encoded as an expressive statement in a household context."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_sa_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "rhetorical-question",
+        "collective-memory",
+        "expressive-vs-directive",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Manushyante munnettam kurichu samsarikkunna kavi, munn thalamurakal samuhathinte vazhiyil nattiya deepasthambhangal ormaippichu kondu chodikkunnu: “Nammal vann vazhiyil mun thalamurakal nattiya deepasthambhangal kando pinnil?”",
+          "hypothesis": "Ivide “kando pinnil?” enna chodyam śabdikamāyi vivaram ariyānalla; pakaram munn thalamurakal naṭattiya tyāgangaḷum prayatnaṅgaḷum orkkān ippozhathe thalamuraye ormaippikkunna oru prāyōgika vākkāṇ."
+        },
+        "malayalam": {
+          "premise": "മനുഷ്യരുടെ മുന്നേറ്റത്തെക്കുറിച്ച് സംസാരിക്കുന്ന കവി, മുൻ തലമുറകൾ സമൂഹത്തിന്റെ വഴിയിൽ നട്ട ദീപസ്തംഭങ്ങളെ ഓർമ്മിപ്പിച്ച് ചോദിക്കുന്നു: “നമ്മൾ വന്ന വഴിയിൽ മുൻ തലമുറകൾ നട്ട ദീപസ്തംഭങ്ങൾ കണ്ടോ പിന്നിൽ?”",
+          "hypothesis": "ഇവിടെ “കണ്ടോ പിന്നിൽ?” എന്ന ചോദ്യം ശബ്ദാർത്ഥത്തിൽ വിവരം ചോദിക്കുന്നതല്ല; മറിച്ച് മുൻ തലമുറകൾ ചെയ്ത ത്യാഗങ്ങളെയും പരിശ്രമങ്ങളെയും തിരിച്ചറിയാൻ ഇപ്പോഴത്തെ തലമുറയെ ഓർമ്മിപ്പിക്കുന്ന പ്രയോഗമാണ്."
+        },
+        "english": {
+          "premise": "While speaking about the progress of humanity, the poet reminds the audience of the guiding lamps placed along the path by previous generations and asks, “Have you seen the lamps that earlier generations placed along the path we came through?”",
+          "hypothesis": "Here the question is not meant to literally ask for information but to urge the present generation to recognize the sacrifices and contributions of earlier generations."
+        }
+      },
+      "explanation": "Although the sentence is grammatically a question, it functions as a rhetorical speech act. The poet is not seeking factual information but urging the audience to recognize the sacrifices and contributions of previous generations. Therefore, the hypothesis correctly interprets the pragmatic force of the utterance.",
+      "metadata": {
+        "register": "literary / reflective",
+        "cultural_markers": [
+          "Malayalam rhetorical questioning",
+          "collective memory of ancestors",
+          "intergenerational continuity"
+        ],
+        "authors_note": "Tests whether the model recognizes a rhetorical question functioning as a directive reminder rather than a literal information-seeking query."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_sa_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "expressive",
+        "indirect-praise",
+        "apparent-withholding",
+        "evaluative-force",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kadalundi theevandiduranthathil parikkettavare rakshikkan swamedhaya munnittirangiya aalukal prathiphalamo angeekaaramo aavashyappettilla. Avaril palarum swantham suraksha polum vakavaykkaathe aparichithare sahaayichu; rakshaapravarthanam kazhinjappol shraddha aakarshikkaathe avar madangukayum cheythu. Ivarekkurichu lekhakan parayunnu: “Njangal bhoomiyile ee vishuddhamaalaakhamare abhinandichu keduvaruthunnilla. Avar bhoomiyile uppaanu.”",
+          "hypothesis": "“Abhinandichu keduvaruthunnilla” ennu parayunnathu avarude pravarthanathe angeekarikkaathirikkaanulla theerumaanamalla; saadhaarana abhinandanathinte paridhiyil othukkaanaakaathathra valiya moolyam avarude pravarthanathinu lekhakan kalpikkunnu ennathinte prakatanaamaanu."
+        },
+        "malayalam": {
+          "premise": "കടലുണ്ടി തീവണ്ടിദുരന്തത്തിൽ പരിക്കേറ്റവരെ രക്ഷിക്കാൻ സ്വമേധയാ മുന്നിട്ടിറങ്ങിയ ആളുകൾ പ്രതിഫലമോ അംഗീകാരമോ ആവശ്യപ്പെട്ടില്ല. അവരിൽ പലരും സ്വന്തം സുരക്ഷ പോലും വകവയ്ക്കാതെ അപരിചിതരെ സഹായിച്ചു; രക്ഷാപ്രവർത്തനം കഴിഞ്ഞപ്പോൾ ശ്രദ്ധ ആകർഷിക്കാതെ അവർ മടങ്ങുകയും ചെയ്തു. ഇവരെക്കുറിച്ച് ലേഖകൻ പറയുന്നു: “ഞങ്ങൾ ഭൂമിയിലെ ഈ വിശുദ്ധമാലാഖമാരെ അഭിനന്ദിച്ച് കേടുവരുത്തുന്നില്ല. അവർ ഭൂമിയിലെ ഉപ്പാണ്.”",
+          "hypothesis": "“അഭിനന്ദിച്ച് കേടുവരുത്തുന്നില്ല” എന്നു പറയുന്നത് അവരുടെ പ്രവർത്തനത്തെ അംഗീകരിക്കാതിരിക്കാനുള്ള തീരുമാനമല്ല; സാധാരണ അഭിനന്ദനത്തിന്റെ പരിധിയിൽ ഒതുക്കാനാകാത്തത്ര വലിയ മൂല്യം അവരുടെ പ്രവർത്തനത്തിന് ലേഖകൻ കൽപ്പിക്കുന്നു എന്നതിന്റെ പ്രകടനമാണ്."
+        },
+        "english": {
+          "premise": "The people who voluntarily came forward to rescue victims of the Kadalundi train disaster sought neither payment nor recognition. Many risked their own safety to help complete strangers and quietly withdrew once the rescue work was over. Referring to them, the author says, “We will not diminish these holy angels on earth by congratulating them. They are the salt of the earth.”",
+          "hypothesis": "By saying that he will not 'diminish them by congratulating them,' the author is not withholding recognition; he is treating their actions as possessing a moral worth too great to be contained within ordinary expressions of congratulations."
+        }
+      },
+      "explanation": "The surface form appears to withhold the speech act of congratulating the volunteers. In context, however, this withholding itself functions as an expressive act of heightened admiration: ordinary congratulations are presented as inadequate to the scale and selflessness of their actions. The following statement, “അവർ ഭൂമിയിലെ ഉപ്പാണ്,” reinforces this elevated evaluation. The hypothesis therefore captures the pragmatic force of the utterance rather than its literal surface form.",
+      "metadata": {
+        "register": "editorial / literary",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam evaluative rhetoric",
+          "അഭിനന്ദിച്ച് കേടുവരുത്തുന്നില്ല",
+          "ഭൂമിയിലെ ഉപ്പ്",
+          "Kadalundi disaster volunteerism"
+        ],
+        "authors_note": "Tests whether the model can distinguish an apparent refusal to perform an expressive speech act from the stronger evaluative act accomplished by that refusal."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_sa_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-directive",
+        "rhetorical-question",
+        "de-escalation",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jailil ninnu purathuvanna shesham, thanne krooramaayi mardicha policeukaaranodu pakaram veettaan Basheer theerumanichu. Oru penakkathi eduthu ayaale thedi pokumbol Achuthan avane kandumutti. Basheer thante uddesham paranjappol Achuthan saumyamayi chodichu: “Veettil poyi baappayeyum ummayeyum kaanande?” Pinne adheham policeukaar sarkkaarinte karukkal maathramaanu ennu paranju Basheerinodu kshamikkaanum veettil pokaanum aavashyappettu.",
+          "hypothesis": "“Veettil poyi baappayeyum ummayeyum kaanande?” enna chodyathiloode Achuthan Basheer veettil pokaan uddeshikkunnundo enna vivaram maathram ariyaan shramikkukayaanu."
+        },
+        "malayalam": {
+          "premise": "ജയിലിൽ നിന്ന് പുറത്തിറങ്ങിയ ശേഷം, തന്നെ ക്രൂരമായി മർദിച്ച പോലീസുകാരനോട് പകരം വീട്ടാൻ ബഷീർ തീരുമാനിച്ചു. ഒരു പേനാക്കത്തി എടുത്ത് അയാളെ തേടി പോകുമ്പോൾ അച്ചുതൻ ബഷീറിനെ കണ്ടുമുട്ടി. ബഷീർ തന്റെ ഉദ്ദേശ്യം പറഞ്ഞപ്പോൾ അച്ചുതൻ സൗമ്യമായി ചോദിച്ചു: “വീട്ടിൽപോയി ബാപ്പായേയും ഉമ്മായേയും കാണണ്ടേ?” തുടർന്ന് പോലീസുകാർ ഭരണകൂടത്തിന്റെ കരുക്കൾ മാത്രമാണെന്ന് പറഞ്ഞ് ബഷീറിനോട് ക്ഷമിക്കാനും വീട്ടിൽ പോകാനും അദ്ദേഹം ആവശ്യപ്പെട്ടു.",
+          "hypothesis": "“വീട്ടിൽപോയി ബാപ്പായേയും ഉമ്മായേയും കാണണ്ടേ?” എന്ന ചോദ്യം ബഷീർ വീട്ടിൽ പോകാൻ ഉദ്ദേശിക്കുന്നുണ്ടോ എന്ന വിവരം മാത്രം അറിയാനുള്ള സാധാരണ ചോദ്യമാണ്."
+        },
+        "english": {
+          "premise": "After being released from prison, Basheer decided to take revenge on the policeman who had brutally beaten him. Carrying a small knife, he set out looking for the policeman when Achuthan met him. After Basheer explained what he intended to do, Achuthan gently asked, “Shouldn’t you go home and see your father and mother?” He then argued that policemen were merely instruments of the government and urged Basheer to forgive and go home.",
+          "hypothesis": "By asking, “Shouldn’t you go home and see your father and mother?”, Achuthan is merely asking whether Basheer intends to go home."
+        }
+      },
+      "explanation": "The question is not merely information-seeking. In context, Achuthan is trying to redirect Basheer away from retaliatory violence and toward returning home. The negative-interrogative form functions as an indirect directive and de-escalatory appeal. Therefore, the hypothesis that Achuthan is only asking about Basheer's plans contradicts the pragmatic force of the utterance.",
+      "metadata": {
+        "register": "literary / autobiographical",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam negative-interrogative directive 'കാണണ്ടേ?'",
+          "kinship terms 'ബാപ്പ' and 'ഉമ്മ'",
+          "Gandhian nonviolence",
+          "Indian independence movement"
+        ],
+        "authors_note": "Tests whether the model distinguishes a literal information-seeking reading from the indirect directive force of the question."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ml_sa_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request",
+        "mitigated-directive",
+        "literal-vs-pragmatic",
+        "social-power-asymmetry"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Bheemanum jyeshthanum Koregaonilekkulla yaathrayil vishappum daahavum kondu valare ksheenichirunnu. Vazhiyil oru kinar kandappol vandikkaaran vellam kori kudichu. Kuttikal vellathinaayi aduthethiyappol, avar Mahar jaathikkaar aanennathinaal kinar thodaan paadillennu ayaal vilakki. Appol kuttikal paranju: “Njangalkku vallaathe daahikkunnu. Alpam vellam kori thannaalum mathi...”",
+          "hypothesis": "“Alpam vellam kori thannaalum mathi” ennu parayumbol, ethra vellam venam enna kaaryathil kuttikal thangalkku kurachu mathiyennu maathram vandikkaarane ariyikkukayaanu; ayaalodu vellam kori nalkaan aavashyappedukayalla."
+        },
+        "malayalam": {
+          "premise": "ഭീമനും ജ്യേഷ്ഠനും കോറഗണിലേക്കുള്ള യാത്രയിൽ വിശപ്പും ദാഹവും കൊണ്ട് വളരെ ക്ഷീണിച്ചിരുന്നു. വഴിയിൽ ഒരു കിണർ കണ്ടപ്പോൾ വണ്ടിക്കാരൻ വെള്ളം കോരിക്കുടിച്ചു. കുട്ടികൾ വെള്ളത്തിനായി അടുത്തെത്തിയപ്പോൾ, അവർ മഹർ ജാതിക്കാരാണെന്നതിനാൽ കിണർ തൊടാൻ പാടില്ലെന്ന് അയാൾ വിലക്കി. അപ്പോൾ കുട്ടികൾ പറഞ്ഞു: “ഞങ്ങൾക്കു വല്ലാതെ ദാഹിക്കുന്നു. അല്പം വെള്ളം കോരി തന്നാലും മതി...”",
+          "hypothesis": "“അല്പം വെള്ളം കോരി തന്നാലും മതി” എന്നു പറയുമ്പോൾ, എത്ര വെള്ളം വേണമെന്ന കാര്യത്തിൽ തങ്ങൾക്ക് കുറച്ചു മതിയെന്നു മാത്രം കുട്ടികൾ വണ്ടിക്കാരനെ അറിയിക്കുകയാണ്; അയാളോട് വെള്ളം കോരി നൽകാൻ ആവശ്യപ്പെടുകയല്ല."
+        },
+        "english": {
+          "premise": "Bheeman and his older brother were exhausted by hunger and thirst on their journey to Koregaon. When they came across a well, the cart driver drew water and drank. When the boys approached for water, he stopped them, saying that because they were Mahars they were not allowed to touch the well. The boys then said, “We are terribly thirsty. Even if you just draw us a little water, that will be enough...”",
+          "hypothesis": "By saying, “Even if you just draw us a little water, that will be enough,” the boys are merely telling the driver that a small amount of water would satisfy them, rather than asking him to draw water for them."
+        }
+      },
+      "explanation": "Although 'അല്പം വെള്ളം കോരി തന്നാലും മതി' can literally describe a small amount of water as sufficient, that is not its primary communicative function here. The boys cannot draw water from the well themselves and address the person who can do so. In this context, 'തന്നാലും മതി' mitigates a request: they are pleading with the driver to draw some water for them. The hypothesis incorrectly treats the utterance as merely conveying information about the quantity of water they need, so it is a contradiction.",
+      "metadata": {
+        "register": "literary / social narrative",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam indirect-request construction 'തന്നാലും മതി'",
+          "caste-based restrictions on access to wells",
+          "Mahar community",
+          "mitigation under social power asymmetry"
+        ],
+        "authors_note": "The hypothesis deliberately selects a semantically plausible literal reading of 'തന്നാലും മതി' while denying its contextually intended request force."
+      },
+      "label": "contradiction"
+    }
+  ]
+}

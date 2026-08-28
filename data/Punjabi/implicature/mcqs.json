@@ -1,0 +1,715 @@
+{
+  "dataset": "Punjabi Pragmatics - Implicature MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_imp_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Jiddaan hi Kirpal ghar pahuncheya, massi ne keha, “VIP aa gaye, hun program shuru kar dinde aa.”",
+          "question": "Massi ke kehna chaundi hai?",
+          "options": [
+            "Koi khaas aadmi aa aya hai",
+            "Saare Kirpal de aaun te bahut khush hoye",
+            "Kirpal time te nahi aaya",
+            "Kirpal koi gift leke nahi aaya"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Kirpal time te nahi aaya"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਜਿਵੇਂ ਹੀ ਕਿਰਪਾਲ ਘਰ ਪਹੁੰਚਿਆ, ਮਾਸੀ ਨੇ ਕਿਹਾ, “ਵੀ.ਆਈ.ਪੀ. ਆ ਗਏ, ਹੁਣ ਪ੍ਰੋਗਰਾਮ ਸ਼ੁਰੂ ਕਰ ਦਿੰਦੇ ਹਾਂ।”",
+          "question": "ਮਾਸੀ ਕੀ ਕਹਿਣਾ ਚਾਹੁੰਦੀ ਹੈ?",
+          "options": [
+            "ਕੋਈ ਖਾਸ ਆਦਮੀ ਆਇਆ ਹੈ",
+            "ਸਾਰੇ ਕਿਰਪਾਲ ਦੇ ਆਉਣ ਤੇ ਬਹੁਤ ਖੁਸ਼ ਹੋਏ",
+            "ਕਿਰਪਾਲ ਸਮੇਂ ‘ਤੇ ਨਹੀਂ ਆਇਆ",
+            "ਕਿਰਪਾਲ ਕੋਈ ਤੋਹਫ਼ਾ ਲੈ ਕੇ ਨਹੀਂ ਆਇਆ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਕਿਰਪਾਲ ਸਮੇਂ ‘ਤੇ ਨਹੀਂ ਆਇਆ"
+          }
+        },
+        "english": {
+          "context": "As soon as Kirpal reached home, the aunt said, “The VIP has arrived—now we can start the program.”",
+          "question": "What does the aunt mean?",
+          "options": [
+            "A special person has arrived",
+            "Everyone is very happy that Kirpal arrived",
+            "Kirpal did not come on time (he is late)",
+            "Kirpal didn’t bring a gift"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Kirpal did not come on time (he is late)"
+          }
+        }
+      },
+      "explanation": "“VIP aa gaye” here is sarcastic; the program waited, implying Kirpal is late.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "sarcastic VIP trope for lateness"
+        ],
+        "authors_note": "Use to test sarcasm + event-timing implicature."
+      }
+    },
+    {
+      "id": "pa_imp_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "proverb",
+        "face-saving",
+        "social-critique"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Bhenji, mai keh rhi unha de munde de kamm thik nahi lag rhe."
+            },
+            {
+              "speaker": "B",
+              "utterance": "Jinha de ghar sheeshe de hunde ne, unha nu nahi bolna chahida."
+            }
+          ],
+          "question": "B da ki matlab hai?",
+          "options": [
+            "A da ghar sheeshe da hai",
+            "A nu apna ghar saaf karna chahida hai",
+            "A nu apne parivaar vall pehla dekhna chahida",
+            "A ne zyada bura boleya"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "A nu apne parivaar vall pehla dekhna chahida"
+          }
+        },
+        "gurmukhi": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "ਭੈਣਜੀ, ਮੈਂ ਕਹਿ ਰਹੀ ਉਹਨਾਂ ਦੇ ਮੁੰਡੇ ਦੇ ਕੰਮ ਠੀਕ ਨਹੀਂ ਲੱਗ ਰਹੇ।"
+            },
+            {
+              "speaker": "B",
+              "utterance": "ਜਿਨ੍ਹਾਂ ਦੇ ਘਰ ਸ਼ੀਸ਼ੇ ਦੇ ਹੁੰਦੇ ਨੇ, ਉਹਨਾਂ ਨੂੰ ਨਹੀਂ ਬੋਲਣਾ ਚਾਹੀਦਾ।"
+            }
+          ],
+          "question": "ਬੀ ਦਾ ਕੀ ਮਤਲਬ ਹੈ?",
+          "options": [
+            "ਏ ਦਾ ਘਰ ਸ਼ੀਸ਼ੇ ਦਾ ਹੈ",
+            "ਏ ਨੂੰ ਆਪਣਾ ਘਰ ਸਾਫ਼ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ",
+            "ਏ ਨੂੰ ਪਹਿਲਾਂ ਆਪਣੇ ਪਰਿਵਾਰ ਵੱਲ ਦੇਖਣਾ ਚਾਹੀਦਾ",
+            "ਏ ਨੇ ਜ਼ਿਆਦਾ ਬੁਰਾ ਬੋਲਿਆ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਏ ਨੂੰ ਪਹਿਲਾਂ ਆਪਣੇ ਪਰਿਵਾਰ ਵੱਲ ਦੇਖਣਾ ਚਾਹੀਦਾ"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Sister, I’m saying their son’s work doesn’t look right."
+            },
+            {
+              "speaker": "B",
+              "utterance": "People who live in glass houses shouldn’t speak."
+            }
+          ],
+          "question": "What does B mean?",
+          "options": [
+            "A’s house is made of glass",
+            "A should clean her house",
+            "A should look at her own family first before criticizing",
+            "A spoke too harshly"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "A should look at her own family first before criticizing"
+          }
+        }
+      },
+      "explanation": "The proverb implies hypocrisy: fix your own issues before judging others.",
+      "metadata": {
+        "register": "family/neighborhood",
+        "cultural_markers": [
+          "proverbial rebuke used for face-saving and indirect criticism"
+        ]
+      }
+    },
+    {
+      "id": "pa_imp_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "accountability"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Trainer ne Raju nu keha, “Ajj ta changi dieting kar rhe—navi version di gulab jamun kha rhe!”",
+          "question": "Trainer ki kehna chaunda hai?",
+          "options": [
+            "Raju changi dieting kar reha",
+            "Raju diet follow nahi kar reha",
+            "Koi gulab jamun di navi version aayi hai",
+            "Raju ajj kal gym nahi aaunda"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Raju diet follow nahi kar reha"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਟ੍ਰੇਨਰ ਨੇ ਰਾਜੂ ਨੂੰ ਕਿਹਾ, “ਅੱਜ ਤਾਂ ਚੰਗੀ ਡਾਇਟਿੰਗ ਕਰ ਰਹੇ—ਨਵੀਂ ਵਰਜਨ ਦੀ ਗੁਲਾਬ ਜਾਮੁਨ ਖਾ ਰਹੇ ਹੋ!”",
+          "question": "ਟ੍ਰੇਨਰ ਕੀ ਕਹਿਣਾ ਚਾਹੁੰਦਾ ਹੈ?",
+          "options": [
+            "ਰਾਜੂ ਚੰਗੀ ਡਾਇਟਿੰਗ ਕਰ ਰਿਹਾ",
+            "ਰਾਜੂ ਡਾਇਟ ਫੋਲੋ ਨਹੀਂ ਕਰ ਰਿਹਾ",
+            "ਕੋਈ ਗੁਲਾਬ ਜਾਮੁਨ ਦੀ ਨਵੀਂ ਵਰਜਨ ਆਈ ਹੈ",
+            "ਰਾਜੂ ਅੱਜਕੱਲ੍ਹ ਜਿਮ ਨਹੀਂ ਆਉਂਦਾ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਰਾਜੂ ਡਾਇਟ ਫੋਲੋ ਨਹੀਂ ਕਰ ਰਿਹਾ"
+          }
+        },
+        "english": {
+          "context": "The trainer told Raju, “Wow, great dieting today—eating the new version of gulab jamun!”",
+          "question": "What does the trainer mean?",
+          "options": [
+            "Raju is dieting well",
+            "Raju is not following his diet",
+            "There is a new version of gulab jamun",
+            "Raju hasn’t been coming to the gym"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Raju is not following his diet"
+          }
+        }
+      },
+      "explanation": "Overt ‘praise’ is sarcastic; points to a cheat on the diet.",
+      "metadata": {
+        "register": "trainer-trainee",
+        "cultural_markers": [
+          "mock-praise as a common way to call out inconsistency"
+        ]
+      }
+    },
+    {
+      "id": "pa_imp_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "emotional-restraint",
+        "understatement"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Mai apne dost nu milan gya, tan pata laggeya usdi dukaan puri nasht ho chukki si te usde papa nu heart attack aa gya. Oh gall karde karde ron lagga te keha, “Isabgol te kuch na phol.”",
+          "question": "Usdi gall da ki matlab hai?",
+          "options": [
+            "Usde ghar isabgol khatam ho gya hai",
+            "Usnu zindagi vich kuch haasil nahi hoya",
+            "Oh apna dukh poori tarah byaan nahi kar sakda",
+            "Oh bhagwaan nu yaad kar reha hai"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Oh apna dukh poori tarah byaan nahi kar sakda"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਮੈਂ ਆਪਣੇ ਦੋਸਤ ਨੂੰ ਮਿਲਣ ਗਿਆ, ਤਾਂ ਪਤਾ ਲੱਗਿਆ ਉਸ ਦੀ ਦੁਕਾਨ ਪੂਰੀ ਤਰ੍ਹਾਂ ਨਸ਼ਟ ਹੋ ਚੁੱਕੀ ਸੀ ਅਤੇ ਉਸਦੇ ਪਾਪਾ ਨੂੰ ਹਾਰਟ ਅਟੈਕ ਆ ਗਿਆ ਸੀ। ਉਹ ਗੱਲ ਕਰਦੇ ਕਰਦੇ ਰੋਣ ਲੱਗ ਪਿਆ ਤੇ ਕਿਹਾ, “ਇਸਬਗੋਲ ਤੇ ਕੁਝ ਨਾ ਫੋਲ।”",
+          "question": "ਉਸ ਦੀ ਗੱਲ ਦਾ ਕੀ ਮਤਲਬ ਹੈ?",
+          "options": [
+            "ਉਸਦੇ ਘਰ ਇਸਬਗੋਲ ਖਤਮ ਹੋ ਗਿਆ ਹੈ",
+            "ਉਸਨੂੰ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਕੁਝ ਹਾਸਲ ਨਹੀਂ ਹੋਇਆ",
+            "ਉਹ ਆਪਣਾ ਦੁੱਖ ਪੂਰੀ ਤਰ੍ਹਾਂ ਬਿਆਨ ਨਹੀਂ ਕਰ ਸਕਦਾ",
+            "ਉਹ ਭਗਵਾਨ ਨੂੰ ਯਾਦ ਕਰ ਰਿਹਾ ਹੈ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਉਹ ਆਪਣਾ ਦੁੱਖ ਪੂਰੀ ਤਰ੍ਹਾਂ ਬਿਆਨ ਨਹੀਂ ਕਰ ਸਕਦਾ"
+          }
+        },
+        "english": {
+          "context": "When I met my friend, I found out his shop had been completely destroyed and his father had suffered a heart attack. While talking, he started crying and said, “Isabgol doesn’t help anymore.”",
+          "question": "What does he mean?",
+          "options": [
+            "They have run out of isabgol at home",
+            "He has achieved nothing in life",
+            "He cannot fully express the depth of his pain",
+            "He is remembering God"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "He cannot fully express the depth of his pain"
+          }
+        }
+      },
+      "explanation": "‘Isabgol te kuch na phol’ is an idiomatic understatement implying that no remedy or words can ease his suffering.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "idiomatic emotional understatement"
+        ],
+        "authors_note": "Tests emotional implicature via metaphorical helplessness."
+      }
+    },
+    {
+      "id": "pa_imp_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "authority",
+        "conflict-management"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Class vich do munde ladh rahe si. Jadon Raj ladai rokan aaya, tan unha ne keha, “Hai daddi na bulai lade di tai.”",
+          "question": "Mundeyan de kehne da ki matlab hai?",
+          "options": [
+            "Raj nu bina matlab toh dakhal nahi dena chahida",
+            "Raj nu mundeyan di tai nu bulana chahida hai",
+            "Raj nu tai keh rahe ne",
+            "Raj kise hor nu bula reha hai"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Raj nu bina matlab toh dakhal nahi dena chahida"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਕਲਾਸ ਵਿੱਚ ਦੋ ਮੁੰਡੇ ਲੜ ਰਹੇ ਸਨ। ਜਦੋਂ ਰਾਜ ਲੜਾਈ ਰੋਕਣ ਆਇਆ, ਤਾਂ ਉਹਨਾਂ ਨੇ ਕਿਹਾ, “ਹੈ ਦਾਦੀ ਨਾ ਬੁਲਾਈ ਲੜੇ ਦੀ ਤਾਈ।”",
+          "question": "ਮੁੰਡਿਆਂ ਦੇ ਕਹਿਣ ਦਾ ਕੀ ਮਤਲਬ ਹੈ?",
+          "options": [
+            "ਰਾਜ ਨੂੰ ਬਿਨਾਂ ਮਤਲਬ ਦਖ਼ਲ ਨਹੀਂ ਦੇਣਾ ਚਾਹੀਦਾ",
+            "ਰਾਜ ਨੂੰ ਮੁੰਡਿਆਂ ਦੀ ਤਾਈ ਨੂੰ ਬੁਲਾਉਣਾ ਚਾਹੀਦਾ",
+            "ਰਾਜ ਨੂੰ ਤਾਈ ਕਹਿ ਰਹੇ ਨੇ",
+            "ਰਾਜ ਕਿਸੇ ਹੋਰ ਨੂੰ ਬੁਲਾ ਰਿਹਾ ਹੈ"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ਰਾਜ ਨੂੰ ਬਿਨਾਂ ਮਤਲਬ ਦਖ਼ਲ ਨਹੀਂ ਦੇਣਾ ਚਾਹੀਦਾ"
+          }
+        },
+        "english": {
+          "context": "Two boys were fighting in class. When Raj came to stop them, they said, “No one called the aunt of the fight.”",
+          "question": "What do the boys mean?",
+          "options": [
+            "Raj should not interfere unnecessarily",
+            "Raj should call their aunt",
+            "They are calling Raj an aunt",
+            "Raj is calling someone else"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Raj should not interfere unnecessarily"
+          }
+        }
+      },
+      "explanation": "The phrase indirectly tells Raj to mind his own business, using mock kinship reference.",
+      "metadata": {
+        "register": "school",
+        "cultural_markers": [
+          "dismissive idiom to reject authority"
+        ],
+        "authors_note": "Captures indirect refusal and social boundary setting."
+      }
+    },
+    {
+      "id": "pa_imp_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "proverb",
+        "social-judgment"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kirpal varga vi koi dost hunda, jado uhdi lod hundi hai, uhdo gayab ho janda hai. Eh tan ohi gal ho gyi — ____.",
+          "question": "Kehawat poori karo.",
+          "options": [
+            "Ucha lamba gabru te palle thikriyan",
+            "Eid picho tamba pookhna",
+            "Sap da bach sapoliya",
+            "Sakhi nalo soom changi"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Eid picho tamba pookhna"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਕਿਰਪਾਲ ਵਰਗਾ ਵੀ ਕੋਈ ਦੋਸਤ ਹੁੰਦਾ, ਜਦੋਂ ਉਸਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਉਹਦੋਂ ਗਾਇਬ ਹੋ ਜਾਂਦਾ ਹੈ। ਇਹ ਤਾਂ ਓਹੀ ਗੱਲ ਹੋ ਗਈ — ____।",
+          "question": "ਕਹਾਵਤ ਪੂਰੀ ਕਰੋ।",
+          "options": [
+            "ਉੱਚਾ ਲੰਮਾ ਗੱਬਰੂ ਤੇ ਪੱਲੇ ਥਿੱਕਰੀਆਂ",
+            "ਈਦ ਪਿੱਛੋਂ ਤੰਬਾ ਪੂਖਣਾ",
+            "ਸੱਪ ਦਾ ਬੱਚ ਸੱਪੋਲੀਆਂ",
+            "ਸਾਖੀ ਨਾਲੋਂ ਸੋਮ ਚੰਗੀ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਈਦ ਪਿੱਛੋਂ ਤੰਬਾ ਪੂਖਣਾ"
+          }
+        },
+        "english": {
+          "context": "A friend like Kirpal disappears exactly when he is needed. This is the same as — ____.",
+          "question": "Complete the proverb.",
+          "options": [
+            "Tall and strong but useless",
+            "Beating the drum after the festival",
+            "A snake’s child is a snake",
+            "Better silence than false promises"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Beating the drum after the festival"
+          }
+        }
+      },
+      "explanation": "The proverb implies help that comes too late is meaningless.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "temporal implicature via proverb"
+        ],
+        "authors_note": "Tests proverb completion with pragmatic relevance."
+      }
+    },
+    {
+      "id": "pa_imp_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "power-dynamics"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Boss",
+              "utterance": "Rani, tu keha si kal tak kamm ho javega."
+            },
+            {
+              "speaker": "Rani",
+              "utterance": "Mere kol hun tuhada kamm karn vaste time nahi hai."
+            },
+            {
+              "speaker": "Boss",
+              "utterance": "Eh ta changa jawab ditta — saddi billi sanu meow!"
+            }
+          ],
+          "question": "Boss da ki matlab hai?",
+          "options": [
+            "Rani billi vargi awaaz kadd rahi hai",
+            "Rani apne boss di gal nahi manna chauhndi",
+            "Rani ne boss naal dhokha kita",
+            "Rani bilkul nikammi ho gayi hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Rani apne boss di gal nahi manna chauhndi"
+          }
+        },
+        "gurmukhi": {
+          "dialogue": [
+            {
+              "speaker": "ਬੌਸ",
+              "utterance": "ਰਾਣੀ, ਤੂੰ ਕਿਹਾ ਸੀ ਕੱਲ ਤੱਕ ਕੰਮ ਹੋ ਜਾਵੇਗਾ।"
+            },
+            {
+              "speaker": "ਰਾਣੀ",
+              "utterance": "ਮੇਰੇ ਕੋਲ ਹੁਣ ਤੁਹਾਡਾ ਕੰਮ ਕਰਨ ਵਾਸਤੇ ਸਮਾਂ ਨਹੀਂ ਹੈ।"
+            },
+            {
+              "speaker": "ਬੌਸ",
+              "utterance": "ਇਹ ਤਾਂ ਚੰਗਾ ਜਵਾਬ ਦਿੱਤਾ — ਸਾਡੀ ਬਿੱਲੀ ਸਾਨੂੰ ਮਿਊਂ!"
+            }
+          ],
+          "question": "ਬੌਸ ਦਾ ਕੀ ਮਤਲਬ ਹੈ?",
+          "options": [
+            "ਰਾਣੀ ਬਿੱਲੀ ਵਰਗੀ ਆਵਾਜ਼ ਕੱਢ ਰਹੀ ਹੈ",
+            "ਰਾਣੀ ਆਪਣੇ ਬੌਸ ਦੀ ਗੱਲ ਨਹੀਂ ਮੰਨਣਾ ਚਾਹੁੰਦੀ",
+            "ਰਾਣੀ ਨੇ ਬੌਸ ਨਾਲ ਧੋਖਾ ਕੀਤਾ",
+            "ਰਾਣੀ ਬਿਲਕੁਲ ਨਿਕੰਮੀ ਹੋ ਗਈ ਹੈ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਰਾਣੀ ਆਪਣੇ ਬੌਸ ਦੀ ਗੱਲ ਨਹੀਂ ਮੰਨਣਾ ਚਾਹੁੰਦੀ"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Boss",
+              "utterance": "Rani, you said the work would be done by yesterday."
+            },
+            {
+              "speaker": "Rani",
+              "utterance": "I don’t have time to do your work anymore."
+            },
+            {
+              "speaker": "Boss",
+              "utterance": "What a great answer — our own cat meowing at us!"
+            }
+          ],
+          "question": "What does the boss mean?",
+          "options": [
+            "Rani is making cat noises",
+            "Rani is talking back and defying authority",
+            "Rani betrayed the boss",
+            "Rani is completely useless"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Rani is talking back and defying authority"
+          }
+        }
+      },
+      "explanation": "‘Saddi billi sanu meow’ sarcastically implies insubordination—someone under authority talking back.",
+      "metadata": {
+        "register": "workplace",
+        "cultural_markers": [
+          "sarcastic proverb signaling power violation"
+        ],
+        "authors_note": "Strong test of sarcasm + hierarchical implicature."
+      }
+    },
+    {
+      "id": "pa_imp_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "scalar-implicature",
+        "quantity-maxim"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Maa ne master ji nu puchheya, “Saare bache paas ho gaye?” Master ji ne keha, “Kuch bache paas ho gaye ne.”",
+          "question": "Master ji de kehn da ki matlab hai?",
+          "options": [
+            "Saare bache paas ho gaye",
+            "Koi vi bacha paas nahi hoya",
+            "Result hale aaya hi nahi",
+            "Kuch bache fail vi hoye ne"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Kuch bache fail vi hoye ne"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਮਾਂ ਨੇ ਮਾਸਟਰ ਜੀ ਨੂੰ ਪੁੱਛਿਆ, “ਸਾਰੇ ਬੱਚੇ ਪਾਸ ਹੋ ਗਏ?” ਮਾਸਟਰ ਜੀ ਨੇ ਕਿਹਾ, “ਕੁਝ ਬੱਚੇ ਪਾਸ ਹੋ ਗਏ ਨੇ।”",
+          "question": "ਮਾਸਟਰ ਜੀ ਦੇ ਕਹਿਣ ਦਾ ਕੀ ਮਤਲਬ ਹੈ?",
+          "options": [
+            "ਸਾਰੇ ਬੱਚੇ ਪਾਸ ਹੋ ਗਏ",
+            "ਕੋਈ ਵੀ ਬੱਚਾ ਪਾਸ ਨਹੀਂ ਹੋਇਆ",
+            "ਰਿਜ਼ਲਟ ਹਾਲੇ ਆਇਆ ਹੀ ਨਹੀਂ",
+            "ਕੁਝ ਬੱਚੇ ਫੇਲ੍ਹ ਵੀ ਹੋਏ ਨੇ"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "ਕੁਝ ਬੱਚੇ ਫੇਲ੍ਹ ਵੀ ਹੋਏ ਨੇ"
+          }
+        },
+        "english": {
+          "context": "The mother asked the teacher, “Did all the children pass?” The teacher said, “Some of the children passed.”",
+          "question": "What does the teacher mean?",
+          "options": [
+            "All the children passed",
+            "No child passed at all",
+            "The results haven't come out yet",
+            "Some children also failed"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Some children also failed"
+          }
+        }
+      },
+      "explanation": "Quantity maxim: choosing the weaker 'kuch' (some) when directly asked about 'saare' (all) implicates that not all children passed. The inference is structural, not idiomatic.",
+      "metadata": {
+        "register": "school/family",
+        "cultural_markers": [
+          "scalar quantifier choice as indirect negative report"
+        ],
+        "authors_note": "Non-idiomatic Gricean item; tests scalar reasoning rather than knowledge of a fixed expression.",
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "pa_imp_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "politeness-convention",
+        "ritual-refusal"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Mehmaan ghar aaye. Mezbaan ne puchheya, “Chah banavan?” Mehmaan ne keha, “Nahi ji, rehn do, khech na karo.” Par oh chappal laah ke sofe te aaraam naal baith gaye.",
+          "question": "Mehmaan da asal matlab ki hai?",
+          "options": [
+            "Oh chah taan peena chaunde ne par lihaz kar rahe ne",
+            "Oh sach much chah nahi peena chaunde",
+            "Ohna nu turant jaana hai",
+            "Ohna nu chah pasand nahi"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Oh chah taan peena chaunde ne par lihaz kar rahe ne"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਮਹਿਮਾਨ ਘਰ ਆਏ। ਮੇਜ਼ਬਾਨ ਨੇ ਪੁੱਛਿਆ, “ਚਾਹ ਬਣਾਵਾਂ?” ਮਹਿਮਾਨ ਨੇ ਕਿਹਾ, “ਨਹੀਂ ਜੀ, ਰਹਿਣ ਦਿਓ, ਖੇਚ ਨਾ ਕਰੋ।” ਪਰ ਉਹ ਚੱਪਲ ਲਾਹ ਕੇ ਸੋਫੇ ਤੇ ਆਰਾਮ ਨਾਲ ਬੈਠ ਗਏ।",
+          "question": "ਮਹਿਮਾਨ ਦਾ ਅਸਲ ਮਤਲਬ ਕੀ ਹੈ?",
+          "options": [
+            "ਉਹ ਚਾਹ ਤਾਂ ਪੀਣਾ ਚਾਹੁੰਦੇ ਨੇ ਪਰ ਲਿਹਾਜ਼ ਕਰ ਰਹੇ ਨੇ",
+            "ਉਹ ਸੱਚਮੁੱਚ ਚਾਹ ਨਹੀਂ ਪੀਣਾ ਚਾਹੁੰਦੇ",
+            "ਉਹਨਾਂ ਨੂੰ ਤੁਰੰਤ ਜਾਣਾ ਹੈ",
+            "ਉਹਨਾਂ ਨੂੰ ਚਾਹ ਪਸੰਦ ਨਹੀਂ"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ਉਹ ਚਾਹ ਤਾਂ ਪੀਣਾ ਚਾਹੁੰਦੇ ਨੇ ਪਰ ਲਿਹਾਜ਼ ਕਰ ਰਹੇ ਨੇ"
+          }
+        },
+        "english": {
+          "context": "Guests came over. The host asked, “Shall I make tea?” The guest said, “No no, please don't bother.” But he took off his shoes and settled comfortably into the sofa.",
+          "question": "What does the guest actually mean?",
+          "options": [
+            "He does want tea but is being polite",
+            "He genuinely does not want tea",
+            "He needs to leave immediately",
+            "He doesn't like tea"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "He does want tea but is being polite"
+          }
+        }
+      },
+      "explanation": "In Punjabi hospitality convention, a guest's first refusal is a politeness ritual rather than a real decline — the host is expected to insist. The behavioural cue (settling in comfortably) contradicts the literal 'no'.",
+      "metadata": {
+        "register": "family/guest",
+        "cultural_markers": [
+          "ritual refusal in hospitality; first 'no' is not a real no"
+        ],
+        "authors_note": "Culture-specific politeness implicature; literal reading of the refusal gives the wrong answer.",
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "pa_imp_mcq_010",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "quantity-maxim",
+        "faint-praise",
+        "indirect-criticism"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Manager ne Harjit de purane boss nu phone kar ke puchheya, “Harjit kamm vich kiddan da hai?” Purane boss ne keha, “Bahut vadhiya banda hai ji, time te aa janda hai te sab naal changa bolda hai.”",
+          "question": "Purane boss de jawab toh ki matlab niklda hai?",
+          "options": [
+            "Harjit da kamm bahut vadhiya hai",
+            "Harjit nu naukri toh kadhya gaya si",
+            "Harjit de kamm baare oh khaas changa nahi keh sakda",
+            "Purane boss da Harjit naal jhagda hoya si"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Harjit de kamm baare oh khaas changa nahi keh sakda"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਮੈਨੇਜਰ ਨੇ ਹਰਜੀਤ ਦੇ ਪੁਰਾਣੇ ਬੌਸ ਨੂੰ ਫ਼ੋਨ ਕਰ ਕੇ ਪੁੱਛਿਆ, “ਹਰਜੀਤ ਕੰਮ ਵਿੱਚ ਕਿੱਦਾਂ ਦਾ ਹੈ?” ਪੁਰਾਣੇ ਬੌਸ ਨੇ ਕਿਹਾ, “ਬਹੁਤ ਵਧੀਆ ਬੰਦਾ ਹੈ ਜੀ, ਟਾਈਮ ਤੇ ਆ ਜਾਂਦਾ ਹੈ ਤੇ ਸਭ ਨਾਲ ਚੰਗਾ ਬੋਲਦਾ ਹੈ।”",
+          "question": "ਪੁਰਾਣੇ ਬੌਸ ਦੇ ਜਵਾਬ ਤੋਂ ਕੀ ਮਤਲਬ ਨਿਕਲਦਾ ਹੈ?",
+          "options": [
+            "ਹਰਜੀਤ ਦਾ ਕੰਮ ਬਹੁਤ ਵਧੀਆ ਹੈ",
+            "ਹਰਜੀਤ ਨੂੰ ਨੌਕਰੀ ਤੋਂ ਕੱਢਿਆ ਗਿਆ ਸੀ",
+            "ਹਰਜੀਤ ਦੇ ਕੰਮ ਬਾਰੇ ਉਹ ਖਾਸ ਚੰਗਾ ਨਹੀਂ ਕਹਿ ਸਕਦਾ",
+            "ਪੁਰਾਣੇ ਬੌਸ ਦਾ ਹਰਜੀਤ ਨਾਲ ਝਗੜਾ ਹੋਇਆ ਸੀ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਹਰਜੀਤ ਦੇ ਕੰਮ ਬਾਰੇ ਉਹ ਖਾਸ ਚੰਗਾ ਨਹੀਂ ਕਹਿ ਸਕਦਾ"
+          }
+        },
+        "english": {
+          "context": "A manager phoned Harjit's former boss and asked, “How is Harjit at his work?” The former boss said, “He's a very nice man, he comes on time and speaks well with everyone.”",
+          "question": "What does the former boss's answer imply?",
+          "options": [
+            "Harjit's work is excellent",
+            "Harjit was fired from the job",
+            "He cannot say anything particularly good about Harjit's work",
+            "The former boss had a conflict with Harjit"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "He cannot say anything particularly good about Harjit's work"
+          }
+        }
+      },
+      "explanation": "Asked specifically about work quality, the reply covers only punctuality and demeanour. Withholding the relevant information while appearing cooperative implicates a negative assessment without ever stating one.",
+      "metadata": {
+        "register": "workplace",
+        "cultural_markers": [
+          "indirect negative reference via selective praise"
+        ],
+        "authors_note": "Tests quantity-maxim reasoning where every literal statement is positive.",
+        "difficulty": "hard"
+      }
+    }
+  ]
+}

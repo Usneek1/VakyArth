@@ -1,0 +1,605 @@
+{
+  "dataset": "Malayalam Discourse & Coherence - MCQs",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ma_dis_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Rāvile peek taimil Vyttila junction-il valiya tirakk uṇṭāyirunnu. Signal cycle kūre nēram eṭukkunnath koṇṭē vāhanangal ślō āyi muṇṇērunnu. Metro construction-um orath nadakkumbōl space kuṟaññu.",
+          "question": "Aṭutta vākyam etḥāyirikkum (ēttavum coherent)?",
+          "options": [
+            "Vyttila oru valiya junction āṇu.",
+            "Palarkkum office-lekk śariyāya samayath ettān kaḻiññilla.",
+            "Avasānam ellāvarum naṭannu poyi.",
+            "ithrayum tirakk Kochiyil apūravamāṇu."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Palarkkum office-lekk śariyāya samayath ettān kaḻiññilla."
+          }
+        },
+        "malayalam": {
+          "context": "രാവിലെ പീക്ക് ടൈമിൽ വൈറ്റില ജംഗ്ഷനിൽ വലിയ തിരക്ക് ഉണ്ടായിരുന്നു. സിഗ്നലിന്റെ സൈക്കിൾ കുറെ നേരം എടുക്കുന്നത് കൊണ്ട് വാഹനങ്ങൾ സ്ലോ ആയി മുന്നേറുകയായിരുന്നു. മെട്രോ നിർമാണവും ഓരത്ത് നടക്കുമ്പോൾ സ്പേസ് കുറഞ്ഞിരുന്നു.",
+          "question": "അടുത്ത വാചകം ഏതാണ് (ഏറ്റവും സുസംബന്ധമായത്)?",
+          "options": [
+            "വൈറ്റില ഒരു വലിയ ജംഗ്ഷൻ ആണ്.",
+            "പലർക്കും ഓഫീസിലേക്ക് ശരിയായ സമയത്ത് എത്താൻ കഴിഞ്ഞില്ല.",
+            "അവസാനം എല്ലാവരും നടന്ന് പോയി.",
+            "ഇത്രയും തിരക്ക് കൊച്ചിയിൽ അപൂർവമാണ്."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "പലർക്കും ഓഫീസിലേക്ക് ശരിയായ സമയത്ത് എത്താൻ കഴിഞ്ഞില്ല."
+          }
+        },
+        "english": {
+          "context": "During the morning peak hours, Vyttila Junction was heavily crowded. The long signal cycle made all vehicles move slowly. With metro construction happening on the side, the available road space was already reduced.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Vyttila is a large junction.",
+            "Many people could not reach their offices on time.",
+            "Eventually everyone walked instead.",
+            "Such heavy traffic is rare in Kochi."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Many people could not reach their offices on time."
+          }
+        }
+      },
+      "explanation": "The paragraph describes morning congestion at Vyttila Junction; the most coherent continuation is the resulting delay for office-goers.",
+      "metadata": {
+        "register": "everyday-commute",
+        "cultural_markers": [
+          "Ernakulam",
+          "Kochi",
+          "Vyttila Junction",
+          "metro construction"
+        ]
+      }
+    },
+    {
+      "id": "ma_dis_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Njaan Kochiyil ninn Thiruvananthapuram vare pōkān KSRTC basil kayari. Yaathra vishamakaramāyirunnu. Roadil niraye kuzhikalāyirunnu.",
+          "question": "Ethu vaakyam paragraph-il poruthappedunnilla?",
+          "options": [
+            "Bus ella kuzhikalilum veenu.",
+            "Chila yaathrakkarŭm aswasthatha prakaṭippichu.",
+            "Driver vegam kuṟachchu shraddhayōṭe munnoottu neengi.",
+            "Conductor tiketŭkal parishaadhikkān thudangi."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Conductor tiketŭkal parishaadhikkān thudangi."
+          }
+        },
+        "malayalam": {
+          "context": "ഞാൻ കൊച്ചിയിൽ നിന്ന് തിരുവനന്തപുരം വരെ പോകാൻ കെ.എസ്.ആർ.ടി.സി ബസിൽ കയറി. യാത്ര വിഷമകരമായിരുന്നു. റോഡിൽ നിറയെ കുഴികളായിരുന്നു.",
+          "question": "ഏത് വാക്യം പാരഗ്രാഫിൽ പൊരുത്തപ്പെടുന്നില്ല?",
+          "options": [
+            "ബസ് എല്ലാ കുഴികളിലും വീണു.",
+            "ചില യാത്രക്കാരും അസ്വസ്ഥത പ്രകടിപ്പിച്ചു.",
+            "ഡ്രൈവർ വേഗം കുറച്ച് ശ്രദ്ധയോടെ മുന്നോട്ട് നീങ്ങി.",
+            "കണ്ടക്ടർ ടിക്കറ്റുകൾ പരിശോധിക്കാൻ തുടങ്ങി."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "കണ്ടക്ടർ ടിക്കറ്റുകൾ പരിശോധിക്കാൻ തുടങ്ങി."
+          }
+        },
+        "english": {
+          "context": "I boarded the KSRTC bus from Kochi to Thiruvananthapuram. The journey was uncomfortable. The road was full of potholes.",
+          "question": "Which sentence does NOT fit the paragraph?",
+          "options": [
+            "The bus fell into every pothole.",
+            "Some passengers expressed discomfort.",
+            "The driver slowed down and moved forward carefully.",
+            "The conductor started checking the tickets."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "The conductor started checking the tickets."
+          }
+        }
+      },
+      "explanation": "The paragraph describes the discomfort caused by rough road conditions. The sentence about the conductor checking tickets is coherent in general but does not logically follow this specific narrative flow.",
+      "metadata": {
+        "register": "travel",
+        "cultural_markers": [
+          "KSRTC",
+          "Kerala roads",
+          "potholes"
+        ]
+      }
+    },
+    {
+      "id": "ma_dis_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Thiruvonathin veet ulsavathinte aavesathil muzhuki. Ellavaruṁ onakkodi dharichu. Adukkalayil onasadya thayyarakkunnathinaal, veet muzhuvan puthiya karikaludeyum payasathinteyum gandham kondu nirannirunnu.",
+          "question": "Ethu vaakyam paragraph-il poruthappedunnilla?",
+          "options": [
+            "Kuttikellam oru poorathil ennappole nadakkunnu.",
+            "Kuttikal orumichu pookkalam idukayāyirunnu.",
+            "Mahabaliyude varavine kurichulla katha muthachchan kuttikalkku paranju kodukkukayāyirunnu.",
+            "Veettil onappaattukal play cheythu."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Kuttikellam oru poorathil ennappole nadakkunnu."
+          }
+        },
+        "malayalam": {
+          "context": "തിരുവോണത്തിന് വീട് ഉത്സവത്തിന്റെ ആവേശത്തിൽ മുഴുകി. എല്ലാവരും ഓണക്കോടി ധരിച്ചു. അടുക്കളയിൽ ഓണസദ്യ തയ്യാറാക്കുന്നതിനാൽ, വീട് മുഴുവൻ പുതിയ കറികളുടെയും പായസത്തിന്റെയും ഗന്ധം കൊണ്ട് നിറഞ്ഞിരുന്നു.",
+          "question": "ഏത് വാക്യം പാരഗ്രാഫിൽ പൊരുത്തപ്പെടുന്നില്ല?",
+          "options": [
+            "കുട്ടികളെല്ലാം ഒരു പൂരത്തിലെന്നപോലെ നടക്കുന്നു.",
+            "കുട്ടികൾ ഒരുമിച്ച് പൂക്കളം ഇടുകയായിരുന്നു.",
+            "മഹാബലിയുടെ വരവിനെക്കുറിച്ചുള്ള കഥ മുത്തച്ഛൻ കുട്ടികൾക്ക് പറഞ്ഞു കൊടുക്കുകയായിരുന്നു",
+            "വീട്ടിൽ ഓണപ്പാട്ടുകൾ പ്ലേ ചെയ്തു."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "കുട്ടികളെല്ലാം ഒരു പൂരത്തിലെന്നപോലെ നടക്കുന്നു."
+          }
+        },
+        "english": {
+          "context": "The house was filled with the excitement of Thiruvonam. Everyone wore their new Onam clothes. Since the Onam feast was being prepared in the kitchen, the entire house was filled with the aroma of fresh curries and payasam.",
+          "question": "Which sentence does NOT fit the paragraph?",
+          "options": [
+            "The children were walking around as if they were part of a Pooram procession.",
+            "The children were making the pookkalam together.",
+            "Grandfather was telling the children the story of King Mahabali’s arrival.",
+            "Onam songs were playing in the house."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "The children were walking around as if they were part of a Pooram procession."
+          }
+        }
+      },
+      "explanation": "The paragraph describes typical Thiruvonam-day activities at home—new clothes, feast preparations, and festive atmosphere. The option about children acting like they are in a Pooram procession does not match this context.",
+      "metadata": {
+        "register": "festival",
+        "cultural_markers": [
+          "Onam",
+          "pookkalam",
+          "onakkodi",
+          "onasadya"
+        ]
+      }
+    },
+    {
+      "id": "ma_dis_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "metaphorical-coherence"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Verukalanu vrikshangale bhoomiyil urachu nilkkaan sahayikkunnathu. Manushyareyum avarude samskaarathodum bhoomiyodum bandhappikkunna atharaththulla verukal undu.",
+          "question": "Ee aashayathe thudarunna ettavum poruthappedunna vaakyam ethaanu?",
+          "options": [
+            "Aa verukal nashtappedumbol samuhavum balahenamaakum.",
+            "Veedukalil aalukal plastic kuppikalil mineral water vangikkudikkunnu.",
+            "Nagarangalil puthiya shopping mallukal thurakkappetunnu.",
+            "Puthiya roadukal nirmmikkunnathinu vendi pala sthalangalil vrikshangal vettimaattappetunnu."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Aa verukal nashtappedumbol samuhavum balahenamaakum."
+          }
+        },
+        "malayalam": {
+          "context": "വേരുകളാണ് വൃക്ഷങ്ങളെ ഭൂമിയില്‍ ഉറച്ചു നില്‍ക്കാന്‍ സഹായിക്കുന്നത്. മനുഷ്യരെയും അവരുടെ സംസ്കാരത്തോടും ഭൂമിയോടും ബന്ധിപ്പിക്കുന്ന അത്തരത്തിലുള്ള വേരുകളാണ്.",
+          "question": "ഈ ആശയത്തെ തുടരുന്ന ഏറ്റവും പൊരുത്തപ്പെടുന്ന വാക്യം ഏതാണ്?",
+          "options": [
+            "ആ വേരുകള്‍ നഷ്ടപ്പെട്ടാല്‍ സമൂഹവും ബലഹീനമാകും.",
+            "വീടുകളില്‍ ആളുകള്‍ പ്ലാസ്റ്റിക് കുപ്പികളില്‍ മിനറല്‍ വാട്ടര്‍ വാങ്ങി കുടിക്കുന്നു.",
+            "നഗരങ്ങളില്‍ പുതിയ ഷോപ്പിംഗ് മാളുകള്‍ തുറക്കപ്പെടുന്നു.",
+            "പുതിയ റോഡുകള്‍ നിര്‍മിക്കാന്‍ പല സ്ഥലങ്ങളിലും വൃക്ഷങ്ങള്‍ വെട്ടിമാറ്റപ്പെടുന്നു."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ആ വേരുകള്‍ നഷ്ടപ്പെട്ടാല്‍ സമൂഹവും ബലഹീനമാകും."
+          }
+        },
+        "english": {
+          "context": "Roots help trees stand firmly in the earth. Humans too have such roots that connect them to their culture and land.",
+          "question": "Which sentence best continues this idea?",
+          "options": [
+            "When these roots are lost, society itself becomes fragile.",
+            "People often buy mineral water in plastic bottles.",
+            "New shopping malls are opening in cities.",
+            "Trees are cut down in many places to build new roads."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "When these roots are lost, society itself becomes fragile."
+          }
+        }
+      },
+      "explanation": "The context establishes a metaphorical parallel between ecological roots and human cultural roots. The correct option logically continues the idea by stating that losing these roots weakens society.",
+      "metadata": {
+        "register": "environmental reflection",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "roots metaphor",
+          "human–nature relationship",
+          "cultural roots"
+        ]
+      }
+    },
+    {
+      "id": "ma_dis_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "implicature",
+        "social-pragmatics"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kampolathinu vendi ulppaadippikkappetunna kevala vinoda cinemakal jeevitha yaathaarthyangalil ninnulla palaayanamaanu janangalkku vaagdanam cheyyunnathu.",
+          "question": "Ee aashayathe thudarunna ettavum poruthappedunna vaakyam ethaanu?",
+          "options": [
+            "Athukondu prashnangal niranja jeevithathil ninn oru nimisham swapna lokathilekku kadakkan cinema prekshakarkku avasaramaayi maarunnu.",
+            "Athukondu cinema jeevithathile samuhika prashnangale neritte samadhanam cheyyunna oru madhyamamaayi maarunnu.",
+            "Athukondu cinema theatregalil valiya janakkoottam koodunnathu swabhavikamanu.",
+            "Athukondu puthiya tharangalkku cinema vazhi prasiddhi labhikkunnu."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Athukondu prashnangal niranja jeevithathil ninn oru nimisham swapna lokathilekku kadakkan cinema prekshakarkku avasaramaayi maarunnu."
+          }
+        },
+        "malayalam": {
+          "context": "കമ്പോളത്തിനു വേണ്ടി ഉല്‍പ്പാദിപ്പിക്കപ്പെടുന്ന കേവല വിനോദസിനിമകള്‍ ജീവിത യാഥാര്‍ഥ്യങ്ങളില്‍നിന്നുള്ള പലായനമാണ് ജനങ്ങള്‍ക്ക് വാഗ്ദാനം ചെയ്യുന്നത്.",
+          "question": "ഈ ആശയത്തെ തുടര്‍ന്നുള്ള ഏറ്റവും പൊരുത്തപ്പെടുന്ന വാക്യം ഏതാണ്?",
+          "options": [
+            "അതുകൊണ്ട് പ്രശ്നങ്ങള്‍ നിറഞ്ഞ ജീവിതത്തില്‍നിന്ന് ഒരു നിമിഷം സ്വപ്നലോകത്തിലേക്ക് കടക്കാനുള്ള അവസരമായി സിനിമ പ്രേക്ഷകര്‍ക്ക് മാറുന്നു.",
+            "അതുകൊണ്ട് സിനിമ ജീവിതത്തിലെ സാമൂഹിക പ്രശ്നങ്ങള്‍ക്ക് നേരിട്ടുള്ള പരിഹാരം നല്‍കുന്ന ഒരു മാധ്യമമാകുന്നു.",
+            "അതുകൊണ്ട് സിനിമ തീയേറ്ററുകളില്‍ വലിയ ജനക്കൂട്ടം ഉണ്ടാകുന്നത് സ്വാഭാവികമാണ്.",
+            "അതുകൊണ്ട് പുതിയ താരങ്ങള്‍ക്ക് സിനിമയിലൂടെ പ്രശസ്തി ലഭിക്കുന്നു."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "അതുകൊണ്ട് പ്രശ്നങ്ങള്‍ നിറഞ്ഞ ജീവിതത്തില്‍നിന്ന് ഒരു നിമിഷം സ്വപ്നലോകത്തിലേക്ക് കടക്കാനുള്ള അവസരമായി സിനിമ പ്രേക്ഷകര്‍ക്ക് മാറുന്നു."
+          }
+        },
+        "english": {
+          "context": "Commercial entertainment films promise audiences an escape from the realities of everyday life.",
+          "question": "Which sentence best continues this idea?",
+          "options": [
+            "Thus cinema becomes a way for audiences to briefly enter a dream world away from their problems.",
+            "Thus cinema becomes a medium that directly solves social problems in real life.",
+            "Thus large crowds gathering in cinema theatres becomes natural.",
+            "Thus many new actors become famous through cinema."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Thus cinema becomes a way for audiences to briefly enter a dream world away from their problems."
+          }
+        }
+      },
+      "explanation": "The passage states that commercial entertainment cinema offers audiences an escape from real-life problems. The correct option continues this idea by describing cinema as a temporary entry into a dream world. Option B acts as a strong distractor because it suggests cinema directly solves social problems, which contradicts the idea of escapism.",
+      "metadata": {
+        "register": "media criticism",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "popular cinema",
+          "escapism",
+          "audience psychology"
+        ]
+      }
+    },
+    {
+      "id": "ma_dis_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "implicature",
+        "social-pragmatics",
+        "protest"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Palliyara vayal Kunkante kaaranavanmaarudethayirunnu. Pakse ippol athu mattorraalude kayyil aanu. Kunkan vedanayode parayunnu: \"Vayal ningal thattiyeduthaalum ee kaadu entethaanallo!\"",
+          "question": "Ee sandarbhathe thudarunna ettavum poruthappedunna vyaakhyaanam ethaanu?",
+          "options": [
+            "Ithu Kunkante vedanayum prathirodhavum aanu — avante janangalude bhoomi nashtappettalum kaadu avarude avasana aashrayam aanu ennathinte soochana.",
+            "Ithu Kunkan puthiya krishi paddhathikal kaadinte ullil aarambhikkum ennathinte ariyippaanu.",
+            "Ithu gramathile puthiya bhoomi vibhajanam kurichulla oru sammatha prakhyapanamaanu.",
+            "Ithu kaadinu melulla sarkkaar niyantranam sveekarikkunna oru prastavanayaanu."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Ithu Kunkante vedanayum prathirodhavum aanu — avante janangalude bhoomi nashtappettalum kaadu avarude avasana aashrayam aanu ennathinte soochana."
+          }
+        },
+        "malayalam": {
+          "context": "പള്ളിയറ വയല്‍ കുങ്കന്റെ കാരണവന്മാരുടേതായിരുന്നു. പക്ഷേ ഇപ്പോള്‍ അത് മറ്റൊരാളുടെ കയ്യിലാണ്. കുങ്കന് വേദനയോടെ പറയുന്നു: “വയല്‍ നിങ്ങള്‍ തട്ടിയെടുത്താലും ഈ കാട് എന്റേതാണല്ലോ!”",
+          "question": "ഈ സാഹചര്യത്തെ തുടര്‍ന്നുള്ള ഏറ്റവും പൊരുത്തപ്പെടുന്ന വ്യാഖ്യാനം ഏതാണ്?",
+          "options": [
+            "ഇത് കുങ്കന്റെ വേദനയും പ്രതിഷേധവും ആണ് — അവരുടെ ഭൂമി നഷ്ടപ്പെട്ടാലും കാട് അവരുടെ അവസാന ആശ്രയമാണെന്ന സൂചന.",
+            "ഇത് കുങ്കന് കാടിനുള്ളില്‍ പുതിയ കൃഷിരീതികള്‍ ആരംഭിക്കുമെന്ന പ്രഖ്യാപനമാണ്.",
+            "ഇത് ഗ്രാമത്തിലെ പുതിയ ഭൂമി വിഭജനത്തെക്കുറിച്ചുള്ള ഒരു സമ്മതപ്രഖ്യാപനമാണ്.",
+            "ഇത് കാടിന്മേലുള്ള സര്‍ക്കാര്‍ നിയന്ത്രണം അംഗീകരിക്കുന്ന പ്രസ്താവനയാണ്."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ഇത് കുങ്കന്റെ വേദനയും പ്രതിഷേധവും ആണ് — അവരുടെ ഭൂമി നഷ്ടപ്പെട്ടാലും കാട് അവരുടെ അവസാന ആശ്രയമാണെന്ന സൂചന."
+          }
+        },
+        "english": {
+          "context": "The Palliyara field once belonged to Kunkan’s ancestors, but now it is in someone else’s possession. In pain and defiance, Kunkan says: “Even if you have taken the field, this forest still belongs to me!”",
+          "question": "Which interpretation best continues this idea?",
+          "options": [
+            "This expresses Kunkan’s grief and protest — even if his people lose their land, the forest remains their last space of belonging.",
+            "This announces that Kunkan plans to start modern agriculture inside the forest.",
+            "This is a statement agreeing with a new land redistribution in the village.",
+            "This accepts government authority over the forest."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "This expresses Kunkan’s grief and protest — even if his people lose their land, the forest remains their last space of belonging."
+          }
+        }
+      },
+      "explanation": "The statement reflects a protest against land dispossession. Kunkan’s words imply that although his ancestral fields have been taken away, the forest still represents identity, survival, and belonging for marginalized tribal or lower-caste communities. The other options introduce unrelated ideas such as agricultural plans, administrative decisions, or acceptance of authority, which break the narrative coherence.",
+      "metadata": {
+        "register": "literary narrative",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Kerala land dispossession",
+          "tribal forest livelihood",
+          "agrarian inequality",
+          "protest against landlord control"
+        ]
+      }
+    },
+    {
+      "id": "ma_dis_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "implicature",
+        "metaphorical-coherence"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Mattu kadalkkaakkakaleppole tāṇu parannu, theetta maathram thedi, koottathinte athirukalil othungikkazhinjukoodaamayirunnu Jonathanu. Ennaal, \"kooduthal uyarathil parakkunnavane kooduthal dooram kaanaanavoo\" ennu avan vishwasichu, nilanirththal maathram lakshyamakkiya jeevithathe avan nirasichu. Koottathile muthirnnavar avante pravarthiye paarambaryathinum maanyathaykkum ethiraayi kandu.",
+          "question": "Ee aashayathe thudarunna ettavum poruthappedunna vaakyam ethaanu?",
+          "options": [
+            "Athukondu uyarathil parakkaanulla avante shramam, jeevitham nilanirthunnathinu appuram padikkaanum kandupidikkaanum swathanthranakaanumulla aagraham soochippikkunnu.",
+            "Athukondu uyarathil parakkaanulla avante shramam, mattu kadalkkaakkakale tholppichu koottathinte nethaavaakaanulla aagraham soochippikkunnu.",
+            "Athukondu uyarathil parakkaanulla avante shramam, theetta kandethaan uyarathil parakkunnathaanu ettavum eluppam enna kandethal soochippikkunnu.",
+            "Athukondu uyarathil parakkunnathu kooduthal dooram kaanaanavum enna avante vishwaasam bhouthika doorathekkurichu maathramaanu; jeevikkendathu engane ennathinekkurichalla."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Athukondu uyarathil parakkaanulla avante shramam, jeevitham nilanirthunnathinu appuram padikkaanum kandupidikkaanum swathanthranakaanumulla aagraham soochippikkunnu."
+          }
+        },
+        "malayalam": {
+          "context": "മറ്റു കടൽക്കാക്കകളെപ്പോലെ താണുപറന്ന്, തീറ്റ മാത്രം തേടി, കൂട്ടത്തിന്റെ അതിരുകളിൽ ഒതുങ്ങിക്കഴിഞ്ഞുകൂടാമായിരുന്നു ജോനാഥന്. എന്നാൽ, “കൂടുതൽ ഉയരത്തിൽ പറക്കുന്നവനേ കൂടുതൽ ദൂരം കാണാനാവൂ” എന്ന് അവൻ വിശ്വസിച്ചു, നിലനിർത്തൽ മാത്രം ലക്ഷ്യമാക്കിയ ജീവിതത്തെ അവൻ നിരസിച്ചു. കൂട്ടത്തിലെ മുതിർന്നവർ അവന്റെ പ്രവൃത്തിയെ പാരമ്പര്യത്തിനും മാന്യതയ്ക്കും എതിരായി കണ്ടു.",
+          "question": "ഈ ആശയത്തെ തുടരുന്ന ഏറ്റവും പൊരുത്തപ്പെടുന്ന വാക്യം ഏതാണ്?",
+          "options": [
+            "അതുകൊണ്ട് ഉയരത്തിൽ പറക്കാനുള്ള അവന്റെ ശ്രമം, ജീവിതം നിലനിർത്തുന്നതിനപ്പുറം പഠിക്കാനും കണ്ടുപിടിക്കാനും സ്വതന്ത്രനാകാനുമുള്ള ആഗ്രഹം സൂചിപ്പിക്കുന്നു.",
+            "അതുകൊണ്ട് ഉയരത്തിൽ പറക്കാനുള്ള അവന്റെ ശ്രമം, മറ്റു കടൽക്കാക്കകളെ തോൽപ്പിച്ച് കൂട്ടത്തിന്റെ നേതാവാകാനുള്ള ആഗ്രഹം സൂചിപ്പിക്കുന്നു.",
+            "അതുകൊണ്ട് ഉയരത്തിൽ പറക്കാനുള്ള അവന്റെ ശ്രമം, തീറ്റ കണ്ടെത്താൻ ഉയരത്തിൽ പറക്കുന്നതാണ് ഏറ്റവും എളുപ്പമെന്ന കണ്ടെത്തൽ സൂചിപ്പിക്കുന്നു.",
+            "അതുകൊണ്ട് ഉയരത്തിൽ പറക്കുന്നത് കൂടുതൽ ദൂരം കാണാനാവും എന്ന അവന്റെ വിശ്വാസം ഭൗതിക ദൂരത്തെക്കുറിച്ച് മാത്രമാണ്; ജീവിക്കേണ്ടത് എങ്ങനെ എന്നതിനെക്കുറിച്ചല്ല."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "അതുകൊണ്ട് ഉയരത്തിൽ പറക്കാനുള്ള അവന്റെ ശ്രമം, ജീവിതം നിലനിർത്തുന്നതിനപ്പുറം പഠിക്കാനും കണ്ടുപിടിക്കാനും സ്വതന്ത്രനാകാനുമുള്ള ആഗ്രഹം സൂചിപ്പിക്കുന്നു."
+          }
+        },
+        "english": {
+          "context": "Jonathan could have lived like the other seagulls, flying low, searching only for food, and remaining within the limits of the flock. Instead he believed that “the one who flies higher can see farther,” and he refused a life concerned only with survival. The elders of the flock viewed his behavior as a challenge to their tradition and dignity.",
+          "question": "Which sentence best continues this idea?",
+          "options": [
+            "His attempt to fly higher therefore shows a desire to learn, discover, and become free rather than merely survive.",
+            "His attempt to fly higher therefore shows a desire to defeat the other seagulls and become the leader of the flock.",
+            "His attempt to fly higher therefore shows that flying higher is simply the easiest way to find food.",
+            "His belief that higher flight lets one see farther therefore concerns only physical distance, not how one should live."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "His attempt to fly higher therefore shows a desire to learn, discover, and become free rather than merely survive."
+          }
+        }
+      },
+      "explanation": "The paragraph licenses A by contrasting a life of mere survival/food with Jonathan’s refusal of that life and his belief that flying higher lets one see farther. The coherent continuation is that his higher flight shows a desire to learn, discover, and become free. Option D is a strong distractor: it takes “see farther” literally as physical distance and drops the social/metaphorical thread already opened. Options B and C introduce unsupported motives (ambition for leadership; food efficiency).",
+      "metadata": {
+        "register": "literary narrative",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam literary education",
+          "individual freedom",
+          "conflict with tradition",
+          "aspiration and nonconformity"
+        ]
+      }
+    },
+    {
+      "id": "ma_dis_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "implicit-event-inference",
+        "causal-integration",
+        "literary-pragmatics"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Pattalathil thirichupoya Raman Nairude family allotment Naanikku maasamthorum labhichukondirunnu. Oru divasam avante photo vannu. Kurachu maasangalkku shesham police stationil ninnu moonnu valiya irumpupettikal ettuvaangan notice kitti. Pettikalil pattala udyogasthante vasthrangalum, oru pettiyil Naani avante kazhuthil itta vivahamaalyavum undaayirunnu; athu unangikkarinju poyirunnu. Oru aazhchaykku shesham Naanikku pathinaayiram roopayude oru cheque labhichu. Athinushesham maasamthorum vannirunna money orderukalum nilachu.",
+          "question": "Ee sambhavangalude thudarsha ettavum shakthamayi soochippikkunnathu enthaanu?",
+          "options": [
+            "Raman Nair pattala joli upekshichu vere evideyo thaamasam thudangi.",
+            "Raman Nair yuddhathilo sainika sevanathinidayilo marichirikkaam; avante saadhanangal thirichayakkukayum kudumbathinu anthima panam nalkukayum cheythu.",
+            "Raman Nairkku promotion kittiyathukondu avante pazhaya vasthrangal veetilekku ayachu.",
+            "Raman Nair avadhi neettiyathinaal maasamthorumulla allotment thaalkaalikamaayi nilachu."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Raman Nair yuddhathilo sainika sevanathinidayilo marichirikkaam; avante saadhanangal thirichayakkukayum kudumbathinu anthima panam nalkukayum cheythu."
+          }
+        },
+        "malayalam": {
+          "context": "പട്ടാളത്തിലേക്ക് തിരികെ പോയ രാമൻനായരുടെ ഫാമിലി അലോട്ട്മെന്റ് നാണിക്ക് മാസംതോറും ലഭിച്ചുകൊണ്ടിരുന്നു. ഒരു ദിവസം അയാളുടെ ഫോട്ടോ വന്നു. കുറച്ച് മാസങ്ങൾക്കുശേഷം പോലീസ് സ്റ്റേഷനിൽ നിന്ന് മൂന്ന് വലിയ ഇരുമ്പുപെട്ടികൾ ഏറ്റുവാങ്ങാനുള്ള നോട്ടീസ് ലഭിച്ചു. പെട്ടികളിൽ പട്ടാള ഉദ്യോഗസ്ഥന്റെ വസ്ത്രങ്ങളും, ഒരു പെട്ടിയിൽ നാണി അയാളുടെ കഴുത്തിലിട്ട വിവാഹമാല്യവും ഉണ്ടായിരുന്നു; അത് ഉണങ്ങിക്കരിഞ്ഞുപോയിരുന്നു. ഒരാഴ്ചയ്ക്കുശേഷം നാണിക്ക് പതിനായിരം രൂപയുടെ ഒരു ചെക്ക് ലഭിച്ചു. അതിനുശേഷം മാസംതോറും വന്നിരുന്ന മണിയോർഡറുകളും നിലച്ചു.",
+          "question": "ഈ സംഭവങ്ങളുടെ തുടർച്ച ഏറ്റവും ശക്തമായി സൂചിപ്പിക്കുന്നത് എന്താണ്?",
+          "options": [
+            "രാമൻനായർ പട്ടാളജോലി ഉപേക്ഷിച്ച് മറ്റെവിടെയോ താമസം തുടങ്ങി.",
+            "രാമൻനായർ യുദ്ധത്തിലോ സൈനികസേവനത്തിനിടയിലോ മരിച്ചിരിക്കാം; അയാളുടെ സാധനങ്ങൾ തിരികെ അയക്കുകയും കുടുംബത്തിന് അന്തിമമായി പണം നൽകുകയും ചെയ്തു.",
+            "രാമൻനായർക്ക് സ്ഥാനക്കയറ്റം ലഭിച്ചതിനാൽ പഴയ പട്ടാളവസ്ത്രങ്ങൾ വീട്ടിലേക്ക് അയച്ചു.",
+            "രാമൻനായർ അവധി നീട്ടിയതിനാൽ മാസംതോറുമുള്ള അലോട്ട്മെന്റ് താൽക്കാലികമായി നിലച്ചു."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "രാമൻനായർ യുദ്ധത്തിലോ സൈനികസേവനത്തിനിടയിലോ മരിച്ചിരിക്കാം; അയാളുടെ സാധനങ്ങൾ തിരികെ അയക്കുകയും കുടുംബത്തിന് അന്തിമമായി പണം നൽകുകയും ചെയ്തു."
+          }
+        },
+        "english": {
+          "context": "After Raman Nair returned to military service, Naani continued receiving his family allotment every month. One day, his photograph arrived. Some months later, she received notice from the police station to collect three large iron trunks. They contained the clothes of a military officer, and in one trunk was the wedding garland Naani had placed around Raman Nair's neck; it had dried and withered. A week later, Naani received a cheque for ten thousand rupees. After that, the monthly money orders stopped.",
+          "question": "What does this sequence of events most strongly imply?",
+          "options": [
+            "Raman Nair left the army and began living somewhere else.",
+            "Raman Nair likely died during war or military service; his belongings were returned and a final payment was made to his family.",
+            "Raman Nair was promoted, so his old military clothes were sent home.",
+            "Raman Nair extended his leave, causing the monthly allotment to stop temporarily."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Raman Nair likely died during war or military service; his belongings were returned and a final payment was made to his family."
+          }
+        }
+      },
+      "explanation": "The story never explicitly states that Raman Nair has died. The reader must integrate several later events: his personal military belongings are returned, the wedding garland he carried with him comes back in the trunk, Naani receives a large lump-sum cheque, and the regular monthly remittances then stop. Taken together, these events strongly support the inference that Raman Nair died while in military service. The other options explain only isolated details and fail to account coherently for the entire sequence.",
+      "metadata": {
+        "register": "literary narrative",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "military family allotment",
+          "wartime separation",
+          "returned personal belongings",
+          "implicit notification of death"
+        ],
+        "authors_note": "Tests whether the model can infer an unstated major event by integrating multiple consequences distributed across the narrative. No single sentence explicitly reports Raman Nair's death."
+      }
+    },
+    {
+      "id": "ma_dis_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-integration",
+        "moral-reversal",
+        "literary-pragmatics"
+      ],
+      "scripts": {
+        "malayalam": {
+          "context": "ഭാരതയുദ്ധത്തിനു ശേഷം പാണ്ഡവർ രാജ്യാധിപത്യത്തിന്റെ പരമോന്നത നിലയിലെത്തി. പിന്നീട് അശ്വമേധയാഗത്തിന്റെ കുതിരയെ അനുഗമിച്ച് അർജുനൻ സൈന്ധവരാജ്യത്തിലെത്തി. അവിടെ ദുശ്ശളയുടെ ഭർത്താവായ ജയദ്രഥനെ അർജുനൻ യുദ്ധത്തിൽ കൊന്നതിന്റെ ഓർമ്മ ഇപ്പോഴും നിലനിന്നിരുന്നു. അർജുനൻ നാട്ടിലെത്തിയെന്നറിഞ്ഞ ദുശ്ശളയുടെ മകൻ സുരഥൻ നടുക്കത്തിൽ മരിച്ചു. തുടർന്ന് ദുശ്ശള തന്റെ അനാഥനായ പേരക്കുട്ടിയുമായി അർജുനന്റെ മുന്നിലെത്തി അഭയം അപേക്ഷിച്ചു. തങ്ങൾ ക്ഷത്രിയർക്കു ലഭിക്കാവുന്ന ഏറ്റവും വലിയ ഐശ്വര്യം നേടിയിരിക്കുന്ന സമയത്താണ് സ്വന്തം സഹോദരി ഭർത്താവിനെയും മകനെയും നഷ്ടപ്പെടുത്തി ഒരു പിച്ചക്കാരിയെപ്പോലെ തന്റെ മുമ്പിൽ നിൽക്കുന്നതെന്ന് അർജുനൻ തിരിച്ചറിഞ്ഞു.",
+          "question": "ഈ സന്ദർഭത്തിൽ അർജുനന്റെ വിഷാദത്തിന്റെ ഏറ്റവും ആഴത്തിലുള്ള കാരണം ഏതാണ്?",
+          "options": [
+            "ദുശ്ശള തന്റെ പഴയ കുടുംബവൈരങ്ങൾ വീണ്ടും ഓർമ്മിപ്പിച്ചതിനാൽ അർജുനന് യുദ്ധത്തിലെ പരാജയങ്ങൾ ഓർമ്മവന്നു.",
+            "സുരഥന്റെ മരണം താൻ നേരിട്ട് വരുത്തിയതാണെന്ന് അർജുനന് ഉറപ്പായതിനാൽ അവൻ നിയമപരമായ കുറ്റബോധത്തിൽപ്പെട്ടു.",
+            "ദുശ്ശളയുടെ ദുഃഖം കണ്ടപ്പോൾ സ്വന്തം കുടുംബത്തിന് ലഭിച്ച സമ്പത്തും അധികാരവും അവളുമായി പങ്കിടാത്തതിലാണ് അർജുനന് പ്രധാനമായും ഖേദം തോന്നിയത്.",
+            "തങ്ങൾ നേടിയ വിജയം തന്നെയാണ് ദുശ്ശളയുടെ ഭർത്താവിനെയും മകനെയും നഷ്ടപ്പെടുത്തിയ ദുരന്തശൃംഖലയുമായി ബന്ധപ്പെട്ടു നിൽക്കുന്നതെന്ന് അർജുനന് ബോധ്യപ്പെട്ടതോടെ, തന്റെ വീരവിജയത്തിന്റെ നൈതിക അർഥം തന്നെ ചോദ്യം ചെയ്യപ്പെടുന്നു."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "തങ്ങൾ നേടിയ വിജയം തന്നെയാണ് ദുശ്ശളയുടെ ഭർത്താവിനെയും മകനെയും നഷ്ടപ്പെടുത്തിയ ദുരന്തശൃംഖലയുമായി ബന്ധപ്പെട്ടു നിൽക്കുന്നതെന്ന് അർജുനന് ബോധ്യപ്പെട്ടതോടെ, തന്റെ വീരവിജയത്തിന്റെ നൈതിക അർഥം തന്നെ ചോദ്യം ചെയ്യപ്പെടുന്നു."
+          }
+        },
+        "latin": {
+          "context": "Bhaarathayuddhathinu shesham Paandavar raajyaadhipathyathinte paramonnatha nilayilethi. Pinneed ashwamedhayaagathinte kuthiraye anugamichu Arjunan Saindhava raajyathilethi. Avide Dushalayude bharthaavaaya Jayadrathane Arjunan yuddhathil konnathinte orma ippolum nilaninnirunnu. Arjunan naattilethiyennarinja Dushalayude makan Surathan nadukkathil marichu. Thudarnnu Dushala thante anaathanaaya perakkuttiyumaayi Arjunante munnilethi abhayam apekshichu. Thangal kshathriyarkku labhikkaavunna ettavum valiya aishwaryam nediyirikkunna samayathaanu swantham sahodari bharthaavineyum makaneyum nashtappettu oru pichakkaariyeppole thante munnil nilkkunnathennu Arjunan thiricharinju.",
+          "question": "Ee sandarbhathil Arjunante vishaadathinte ettavum aazhamulla kaaranam ethaanu?",
+          "options": [
+            "Dushala thante pazhaya kudumbavairangal veendum ormippichathinaal Arjunanu yuddhathile paraajayangal ormavannu.",
+            "Surathante maranam thaan nerittu varuthiyathaanennu Arjunanu urappaayathinaal avan niyamaparamaya kuttabodhathil pettu.",
+            "Dushalayude duhkham kandappol swantham kudumbathinu labhicha sampaththum adhikaaravum avalumaayi pankidaathathilaanu Arjunanu pradhaanamaayi khedam thonniyathu.",
+            "Thangal nediya vijayam thanne Dushalayude bharthaavineyum makaneyum nashtappetta duranthashrinkhalayumaayi bandhappettu nilkkunnuvennu Arjunanu bodhyappettathode, thante veeravijayathinte naithika artham thanne chodyam cheyyappedunnu."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Thangal nediya vijayam thanne Dushalayude bharthaavineyum makaneyum nashtappetta duranthashrinkhalayumaayi bandhappettu nilkkunnuvennu Arjunanu bodhyappettathode, thante veeravijayathinte naithika artham thanne chodyam cheyyappedunnu."
+          }
+        },
+        "english": {
+          "context": "After the Bharata war, the Pandavas attained the highest level of political power. Later, while accompanying the sacrificial horse of the Ashvamedha, Arjuna entered the kingdom of Sindhu. There, the memory remained that Arjuna had killed Dushala's husband Jayadratha in the war. On hearing that Arjuna had entered the kingdom, Dushala's son Suratha died from shock. Dushala then came before Arjuna with her orphaned grandson and begged for protection. Arjuna now confronted the fact that, at the very moment the Pandavas had attained supreme royal power, his own sister stood before him like a destitute woman after losing both her husband and her son.",
+          "question": "What most deeply explains Arjuna's grief in this scene?",
+          "options": [
+            "Dushala reminds him of old family hostilities, causing him to dwell on the military defeats of the past.",
+            "Arjuna becomes certain that he directly caused Suratha's death and therefore feels primarily legal guilt.",
+            "Arjuna mainly regrets that he has failed to share the Pandavas' wealth and political power with Dushala.",
+            "Arjuna realizes that the very victory that brought the Pandavas power is bound up with the chain of losses that left Dushala bereaved, forcing him to question the moral meaning of his own heroic triumph."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Arjuna realizes that the very victory that brought the Pandavas power is bound up with the chain of losses that left Dushala bereaved, forcing him to question the moral meaning of his own heroic triumph."
+          }
+        }
+      },
+      "explanation": "The passage builds a moral contrast between the Pandavas' successful attainment of royal power and the human devastation produced by the same history of war. Dushala's condition confronts Arjuna with the fact that his celebrated victories are inseparable from the deaths and losses suffered by his own sister's family. His grief therefore goes beyond personal pity or responsibility for a single death: the coherence of the passage pushes him toward questioning the moral value of the victory itself.",
+      "metadata": {
+        "register": "literary criticism",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Mahabharata",
+          "Arjuna",
+          "Dushala",
+          "Jayadratha",
+          "Ashvamedha",
+          "warrior ethics"
+        ]
+      }
+    }
+  ]
+}

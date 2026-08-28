@@ -1,0 +1,795 @@
+{
+  "dataset": "Hindi Pragmatics - Social Pragmatics MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "hi_social_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "education-pressure"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Rakesh ne apne beta ko bola, 'Beta, padosi ke bete ne IIT crack kar liya. Tumse kab hoga?'",
+          "question": "Iss sentence ka actual meaning kya hai?",
+          "options": [
+            "Sidha sawal pooch rahe hain",
+            "Beta ko daant rahe hain",
+            "Beta se comparison kar ke pressure bana rahe hain",
+            "Padosi ki tareef kar rahe hain"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Beta se comparison kar ke pressure bana rahe hain"
+          }
+        },
+        "devanagari": {
+          "context": "राकेश ने अपने बेटे को बोला, 'बेटा, पड़ोसी के बेटे ने IIT क्रैक कर लिया। तुमसे कब होगा?'",
+          "question": "इस सेंटेंस का एक्चुअल मीनिंग क्या है?",
+          "options": [
+            "सीधा सवाल पूछ रहे हैं",
+            "बेटे को डाँट रहे हैं",
+            "बेटे से कम्पेरिज़न कर के प्रेशर बना रहे हैं",
+            "पड़ोसी की तारीफ कर रहे हैं"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "बेटे से कम्पेरिज़न कर के प्रेशर बना रहे हैं"
+          }
+        },
+        "english": {
+          "context": "Rakesh told his son, 'Son, neighbor's son cracked IIT. When will you?'",
+          "question": "What is the actual meaning of this sentence?",
+          "options": [
+            "Asking a straightforward question",
+            "Scolding the son",
+            "Creating pressure through comparison",
+            "Praising the neighbor"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Creating pressure through comparison"
+          }
+        }
+      },
+      "explanation": "This is classic Indian parent indirect pressure technique using neighbor's children as benchmark to motivate (or guilt) their own child.",
+      "metadata": {
+        "register": "family-education",
+        "cultural_markers": [
+          "competitive parenting",
+          "neighbor comparison",
+          "IIT obsession"
+        ]
+      }
+    },
+    {
+      "id": "hi_social_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "train-etiquette",
+        "seat-sharing"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "General coach mein tumhari window seat hai. Station par ek aadmi tumse bolta hai 'Bhai thoda adjust kar lo, humein bhi baithne do.'",
+          "question": "Iska kya matlab hai?",
+          "options": [
+            "Voh tumhe shift hone ko keh raha hai",
+            "Voh tumhari seat par baith ke adjust karna chahta hai",
+            "Voh khade rehna chahta hai",
+            "Voh samaan rakhna chahta hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Voh tumhari seat par baith ke adjust karna chahta hai"
+          }
+        },
+        "devanagari": {
+          "context": "जनरल कोच में तुम्हारी विंडो सीट है। स्टेशन पर एक आदमी तुमसे बोलता है 'भाई थोड़ा एडजस्ट कर लो, हमें भी बैठने दो।'",
+          "question": "इसका क्या मतलब है?",
+          "options": [
+            "वो तुम्हें शिफ्ट होने को कह रहा है",
+            "वो तुम्हारी सीट पर बैठ के एडजस्ट करना चाहता है",
+            "वो खड़े रहना चाहता है",
+            "वो सामान रखना चाहता है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "वो तुम्हारी सीट पर बैठ के एडजस्ट करना चाहता है"
+          }
+        },
+        "english": {
+          "context": "You have a window seat in general coach. At the station, a man tells you 'Brother, adjust a bit, let us also sit.'",
+          "question": "What does this mean?",
+          "options": [
+            "He's asking you to shift elsewhere",
+            "He wants to sit on your seat by adjusting together",
+            "He wants to stand",
+            "He wants to keep luggage"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He wants to sit on your seat by adjusting together"
+          }
+        }
+      },
+      "explanation": "'Adjust' in Indian train context means squeezing in to share a seat meant for fewer people. This is common general coach culture.",
+      "metadata": {
+        "register": "public-transport",
+        "cultural_markers": [
+          "train adjust culture",
+          "general coach dynamics",
+          "space sharing"
+        ]
+      }
+    },
+    {
+      "id": "hi_social_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "political-correctness",
+        "controversial-topics"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Family gathering mein tumhare chacha aur mama raajneeti par behes kar rahe hain. Dono alag party ko support karte hain aur debate garam ho rahi hai.",
+          "question": "Tumhe kya karna chahiye?",
+          "options": [
+            "Apni pasand ki party ka support karo",
+            "Topic change karne ki koshish karo",
+            "Dono ko aur bhadkao",
+            "Ek side leke doosre ko galat saabit karo"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Topic change karne ki koshish karo"
+          }
+        },
+        "devanagari": {
+          "context": "फैमिली गैदरिंग में तुम्हारे चाचा और मामा राजनीति पर बहस कर रहे हैं। दोनों अलग पार्टी को सपोर्ट करते हैं और डिबेट गरम हो रही है।",
+          "question": "तुम्हें क्या करना चाहिए?",
+          "options": [
+            "अपनी पसंद की पार्टी का सपोर्ट करो",
+            "टॉपिक चेंज करने की कोशिश करो",
+            "दोनों को और भड़काओ",
+            "एक साइड लेके दूसरे को गलत साबित करो"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "टॉपिक चेंज करने की कोशिश करो"
+          }
+        },
+        "english": {
+          "context": "At a family gathering, your uncle and maternal uncle are debating politics. Both support different parties and the debate is heating up.",
+          "question": "What should you do?",
+          "options": [
+            "Support your preferred party",
+            "Try to change the topic",
+            "Instigate them further",
+            "Take a side and prove the other wrong"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Try to change the topic"
+          }
+        }
+      },
+      "explanation": "In Indian family culture, avoiding political confrontation at gatherings is wise to maintain harmony. Deflecting to neutral topics is the diplomatic approach.",
+      "metadata": {
+        "register": "family-social",
+        "cultural_markers": [
+          "political polarization",
+          "family harmony",
+          "conflict avoidance"
+        ]
+      }
+    },
+    {
+      "id": "hi_social_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-refusal",
+        "hospitality"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Tum kisi ke ghar khana khaane ke baad chai ke liye poochha jaata hai. Tumne bola 'Nahi nahi, rehne do, bahut ho gaya.' Host phir bhi chai leke aa jaata hai.",
+          "question": "Host ne chai kyun laaya jab tumne mana kar diya?",
+          "options": [
+            "Host ne suna nahi",
+            "Pehli baar ka mana karna courtesy hota hai, asli jawaab nahi",
+            "Host tumse lad raha tha",
+            "Host ko pata nahi tha tum kya chahte ho"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Pehli baar ka mana karna courtesy hota hai, asli jawaab nahi"
+          }
+        },
+        "devanagari": {
+          "context": "तुम किसी के घर खाना खाने के बाद चाय के लिए पूछा जाता है। तुमने बोला 'नहीं नहीं, रहने दो, बहुत हो गया।' होस्ट फिर भी चाय लेके आ जाता है।",
+          "question": "होस्ट ने चाय क्यों लाया जब तुमने मना कर दिया?",
+          "options": [
+            "होस्ट ने सुना नहीं",
+            "पहली बार का मना करना कर्टसी होता है, असली जवाब नहीं",
+            "होस्ट तुमसे लड़ रहा था",
+            "होस्ट को पता नहीं था तुम क्या चाहते हो"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "पहली बार का मना करना कर्टसी होता है, असली जवाब नहीं"
+          }
+        },
+        "english": {
+          "context": "After eating at someone's home, you are offered tea. You say 'No no, it's fine, I've had enough.' The host brings tea anyway.",
+          "question": "Why did the host bring tea even after you refused?",
+          "options": [
+            "The host didn't hear you",
+            "The first refusal is courtesy, not the actual answer",
+            "The host was arguing with you",
+            "The host didn't know what you wanted"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The first refusal is courtesy, not the actual answer"
+          }
+        }
+      },
+      "explanation": "In Indian hospitality culture, the first refusal ('nahi nahi') is a politeness ritual, not a genuine refusal. Hosts are expected to insist, and guests are expected to eventually accept. Accepting on the first offer can seem greedy; refusing repeatedly signals a true 'no'.",
+      "metadata": {
+        "register": "home-hospitality",
+        "cultural_markers": [
+          "hospitality ritual",
+          "polite refusal",
+          "insistence culture",
+          "chai culture"
+        ]
+      }
+    },
+    {
+      "id": "hi_social_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "age-hierarchy",
+        "indirect-command"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Dadi ghar mein baith ke boli, 'Pata nahi ajkal ke bacche TV dekhte rehte hain, hamare zamane mein hum kitna kaam karte the.' Tumhara bhaanja paas hi TV dekh raha hai.",
+          "question": "Dadi asal mein kya keh rahi hain?",
+          "options": [
+            "Apne zamane ki yaadein share kar rahi hain",
+            "TV ke baare mein jaankari de rahi hain",
+            "Bhaanje ko TV band karke kaam karne ka indirect ishara de rahi hain",
+            "Tumse apne baare mein baat kar rahi hain"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Bhaanje ko TV band karke kaam karne ka indirect ishara de rahi hain"
+          }
+        },
+        "devanagari": {
+          "context": "दादी घर में बैठ के बोली, 'पता नहीं आजकल के बच्चे TV देखते रहते हैं, हमारे ज़माने में हम कितना काम करते थे।' तुम्हारा भांजा पास ही TV देख रहा है।",
+          "question": "दादी असल में क्या कह रही हैं?",
+          "options": [
+            "अपने ज़माने की यादें शेयर कर रही हैं",
+            "TV के बारे में जानकारी दे रही हैं",
+            "भांजे को TV बंद करके काम करने का इनडायरेक्ट इशारा दे रही हैं",
+            "तुमसे अपने बारे में बात कर रही हैं"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "भांजे को TV बंद करके काम करने का इनडायरेक्ट इशारा दे रही हैं"
+          }
+        },
+        "english": {
+          "context": "Grandmother is sitting at home and says, 'Don't know, kids these days just keep watching TV, in our times we used to do so much work.' Your nephew is watching TV nearby.",
+          "question": "What is grandmother actually saying?",
+          "options": [
+            "Sharing memories of her era",
+            "Providing information about TV",
+            "Indirectly hinting at the nephew to turn off TV and do some work",
+            "Talking to you about herself"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Indirectly hinting at the nephew to turn off TV and do some work"
+          }
+        }
+      },
+      "explanation": "Elderly Indians often use generational comparisons as indirect commands. Rather than directly saying 'band karo TV', they make a third-person complaint that the target is expected to understand and act upon. This maintains their authority while avoiding a direct confrontation.",
+      "metadata": {
+        "register": "family-intergenerational",
+        "cultural_markers": [
+          "elder authority",
+          "indirect reprimand",
+          "generational comparison",
+          "nostalgia as criticism"
+        ]
+      }
+    },
+    {
+      "id": "hi_social_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "wedding-culture",
+        "gifting-norms"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Tumhare dost ki shaadi hai. Tumhara ek common dost bolta hai, 'Yaar, Rahul ko gift mein kya doge? Mujhe laga hum sab milke ek bada gift de dete hain.' Tumhare paas abhi paise ki thodi takleef hai.",
+          "question": "Tumhare dost ka asal suggestion kya hai?",
+          "options": [
+            "Voh tumhara gift khud dena chahta hai",
+            "Voh chahta hai tum milke contribute karo taaki individually chota dikhna na pade",
+            "Voh gift shopping mein madad maang raha hai",
+            "Usse Rahul ki pasand pata nahi hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Voh chahta hai tum milke contribute karo taaki individually chota dikhna na pade"
+          }
+        },
+        "devanagari": {
+          "context": "तुम्हारे दोस्त की शादी है। तुम्हारा एक कॉमन दोस्त बोलता है, 'यार, राहुल को गिफ्ट में क्या दोगे? मुझे लगा हम सब मिलके एक बड़ा गिफ्ट दे देते हैं।' तुम्हारे पास अभी पैसे की थोड़ी तकलीफ है।",
+          "question": "तुम्हारे दोस्त का असल सजेशन क्या है?",
+          "options": [
+            "वो तुम्हारा गिफ्ट खुद देना चाहता है",
+            "वो चाहता है तुम मिलके कॉन्ट्रिब्यूट करो ताकि इंडिविजुअली छोटा दिखना न पड़े",
+            "वो गिफ्ट शॉपिंग में मदद माँग रहा है",
+            "उसे राहुल की पसंद पता नहीं है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "वो चाहता है तुम मिलके कॉन्ट्रिब्यूट करो ताकि इंडिविजुअली छोटा दिखना न पड़े"
+          }
+        },
+        "english": {
+          "context": "Your friend is getting married. A common friend says, 'Yaar, what will you give Rahul as a gift? I thought we could all pool together and give one big gift.' You are tight on money right now.",
+          "question": "What is your friend actually suggesting?",
+          "options": [
+            "He wants to give your gift himself",
+            "He wants everyone to pool contributions so no one looks cheap individually",
+            "He's asking for help with gift shopping",
+            "He doesn't know Rahul's preferences"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He wants everyone to pool contributions so no one looks cheap individually"
+          }
+        }
+      },
+      "explanation": "In Indian wedding culture, gifting carries strong social signaling. Suggesting a 'group gift' is often a face-saving strategy, it allows everyone to appear generous collectively while reducing individual financial pressure. It also avoids the embarrassment of giving a visibly small gift at a large celebration.",
+      "metadata": {
+        "register": "wedding-social",
+        "cultural_markers": [
+          "shaadi gifting",
+          "group pooling",
+          "social face-saving",
+          "shagun culture"
+        ]
+      }
+    },
+    {
+      "id": "hi_social_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "bargaining-culture",
+        "transport"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Tumne auto wale se poocha, 'Bhaiya, station chaloge?' Usne kaha, 'Meter se nahi chalta, 200 lagenge.' Meter se fare actually 120 hota hai.",
+          "question": "Auto wale ke jawab ka social matlab kya hai?",
+          "options": [
+            "Meter kharab hai isliye fix rate bata raha hai",
+            "Voh bargaining ki shuruaat kar raha hai, expecting hoga ki tum kam karwaoge",
+            "Voh genuinely 200 hi lena chahta hai, bilkul fix",
+            "Voh tumhe jaane se rok raha hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Voh bargaining ki shuruaat kar raha hai, expecting hoga ki tum kam karwaoge"
+          }
+        },
+        "devanagari": {
+          "context": "तुमने ऑटो वाले से पूछा, 'भैया, स्टेशन चलोगे?' उसने कहा, 'मीटर से नहीं चलता, 200 लगेंगे।' मीटर से फेयर एक्चुअली 120 होता है।",
+          "question": "ऑटो वाले के जवाब का सोशल मतलब क्या है?",
+          "options": [
+            "मीटर खराब है इसलिए फिक्स रेट बता रहा है",
+            "वो बार्गेनिंग की शुरुआत कर रहा है, एक्सपेक्टिंग होगा कि तुम कम करवाओगे",
+            "वो जेन्युइनली 200 ही लेना चाहता है, बिल्कुल फिक्स",
+            "वो तुम्हें जाने से रोक रहा है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "वो बार्गेनिंग की शुरुआत कर रहा है, एक्सपेक्टिंग होगा कि तुम कम करवाओगे"
+          }
+        },
+        "english": {
+          "context": "You asked an auto driver, 'Bhaiya, will you go to the station?' He said, 'Won't go by meter, it'll be 200.' The actual meter fare is 120.",
+          "question": "What is the social meaning of the auto driver's response?",
+          "options": [
+            "The meter is broken, so he's stating a fixed rate",
+            "He's opening a bargaining exchange, expecting you to negotiate it down",
+            "He genuinely wants exactly 200, non-negotiable",
+            "He's refusing to take you anywhere"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He's opening a bargaining exchange, expecting you to negotiate it down"
+          }
+        }
+      },
+      "explanation": "Quoting an inflated flat rate instead of the meter fare is a conventional opening bid in Indian auto-rickshaw bargaining culture both parties understand the quoted number is a starting point for negotiation, not a final price.",
+      "metadata": {
+        "register": "public-transport",
+        "cultural_markers": [
+          "auto-rickshaw bargaining",
+          "inflated opening quote",
+          "negotiation norms"
+        ],
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": "hi_social_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "matrimonial-euphemism",
+        "arranged-marriage"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Shaadi ke biodata mein likha tha, 'Ladki homely hai, ghar-parivar sambhalne mein expert hai.'",
+          "question": "'Homely' word ka is context mein kya implication hai?",
+          "options": [
+            "Ladki sirf apne ghar mein rehti hai, bahar nahi jaati",
+            "Ladki ka career-oriented hone se zyada, gharelu zimmedariyon ko priority dene ka expectation signal kiya jaa raha hai",
+            "Ladki ka ghar bahut bada hai",
+            "Ladki interior design mein interested hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ladki ka career-oriented hone se zyada, gharelu zimmedariyon ko priority dene ka expectation signal kiya jaa raha hai"
+          }
+        },
+        "devanagari": {
+          "context": "शादी के बायोडाटा में लिखा था, 'लड़की होमली है, घर-परिवार संभालने में एक्सपर्ट है।'",
+          "question": "'होमली' वर्ड का इस कॉन्टेक्स्ट में क्या इम्प्लीकेशन है?",
+          "options": [
+            "लड़की सिर्फ अपने घर में रहती है, बाहर नहीं जाती",
+            "लड़की का करियर-ओरिएंटेड होने से ज़्यादा, घरेलू ज़िम्मेदारियों को प्रायोरिटी देने का एक्सपेक्टेशन सिग्नल किया जा रहा है",
+            "लड़की का घर बहुत बड़ा है",
+            "लड़की इंटीरियर डिज़ाइन में इंटरेस्टेड है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "लड़की का करियर-ओरिएंटेड होने से ज़्यादा, घरेलू ज़िम्मेदारियों को प्रायोरिटी देने का एक्सपेक्टेशन सिग्नल किया जा रहा है"
+          }
+        },
+        "english": {
+          "context": "A matrimonial biodata read, 'The girl is homely, expert at managing the household.'",
+          "question": "What does the word 'homely' imply in this context?",
+          "options": [
+            "The girl only stays inside her house and never goes out",
+            "It signals an expectation that she prioritizes domestic responsibility over being career-focused",
+            "The girl's house is very large",
+            "The girl is interested in interior design"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "It signals an expectation that she prioritizes domestic responsibility over being career-focused"
+          }
+        }
+      },
+      "explanation": "In Indian matrimonial listings, 'homely' is a coded descriptor that communicates traditional gender-role expectations around domesticity, rather than meaning 'physically stays at home' or referring to the literal house it's a socially loaded euphemism specific to this genre.",
+      "metadata": {
+        "register": "matrimonial-formal",
+        "cultural_markers": [
+          "biodata euphemism",
+          "arranged marriage vocabulary",
+          "gender-role coding"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "hi_social_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "digital-etiquette",
+        "whatsapp-group"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Family WhatsApp group mein Bua ne ek lambi good-morning message aur bhagwan ki photo bheji. Message 'seen' hai lekin kisi ne reply nahi kiya. Thodi der baad Bua ne likha, 'Koi padhta bhi hai ya nahi?'",
+          "question": "Bua ka yeh message kya kar raha hai?",
+          "options": [
+            "Voh genuinely poochh rahi hain ki group active hai ya nahi",
+            "Voh indirectly complaint kar rahi hain ki unhe reply/acknowledgment nahi mila",
+            "Voh group ko delete karne ki dhamki de rahi hain",
+            "Voh naya message bhejne ka plan bata rahi hain"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Voh indirectly complaint kar rahi hain ki unhe reply/acknowledgment nahi mila"
+          }
+        },
+        "devanagari": {
+          "context": "फैमिली व्हाट्सएप ग्रुप में बुआ ने एक लंबी गुड-मॉर्निंग मैसेज और भगवान की फोटो भेजी। मैसेज 'सीन' है लेकिन किसी ने रिप्लाई नहीं किया। थोड़ी देर बाद बुआ ने लिखा, 'कोई पढ़ता भी है या नहीं?'",
+          "question": "बुआ का यह मैसेज क्या कर रहा है?",
+          "options": [
+            "वो जेन्युइनली पूछ रही हैं कि ग्रुप एक्टिव है या नहीं",
+            "वो इनडायरेक्टली कम्प्लेंट कर रही हैं कि उन्हें रिप्लाई/एक्नॉलेजमेंट नहीं मिला",
+            "वो ग्रुप को डिलीट करने की धमकी दे रही हैं",
+            "वो नया मैसेज भेजने का प्लान बता रही हैं"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "वो इनडायरेक्टली कम्प्लेंट कर रही हैं कि उन्हें रिप्लाई/एक्नॉलेजमेंट नहीं मिला"
+          }
+        },
+        "english": {
+          "context": "In the family WhatsApp group, Bua sent a long good-morning message and a photo of a deity. The message is marked 'seen' but no one replied. A while later, Bua wrote, 'Does anyone even read these or not?'",
+          "question": "What is Bua's message doing?",
+          "options": [
+            "Genuinely asking whether the group is active",
+            "Indirectly complaining that she got no reply or acknowledgment",
+            "Threatening to delete the group",
+            "Announcing a plan to send a new message"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Indirectly complaining that she got no reply or acknowledgment"
+          }
+        }
+      },
+      "explanation": "The rhetorical question about whether messages are read is not seeking information (the 'seen' receipts already confirm they were) it functions as a mild reproach aimed at prompting acknowledgment or engagement from family members, a common friction point in Indian family WhatsApp groups.",
+      "metadata": {
+        "register": "family-digital",
+        "cultural_markers": [
+          "WhatsApp family group culture",
+          "seen-no-reply friction",
+          "forwarded good-morning messages"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_social_mcq_010",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "in-law-dynamics",
+        "indirect-complaint"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Saas ne apni padosan se baat karte hue, bahu ke saamne hi kaha, 'Aaj kal ki bahuon ko toh kuch aata hi nahi, sab kuch order kar lete hain bahar se.'",
+          "question": "Saas kis se baat kar rahi hain asal mein?",
+          "options": [
+            "Sirf apni padosan se, general topic par",
+            "Bahu ko indirectly taana maar rahi hain uske ghar ke kaam ke baare mein",
+            "Restaurant ke against complaint kar rahi hain",
+            "Naye cooking classes join karne ki salah de rahi hain"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Bahu ko indirectly taana maar rahi hain uske ghar ke kaam ke baare mein"
+          }
+        },
+        "devanagari": {
+          "context": "सास ने अपनी पड़ोसन से बात करते हुए, बहू के सामने ही कहा, 'आजकल की बहुओं को तो कुछ आता ही नहीं, सब कुछ ऑर्डर कर लेते हैं बाहर से।'",
+          "question": "सास किससे बात कर रही हैं असल में?",
+          "options": [
+            "सिर्फ अपनी पड़ोसन से, जनरल टॉपिक पर",
+            "बहू को इनडायरेक्टली ताना मार रही हैं उसके घर के काम के बारे में",
+            "रेस्टोरेंट के अगेंस्ट कम्प्लेंट कर रही हैं",
+            "नए कुकिंग क्लासेज़ जॉइन करने की सलाह दे रही हैं"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "बहू को इनडायरेक्टली ताना मार रही हैं उसके घर के काम के बारे में"
+          }
+        },
+        "english": {
+          "context": "While talking to her neighbour, right in front of her daughter-in-law, the mother-in-law said, 'These days' daughters-in-law don't know anything, they just order everything from outside.'",
+          "question": "Who is the mother-in-law actually addressing?",
+          "options": [
+            "Only her neighbour, on a general topic",
+            "Indirectly taunting the daughter-in-law about her housework",
+            "Complaining against restaurants",
+            "Suggesting joining new cooking classes"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Indirectly taunting the daughter-in-law about her housework"
+          }
+        }
+      },
+      "explanation": "Directing a generalized third-party complaint at a listener who happens to be present ('bahu ke saamne hi') is a well-known indirect criticism strategy in saas-bahu dynamics, allowing the speaker to reproach without a direct, confrontational accusation.",
+      "metadata": {
+        "register": "family-in-law",
+        "cultural_markers": [
+          "saas-bahu dynamic",
+          "triangulated criticism",
+          "indirect reproach via third party"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_social_mcq_011",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "queue-culture",
+        "jugaad-request"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Bank ki line mein khade ho, tumhare aage kaafi log hain. Ek aadmi peeche se aakar bolta hai, 'Bhai sahab, bas ek minute ka kaam hai, thoda aage se nikal jaaun?'",
+          "question": "Iss request ka social function kya hai?",
+          "options": [
+            "Voh emergency mein hai isliye sach mein sirf ek minute lagega",
+            "Voh line ke baare mein poochh raha hai",
+            "Voh tumhari madad karne ki offer de raha hai",
+            "Yeh line jump karne ki polite-sounding request hai, jiska matlab hai voh apni jagah chhod kar aage aa jayega"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Yeh line jump karne ki polite-sounding request hai, jiska matlab hai voh apni jagah chhod kar aage aa jayega"
+          }
+        },
+        "devanagari": {
+          "context": "बैंक की लाइन में खड़े हो, तुम्हारे आगे काफी लोग हैं। एक आदमी पीछे से आकर बोलता है, 'भाई साहब, बस एक मिनट का काम है, थोड़ा आगे से निकल जाऊँ?'",
+          "question": "इस रिक्वेस्ट का सोशल फंक्शन क्या है?",
+          "options": [
+            "वो इमरजेंसी में है इसलिए सच में सिर्फ एक मिनट लगेगा",
+            "वो लाइन के बारे में पूछ रहा है",
+            "वो तुम्हारी मदद करने की ऑफर दे रहा है",
+            "यह लाइन जंप करने की पोलाइट-साउंडिंग रिक्वेस्ट है, जिसका मतलब है वो अपनी जगह छोड़ कर आगे आ जाएगा"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "यह लाइन जंप करने की पोलाइट-साउंडिंग रिक्वेस्ट है, जिसका मतलब है वो अपनी जगह छोड़ कर आगे आ जाएगा"
+          }
+        },
+        "english": {
+          "context": "You're standing in a bank queue with many people ahead of you. A man comes from behind and says, 'Bhai sahab, it's just a one-minute task, can I just slip ahead a bit?'",
+          "question": "What is the social function of this request?",
+          "options": [
+            "He's in a real emergency and it will genuinely take one minute",
+            "He's asking about how the queue works",
+            "He's offering to help you",
+            "This is a politely-worded line-jumping request, meaning he'll skip ahead of his actual place in line"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "This is a politely-worded line-jumping request, meaning he'll skip ahead of his actual place in line"
+          }
+        }
+      },
+      "explanation": "Framing a request to cut the queue as a tiny, harmless favour ('bas ek minute ka kaam hai') is a conventional softening strategy for what is functionally a request for special treatment/jugaad; the phrase minimizes the imposition to make it harder to refuse.",
+      "metadata": {
+        "register": "public-queue",
+        "cultural_markers": [
+          "queue jumping request",
+          "jugaad softening language",
+          "politeness minimization"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_social_mcq_012",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "noise-complaint",
+        "neighbour-etiquette"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Neeche wale flat mein raat 11 baje tak loud music baj rahi thi. Upar wale neighbour ne agli subah lift mein milte hue kaha, 'Kal raat toh kaafi maza aaya hoga party mein!'",
+          "question": "Yeh comment kis tarah ka speech act hai?",
+          "options": [
+            "Ek genuine compliment party ke liye",
+            "Party mein invite na milne ki shikayat",
+            "Ek indirect complaint jo loud music ke baare mein hai, seedhe confront kiye bina",
+            "Agli party ke plans poochna"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Ek indirect complaint jo loud music ke baare mein hai, seedhe confront kiye bina"
+          }
+        },
+        "devanagari": {
+          "context": "नीचे वाले फ्लैट में रात 11 बजे तक लाउड म्यूज़िक बज रही थी। ऊपर वाले नेबर ने अगली सुबह लिफ्ट में मिलते हुए कहा, 'कल रात तो काफी मज़ा आया होगा पार्टी में!'",
+          "question": "यह कमेंट किस तरह का स्पीच एक्ट है?",
+          "options": [
+            "एक जेन्युइन कॉम्प्लीमेंट पार्टी के लिए",
+            "पार्टी में इनवाइट ना मिलने की शिकायत",
+            "एक इनडायरेक्ट कम्प्लेंट जो लाउड म्यूज़िक के बारे में है, सीधे कन्फ्रंट किए बिना",
+            "अगली पार्टी के प्लांस पूछना"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "एक इनडायरेक्ट कम्प्लेंट जो लाउड म्यूज़िक के बारे में है, सीधे कन्फ्रंट किए बिना"
+          }
+        },
+        "english": {
+          "context": "The flat downstairs had loud music playing until 11 PM. The upstairs neighbour, meeting them in the lift the next morning, said, 'You must have had quite a fun time at the party last night!'",
+          "question": "What kind of speech act is this comment?",
+          "options": [
+            "A genuine compliment about the party",
+            "A complaint about not being invited to the party",
+            "An indirect complaint about the loud music, without directly confronting them",
+            "Asking about plans for the next party"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "An indirect complaint about the loud music, without directly confronting them"
+          }
+        }
+      },
+      "explanation": "The remark about 'fun at the party' is a softened, face-saving way of referencing the noise disturbance from the night before it lets the neighbour register displeasure without an outright confrontation about the volume, which could escalate tensions between flats.",
+      "metadata": {
+        "register": "neighbour-apartment",
+        "cultural_markers": [
+          "indirect noise complaint",
+          "lift small talk",
+          "apartment-living etiquette"
+        ],
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

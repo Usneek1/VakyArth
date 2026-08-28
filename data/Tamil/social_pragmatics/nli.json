@@ -1,0 +1,195 @@
+{
+  "dataset": "Tamil Pragmatics - Social Pragmatics NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_social_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness",
+        "greeting-norms",
+        "inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Karthikum avan manaivium Ramudaya veetla irundhu kelamburapothu, Ramoda manaivi Kartikoda manivikku kumkumum kuduthathanga",
+          "hypothesis": "Ramoda manaivi Kartikai pidikkavillai."
+        },
+        "tamil": {
+          "premise": "கார்த்திக்கும் அவன் மனைவியும் ராமுடைய வீட்டிலிருந்து கிளம்பும்போது, ராமோட மனைவி கார்த்திகோட மணிவிக்கு குங்குமம் கொடுத்ததாங்க.",
+          "hypothesis": "ராமுடைய மனைவி கார்த்திக்கியை மிகவும் விரும்பவில்லை."
+        },
+        "english": {
+          "premise": "When Karthik and his wife were about to leave Ram's house, Ram's wife gave kumkum to Karthik's wife",
+          "hypothesis": "Ram's wife does not like Karthik very much."
+        }
+      },
+      "explanation": "Gender norms.",
+      "metadata": {
+        "register": "family/relatives",
+        "cultural_markers": [
+          "kumkum-gifting as positive politeness to women"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_social_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "gift-refusal",
+        "politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Nan Chennai la irundu Madurai ku paattiya paaka porapo saree vaangitu ponen, ana avunga ithellam edhukku, paravillanu sonnanga ",
+          "hypothesis": "Paattikku gift venamn"
+        },
+        "tamil": {
+          "premise": "நான் சென்னை லிருந்து மதுரைக்கு பாட்டியை பார்க்க போறபோ சாரி வாங்கிட்டு போனேன், ஆனா அவுங்க இதெல்லாம் எதுக்கு, பரவில்லனு சொன்னாங்க.",
+          "hypothesis": "பாட்டிக்கு கிஃப்ட் வேண்டாம்"
+        },
+        "english": {
+          "premise": "When I went from Chennai to Madurai to visit my grandmother, I bought a saree, but she said, 'What is all this for, it's okay.'",
+          "hypothesis": "Roshni does not want the gift."
+        }
+      },
+      "explanation": "In Tamil pragmatics, statements like ‘edhuku ithu ellam’ are polite modesty, not an actual refusal, so the hypothesis incorrectly infers dislike.",
+      "metadata": {
+        "register": "family/elders",
+        "cultural_markers": [
+          "polite gift-dismissal formula"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_social_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "greeting-norms",
+        "respect",
+        "inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Maappillaiya veetuku varumbodhu, appa kai kooppi vaanga maappila, vanakkam, apdinu solli ulla alaichaanga, athukku maappillai kai kooppi vanakkam mamanu sonnaaru.",
+          "hypothesis": "Mappillai appa vida vayasula periyavaraa irukurathunaala appa mariyaatha kudukkuraaru"
+        },
+        "tamil": {
+          "premise": "மாப்பிள்ளையா வீட்டுக்கு வரும்போது, அப்பா கை கூப்பி வாங்க மாப்பிள்ளை, வணக்கம், அப்படின்னு சொல்லி உள்ள அலிச்சாங்க, அதுக்கு மாப்பிள்ளை கை கூப்பி வணக்கம் மாமனு சொன்னாரு.",
+          "hypothesis": "மாப்பிள்ளை அப்பா விட வயசுல பெரியவரா இருக்குறதுனால அப்பா மரியாதை கொடுக்குறாரு"
+        },
+        "english": {
+          "premise": "When welcoming the groom into the house, father held his hands together and said 'vaanga maapilla, vanakkam', and he said 'vanakkam mama' with folded hands.",
+          "hypothesis": "My father respectes the groom because he is elder than him."
+        }
+      },
+      "explanation": "In Tamil culture, welcoming people with folded hands is a common respectful practice, and respect is often shown to the groom regardless of age; therefore, the hypothesis incorrectly infers that the respect is based on age.",
+      "metadata": {
+        "register": "family/relatives",
+        "cultural_markers": [
+          "folded-hands greeting as a sign of respect"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_social_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "guest-host",
+        "hospitality",
+        "inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Amma electrician vela paathuttu irukkapo, enna kudikkuringa, tea podava, coffee podavanu kettanga.",
+          "hypothesis": "Electrician kudikka edaachu kodukka sonnaaru"
+        },
+        "tamil": {
+          "premise": "அம்மா எலக்ட்ரீசியன் வேல பார்த்துட்டு இருக்கப்போ, என்ன குடிக்குறீங்க, டீ போடவா, காபி போடவனு கேட்டாங்க.",
+          "hypothesis": "எலக்ட்ரீசியன் குடிக்க எதாவது கொடுக்க சொல்லானு"
+        },
+        "english": {
+          "premise": "When mom was watching the electrician work, she asked, 'What are you drinking, should I make you tea or coffee?'",
+          "hypothesis": "The electrician asked for something to drink."
+        }
+      },
+      "explanation": "In Tamil culture, it is common for hosts to offer anyone who comes to their home, something to drink as a gesture of hospitality, even if the guest has not explicitly asked for it; therefore, the hypothesis incorrectly infers that the electrician requested a drink.",
+      "metadata": {
+        "register": "guest/host",
+        "cultural_markers": [
+          "offering drinks as a gesture of hospitality"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_social_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kalyaanathukku saree vaanga ponappo ennoda akka, 'akka antha navaapala colour saree eduthu kaattunga'nu sonnaa",
+          "hypothesis": "Ennoda akka saree kaatta sonnathu avaloda akka illa"
+        },
+        "tamil": {
+          "premise": "கல்யாணத்துக்கு சாரி வாங்க போனப்போ என்னோட அக்கா, 'அக்கா அந்த நவாப்பழ கலர் சாரி எடுத்து காட்டுங்க'னு சொன்னா",
+          "hypothesis": "என்னோட அக்கா சாரி காட்ட சொன்னது அவளோட அக்கா இல்ல"
+        },
+        "english": {
+          "premise": "When we went to buy a saree for the wedding, my friend said, 'Sister, show me that plum color saree.'",
+          "hypothesis": "The person my friend asked to show the saree is not the sister."
+        }
+      },
+      "explanation": "In tamil culture it is common to refer strangers as your family members, an elder female as 'akka', 'amma' or 'paatti'. So the hypothesis correctly infers that the person my friend asked to show the saree is not her sister, but it is just someone in the shop.",
+      "metadata": {
+        "register": "informal/strangers",
+        "cultural_markers": [
+          "using familial terms to refer to strangers as a form of politeness"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_social_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness",
+        "respect"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Anna, appa kitta edirthu pesunapo, amma kovama sonnanga, 'Appa kitta korala osathi pesaatha'",
+          "hypothesis": "Anna appa kitta sathama pesunathu thappu"
+        },
+        "tamil": {
+          "premise": "அண்ணா, அப்பா கிட்ட எதிர்த்து பேசுனபோ, அம்மா கோவமா சொன்னாங்க, 'அப்பா கிட்ட கொரால ஓசதி பேசாத'",
+          "hypothesis": "அண்ணா அப்பா கிட்ட சத்தமா பேசுனது தவறு"
+        },
+        "english": {
+          "premise": "When my brother spoke back to my father, my mother angrily said, 'Don't speak loudly to your father.'",
+          "hypothesis": "The brother speaking loudly to his father was wrong."
+        }
+      },
+      "explanation": "In Tamil culture, speaking loudly to one's parents is considered disrespectful, so the hypothesis correctly infers that the brother's behavior was wrong based on the mother's reprimand.",
+      "metadata": {
+        "register": "family/elders",
+        "cultural_markers": [
+          "expectation of respectful speech towards parents"
+        ]
+      },
+      "label": "entailment"
+    }
+  ]
+}

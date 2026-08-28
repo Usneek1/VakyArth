@@ -1,0 +1,297 @@
+{
+  "dataset": "Punjabi Pragmatics - Social Pragmatics NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_social_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness",
+        "greeting-norms",
+        "inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jado Raj apne dost de ghar gya, unha ne unha nu jaffi payi te uhdi vohti nu hath jod ke 'Sat Sri Akal' bulaya.",
+          "hypothesis": "Raj apne dost di vohti nu zyada pasand nahi karda."
+        },
+        "gurmukhi": {
+          "premise": "ਜਦੋਂ ਰਾਜ ਆਪਣੇ ਦੋਸਤ ਦੇ ਘਰ ਗਿਆ, ਉਹਨਾਂ ਨੇ ਉਸ ਨੂੰ ਜੱਫ਼ੀ ਪਾਈ ਅਤੇ ਉਸਦੀ ਵਹੁਟੀ ਨੂੰ ਹੱਥ ਜੋੜ ਕੇ ‘ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ’ ਬੋਲਿਆ।",
+          "hypothesis": "ਰਾਜ ਨੂੰ ਆਪਣੇ ਦੋਸਤ ਦੀ ਵਹੁਟੀ ਜ਼ਿਆਦਾ ਪਸੰਦ ਨਹੀਂ ਹੈ।"
+        },
+        "english": {
+          "premise": "When Raj visited his friend’s house, he hugged his friend and greeted his friend’s wife with folded hands saying 'Sat Sri Akal'.",
+          "hypothesis": "Raj does not like his friend’s wife very much."
+        }
+      },
+      "explanation": "Gender norms.",
+      "metadata": {
+        "register": "family/friends",
+        "cultural_markers": [
+          "hug vs folded-hands greeting distinction"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_social_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "gift-refusal",
+        "politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jado tussi Roshni nu gift ditta, ta Roshni ne keha, “Ehdi ki lod si, main taan bas milna si.”",
+          "hypothesis": "Roshni nu gift nahi chahida."
+        },
+        "gurmukhi": {
+          "premise": "ਜਦੋਂ ਤੁਸੀਂ ਰੋਸ਼ਨੀ ਨੂੰ ਤੋਹਫ਼ਾ ਦਿੱਤਾ, ਤਾਂ ਰੋਸ਼ਨੀ ਨੇ ਕਿਹਾ, “ਇਹਦੀ ਕੀ ਲੋੜ ਸੀ, ਮੈਂ ਤਾਂ ਸਿਰਫ਼ ਮਿਲਣਾ ਸੀ।”",
+          "hypothesis": "ਰੋਸ਼ਨੀ ਨੂੰ ਤੋਹਫ਼ਾ ਨਹੀਂ ਚਾਹੀਦਾ।"
+        },
+        "english": {
+          "premise": "When you gave Roshni a gift, she said, “There was no need for this, I just wanted to meet.”",
+          "hypothesis": "Roshni does not want the gift."
+        }
+      },
+      "explanation": "In Punjabi pragmatics, statements like ‘ehdi ki lod si’ are polite modesty, not an actual refusal, so the hypothesis incorrectly infers dislike.",
+      "metadata": {
+        "register": "friends",
+        "cultural_markers": [
+          "polite gift-dismissal formula"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_social_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "appearance-comment",
+        "concern-vs-mockery"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kal jado mainu meri maasi mili, unha ne keha, \"Tu taan bada kamzor lag reha hai.\"",
+          "hypothesis": "Maasi meri sehat da mazaak uda rahi si."
+        },
+        "gurmukhi": {
+          "premise": "ਕੱਲ੍ਹ ਜਦੋਂ ਮੈਨੂੰ ਮੇਰੀ ਮਾਸੀ ਮਿਲੀ, ਉਹਨਾਂ ਨੇ ਕਿਹਾ, “ਤੂੰ ਤਾਂ ਬੜਾ ਕਮਜ਼ੋਰ ਲੱਗ ਰਿਹਾ ਹੈ।”",
+          "hypothesis": "ਮਾਸੀ ਮੇਰੀ ਸਿਹਤ ਦਾ ਮਜ਼ਾਕ ਉਡਾ ਰਹੀ ਸੀ।"
+        },
+        "english": {
+          "premise": "Yesterday when my aunt met me, she said, “You look quite thin.”",
+          "hypothesis": "My aunt was making fun of my health."
+        }
+      },
+      "explanation": "In Punjabi social interaction, comments like 'kamzor lag reha hai' usually express concern about someone's health rather than mockery.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "appearance comments as concern"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_social_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "marriage-pressure",
+        "small-talk"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kal jado main bahar ja reha si, Sharma ji ne puchheya, \"Tu vyah kado karva reha?\"",
+          "hypothesis": "Sharma ji mere vyah baare bahut chintit han."
+        },
+        "gurmukhi": {
+          "premise": "ਕੱਲ੍ਹ ਜਦੋਂ ਮੈਂ ਬਾਹਰ ਜਾ ਰਿਹਾ ਸੀ, ਸ਼ਰਮਾ ਜੀ ਨੇ ਪੁੱਛਿਆ, “ਤੂੰ ਵਿਆਹ ਕਦੋਂ ਕਰਵਾ ਰਿਹਾ?”",
+          "hypothesis": "ਸ਼ਰਮਾ ਜੀ ਮੇਰੇ ਵਿਆਹ ਬਾਰੇ ਬਹੁਤ ਚਿੰਤਿਤ ਹਨ।"
+        },
+        "english": {
+          "premise": "Yesterday when I was going outside, Mr. Sharma asked, “When are you getting married?”",
+          "hypothesis": "Mr. Sharma is very worried about my marriage."
+        }
+      },
+      "explanation": "Questions about marriage are common social small talk in Punjabi contexts and do not necessarily indicate genuine concern.",
+      "metadata": {
+        "register": "neighborhood",
+        "cultural_markers": [
+          "marriage as social topic"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_social_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "hospitality",
+        "ritual-refusal"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Shaam jado mere ghar aaya, mummy ne keha, \"Roti kha ke zaroor jaana.\" Shaam kehnda hai, \"Nahi aunty, tuhanu ki takleef leni.\"",
+          "hypothesis": "Shaam nu meri mummy di roti changi nahi lagdi."
+        },
+        "gurmukhi": {
+          "premise": "ਸ਼ਾਮ ਜਦੋਂ ਮੇਰੇ ਘਰ ਆਇਆ, ਮੰਮੀ ਨੇ ਕਿਹਾ, “ਰੋਟੀ ਖਾ ਕੇ ਜ਼ਰੂਰ ਜਾਣਾ।” ਸ਼ਾਮ ਕਹਿੰਦਾ ਹੈ, “ਨਹੀਂ ਆੰਟੀ, ਤੁਹਾਨੂੰ ਕੀ ਤਕਲੀਫ਼ ਲੈਣੀ।”",
+          "hypothesis": "ਸ਼ਾਮ ਨੂੰ ਮੇਰੀ ਮੰਮੀ ਦੀ ਰੋਟੀ ਚੰਗੀ ਨਹੀਂ ਲੱਗਦੀ।"
+        },
+        "english": {
+          "premise": "When Shaam came to my house in the evening, my mother said, “You must stay for dinner.” Shaam replied, “No aunty, you shouldn’t trouble yourself.”",
+          "hypothesis": "Shaam does not like my mother's food."
+        }
+      },
+      "explanation": "In Punjabi hospitality culture, guests often initially refuse food out of politeness. This refusal does not imply dislike of the food.",
+      "metadata": {
+        "register": "family/guests",
+        "cultural_markers": [
+          "ritual hospitality refusal"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_social_nli_010",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "address-forms",
+        "honorific-as-distance",
+        "register-shift"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Pehla Sukhwinder apne bhra nu 'veere' kehnda si. Jhagde ton baad, jado bhra ne madad mangi, tan usne keha, \"Ji Sardar sahib, main vekh lavanga.\"",
+          "hypothesis": "Sukhwinder apne bhra naal izzat naal pesh aa reha hai."
+        },
+        "gurmukhi": {
+          "premise": "ਪਹਿਲਾਂ ਸੁਖਵਿੰਦਰ ਆਪਣੇ ਭਰਾ ਨੂੰ 'ਵੀਰੇ' ਕਹਿੰਦਾ ਸੀ। ਝਗੜੇ ਤੋਂ ਬਾਅਦ, ਜਦੋਂ ਭਰਾ ਨੇ ਮਦਦ ਮੰਗੀ, ਤਾਂ ਉਸਨੇ ਕਿਹਾ, \"ਜੀ ਸਰਦਾਰ ਸਾਹਿਬ, ਮੈਂ ਵੇਖ ਲਵਾਂਗਾ।\"",
+          "hypothesis": "ਸੁਖਵਿੰਦਰ ਆਪਣੇ ਭਰਾ ਨਾਲ ਇੱਜ਼ਤ ਨਾਲ ਪੇਸ਼ ਆ ਰਿਹਾ ਹੈ।"
+        },
+        "english": {
+          "premise": "Sukhwinder used to call his brother 'veere'. After their quarrel, when the brother asked for help, he said, \"Yes, Sardar sahib, I'll see to it.\"",
+          "hypothesis": "Sukhwinder is treating his brother with respect."
+        }
+      },
+      "explanation": "Escalating from the intimate 'veere' to the hyper-formal 'Sardar sahib' between brothers marks rupture rather than deference. Honorifics are treated as straightforwardly positive elsewhere in the set; this is the case where added formality signals withdrawn warmth.",
+      "metadata": {
+        "register": "family/siblings",
+        "cultural_markers": [
+          "shift from kinship term to formal honorific as a marker of estrangement"
+        ],
+        "authors_note": "Counterweight to items where honorific use indicates respect.",
+        "difficulty": "hard"
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_social_nli_011",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "hospitality",
+        "insistence-as-care"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Mehmaan ne teen vaar keha ki oh hun jaana chaunde ne, par mezbaan ne fer plate bhar diti te keha, \"Baitho ji, ajj taan jaan hi nahi dena.\"",
+          "hypothesis": "Mezbaan mehmaan da khyaal rakh reha hai."
+        },
+        "gurmukhi": {
+          "premise": "ਮਹਿਮਾਨ ਨੇ ਤਿੰਨ ਵਾਰ ਕਿਹਾ ਕਿ ਉਹ ਹੁਣ ਜਾਣਾ ਚਾਹੁੰਦੇ ਨੇ, ਪਰ ਮੇਜ਼ਬਾਨ ਨੇ ਫਿਰ ਪਲੇਟ ਭਰ ਦਿੱਤੀ ਤੇ ਕਿਹਾ, \"ਬੈਠੋ ਜੀ, ਅੱਜ ਤਾਂ ਜਾਣ ਹੀ ਨਹੀਂ ਦੇਣਾ।\"",
+          "hypothesis": "ਮੇਜ਼ਬਾਨ ਮਹਿਮਾਨ ਦਾ ਖ਼ਿਆਲ ਰੱਖ ਰਿਹਾ ਹੈ।"
+        },
+        "english": {
+          "premise": "The guest said three times that they wanted to leave now, but the host filled their plate again and said, \"Sit down — I'm not letting you go today.\"",
+          "hypothesis": "The host is showing care for the guest."
+        }
+      },
+      "explanation": "The tempting reading is that overriding three stated departure attempts is coercive. In Punjabi hospitality, however, insisting past refusal is the expected form of care, since the guest's refusals are themselves conventionally non-final. Penalises an over-generalised 'respect stated preferences' heuristic.",
+      "metadata": {
+        "register": "family/guests",
+        "cultural_markers": [
+          "insistence past refusal as the conventional expression of hospitality"
+        ],
+        "authors_note": "Provides the entailment label absent from the file; norm runs opposite to the intuitive reading.",
+        "difficulty": "hard"
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "pa_social_nli_012",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "backhanded-praise",
+        "public-face",
+        "in-law-dynamics"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Nuh ne pehli vaar sara khaana bana ke rakhya. Sass ne mehmaanan saamne keha, \"Vekho ji, ajj kal di kudiyan vi kamm karan lag piyan ne.\"",
+          "hypothesis": "Sass nuh di dil toh tareef kar rahi hai."
+        },
+        "gurmukhi": {
+          "premise": "ਨੂੰਹ ਨੇ ਪਹਿਲੀ ਵਾਰ ਸਾਰਾ ਖਾਣਾ ਬਣਾ ਕੇ ਰੱਖਿਆ। ਸੱਸ ਨੇ ਮਹਿਮਾਨਾਂ ਸਾਹਮਣੇ ਕਿਹਾ, \"ਵੇਖੋ ਜੀ, ਅੱਜ ਕੱਲ੍ਹ ਦੀਆਂ ਕੁੜੀਆਂ ਵੀ ਕੰਮ ਕਰਨ ਲੱਗ ਪਈਆਂ ਨੇ।\"",
+          "hypothesis": "ਸੱਸ ਨੂੰਹ ਦੀ ਦਿਲੋਂ ਤਾਰੀਫ਼ ਕਰ ਰਹੀ ਹੈ।"
+        },
+        "english": {
+          "premise": "The daughter-in-law cooked the entire meal for the first time. In front of the guests, the mother-in-law said, \"Look at that — even girls these days have started doing housework.\"",
+          "hypothesis": "The mother-in-law is sincerely praising her daughter-in-law."
+        }
+      },
+      "explanation": "The remark is framed as praise and delivered publicly, but the generic 'ajj kal di kudiyan' shifts the credit to a category rather than the person, and the surprise carried by 'vi... lag piyan ne' supplies the criticism. Tests reading who praise is performed for.",
+      "metadata": {
+        "register": "family/in-laws",
+        "cultural_markers": [
+          "public compliment carrying a generational jab"
+        ],
+        "authors_note": "Praise form with negative force; complements items where a negative form carries positive force.",
+        "difficulty": "hard"
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_social_nli_013",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "hedged-acceptance",
+        "non-commitment"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jado Ranjit ne apne colleague nu ghar de function te sadeya, colleague ne keha, \"Zaroor aavanga ji, bas thoda kamm dekh ke dassanga.\"",
+          "hypothesis": "Colleague function te nahi aayega."
+        },
+        "gurmukhi": {
+          "premise": "ਜਦੋਂ ਰਣਜੀਤ ਨੇ ਆਪਣੇ ਕੁਲੀਗ ਨੂੰ ਘਰ ਦੇ ਫੰਕਸ਼ਨ ਤੇ ਸੱਦਿਆ, ਕੁਲੀਗ ਨੇ ਕਿਹਾ, \"ਜ਼ਰੂਰ ਆਵਾਂਗਾ ਜੀ, ਬਸ ਥੋੜ੍ਹਾ ਕੰਮ ਵੇਖ ਕੇ ਦੱਸਾਂਗਾ।\"",
+          "hypothesis": "ਕੁਲੀਗ ਫੰਕਸ਼ਨ ਤੇ ਨਹੀਂ ਆਵੇਗਾ।"
+        },
+        "english": {
+          "premise": "When Ranjit invited his colleague to a function at his home, the colleague said, \"I'll definitely come — let me just check my work and let you know.\"",
+          "hypothesis": "The colleague will not come to the function."
+        }
+      },
+      "explanation": "'Zaroor aavanga' paired with an open-ended hedge is genuinely undetermined: it can precede attendance just as easily as a soft decline. Prevents the generalisation that every conventional formula resolves in one fixed direction.",
+      "metadata": {
+        "register": "workplace/social",
+        "cultural_markers": [
+          "enthusiastic acceptance softened by an open-ended condition"
+        ],
+        "authors_note": "First neutral item in the file; blocks a formula-to-label shortcut.",
+        "difficulty": "medium"
+      },
+      "label": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Core ML/AI libraries
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.30.0
+
+# Translation metrics (COMET / XCOMET)
+unbabel-comet>=2.2.0
+numpy>=1.24.0
+
+# OpenAI SDK (used to hit Sarvam's and Cohere's OpenAI-compatible endpoints)
+openai>=1.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0

@@ -1,0 +1,484 @@
+{
+  "dataset": "Hindi Pragmatics - Speech Acts NLI",
+  "version": "0.2",
+  "label_space": [
+    "entailment",
+    "contradiction",
+    "neutral"
+  ],
+  "items": [
+    {
+      "id": "hi_sa_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "sarcasm",
+        "invitation"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Parth ne apne dost ko party ke baare mein nahi bataya. Jab dost ko pata chala toh Parth ne kaha, 'Haan yaar, bhool hi gaya tha tujhe batana. Bilkul yaad nahi aaya.'",
+          "hypothesis": "Parth sach mein bhool gaya tha."
+        },
+        "devanagari": {
+          "premise": "पार्थ ने अपने दोस्त को पार्टी के बारे में नहीं बताया। जब दोस्त को पता चला तो पार्थ ने कहा, 'हाँ यार, भूल ही गया था तुझे बताना। बिल्कुल याद नहीं आया।'",
+          "hypothesis": "पार्थ सच में भूल गया था।"
+        },
+        "english": {
+          "premise": "Parth didn't tell his friend about the party. When the friend found out, Parth said, 'Yeah dude, I just forgot to tell you. Didn't remember at all.'",
+          "hypothesis": "Parth genuinely forgot."
+        }
+      },
+      "explanation": "Parth's response could be genuine forgetfulness, sarcasm, or a face-saving excuse. The premise doesn't provide enough context to determine which.",
+      "metadata": {
+        "register": "friends",
+        "cultural_markers": [
+          "friendship dynamics",
+          "party invitation",
+          "excuse-making"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_sa_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "promise",
+        "conditional"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Digvijay ne apni beti se kaha, 'Agar tum exam mein first aogi toh main tumhe iPhone dilaunga.'",
+          "hypothesis": "Digvijay apni beti ko iPhone zaroor dilayega."
+        },
+        "devanagari": {
+          "premise": "दिग्विजय ने अपनी बेटी से कहा, 'अगर तुम एग्ज़ाम में फर्स्ट आओगी तो मैं तुम्हें आईफोन दिलाऊँगा।'",
+          "hypothesis": "दिग्विजय अपनी बेटी को आईफोन ज़रूर दिलाएगा।"
+        },
+        "english": {
+          "premise": "Digvijay told his daughter, 'If you come first in the exam, I'll get you an iPhone.'",
+          "hypothesis": "Digvijay will definitely get his daughter an iPhone."
+        }
+      },
+      "explanation": "The promise is conditional on the daughter coming first. We don't know if she will come first, so we can't determine if he'll buy the iPhone.",
+      "metadata": {
+        "register": "family-motivation",
+        "cultural_markers": [
+          "parental incentive",
+          "academic pressure",
+          "iPhone as reward"
+        ],
+        "difficulty": "easy"
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_sa_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "modesty",
+        "compliment-response"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Arya ne bahut achha khana banaya. Jab sab ne tareef ki toh usne kaha, 'Arre nahi nahi, kuch khaas nahi bana, bas try kiya tha.'",
+          "hypothesis": "Arya ko apna khana pasand nahi aaya."
+        },
+        "devanagari": {
+          "premise": "आर्य ने बहुत अच्छा खाना बनाया। जब सब ने तारीफ की तो उसने कहा, 'अरे नहीं नहीं, कुछ ख़ास नहीं बना, बस ट्राई किया था।'",
+          "hypothesis": "आर्य को अपना खाना पसंद नहीं आया।"
+        },
+        "english": {
+          "premise": "Arya made very good food. When everyone praised, she said, 'Oh no no, nothing special, just tried.'",
+          "hypothesis": "Arya didn't like her own food."
+        }
+      },
+      "explanation": "This is a modesty formula in response to compliments, not genuine dissatisfaction. Indian culture values downplaying one's achievements when praised.",
+      "metadata": {
+        "register": "social-gathering",
+        "cultural_markers": [
+          "modesty ritual",
+          "compliment deflection",
+          "food praise response"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_sa_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-command",
+        "passive-aggression"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Raat ke 11 baj rahe the. Ghar mein mehmaan the aur baat cheet chal rahi thi. Papa ne achanak kaha, 'Subah bahut kaam hai, neend bhi zaroori hai.'",
+          "hypothesis": "Papa mehmano ko indirect taur par jaane ka ishaara kar rahe hain."
+        },
+        "devanagari": {
+          "premise": "रात के 11 बज रहे थे। घर में मेहमान थे और बातचीत चल रही थी। पापा ने अचानक कहा, 'सुबह बहुत काम है, नींद भी ज़रूरी है।'",
+          "hypothesis": "पापा मेहमानों को इनडायरेक्ट तौर पर जाने का इशारा कर रहे हैं।"
+        },
+        "english": {
+          "premise": "It was 11 PM. There were guests at home and conversation was ongoing. Father suddenly said, 'There's a lot of work tomorrow, sleep is also necessary.'",
+          "hypothesis": "Father is indirectly hinting to the guests to leave."
+        }
+      },
+      "explanation": "The father's statement about needing sleep is not addressed to any guest directly, but the timing and context make it an unambiguous indirect dismissal. Saying 'neend zaroori hai' (sleep is necessary) at 11 PM mid-conversation is a well-understood social signal in Indian households that the evening should wrap up.",
+      "metadata": {
+        "register": "family-home",
+        "cultural_markers": [
+          "late-night guest dismissal",
+          "indirect hospitality cue",
+          "Indian household social norm"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_sa_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "performative",
+        "threat",
+        "ultimatum"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Neeraj apne bete se bola, 'Agar iss baar bhi result kharab aaya, toh cricket band. Main last baar bol raha hoon.'",
+          "hypothesis": "Neeraj ne pehle bhi aisa keh chuka hai."
+        },
+        "devanagari": {
+          "premise": "नीरज अपने बेटे से बोला, 'अगर इस बार भी रिज़ल्ट ख़राब आया, तो क्रिकेट बंद। मैं लास्ट बार बोल रहा हूँ।'",
+          "hypothesis": "नीरज ने पहले भी ऐसा कह चुका है।"
+        },
+        "english": {
+          "premise": "Neeraj told his son, 'If the result is bad again this time, cricket is done. I'm saying this for the last time.'",
+          "hypothesis": "Neeraj has said something like this before."
+        }
+      },
+      "explanation": "'Iss baar bhi' (again this time) and 'main last baar bol raha hoon' (I'm saying this for the last time) both presuppose prior repetition 'bhi' (also/again) entails a previous occurrence, and 'last time' implies earlier instances. Together they confirm Neeraj has issued this ultimatum before.",
+      "metadata": {
+        "register": "family-parenting",
+        "cultural_markers": [
+          "repeated parental ultimatum",
+          "cricket as distraction trope",
+          "presupposition in threat language"
+        ],
+        "difficulty": "hard"
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_sa_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "face-saving",
+        "indirect-refusal",
+        "social-commitment"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Sunita ki colleague ne use weekend pe ghar aane ka invite kiya. Sunita ne kaha, 'Dekhte hain, try karungi.'",
+          "hypothesis": "Sunita weekend pe zaroor aayegi."
+        },
+        "devanagari": {
+          "premise": "सुनीता की कलीग ने उसे वीकेंड पर घर आने का इनवाइट किया। सुनीता ने कहा, 'देखते हैं, ट्राई करूँगी।'",
+          "hypothesis": "सुनीता वीकेंड पर ज़रूर आएगी।"
+        },
+        "english": {
+          "premise": "Sunita's colleague invited her to come home over the weekend. Sunita said, 'Let's see, I'll try.'",
+          "hypothesis": "Sunita will definitely come on the weekend."
+        }
+      },
+      "explanation": "'Dekhte hain, try karungi' (let's see, I'll try) is a well-understood indirect refusal in Hindi social discourse. It avoids outright rejection to preserve the colleague's face, but the vagueness of 'dekhte hain' signals non-commitment. Interpreting it as a definite confirmation directly contradicts its pragmatic function.",
+      "metadata": {
+        "register": "workplace-social",
+        "cultural_markers": [
+          "non-committal softener",
+          "face-saving refusal",
+          "indirect decline in professional friendship"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_sa_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "phatic-communion",
+        "greeting-ritual"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Do purane parichit society ke gate par mile. Ek ne muskura kar poocha, 'Aur bhai, sab badhiya?' Doosre ne bina rukte jawab diya, 'Haan bhai, sab theek.'",
+          "hypothesis": "Pehla insaan doosre ke jeevan ke baare mein detail information ikattha karna chahta hai."
+        },
+        "devanagari": {
+          "premise": "दो पुराने परिचित सोसाइटी के गेट पर मिले। एक ने मुस्कुरा कर पूछा, 'और भाई, सब बढ़िया?' दूसरे ने बिना रुके जवाब दिया, 'हाँ भाई, सब ठीक।'",
+          "hypothesis": "पहला इंसान दूसरे के जीवन के बारे में डिटेल इंफॉर्मेशन इकट्ठा करना चाहता है।"
+        },
+        "english": {
+          "premise": "Two acquaintances met at the society gate. One smiled and asked, 'So bhai, all good?' The other replied without stopping, 'Yeah bhai, all fine.'",
+          "hypothesis": "The first person wants to gather detailed information about the other person's life."
+        }
+      },
+      "explanation": "This is a phatic exchange the quick, formulaic question-and-answer without either party stopping signals its function is social acknowledgment, not information-seeking, directly contradicting a reading where genuine detailed inquiry is intended.",
+      "metadata": {
+        "register": "neighbourhood-casual",
+        "cultural_markers": [
+          "passing greeting",
+          "phatic ritual",
+          "society gate exchange"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_sa_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-offer",
+        "hospitality"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Chai peete waqt mehmaan ke paas baithe Sharma ji ne kaha, 'Arre, bahar toh bahut garmi hai aaj.'",
+          "hypothesis": "Sharma ji mehmaan ko thanda paani ya pankha jaisi koi comfort dene ka soch rahe hain."
+        },
+        "devanagari": {
+          "premise": "चाय पीते वक़्त मेहमान के पास बैठे शर्मा जी ने कहा, 'अरे, बाहर तो बहुत गर्मी है आज।'",
+          "hypothesis": "शर्मा जी मेहमान को ठंडा पानी या पंखा जैसी कोई कम्फर्ट देने का सोच रहे हैं।"
+        },
+        "english": {
+          "premise": "While having tea with the guest, Sharma ji said, 'Oh, it's very hot outside today.'",
+          "hypothesis": "Sharma ji is thinking of offering the guest some comfort, like cold water or a fan."
+        }
+      },
+      "explanation": "In a hosting context, an unprompted remark about heat conventionally functions as a lead-in to a comfort offer (fan, cold drink, insisting the guest stay). The pragmatic force of the utterance entails this offer-oriented intent even though it is not stated directly.",
+      "metadata": {
+        "register": "host-guest",
+        "cultural_markers": [
+          "Indian hospitality cue",
+          "indirect comfort offer"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_sa_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-refusal",
+        "cost-mention"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ankit ne Vivek se car maangi. Vivek ne kaha, 'Yaar car toh theek hai, par uska insurance renew nahi hua, tyre bhi kharab hai.'",
+          "hypothesis": "Vivek Ankit ko car dene se mana kar raha hai."
+        },
+        "devanagari": {
+          "premise": "अंकित ने विवेक से कार माँगी। विवेक ने कहा, 'यार कार तो ठीक है, पर उसका इंश्योरेंस रिन्यू नहीं हुआ, टायर भी खराब है।'",
+          "hypothesis": "विवेक अंकित को कार देने से मना कर रहा है।"
+        },
+        "english": {
+          "premise": "Ankit asked Vivek for his car. Vivek said, 'The car is fine, but its insurance hasn't been renewed, and the tyres are worn out too.'",
+          "hypothesis": "Vivek is refusing to lend the car to Ankit."
+        }
+      },
+      "explanation": "Listing practical obstacles in response to a request is a conventional indirect refusal strategy in Hindi. Despite never saying 'no', the illocutionary force of Vivek's utterance is a decline, so the hypothesis is entailed by the pragmatic function of the response.",
+      "metadata": {
+        "register": "friends-casual",
+        "cultural_markers": [
+          "indirect refusal via excuse",
+          "friendship favour negotiation"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_sa_nli_010",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "passive-aggressive",
+        "domestic-complaint"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ghar mein kapde bikhre pade the. Mummy ne kisi se seedha kuch nahi kaha, bas itna bola, 'Is ghar mein main hi hoon jo sab kuch uthati hoon.'",
+          "hypothesis": "Mummy chahti hain ki koi aur bhi kapde uthane mein madad kare."
+        },
+        "devanagari": {
+          "premise": "घर में कपड़े बिखरे पड़े थे। मम्मी ने किसी से सीधे कुछ नहीं कहा, बस इतना बोला, 'इस घर में मैं ही हूँ जो सब कुछ उठाती हूँ।'",
+          "hypothesis": "मम्मी चाहती हैं कि कोई और भी कपड़े उठाने में मदद करे।"
+        },
+        "english": {
+          "premise": "Clothes were scattered around the house. Mother didn't say anything directly to anyone, just said, 'In this house, I'm the only one who picks everything up.'",
+          "hypothesis": "Mother wants someone else to help pick up the clothes too."
+        }
+      },
+      "explanation": "The self-directed complaint functions as an indirect directive addressed to whoever is present. Its pragmatic force entails a desire for others to share the chore, even without a direct request.",
+      "metadata": {
+        "register": "family-home",
+        "cultural_markers": [
+          "maternal complaint strategy",
+          "indirect household directive"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_sa_nli_011",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "sarcasm",
+        "workplace"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Rohan roz office late aata tha. Ek din voh 10 baje aaya, jabki office time 9 baja tha. Boss ne muskura kar kaha, 'Wah Rohan, aaj toh sabse pehle aa gaye!'",
+          "hypothesis": "Boss Rohan ki punctuality se khush hai."
+        },
+        "devanagari": {
+          "premise": "रोहन रोज़ ऑफिस लेट आता था। एक दिन वो 10 बजे आया, जबकि ऑफिस टाइम 9 बजा था। बॉस ने मुस्कुरा कर कहा, 'वाह रोहन, आज तो सबसे पहले आ गए!'",
+          "hypothesis": "बॉस रोहन की पंक्चुऐलिटी से खुश है।"
+        },
+        "english": {
+          "premise": "Rohan came to office late every day. One day he came at 10 AM, while office time was 9 AM. The boss smiled and said, 'Wow Rohan, today you're the first one here!'",
+          "hypothesis": "The boss is pleased with Rohan's punctuality."
+        }
+      },
+      "explanation": "The literal praise is contradicted by the context (Rohan is an hour late, again). The utterance is sarcastic, functioning as criticism, so reading it as genuine satisfaction directly contradicts the intended meaning.",
+      "metadata": {
+        "register": "workplace-formal",
+        "cultural_markers": [
+          "sarcasm as soft reprimand",
+          "boss-employee dynamic"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_sa_nli_012",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "advice",
+        "elder-wisdom"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Harsh ne apne dada ji ko bataya ki voh job chhod kar business karna chahta hai. Dada ji ne kaha, 'Beta, pakki naukri chhodni aasan hai, dhundhna mushkil.'",
+          "hypothesis": "Dada ji Harsh ko job na chhodne ki salah de rahe hain."
+        },
+        "devanagari": {
+          "premise": "हर्ष ने अपने दादा जी को बताया कि वो जॉब छोड़ कर बिज़नेस करना चाहता है। दादा जी ने कहा, 'बेटा, पक्की नौकरी छोड़नी आसान है, ढूंढना मुश्किल।'",
+          "hypothesis": "दादा जी हर्ष को जॉब ना छोड़ने की सलाह दे रहे हैं।"
+        },
+        "english": {
+          "premise": "Harsh told his grandfather he wants to quit his job and do business. Grandfather said, 'Beta, quitting a permanent job is easy, finding one is difficult.'",
+          "hypothesis": "Grandfather is advising Harsh not to quit his job."
+        }
+      },
+      "explanation": "The proverbial statement about job security functions as an indirect speech act of advice/warning. Its pragmatic force entails a recommendation against quitting, even though no direct command is given.",
+      "metadata": {
+        "register": "family-career",
+        "cultural_markers": [
+          "elder wisdom",
+          "job security emphasis",
+          "generational values"
+        ],
+        "difficulty": "medium"
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_sa_nli_013",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "refusal-politeness",
+        "street-vendor"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Sadak par ek balloon waala Priya ke paas aaya aur bola, 'Didi, balloon le lo.' Priya ne kaha, 'Nahi bhaiya, abhi nahi.'",
+          "hypothesis": "Priya kuch der baad usi din balloon zaroor khareedegi."
+        },
+        "devanagari": {
+          "premise": "सड़क पर एक बैलून वाला प्रिया के पास आया और बोला, 'दीदी, बैलून ले लो।' प्रिया ने कहा, 'नहीं भैया, अभी नहीं।'",
+          "hypothesis": "प्रिया कुछ देर बाद उसी दिन बैलून ज़रूर खरीदेगी।"
+        },
+        "english": {
+          "premise": "On the street, a balloon seller came to Priya and said, 'Didi, take a balloon.' Priya said, 'No bhaiya, not now.'",
+          "hypothesis": "Priya will definitely buy a balloon later that same day."
+        }
+      },
+      "explanation": "'Abhi nahi' (not now) is a face-saving softener for a polite refusal it does not commit the speaker to any future purchase. Whether Priya buys a balloon later is left unspecified, so the hypothesis is neither entailed nor contradicted.",
+      "metadata": {
+        "register": "street-vendor",
+        "cultural_markers": [
+          "balloon seller interaction",
+          "polite refusal strategy"
+        ],
+        "difficulty": "easy"
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_sa_nli_014",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "performative",
+        "social-commitment"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Shaadi ki party mein ek rishtedaar ne dulhan ke papa se kaha, 'Bhai sahab, aapki beti humari beti hai, ab se hum sab ek hain.'",
+          "hypothesis": "Rishtedaar yeh claim kar raha hai ki ladki uski biological beti hai."
+        },
+        "devanagari": {
+          "premise": "शादी की पार्टी में एक रिश्तेदार ने दुल्हन के पापा से कहा, 'भाई साहब, आपकी बेटी हमारी बेटी है, अब से हम सब एक हैं।'",
+          "hypothesis": "रिश्तेदार यह क्लेम कर रहा है कि लड़की उसकी बायोलॉजिकल बेटी है।"
+        },
+        "english": {
+          "premise": "At a wedding party, a relative said to the bride's father, 'Bhai sahab, your daughter is our daughter from now on we are all one.'",
+          "hypothesis": "The relative is claiming the girl is his biological daughter."
+        }
+      },
+      "explanation": "This is a performative declaration of social/familial bonding, not a factual claim about biological parentage. Reading it as a literal genealogical assertion contradicts its ritual, relationship-creating function at Indian weddings.",
+      "metadata": {
+        "register": "wedding-ritual",
+        "cultural_markers": [
+          "shaadi bonding declaration",
+          "joint family acceptance",
+          "performative kinship creation"
+        ],
+        "difficulty": "hard"
+      },
+      "label": "contradiction"
+    }
+  ]
+}

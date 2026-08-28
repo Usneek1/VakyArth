@@ -1,0 +1,256 @@
+{
+  "dataset": "Malayalam Implicature - NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ml_imp_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "idiom",
+        "implicature",
+        "accusation",
+        "speaker-intention"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "achan paranju, 'nee kandille? ivan ee kaaryathil kai kazhuki!'",
+          "hypothesis": "avan kai kazhuki"
+        },
+        "malayalam": {
+          "premise": "അച്ഛൻ പറഞ്ഞു, ‘നീ കണ്ടില്ലേ? ഇവൻ ഈ കാര്യത്തിൽ കൈ കഴുകി!’",
+          "hypothesis": "അവൻ കൈ കഴുകി."
+        },
+        "english": {
+          "premise": "Dad said, ‘Didn’t you see? He has washed his hands of this matter!’",
+          "hypothesis": "He washed his hands."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "‘കൈ കഴുകി’ is an idiomatic accusation meaning he abandoned or refused responsibility. The hypothesis interprets it literally as washing hands, which contradicts the idiomatic intent."
+    },
+    {
+      "id": "ma_imp_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "sarcasm",
+        "implicature",
+        "negative-evaluation"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "amma paranju, 'valare nalla paripaadi alle nee cheythath!'",
+          "hypothesis": "ammakku avan cheytha karyam ishtamayirunnu"
+        },
+        "malayalam": {
+          "premise": "അമ്മ പറഞ്ഞു, ‘വളരെ നല്ല പരിപാടിയല്ലേ നീ ചെയ്തതു!’",
+          "hypothesis": "അമ്മയ്ക്ക് അവൻ ചെയ്ത കാര്യം ഇഷ്ടമായിരുന്നു."
+        },
+        "english": {
+          "premise": "Mom said, ‘What a wonderful thing you’ve done!’",
+          "hypothesis": "Mom liked what he did."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The wording is sarcastic: the mother is actually expressing disapproval, not praise. The hypothesis mistakenly treats the sarcastic praise as genuine appreciation."
+    },
+    {
+      "id": "ml_imp_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "hyperbole/vow",
+        "implicature",
+        "negative-evaluation"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "achan paranju, ‘ee veettil enikku shwaasam polum kittunnilla.’",
+          "hypothesis": "avan ee veettil shwaasam kittunnilla ennu parayunnu."
+        },
+        "malayalam": {
+          "premise": "അച്ഛൻ പറഞ്ഞു, ‘ഈ വീട്ടിൽ എനിക്ക് ശ്വാസം പോലും കിട്ടുന്നില്ല.’",
+          "hypothesis": "അവൻ ഈ വീട്ടിൽ ശ്വാസം കിട്ടുന്നില്ലെന്ന് പറയുന്നു."
+        },
+        "english": {
+          "premise": "Dad said, ‘In this house I don’t even get a breath.’",
+          "hypothesis": "He says he doesn’t get a breath in this house."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The premise is a hyperbolic expression meaning the house is chaotic or stressful—not literally lacking air. The hypothesis treats it as literal, which contradicts the intended meaning."
+    },
+    {
+      "id": "ml_imp_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "rhetorical-question",
+        "negative-evaluation",
+        "environmental-loss"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "mash paranju, ‘peech pookkal vangam. pakse, poonthottathe evide ninnu vangam?’",
+          "hypothesis": "mash parayunnathu poonthottam panam koduthu vangaan kazhiyum ennanu."
+        },
+        "malayalam": {
+          "premise": "മാഷ് പറഞ്ഞു, ‘പീച്ച്പുഷ്പങ്ങൾ വാങ്ങാം. പക്ഷേ, പൂന്തോട്ടത്തെ എവിടെനിന്ന് വാങ്ങാം?’",
+          "hypothesis": "മാഷ് പറയുന്നത് പൂന്തോട്ടം പണംകൊടുത്ത് വാങ്ങാനാകുമെന്ന് ആണ്."
+        },
+        "english": {
+          "premise": "The teacher said, ‘Peach flowers can be bought. But where can we buy the whole orchard?’",
+          "hypothesis": "The teacher is saying that an orchard can be bought with money."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The premise contains a rhetorical question implying that a real orchard cannot simply be bought or replaced. The hypothesis interprets it literally as saying an orchard can be purchased, which contradicts the implicature."
+    },
+    {
+      "id": "ml_imp_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "indirect-refusal",
+        "politeness-strategy",
+        "high-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "meetingil oru employee puthiya projectinu budget venam ennu avashappettu. manager kurachu neram mounathil irunnu, pinnit cheru chiriyode paranju, ‘athu namukku onnu alochikkam.’",
+          "hypothesis": "manager aa projectine kurichu sakaratmaka manobhavam undennum athu munnottu pokanulla sadhyatha undennum sujippikkunnu."
+        },
+        "malayalam": {
+          "premise": "മീറ്റിംഗിൽ ഒരു ജീവനക്കാരൻ പുതിയ പദ്ധതിക്ക് അധിക ബജറ്റ് വേണമെന്ന് ആവശ്യപ്പെട്ടു. മാനേജർ കുറച്ചു നേരം മൗനത്തിൽ ഇരുന്ന് ശേഷം ചെറുചിരിയോടെ പറഞ്ഞു, ‘അത് നമുക്ക് ഒന്ന് ആലോചിക്കണം.’",
+          "hypothesis": "മാനേജർ ആ പദ്ധതിയെക്കുറിച്ച് സകരാത്മക മനോഭാവം കാണിച്ചെന്നും അത് മുന്നോട്ട് പോകാനുള്ള സാധ്യതയുണ്ടെന്നും സൂചിപ്പിക്കുന്നു."
+        },
+        "english": {
+          "premise": "In a meeting, an employee requested additional budget for a new project. The manager remained silent for a while and then, with a slight smile, said, ‘Let us think about it.’",
+          "hypothesis": "The manager is indicating a positive attitude toward the project and suggesting that it is likely to move forward."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "In Malayalam pragmatic context, ‘Let us think about it,’ especially after silence and a slight smile, often functions as a polite soft refusal or distancing move rather than positive encouragement. The hypothesis interprets it as signaling likely approval, which conflicts with the cultural implicature."
+    },
+    {
+      "id": "ml_imp_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "rhetorical-question",
+        "dignity-vs-income",
+        "migration-context",
+        "high-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Gulf-il ninn thirichu vannu cheriya kada thudangan Sameer theerumanichappol, nattukaar parayunnathil vedanicha bharyayodu avan paranju: 'Vallavantem aanaye meykkunnathinekkal nannalle thantethaya oru aatine meykkunnathu!'",
+          "hypothesis": "Sameer Gulf-ilulla uyarna shambalavum sthirathayum thanikku valare pradhanyamullathaanennum athu veendum thedi pokan avan agrahikkunnu ennnum sujippikkunnu."
+        },
+        "malayalam": {
+          "premise": "ഗൾഫിൽ നിന്ന് തിരിച്ചു വന്ന് ചെറിയ കട തുടങ്ങാൻ സമീർ തീരുമാനിച്ചപ്പോൾ, നാട്ടുകാർ പറയുന്നതിൽ വേദനിച്ച ഭാര്യയോട് അദ്ദേഹം പറഞ്ഞു: ‘വല്ലവന്റേം ആനയെ മേയ്ക്കണതിനേക്കാൾ നന്നല്ലേ തന്റേതായൊരു ആടിനെ മേയ്ക്കണത്!’",
+          "hypothesis": "സമീർ ഗൾഫിലെ ഉയർന്ന ശമ്പളവും സ്ഥിരതയും തനിക്കു വളരെ പ്രാധാന്യമുള്ളതാണെന്നും അത് വീണ്ടും തേടി പോകാൻ അദ്ദേഹം ആഗ്രഹിക്കുന്നുവെന്നും സൂചിപ്പിക്കുന്നു."
+        },
+        "english": {
+          "premise": "After returning from the Gulf and deciding to start a small shop, Sameer told his wife, who was upset about what people were saying, ‘Isn’t it better to tend one’s own goat than to tend someone else’s elephant?’",
+          "hypothesis": "Sameer implies that the high salary and financial stability of his Gulf job are very important to him and that he wants to return to it."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The rhetorical question implies that personal autonomy and ownership (one’s own goat) are preferable to financially stable but dependent employment (someone else’s elephant). The hypothesis incorrectly claims he prioritizes Gulf salary and stability and wants to return, which reverses the intended implicature and therefore contradicts it."
+    },
+    {
+      "id": "ml_imp_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "implicature"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kavi parayunnu: 'Piramidukal uyarnnunilkkunna marubhoomiyilum, manjurukkunna naadukalilum, karshakar viyarppozhukki vilavedukkunna vayalukalilum, aakaashachumbikalum cherikalum niranja mahanagarangalilum, dweepukalilum deshadeshaantharangalilum evideyum enikkoru veedundu.'",
+          "hypothesis": "Lokathinte pala bhaagangalilum thanikku swanthamaayi thaamasikkaan veedukal undennanu kavi parayunnathu."
+        },
+        "malayalam": {
+          "premise": "കവി പറയുന്നു: ‘പിരമിഡുകൾ ഉയർന്നുനിൽക്കുന്ന മരുഭൂമിയിലും, മഞ്ഞുരുകുന്ന നാടുകളിലും, കർഷകർ വിയർപ്പൊഴുക്കി വിളവെടുക്കുന്ന വയലുകളിലും, ആകാശചുംബികളും ചേരികളും നിറഞ്ഞ മഹാനഗരങ്ങളിലും, ദ്വീപുകളിലും ദേശദേശാന്തരങ്ങളിലും എവിടെയുമെനിക്കൊരു വീടുണ്ട്.’",
+          "hypothesis": "ലോകത്തിന്റെ പല ഭാഗങ്ങളിലും തനിക്ക് സ്വന്തമായി താമസിക്കാൻ വീടുകളുണ്ടെന്നാണ് കവി പറയുന്നത്."
+        },
+        "english": {
+          "premise": "The poet says, 'In deserts where pyramids rise, in lands where snow melts, in fields where farmers toil and harvest, in great cities filled with skyscrapers and slums, on islands and across distant lands—everywhere, I have a home.'",
+          "hypothesis": "The poet is saying that he owns homes in many different parts of the world."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The statement 'everywhere, I have a home' is not a literal claim about owning houses across the world. By placing his 'home' among people and landscapes separated by geography, class, and ways of life, the poet implies a sense of belonging that extends beyond any single place or community. The hypothesis reduces this figurative claim of shared human belonging to property ownership and therefore contradicts the intended implicature."
+    },
+    {
+      "id": "ml_imp_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "pretense",
+        "status-performance",
+        "literary-pragmatics"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "രണ്ടുമാസത്തെ വാടകക്കുടിശ്ശിക തീർക്കാൻ പോലും കടം വാങ്ങേണ്ടിവന്ന ഉണ്ണികൃഷ്ണൻ അന്നേ ദിവസം ഇരുപതിനായിരം രൂപയുടെ പട്ടുസാരി തിരഞ്ഞെടുത്ത് കടക്കാരിയോട് പറഞ്ഞു: “ഇതൊന്നു മാറ്റിവെച്ചേക്കൂ; ഞാനിപ്പോൾ വരാം.” പിന്നീട് വിലയേറിയ പുസ്തകങ്ങൾ തിരഞ്ഞെടുത്ത് “ബില്ലാക്കിയേക്കൂ; ഞാനൊരു കാപ്പി കഴിച്ചിട്ട് വരാം” എന്നും, ഒമ്പതിനായിരം രൂപയുടെ ഡിന്നർ സെറ്റ് തിരഞ്ഞെടുത്ത് “വൈകീട്ട് ഞാൻ വരാം” എന്നും പറഞ്ഞു. ഒന്നും വാങ്ങാതെയാണ് ഓരോ കടയിൽനിന്നും അയാൾ ഇറങ്ങിപ്പോയത്.",
+          "hypothesis": "‘ഞാനിപ്പോൾ വരാം’, ‘വൈകീട്ട് ഞാൻ വരാം’ എന്നീ വാക്കുകളിലൂടെ ഉണ്ണികൃഷ്ണൻ സാധനങ്ങൾ വാങ്ങാനുള്ള സാമ്പത്തികശേഷി തനിക്കുണ്ടെന്ന പ്രതീതി നിലനിർത്തുകയാണ്."
+        },
+        "latin": {
+          "premise": "Randumaasathe vaadakakkudishika theerkkaan polum kadam vaangendivanna Unnikrishnan anne divasam irupathinaayiram roopayude pattusaari thiranjeduthu kadakkaariyodu paranju: 'Ithonnu maattivechekku; njaanippol varaam.' Pinneed vilayeriya pusthakangal thiranjeduthu 'Billaakkiyekku; njaanoru kaappi kazhichittu varaam' ennum, ompathinaayiram roopayude dinner set thiranjeduthu 'Vaikittu njaan varaam' ennum paranju. Onnum vaangaatheyaanu oro kadayilninnum ayaal irangippoyathu.",
+          "hypothesis": "'Njaanippol varaam', 'vaikittu njaan varaam' ennee vaakkukaliloode Unnikrishnan saadhanangal vaangaanulla saampathikasheshi thanikkundennulla pratheethi nilanirthukayaanu."
+        },
+        "english": {
+          "premise": "Although Unnikrishnan had needed to borrow money just to clear two months of overdue rent, that same day he selected a twenty-thousand-rupee silk sari and told the saleswoman, 'Keep this aside; I'll be right back.' Later, after selecting expensive books, he said, 'Make out the bill; I'll be back after a coffee,' and after choosing a nine-thousand-rupee dinner set, he said, 'I'll come back this evening.' Each time, he left the shop without buying anything.",
+          "hypothesis": "By repeatedly saying that he will return, Unnikrishnan is sustaining the impression that he has the means to buy the expensive things he selects."
+        }
+      },
+      "explanation": "Taken literally, Unnikrishnan merely promises to return. But the repeated pattern, together with his established financial distress and his failure to complete any purchase, gives the statements a further pragmatic function: they allow him to leave without openly admitting that he cannot afford the goods, while preserving the appearance of being a serious, affluent customer.",
+      "metadata": {
+        "register": "literary",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "indirect avoidance of financial embarrassment",
+          "status performance",
+          "consumer interaction"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ml_imp_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "figurative-language",
+        "land-attachment",
+        "agrarian-identity",
+        "cultural-value"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "തലമുറകളായി കൃഷി ചെയ്ത ഭൂമി കടം കാരണം വിറ്റുപോകേണ്ടിവന്ന ഒരു വയോധിക കർഷകനെക്കുറിച്ച് ഗ്രാമത്തിലെ ഒരാൾ പറഞ്ഞു: “ഒരു യഥാർഥ കൃഷിക്കാരനെ സംബന്ധിച്ചിടത്തോളം ഭൂമി അന്യാധീനപ്പെടുന്നത് മരണതുല്യമാണ്.”",
+          "hypothesis": "ഭൂമിക്ക് തക്ക വില ലഭിച്ചാലും, ആ കർഷകന്റെ നഷ്ടം അതുകൊണ്ട് പൂർണമായി പരിഹരിക്കപ്പെടണമെന്നില്ല."
+        },
+        "latin": {
+          "premise": "Thalamurakalaayi krishi cheytha bhoomi kadam kaaranam vittupokendivanna oru vayodhika karshakane kurich gramathile oral paranju: 'Oru yathaartha krishikkaarane sambandhichidatholam bhoomi anyaadheenappedunnathu maranathulyamaanu.'",
+          "hypothesis": "Bhoomikku thakka vila labhichaalum, aa karshakante nashtam athukondu poornamaayi pariharikkappedanamennilla."
+        },
+        "english": {
+          "premise": "Speaking about an elderly farmer who was forced by debt to sell land his family had cultivated for generations, a villager said: 'For a true cultivator, the land passing into another's hands is like death.'",
+          "hypothesis": "Even if the farmer receives a fair price for the land, that may not fully make up for what he has lost."
+        }
+      },
+      "explanation": "Calling the loss of land 'like death' presents the farmer's attachment to it as exceeding its monetary value. The statement therefore supports the inference that receiving an adequate financial price would not necessarily compensate for the loss. Recognizing this requires recovering the cultural and emotional value assigned to land rather than merely interpreting 'മരണതുല്യം' as a figurative expression.",
+      "metadata": {
+        "register": "literary / agrarian",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "agrarian attachment to land",
+          "intergenerational cultivation",
+          "land beyond exchange value",
+          "loss of ancestral land"
+        ]
+      },
+      "label": "entailment"
+    }
+  ]
+}

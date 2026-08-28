@@ -1,0 +1,208 @@
+{
+  "dataset": "Punjabi Pragmatics - Translation (Deixis)",
+  "version": "0.1",
+  "direction": "punjabi_to_english",
+  "task_description": "Translate the Punjabi sentence into natural English while preserving deictic references (here/there, this/that, today/tomorrow) and speaker perspective.",
+  "items": [
+    {
+      "id": "pa_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "place-deixis",
+        "speaker-perspective",
+        "movement-reference"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Raj ne Simran nu keha, 'mai haje station de pichle gate te haan, ethe na aaiyo, tussi othe hi ruko, mai aap othe aauna haan.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Raj told Simran, 'I’m still at the back gate of the station. Don’t come here; stay where you are, I’ll come there myself.'"
+      },
+      "notes": "Requires preserving two spatial centers: Raj's location ('here') and Simran's location ('there')."
+    },
+    {
+      "id": "pa_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "time-deixis",
+        "nested-reported-speech"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Seema ne Mangalvaar nu mainu dassya ki Priya ne pichhle Somvaar nu unhu keha si, 'pehla mera interview parso si, par ohna ne interview agle hafte shift kar ditta.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "On Tuesday, Seema told me that Priya had told her last Monday, 'My interview was originally the day before yesterday, but they moved it to next week.'"
+      },
+      "notes": "The phrase 'parso' must remain anchored to Priya’s Monday reference, not the narrator’s current time."
+    },
+    {
+      "id": "pa_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "discourse-deixis",
+        "abstract-reference",
+        "multi-speaker-dialogue"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Gagan ne keha, 'mai job chhad ke business shuru karan da soch reha haan, sab kuch ready hai.' Navdeep ne keha, 'eh sochna theek hai, par eh karna hor gal hai.' Meher ne fer keha, 'ohna dono gallan vich bahut farak hai.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Gagan said, 'I’m thinking of quitting my job to start a business; everything is ready.' Navdeep replied, 'Thinking about it is fine, but actually doing it is a different matter.' Meher then said, 'There is a big difference between those two things.'"
+      },
+      "notes": "'Eh' and 'ohna dono gallan' refer to abstract actions (thinking vs doing)."
+    },
+    {
+      "id": "pa_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "place-deixis",
+        "speaker-location-shift",
+        "nested-context"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Raj ne ajj dasiya ke kal jado oh Chandigarh de sector 17 vich khada si, oh apne dost nu keh reha si, 'edher aa jaa, othe bahut garmi hai te pani nahi milna othe.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Raj said today that yesterday, when he was standing in Sector 17 in Chandigarh, he was telling his friend, 'Come over here; it’s very hot there, and you won’t find water there.'"
+      },
+      "notes": "Three spatial references must be maintained: the speaker’s location, the friend’s location, and a third distant place."
+    },
+    {
+      "id": "pa_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "message-forwarding",
+        "place-deixis",
+        "speaker-perspective"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Mainu Aman da message aaya: 'Simran keh rahi si ke oh ajj Delhi pahunch gayi hai te uthe traffic bahut hai, tussi othe hi raho.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "I received a message from Aman: 'Simran said she has reached Delhi today, and she says it’s very crowded here, so you should stay there.'"
+      },
+      "notes": "'Here' refers to Delhi from Simran’s perspective inside the forwarded message."
+    },
+    {
+      "id": "pa_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "place-deixis",
+        "movement-deixis",
+        "speaker-perspective"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Doctor ne nurse nu keha, 'tussi patient nu ethe baithao, mai ethe operation theater ton hoke aunda haan.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The doctor told the nurse, 'Seat the patient here; I’ll come here after stopping by the operating theater.'"
+      },
+      "notes": "Two spatial anchors: the patient’s location ('here') and the operating theater ('there'). The doctor moves from the operating theater toward the nurse’s location."
+    },
+    {
+      "id": "pa_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "time-deixis",
+        "lexical-ambiguity",
+        "tense-disambiguation"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Mainu kal class vich kuch samjh nhi aaya par kal mai dhyan naal sunanga."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "I didn't understand anything in class yesterday, but tomorrow I'll listen carefully."
+      },
+      "notes": "Both instances of 'kal' are identical in form but resolve in opposite directions: the first is past ('aaya' = yesterday), the second future ('sunanga' = tomorrow). English has no single word covering both, so tense must drive the split."
+    },
+    {
+      "id": "pa_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "motion-deixis",
+        "addressee-anchoring",
+        "place-deixis"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Preeti ne hostel ton apni mummy nu keha, 'Main agle hafte ghar aa rahi haan, par pehla mainu Delhi jana paina, fer othon sidha ghar aa jaungi.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Preeti told her mother from the hostel, 'I'm coming home next week, but first I have to go to Delhi, and then I'll come straight home from there.'"
+      },
+      "notes": "'Aa' (come) is anchored to the addressee's location (home) even though Preeti is speaking from the hostel, while 'ja' (go) is used for Delhi, which is neither party's location. The come/go split must be preserved rather than flattened into a single motion verb."
+    },
+    {
+      "id": "pa_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "social-deixis",
+        "fictive-kinship",
+        "honorific-plural",
+        "address-terms"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Bibi ne conductor nu keha, 'Veer ji, tussi mainu Model Town wale stop te utar dyo.' Conductor ne keha, 'Fikar na karo bibi ji, main tuhanu apne aap dassanga.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The old woman told the conductor, 'Brother, please let me off at the Model Town stop.' The conductor said, 'Don't worry, ma'am, I'll tell you myself.'"
+      },
+      "notes": "'Veer ji' and 'bibi ji' are fictive-kinship respect terms between strangers, not literal family reference. 'Tussi/tuhanu' here encode politeness toward a single addressee, not plurality."
+    },
+    {
+      "id": "pa_tr_010",
+      "type": "translation",
+      "phenomena": [
+        "time-deixis",
+        "discourse-deixis",
+        "situational-reference"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Manager ne team nu keha, 'Kal ton office da time badal reha hai, te jehda vi late aaya, ohde layi eh vaari warning nahi hovegi.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The manager told the team, 'Starting tomorrow the office timings are changing, and whoever comes late, there will be no warning for them this time.'"
+      },
+      "notes": "'Kal' resolves to 'tomorrow' via the future context ('badal reha hai'), not 'yesterday'. 'Eh vaari' is a situational deictic meaning 'this time / on this occasion', not a backward-pointing anaphor to any previously mentioned entity."
+    }
+  ]
+}

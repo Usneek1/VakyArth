@@ -1,0 +1,449 @@
+{
+  "dataset": "Tamil Pragmatics - Speech Acts MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_sa_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Saranya nadu raatri vara homework pannitu irundhapo avunga amma unakku innum pasikkalaya nu kettaanga",
+          "question": "Saranyaoda amma enna kekkuranga?",
+          "options": [
+            "Saranyavoda health pathi ketkuranga",
+            "Saranyakku eppo pasikkum nu ketkuranga",
+            "Saranyava saapida solraanga",
+            "Saranya kitta enna sollanum nu ketkuranga"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Saranyava saapida solraanga"
+          }
+        },
+        "tamil": {
+          "context": "சரன்யா நடு ராத்திரி வரை ஹோம்வொர்க் பண்ணிட்டு இருந்தபோ அவங்க அம்மா உனக்கு இன்னும் பசிக்கலையானு கேட்டாங்க",
+          "question": "சரண்யாவோட அம்மா என்ன கேக்குறாங்க?",
+          "options": [
+            "சரண்யாவோட ஹெல்த் பாத்தி கேக்குறாங்க",
+            "சரண்யாக்கு எப்போ பசிக்கும்னு கேக்குறாங்க",
+            "சரண்யாவ சாப்பிட சொல்றாங்க",
+            "சரண்யாவ கிட்ட என்ன சொல்லணும் னு கேக்குறாங்க"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "சரண்யாவ சாப்பிட சொல்றாங்க"
+          }
+        },
+        "english": {
+          "context": "Simran was doing her homework till late at night, and her mom said, \"Aren’t you hungry today?\"",
+          "question": "What is Simran’s mom actually doing with this question?",
+          "options": [
+            "Asking about Simran’s health",
+            "Asking when Simran will feel hungry",
+            "Telling Simran to go eat food",
+            "Asking Simran what she will say"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Telling Simran to go eat food"
+          }
+        }
+      },
+      "explanation": "Surface form is a question, but the illocutionary force is an indirect request/offer for Simran to eat.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "indirect offer of food to child",
+          "South Asian household pattern"
+        ],
+        "authors_note": "Tests recognition of indirect request framed as a concern question."
+      }
+    },
+    {
+      "id": "ta_sa_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Seetha room la irundhu varumbodhu, avunga amma light off pannama vara, panam enna marathulayaa kaaikkuthu nu kettaanga",
+          "question": "Seethavoda amma enna solraanga?",
+          "options": [
+            "Light off panna solraanga",
+            "Panam venumaa nu kekkuraanga",
+            "Panam illa nu solraanga",
+            "Lightah onla vekka solraanga"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Light off panna solraanga"
+          }
+        },
+        "tamil": {
+          "context": "சீதா ரூம் லிருந்து வரும்போது, அவங்க அம்மா லைட் ஆஃப் பண்ணாம வர, பணம் என்ன மறத்துலாயா கைக்குதுனு கேட்டாங்க",
+          "question": "சீதாவோட அம்மா என்ன சொல்றாங்க?",
+          "options": [
+            "லைட் ஆஃப் பண்ண சொல்றாங்க",
+            "பணம் வேணுமானு கேக்குறாங்க",
+            "பணம் இல்லனு சொல்றாங்க",
+            "லைட் ஆன்ல வைக்க சொல்றாங்க"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "லைட் ஆஃப் பண்ண சொல்றாங்க"
+          }
+        },
+        "english": {
+          "context": "When Seetha was coming from her room, her mom said, \"You didn't turn off the light, is the money growing on trees?\"",
+          "question": "What is Seetha’s mom actually saying?",
+          "options": [
+            "Telling her to turn off the light",
+            "Asking if she needs money",
+            "Saying there is no money",
+            "Telling her to leave the light on"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Telling her to turn off the light"
+          }
+        }
+      },
+      "explanation": "The utterance uses a rhetorical question to indirectly tell Seetha to turn off the light, implying that money should not be wasted.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "rhetorical question",
+          "indirect request",
+          "energy conservation"
+        ],
+        "authors_note": "Targets recognition of indirect request framed as a rhetorical question."
+      }
+    },
+    {
+      "id": "ta_sa_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "refusal",
+        "appropriate-response"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Host",
+              "utterance": "Thambi, innumm konjo eduthukko"
+            },
+            {
+              "speaker": "Guest",
+              "utterance": "Illa na, enakku pothum, naraya saptuten"
+            }
+          ],
+          "question": "Host ippo enna seyyanum?",
+          "options": [
+            "innoru thadava ketkanum",
+            "Sogamaaganum",
+            "Ethuvum solla vename",
+            "Innum konjo force panni plate la vekkanum"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "innoru thadava ketkanum"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "Host",
+              "utterance": "தம்பி, இன்னும் கொஞ்சு எடுத்துக்கொ"
+            },
+            {
+              "speaker": "Guest",
+              "utterance": "இல்லா நா, எனக்கு போதும், நிறைய சாப்பிட்டேன்"
+            }
+          ],
+          "question": "ஹோஸ்ட் இப்போ என்ன செய்யணும்?",
+          "options": [
+            "இன்னொரு தடவ கேட்கணும்",
+            "சோகம் ஆகணும்",
+            "எதுவும் சொல்ல வேண்டாமே",
+            "இன்னும் கொஞ்சு போர்ஸ் பண்ணி பிளேட்டில் வைக்கணும்"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "இன்னொரு தடவ கேட்கணும்"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Host",
+              "utterance": "Brother, have some more."
+            },
+            {
+              "speaker": "Guest",
+              "utterance": "No brother, that’s enough, I’ve eaten a lot."
+            }
+          ],
+          "question": "What should the host do now?",
+          "options": [
+            "Ask one more time politely",
+            "Get upset",
+            "Say nothing more because the guest will not eat more",
+            "Force more food onto the guest’s plate"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Ask one more time politely"
+          }
+        }
+      },
+      "explanation": "In South Asian hospitality norms, after a polite refusal, the host is expected to offer once more before accepting the refusal. It is important to address even strangers like family and address those elder in age, as anna (older brother) or akka (older sister) as a sign of respect and warmth.",
+      "metadata": {
+        "register": "family/guests",
+        "cultural_markers": [
+          "ritual second offer of food",
+          "hospitality norm"
+        ],
+        "authors_note": "Tests culturally appropriate next speech act after a polite refusal."
+      }
+    },
+    {
+      "id": "ta_sa_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "refusal",
+        "appropriate-response"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Guest",
+              "utterance": "Seringa paathathula romba sandhosham, na apdiye kelambuiren"
+            },
+            {
+              "speaker": "Host",
+              "utterance": "Enna avasaram, ipo dhaana vandhinga, meen kolambu vechirukken, saapittu polaam"
+            }
+          ],
+          "question": "Host 'enna avasaram'nu solrathukku enna artham?",
+          "options": [
+            "enna vela irukkunu kekkurannga",
+            "Edhavathu avasaramaana vela irukkaanu kekkuraanga",
+            "Avasaramaa veliya ponum nu solraanga",
+            "Innum konja neram irukka solraanga"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Innum konja neram irukka solraanga"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "Guest",
+              "utterance": "செரிங்கா பார்த்ததுல ரொம்ப சந்தோஷம், நா அப்படியே கெளம்புறேன்"
+            },
+            {
+              "speaker": "Host",
+              "utterance": "என்ன அவசரம், இப்போ தான வந்திங்க, மீன் கொலம்பு வெச்சிருக்கேன், சாப்பிட்டு போலாம்"
+            }
+          ],
+          "question": "ஹோஸ்ட் 'என்ன அவசரம்'னு சொல்றதுக்கு என்ன அர்த்தம்?",
+          "options": [
+            "என்ன வேல இருக்குனு கேக்குறாங்க",
+            "எதாவது அவசரமான வேல இருக்கானு கேக்குறாங்க",
+            "அவசரமா வெளிய போனும்னு சொல்றாங்க",
+            "இன்னும் கொஞ்ச நேரம் இருக்கா சொல்றாங்க"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "இன்னும் கொஞ்ச நேரம் இருக்கா சொல்றாங்க"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Host",
+              "utterance": "It was great seeing you, I will leave now."
+            },
+            {
+              "speaker": "Guest",
+              "utterance": "What’s the rush, you just got here, I have made fish curry, you can eat and then go."
+            }
+          ],
+          "question": "What does the host mean by 'what’s the rush'?",
+          "options": [
+            "Asking if there is some work to be done",
+            "Asking if there is some urgent work to be done",
+            "Saying that the guest should leave immediately",
+            "Saying that the guest can stay for a little while longer"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Saying that the guest can stay for a little while longer"
+          }
+        }
+      },
+      "explanation": "In South Asian hospitality norms, when a guest says they will leave, the host often responds with 'what’s the rush' to indicate that there is no need to hurry and that the guest is welcome to stay longer. This is a way of showing warmth and hospitality, and it implies that the guest can enjoy the food and company without feeling rushed to leave.",
+      "metadata": {
+        "register": "family/guests",
+        "cultural_markers": [
+          "hospitality norm of encouraging guests to stay longer",
+          "use of 'what’s the rush' to indicate no need to hurry"
+        ],
+        "authors_note": "Tests understanding of culturally specific speech act of encouraging guests to stay longer after they indicate they will leave."
+      }
+    },
+    {
+      "id": "ta_sa_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-suggestion",
+        "cultural-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kozhanthaikku innum kaadhu kuthi motta podalayaa, kadaisiya unakku motta podurappo Thiruppathikku ponathu.",
+          "question": "Akka enna sollraanga?",
+          "options": [
+            "Thiruppathi polaamnu solranga",
+            "Motta poda venamunu solranga",
+            "Kaadhu kutha venamnun solranga",
+            "Akkavukku motta podanumnu solranga"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Thiruppathi polaamnu solranga"
+          }
+        },
+        "tamil": {
+          "context": "குழந்தைக்கு இன்னும் காது குத்தி மொட்ட போடலையா, கடைசியா உனக்கு மொட்ட போடுறப்போ திருப்பதிக்கு போனது.",
+          "question": "அக்கா என்ன சொல்றாங்க?",
+          "options": [
+            "திருப்பதி போலாம்னு சொல்றாங்க",
+            "மொட்ட போட வேண்டாம்னு சொல்றாங்க",
+            "காது குத்த வேண்டாம்னு சொல்றாங்க",
+            "அக்காவுக்கு மொட்ட போடணும்னு சொல்றாங்க"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "திருப்பதி போலாம்னு சொல்றாங்க"
+          }
+        },
+        "english": {
+          "context": "Have you not pierced the kid's ear and shaved the head yet? We last went to Tirupati when we shaved your head.",
+          "question": "What is the sister actually saying?",
+          "options": [
+            "She is suggesting that they should go to Tirupati",
+            "She is saying that they should not pierce the ear",
+            "She is saying that they should not shave the head",
+            "She is saying that the sister should get her head shaved"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "She is suggesting that they should go to Tirupati"
+          }
+        }
+      },
+      "explanation": "The sister's statement references a past event of going to Tirupati when the head was shaved, which is a cultural marker for a child's first head shaving ceremony. By asking if they haven't done the ear piercing and head shaving yet, she is indirectly suggesting that they should go to Tirupati again for these ceremonies. The correct answer captures this indirect suggestion.",
+      "metadata": {
+        "register": "family/rituals",
+        "cultural_markers": [
+          "reference to Tirupati pilgrimage for head shaving ceremony",
+          "indirect suggestion for ritual observance"
+        ],
+        "authors_note": "Tests recognition of indirect suggestion for a cultural ritual based on reference to past events."
+      }
+    },
+    {
+      "id": "ta_sa_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-suggestion",
+        "cultural-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Manasu vittu pesuna ellame seriya poidum, nailaikku motha velaiya appa kitta pesunu anna sonnanga",
+          "question": "Anna enna sollraanga?",
+          "options": [
+            "Appavoda pesanumnu avasiyam illanu solranga",
+            "Appavoda pirachanaya epdi seri pannnalamnu solranga",
+            "Appakitta pesuraennu solranga",
+            "Manasula enna irukkunu kekkuranga"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Appaoda pirachanaya epdi seri pannnalamnu solranga"
+          }
+        },
+        "tamil": {
+          "context": "மனசு விட்டுப் பேசினா எல்லாமே சரியாப் போயிடும், நாளைக்கு முத வேலையா அப்பா கிட்ட பேசுனு அண்ணா சொன்னாங்க",
+          "question": "அண்ணா என்ன சொல்றாங்க?",
+          "options": [
+            "அப்பாவோட பேசணும்னு அவசியம் இல்லனு சொல்றாங்க",
+            "அப்பாவோட பிரச்சனையை எப்படி சரி பண்ணலாம்னு சொல்றாங்க",
+            "அப்பகிட்ட பேசுறேன்னு சொல்றாங்க",
+            "மனசுல என்ன இருக்குனு கேக்குறாங்க"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "அப்பாவோட பிரச்சனையை எப்படி சரி பண்ணலாம்னு சொல்றாங்க"
+          }
+        },
+        "english": {
+          "context": "If you speak with an open mind, everything will be fine. Speak to dad first thing tomorrow, the brother said.",
+          "question": "What is the brother actually saying?",
+          "options": [
+            "He is saying that speaking to dad is not necessary",
+            "He is saying how to resolve problem with dad",
+            "He is saying that he would speak to dad",
+            "He is asking what's in your mind"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He is saying how to resolve problem with dad"
+          }
+        }
+      },
+      "explanation": "The brother's statement suggests that if the person speaks with an open mind, everything will be fine, and then advises to speak to dad first thing tomorrow. The indirect suggestion here is that speaking to dad is a way to resolve the problem, and the brother is providing advice on how to approach it. The correct answer captures this advice on resolving the issue with dad.",
+      "metadata": {
+        "register": "family/conflict-resolution",
+        "cultural_markers": [
+          "advice to speak to elder for conflict resolution",
+          "emphasis on open-minded communication"
+        ],
+        "authors_note": "Tests recognition of indirect suggestion for conflict resolution through communication with an elder."
+      }
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "dataset": "Punjabi Pragmatics - Speech Acts NLI",
+  "version": "0.1",
+  "label_space": [
+    "entailment",
+    "contradiction",
+    "neutral"
+  ],
+  "items": [
+    {
+      "id": "pa_sa_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "hyperbole",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Papa ne naraaz hoke Raj nu keha, \"Main tenu 100 vari keha, ghar vich ball na kheliya kar.\"",
+          "hypothesis": "Papa Raj nu is toh pehle 99 vari eh hi gal keh chuke ne."
+        },
+        "gurmukhi": {
+          "premise": "ਪਾਪਾ ਨੇ ਨਾਰਾਜ਼ ਹੋ ਕੇ ਰਾਜ ਨੂੰ ਕਿਹਾ, \"ਮੈਂ ਤੈਨੂੰ 100 ਵਾਰੀ ਕਿਹਾ, ਘਰ ਵਿੱਚ ਬਾਲ ਨਾ ਖੇਡਿਆ ਕਰ।\"",
+          "hypothesis": "ਪਾਪਾ ਰਾਜ ਨੂੰ ਇਸ ਤੋਂ ਪਹਿਲਾਂ 99 ਵਾਰੀ ਇਹੀ ਗੱਲ ਕਹਿ ਚੁੱਕੇ ਨੇ।"
+        },
+        "english": {
+          "premise": "The father angrily told Raj, \"I have told you 100 times, don’t play ball in the house.\"",
+          "hypothesis": "The father has said this same thing to Raj 99 times before."
+        }
+      },
+      "explanation": "“100 vari keha” is conventional hyperbole, not a precise count. It does not entail that he literally said it exactly 99 times before.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "parental scolding with numeric hyperbole"
+        ],
+        "authors_note": "Tests whether the model treats hyperbolic counts as literal in NLI."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_sa_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "desire-for-information",
+        "obligation-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jaspreet ne keha, \"Apan ja sakde aa park, par main soch rahi si, sadi assignment di deadline kado hai?\"",
+          "hypothesis": "Mainu Jaspreet nu deadline dasni chahidi hai."
+        },
+        "gurmukhi": {
+          "premise": "ਜਸਪ੍ਰੀਤ ਨੇ ਕਿਹਾ, \"ਅਸੀਂ ਪਾਰਕ ਜਾ ਸਕਦੇ ਹਾਂ, ਪਰ ਮੈਂ ਸੋਚ ਰਹੀ ਸੀ ਸਾਡੀ ਅਸਾਈਨਮੈਂਟ ਦੀ ਡੈਡਲਾਈਨ ਕਦੋਂ ਹੈ?\"",
+          "hypothesis": "ਮੈਨੂੰ ਜਸਪ੍ਰੀਤ ਨੂੰ ਡੈਡਲਾਈਨ ਦੱਸਣੀ ਚਾਹੀਦੀ ਹੈ।"
+        },
+        "english": {
+          "premise": "Jaspreet said, \"We can go to the park, but I was wondering when our assignment deadline is.\"",
+          "hypothesis": "I should tell Jaspreet the deadline."
+        }
+      },
+      "explanation": "The premise shows Jaspreet is curious about the deadline, but it doesn’t state that the speaker knows it or that they have an obligation to tell. That’s a pragmatic inference, not entailed.",
+      "metadata": {
+        "register": "friends/student-life",
+        "cultural_markers": [
+          "casual park hangout, study talk"
+        ],
+        "authors_note": "Tests separation of desire-for-information from deontic obligation (“should tell”)."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "pa_sa_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "modesty-formula",
+        "emotion-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Artist ne apni painting dikhaaunde hoye keha: \"Eh taan kuch bhi nahi baneya, bas try keeta si.\"",
+          "hypothesis": "Artist apni painting ton genuinely naraaz hai."
+        },
+        "gurmukhi": {
+          "premise": "ਆਰਟਿਸਟ ਨੇ ਆਪਣੀ ਪੇਂਟਿੰਗ ਦਿਖਾਉਂਦੇ ਹੋਏ ਕਿਹਾ: \"ਇਹ ਤਾਂ ਕੁਝ ਵੀ ਨਹੀਂ ਬਣਿਆ, ਬਸ ਟ੍ਰਾਈ ਕੀਤਾ ਸੀ।\"",
+          "hypothesis": "ਆਰਟਿਸਟ ਆਪਣੀ ਪੇਂਟਿੰਗ ਤੋਂ ਸੱਚਮੁੱਚ ਨਾਰਾਜ਼ ਹੈ।"
+        },
+        "english": {
+          "premise": "While showing the painting, the artist said, \"This is nothing, I just tried something.\"",
+          "hypothesis": "The artist is genuinely upset with their painting."
+        }
+      },
+      "explanation": "The utterance could be genuine dissatisfaction or a modesty formula (“downplaying” the work). From the sentence alone, we cannot be sure the artist is truly angry or upset, so it’s not entailed.",
+      "metadata": {
+        "register": "artist-viewer",
+        "cultural_markers": [
+          "ritual downplaying of one’s own work"
+        ],
+        "authors_note": "Designed to test whether the model overcommits from modesty talk to strong negative emotion."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_sa_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-prohibition",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Main te mera bhra TV dekh rahe si. Mummy ne aa ke keha, \"Tuhadi akhan TV dekh ke vaddiyan ho jaani ne.\"",
+          "hypothesis": "Mummy sanu TV dekhna band karan lai keh rahi hai."
+        },
+        "gurmukhi": {
+          "premise": "ਮੈਂ ਤੇ ਮੇਰਾ ਭਰਾ ਟੀਵੀ ਦੇਖ ਰਹੇ ਸੀ। ਮੰਮੀ ਨੇ ਆ ਕੇ ਕਿਹਾ, \"ਤੁਹਾਡੀਆਂ ਅੱਖਾਂ ਟੀਵੀ ਦੇਖ ਕੇ ਵੱਡੀਆਂ ਹੋ ਜਾਣੀਆਂ ਨੇ।\"",
+          "hypothesis": "ਮੰਮੀ ਸਾਨੂੰ ਟੀਵੀ ਦੇਖਣਾ ਬੰਦ ਕਰਨ ਲਈ ਕਹਿ ਰਹੀ ਹੈ।"
+        },
+        "english": {
+          "premise": "My brother and I were watching TV. Mom came and said, \"Your eyes will become big from watching TV.\"",
+          "hypothesis": "Mom is telling us to stop watching TV."
+        }
+      },
+      "explanation": "The literal statement about eyes becoming big is not factual; it functions as an indirect prohibition telling the children to stop watching TV.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "parental exaggeration to discourage behavior"
+        ],
+        "authors_note": "Tests recognition of indirect prohibition expressed through exaggerated warning."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "pa_sa_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "sarcasm",
+        "literal-vs-pragmatic"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jado Shipra ne apni nuh nu roti banaunde dekhya, oh kehndi hai: \"Wahh, tenu taan roti banauni vi aundi hai.\"",
+          "hypothesis": "Shipra apni nuh di tareef kar rahi hai."
+        },
+        "gurmukhi": {
+          "premise": "ਜਦੋਂ ਸ਼ਿਪਰਾ ਨੇ ਆਪਣੀ ਨੂਹ ਨੂੰ ਰੋਟੀ ਬਣਾਉਂਦੇ ਦੇਖਿਆ, ਉਸ ਨੇ ਕਿਹਾ: \"ਵਾਹ, ਤੈਨੂੰ ਤਾਂ ਰੋਟੀ ਬਣਾਉਣੀ ਵੀ ਆਉਂਦੀ ਹੈ।\"",
+          "hypothesis": "ਸ਼ਿਪਰਾ ਆਪਣੀ ਨੂਹ ਦੀ ਤਾਰੀਫ਼ ਕਰ ਰਹੀ ਹੈ।"
+        },
+        "english": {
+          "premise": "When Shipra saw her daughter-in-law making rotis, she said, \"Wow, you even know how to make rotis.\"",
+          "hypothesis": "Shipra is praising her daughter-in-law."
+        }
+      },
+      "explanation": "Although the utterance appears to be praise, the tone implies sarcasm or criticism. The speaker suggests that the daughter-in-law should obviously know this, so it is not genuine praise.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "sarcastic praise in family hierarchy"
+        ],
+        "authors_note": "Tests whether the model interprets sarcastic praise literally."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_sa_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "emotional-implication",
+        "indirect-reproach"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ajj mere papa da call aaya. Unha ne keha, \"Koi gal nahi, assi theek haan. Tenu ki pata lagda sade baare.\"",
+          "hypothesis": "Papa mehsoos kar rahe ne ki main unha di parvah nahi karda."
+        },
+        "gurmukhi": {
+          "premise": "ਅੱਜ ਮੇਰੇ ਪਾਪਾ ਦਾ ਕਾਲ ਆਇਆ। ਉਹਨਾਂ ਨੇ ਕਿਹਾ, \"ਕੋਈ ਗੱਲ ਨਹੀਂ, ਅਸੀਂ ਠੀਕ ਹਾਂ। ਤੈਨੂੰ ਕੀ ਪਤਾ ਲੱਗਦਾ ਸਾਡੇ ਬਾਰੇ।\"",
+          "hypothesis": "ਪਾਪਾ ਮਹਿਸੂਸ ਕਰ ਰਹੇ ਨੇ ਕਿ ਮੈਂ ਉਹਨਾਂ ਦੀ ਪਰਵਾਹ ਨਹੀਂ ਕਰਦਾ।"
+        },
+        "english": {
+          "premise": "Today my father called and said, \"It's okay, we are fine. How would you even know about us.\"",
+          "hypothesis": "The father feels that I do not care enough about them."
+        }
+      },
+      "explanation": "The father’s statement implies emotional reproach. Although phrased indirectly, it suggests that the speaker feels neglected or not cared for.",
+      "metadata": {
+        "register": "family/phone-call",
+        "cultural_markers": [
+          "indirect emotional reproach in family communication"
+        ],
+        "authors_note": "Tests recognition of implied emotional meaning beyond literal wording."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "pa_sa_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "phatic-formula",
+        "invitation-vs-leave-taking"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Bazaar vich milde saar Gurmeet ne keha, \"Fer kade chah peen aa jayo saade ghar,\" te fer oh kaahli naal apni gaddi val chali gayi.",
+          "hypothesis": "Gurmeet ne sach much ghar aaun da sadda ditta hai."
+        },
+        "gurmukhi": {
+          "premise": "ਬਜ਼ਾਰ ਵਿੱਚ ਮਿਲਦੇ ਸਾਰ ਗੁਰਮੀਤ ਨੇ ਕਿਹਾ, \"ਫਿਰ ਕਦੇ ਚਾਹ ਪੀਣ ਆ ਜਾਇਓ ਸਾਡੇ ਘਰ,\" ਤੇ ਫਿਰ ਉਹ ਕਾਹਲੀ ਨਾਲ ਆਪਣੀ ਗੱਡੀ ਵੱਲ ਚਲੀ ਗਈ।",
+          "hypothesis": "ਗੁਰਮੀਤ ਨੇ ਸੱਚਮੁੱਚ ਘਰ ਆਉਣ ਦਾ ਸੱਦਾ ਦਿੱਤਾ ਹੈ।"
+        },
+        "english": {
+          "premise": "On running into her in the market, Gurmeet said, \"Do come over for tea sometime,\" and then hurried off toward her car.",
+          "hypothesis": "Gurmeet has genuinely invited them to her home."
+        }
+      },
+      "explanation": "‘Fer kade aa jayo’ with no time proposed, no follow-up, and an immediate exit is a phatic leave-taking formula rather than a commissive. It carries the surface form of an invitation while performing a closing.",
+      "metadata": {
+        "register": "public/acquaintances",
+        "cultural_markers": [
+          "ritual open-ended invitation used as a parting courtesy"
+        ],
+        "authors_note": "Tests whether invitation form is over-read as an actual commitment.",
+        "difficulty": "medium"
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "pa_sa_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-address",
+        "addressee-vs-target"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Nuh saamne baithi si, te sass ne kise vall vekhe bina uchi awaaz vich keha, \"Ajj kal kise nu subah jaldi uthan di aadat hi nahi rahi.\"",
+          "hypothesis": "Sass ne nuh baare keha."
+        },
+        "gurmukhi": {
+          "premise": "ਨੂੰਹ ਸਾਹਮਣੇ ਬੈਠੀ ਸੀ, ਤੇ ਸੱਸ ਨੇ ਕਿਸੇ ਵੱਲ ਵੇਖੇ ਬਿਨਾਂ ਉੱਚੀ ਆਵਾਜ਼ ਵਿੱਚ ਕਿਹਾ, \"ਅੱਜ ਕੱਲ੍ਹ ਕਿਸੇ ਨੂੰ ਸਵੇਰੇ ਜਲਦੀ ਉੱਠਣ ਦੀ ਆਦਤ ਹੀ ਨਹੀਂ ਰਹੀ।\"",
+          "hypothesis": "ਸੱਸ ਨੇ ਨੂੰਹ ਬਾਰੇ ਕਿਹਾ।"
+        },
+        "english": {
+          "premise": "The daughter-in-law was sitting right there, and the mother-in-law said loudly, without looking at anyone, \"These days nobody has the habit of getting up early in the morning.\"",
+          "hypothesis": "The mother-in-law said it about the daughter-in-law."
+        }
+      },
+      "explanation": "The grammatical addressee and the target of the speech act come apart. The impersonal generic (‘kise nu’), the pointed avoidance of eye contact, the raised voice, and the daughter-in-law's presence are the conventional markers of speaking at someone through a generic statement; the impersonal framing supplies deniability rather than genuine impersonality.",
+      "metadata": {
+        "register": "family/in-laws",
+        "cultural_markers": [
+          "indirect reproach voiced as a general observation in the target's presence"
+        ],
+        "authors_note": "Tests separation of addressee from target; no prior item in the set distinguishes the two.",
+        "difficulty": "hard"
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "pa_sa_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request",
+        "uptake-vs-intent"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Rohit ne apne roommate nu keha, \"Kitchen vich bahut bartan pye ne.\" Roommate ne keha, \"Haan yaar, sach vich bahut ne,\" te oh apne kamre vich chala gaya.",
+          "hypothesis": "Roommate ne samajh liya ki Rohit ki chaunda si."
+        },
+        "gurmukhi": {
+          "premise": "ਰੋਹਿਤ ਨੇ ਆਪਣੇ ਰੂਮਮੇਟ ਨੂੰ ਕਿਹਾ, \"ਕਿਚਨ ਵਿੱਚ ਬਹੁਤ ਬਰਤਨ ਪਏ ਨੇ।\" ਰੂਮਮੇਟ ਨੇ ਕਿਹਾ, \"ਹਾਂ ਯਾਰ, ਸੱਚ ਵਿੱਚ ਬਹੁਤ ਨੇ,\" ਤੇ ਉਹ ਆਪਣੇ ਕਮਰੇ ਵਿੱਚ ਚਲਾ ਗਿਆ।",
+          "hypothesis": "ਰੂਮਮੇਟ ਨੇ ਸਮਝ ਲਿਆ ਕਿ ਰੋਹਿਤ ਕੀ ਚਾਹੁੰਦਾ ਸੀ।"
+        },
+        "english": {
+          "premise": "Rohit said to his roommate, \"There are a lot of dishes lying in the kitchen.\" The roommate said, \"Yeah, there really are,\" and went off to his room.",
+          "hypothesis": "The roommate understood what Rohit wanted."
+        }
+      },
+      "explanation": "Rohit's remark functions as an indirect request to wash the dishes. The roommate agrees with it as a statement of fact and then walks away, showing that the propositional content was received but the illocutionary force was not. The item separates speaker intent from hearer uptake, which every other item in the set treats as aligned.",
+      "metadata": {
+        "register": "friends/shared-housing",
+        "cultural_markers": [
+          "indirect request via observation about a shared space"
+        ],
+        "authors_note": "Failed uptake item; the hearer's on-topic reply masks the missed force.",
+        "difficulty": "medium"
+      },
+      "label": "contradiction"
+    }
+  ]
+}

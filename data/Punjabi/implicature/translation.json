@@ -1,0 +1,204 @@
+{
+  "dataset": "Punjabi Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "punjabi_to_english",
+  "task_description": "Translate the given Punjabi sentence into natural, idiomatic English. Correct translation requires understanding idioms and pragmatic meaning, not just literal word mapping.",
+  "items": [
+    {
+      "id": "pa_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "negative-evaluation"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "surinder di salah leh ke na baithna uh tah kath da ullu hai"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Don’t take Surinder’s advice; he’s completely foolish."
+      },
+      "notes": "‘Kath da ullu’ is an idiom meaning extremely foolish, not literally an owl made of wood."
+    },
+    {
+      "id": "pa_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "causal-reasoning",
+        "everyday-context"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "jado ohdh pohdh karn naal mera pet thik nhi hoya, tan mainu hospital le gye"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When home remedies didn’t fix my stomach problem, they took me to the hospital."
+      },
+      "notes": "‘Odh pohdh’ refers to home remedies or informal treatment."
+    },
+    {
+      "id": "pa_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "metaphor",
+        "conflict-context"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "ladai de dina vich har cheez agg de bah vikdi hai"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "During times of conflict, everything sells at extreme prices."
+      },
+      "notes": "Metaphorical use of ‘agg de bah’ conveys economic chaos and price exploitation."
+    },
+    {
+      "id": "pa_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "social-critique",
+        "ideological-language"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "bharat vich majbi januni saiyappe di nain hai"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "In India, religious extremism is the main root of all problems."
+      },
+      "notes": "‘Majbi januni’ conveys religious extremism rather than general religiosity."
+    },
+    {
+      "id": "pa_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "character-judgment",
+        "work-ethic"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "hadd haram naukar kite vi nhi tik sakde"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Extremely lazy workers can’t last anywhere."
+      },
+      "notes": "‘Hadd haram’ implies chronic laziness or work-shyness, not dishonesty."
+    },
+    {
+      "id": "pa_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "pragmatic-contrast",
+        "effort-vs-action"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "jabani jamah kharch karn di tha asli kamm karna chahida hai"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Instead of making half-hearted attempts, one should do real work."
+      },
+      "notes": "The phrase criticizes weak or performative effort, not literal speech."
+    },
+    {
+      "id": "pa_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "affectionate-abuse",
+        "register-inversion",
+        "implicature"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Ma ne kudi nu jappi paake keha, “Marjaaniye, kithe reh gayi si tu? Sara din teri fikar kardi pyi si.”"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Hugging her daughter, the mother said, “Where did you disappear to, you silly girl? I've been worried about you all day.”"
+      },
+      "notes": "‘Marjaaniye’ is literally a curse (roughly ‘you who should die’) but functions as affectionate scolding. A literal rendering turns an embrace into abuse; the hug and the expressed worry license the warm register."
+    },
+    {
+      "id": "pa_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "sarcasm",
+        "ironic-blessing",
+        "register-inversion",
+        "implicature"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Munde ne fer glass tod ditta te bebe ne keha, “Jeonda reh mere sher, ajj taan tu kamaal hi kar ditta.”"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When the boy broke yet another glass, his grandmother said, “Well done, my little lion — you've really outdone yourself today.”"
+      },
+      "notes": "‘Jeonda reh’ is a blessing form deployed sarcastically. Every word is positive, so a literal translation yields sincere praise and loses the rebuke. Mirrors pa_tr_007: same polarity-inversion mechanism, opposite direction."
+    },
+    {
+      "id": "pa_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "understatement",
+        "ritual-modesty",
+        "hospitality-convention",
+        "implicature"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Mez te das cheezan chun ke mezbaan ne keha, “Lo ji, kuch khaas nahi banaya, bas roti-paani hi hai.”"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Having laid out ten dishes on the table, the host said, “Please eat — I haven't made anything special, just a simple meal.”"
+      },
+      "notes": "Conventional host modesty: the disclaimer is ritual, not a factual description. The apparent contradiction with the ten dishes is the point and must survive translation — a translation that softens the spread or reads the host as genuinely apologetic destroys the implicature."
+    },
+    {
+      "id": "pa_tr_010",
+      "type": "translation",
+      "phenomena": [
+        "protective-formula",
+        "functional-equivalence",
+        "implicature"
+      ],
+      "source": {
+        "language": "punjabi",
+        "scripts": {
+          "latin": "Gawandan ne munde nu vekh ke keha, “Hai, kinna sohna lagda hai, nazar na lage.”"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Looking at the boy, the neighbour said, “Oh, he looks so handsome — touch wood.”"
+      },
+      "notes": "‘Nazar na lage’ literally means ‘may the (evil) eye not fall on him’ and is an near-obligatory protective addition when praising a child. Omitting it loses meaning; translating it word-for-word produces something opaque in English. Requires a functional equivalent such as ‘touch wood’ / ‘bless him’."
+    }
+  ]
+}

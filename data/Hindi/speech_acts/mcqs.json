@@ -1,0 +1,925 @@
+{
+  "dataset": "Hindi Pragmatics - Speech Acts MCQ",
+  "version": "0.2",
+  "items": [
+    {
+      "id": "hi_sa_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-criticism",
+        "parental-control"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Gourav subah 11 baje tak soya hua tha. Uski mummy ne kamre mein aakar kaha, 'Beta, kya aaj chutti hai kya?'",
+          "question": "Mummy ka actual matlab kya hai?",
+          "options": [
+            "Mummy genuinely pooch rahi hain ki aaj chutti hai",
+            "Mummy Gourav ko uthne aur kaam karne ko keh rahi hain",
+            "Mummy calendar check karna chahti hain",
+            "Mummy Gourav ki health ke baare mein tension kar rahi hain"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Mummy Gourav ko uthne aur kaam karne ko keh rahi hain"
+          }
+        },
+        "devanagari": {
+          "context": "गौरव सुबह 11 बजे तक सोया हुआ था। उसकी मम्मी ने कमरे में आकर कहा, 'बेटा, क्या आज छुट्टी है क्या?'",
+          "question": "मम्मी का एक्चुअल मतलब क्या है?",
+          "options": [
+            "मम्मी जेन्युइनली पूछ रही हैं कि आज छुट्टी है",
+            "मम्मी गौरव को उठने और काम करने को कह रही हैं",
+            "मम्मी कैलेंडर चेक करना चाहती हैं",
+            "मम्मी गौरव की हेल्थ के बारे में टेंशन कर रही हैं"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "मम्मी गौरव को उठने और काम करने को कह रही हैं"
+          }
+        },
+        "english": {
+          "context": "Gourav was sleeping till 11 AM. His mother came to the room and said, 'Beta, is it a holiday today?'",
+          "question": "What is mother's actual meaning?",
+          "options": [
+            "Mother is genuinely asking if it's a holiday",
+            "Mother is telling Gourav to wake up and work",
+            "Mother wants to check the calendar",
+            "Mother is worried about Gourav's health"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Mother is telling Gourav to wake up and work"
+          }
+        }
+      },
+      "explanation": "This is an indirect criticism/command. The question format is used to sarcastically point out that Gourav shouldn't be sleeping so late on a working day.",
+      "metadata": {
+        "register": "family-home",
+        "cultural_markers": [
+          "parental sarcasm",
+          "indirect wake-up call",
+          "Indian household morning routine"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "refusal-politeness",
+        "street-vendor"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Sadak par ek balloon waala Priya ke paas aaya aur bola, 'Didi, balloon le lo.' Priya ne kaha, 'Nahi bhaiya, abhi nahi.'",
+          "question": "Priya ne 'abhi nahi' kyon kaha 'nahi' ki jagah?",
+          "options": [
+            "Kyunki voh baad mein balloon lena chahti hai",
+            "Polite tareeke se refuse karne ke liye",
+            "Kyunki uske paas abhi paise nahi hain",
+            "Kyunki voh time dekh rahi hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Polite tareeke se refuse karne ke liye"
+          }
+        },
+        "devanagari": {
+          "context": "सड़क पर एक बैलून वाला प्रिया के पास आया और बोला, 'दीदी, बैलून ले लो।' प्रिया ने कहा, 'नहीं भैया, अभी नहीं।'",
+          "question": "प्रिया ने 'अभी नहीं' क्यों कहा 'नहीं' की जगह?",
+          "options": [
+            "क्योंकि वो बाद में बैलून लेना चाहती है",
+            "पोलाइट तरीके से रिफ्यूज़ करने के लिए",
+            "क्योंकि उसके पास अभी पैसे नहीं हैं",
+            "क्योंकि वो टाइम देख रही है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "पोलाइट तरीके से रिफ्यूज़ करने के लिए"
+          }
+        },
+        "english": {
+          "context": "On the street, a balloon seller came to Priya and said, 'Didi, take a balloon.' Priya said, 'No bhaiya, not now.'",
+          "question": "Why did Priya say 'not now' instead of just 'no'?",
+          "options": [
+            "Because she wants to buy balloon later",
+            "To refuse politely",
+            "Because she doesn't have money right now",
+            "Because she's checking the time"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "To refuse politely"
+          }
+        }
+      },
+      "explanation": "'Abhi nahi' (not now) is a face-saving softener that makes the refusal less direct and more polite than a flat 'nahi' (no).",
+      "metadata": {
+        "register": "street-vendor",
+        "cultural_markers": [
+          "balloon seller interaction",
+          "polite refusal strategy",
+          "street commerce"
+        ],
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "advice",
+        "elder-wisdom"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Harsh ne apne dada ji ko bataya ki voh job chhod kar business karna chahta hai. Dada ji ne kaha, 'Beta, pakki naukri chhodni aasan hai, dhundhna mushkil.'",
+          "question": "Dada ji kya kar rahe hain?",
+          "options": [
+            "Harsh ko motivate kar rahe hain business ke liye",
+            "Harsh ko indirectly advice de rahe hain ki job na chhode",
+            "Job market ki statistics bata rahe hain",
+            "Apna personal experience share kar rahe hain"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Harsh ko indirectly advice de rahe hain ki job na chhode"
+          }
+        },
+        "devanagari": {
+          "context": "हर्ष ने अपने दादा जी को बताया कि वो जॉब छोड़ कर बिज़नेस करना चाहता है। दादा जी ने कहा, 'बेटा, पक्की नौकरी छोड़नी आसान है, ढूंढना मुश्किल।'",
+          "question": "दादा जी क्या कर रहे हैं?",
+          "options": [
+            "हर्ष को मोटिवेट कर रहे हैं बिज़नेस के लिए",
+            "हर्ष को इनडायरेक्टली एडवाइस दे रहे हैं कि जॉब ना छोड़े",
+            "जॉब मार्केट की स्टैटिस्टिक्स बता रहे हैं",
+            "अपना पर्सनल एक्सपीरियंस शेयर कर रहे हैं"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "हर्ष को इनडायरेक्टली एडवाइस दे रहे हैं कि जॉब ना छोड़े"
+          }
+        },
+        "english": {
+          "context": "Harsh told his grandfather that he wants to quit his job and do business. Grandfather said, 'Beta, quitting a permanent job is easy, finding one is difficult.'",
+          "question": "What is grandfather doing?",
+          "options": [
+            "Motivating Harsh for business",
+            "Indirectly advising Harsh not to quit the job",
+            "Giving job market statistics",
+            "Sharing his personal experience"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Indirectly advising Harsh not to quit the job"
+          }
+        }
+      },
+      "explanation": "The grandfather is performing an indirect speech act of advice/warning through a proverbial statement about job security.",
+      "metadata": {
+        "register": "family-career",
+        "cultural_markers": [
+          "elder wisdom",
+          "job security emphasis",
+          "generational values"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "passive-aggressive",
+        "domestic-complaint"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ghar mein kapde bikhar rahe the. Mummy ne kisi se seedha kuch nahi kaha, bas itna bola, 'Is ghar mein main hi hoon jo sab kuch uthati hoon.'",
+          "question": "Mummy ka yeh kehna kya hai?",
+          "options": [
+            "Ek neutral observation hai ghar ke kaam ke baare mein",
+            "Baaki sabko indirect taur par kapde uthane ka ishaara kar rahi hain",
+            "Apni thakaan ke baare mein baat kar rahi hain",
+            "Kisi ek insaan ki tarif kar rahi hain"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Baaki sabko indirect taur par kapde uthane ka ishaara kar rahi hain"
+          }
+        },
+        "devanagari": {
+          "context": "घर में कपड़े बिखरे पड़े थे। मम्मी ने किसी से सीधे कुछ नहीं कहा, बस इतना बोला, 'इस घर में मैं ही हूँ जो सब कुछ उठाती हूँ।'",
+          "question": "मम्मी का यह कहना क्या है?",
+          "options": [
+            "घर के काम के बारे में एक न्यूट्रल ऑब्ज़र्वेशन है",
+            "बाकी सबको इनडायरेक्ट तौर पर कपड़े उठाने का इशारा कर रही हैं",
+            "अपनी थकान के बारे में बात कर रही हैं",
+            "किसी एक इंसान की तारीफ कर रही हैं"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "बाकी सबको इनडायरेक्ट तौर पर कपड़े उठाने का इशारा कर रही हैं"
+          }
+        },
+        "english": {
+          "context": "Clothes were scattered around the house. Mother didn't say anything directly to anyone, just said, 'In this house, I'm the only one who picks everything up.'",
+          "question": "What is mother's utterance doing?",
+          "options": [
+            "Making a neutral observation about housework",
+            "Indirectly signalling everyone else to pick up the clothes",
+            "Talking about her own tiredness",
+            "Complimenting a particular person"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Indirectly signalling everyone else to pick up the clothes"
+          }
+        }
+      },
+      "explanation": "This is a passive-aggressive indirect directive. By narrating her own burden aloud to no one in particular, the speaker is performing a complaint that functions as a reproach and implicit instruction to others present.",
+      "metadata": {
+        "register": "family-home",
+        "cultural_markers": [
+          "maternal complaint strategy",
+          "indirect household directive",
+          "passive-aggressive register"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "phatic-communion",
+        "greeting-ritual"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Do log subah society mein milte hain. Pehla bolta hai, 'Kya baat hai, aajkal dikhte nahi?' Doosra keh deta hai, 'Arre bhai, bahut busy ho gaya hoon.'",
+          "question": "Pehle insaan ke 'dikhte nahi' kehne ka main uddeshya kya hai?",
+          "options": [
+            "Doosre insaan ki location genuinely jaanna",
+            "Social connection banaye rakhne ke liye ek phatic greeting",
+            "Doosre insaan par criticism karna ki voh milne nahi aata",
+            "Concern express karna ki voh theek toh hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Social connection banaye rakhne ke liye ek phatic greeting"
+          }
+        },
+        "devanagari": {
+          "context": "दो लोग सुबह सोसाइटी में मिलते हैं। पहला बोलता है, 'क्या बात है, आजकल दिखते नहीं?' दूसरा कह देता है, 'अरे भाई, बहुत बिज़ी हो गया हूँ।'",
+          "question": "पहले इंसान के 'दिखते नहीं' कहने का मेन उद्देश्य क्या है?",
+          "options": [
+            "दूसरे इंसान की लोकेशन जेन्युइनली जानना",
+            "सोशल कनेक्शन बनाए रखने के लिए एक फेटिक ग्रीटिंग",
+            "दूसरे इंसान पर क्रिटिसिज़्म करना कि वो मिलने नहीं आता",
+            "कंसर्न एक्सप्रेस करना कि वो ठीक तो है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "सोशल कनेक्शन बनाए रखने के लिए एक फेटिक ग्रीटिंग"
+          }
+        },
+        "english": {
+          "context": "Two people meet in the morning in their housing society. The first says, 'What's going on, you're not seen these days?' The second replies, 'Oh, I've been very busy.'",
+          "question": "What is the primary purpose of the first person's 'you're not seen these days'?",
+          "options": [
+            "To genuinely find out where the other person has been",
+            "A phatic greeting to maintain social connection",
+            "To criticise the other person for not visiting",
+            "To express concern about whether he is well"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "A phatic greeting to maintain social connection"
+          }
+        }
+      },
+      "explanation": "'Aajkal dikhte nahi' is a phatic communion utterance its function is social bonding, not information-seeking. Like 'how are you' in English, it signals friendly acknowledgment rather than genuine inquiry into the person's whereabouts.",
+      "metadata": {
+        "register": "neighbourhood-casual",
+        "cultural_markers": [
+          "society morning greeting",
+          "phatic small talk",
+          "urban Indian neighbourly exchange"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "performative",
+        "social-commitment"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Shaadi ki party mein ek rishtedaar ne dulhan ke papa se kaha, 'Bhai sahab, aapki beti humari beti hai, ab se hum sab ek hain.'",
+          "question": "Yeh utterance pragmatically kya kar raha hai?",
+          "options": [
+            "Ek factual claim kar raha hai ki ladki unki beti hai",
+            "Ek social commitment aur acceptance ka performative declaration kar raha hai",
+            "Dulhan ke papa ko consolation de raha hai",
+            "Apne ghar ka address share kar raha hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ek social commitment aur acceptance ka performative declaration kar raha hai"
+          }
+        },
+        "devanagari": {
+          "context": "शादी की पार्टी में एक रिश्तेदार ने दुल्हन के पापा से कहा, 'भाई साहब, आपकी बेटी हमारी बेटी है, अब से हम सब एक हैं।'",
+          "question": "यह उटरेंस प्रैग्मेटिकली क्या कर रहा है?",
+          "options": [
+            "एक फैक्चुअल क्लेम कर रहा है कि लड़की उनकी बेटी है",
+            "एक सोशल कमिटमेंट और एक्सेप्टेंस का परफॉर्मेटिव डिक्लेरेशन कर रहा है",
+            "दुल्हन के पापा को कंसोलेशन दे रहा है",
+            "अपने घर का एड्रेस शेयर कर रहा है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "एक सोशल कमिटमेंट और एक्सेप्टेंस का परफॉर्मेटिव डिक्लेरेशन कर रहा है"
+          }
+        },
+        "english": {
+          "context": "At a wedding party, a relative said to the bride's father, 'Bhai sahab, your daughter is our daughter from now on we are all one.'",
+          "question": "What is this utterance doing pragmatically?",
+          "options": [
+            "Making a factual claim that the girl is their daughter",
+            "Making a performative declaration of social commitment and acceptance",
+            "Consoling the bride's father",
+            "Sharing their home address"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Making a performative declaration of social commitment and acceptance"
+          }
+        }
+      },
+      "explanation": "This is a performative speech act by uttering 'aapki beti humari beti hai', the speaker is not describing a fact but enacting a social bond. The statement brings into existence a familial obligation and emotional alliance between the two families, a ritual declaration common at Indian weddings.",
+      "metadata": {
+        "register": "wedding-ritual",
+        "cultural_markers": [
+          "shaadi bonding declaration",
+          "joint family acceptance",
+          "performative kinship creation"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request",
+        "hospitality"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Sharma ji ke ghar mehmaan aaye the. Chai peete peete Sharma ji ne kaha, 'Arre, bahar toh bahut garmi hai aaj.'",
+          "question": "Sharma ji ka is baat ka asli maksad kya ho sakta hai?",
+          "options": [
+            "Weather forecast discuss karna",
+            "Mehmaan ko indirectly rukne ya AC/pankha chalane ka signal dena",
+            "Apni health complaint karna",
+            "Mehmaan se bahar na jaane ki request karna kyunki unhe akela chhodna nahi chahte"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Mehmaan ko indirectly rukne ya AC/pankha chalane ka signal dena"
+          }
+        },
+        "devanagari": {
+          "context": "शर्मा जी के घर मेहमान आए थे। चाय पीते पीते शर्मा जी ने कहा, 'अरे, बाहर तो बहुत गर्मी है आज।'",
+          "question": "शर्मा जी का इस बात का असली मक़सद क्या हो सकता है?",
+          "options": [
+            "वेदर फोरकास्ट डिस्कस करना",
+            "मेहमान को इनडायरेक्टली रुकने या एसी/पंखा चलाने का सिग्नल देना",
+            "अपनी हेल्थ कम्प्लेंट करना",
+            "मेहमान से बाहर ना जाने की रिक्वेस्ट करना क्योंकि उन्हें अकेला छोड़ना नहीं चाहते"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "मेहमान को इनडायरेक्टली रुकने या एसी/पंखा चलाने का सिग्नल देना"
+          }
+        },
+        "english": {
+          "context": "Guests had come to Sharma ji's house. While drinking tea, Sharma ji said, 'Oh, it's very hot outside today.'",
+          "question": "What is Sharma ji's likely real intention with this remark?",
+          "options": [
+            "Discussing the weather forecast",
+            "Indirectly signalling the guest to stay longer or turning on the AC/fan",
+            "Complaining about his own health",
+            "Requesting the guest not to go outside because he doesn't want to leave them alone"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Indirectly signalling the guest to stay longer or turning on the AC/fan"
+          }
+        }
+      },
+      "explanation": "The remark about heat functions as an indirect directive/offer embedded in small talk a common hospitality strategy where a host hints at comfort measures (fan, cold drink, staying longer) rather than asking directly.",
+      "metadata": {
+        "register": "host-guest",
+        "cultural_markers": [
+          "Indian hospitality norms",
+          "indirect comfort offer",
+          "small talk as directive"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "sarcasm",
+        "workplace"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Office mein Rohan roz late aata tha. Ek din boss ne muskura kar kaha, 'Wah Rohan, aaj toh sabse pehle aa gaye!' Rohan uss din 10 baje aaya tha jabki office time 9 baja tha.",
+          "question": "Boss ka comment kis tarah ka speech act hai?",
+          "options": [
+            "Genuine tareef karna",
+            "Sarcastic taane ke through indirect criticism",
+            "Rohan ko promotion ka signal dena",
+            "Office timing badalne ka announcement"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Sarcastic taane ke through indirect criticism"
+          }
+        },
+        "devanagari": {
+          "context": "ऑफिस में रोहन रोज़ लेट आता था। एक दिन बॉस ने मुस्कुरा कर कहा, 'वाह रोहन, आज तो सबसे पहले आ गए!' रोहन उस दिन 10 बजे आया था जबकि ऑफिस टाइम 9 बजा था।",
+          "question": "बॉस का कमेंट किस तरह का स्पीच एक्ट है?",
+          "options": [
+            "जेन्युइन तारीफ करना",
+            "सार्कास्टिक ताने के थ्रू इनडायरेक्ट क्रिटिसिज़्म",
+            "रोहन को प्रमोशन का सिग्नल देना",
+            "ऑफिस टाइमिंग बदलने का अनाउंसमेंट"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "सार्कास्टिक ताने के थ्रू इनडायरेक्ट क्रिटिसिज़्म"
+          }
+        },
+        "english": {
+          "context": "Rohan came late to office every day. One day, the boss smiled and said, 'Wow Rohan, today you're the first one here!' Rohan had actually arrived at 10 AM while office time was 9 AM.",
+          "question": "What kind of speech act is the boss's comment?",
+          "options": [
+            "Genuine praise",
+            "Indirect criticism delivered through sarcasm",
+            "A signal about Rohan's promotion",
+            "An announcement about changed office timing"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Indirect criticism delivered through sarcasm"
+          }
+        }
+      },
+      "explanation": "The boss's praise is a sarcastic inversion the literal positive meaning is contradicted by context (Rohan is an hour late), functioning as a face-saving reprimand rather than genuine compliment.",
+      "metadata": {
+        "register": "workplace-formal",
+        "cultural_markers": [
+          "Indian office hierarchy",
+          "sarcasm as soft reprimand",
+          "boss-employee dynamic"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "blessing",
+        "ritual-performative"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Diwali par Meera apne dadi ke paon chhoo kar aashirwad lene gayi. Dadi ne sar par haath rakh kar kaha, 'Khush raho, khoob taraki karo.'",
+          "question": "Dadi ka 'khush raho, khoob taraki karo' kehna kya karta hai?",
+          "options": [
+            "Meera ke bhavishya ke baare mein prediction karna",
+            "Meera ko advice dena ki voh mehnat kare",
+            "Diwali ki rasmein describe karna",
+            "Ek performative blessing jo bolte hi effect mein aa jaati hai socially"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Ek performative blessing jo bolte hi effect mein aa jaati hai socially"
+          }
+        },
+        "devanagari": {
+          "context": "दिवाली पर मीरा अपनी दादी के पाँव छू कर आशीर्वाद लेने गई। दादी ने सर पर हाथ रख कर कहा, 'खुश रहो, खूब तरक्की करो।'",
+          "question": "दादी का 'खुश रहो, खूब तरक्की करो' कहना क्या करता है?",
+          "options": [
+            "मीरा के भविष्य के बारे में प्रेडिक्शन करना",
+            "मीरा को एडवाइस देना कि वो मेहनत करे",
+            "दिवाली की रस्में डिस्क्राइब करना",
+            "एक परफॉर्मेटिव ब्लेसिंग जो बोलते ही इफ़ेक्ट में आ जाती है सोशली"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "एक परफॉर्मेटिव ब्लेसिंग जो बोलते ही इफ़ेक्ट में आ जाती है सोशली"
+          }
+        },
+        "english": {
+          "context": "On Diwali, Meera touched her grandmother's feet to receive blessings. Grandmother placed a hand on her head and said, 'Be happy, prosper greatly.'",
+          "question": "What does grandmother's utterance 'be happy, prosper greatly' do?",
+          "options": [
+            "Predicts Meera's future",
+            "Advises Meera to work hard",
+            "Describes Diwali rituals",
+            "Performs a blessing a performative act that socially takes effect the moment it is uttered"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Performs a blessing a performative act that socially takes effect the moment it is uttered"
+          }
+        }
+      },
+      "explanation": "Elder blessings following the paon chhuna (touching feet) ritual are canonical performatives the utterance itself constitutes the act of blessing, not a report or prediction, similar to declarations like 'I now pronounce you...'.",
+      "metadata": {
+        "register": "ritual-familial",
+        "cultural_markers": [
+          "paon chhuna ritual",
+          "elder blessing",
+          "festival greeting"
+        ],
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_010",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-refusal",
+        "cost-mention"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ankit ne apne dost Vivek se car maangi weekend trip ke liye. Vivek ne kaha, 'Yaar car toh theek hai, par uska insurance abhi renew nahi hua, aur tyre bhi kharab hai.'",
+          "question": "Vivek asal mein kya keh raha hai?",
+          "options": [
+            "Voh Ankit ko car repair karne ko keh raha hai",
+            "Voh indirectly car dene se mana kar raha hai bina seedhe 'nahi' bole",
+            "Voh Ankit ko insurance company ka number de raha hai",
+            "Voh apni car bechna chahta hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Voh indirectly car dene se mana kar raha hai bina seedhe 'nahi' bole"
+          }
+        },
+        "devanagari": {
+          "context": "अंकित ने अपने दोस्त विवेक से कार माँगी वीकेंड ट्रिप के लिए। विवेक ने कहा, 'यार कार तो ठीक है, पर उसका इंश्योरेंस अभी रिन्यू नहीं हुआ, और टायर भी खराब है।'",
+          "question": "विवेक असल में क्या कह रहा है?",
+          "options": [
+            "वो अंकित को कार रिपेयर करने को कह रहा है",
+            "वो इनडायरेक्टली कार देने से मना कर रहा है बिना सीधे 'नहीं' बोले",
+            "वो अंकित को इंश्योरेंस कंपनी का नंबर दे रहा है",
+            "वो अपनी कार बेचना चाहता है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "वो इनडायरेक्टली कार देने से मना कर रहा है बिना सीधे 'नहीं' बोले"
+          }
+        },
+        "english": {
+          "context": "Ankit asked his friend Vivek to lend him his car for a weekend trip. Vivek said, 'The car is fine, but its insurance hasn't been renewed and the tyres are worn out too.'",
+          "question": "What is Vivek actually doing?",
+          "options": [
+            "Asking Ankit to get the car repaired",
+            "Indirectly refusing to lend the car without saying a direct 'no'",
+            "Giving Ankit the insurance company's number",
+            "Trying to sell his car"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Indirectly refusing to lend the car without saying a direct 'no'"
+          }
+        }
+      },
+      "explanation": "By listing practical problems (insurance, tyres) instead of directly declining, Vivek performs an indirect refusal a face-saving strategy common between friends to avoid the bluntness of a flat 'no'.",
+      "metadata": {
+        "register": "friends-casual",
+        "cultural_markers": [
+          "indirect refusal via excuse",
+          "friendship favour negotiation"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_011",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "rhetorical-question",
+        "complaint"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Neha teesri baar apne roommate se bola, 'Kya tumhe kabhi bhi bartan dhona yaad rehta hai?' Roommate har baar bartan sink mein chhod deta tha.",
+          "question": "Neha ka sawal kya function kar raha hai?",
+          "options": [
+            "Voh genuinely poochh rahi hai ki roommate ko yaad rehta hai ya nahi",
+            "Yeh ek rhetorical question hai jo complaint/reprimand ka kaam kar raha hai",
+            "Voh memory test le rahi hai",
+            "Voh roommate ki tareef kar rahi hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Yeh ek rhetorical question hai jo complaint/reprimand ka kaam kar raha hai"
+          }
+        },
+        "devanagari": {
+          "context": "नेहा तीसरी बार अपने रूममेट से बोली, 'क्या तुम्हें कभी भी बर्तन धोना याद रहता है?' रूममेट हर बार बर्तन सिंक में छोड़ देता था।",
+          "question": "नेहा का सवाल क्या फंक्शन कर रहा है?",
+          "options": [
+            "वो जेन्युइनली पूछ रही है कि रूममेट को याद रहता है या नहीं",
+            "यह एक रेटोरिकल क्वेश्चन है जो कम्प्लेंट/रिप्रीमांड का काम कर रहा है",
+            "वो मेमोरी टेस्ट ले रही है",
+            "वो रूममेट की तारीफ कर रही है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "यह एक रेटोरिकल क्वेश्चन है जो कम्प्लेंट/रिप्रीमांड का काम कर रहा है"
+          }
+        },
+        "english": {
+          "context": "For the third time, Neha said to her roommate, 'Do you ever remember to wash the dishes?' The roommate kept leaving dishes in the sink every time.",
+          "question": "What is Neha's question functioning as?",
+          "options": [
+            "A genuine question about whether the roommate remembers or not",
+            "A rhetorical question that functions as a complaint/reprimand",
+            "A memory test",
+            "A compliment to the roommate"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "A rhetorical question that functions as a complaint/reprimand"
+          }
+        }
+      },
+      "explanation": "The interrogative form does not seek information it presupposes a negative answer and is used to voice frustration and implicitly demand a change in behaviour, a classic rhetorical-question-as-complaint pattern.",
+      "metadata": {
+        "register": "roommate-domestic",
+        "cultural_markers": [
+          "shared-living friction",
+          "rhetorical reprimand"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_012",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "warning",
+        "elder-authority"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Bacha bike bahut tez chala raha tha. Papa ne peeche se chillaya, 'Dheere! Haddi tudwani hai kya?'",
+          "question": "Papa ka 'haddi tudwani hai kya' kehna kya hai?",
+          "options": [
+            "Ek genuine sawal ki bache ki haddi tootegi ya nahi",
+            "Doctor ke paas jaane ki suggestion",
+            "Ek exaggerated rhetorical warning jo speed kam karne ko keh raha hai",
+            "Bike chalane ki tareef"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Ek exaggerated rhetorical warning jo speed kam karne ko keh raha hai"
+          }
+        },
+        "devanagari": {
+          "context": "बच्चा बाइक बहुत तेज़ चला रहा था। पापा ने पीछे से चिल्लाया, 'धीरे! हड्डी तुड़वानी है क्या?'",
+          "question": "पापा का 'हड्डी तुड़वानी है क्या' कहना क्या है?",
+          "options": [
+            "एक जेन्युइन सवाल कि बच्चे की हड्डी टूटेगी या नहीं",
+            "डॉक्टर के पास जाने की सजेशन",
+            "एक एग्जेजरेटेड रेटोरिकल वार्निंग जो स्पीड कम करने को कह रहा है",
+            "बाइक चलाने की तारीफ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "एक एग्जेजरेटेड रेटोरिकल वार्निंग जो स्पीड कम करने को कह रहा है"
+          }
+        },
+        "english": {
+          "context": "The kid was riding the bike very fast. Dad shouted from behind, 'Slow down! Do you want to break a bone?'",
+          "question": "What is dad's utterance 'do you want to break a bone' doing?",
+          "options": [
+            "A genuine question about whether the child's bone will break",
+            "A suggestion to visit the doctor",
+            "An exaggerated rhetorical warning telling the child to slow down",
+            "A compliment on the bike-riding"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "An exaggerated rhetorical warning telling the child to slow down"
+          }
+        }
+      },
+      "explanation": "The hyperbolic question about breaking bones is not a literal query but a common Hindi warning formula, using dramatized consequence to urge immediate caution.",
+      "metadata": {
+        "register": "family-safety",
+        "cultural_markers": [
+          "parental warning idiom",
+          "hyperbole as directive"
+        ],
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_013",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "compliment-deflection",
+        "modesty-norm"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kisi ne Sunita se kaha, 'Aapka ghar bahut sundar hai!' Sunita ne jawab diya, 'Arre nahi nahi, bas aise hi hai, kuch khaas nahi.'",
+          "question": "Sunita ka jawab kya reflect karta hai?",
+          "options": [
+            "Voh genuinely apne ghar ko pasand nahi karti",
+            "Cultural modesty norm ke tehat compliment ko deflect karna",
+            "Voh compliment dene wale se naraz hai",
+            "Voh ghar renovate karna chahti hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Cultural modesty norm ke tehat compliment ko deflect karna"
+          }
+        },
+        "devanagari": {
+          "context": "किसी ने सुनीता से कहा, 'आपका घर बहुत सुंदर है!' सुनीता ने जवाब दिया, 'अरे नहीं नहीं, बस ऐसे ही है, कुछ खास नहीं।'",
+          "question": "सुनीता का जवाब क्या रिफ्लेक्ट करता है?",
+          "options": [
+            "वो जेन्युइनली अपने घर को पसंद नहीं करती",
+            "कल्चरल मॉडेस्टी नॉर्म के तहत कॉम्प्लीमेंट को डिफ्लेक्ट करना",
+            "वो कॉम्प्लीमेंट देने वाले से नाराज़ है",
+            "वो घर रेनोवेट करना चाहती है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "कल्चरल मॉडेस्टी नॉर्म के तहत कॉम्प्लीमेंट को डिफ्लेक्ट करना"
+          }
+        },
+        "english": {
+          "context": "Someone told Sunita, 'Your house is so beautiful!' Sunita replied, 'Oh no no, it's nothing special, just ordinary.'",
+          "question": "What does Sunita's reply reflect?",
+          "options": [
+            "She genuinely dislikes her house",
+            "Deflecting the compliment in line with a cultural modesty norm",
+            "She is annoyed at the person who complimented her",
+            "She wants to renovate the house"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Deflecting the compliment in line with a cultural modesty norm"
+          }
+        }
+      },
+      "explanation": "Downplaying a compliment ('kuch khaas nahi') is a conventional politeness strategy in Hindi discourse, avoiding the appearance of vanity rather than a literal denial of the compliment's content.",
+      "metadata": {
+        "register": "social-visit",
+        "cultural_markers": [
+          "modesty maxim",
+          "compliment response ritual"
+        ],
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": "hi_sa_mcq_014",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "insistence",
+        "food-hospitality"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Khana khate waqt mehmaan ne kaha, 'Bas, mujhe aur nahi chahiye.' Meezban aunty ne turant plate mein aur sabzi daal di aur boli, 'Arre thoda aur le lo na, itna kam khaya!'",
+          "question": "Aunty ka behavior kis norm ko reflect karta hai?",
+          "options": [
+            "Indian hospitality mein mehmaan ka 'bas' literal refusal nahi maana jaata, isliye insist karna polite maana jaata hai",
+            "Voh mehmaan ki baat maanti nahi hain kabhi",
+            "Voh chahti hain khana zyada waste ho",
+            "Voh mehmaan ko test kar rahi hain"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Indian hospitality mein mehmaan ka 'bas' literal refusal nahi maana jaata, isliye insist karna polite maana jaata hai"
+          }
+        },
+        "devanagari": {
+          "context": "खाना खाते वक़्त मेहमान ने कहा, 'बस, मुझे और नहीं चाहिए।' मेज़बान आंटी ने तुरंत प्लेट में और सब्ज़ी डाल दी और बोली, 'अरे थोड़ा और ले लो ना, इतना कम खाया!'",
+          "question": "आंटी का बिहेवियर किस नॉर्म को रिफ्लेक्ट करता है?",
+          "options": [
+            "इंडियन हॉस्पिटैलिटी में मेहमान का 'बस' लिटरल रिफ्यूज़ल नहीं माना जाता, इसलिए इंसिस्ट करना पोलाइट माना जाता है",
+            "वो मेहमान की बात मानती नहीं हैं कभी",
+            "वो चाहती हैं खाना ज़्यादा वेस्ट हो",
+            "वो मेहमान को टेस्ट कर रही हैं"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "इंडियन हॉस्पिटैलिटी में मेहमान का 'बस' लिटरल रिफ्यूज़ल नहीं माना जाता, इसलिए इंसिस्ट करना पोलाइट माना जाता है"
+          }
+        },
+        "english": {
+          "context": "While eating, the guest said, 'That's enough, I don't want more.' The host aunty immediately put more vegetable on the plate and said, 'Oh take a little more, you've eaten so little!'",
+          "question": "What norm does the aunty's behaviour reflect?",
+          "options": [
+            "In Indian hospitality, a guest's 'enough' is not taken as a literal refusal, so insisting further is considered polite",
+            "She never listens to what guests say",
+            "She wants to waste more food",
+            "She is testing the guest"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "In Indian hospitality, a guest's 'enough' is not taken as a literal refusal, so insisting further is considered polite"
+          }
+        }
+      },
+      "explanation": "A first refusal at meals is conventionally treated as a ritual politeness move rather than the guest's true preference, so the host's counter-insistence is itself a scripted hospitality speech act, not disregard for the guest's wishes.",
+      "metadata": {
+        "register": "host-guest-meal",
+        "cultural_markers": [
+          "food insistence ritual",
+          "ritual refusal-and-insist pattern"
+        ],
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

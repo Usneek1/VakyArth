@@ -1,0 +1,592 @@
+{
+  "dataset": "Malayalam Implicature - MCQs",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ma_imp_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Onaghoshathinidaye suhr̥ttukkaḷe kāṇān veetil ninnu olichodhiya Akhil, thirike veetilethumbo vathilkkal oru chooralumayi kaathunilkkunna achhaneyaanu kanunnathu. Ayal suhruthinu sandesham ayakkunnu",
+          "question": "Chetta… pani kitti!",
+          "options": [
+            "Avanu puthiya joliy kitti.",
+            "Avan kuzappathil aayi.",
+            "Veetinte alankarangalil avan achhane sahayichu.",
+            "Achhanil ninnu Onam kaineettam kitti."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Avan kuzappathil aayi."
+          }
+        },
+        "malayalam": {
+          "context": "ഓണാഘോഷത്തിനിടെ സുഹൃത്തുക്കളെ കാണാൻ വീട്ടിൽ നിന്ന് ഒളിച്ചോടിയ അഖിൽ, തിരികെ വീട്ടിലെത്തുമ്പോൾ വാതിൽക്കൽ ഒരു ചൂരലുമായി കാത്തുനിൽക്കുന്ന അച്ഛനെയാണ് കാണുന്നത്. അയാൾ സുഹൃത്തിന് ഒരു സന്ദേശം അയയ്ക്കുന്നു.",
+          "question": "ചേട്ടാ… പണി കിട്ടി!",
+          "options": [
+            "അവന് പുതിയ ജോലി കിട്ടി.",
+            "അവൻ കുഴപ്പത്തിലായി.",
+            "വീടിന്റെ അലങ്കാരങ്ങളിൽ അവൻ അച്ഛനെ സഹായിച്ചു.",
+            "അച്ഛനിൽ നിന്നു ഓണം കൈനീട്ടം കിട്ടി."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "അവൻ കുഴപ്പത്തിലായി."
+          }
+        },
+        "english": {
+          "context": "During the Onam celebrations, Akhil sneaks out of the house to meet his friends, and when he returns, he finds his father waiting at the door with a cane. He sends a message to his friend.",
+          "question": "Bro… pani kitti!",
+          "options": [
+            "He got a new job.",
+            "He got into trouble.",
+            "He helped his father with house decorations.",
+            "He received Onam pocket money from his father."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He got into trouble."
+          }
+        }
+      },
+      "explanation": "“Pani kitti” is ambiguous (‘got work’ vs. ‘got into trouble’). Given the father waiting at the door after Akhil sneaks out, the intended reading is ‘got into trouble’.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "Onam celebration setting",
+          "father waiting at home with a cane",
+          "colloquial use of 'pani kitti' meaning 'in trouble'"
+        ],
+        "authors_note": "Tests disambiguation of an idiomatic phrase via social context."
+      }
+    },
+    {
+      "id": "ma_imp_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Veettinte mumbile football kalikkumbol Ramesh open goal miss cheythu. Suhruthukal ellavarum chiri adakki ninnu. Appo Biju paranju:",
+          "question": "Adichu poli!",
+          "options": [
+            "Ramesh valare nannayi kali adichu.",
+            "Ramesh completely chance miss cheythu.",
+            "Biju thanne goal adichu.",
+            "Avarkku kaliyude rules ariyilla."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ramesh completely chance miss cheythu."
+          }
+        },
+        "malayalam": {
+          "context": "വീട്ടിന് മുന്നിൽ ഫുട്ബോൾ കളിക്കുമ്പോൾ രമേഷ് ഓപ്പൺ ഗോൾ മിസ് ചെയ്തു. സുഹൃത്തുക്കൾ എല്ലാരും ചിരി അടക്കി നിൽക്കുകയായിരുന്നു. അപ്പോൾ ബിജു പറഞ്ഞു:",
+          "question": "അടിച്ചു പൊളി!",
+          "options": [
+            "രമേഷ് വളരെ നന്നായി കളിച്ചു.",
+            "രമേഷ് പൂർണ്ണമായി ചാൻസ് മിസ് ചെയ്തു.",
+            "ബിജു തന്നെയാണ് ഗോൾ അടിച്ചത്.",
+            "അവർക്കു കളിയുടെ നിയമങ്ങൾ അറിയില്ല."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "രമേഷ് പൂർണ്ണമായി ചാൻസ് മിസ് ചെയ്തു."
+          }
+        },
+        "english": {
+          "context": "While playing football in front of the house, Ramesh missed an open goal. All the friends tried to hold back their laughter. Then Biju said:",
+          "question": "Adichu poli!",
+          "options": [
+            "Ramesh played really well.",
+            "Ramesh completely missed the chance.",
+            "Biju scored the goal himself.",
+            "They didn’t know the rules of the game."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ramesh completely missed the chance."
+          }
+        }
+      },
+      "explanation": "‘Adichu poli’ literally means ‘smashed it’, often used to praise someone. But here, since Ramesh missed an open goal and friends are suppressing laughter, Biju’s comment is clearly sarcastic — implying the opposite.",
+      "metadata": {
+        "register": "friends / sports",
+        "cultural_markers": [
+          "local football match in a Kerala neighbourhood",
+          "informal teasing among friends",
+          "sarcastic use of 'adichu poli' after a failure"
+        ],
+        "authors_note": "Tests pragmatic inference where a positive idiom is used ironically in peer-group banter."
+      }
+    },
+    {
+      "id": "ma_imp_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "slang",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Shaniyayazcha vaikauneram Arun thante suhruth Vivekumayi usual cafe-yil chaya kudikkunnu. Vivek chodichu: 'Entha ninte mukham vaadi irikkan?' Arun karayan orungi pole paranju:",
+          "question": "Theppu kitti!",
+          "options": [
+            "Avan shirt iron cheythu.",
+            "Avanude phone damage aayi.",
+            "Avan oru new job kitti.",
+            "Avante girlfriend avaney vittupoyi."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Avante girlfriend avaney vittupoyi."
+          }
+        },
+        "malayalam": {
+          "context": "ശനിയാഴ്ച വൈകുന്നേരം അരുണ് തന്റെ സുഹൃത്ത് വിവേക്കിനൊപ്പം പതിവ് കഫേയിൽ ചായ കുടിക്കുകയായിരുന്നു. വിവേക് ചോദിച്ചു: 'എന്താ നിന്റെ മുഖം വാടി ഇരിക്കാൻ?' അരുണ് കരയാനൊരുങ്ങി പോലെ പറഞ്ഞു:",
+          "question": "തെപ്പ് കിട്ടി!",
+          "options": [
+            "അവൻ ഷർട്ട് ഇസ്തിരി ചെയ്തു.",
+            "അവന്റെ ഫോൺ ഡാമേജ് ആയി.",
+            "അവന് പുതിയ ജോലി കിട്ടി.",
+            "അവന്റെ ഗേൾഫ്രണ്ട് അവനെ വിട്ടുപോയി."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "അവന്റെ ഗേൾഫ്രണ്ട് അവനെ വിട്ടുപോയി."
+          }
+        },
+        "english": {
+          "context": "On Saturday evening, Arun was having tea with his friend Vivek at their usual café. Vivek asked, 'Why does your face look so down?' Arun, almost about to cry, said:",
+          "question": "Theppu kitti!",
+          "options": [
+            "He ironed his shirt.",
+            "His phone got damaged.",
+            "He got a new job.",
+            "His girlfriend dumped him."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "His girlfriend dumped him."
+          }
+        }
+      },
+      "explanation": "‘Theppu’ literally means ‘ironing,’ but in Malayalam slang it means being ditched or dumped, especially in relationships. Arun’s expression and tone — ‘almost about to cry’ — make it clear he’s talking about getting dumped.",
+      "metadata": {
+        "register": "college / youth slang",
+        "cultural_markers": [
+          "Malayalam café hangout scene with male friends",
+          "phrase 'എന്താ നിന്റെ മുഖം വാടി ഇരിക്കാൻ?' expressing informal concern",
+          "expression 'കരയാനൊരുങ്ങി പോലെ പറഞ്ഞു' conveying near tears",
+          "slang use of 'theppu' meaning romantic betrayal"
+        ],
+        "authors_note": "Captures subtle emotional implicature — humor mixed with heartbreak — in youth Malayalam slang."
+      }
+    },
+    {
+      "id": "ma_imp_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "metaphor",
+        "parental-advice",
+        "migration-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ravi thante makan Adithyan abroad joli cheyyan pokunnu. Airport-il vidaparayumbol achan avane nokki paranju: “Aakashathayirikkumbol orupidi mannum manassil sookshikkuka.”",
+          "question": "Ithil achan enthaanu uddeshikkunnath?",
+          "options": [
+            "Abroad pokumbol India-yil ninnulla mannu carry cheyyan orma vechu ennu",
+            "Valiya sthaanam ethiyalum thante verukal marakkaruthu ennu",
+            "Flight-il mannu kondupokunnath customs-il prashnam aakum ennu munnariyipp nalkunnu",
+            "Videshath thamasikkumbol veettil ninnulla saadhanangal kondupokendathanu ennu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Valiya sthaanam ethiyalum thante verukal marakkaruthu ennu"
+          }
+        },
+        "malayalam": {
+          "context": "രവി തന്റെ മകൻ ആദിത്യൻ വിദേശത്ത് ജോലി ചെയ്യാൻ പോകുന്നു. എയർപോർട്ടിൽ വിടപറയുമ്പോൾ അച്ഛൻ അവനെ നോക്കി പറഞ്ഞു: “ആകാശത്തായിരിക്കുമ്പോൾ ഒരുപിടി മണ്ണും മനസ്സിൽ സൂക്ഷിക്കുക.”",
+          "question": "ഇവിടെ അച്ഛന്റെ ഉദ്ദേശം എന്താണ്?",
+          "options": [
+            "വിദേശത്തേക്ക് പോകുമ്പോൾ ഇന്ത്യയിലെ മണ്ണ് കൈയിൽ എടുത്ത് വിമാനത്തിൽ കൊണ്ടുപോകണം എന്ന്",
+            "വലിയ സ്ഥാനത്തെത്തിയാലും സ്വന്തം വേരുകൾ മറക്കരുത് എന്ന്",
+            "വിമാനത്തിൽ മണ്ണ് കൊണ്ടുപോകുന്നത് കസ്റ്റംസിൽ പ്രശ്നമാകാം എന്ന് മുന്നറിയിപ്പ് നൽകുന്നു",
+            "വിദേശജീവിതത്തിനായി നാട്ടിൽ നിന്നുള്ള സാധനങ്ങൾ കൂടുതൽ കൊണ്ടുപോകണം എന്ന്"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "വലിയ സ്ഥാനത്തെത്തിയാലും സ്വന്തം വേരുകൾ മറക്കരുത് എന്ന്"
+          }
+        },
+        "english": {
+          "context": "Ravi’s son Adithyan is leaving to work abroad. While bidding farewell at the airport, the father tells him: “When you are in the sky, keep a handful of soil in your heart.”",
+          "question": "What does the father most likely mean?",
+          "options": [
+            "He should physically carry soil from India on the plane",
+            "Even if he rises high, he should not forget his roots",
+            "Carrying soil on a flight may cause customs problems",
+            "He should pack more things from home for life abroad"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Even if he rises high, he should not forget his roots"
+          }
+        }
+      },
+      "explanation": "The father’s statement is metaphorical. ‘Sky’ represents success or going abroad, and ‘soil’ symbolizes one’s roots and homeland. Literal interpretations about physically carrying soil on a plane misinterpret the implicature. The intended meaning is advice to remain grounded and connected to one’s origins.",
+      "metadata": {
+        "register": "family/emotional",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Kerala migration culture",
+          "Airport farewell ritual",
+          "Metaphorical parental advice",
+          "Rootedness vs upward mobility"
+        ]
+      }
+    },
+    {
+      "id": "ml_spa_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "directive",
+        "complaint",
+        "implicature",
+        "off-record-strategy"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ammā makanōṭ pala pravāśyam paṟaññu: \"Room vr̥ttiyākkaṇam.\" Makan athu avagāṇiccu. Pinne ammā kuṭukkē śabdattōṭ cōdikkunnu: \"Etra tavaṇa paṟaññāl āṇ nī kēḷkkunnathu?\"",
+          "question": "Ammayude vākkŭ prāyōgikamay entāṇ nirvahikkunnathu?",
+          "options": [
+            "Ammā vāstavattāl eṟṟa saṅkhyā aṟiyān cōdikkunnu",
+            "Makan kettittillennŭ urappākkān oru vivara cōdyaṁ",
+            "Ammā oru saṁbhāṣaṇaṁ toṭarān mātram cōdikkunnu",
+            "Makan uṭane kēḷkkukayuṁ anuṣṭhikkukayuṁ ceyyēṇam ennŭ oru śāsanaṁ"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Makan uṭane kēḷkkukayuṁ anuṣṭhikkukayuṁ ceyyēṇam ennŭ oru śāsanaṁ"
+          }
+        },
+        "malayalam": {
+          "context": "അമ്മ മകനോട് പല പ്രാവശ്യം പറഞ്ഞു: \"റൂം വൃത്തിയാക്കണം.\" മകൻ അത് അവഗണിച്ചു. പിന്നീട് അമ്മ കടുത്ത ശബ്ദത്തിൽ ചോദിക്കുന്നു: \"എത്ര തവണ പറഞ്ഞാലാണ് നീ കേൾക്കുന്നത്?\"",
+          "question": "അമ്മയുടെ വാക്ക് പ്രായോഗികമായി എന്താണ് നിർവഹിക്കുന്നത്?",
+          "options": [
+            "അമ്മ യഥാർത്ഥത്തിൽ എത്ര തവണ പറഞ്ഞാൽ കേൾക്കും എന്ന് അറിയാൻ ചോദിക്കുന്നു",
+            "മകൻ കേട്ടോ ഇല്ലയോ എന്ന് ഉറപ്പാക്കാൻ വിവരചോദ്യം ചോദിക്കുന്നു",
+            "സംഭാഷണം തുടരാനായി ഒരു സാധാരണ ചോദ്യം ചോദിക്കുന്നു",
+            "മകൻ ഉടനെ കേൾക്കുകയും നിർദ്ദേശം പാലിക്കുകയും ചെയ്യണമെന്ന ഒരു ശാസനയാണ്"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "മകൻ ഉടനെ കേൾക്കുകയും നിർദ്ദേശം പാലിക്കുകയും ചെയ്യണമെന്ന ഒരു ശാസനയാണ്"
+          }
+        },
+        "english": {
+          "context": "A mother repeatedly told her son to clean his room. He ignored it. Later, in a stern tone, she asks, “How many times do I have to tell you before you listen?”",
+          "question": "What does the mother's utterance pragmatically perform?",
+          "options": [
+            "She is literally asking for a number",
+            "She is checking whether her son heard her",
+            "She is simply continuing the conversation",
+            "She is reprimanding him and directing him to obey immediately"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "She is reprimanding him and directing him to obey immediately"
+          }
+        }
+      },
+      "explanation": "Although grammatically framed as a question, the utterance functions as a directive speech act. It expresses frustration and implicitly commands immediate compliance rather than seeking information.",
+      "metadata": {
+        "register": "informal / family",
+        "cultural_markers": [
+          "Malayalam parental authority discourse",
+          "rhetorical reprimand question",
+          "off-record directive through complaint"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "ml_imp_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "hyperbole",
+        "political-speech",
+        "figurative-language",
+        "ideological-loyalty"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Emergency anusmarana sammelanathil pazhaya communist pravarthakan Ravi orma pankidunnu: \"Station-il chodhyam cheythappol njan paranjathu — nakhathinidayil mottusoochi kayattiyaalum ente sakakaley njan vanchikkilla.\"",
+          "question": "Raviyude ee vākkŭ prāyōgikamay entāṇ sujippikkunnathu?",
+          "options": [
+            "Police peedanathinte bhikaratha udaharanamay avan vivarikkunnu",
+            "Ethra peedanam undayalum thante sakakalekkurichu onnum velippeduthilla enna uracha nilapadu avan pradarshippikkunnu",
+            "Emergency kaalath chodyam cheyyalinte kadutha swabhavam avan orkkunnu",
+            "Thanne chodyam cheytha police udhyogastare vimarshikkan avan shramikkunnu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ethra peedanam undayalum thante sakakalekkurichu onnum velippeduthilla enna uracha nilapadu avan pradarshippikkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "എമർജൻസി അനുസ്മരണ സമ്മേളനത്തിൽ പഴയ കമ്മ്യൂണിസ്റ്റ് പ്രവർത്തകൻ രവി തന്റെ അനുഭവം പങ്കുവെച്ചു: \"സ്റ്റേഷനിൽ ചോദ്യം ചെയ്തപ്പോൾ ഞാൻ പറഞ്ഞത് — നഖത്തിനിടയിൽ മൊട്ടുസൂചി കയറ്റിയാലും എന്റെ സഖാക്കളെ ഞാൻ വഞ്ചിക്കില്ല.\"",
+          "question": "രവിയുടെ ഈ വാക്കുകൾ പ്രായോഗികമായി എന്താണ് സൂചിപ്പിക്കുന്നത്?",
+          "options": [
+            "പോലീസ് പീഡനത്തിന്റെ ഭീകരതയെ അദ്ദേഹം ഉദാഹരണമായി വിവരിക്കുന്നു",
+            "എത്ര പീഡനം ഉണ്ടായാലും തന്റെ സഖാക്കളെക്കുറിച്ച് ഒന്നും വെളിപ്പെടുത്തില്ലെന്ന ഉറച്ച നിലപാട് അദ്ദേഹം പ്രകടിപ്പിക്കുന്നു",
+            "എമർജൻസി കാലത്തെ ചോദ്യം ചെയ്യലുകളുടെ കടുത്ത സ്വഭാവം അദ്ദേഹം ഓർമ്മിക്കുന്നു",
+            "തന്നെ ചോദ്യം ചെയ്ത പോലീസ് ഉദ്യോഗസ്ഥരെ വിമർശിക്കാൻ അദ്ദേഹം ശ്രമിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "എത്ര പീഡനം ഉണ്ടായാലും തന്റെ സഖാക്കളെക്കുറിച്ച് ഒന്നും വെളിപ്പെടുത്തില്ലെന്ന ഉറച്ച നിലപാട് അദ്ദേഹം പ്രകടിപ്പിക്കുന്നു"
+          }
+        },
+        "english": {
+          "context": "At a conference commemorating the Emergency, an old communist activist Ravi recalls: \"When they questioned me at the station, I told them—even if they drove needles under my nails, I would not betray my comrades.\"",
+          "question": "What does Ravi’s statement pragmatically imply?",
+          "options": [
+            "He is illustrating how severe police torture could be during interrogations",
+            "He is emphasizing that he would never reveal information about his comrades even under extreme torture",
+            "He is recalling the harsh nature of Emergency-era interrogations",
+            "He is criticizing the police officers who questioned him"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He is emphasizing that he would never reveal information about his comrades even under extreme torture"
+          }
+        }
+      },
+      "explanation": "The phrase 'even if they drove needles under my nails' is used as hyperbole. Ravi is not describing a literal event but emphasizing that he would remain loyal to his comrades even under extreme torture. The utterance therefore functions as implicature expressing ideological commitment.",
+      "metadata": {
+        "register": "political speech / commemorative discourse",
+        "cultural_markers": [
+          "Emergency period political memory",
+          "communist activist rhetoric",
+          "hyperbolic resistance language"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "ma_imp_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "metaphor",
+        "social-criticism",
+        "class-inequality"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Theruvorath cheriya kada nadathunna kure perude kadakal niyamalamghanam paranju adhikruthar adappichu. Aduthulla valiya sthapanangal athe niyamangal langhichittum avaykkethire nadapadi undayilla. Ithu kanduninna Balan paranju: \"Paavangalude pichachattiyil kayyittu vaaran ellavarkkum nalla midukkaanu!\"",
+          "question": "Balan ithiloode enthaanu suuchippikkunnathu?",
+          "options": [
+            "Cherukadakkarude kayyil ninnu adhikruthar panam moshtikkunnu",
+            "Niyamangal nadappakkumbol paavangale eluppathil lakshyamidunnu, ennal valiyavarude langhanangal avaganikkappedunnu",
+            "Theruvorath kada nadathunnavar saadhaaranayaayi yaachichaanu jeevikkunnathu",
+            "Cherukadakkar adhikrutharodu saambathika sahaayam chodikkunnu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Niyamangal nadappakkumbol paavangale eluppathil lakshyamidunnu, ennal valiyavarude langhanangal avaganikkappedunnu"
+          }
+        },
+        "malayalam": {
+          "context": "തെരുവോരത്ത് ചെറിയ കട നടത്തുന്ന കുറേ പേരുടെ കടകൾ നിയമലംഘനം പറഞ്ഞ് അധികൃതർ അടപ്പിച്ചു. അടുത്തുള്ള വലിയ സ്ഥാപനങ്ങൾ അതേ നിയമങ്ങൾ ലംഘിച്ചിട്ടും അവയ്ക്കെതിരെ നടപടിയുണ്ടായില്ല. ഇതു കണ്ടുനിന്ന ബാലൻ പറഞ്ഞു: \"പാവങ്ങളുടെ പിച്ചച്ചട്ടിയിൽ കൈയിട്ട് വാരാൻ എല്ലാവർക്കും നല്ല മിടുക്കാണ്!\"",
+          "question": "ബാലൻ ഇതിലൂടെ എന്താണ് സൂചിപ്പിക്കുന്നത്?",
+          "options": [
+            "ചെറുകടക്കാരുടെ കൈയിൽനിന്ന് അധികൃതർ പണം മോഷ്ടിക്കുന്നു",
+            "നിയമങ്ങൾ നടപ്പാക്കുമ്പോൾ പാവങ്ങളെ എളുപ്പത്തിൽ ലക്ഷ്യമിടുന്നു, എന്നാൽ വലിയവരുടെ ലംഘനങ്ങൾ അവഗണിക്കപ്പെടുന്നു",
+            "തെരുവോരത്ത് കട നടത്തുന്നവർ സാധാരണയായി യാചിച്ചാണ് ജീവിക്കുന്നത്",
+            "ചെറുകടക്കാർ അധികൃതരോട് സാമ്പത്തിക സഹായം ചോദിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "നിയമങ്ങൾ നടപ്പാക്കുമ്പോൾ പാവങ്ങളെ എളുപ്പത്തിൽ ലക്ഷ്യമിടുന്നു, എന്നാൽ വലിയവരുടെ ലംഘനങ്ങൾ അവഗണിക്കപ്പെടുന്നു"
+          }
+        },
+        "english": {
+          "context": "Authorities shut down several small roadside shops for violating regulations. Nearby, much larger businesses were violating the same rules but faced no action. Watching this, Balan remarks: \"Everyone is very good at reaching into the begging bowl of the poor!\"",
+          "question": "What is Balan implying?",
+          "options": [
+            "The authorities are literally stealing money from the small shopkeepers",
+            "Rules are readily enforced against the poor while violations by the powerful are overlooked",
+            "People who run roadside shops usually survive by begging",
+            "The small shopkeepers are asking the authorities for financial assistance"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Rules are readily enforced against the poor while violations by the powerful are overlooked"
+          }
+        }
+      },
+      "explanation": "The expression 'പാവങ്ങളുടെ പിച്ചച്ചട്ടിയിൽ കൈയിട്ട് വാരുക' is not meant literally. Balan uses the image of taking even from a poor person's begging bowl to criticize unequal treatment: authorities readily act against people with little power while overlooking similar violations by more powerful groups.",
+      "metadata": {
+        "register": "informal / public commentary",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "metaphorical use of 'പിച്ചച്ചട്ടി'",
+          "class-sensitive social criticism",
+          "unequal enforcement",
+          "criticism of power"
+        ]
+      }
+    },
+    {
+      "id": "ma_imp_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "indirect-advice",
+        "warning",
+        "scarcity-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ari kittaan buddhimuttulla samayath Leela oru kadayil ari vaangaan ethi. Veettil kurachu divasathekku ari venamenkilum, ippol oru kilo mathram vaangaamennu Leela paranju. Kadakkaran marupadi paranju: \"Iniyum venamenkil ippo vaangikko. Ini vannaa kittillaattaa.\"",
+          "question": "Kadakkarante marupadiyiloode pradhaanmayaayi enthaanu suuchippikkunnathu?",
+          "options": [
+            "Leela ini aa kadayil vararuthennu kadakkaran parayunnu",
+            "Pinneedu ari kittumennu urappillaathathinaal aavashyamullathu ippol thanne vaangunnathaanu nallathennu kadakkaran suuchippikkunnu",
+            "Leela oru kilo ariyude vila ippol thanne kodukkanamennu kadakkaran aavashyappedunnu",
+            "Leelaykku ini ari vilkkaan kadakkaran thaalparyamillennu ariyikkunnu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Pinneedu ari kittumennu urappillaathathinaal aavashyamullathu ippol thanne vaangunnathaanu nallathennu kadakkaran suuchippikkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "അരി കിട്ടാൻ ബുദ്ധിമുട്ടുള്ള സമയത്ത് ലീല ഒരു കടയിൽ അരി വാങ്ങാൻ എത്തി. വീട്ടിൽ കുറച്ചു ദിവസത്തേക്ക് അരി വേണമെങ്കിലും, ഇപ്പോൾ ഒരു കിലോ മാത്രം വാങ്ങാമെന്ന് ലീല പറഞ്ഞു. കടക്കാരൻ മറുപടി പറഞ്ഞു: \"ഇനിയും വേണമെങ്കിൽ ഇപ്പൊ വാങ്ങിക്കോ. ഇനി വന്നാ കിട്ടില്ലാട്ടാ.\"",
+          "question": "കടക്കാരന്റെ മറുപടിയിലൂടെ പ്രധാനമായും എന്താണ് സൂചിപ്പിക്കുന്നത്?",
+          "options": [
+            "ലീല ഇനി ആ കടയിൽ വരരുതെന്ന് കടക്കാരൻ പറയുന്നു",
+            "പിന്നീട് അരി കിട്ടുമെന്ന് ഉറപ്പില്ലാത്തതിനാൽ ആവശ്യമുള്ളത് ഇപ്പോൾ തന്നെ വാങ്ങുന്നതാണ് നല്ലതെന്ന് കടക്കാരൻ സൂചിപ്പിക്കുന്നു",
+            "ലീല ഒരു കിലോ അരിയുടെ വില ഇപ്പോൾ തന്നെ കൊടുക്കണമെന്ന് കടക്കാരൻ ആവശ്യപ്പെടുന്നു",
+            "ലീലയ്ക്ക് ഇനി അരി വിൽക്കാൻ കടക്കാരന് താൽപര്യമില്ലെന്ന് അറിയിക്കുന്നു"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "പിന്നീട് അരി കിട്ടുമെന്ന് ഉറപ്പില്ലാത്തതിനാൽ ആവശ്യമുള്ളത് ഇപ്പോൾ തന്നെ വാങ്ങുന്നതാണ് നല്ലതെന്ന് കടക്കാരൻ സൂചിപ്പിക്കുന്നു"
+          }
+        },
+        "english": {
+          "context": "At a time when rice is difficult to obtain, Leela goes to a shop to buy some. Although she needs enough rice for the next few days, she says she will buy only one kilogram for now. The shopkeeper replies: \"If you need more, buy it now. If you come again, you may not get any.\"",
+          "question": "What is the shopkeeper mainly implying?",
+          "options": [
+            "Leela should not come to the shop again",
+            "Since rice may not be available later, she would be better off buying what she needs now",
+            "Leela must pay for the one kilogram of rice immediately",
+            "The shopkeeper does not want to sell rice to Leela again"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Since rice may not be available later, she would be better off buying what she needs now"
+          }
+        }
+      },
+      "explanation": "The shopkeeper is not simply describing what will happen if Leela returns. In the context of scarcity, \"ഇനി വന്നാ കിട്ടില്ലാട്ടാ\" functions as a warning and indirectly advises her to buy enough rice while it is still available.",
+      "metadata": {
+        "register": "everyday commercial interaction",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "food scarcity",
+          "indirect advice through warning",
+          "colloquial Malayalam expression 'ഇനി വന്നാ കിട്ടില്ലാട്ടാ'"
+        ],
+        "authors_note": "Tests whether the model can infer an indirect recommendation from a statement about likely future unavailability."
+      }
+    },
+    {
+      "id": "ma_imp_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "figurative-language",
+        "despair",
+        "human-suffering"
+      ],
+      "scripts": {
+        "malayalam": {
+          "context": "പൂക്കൾ വിൽക്കുന്ന ഇട്ടുണ്ണിനായർക്ക് പ്ലാസ്റ്റിക് പൂക്കൾ വന്നതോടെ കച്ചവടം നഷ്ടപ്പെട്ടു. കടം കൂടി, വീട്ടിൽ ഭക്ഷണത്തിനുപോലും പണമില്ലാത്ത അവസ്ഥയായി. ഒരു ദിവസം പ്ലാസ്റ്റിക് സാധനങ്ങൾ വിൽക്കുന്ന ആളോട് അയാൾ പറഞ്ഞു: “എന്നാൽ പ്ലാസ്റ്റിക് കൊണ്ട് ഒരു ഇട്ടുണ്ണിനായരെ ഉണ്ടാക്കിത്തരൂ. പ്ലാസ്റ്റിക് കൊണ്ടായാൽ വിശപ്പും ദാഹവും അറിയില്ലല്ലോ. മനസ്സിന്റെ വേദനയും അറിയില്ലല്ലോ...?”",
+          "question": "ഇട്ടുണ്ണിനായരുടെ ഈ വാക്കുകൾ പ്രധാനമായും എന്താണ് സൂചിപ്പിക്കുന്നത്?",
+          "options": [
+            "പ്ലാസ്റ്റിക് സാധനങ്ങൾക്ക് നാട്ടിൽ പ്രചാരം കൂടിയതിനാൽ ആ കച്ചവടത്തിലേക്ക് മാറാൻ അയാൾ ആഗ്രഹിക്കുന്നു",
+            "സ്വന്തം രൂപത്തിലുള്ള ഒരു പ്ലാസ്റ്റിക് പ്രതിമ പൂക്കടയിൽ വെക്കുന്നത് കൂടുതൽ ആളുകളെ ആകർഷിക്കുമെന്ന് അയാൾ കരുതുന്നു",
+            "പ്ലാസ്റ്റിക് മനുഷ്യന് വിശപ്പോ ദാഹമോ ഉണ്ടാകില്ലെന്ന ആശയം അയാൾ കൗതുകത്തോടെ പരിശോധിക്കുകയാണ്",
+            "വിശപ്പും ദാരിദ്ര്യവും മനോവേദനയും സഹിക്കാനാവാതെ, ഒന്നും അനുഭവിക്കേണ്ടിവരാത്ത അവസ്ഥപോലും അയാൾക്ക് ആശ്വാസമായി തോന്നുന്നു"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "വിശപ്പും ദാരിദ്ര്യവും മനോവേദനയും സഹിക്കാനാവാതെ, ഒന്നും അനുഭവിക്കേണ്ടിവരാത്ത അവസ്ഥപോലും അയാൾക്ക് ആശ്വാസമായി തോന്നുന്നു"
+          }
+        },
+        "english": {
+          "context": "Ittunninair, a flower seller, loses his livelihood after plastic flowers become popular. His debts grow, and he no longer has enough money even to feed his family. One day he tells the man who sells plastic goods: “Then make an Ittunninair out of plastic. If I were plastic, I wouldn’t know hunger or thirst. I wouldn’t know the pain of the mind either... would I?”",
+          "question": "What is Ittunninair mainly implying through these words?",
+          "options": [
+            "Because plastic goods have become popular, he wants to enter the plastic business himself",
+            "He thinks a plastic likeness of himself in the flower shop would attract more customers",
+            "He is curiously considering whether a plastic human would literally be free from hunger and thirst",
+            "His hunger, poverty, and emotional suffering have become so unbearable that even an existence incapable of feeling seems like relief"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "His hunger, poverty, and emotional suffering have become so unbearable that even an existence incapable of feeling seems like relief"
+          }
+        }
+      },
+      "explanation": "ഇട്ടുണ്ണിനായർ പ്ലാസ്റ്റിക്കിന്റെ ഗുണങ്ങളെക്കുറിച്ച് അക്ഷരാർഥത്തിൽ സംസാരിക്കുകയല്ല. വിശപ്പും ദാരിദ്ര്യവും മനോവേദനയും നിറഞ്ഞ ജീവിതത്തിൽ നിന്ന് മോചനം നേടാനുള്ള അദ്ദേഹത്തിന്റെ നിരാശയാണ് ഈ വാക്കുകളിൽ പ്രകടമാകുന്നത്.",
+      "metadata": {
+        "register": "literary / social",
+        "difficulty": "hard",
+        "authors_note": "Tests whether the model can infer the speaker's desire to escape suffering rather than interpret the request to become plastic literally."
+      }
+    }
+  ]
+}

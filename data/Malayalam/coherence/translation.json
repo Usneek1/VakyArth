@@ -1,0 +1,206 @@
+{
+  "dataset": "Malayalam Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "malayalam_to_english",
+  "task_description": "Translate the given Malayam sentence into natural, idiomatic English.",
+  "items": [
+    {
+      "id": "ma_coh_tra_001",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "thematic-progression",
+        "conceptual-contrast"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "നാം പാർക്കുന്ന ലോകവും നാം ജീവിക്കുന്ന ലോകവും തമ്മിൽ വലിയ അന്തരമുണ്ട്. ഒരേ നഗരത്തിൽ ഒരേ തെരുവിൽ പാർക്കുന്ന രണ്ടു വ്യക്തികൾ രണ്ടു വ്യത്യസ്ത ലോകങ്ങളിൽ ജീവിക്കുന്നതായി കാണാം. എവിടെ നാം പാർക്കുകയും പ്രവർത്തിക്കുകയും ചെയ്യുന്നു, അതാണ് നമ്മുടെ ലോകം എന്ന് ഇതുവരെ ശാസ്ത്രജ്ഞർ വാദിച്ചിരുന്നു. എന്നാൽ ആധുനിക മനശ്ശാസ്ത്രം പറയുന്നത്, പരിസരങ്ങളോ പാരമ്പര്യങ്ങളോ അല്ല, മനസ്സിന്റെ നിലയും പ്രവർത്തനഗതിയും ആണ് ഓരോ മനുഷ്യന്റെയും ലോകം സൃഷ്ടിക്കുന്നത് എന്നതാണ്. മറ്റൊരു വിധത്തിൽ പറഞ്ഞാൽ, അവരവരുടെ ജീവിതതാൽപ്പര്യങ്ങളാണ് ഓരോരുത്തരുടെയും ലോകത്തെ വാർത്തെടുക്കുന്നത്. നമ്മുടെ ചിന്തകളും ലക്ഷ്യങ്ങളും വികാരങ്ങളും നാം ജീവിക്കുന്ന ലോകം സൃഷ്ടിക്കുന്നതിൽ വലിയ പങ്ക് വഹിക്കുന്നു.",
+          "latin": "Nām pārkkunna lōkavum nām jīvikkunna lōkavum tammil valiya antaramuṇṭ. Orē nagarattil orē teruvil pārkkunna raṇḍu vyaktikaḷ raṇḍu vyatyasta lōkaṅṅaḷil jīvikkunnatāyi kāṇām. Evide nām pārkkukayum pravarttikkukayum ceyyunnu, atāṇ nammuṭe lōkam ennu ituvare śāstrajñar vādiccirunnu. Ennāl ādhunika manaśśāstram paṟayunnat, parisaraṅṅaḷō pāramparyaṅṅaḷō alla, manassinte nilaiyum pravarttanagatiyum āṇ oro manuṣyantēyum lōkam sr̥ṣṭikkunnat ennatāṇ. Maṟṟoru vidhattil paṟaññāl, avaravarute jīvitatālparyaṅṅaḷāṇ oroṟuttaruteyum lōkattē vārttēṭukkunnat. Nammuṭe cintakaḷum lakṣyaṅṅaḷum vikāraṅṅaḷum nām jīvikkunna lōkam sr̥ṣṭikkunnatil valiya paṅk vahikkunnu."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "There is a great difference between the world we reside in and the world we live in. Even two people living on the same street in the same city may be living in two different worlds. Until now, scientists have argued that the place where we live and act constitutes our world. However, modern psychology argues that it is not surroundings or traditions, but the state and functioning of the mind that create each person's world. In other words, one’s life interests shape one’s world. Our thoughts, goals, and emotions play a major role in constructing the world we live in."
+      },
+      "notes": "Tests coherence through conceptual contrast (external environment vs internal mental state), thematic progression across sentences, and logical development of argument rather than deixis."
+    },
+    {
+      "id": "ma_coh_tra_002",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "causal-chain",
+        "rhetorical-question",
+        "environmental-discourse"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കണ്ണുംമൂക്കുമില്ലാത്ത വ്യവസായവൽക്കരണം ജീവന്റെ നിലനിൽപ്പു തന്നെ അസാധ്യമാക്കുന്ന തരത്തിലേക്ക് വ്യാപിക്കുന്നു. വൻകിട പദ്ധതികളും വികസന പ്രവർത്തനങ്ങളും കാരണം പല ഗ്രാമങ്ങളിലെ ആളുകൾ സ്വന്തം നാട്ടിൽ നിന്ന് ഒഴിഞ്ഞുമാറേണ്ടിവരുന്നു. വേരുകളറ്റ ജനങ്ങളായി അവർ ചിതറി നശിച്ചുപോകുന്നു. ഇത്തരമൊരു അവസ്ഥയിൽ ചോദ്യം ഉയരുന്നു: എന്താണ് മനുഷ്യന്റെ സ്ഥിതി?",
+          "latin": "Kannum mookkum illatha vyavasayavalkkaranam jeevante nilanilppu thanne asadhyamakkunna tharathilekku vyapikkunnu. Vankida padhathikalum vikasanapravarthanangalum kaaranam pala gramangalile aalukal swantham naatil ninnu ozhinjumaareendivarunnu. Verukalatta janangalayi avar chithari nashichupokunnu. Itharamoru avasthayil chodyam uyarnnu: enthaanu manushyante sthithi?"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Blind industrialization is expanding in ways that threaten the very survival of life. Because of large development projects, people from many villages are forced to leave their own lands. Uprooted from their roots, they scatter and gradually disappear. In such a situation, a troubling question arises: what is the condition of humanity?"
+      },
+      "notes": "Tests discourse coherence through a causal chain: unchecked industrialization → displacement of communities → social fragmentation → a reflective rhetorical question about humanity’s future. The coherence arises from the logical progression of ideas rather than from explicit connectors."
+    },
+    {
+      "id": "ma_coh_tra_003",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "metaphorical-discourse",
+        "causal-chain",
+        "literary-pragmatics"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "അനാഥരായ സുജിത്തും സുനിതയും കഠിനാധ്വാനത്തോടെ വയലിൽ മധുരക്കിഴങ്ങ് കൃഷി ചെയ്യുന്നു. കടുത്ത വെയിലും വിശപ്പും ദാരിദ്ര്യവും സഹിച്ചുകൊണ്ട് അവർ ദിവസവും വയലിൽ പണിയെടുക്കുന്നു. അവരുടെ ജീവിതത്തെക്കുറിച്ച് എഴുത്തുകാരൻ ഒരു ചിത്രാത്മക വാചകം പറയുന്നു: “വെയിലിൽ വെന്ത വേരുകൾ കണ്ണീരിന്റെ നവ് കാത്മുവയ്ക്കുന്നു; ഇലകളിൽ മധുരം വിളമ്പുന്നു.”",
+          "latin": "Anaatharaaya Sujithum Sunithayum kadinaadhvaanathode vayalil madhurakkizhangu krishi cheyyunnu. Kadutha veyilum vishappum daaridryavum sahichukondu avar divasavum vayalil paniyedukkunnu. Avarude jeevithathekurich ezhuthukaaran oru chithraathmaka vaachakam parayunnu: 'Veyilil ventha verukal kanneerinte navu kaathmuvaykkunnu; ilakalil madhuram vilambunnu.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The orphaned children Sujith and Sunitha cultivate sweet potatoes in the field through hard labor. Enduring harsh sunlight, hunger, and poverty, they work in the field every day. Describing their life, the writer uses a striking metaphor: 'Roots scorched in the sun taste the salt of tears, while the leaves serve sweetness.'"
+      },
+      "notes": "Tests discourse coherence through metaphorical reasoning. The suffering endured by the children (sun, hunger, tears) forms the underlying cause, while the sweetness of the crop symbolizes the hopeful outcome. Understanding the translation requires connecting the agricultural imagery with the broader idea that hardship can produce sweetness."
+    },
+    {
+      "id": "ma_coh_tra_004",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "metaphorical-implicature",
+        "social-criticism",
+        "educational-discourse"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "നഗരത്തിലെ ഒരു വിദ്യാഭ്യാസസമ്മേളനത്തിൽ ഭാഷയും വിദ്യാഭ്യാസവും കുറിച്ച് ചർച്ച നടക്കുകയായിരുന്നു. മാതൃഭാഷയുടെ സ്ഥാനം കുറഞ്ഞുവരുന്നതിനെക്കുറിച്ച് സംസാരിക്കുമ്പോൾ ഒരു പ്രഭാഷകൻ പറഞ്ഞു: “നഗരകേന്ദ്രീകൃത വിദ്യാലയങ്ങളിൽ മാതൃഭാഷയെ കൈയും കാലും കെട്ടി മൂലയിലിരുത്തിയിരിക്കുകയാണ്.”",
+          "latin": "Nagarathile oru vidyabhyasa sammelanathil bhaashayum vidyabhyasavum kurich charcha nadakkukayirunnu. Maathrubhaashayude sthaanam kuranjhuvarunnathinekurich samsarikkumbol oru prabhashakan paranju: 'Nagarakendrikerutha vidyaalayangalil maathrubhaashayey kaiyum kaalum ketti moolayiliruthiyirikkukayaanu.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "At an educational conference in the city, a discussion was taking place about language and schooling. While speaking about the declining place of the mother tongue, a speaker remarked: 'In city-centered schools, the mother tongue has been tied hand and foot and made to sit in a corner.'"
+      },
+      "notes": "Tests discourse coherence and metaphorical implicature. The expression 'tying the hands and legs and making it sit in a corner' is not literal; it metaphorically criticizes how urban education systems marginalize the mother tongue. Understanding the translation requires recognizing that the metaphor implies neglect and suppression rather than a physical action."
+    },
+    {
+      "id": "ma_coh_tra_005",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "social-criticism",
+        "media-discourse",
+        "argumentative-discourse"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "സിനിമയെക്കുറിച്ചുള്ള ഒരു ചര്‍ച്ചയില്‍ ചിലര്‍ ജനപ്രിയ സിനിമകള്‍ വെറും വിനോദമാത്രമാണെന്നും അവയില്‍ കലാപരമായ മൂല്യമില്ലെന്നും വാദിച്ചു. അതിന് മറുപടിയായി ഒരു നിരൂപകന്‍ പറഞ്ഞു: “ജനപ്രിയ സിനിമകളെ അവഗണിക്കേണ്ടതില്ല. അവ സമൂഹത്തിന്റെ ഉള്ളിലുള്ള വൈരുദ്ധ്യങ്ങളെയും മൂല്യങ്ങളെയും പ്രതിഫലിപ്പിക്കുന്ന ഒരു മാന്ത്രികക്കണ്ണാടിയാണ്.”",
+          "latin": "Cinemayekkurichulla oru charchayil chilar janapriya cinemakal verum vinodamathramanennum avayil kalaparamaya moolyam illennum vaadichu. Athinu marupadiyayi oru niroopakan paranju: 'Janapriya cinemakale avaganikkendathilla. Ava samuhathinte ullilulla vairudhyangaleyum moolyangaleyum prathiphalippikkunna oru manthrikkakkannadiyanu.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "In a discussion about cinema, some people argued that popular films are merely entertainment and lack artistic value. Responding to this, a critic said: 'Popular films should not be dismissed. They are a magical mirror that reflects the contradictions and values within society.'"
+      },
+      "notes": "Tests discourse coherence and argumentative structure. The passage presents a contrast between intellectual criticism of popular cinema and a counterargument defending its cultural significance. The metaphor 'magical mirror' implies that cinema reflects the internal contradictions and values of society rather than being mere entertainment."
+    },
+    {
+      "id": "ma_coh_tra_006",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "cultural-context",
+        "symbolic-interpretation",
+        "environmental-experience"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കവിതകളിലെ പ്രതീകങ്ങളെക്കുറിച്ചുള്ള ഒരു പ്രഭാഷണത്തില്‍ ഒരു നിരൂപകന്‍ പറഞ്ഞു: “പ്രതീകങ്ങളുടെ അര്‍ഥം എല്ലായിടത്തും ഒരുപോലെ ആയിരിക്കണമെന്നില്ല. നമുക്കിവിടെ മഴയില്ലാത്ത കാലമില്ല. മഴക്കാറ് കാണുമ്പോഴൊക്കെ അനുരാഗമുണ്ടാവുകയാണെങ്കില്‍ നമുക്ക് മറ്റൊന്നിന്നും നേരമുണ്ടാകില്ല.”",
+          "latin": "Kavithakalile pratheekangale kurichulla oru prabhaashanathil oru niroopakan paranju: 'Pratheekangalude artham ellayidathum orupole aayirikkamenilla. Namukkivide mazha illaatha kaalam illa. Mazhakkaaru kaanumbolokke anuraagam undaavukayaanenkil namukku matt onninum neram undaakilla.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "In a lecture about symbols in poetry, a critic said: 'The meaning of symbols need not be the same everywhere. Here, there is hardly a season without rain. If every sight of rain clouds were to evoke romantic longing, we would have no time for anything else.'"
+      },
+      "notes": "Tests discourse coherence and cultural interpretation. The statement highlights that poetic symbols are not universal; their meanings depend on geography, climate, and lived experience. The example of frequent rain illustrates how the same natural image may carry different emotional meanings in different contexts."
+    },
+    {
+      "id": "ma_coh_tra_007",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "thematic-progression",
+        "shifting-tone",
+        "literary-pragmatics"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കുന്നിൻപുറങ്ങളിൽ കന്നുകാലികൾ മേയുന്നു. ഇടയന്റെ മുളംതണ്ടിൽനിന്നൊഴുകുന്ന സംഗീതത്തിനൊപ്പം കുഞ്ഞാടുകൾ ആലയിൽനിന്ന് താഴ്വരയിലേക്ക് നീരരുവിപോലെ പായുന്നു. പെട്ടെന്നവ നിലവിളിച്ചുകൊണ്ട് ആലയിലേക്കുതന്നെ തിരിഞ്ഞോടുന്നു. പിന്നിൽ നരിയോ, നിഷാദനോ? വീടിന്റെ ഇറയത്തിരുന്ന എനിക്ക് എവിടെയോ തീ കത്തിയാളുന്നതായി തോന്നുന്നു. ചുറ്റുമുള്ള പച്ചത്തഴപ്പിലൂടെ ചൂടുകാറ്റ് ഇഴഞ്ഞെത്തുന്നു. അടിയിൽനിന്ന് കത്തുന്ന കുന്നിന്റെ മടിയിൽ ആ കുഞ്ഞാടുകളും ഇടയനും ഞാനും...",
+          "latin": "Kunninpurangalil kannukaalikal meyunnu. Idayante mulamthandil ninnozhukunna sangeethathinoppam kunjaadukal aalayilninnu thaazhvarayilekku neeraruvi pole paayunnu. Pettennava nilavilichukondu aalayilekkuthanne thirinjodunnu. Pinnil nariyo, nishaadano? Veedinte irayathirunna enikku evideyo thee kathiyaalunnathaayi thonnunnu. Chuttumulla pachathazhappiloode choodukaattu izhanjethunnu. Adiyilninnu kaththunna kunninte madiyil aa kunjaadukalum idayanum njaanum..."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Cattle graze on the hillsides. To the music flowing from the shepherd's flute, the lambs stream from their pen into the valley like a brook. Suddenly, they cry out and run back toward the fold. Is there a jackal behind them, or a hunter? Sitting on the veranda of the house, I sense a fire blazing somewhere. A hot wind creeps through the surrounding greenery. And there, in the lap of the hill burning from beneath, are the lambs, the shepherd, and I..."
+      },
+      "notes": "Tests discourse coherence through a gradual transformation of the scene. What begins as a peaceful pastoral landscape is progressively unsettled: the lambs suddenly retreat, an unseen predator is suspected, fire is sensed somewhere beyond sight, and hot wind begins to penetrate the greenery. The final image places the lambs, shepherd, and speaker together within the threatened landscape. A coherent translation must preserve this progression from apparent tranquility to an increasingly pervasive danger rather than treating the images as a series of unrelated descriptions."
+    },
+    {
+      "id": "ma_coh_tra_008",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "cross-sentence-integration",
+        "reality-fantasy-contrast",
+        "literary-pragmatics"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "രാവിലെ രണ്ടുമാസത്തെ വാടകക്കുടിശ്ശിക തീർക്കാൻ കടം വാങ്ങിയ പണം വീട്ടുടമയ്ക്ക് കൊടുത്താണ് ഉണ്ണികൃഷ്ണൻ വീട്ടിൽനിന്നിറങ്ങിയത്. എന്നാൽ അന്നേ ദിവസം അയാൾ പതിനഞ്ച് ലക്ഷം രൂപയുടെ വീടിന് പ്ലാൻ അന്വേഷിച്ചു; ഇരുപതിനായിരം രൂപയുടെ പട്ടുസാരി മാറ്റിവെപ്പിച്ചു; വിലയേറിയ പുസ്തകങ്ങളും ഡിന്നർ സെറ്റും തിരഞ്ഞെടുത്തു; ലക്ഷങ്ങളുടെ നിക്ഷേപങ്ങളെക്കുറിച്ച് ഫോണിൽ സംസാരിച്ചു; ഒരു മാരുതി കാർ ഉടൻ വേണമെന്ന് സുലൈമാനോടു പറഞ്ഞു. ഓരോ സ്ഥലത്തുനിന്നും ‘ഇപ്പോൾ വരാം’, ‘വൈകിട്ട് വരാം’ എന്നൊക്കെ പറഞ്ഞ് അയാൾ ഇറങ്ങിപ്പോന്നു. കടൽത്തീരത്ത് ഒറ്റയ്ക്കിരുന്നപ്പോൾ വിദേശയാത്രകളും വലിയ വീടും സമൃദ്ധമായ തീൻമേശകളും നിറഞ്ഞൊരു ജീവിതം അയാൾ മനസ്സിൽ കണ്ടു. അതിനിടയിൽ പുഴയോരത്തെ കരിപിടിച്ച ലൈൻമുറിയും മുഷിഞ്ഞ സാരിയണിഞ്ഞ ഭാര്യയും ഓർമയിലെത്തിയപ്പോൾ അയാൾ അടിമുടി വിറച്ചു. രാത്രിയിൽ ടാക്സിയിൽനിന്നിറങ്ങി ‘താങ്ക്സ്, ഗുഡ്നൈറ്റ്’ എന്നു പറഞ്ഞ് അയാൾ തിടുക്കത്തിൽ നടക്കാൻ തുടങ്ങി. പിന്നാലെ ഓടിയെത്തിയ ഡ്രൈവർ അയാളുടെ നെഞ്ചത്ത് കുത്തിപ്പിടിച്ചു.",
+          "latin": "Raavile randumaasathe vaadakakkudishika theerkkaan kadam vaangiya panam veettudamaykku koduththaan Unnikrishnan veettilninnirangiyathu. Ennaal anne divasam ayaal pathinanchu laksham roopayude veedinu plan anveshichu; irupathinaayiram roopayude pattusaari maattiveppichu; vilayeriya pusthakangalum dinner settum thiranjeduthu; lakshangalude nikshepangalekkurichu phonil samsaarichu; oru Maruti car udan venamennu Sulaimanodu paranju. Oro sthalathuninnum 'ippol varaam', 'vaikittu varaam' ennokke paranju ayaal irangipponnu. Kadaltheerathu ottaykkirunnappol videshayaathrakalum valiya veedum samriddhamaaya theenmesakalum niranja oru jeevitham ayaal manassil kandu. Athinidayil puzhayorathe karipidicha line-muriyum mushinja saariyaninja bhaaryayum ormayilethiyappol ayaal adimudi virachu. Raathriyil taxi-yilninnirangi 'Thanks, good night' ennu paranju ayaal thidukkathil nadakkaan thudangi. Pinnaale odiyethiya driver ayaalude nenchathu kuthippidichu."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "That morning, Unnikrishnan left home only after paying his landlord two months of overdue rent with borrowed money. Yet that same day, he inquired about plans for a fifteen-lakh-rupee house, had a twenty-thousand-rupee silk sari set aside, selected expensive books and a dinner set, spoke on the phone about investments worth lakhs, and told Sulaiman that he wanted a Maruti car at once. At each place, he walked away saying, 'I'll be right back' or 'I'll come this evening.' Sitting alone on the beach, he imagined a life of foreign travel, a large house, and lavish dining tables. Then the soot-darkened line-room by the river and his wife in her faded sari came back to him, and he shuddered from head to foot. That night, he got out of a taxi, said, 'Thanks, good night,' and hurried away. The driver ran after him and grabbed him by the chest."
+      },
+      "notes": "Tests coherence across a sequence of apparently incompatible details. Unnikrishnan begins the day unable to clear his overdue rent without borrowing money, yet proceeds to inhabit the language and behavior of an affluent man—planning an expensive house, setting aside costly goods, discussing investments, and arranging a car—without actually completing any of these transactions. His imagined affluent life on the beach continues this pattern until the memory of his real home intrudes. The final taxi episode provides the sharpest return to reality: after performing wealth throughout the day, he attempts to walk away from an ordinary fare. A coherent translation must preserve the accumulating contrast and the abrupt force of the ending without explicitly explaining Unnikrishnan's behavior to the reader."
+    },
+    {
+      "id": "ma_coh_tra_009",
+      "type": "translation",
+      "phenomena": [
+        "coherence",
+        "contrastive-structure",
+        "institutional-incentives",
+        "language-prestige",
+        "colonial-education"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "സ്കൂൾ പരിസരത്ത് ഗികുയു സംസാരിച്ചത് കുറ്റമായി കണക്കാക്കിയിരുന്നു. പിടിക്കപ്പെട്ട കുട്ടികൾക്ക് ശാരീരികശിക്ഷയും പിഴയും ലഭിച്ചു; സ്വന്തം മാതൃഭാഷ സംസാരിച്ചതുതന്നെ ലജ്ജാകരമായ അനുഭവമായി മാറി. മറുവശത്ത്, ഇംഗ്ലീഷ് നന്നായി എഴുതുകയോ സംസാരിക്കുകയോ ചെയ്താൽ സമ്മാനവും അഭിനന്ദനവും കരഘോഷവും ഉയർന്ന പഠനത്തിലേക്കുള്ള അവസരങ്ങളും ലഭിച്ചു. ക്രമേണ ബുദ്ധിശക്തിയുടെയും കഴിവിന്റെയും അളവുകോൽ പോലും ഇംഗ്ലീഷായി മാറി.",
+          "latin": "School parisaratthu Gikuyu samsaarikkunnathu kuttamaayi kanakkaakkiyirunnu. Pidikkappetta kuttikalkku shareerikashikshayum pizhayum labhichu; swantham maathrubhaasha samsaarichathuthanne lajjaakaramaya anubhavamaayi maari. Maruvashath, English nannaayi ezhuthukayo samsaarikkukayo cheythaal sammaanavum abhinandanavum karaghoshavum uyarnna padhanathilekkulla avasarangalum labhichu. Kramena buddhishakthiyudeyum kazhivinteyum alavukol polum English-aayi maari."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Speaking Gikuyu on the school grounds was treated as an offense. Children who were caught were subjected to physical punishment and fines, until speaking their own mother tongue itself became a source of shame. By contrast, those who wrote or spoke English well received prizes, praise, applause, and access to further education. Gradually, English came to serve even as the measure of intelligence and ability."
+      },
+      "notes": "Tests coherence through the cumulative contrast between punishment attached to Gikuyu and rewards attached to English. The passage is not merely describing two classroom language policies. Together, the penalties, praise, and educational opportunities show how the colonial school reorganizes social prestige and aspiration around English, until proficiency in English is treated as evidence of intelligence and merit. A strong translation should preserve this progression from institutional reward and punishment to a broader hierarchy of value, rather than flattening the passage into a simple statement that English was taught more often than Gikuyu."
+    }
+  ]
+}

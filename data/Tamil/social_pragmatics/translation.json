@@ -1,0 +1,135 @@
+{
+  "dataset": "Tamil Pragmatics - Translation (Social Pragmatics)",
+  "version": "0.1",
+  "direction": "tamil_to_english",
+  "task_description": "Translate the given Tamil sentence or exchange into natural, idiomatic English. Correct translation requires preserving social-pragmatic meaning: indirectness, hierarchy, politeness, emotional stance, and relationship management. The goal is to render not just the literal content, but the social force of the utterance whether it functions as an indirect reprimand, ritual refusal, pressure tactic, affectionate comparison, or polite negotiation.",
+  "items": [
+    {
+      "id": "ta_social_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "polite-request",
+        "indirectness",
+        "cultural-specificity"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "தம்பி, வழியில பூக்கட இருந்தா நிறுத்து பா, ரேகா பூ வாங்கிட்டு வர சொல்லிருக்கா, சாமிக்கு கடம்பமும், தலைக்கு வைக்க மல்லி இல்லனா பிச்சிபூ.'",
+          "latin": "Thambi, vazhiyila pookkada iruntha niruthu pa. Rekha poo vangittu vara sollirukka, saamikku kadhambamum, thalaikku veikka malli illana pichipoo.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Brother, please stop if there is a flower shop on the way. Rekha asked me to buy flowers, kadhambam for God, and jasmine or pichi poo for the hair."
+      },
+      "notes": "This is a polite request from a sister/wife/daughter, asking him to pick up flowers on the way home. The social-pragmatic meaning is conveyed through the indirectness of the request (not commanding but suggesting), the use of familial terms (brother, rekha), and the cultural context of buying specific flowers for religious and personal use. The English translation captures this by using 'Brother' as a term of address, softening the request with 'if there was a flower shop' and 'rekha asked me to buy', and specifying the types of flowers in a way that reflects their cultural significance."
+    },
+    {
+      "id": "ta_social_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "education-pressure",
+        "neighbor-comparison"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "உனக்காக ஒரு புடவை வாங்கி உன் ரூம்ல வைத்திருக்கேன், அது கட்டிட்டு, காதுல, கழுத்துல எதாச்சும் போட்டுட்டு வா. கோவிலுக்கு போய் பிறந்தநாளுக்கு உன் பேருல ஒரு அர்ச்சனை பண்ணிட்டு வந்துரலாம்.",
+          "latin": "Unakkaaga oru pudava vaangi un room la vechirukken, athu kattitu, kaadhula, kaluthula edachu pottuttu va. Kovilukku poi piranthanaalukku un perula oru archana pannittu vandhuralaam."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "I bought you a saree and kept it in your room, drape it and wear some jewelry and come. Let's go to the temple and perform an archana in your name for your birthday."
+      },
+      "notes": ""
+    },
+    {
+      "id": "ta_social_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "gift-refusal",
+        "reciprocity-ritual"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "",
+          "latin": "Saaptutu muduchadhum vazhai ilaiya ulpakkama dhan madikkanum, veli pakkama madikkurathu mariyaathaya irukkaathu."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "After you've finished eating, you should fold the banana leaaf inward, folding it outward is not respectful."
+      },
+      "notes": "This is a culturally specific etiquette instruction about banana leaf dining. Folding the leaf inward after eating is the respectful gesture, signalling that the meal was good and you are satisfied. Folding it outward is considered disrespectful and implies the food was unsatisfactory. The translation must preserve this directional distinction clearly, as the pragmatic meaning is entirely lost if the two directions are conflated or left vague."
+    },
+    {
+      "id": "ta_social_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "sibling-rivalry",
+        "parental-comparison"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "மாமா ஜி காம்போசில் கூட்டம் கொண்டு பேசினார், 'உன் காலத்தில் குழந்தைகள் இப்படி ஃபோனைக் கண்டுபிடிக்கவில்லை. ஒருவருக்கும் மறுவருக்கும் பேசினார்கள்.'",
+          "latin": "Dada ji khamoshi se baithke bole, 'Hamare zamane mein bacche itna phone nahi dekhte the. Ek doosre se baat karte the.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Mum said, 'Look at your brother — he never once said it couldn't be done. Whatever he set his mind to, he saw it through.'"
+      },
+      "notes": "The surface form is praise for the brother but the speech act is a reprimand directed at the listener, who has presumably expressed doubt, resistance, or failure. The brother is instrumentalized as a mirror to make the contrast visible without the parent having to say 'you are failing' directly. 'Look at your brother' in English preserves the triangulated criticism. Translating as 'Your brother is better than you' makes the comparison explicit in a way the speaker deliberately avoided. Translating as 'She was praising her son' describes only one half of the speech act and misses the disciplinary force aimed at the other child."
+    },
+    {
+      "id": "ta_social_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "respect-for-objects",
+        "indirect-reprimand"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "இப்படிதான் படிக்குற புத்தகம் பக்கத்துல கால வேப்பிய, தொட்டு கும்புடு அத",
+          "latin": "Ipdi dhan padikkura puthagam pakkathula kaala veppiyya, thottu kumbudu atha."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Is this how you keep your feet near a book? Touch it and show respect."
+      },
+      "notes": "This is a culturally grounded reprimand about showing respect to objects associated with learning mostly. In many Indian contexts, books, notebooks, paper, and other educational materials are treated as worthy of respect and should not be touched by the feet. The speaker first scolds the child indirectly ('Is this how you...') and then instructs them to touch the book as a gesture of apology and respect."
+    },
+    {
+      "id": "ta_social_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "parental-complaint",
+        "stubborn-child"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "இந்த பளக்கம் நம்ம குடும்பத்துக்கு சரி வராரதுனு பையங்கிட்ட பல முறை சொல்லி பாதுதேன் ஆனா நான் பிடிச்ச முயலுக்கு மூணு கால் தான்னு சாதிக்குறான்",
+          "latin": "Intha palakkam namma kudumbathukku seri varaarathunu paiyankitta pala murai solli paathutten ana naa pidicha muyalukku moonu kaalu dhaannu saadhiikkuraan"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "I have told my son many times that this habit is not good for our family, but he is so adamant that he insists the rabbit he caught has only three legs."
+      },
+      "notes": "The speaker is expressing helplessness: she has repeatedly advised her son, but he refuses to listen and remains stubborn. The line is a complaint that highlights her lack of control over him. Social-pragmatically, it also reflects a cultural expectation that a son should listen to his mother and uphold family norms."
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "dataset": "Hindi Pragmatics - Translation (Discourse & Coherence)",
+  "version": "0.2",
+  "direction": "hindi_to_english",
+  "task_description": "Translate the given Hindi passage into natural, idiomatic English. Correct translation requires preserving discourse-level coherence features causal chains, topic continuity, narrative arc, and the logical flow between sentences. A translation that renders each sentence correctly in isolation but breaks the connective tissue between them is a discourse-level failure even if lexically accurate.",
+  "items": [
+    {
+      "id": "hi_disc_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-chain",
+        "agrarian-distress"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "इस साल बारिश नहीं हुई तो फसल सूख गई। फसल सूखी तो कर्ज़ नहीं चुका पाए। कर्ज़ नहीं चुका पाए तो साहूकार ने ज़मीन छीन ली। ज़मीन गई तो घर भी गया। अब रमेश के पास न खेत है, न छत।",
+          "latin": "Is saal baarish nahi hui toh fasal sukh gayi. Fasal sukhi toh karz nahi chuka paye. Karz nahi chuka paye toh sahukar ne zameen chheen li. Zameen gayi toh ghar bhi gaya. Ab Ramesh ke paas na khet hai, na chhat."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When the rains didn't come this year, the crops withered. With the crops gone, he couldn't repay the debt. With the debt unpaid, the moneylender seized the land. When the land went, the home went with it. Now Ramesh has neither fields nor a roof over his head."
+      },
+      "notes": "This passage is built entirely on a cascading causal chain each clause is both the consequence of the previous one and the cause of the next. The repeating 'toh' construction ('if X, then Y') is the grammatical backbone of this domino logic, and the English must replicate this relentless forward momentum. 'When... With... With... When... Now' achieves this in English. Translating each sentence as a standalone declarative 'The crops dried. He could not repay the loan. The moneylender took the land.' is factually correct but destroys the discourse structure that makes the passage feel like an inevitable tragedy unfolding in real time rather than a list of misfortunes."
+    },
+    {
+      "id": "hi_disc_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-shift-detection",
+        "intruder-sentence"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "मुंबई की लोकल ट्रेन को शहर की जीवन रेखा कहा जाता है। हर रोज़ लाखों लोग इसमें सफर करते हैं। भीड़ इतनी होती है कि साँस लेना भी मुश्किल हो जाता है। फिर भी लोग समय पर दफ्तर पहुँचने के लिए इसी पर निर्भर हैं। दिल्ली मेट्रो में AC कोच होते हैं। मानसून में जब ट्रेनें लेट होती हैं, तो पूरा शहर थम जाता है।",
+          "latin": "Mumbai ki local train ko shehar ki jeevan rekha kaha jaata hai. Har roz laakhon log ismein safar karte hain. Bheed itni hoti hai ki saans lena bhi mushkil ho jaata hai. Phir bhi log samay par daftar pahunchne ke liye isi par nirbhar hain. Delhi Metro mein AC coach hote hain. Monsoon mein jab trainein late hoti hain, toh poora shehar tham jaata hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Mumbai's local train is called the city's lifeline. Every day millions of people travel on it. The crowds are so dense that even breathing becomes difficult. Yet people depend on it to reach the office on time. Delhi Metro has air-conditioned coaches. When the trains run late during monsoon, the entire city grinds to a halt."
+      },
+      "notes": "This passage contains a deliberate intruder sentence 'Delhi Metro mein AC coach hote hain' that breaks topical coherence. Every other sentence is about Mumbai's local train: its density, its indispensability, its monsoon disruptions. The Delhi Metro sentence introduces a different city and a different train system with no connective bridge, rupturing the discourse. The translation must reproduce this incoherence faithfully including the intruder rather than smoothing it over with transitional phrases like 'Meanwhile, in Delhi...' or omitting it. The rupture is the point: a model that silently fixes the incoherence has failed to translate what is actually there."
+    },
+    {
+      "id": "hi_disc_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "narrative-arc",
+        "startup-journey"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "प्रिया ने इंजीनियरिंग छोड़ी, घरवालों ने रोका। उसने सुना नहीं और हैंडमेड ज्वेलरी का काम शुरू किया। पहले साल कोई नहीं खरीदता था, वो हार मानने वाली थी। तभी एक वीडियो वायरल हुई, और रात भर में 500 ऑर्डर आ गए। अब वो वही कर रही है जो उसने सोचा था बस अकेले नहीं, पूरी टीम के साथ।",
+          "latin": "Priya ne engineering chodi, gharwalon ne roka. Usne suna nahi aur handmade jewellery ka kaam shuru kiya. Pehle saal koi nahi khareedta tha, voh haar maanne wali thi. Tabhi ek video viral hui, aur raat bhar mein 500 orders aa gaye. Ab voh wahi kar rahi hai jo usne socha tha bas akele nahi, poori team ke saath."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Priya dropped out of engineering her family tried to stop her. She didn't listen, and started making handmade jewellery. In the first year nobody was buying; she was on the verge of giving up. Then a video went viral, and 500 orders came in overnight. Now she is doing exactly what she set out to do just not alone, but with a whole team behind her."
+      },
+      "notes": "This passage follows a classic narrative arc: defiance → struggle → near-collapse → breakthrough → resolution. Each sentence is a beat in that arc and must land with its intended emotional weight. 'Tabhi' (just then / it was then that) is a pivotal discourse marker signalling the turning point it must not be flattened to 'then' or omitted. The final sentence's contrast 'bas akele nahi, poori team ke saath' is the emotional payoff of the whole arc; 'just not alone, but with a whole team behind her' preserves the quiet pride of that reversal. Translating the final sentence as 'She now has a team' loses the callback to her solitary beginning that gives the contrast its resonance."
+    },
+    {
+      "id": "hi_disc_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "concession-contrast",
+        "policy-discourse"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "सरकार की इस योजना से लाखों गरीबों को घर मिले, यह सच है। लेकिन जिन्हें मिले, उनमें से कई के कागज़ात अभी भी अधूरे हैं। कागज़ात पूरे न हों तो बिजली और पानी का कनेक्शन नहीं मिलता। बिना बुनियादी सुविधाओं के पक्का मकान भी अधूरा ही रहता है। योजना का इरादा सही था लेकिन ज़मीन पर अमल उतना आसान नहीं निकला।",
+          "latin": "Sarkar ki is yojana se laakhon gareebon ko ghar mile, yeh sach hai. Lekin jinhe mile, unmen se kai ke kagzaat abhi bhi adhoore hain. Kagzaat poore na hon toh bijli aur paani ka connection nahi milta. Bina buniyadi suvidhaon ke pakka makaan bhi adhoora hi rehta hai. Yojana ka iraada sahi tha lekin zameen par amal utna aasaan nahi nikla."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "It is true that millions of poor families received homes through this government scheme. But many of those who received homes still have incomplete documentation. Without complete documents, they cannot get electricity or water connections. Without basic amenities, even a concrete house remains only half a home. The scheme's intentions were right but implementation on the ground turned out to be far from simple."
+      },
+      "notes": "This passage is structured as a sustained concession-contrast argument: it acknowledges a real achievement and then systematically unpacks what the achievement left unfinished. The opening 'yeh sach hai' (it is true) is a discourse-level concession marker that sets up the rebuttal chain that follows. Each 'lekin' (but) and conditional 'na hon toh' (if not, then) advances the argument one step. The closing sentence is the thesis, and 'lekin' there carries the full argumentative weight of everything that preceded it 'but implementation on the ground turned out to be far from simple' must land as a considered conclusion, not a casual aside. Translating 'yeh sach hai' as a throwaway ('yes, this happened') and 'zameen par amal' literally as 'work on the land' misses both the concessive discourse move and the idiomatic meaning of the phrase, which refers to real-world implementation, not physical earth."
+    },
+    {
+      "id": "hi_disc_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "profile-continuity",
+        "character-contradiction"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "नेहा सोशल मीडिया पर हमेशा पॉज़िटिविटी और मेंटल हेल्थ की बात करती है। उसके फॉलोअर्स उसे रोल मॉडल मानते हैं। लेकिन रिसेंटली उसने अपनी सहेली की फोटो बिना पूछे स्टोरी पर डाल दी। जब सहेली ने बुरा माना, तो नेहा बोली 'अरे यार, इतना सीरियस मत हो।' उसके फॉलोअर्स अभी भी उसकी पोस्ट्स पर दिल बना रहे हैं।",
+          "latin": "Neha social media par hamesha positivity aur mental health ki baat karti hai. Uske followers use role model maante hain. Lekin recently usne apni saheli ki photo bina poochhe story par daal di. Jab saheli ne bura maana, toh Neha boli 'Arre yaar, itna serious mat ho.' Uske followers abhi bhi uski posts par dil bana rahe hain."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Neha always talks about positivity and mental health on social media. Her followers see her as a role model. But recently she posted her friend's photo on her story without asking. When her friend was hurt by it, Neha said 'Come on, don't be so serious.' Her followers are still liking her posts."
+      },
+      "notes": "The discourse structure here is a character-contradiction arc: curated public persona → real-world action that violates it → dismissal of accountability → ironic closing image. The final sentence 'Uske followers abhi bhi uski posts par dil bana rahe hain' is not a neutral fact but a pointed ironic observation that completes the contrast. 'Dil banana' literally means 'making a heart' (the like emoji) and must be rendered as 'liking her posts' rather than 'making hearts', since the idiomatic digital-age meaning is what matters. Translating the final sentence as 'Her followers still love her' softens the irony into warmth, erasing the critical edge the discourse has been building toward. The dash before Neha's dismissal ('boli') should be preserved as it signals the deflation of the friend's hurt with deliberate flippancy."
+    },
+    {
+      "id": "hi_disc_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-coherence",
+        "ipl-business"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "IPL का सीज़न शुरू होते ही कंपनियाँ विज्ञापन पर करोड़ों खर्च करने लगती हैं। स्टेडियम के टिकट पहले ही बिक जाते हैं। हर मैच के साथ टीवी चैनल्स की TRP आसमान छूने लगती है। फैन्स रात भर जागकर मैच देखते हैं, अगले दिन दफ्तर में भी यही चर्चा रहती है। क्रिकेट यहाँ सिर्फ खेल नहीं एक पूरी अर्थव्यवस्था है।",
+          "latin": "IPL ka season shuru hote hi companies advertising par croro kharch karne lagti hain. Stadium ke tickets pehle hi bik jaate hain. Har match ke saath TV channels ki TRP aasman chhoone lagti hai. Fans raat bhar jaagkar match dekhte hain, agle din daftar mein bhi yahi charcha rehti hai. Cricket yahan sirf khel nahi ek poori arthvyavastha hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The moment the IPL season begins, companies start pouring crores into advertising. Stadium tickets sell out in advance. With every match, TV channel TRP ratings shoot through the roof. Fans stay up all night watching the games, and the next day the conversation continues at the office. Cricket here is not just a sport it is an entire economy."
+      },
+      "notes": "This passage builds to an explicit thesis 'Cricket here is not just a sport it is an entire economy' and every sentence before it is evidence for that claim. The translation must preserve this argumentative accumulation so that the final sentence lands as a conclusion, not as an isolated epigram. 'Hote hi' in the opening signals immediacy 'the moment... begins' rather than simply 'when... begins'. 'TRP aasman chhoone lagti hai' is an idiom meaning ratings soar; 'shoot through the roof' is a natural English equivalent that preserves the hyperbolic register. The em-dash before 'ek poori arthvyavastha hai' is essential it performs the rhetorical pivot from negation to assertion and should not be replaced with a comma or a full stop, both of which would blunt the declarative force of the conclusion."
+    },
+    {
+      "id": "hi_disc_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-chain",
+        "urban-flooding"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "बारिश ज़्यादा हुई तो नाले भर गए। नाले भरे तो पानी सड़कों पर आ गया। सड़कें डूबीं तो गाड़ियाँ बंद हो गईं। गाड़ियाँ बंद हुईं तो लोग दफ्तर नहीं पहुँच पाए। शाम तक पूरा शहर एक बड़ी झील में बदल चुका था।",
+          "latin": "Baarish zyada hui toh naale bhar gaye. Naale bhare toh paani sadkon par aa gaya. Sadkein doobin toh gaadiyan band ho gayin. Gaadiyan band huin toh log daftar nahi pahunch paaye. Shaam tak poora shehar ek badi jheel mein badal chuka tha."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When the rain came down heavily, the drains overflowed. With the drains overflowing, water rose onto the streets. With the streets submerged, cars stopped running. With cars stalled, people couldn't reach their offices. By evening the entire city had turned into one large lake."
+      },
+      "notes": "Like the drought passage in hi_disc_tr_001, this is a domino causal chain built on the 'toh' construction, but here compressed into a single day's timeline rather than a season's tragedy. The translation reuses the 'When... With... With... With...' cascading pattern to keep each clause reading as both effect and trigger. 'Ek badi jheel mein badal chuka tha' uses the perfect-continuous 'chuka tha' to mark completion by a deadline (evening) this should be rendered as 'had turned into', not the simple past 'turned into', to preserve the sense of an already-finished transformation being reported retrospectively."
+    },
+    {
+      "id": "hi_disc_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-shift-detection",
+        "intruder-sentence"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "दिवाली की तैयारियाँ हफ्तों पहले शुरू हो जाती हैं। घर की सफाई से लेकर नए कपड़ों की खरीदारी तक, हर घर में एक अलग ही रौनक होती है। मिठाइयों की दुकानों पर लाइनें लग जाती हैं। दिवाली पर लक्ष्मी पूजा का खास महत्व होता है। होली में लोग एक-दूसरे को रंग लगाते हैं। रात को पटाखों की आवाज़ से पूरा मोहल्ला गूंज उठता है।",
+          "latin": "Diwali ki taiyariyan hafton pehle shuru ho jaati hain. Ghar ki safai se lekar naye kapdon ki khareedari tak, har ghar mein ek alag hi raunak hoti hai. Mithaiyon ki dukanon par lines lag jaati hain. Diwali par Lakshmi Puja ka khaas mahatva hota hai. Holi mein log ek-doosre ko rang lagate hain. Raat ko patakhon ki awaaz se poora mohalla goonj uthta hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Diwali preparations begin weeks in advance. From cleaning the house to buying new clothes, every home takes on a special glow. Queues form outside sweet shops. Lakshmi Puja holds special significance on Diwali. During Holi, people smear each other with colours. At night, the whole neighbourhood echoes with the sound of firecrackers."
+      },
+      "notes": "As in hi_disc_tr_002, this passage plants a deliberate intruder sentence 'Holi mein log ek-doosre ko rang lagate hain' inside an otherwise unbroken sequence about Diwali. Every surrounding sentence stays anchored to Diwali cleaning, sweets, Lakshmi Puja, firecrackers while the Holi sentence describes a completely different festival with no transition. The translation must carry the rupture over intact, resisting the temptation to insert a bridging phrase like 'In contrast, during Holi...' or to quietly delete the sentence. Fixing the incoherence in translation would misrepresent what the source actually does."
+    },
+    {
+      "id": "hi_disc_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "narrative-arc",
+        "sports-comeback"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "चोट लगने के बाद डॉक्टरों ने कहा था कि वो दोबारा नहीं दौड़ पाएगा। घरवालों ने भी मान लिया था कि करियर यहीं खत्म। लेकिन उसने हार नहीं मानी, रोज़ चार घंटे फिजियोथेरेपी की। दो साल की मेहनत के बाद उसने ट्रायल्स में हिस्सा लिया और सबसे तेज़ समय निकाला। अब वही लड़का ओलंपिक की टीम में है जिसे कभी दौड़ने लायक भी नहीं समझा गया था।",
+          "latin": "Chot lagne ke baad doctoron ne kaha tha ki voh dobara nahi daud payega. Gharwalon ne bhi maan liya tha ki career yahin khatam. Lekin usne haar nahi maani, roz chaar ghante physiotherapy ki. Do saal ki mehnat ke baad usne trials mein hissa liya aur sabse tez samay nikaala. Ab wahi ladka Olympic ki team mein hai jise kabhi daudne layak bhi nahi samjha gaya tha."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "After the injury, doctors had said he would never run again. Even his family had accepted that his career was over. But he refused to give up, doing four hours of physiotherapy every single day. After two years of hard work, he took part in the trials and clocked the fastest time. Now that very boy who was once written off as unfit even to run is on the Olympic team."
+      },
+      "notes": "This is a classic sports comeback arc: expert verdict → family resignation → quiet defiance → years of unseen labor → vindication. The past-perfect 'kaha tha' and 'maan liya tha' must be preserved as pluperfect ('had said', 'had accepted') to mark them as prior, now-overturned judgments, setting up the reversal. 'Lekin usne haar nahi maani' is the pivot and should open with a strong contrastive 'But', not a weaker 'However' which would undersell the defiance. The closing sentence's circling back to 'wahi ladka... jise kabhi daudne layak bhi nahi samjha gaya tha' (that very boy... once deemed unfit even to run) is the emotional payoff; collapsing it to 'Now he is in the Olympic team' would strip out the callback that makes the ending land."
+    },
+    {
+      "id": "hi_disc_tr_010",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "concession-contrast",
+        "healthcare-policy"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "सरकारी अस्पतालों में इलाज मुफ्त है, यह अपने आप में बड़ी बात है। लेकिन मुफ्त होने का मतलब यह नहीं कि इलाज आसानी से मिल जाता है। एक डॉक्टर के पास एक दिन में सौ से ज़्यादा मरीज़ आते हैं, तो हर मरीज़ को मुश्किल से दो मिनट मिलते हैं। दो मिनट में सही जांच मुमकिन नहीं होती। योजना अच्छी है, पर व्यवस्था इतनी दबी हुई है कि फायदा पूरी तरह मरीज़ तक नहीं पहुँच पाता।",
+          "latin": "Sarkari aspatalon mein ilaaj muft hai, yeh apne aap mein badi baat hai. Lekin muft hone ka matlab yeh nahi ki ilaaj aasani se mil jaata hai. Ek doctor ke paas ek din mein sau se zyada marizon aate hain, toh har marizon ko mushkil se do minute milte hain. Do minute mein sahi jaanch mumkin nahi hoti. Yojana achhi hai, par vyavastha itni dabi hui hai ki fayda poori tarah marizon tak nahi pahunch paata."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Free treatment at government hospitals is, in itself, a significant achievement. But being free doesn't mean the treatment is easy to access. With over a hundred patients seeing a single doctor in a day, each patient barely gets two minutes. And a proper examination isn't possible in two minutes. The scheme is a good one, but the system is so overburdened that its benefits never fully reach the patient."
+      },
+      "notes": "This passage follows the same concession-contrast architecture as hi_disc_tr_004: acknowledge a genuine positive, then dismantle it clause by clause with a chain of 'lekin/toh/par' connectives. The opening 'yeh apne aap mein badi baat hai' (this is, in itself, a big deal) is the concession that licenses everything that follows; it should not be flattened to a plain statement of fact. The final 'par vyavastha itni dabi hui hai' functions as the passage's thesis and needs the weight of a considered conclusion 'overburdened' captures 'dabi hui' (literally 'pressed down/crushed') better than a milder word like 'busy', which would understate the systemic strain being described."
+    },
+    {
+      "id": "hi_disc_tr_011",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "profile-continuity",
+        "character-contradiction"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "अंकित हमेशा कहता है कि वो बहुत ईमानदार इंसान है, झूठ बोलना उसे पसंद नहीं। ऑफिस में सब उसकी honesty की तारीफ करते हैं। लेकिन पिछले हफ्ते बॉस ने पूछा कि रिपोर्ट लेट क्यों है, तो अंकित ने कह दिया कि सिस्टम क्रैश हो गया था जबकि असल में वो सो कर उठा ही नहीं था। बॉस ने भी बिना शक किए मान लिया।",
+          "latin": "Ankit hamesha kehta hai ki voh bahut imandaar insaan hai, jhooth bolna use pasand nahi. Office mein sab uski honesty ki taareef karte hain. Lekin pichle hafte boss ne poochha ki report late kyun hai, toh Ankit ne keh diya ki system crash ho gaya tha jabki asal mein voh so kar utha hi nahi tha. Boss ne bhi bina shak kiye maan liya."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Ankit always says he's a very honest person, that he doesn't like lying. Everyone in the office praises his honesty. But last week, when the boss asked why the report was late, Ankit said the system had crashed when actually he had simply overslept. And the boss believed it without a hint of suspicion."
+      },
+      "notes": "The structure mirrors hi_disc_tr_005: stated self-image → external validation → a concrete counter-example that undercuts both → a closing detail that sharpens the irony. 'Jabki asal mein' (when in reality) is the key discourse marker exposing the lie mid-sentence and must be rendered with an equally sharp contrastive beat 'when actually' rather than a soft 'but actually', to keep the exposure feeling like a reveal rather than a footnote. The final sentence 'Boss ne bhi bina shak kiye maan liya' is not incidental it is the ironic capstone showing the lie succeeded precisely because of the reputation being contradicted, and 'without a hint of suspicion' preserves that pointed irony better than a neutral 'believed him'."
+    },
+    {
+      "id": "hi_disc_tr_012",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-coherence",
+        "wedding-economy"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "शादी का सीज़न आते ही बाज़ारों में रौनक लौट आती है। ज्वेलर्स की दुकानों पर ग्राहकों की भीड़ उमड़ पड़ती है। टेंट और कैटरिंग वालों की बुकिंग महीनों पहले फुल हो जाती है। बैंड-बाजे वालों को रात-रात भर काम मिलता है। शादी यहाँ सिर्फ दो लोगों का मिलन नहीं एक पूरा मौसमी उद्योग है।",
+          "latin": "Shaadi ka season aate hi bazaaron mein raunak laut aati hai. Jewellers ki dukanon par grahakon ki bheed umad padti hai. Tent aur catering walon ki booking mahino pehle full ho jaati hai. Band-baaje walon ko raat-raat bhar kaam milta hai. Shaadi yahan sirf do logon ka milan nahi ek poora mausami udyog hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The moment wedding season arrives, markets come alive again. Crowds of customers pour into jewellery shops. Tent and catering bookings fill up months in advance. Band and music troupes get work that keeps them out all night. A wedding here isn't just the union of two people it's an entire seasonal industry."
+      },
+      "notes": "Structured identically to hi_disc_tr_006: a string of concrete evidentiary sentences building toward an explicit thesis delivered via em-dash. 'Aate hi' again signals immediacy and should be translated as 'the moment... arrives' rather than a flatter 'when... arrives', matching the urgency established in the earlier IPL passage. The em-dash before 'ek poora mausami udyog hai' performs the same negation-to-assertion pivot as in hi_disc_tr_006 and must be kept as a dash, not softened into a comma, so the final clause lands with full declarative force as the passage's summarizing claim rather than trailing off as an addendum."
+    },
+    {
+      "id": "hi_disc_tr_013",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-chain",
+        "exam-pressure"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "बोर्ड एग्जाम पास आया तो स्कूल में एक्स्ट्रा क्लासेज़ शुरू हो गईं। एक्स्ट्रा क्लासेज़ लगीं तो खेलने का समय खत्म हो गया। खेलना बंद हुआ तो नींद भी कम होने लगी। नींद कम हुई तो बच्चों में चिड़चिड़ापन बढ़ गया। अब पूरा घर एग्जाम के तनाव में जी रहा है, सिर्फ बच्चा नहीं।",
+          "latin": "Board exam paas aaya toh school mein extra classes shuru ho gayin. Extra classes lagin toh khelne ka samay khatam ho gaya. Khelna band hua toh neend bhi kam hone lagi. Neend kam hui toh bachon mein chidchidapan badh gaya. Ab poora ghar exam ke tanaav mein jee raha hai, sirf baccha nahi."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "As the board exams approached, extra classes started at school. With extra classes added, playtime disappeared. With playtime gone, sleep began to suffer too. With sleep cut short, the children grew increasingly irritable. Now the whole household is living under exam stress not just the child."
+      },
+      "notes": "Another domino-style causal chain in the same family as hi_disc_tr_001 and hi_disc_tr_007, but escalating toward a household-wide consequence rather than a single individual's loss. The 'toh' chain again licenses the 'As... With... With... With...' cascading translation strategy. The final sentence pivots from the causal chain into a summarizing observation, and 'sirf baccha nahi' (not just the child) functions as a corrective afterthought that broadens the scope of the whole passage retroactively this should be kept as a trailing clause set off by a dash, mirroring the source's rhythm, rather than folded into the main sentence as 'not just the child but the whole household', which would lose the effect of the correction arriving after the fact."
+    },
+    {
+      "id": "hi_disc_tr_014",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "narrative-arc",
+        "migration-story"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "गाँव में काम नहीं था, इसलिए सुरेश शहर आ गया। पहले महीने वो फुटपाथ पर सोता था और मज़दूरी ढूंढता था। एक ठेकेदार ने उसे रोज़ी दी, धीरे-धीरे उसने राजमिस्त्री का काम सीख लिया। दस साल बाद आज सुरेश की अपनी छोटी सी कंस्ट्रक्शन टीम है जो दूसरे गाँव के लड़कों को भी काम देती है। जो कभी खुद फुटपाथ पर सोता था, आज वो दूसरों को छत देता है।",
+          "latin": "Gaon mein kaam nahi tha, isliye Suresh shehar aa gaya. Pehle mahine voh footpath par sota tha aur mazdoori dhoondta tha. Ek thekedar ne use rozi di, dheere-dheere usne rajmistri ka kaam seekh liya. Das saal baad aaj Suresh ki apni chhoti si construction team hai jo doosre gaon ke ladkon ko bhi kaam deti hai. Jo kabhi khud footpath par sota tha, aaj voh doosron ko chhat deta hai."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "There was no work in the village, so Suresh moved to the city. In the first month he slept on the footpath, searching for daily labour. A contractor gave him work, and slowly he learned masonry. Ten years on, Suresh now runs his own small construction team that employs boys from other villages too. The man who once slept on the footpath now gives others a roof over their heads."
+      },
+      "notes": "This is a migration-and-uplift narrative arc, structurally close to the comeback arc in hi_disc_tr_009: displacement → hardship → a small break → gradual mastery → transformed status. The closing sentence deliberately echoes the opening image (footpath, sleeping rough) to complete the arc, and the translation must preserve that mirroring 'The man who once slept on the footpath now gives others a roof' rather than paraphrasing it as an unrelated statement like 'Suresh now helps other workers', which would erase the callback that gives the ending its force. 'Chhat deta hai' (literally 'gives a roof') is deliberately close to but not identical with sheltering language used earlier, and 'gives others a roof over their heads' captures that near-repetition."
+    },
+    {
+      "id": "hi_disc_tr_015",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "concession-contrast",
+        "digital-payments"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "UPI ने छोटे दुकानदारों की ज़िंदगी आसान बना दी है, इसमें कोई शक नहीं। लेकिन आसान होने का मतलब यह नहीं कि सब कुछ बदल गया। जिन इलाकों में नेटवर्क कमज़ोर है, वहाँ पेमेंट अटक जाता है और ग्राहक झल्ला जाते हैं। सर्वर डाउन होने पर पूरी दुकान की बिक्री ठप हो जाती है। तकनीक ने बहुत कुछ बदला है, लेकिन भरोसा अब भी पूरी तरह कैश जितना मज़बूत नहीं हुआ।",
+          "latin": "UPI ne chhote dukandaron ki zindagi aasan bana di hai, ismein koi shak nahi. Lekin aasan hone ka matlab yeh nahi ki sab kuch badal gaya. Jin ilaakon mein network kamzor hai, wahan payment atak jaata hai aur grahak jhalla jaate hain. Server down hone par poori dukan ki bikri thap ho jaati hai. Takneek ne bahut kuchh badla hai, lekin bharosa ab bhi poori tarah cash jitna mazboot nahi hua."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "There's no doubt that UPI has made life easier for small shopkeepers. But being easier doesn't mean everything has changed. In areas with weak network coverage, payments get stuck and customers grow impatient. When the server goes down, an entire shop's sales grind to a halt. Technology has changed a great deal, but trust in it still hasn't become as solid as trust in cash."
+      },
+      "notes": "This follows the same concession-contrast template as hi_disc_tr_004 and hi_disc_tr_010: open with an unambiguous acknowledgment ('ismein koi shak nahi' 'there's no doubt'), then systematically qualify it. The repeated 'lekin' clauses must each retain contrastive force rather than being diluted into 'however' or 'that said', since the passage's persuasive power comes from the accumulation of buts. The closing comparison 'cash jitna mazboot nahi hua' (hasn't become as strong/solid as cash) is the passage's thesis and should preserve the direct cash-vs-digital comparison rather than being generalized to something vaguer like 'not fully reliable yet'."
+    }
+  ]
+}

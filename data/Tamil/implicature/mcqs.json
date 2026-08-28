@@ -1,0 +1,477 @@
+{
+  "dataset": "Tamil Implicature - MCQs",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_imp_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "veetukku vantha virunthaaligal purapidrapo kai nenachittu ponganu amma sonnanga",
+          "question": "amma virunthaalikitta enna sonnanga?",
+          "options": [
+            "Kai kaluva sonnanga",
+            "Inga saapida sonnanga",
+            "Veetukku poi saapida sonnanga",
+            "Kulichutu poga sonnanga"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Inga saapida sonnanga"
+          }
+        },
+        "tamil": {
+          "context": "வீட்டுக்கு வந்த விருந்தாளிகள் புறப்பட்றப்போ கை நனச்சுட்டு போங்கனு அம்மா சொன்னாங்க.",
+          "question": "அம்மா விருந்தாளிக்கிட்ட என்ன சொன்னாங்க?",
+          "options": [
+            "கை கழுவ சொன்னாங்க",
+            "இங்க சாப்பிட சொன்னாங்க",
+            "வீட்டுக்கு போய் சாப்பிட சொன்னாங்க",
+            "குளிச்சுட்டு போக சொன்னாங்க"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "இங்க சாப்பிட சொன்னாங்க"
+          }
+        },
+        "english": {
+          "context": " Mother told the guests who came home “wash your hands and go” when they were leaving.",
+          "question": "What did the mother say to the guests?",
+          "options": [
+            "She told them to wash their hands",
+            "She told them to eat here",
+            "She told them to go home and eat",
+            "She told them to take a bath and go"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "She told them to eat here"
+          }
+        }
+      },
+      "explanation": "This phrase uses a culturally routine politeness formula: it literally mentions “wetting hands,” but its real function is a warm, indirect invitation to eat, not a literal instruction.",
+      "metadata": {
+        "register": "family/guests",
+        "cultural_markers": [
+          "ritual food modesty",
+          "guest-invitation politeness"
+        ],
+        "authors_note": "Shows how the phrase signals hospitality rather than its literal meaning."
+      }
+    },
+    {
+      "id": "ta_imp_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Vijay innaiku kalaila enthirachathum saapidaama odittanu appa sonnanga",
+          "question": "Vijay yen saapidla?",
+          "options": [
+            "Vijay kalaila saapida matan",
+            "Vijay running practice panran",
+            "Vijay avasarathula saapidala",
+            "Vijay ku pasikala"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Vijay avasarathula saapidala"
+          }
+        },
+        "tamil": {
+          "context": "விஜய் இன்னைக்கு காலைலே எதிர்றதும் சாப்பிடாம ஓடிட்டானு அப்பா சொன்னாங்க.",
+          "question": "விஜய் ஏன் சாப்பிடல?",
+          "options": [
+            "விஜய் காலைலே சாப்பிட மாட்டான்",
+            "விஜய் ரன்னிங் பிராக்டிஸ் பண்ணுறான்",
+            "விஜய் அவசரத்தில் சாப்பிடல",
+            "விஜய் பசி இல்லை"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "விஜய் அவசரத்தில் சாப்பிடல"
+          }
+        },
+        "english": {
+          "context": " Vijay didn't eat anything in the morning because he was running late, his father said.",
+          "question": "Why didn't Vijay eat?",
+          "options": [
+            "Vijay doesn't eat in the morning",
+            "Vijay is practicing running",
+            "Vijay didn't eat because he was in a hurry",
+            "Vijay is not hungry"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Vijay didn't eat because he was in a hurry"
+          }
+        }
+      },
+      "explanation": "The father's report implies that Vijay skipped breakfast because he was pressed for time (in a hurry). Listeners infer causality from the context: 'didn't eat in the morning' together with 'was running late' signals time pressure, not lack of appetite or a habitual behavior.",
+      "metadata": {
+        "register": "family/morning-routine",
+        "cultural_markers": [
+          "breakfast as a family routine and parental responsibility",
+          "colloquial Tamil markers indicating haste (e.g. 'odittu', 'avasaram')",
+          "social norm of punctuality for school/work influencing behavior"
+        ],
+        "authors_note": "Designed to test inference of causal implicature from reported speech: distinguishes urgency-based skipping from habitual refusal or lack of hunger."
+      }
+    },
+    {
+      "id": "ta_imp_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Enaku velai kedachururm nu nenakkiren, interview nalla pochu"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Kaathu un pakkam adikuthu polaye!"
+            }
+          ],
+          "question": "B solvathu enna?",
+          "options": [
+            "Romba kaathadikkuthu",
+            "unaku adhirshtam adikkuthu",
+            "Veetukku polam",
+            "Vazhthukkal"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "unaku adhirshtam adikkuthu"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "எனக்கு வேலை கிடச்சுரும்னு நினைக்கிறேன், இன்டர்வியூ நல்லா போச்சு."
+            },
+            {
+              "speaker": "B",
+              "utterance": "காத்து உன் பக்கம் அடிக்குது போலயே!"
+            }
+          ],
+          "question": "B சொல்வது என்ன?",
+          "options": [
+            "ரொம்ப காத்த அடிக்குது",
+            "உனக்கு அதிர்ஷ்டம் அடிக்குது",
+            "வீட்டுக்கு போலாம்",
+            "வாழ்த்துக்கள்"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "உனக்கு அதிர்ஷ்டம் அடிக்குது"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "I think I got the job, the interview went well."
+            },
+            {
+              "speaker": "B",
+              "utterance": "Your side seems to be getting the wind!"
+            }
+          ],
+          "question": "What is B saying?",
+          "options": [
+            "It is very windy",
+            "You are getting lucky",
+            "We can go home",
+            "Congratulations"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "You are getting lucky"
+          }
+        }
+      },
+      "explanation": "B's reply uses an idiom meaning 'luck is on your side', signaling a positive evaluation (A likely got the job).",
+      "metadata": {
+        "register": "informal/friends",
+        "cultural_markers": [
+          "colloquial Tamil idiom 'காத்து உன் பக்கம் அடிக்குது' meaning 'luck/favour is on your side'",
+          "metaphor invoking wind/fortune to describe success/advantage",
+          "idiomatic implicature: positive evaluation inferred beyond the literal wording",
+          "use in casual contexts to signal positive evaluation and encouragement"
+        ],
+        "authors_note": "Maps the idiom to a congratulatory inference ('you're lucky')."
+      }
+    },
+    {
+      "id": "ta_imp_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Ennoda ring ah enga tholachennu theriyala"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Kedacha madiri dhan"
+            }
+          ],
+          "question": "B solvathu enna?",
+          "options": [
+            "Kandupiduchuruva",
+            "Kandupidikka mudiyaathu",
+            "Kandupiduchuttiye",
+            "Kidaikkuma?"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Kandupidikka mudiyaathu"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "என்னோட ரிங் அங்கே தொலச்சென்னு தெரியல"
+            },
+            {
+              "speaker": "B",
+              "utterance": "கெடச்ச மாதிரி தான்"
+            }
+          ],
+          "question": "B சொல்வது என்ன?",
+          "options": [
+            "கண்டுபிடிச்சுருவா",
+            "கண்டுபிடிக்க முடியாது",
+            "கண்டுபிடிச்சுட்டியே",
+            "கிடைக்குமா?"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "கண்டுபிடிக்க முடியாது"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "I don't know where I lost my ring."
+            },
+            {
+              "speaker": "B",
+              "utterance": "Looks like you will find it!"
+            }
+          ],
+          "question": "What is B saying?",
+          "options": [
+            "You will find it",
+            "You will not find it",
+            "Looks like you found it",
+            "Will you find it?"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "You will not find it"
+          }
+        }
+      },
+      "explanation": "B's reply uses irony: 'Looks like you will find it!' actually implies the opposite, that A is unlikely to find the ring. The literal meaning is contradicted by the context of A's loss and B's tone, leading to an implicature of pessimism about finding the ring.",
+      "metadata": {
+        "register": "informal/friends",
+        "cultural_markers": [
+          "use of irony in casual conversation",
+          "colloquial phrasing that can be interpreted literally or ironically",
+          "social norm of using humor/irony to soften negative evaluations or bad news"
+        ],
+        "authors_note": "Tests understanding of ironic implicature: the literal positive statement is meant to be understood as a negative evaluation of the likelihood of finding the ring."
+      }
+    },
+    {
+      "id": "ta_imp_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Saavi ah veetla vechuttu vanthuten nu nenaikkuren"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Nalla panra"
+            }
+          ],
+          "question": "B solvathu enna?",
+          "options": [
+            "Nalla vela panra",
+            "Veetukku poi eduthuttu va",
+            "Enna pannurathu ipo",
+            "Sothappitta"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Sothappitta"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "சாவி அங்கே வீட்டில் வச்சுட்டு வந்துட்டேன் நு நினைக்குறேன்"
+            },
+            {
+              "speaker": "B",
+              "utterance": "நல்ல பண்ணுற"
+            }
+          ],
+          "question": "B சொல்வது என்ன?",
+          "options": [
+            "நல்ல வேல பண்ணுற",
+            "வீட்டுக்கு போய் எடுத்து வா",
+            "என்ன பண்ணுறது இப்போ",
+            "சொதப்பிட்ட"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "சொதப்பிட்ட"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Looks like I left the key at home."
+            },
+            {
+              "speaker": "B",
+              "utterance": "You're doing well"
+            }
+          ],
+          "question": "What is B saying?",
+          "options": [
+            "Good job",
+            "Go home and get it",
+            "What to do now",
+            "You messed up"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "You messed up"
+          }
+        }
+      },
+      "explanation": "B's reply uses irony: 'You're doing well' actually implies the opposite, that A is unlikely to find the key. The literal meaning is contradicted by the context of A's loss and B's tone, leading to an implicature of pessimism about finding the key.",
+      "metadata": {
+        "register": "informal/friends",
+        "cultural_markers": [
+          "use of irony in casual conversation",
+          "colloquial phrasing that can be interpreted literally or ironically",
+          "social norm of using humor/irony to soften negative evaluations or bad news"
+        ],
+        "authors_note": "Tests understanding of ironic implicature: the literal positive statement is meant to be understood as a negative evaluation of the situation (forgetting the key)."
+      }
+    },
+    {
+      "id": "ta_imp_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Appa vayal paakka romba azhaga irukku, poi photo edutha nalla irukkum",
+          "question": "Paiyan enna appa kitta enna solran?",
+          "options": [
+            "Vayal oda azhaga pathi solran",
+            "Vayal pidichurukkunu solran",
+            "Photo edukkalamaanu kekkuran",
+            "Appa kitta chumma pesuran"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Photo edukkalama nu kekkuran"
+          }
+        },
+        "tamil": {
+          "context": "அப்பா வயல் பார்க்க ரொம்ப அழகா இருக்கு, போய் போட்டோ எடுத்தா நல்லா இருக்கும்",
+          "question": "பையன் என்ன அப்பா கிட்ட என்ன சொல்றான்?",
+          "options": [
+            "வயல் ஓட அழக பத்தி சொல்றான்",
+            "வயல் பிடிச்சுருக்குனு சொல்றான்",
+            "போட்டோ எடுக்கலாமானு கேக்குறான்",
+            "அப்பா கிட்ட சும்மா பேசுறான்"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "போட்டோ எடுக்கலாமானு கேக்குறான்"
+          }
+        },
+        "english": {
+          "context": "The son tells that the field looks very beautiful and suggests that taking a photo there would be nice.",
+          "question": "What is the son implying to his father?",
+          "options": [
+            "He is complimenting the beauty of the field",
+            "He is telling that he likes the field",
+            "He is asking for permission to take a photo",
+            "He is just talking to his father"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "He is asking for permission to take a photo"
+          }
+        }
+      },
+      "explanation": "The son tells that the field looks very beautiful and suggests that taking a photo there would be nice. The implicature is that the son is asking for permission to take a photo, as the literal suggestion of 'taking a photo would be nice' is a polite way of requesting to do so.",
+      "metadata": {
+        "register": "family/parent-child",
+        "cultural_markers": [
+          "polite indirect requests in Tamil culture",
+          "use of positive evaluations to imply a request",
+          "social norm of seeking parental permission through indirect language"
+        ],
+        "authors_note": "Tests understanding of indirect requests and polite language: the son's positive comment about the field implies a request to take a photo, which is a common way to ask for permission in Tamil culture."
+      }
+    }
+  ]
+}

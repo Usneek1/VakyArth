@@ -1,0 +1,301 @@
+{
+  "dataset": "Hindi Pragmatics - Translation (Speech Acts)",
+  "version": "0.2",
+  "direction": "hindi_to_english",
+  "task_description": "Translate the given Hindi sentence or exchange into natural, idiomatic English. Correct translation requires recognizing the underlying speech act whether a question is really a command, a statement is really a warning, or a compliment is really a criticism and rendering the pragmatic force faithfully, not just the literal words.",
+  "items": [
+    {
+      "id": "hi_sa_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "phatic-communion",
+        "greeting-as-small-talk"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "पड़ोसी ने सुबह गेट पर मिलते हुए कहा, 'क्या हाल है?' दूसरे ने जवाब दिया, 'बस ठीक है, चल रहा है।'",
+          "latin": "Padosi ne subah gate par milte hue kaha, 'Kya haal hai?' Doosre ne jawab diya, 'Bas theek hai, chal raha hai.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Meeting at the gate in the morning, the neighbour said, 'How's it going?' The other replied, 'Oh, getting by, same as usual.'"
+      },
+      "notes": "'Kya haal hai' is a phatic greeting, not a genuine inquiry into the person's condition. 'Bas theek hai, chal raha hai' is the equally formulaic non-answer it signals social normalcy rather than reporting actual wellbeing. 'Getting by, same as usual' mirrors this low-information, high-social-function exchange. Translating as 'What is your condition?' / 'I am fine, it is going on' is grammatically possible but pragmatically tone-deaf."
+    },
+    {
+      "id": "hi_sa_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "declaration",
+        "social-bonding",
+        "wedding-ritual"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "शादी में दूल्हे के चाचा ने दुल्हन के पिता का हाथ थामते हुए कहा, 'अब ये हमारी ज़िम्मेदारी है।'",
+          "latin": "Shaadi mein dulhe ke chacha ne dulhan ke pita ka haath thamate hue kaha, 'Ab ye hamari zimmedari hai.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "At the wedding, the groom's uncle took the bride's father's hand and said, 'She is our responsibility now.'"
+      },
+      "notes": "'Ab ye hamari zimmedari hai' is a performative declaration by saying it, the speaker enacts a transfer of familial duty. It is not a description of an existing fact but the creation of a social obligation through speech. 'She is our responsibility now' preserves this performative weight. A clumsy literal rendering like 'Now this is our responsibility' loses the human warmth and the sense that something binding has just been spoken into existence."
+    },
+    {
+      "id": "hi_sa_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "indirect-criticism",
+        "workplace",
+        "sycophancy-rebuke"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "मीटिंग के बाद मैनेजर ने धीरे से कहा, 'हर बात पर हाँ बोलना आसान होता है।'",
+          "latin": "Meeting ke baad manager ne dheere se kaha, 'Har baat par haan bolna aasan hota hai.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "After the meeting, the manager said quietly, 'It's easy to just agree with everything.'"
+      },
+      "notes": "The surface form is a general observation, but the speech act is a pointed indirect criticism of someone in the room who was agreeing with everything without contributing genuine input. The quietness ('dheere se') sharpens the implication it is addressed to one person without naming them. 'It's easy to just agree with everything' carries the same oblique sting. A translation like 'Saying yes to everything is easy' is accurate but slightly flattens the managerial register."
+    },
+    {
+      "id": "hi_sa_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "self-deprecation",
+        "humble-brag",
+        "achievement-framing"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "'पता नहीं कैसे हो गया, मैंने तो बस थोड़ा सा पढ़ा था' यह कहते हुए उसने टॉपर का सर्टिफिकेट उठाया।",
+          "latin": "'Pata nahi kaise ho gaya, maine toh bas thoda sa padha tha' yeh kehte hue usne topper ka certificate uthaya."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "'I have no idea how it happened, I barely even studied' and with that, he picked up the topper's certificate."
+      },
+      "notes": "This is a humble-brag: the speech act performs false modesty while the action (picking up the topper's certificate) exposes it. The verbal disclaimer 'bas thoda sa padha tha' is not a sincere confession of under-preparation but a face-saving ritual that simultaneously invites admiration. 'I barely even studied' captures the same studied nonchalance. The irony must be preserved through the juxtaposition with the certificate the translation should not soften or explain it."
+    },
+    {
+      "id": "hi_sa_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "veiled-threat",
+        "neighbourhood-dispute",
+        "indirect-warning"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "पड़ोसी ने मुस्कुराते हुए कहा, 'देखिए, हम तो शांति से रहना चाहते हैं बस दूसरों को भी रहने देना चाहिए।'",
+          "latin": "Padosi ne muskurate hue kaha, 'Dekhiye, hum toh shanti se rehna chahte hain bas doosron ko bhi rehne dena chahiye.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The neighbour said with a smile, 'Look, we just want to live in peace others should let us do the same.'"
+      },
+      "notes": "The speech act is a veiled threat dressed in the language of reasonableness. The smile and the 'hum toh shanti se rehna chahte hain' (we just want peace) framing is a rhetorical setup the real force is in 'doosron ko bhi rehne dena chahiye' (others should also let [us] live), which implies consequences if they don't. The English must preserve the surface civility and the underlying menace simultaneously. Translating warmly ('We just want everyone to be peaceful') loses the threat entirely."
+    },
+    {
+      "id": "hi_sa_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "apology",
+        "non-apology",
+        "face-management"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "'अगर तुम्हें बुरा लगा हो, तो मुझे माफ़ करना।'",
+          "latin": "'Agar tumhe bura laga ho, toh mujhe maaf karna.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "'If you were offended, I apologise.'"
+      },
+      "notes": "'Agar tumhe bura laga ho' (if you felt bad) is a conditional apology it places the burden of being hurt on the listener rather than acknowledging wrongdoing by the speaker. This is a non-apology apology: it performs the ritual of asking forgiveness while implicitly suggesting the other person's reaction may be the problem. 'If you were offended, I apologise' replicates the same conditional structure and evasiveness. A sincere rendering like 'I'm sorry I hurt you' would mistranslate the speech act entirely by converting a deflection into a genuine admission."
+    },
+    {
+      "id": "hi_sa_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "indirect-command",
+        "sarcasm",
+        "parental-control"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "बेटा दोपहर तक सोया रहा। मम्मी ने कमरे में झाँककर कहा, 'राजा साहब उठ गए क्या?'",
+          "latin": "Beta dopahar tak soya raha. Mummy ne kamre mein jhaank kar kaha, 'Raja sahab uth gaye kya?'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The son slept in till noon. His mother peeked into the room and said, 'Oh, has His Majesty woken up?'"
+      },
+      "notes": "'Raja sahab' (literally 'lord/king') is a sarcastic honorific applied to a lazy sleeper, and the question is not a genuine query about wakefulness it's an indirect reprimand for sleeping too long. The English must retain the mock-grand title and the rhetorical question form to preserve the sting. A flat translation like 'Did the young master wake up?' loses the sarcastic register; 'His Majesty' keeps the exaggerated, teasing formality."
+    },
+    {
+      "id": "hi_sa_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "insistence",
+        "hospitality",
+        "ritual-refusal-and-insist"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "मेहमान ने कहा, 'बस, बहुत हो गया।' मेज़बान ने प्लेट में और डालते हुए कहा, 'अरे थोड़ा और ले लीजिए, अभी तो कुछ खाया ही नहीं।'",
+          "latin": "Mehmaan ne kaha, 'Bas, bahut ho gaya.' Meezban ne plate mein aur daalte hue kaha, 'Arre thoda aur le lijiye, abhi toh kuch khaya hi nahi.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The guest said, 'That's enough, I've had plenty.' The host, spooning more onto the plate, said, 'Oh come on, have a bit more you've barely eaten anything.'"
+      },
+      "notes": "The guest's 'bas' is a conventional first-refusal not necessarily a true limit and the host's counter-insistence, including the exaggeration 'abhi toh kuch khaya hi nahi' (you've eaten nothing yet, even if the plate is half full), is the expected next move in this hospitality script. The English rendering needs the same casual, affectionately pushy tone ('Oh come on') rather than a stiff 'Please take a little more,' which would flatten the ritual insistence into a neutral offer."
+    },
+    {
+      "id": "hi_sa_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "rhetorical-question",
+        "complaint",
+        "domestic-friction"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "तीसरी बार बर्तन सिंक में पड़े देखकर नेहा बोली, 'क्या तुम्हें कभी भी बर्तन धोना याद रहता है?'",
+          "latin": "Teesri baar bartan sink mein pade dekh kar Neha boli, 'Kya tumhe kabhi bhi bartan dhona yaad rehta hai?'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Seeing the dishes in the sink for the third time, Neha said, 'Do you ever remember to wash the dishes?'"
+      },
+      "notes": "This is a rhetorical question functioning as a reprimand it presupposes a negative answer and is not a genuine request for information about memory. The English preserves the same rhetorical interrogative form, which an English speaker will also read as exasperated complaint rather than a literal question, so no additional softening or explanatory framing ('she asked, annoyed') is needed the syntax alone carries the pragmatic force in both languages."
+    },
+    {
+      "id": "hi_sa_tr_010",
+      "type": "translation",
+      "phenomena": [
+        "hyperbolic-warning",
+        "parental-safety",
+        "idiom"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "बच्चा साइकिल बहुत तेज़ चला रहा था। पापा ने पीछे से चिल्लाया, 'धीरे! हड्डी तुड़वानी है क्या?'",
+          "latin": "Bacha cycle bahut tez chala raha tha. Papa ne peeche se chillaya, 'Dheere! Haddi tudwani hai kya?'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The kid was riding the bicycle really fast. Dad shouted from behind, 'Slow down! You want to break a bone or something?'"
+      },
+      "notes": "'Haddi tudwani hai kya' is not a literal question about the child's intentions toward bone-breaking it's a hyperbolic rhetorical warning used to demand immediate caution. English has an equivalent idiom in this register ('you want to break a bone or something?'), which preserves both the exaggeration and the urgency. Translating literally as 'Do you want to get your bone broken?' sounds stilted and loses the natural idiomatic warning tone."
+    },
+    {
+      "id": "hi_sa_tr_011",
+      "type": "translation",
+      "phenomena": [
+        "modesty-formula",
+        "compliment-response",
+        "social-visit"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "'आपका घर बहुत सुंदर है!' सुनीता ने कहा, 'अरे नहीं नहीं, बस ऐसे ही है, कुछ ख़ास नहीं।'",
+          "latin": "'Aapka ghar bahut sundar hai!' Sunita ne kaha, 'Arre nahi nahi, bas aise hi hai, kuch khaas nahi.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "'Your house is so beautiful!' Sunita said, 'Oh no, no, it's nothing much, really.'"
+      },
+      "notes": "This exchange is a compliment followed by a conventional modesty deflection, not a genuine denial that the house is nice. 'Kuch khaas nahi' (nothing special) must be rendered with an equally dismissive-but-polite English formula ('nothing much, really') rather than translated as a flat factual claim ('it's not special'), which would misrepresent Sunita as actually disliking her own home instead of performing culturally expected humility."
+    },
+    {
+      "id": "hi_sa_tr_012",
+      "type": "translation",
+      "phenomena": [
+        "conditional-warning",
+        "child-discipline",
+        "leverage"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "बच्चा खाना खाने से मना कर रहा था। मम्मी ने कहा, 'ठीक है, मत खाओ, फिर रात को भूख लगेगी तो कुछ नहीं मिलेगा।'",
+          "latin": "Bacha khana khane se mana kar raha tha. Mummy ne kaha, 'Theek hai, mat khao, phir raat ko bhookh lagegi toh kuch nahi milega.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The child was refusing to eat. Mother said, 'Fine, don't eat then but when you're hungry tonight, don't expect anything.'"
+      },
+      "notes": "The Hindi conditional ('phir...toh') sets up a mild consequence as leverage, functioning as a discipline-oriented warning rather than a neutral prediction about dinner. 'Don't expect anything' captures the same faux-resigned, slightly threatening parental tone as 'kuch nahi milega'; a plain factual translation like 'then you will get nothing' is accurate but reads more like a statement of fact than the parental ultimatum it actually is."
+    },
+    {
+      "id": "hi_sa_tr_013",
+      "type": "translation",
+      "phenomena": [
+        "indirect-refusal",
+        "vagueness-as-politeness",
+        "workplace-social"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "कलीग ने वीकेंड पर घर आने का न्योता दिया। सुनीता ने कहा, 'देखते हैं, कोशिश करूँगी।'",
+          "latin": "Colleague ne weekend par ghar aane ka nyota diya. Sunita ne kaha, 'Dekhte hain, koshish karungi.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "A colleague invited her over for the weekend. Sunita said, 'We'll see, I'll try.'"
+      },
+      "notes": "'Dekhte hain, koshish karungi' is a well-worn indirect refusal formula in Hindi it sounds open-ended but is conventionally understood as a soft decline. The English equivalent 'We'll see, I'll try' carries the same non-committal vagueness for English speakers familiar with polite deflection, but translators should resist 'upgrading' it to something more definite like 'I'll come if I can,' which would misleadingly suggest a real intention to attend."
+    },
+    {
+      "id": "hi_sa_tr_014",
+      "type": "translation",
+      "phenomena": [
+        "gratitude-ritual",
+        "retail-closing-formula",
+        "shopkeeper-customer"
+      ],
+      "source": {
+        "language": "hindi",
+        "scripts": {
+          "devanagari": "सामान लेने के बाद दुकानदार ने हाथ जोड़कर कहा, 'आइयेगा फिर से।'",
+          "latin": "Saman lene ke baad dukaandar ne haath jodkar kaha, 'Aaiyega phir se.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "After the purchase, the shopkeeper folded his hands and said, 'Do come again.'"
+      },
+      "notes": "'Aaiyega phir se' is a conventionalized closing courtesy expressing gratitude and goodwill for future business, parallel to 'thank you, come again' in English retail contexts it is not a command or an obligation placed on the customer. 'Do come again' hits the right register of gentle, ritualized politeness; a literal 'Please come again' also works but loses some of the warmth signalled by the folded hands, which the translation can note through the accompanying gesture rather than the words alone."
+    }
+  ]
+}

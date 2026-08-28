@@ -1,0 +1,470 @@
+{
+  "dataset": "Hindi Pragmatics - Social Pragmatics NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "hi_social_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "arranged-marriage",
+        "first-meeting"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Rishte ki pehli mulaqat mein ladka aur ladki ne 15 minute private baat ki. Dono ne ek doosre se apna number exchange kiya.",
+          "hypothesis": "Ladka aur ladki dono shaadi ke liye agree hain."
+        },
+        "devanagari": {
+          "premise": "रिश्ते की पहली मुलाक़ात में लड़का और लड़की ने 15 मिनट प्राइवेट बात की। दोनों ने एक दूसरे से अपना नंबर एक्सचेंज किया।",
+          "hypothesis": "लड़का और लड़की दोनों शादी के लिए अग्री हैं।"
+        },
+        "english": {
+          "premise": "In the first meeting for arranged marriage, the boy and girl talked privately for 15 minutes. Both exchanged their phone numbers.",
+          "hypothesis": "Both the boy and girl have agreed to the marriage."
+        }
+      },
+      "explanation": "Number exchange shows interest but doesn't confirm agreement. They might want to know each other better before deciding. The premise doesn't provide enough information about final decision.",
+      "metadata": {
+        "register": "arranged-marriage",
+        "cultural_markers": [
+          "rishta meetings",
+          "courtship protocol",
+          "modern arranged marriage"
+        ]
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_social_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "money-lending"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Parth ne apne dost Usneek se kaha, 'Yaar, 5000 rupaye urgent chahiye the. Agar tu abhi nahi de sakta to koi baat nahi, main kisi aur se manage kar lunga.'",
+          "hypothesis": "Parth Usneek se paise nahi lena chahta."
+        },
+        "devanagari": {
+          "premise": "पार्थ ने अपने दोस्त उसनीक से कहा, 'यार, 5000 रुपए अर्जेंट चाहिए थे। अगर तू अभी नहीं दे सकता तो कोई बात नहीं, मैं किसी और से मैनेज कर लूंगा।'",
+          "hypothesis": "पार्थ उसनीक से पैसे नहीं लेना चाहता।"
+        },
+        "english": {
+          "premise": "Parth told his friend Usneek, 'Dude, I urgently needed 5000 rupees. If you can't give now, it's okay, I'll manage from someone else.'",
+          "hypothesis": "Parth doesn't want to take money from Usneek."
+        }
+      },
+      "explanation": "The 'koi baat nahi' is face-saving language to soften the request and give Usneek an easy out. Parth clearly wants the money but is being polite about potential refusal.",
+      "metadata": {
+        "register": "friendship-money",
+        "cultural_markers": [
+          "money borrowing etiquette",
+          "face-saving language",
+          "friendship boundaries"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_social_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "reservation-system",
+        "caste-politics"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "College admission mein Vedant ko general category mein 95% par seat nahi mili jabki uske junior ko reserved category mein 75% par seat mil gayi.",
+          "hypothesis": "Vedant apne junior se naraz hai."
+        },
+        "devanagari": {
+          "premise": "कॉलेज एडमिशन में वेदांत को जनरल कैटेगरी में 95% पर सीट नहीं मिली जबकि उसके जूनियर को रिज़र्व्ड कैटेगरी में 75% पर सीट मिल गई।",
+          "hypothesis": "वेदांत अपने जूनियर से नाराज़ है।"
+        },
+        "english": {
+          "premise": "In college admission, Vedant with 95% didn't get a seat in general category while his junior got a seat in reserved category with 75%.",
+          "hypothesis": "Vedant is angry with his junior."
+        }
+      },
+      "explanation": "The premise describes a situation but doesn't indicate Vedant's emotional reaction toward his junior specifically. He could be angry at the system, disappointed, or accepting.",
+      "metadata": {
+        "register": "educational-social",
+        "cultural_markers": [
+          "reservation policy",
+          "merit vs quota",
+          "caste-based admission"
+        ]
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_social_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "hospitality",
+        "implicit-overstay"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Raat ke 10 baj gaye. Ghar ke host ne mehman se kaha, 'Khaana to kha ke jaao, itni raat mein kahan jaoge.' Mehman ne haan keh diya.",
+          "hypothesis": "Host chahta hai ki mehman raat ruk jaaye."
+        },
+        "devanagari": {
+          "premise": "रात के 10 बज गए। घर के होस्ट ने मेहमान से कहा, 'खाना तो खा के जाओ, इतनी रात में कहाँ जाओगे।' मेहमान ने हाँ कह दिया।",
+          "hypothesis": "होस्ट चाहता है कि मेहमान और देर तक रुकें।"
+        },
+        "english": {
+          "premise": "It is 10 PM. The host told the guest, 'At least eat before leaving, where will you go at this hour.' The guest agreed.",
+          "hypothesis": "The host wants the guest to stay even longer."
+        }
+      },
+      "explanation": "'Khaana kha ke jaao' is a polite Indian exit cue disguised as an invitation it signals that the visit should wrap up after dinner, not extend further. The host is being courteous while nudging toward closure. Interpreting it as a desire for the guest to stay longer contradicts its pragmatic function.",
+      "metadata": {
+        "register": "home-hospitality",
+        "cultural_markers": [
+          "polite dismissal",
+          "dinner as exit cue",
+          "guest overstay etiquette"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_social_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "workplace-hierarchy",
+        "implicit-disagreement"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Meeting mein boss ne naya plan suggest kiya. Junior employee Shreya ne kaha, 'Sir, yeh idea bahut achha hai. Bas ek choti si baat kya humein timeline ke baare mein thoda aur sochna chahiye?'",
+          "hypothesis": "Shreya boss ke plan se poori tarah agree karti hai."
+        },
+        "devanagari": {
+          "premise": "मीटिंग में बॉस ने नया प्लान सजेस्ट किया। जूनियर एम्प्लॉई श्रेया ने कहा, 'सर, यह आइडिया बहुत अच्छा है। बस एक छोटी सी बात क्या हमें टाइमलाइन के बारे में थोड़ा और सोचना चाहिए?'",
+          "hypothesis": "श्रेया बॉस के प्लान से पूरी तरह अग्री करती है।"
+        },
+        "english": {
+          "premise": "In a meeting, the boss suggested a new plan. Junior employee Shreya said, 'Sir, this idea is very good. Just one small thing should we think a bit more about the timeline?'",
+          "hypothesis": "Shreya fully agrees with the boss's plan."
+        }
+      },
+      "explanation": "Shreya's praise is a face-saving opener before raising a substantive concern about the timeline. In Indian workplace culture, direct disagreement with a superior is avoided; instead, criticism is packaged with heavy complimenting. The 'choti si baat' framing signals a real reservation, not minor decoration.",
+      "metadata": {
+        "register": "workplace-hierarchy",
+        "cultural_markers": [
+          "boss-junior dynamics",
+          "indirect disagreement",
+          "face-saving praise",
+          "hierarchical communication"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_social_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "marriage-pressure",
+        "indirect-urgency"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Priya ki maa ne uske 28ve birthday par kaha, 'Beta, teri mausi ki beti tujhse do saal choti thi, uske do bacche hain ab. Time kitni tezi se beet jaata hai na.'",
+          "hypothesis": "Priya ki maa sirf waqt ki tezi ke baare mein soch rahi hain."
+        },
+        "devanagari": {
+          "premise": "प्रिया की माँ ने उसके 28वें बर्थडे पर कहा, 'बेटा, तेरी मौसी की बेटी तुझसे दो साल छोटी थी, उसके दो बच्चे हैं अब। टाइम कितनी तेज़ी से बीत जाता है ना।'",
+          "hypothesis": "प्रिया की माँ सिर्फ वक़्त की तेज़ी के बारे में सोच रही हैं।"
+        },
+        "english": {
+          "premise": "On Priya's 28th birthday, her mother said, 'Beta, your cousin was two years younger than you, she already has two kids. Time passes so fast, doesn't it.'",
+          "hypothesis": "Priya's mother is simply reflecting on how quickly time passes."
+        }
+      },
+      "explanation": "The mother's comment is a classic indirect marriage pressure tactic using a younger relative's marital and reproductive milestones as a benchmark to signal urgency. The 'time beet jaata hai' is not genuine philosophical reflection but a coded nudge about Priya's unmarried status. Treating it as casual musing contradicts its clear pragmatic intent.",
+      "metadata": {
+        "register": "family-marriage-pressure",
+        "cultural_markers": [
+          "shaadi pressure",
+          "biological clock framing",
+          "relative comparison",
+          "indirect urgency"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_social_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "digital-etiquette",
+        "whatsapp-group"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Family WhatsApp group mein Bua ne ek lambi good-morning message aur bhagwan ki photo bheji. Message 'seen' hai lekin kisi ne reply nahi kiya. Thodi der baad Bua ne likha, 'Koi padhta bhi hai ya nahi?'",
+          "hypothesis": "Bua genuinely yeh jaanna chahti hain ki unka message technically deliver hua ya nahi."
+        },
+        "devanagari": {
+          "premise": "फैमिली व्हाट्सएप ग्रुप में बुआ ने एक लंबी गुड-मॉर्निंग मैसेज और भगवान की फोटो भेजी। मैसेज 'सीन' है लेकिन किसी ने रिप्लाई नहीं किया। थोड़ी देर बाद बुआ ने लिखा, 'कोई पढ़ता भी है या नहीं?'",
+          "hypothesis": "बुआ जेन्युइनली यह जानना चाहती हैं कि उनका मैसेज टेक्निकली डिलीवर हुआ या नहीं।"
+        },
+        "english": {
+          "premise": "In the family WhatsApp group, Bua sent a long good-morning message and a photo of a deity. The message is marked 'seen' but no one replied. A while later, Bua wrote, 'Does anyone even read these or not?'",
+          "hypothesis": "Bua genuinely wants to know whether her message was technically delivered."
+        }
+      },
+      "explanation": "The 'seen' status already confirms technical delivery, which Bua can see herself. Her rhetorical question functions as a mild reproach about lack of engagement, not a literal query about message delivery, so the hypothesis contradicts the utterance's actual pragmatic function.",
+      "metadata": {
+        "register": "family-digital",
+        "cultural_markers": [
+          "WhatsApp family group culture",
+          "seen-no-reply friction",
+          "forwarded good-morning messages"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_social_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "bargaining-culture",
+        "transport"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Tumne auto wale se poocha, 'Bhaiya, station chaloge?' Usne kaha, 'Meter se nahi chalta, 200 lagenge.' Meter se fare actually 120 hota hai.",
+          "hypothesis": "Auto wala expect kar raha hai ki tum price kam karwane ki koshish karoge."
+        },
+        "devanagari": {
+          "premise": "तुमने ऑटो वाले से पूछा, 'भैया, स्टेशन चलोगे?' उसने कहा, 'मीटर से नहीं चलता, 200 लगेंगे।' मीटर से फेयर एक्चुअली 120 होता है।",
+          "hypothesis": "ऑटो वाला एक्सपेक्ट कर रहा है कि तुम प्राइस कम करवाने की कोशिश करोगे।"
+        },
+        "english": {
+          "premise": "You asked an auto driver, 'Bhaiya, will you go to the station?' He said, 'Won't go by meter, it'll be 200.' The actual meter fare is 120.",
+          "hypothesis": "The auto driver expects you to try to negotiate the price down."
+        }
+      },
+      "explanation": "Quoting an inflated flat rate instead of the meter fare is a conventional opening bid in Indian auto-rickshaw bargaining culture. Both parties understand this convention, so the driver's expectation of negotiation is entailed by the act of quoting an inflated rate rather than the meter price.",
+      "metadata": {
+        "register": "public-transport",
+        "cultural_markers": [
+          "auto-rickshaw bargaining",
+          "inflated opening quote",
+          "negotiation norms"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_social_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "matrimonial-euphemism",
+        "cross-linguistic-false-friend"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Shaadi ke biodata mein likha tha, 'Ladki homely hai, ghar-parivar sambhalne mein expert hai.'",
+          "hypothesis": "'Homely' word ka matlab hai ladki dikhne mein saadhaaran ya plain hai."
+        },
+        "devanagari": {
+          "premise": "शादी के बायोडाटा में लिखा था, 'लड़की होमली है, घर-परिवार संभालने में एक्सपर्ट है।'",
+          "hypothesis": "'होमली' वर्ड का मतलब है लड़की दिखने में साधारण या प्लेन है।"
+        },
+        "english": {
+          "premise": "A matrimonial biodata read, 'The girl is homely, expert at managing the household.'",
+          "hypothesis": "The word 'homely' means the girl is plain or unattractive in appearance."
+        }
+      },
+      "explanation": "Unlike American English, where 'homely' can imply plainness of appearance, in Indian English matrimonial usage 'homely' is a positive term describing domestic competence and family-orientedness. Reading it through the American sense contradicts its actual meaning in this register a classic cross-dialectal false friend.",
+      "metadata": {
+        "register": "matrimonial-formal",
+        "cultural_markers": [
+          "biodata euphemism",
+          "Indian English vs American English",
+          "false friend vocabulary"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_social_nli_010",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "in-law-dynamics",
+        "indirect-complaint"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Saas ne apni padosan se baat karte hue, bahu ke saamne hi kaha, 'Aaj kal ki bahuon ko toh kuch aata hi nahi, sab kuch order kar lete hain bahar se.'",
+          "hypothesis": "Bahu ne is comment ko apne baare mein samjha."
+        },
+        "devanagari": {
+          "premise": "सास ने अपनी पड़ोसन से बात करते हुए, बहू के सामने ही कहा, 'आजकल की बहुओं को तो कुछ आता ही नहीं, सब कुछ ऑर्डर कर लेते हैं बाहर से।'",
+          "hypothesis": "बहू ने इस कमेंट को अपने बारे में समझा।"
+        },
+        "english": {
+          "premise": "While talking to her neighbour, right in front of her daughter-in-law, the mother-in-law said, 'These days' daughters-in-law don't know anything, they just order everything from outside.'",
+          "hypothesis": "The daughter-in-law understood the comment to be about her."
+        }
+      },
+      "explanation": "The premise describes only what the mother-in-law said and to whom it was audible; it gives no information about how the daughter-in-law actually interpreted or reacted to the remark, so her internal understanding cannot be confirmed or ruled out from the premise alone.",
+      "metadata": {
+        "register": "family-in-law",
+        "cultural_markers": [
+          "saas-bahu dynamic",
+          "triangulated criticism",
+          "indirect reproach via third party"
+        ]
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_social_nli_011",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "queue-culture",
+        "jugaad-request"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Bank ki line mein khade ho, tumhare aage kaafi log hain. Ek aadmi peeche se aakar bolta hai, 'Bhai sahab, bas ek minute ka kaam hai, thoda aage se nikal jaaun?'",
+          "hypothesis": "Aadmi ka kaam sach mein sirf ek minute mein khatam ho jaayega."
+        },
+        "devanagari": {
+          "premise": "बैंक की लाइन में खड़े हो, तुम्हारे आगे काफी लोग हैं। एक आदमी पीछे से आकर बोलता है, 'भाई साहब, बस एक मिनट का काम है, थोड़ा आगे से निकल जाऊँ?'",
+          "hypothesis": "आदमी का काम सच में सिर्फ एक मिनट में खत्म हो जाएगा।"
+        },
+        "english": {
+          "premise": "You're standing in a bank queue with many people ahead of you. A man comes from behind and says, 'Bhai sahab, it's just a one-minute task, can I just slip ahead a bit?'",
+          "hypothesis": "The man's task will genuinely be finished within one minute."
+        }
+      },
+      "explanation": "'Ek minute ka kaam hai' is a conventional minimizing phrase used to soften a line-jumping request; it is not necessarily a literal, verifiable time estimate. The premise gives no way to confirm whether the task will actually take one minute, so the hypothesis is neither entailed nor contradicted.",
+      "metadata": {
+        "register": "public-queue",
+        "cultural_markers": [
+          "queue jumping request",
+          "jugaad softening language",
+          "politeness minimization"
+        ]
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_social_nli_012",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "noise-complaint",
+        "neighbour-etiquette"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Neeche wale flat mein raat 11 baje tak loud music baj rahi thi. Upar wale neighbour ne agli subah lift mein milte hue kaha, 'Kal raat toh kaafi maza aaya hoga party mein!'",
+          "hypothesis": "Yeh comment loud music ke baare mein ek indirect complaint ka kaam kar raha hai."
+        },
+        "devanagari": {
+          "premise": "नीचे वाले फ्लैट में रात 11 बजे तक लाउड म्यूज़िक बज रही थी। ऊपर वाले नेबर ने अगली सुबह लिफ्ट में मिलते हुए कहा, 'कल रात तो काफी मज़ा आया होगा पार्टी में!'",
+          "hypothesis": "यह कमेंट लाउड म्यूज़िक के बारे में एक इनडायरेक्ट कम्प्लेंट का काम कर रहा है।"
+        },
+        "english": {
+          "premise": "The flat downstairs had loud music playing until 11 PM. The upstairs neighbour, meeting them in the lift the next morning, said, 'You must have had quite a fun time at the party last night!'",
+          "hypothesis": "This comment functions as an indirect complaint about the loud music."
+        }
+      },
+      "explanation": "Given the context of loud music disturbing the upstairs neighbour until late, the seemingly cheerful remark about the party is a conventional face-saving way of registering displeasure about the noise without direct confrontation, so the indirect-complaint reading is entailed by the situational context.",
+      "metadata": {
+        "register": "neighbour-apartment",
+        "cultural_markers": [
+          "indirect noise complaint",
+          "lift small talk",
+          "apartment-living etiquette"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_social_nli_013",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "greeting-ritual",
+        "elder-respect"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ek function mein tum apne dost ke dada ji se pehli baar mile. Tumhare dost ne dheere se ishaara kiya paon chhoone ka. Tumhe unse formally introduce nahi kiya gaya tha.",
+          "hypothesis": "Elders ke saamne paon chhoona ek expected respect gesture hai, chahe formal introduction hua ho ya nahi."
+        },
+        "devanagari": {
+          "premise": "एक फंक्शन में तुम अपने दोस्त के दादा जी से पहली बार मिले। तुम्हारे दोस्त ने धीरे से इशारा किया पाँव छूने का। तुम्हें उनसे फॉर्मली इंट्रोड्यूस नहीं किया गया था।",
+          "hypothesis": "एल्डर्स के सामने पाँव छूना एक एक्सपेक्टेड रिस्पेक्ट गेस्चर है, चाहे फॉर्मल इंट्रोडक्शन हुआ हो या नहीं।"
+        },
+        "english": {
+          "premise": "At a function, you met your friend's grandfather for the first time. Your friend quietly gestured for you to touch his feet. You hadn't been formally introduced to him.",
+          "hypothesis": "Touching an elder's feet is an expected respect gesture, regardless of whether a formal introduction has taken place."
+        }
+      },
+      "explanation": "The friend's silent prompt to perform paon chhuna despite the absence of a formal introduction demonstrates that this respect gesture is triggered by the elder's status alone, not by prior formal acquaintance confirming the hypothesis.",
+      "metadata": {
+        "register": "family-function",
+        "cultural_markers": [
+          "paon chhuna ritual",
+          "non-verbal respect gesture",
+          "elder greeting norm"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_social_nli_014",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "wedding-culture",
+        "gifting-norms"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Tumhare dost ki shaadi hai. Ek common dost bolta hai, 'Yaar, Rahul ko gift mein kya doge? Mujhe laga hum sab milke ek bada gift de dete hain.' Tumhare paas abhi paise ki thodi takleef hai.",
+          "hypothesis": "Friend ka pooling suggestion har kisi ko individually chhota gift dene ki embarrassment se bachne mein madad karta hai."
+        },
+        "devanagari": {
+          "premise": "तुम्हारे दोस्त की शादी है। एक कॉमन दोस्त बोलता है, 'यार, राहुल को गिफ्ट में क्या दोगे? मुझे लगा हम सब मिलके एक बड़ा गिफ्ट दे देते हैं।' तुम्हारे पास अभी पैसे की थोड़ी तकलीफ है।",
+          "hypothesis": "फ्रेंड का पूलिंग सजेशन हर किसी को इंडिविजुअली छोटा गिफ्ट देने की एम्बैरेसमेंट से बचने में मदद करता है।"
+        },
+        "english": {
+          "premise": "Your friend is getting married. A common friend says, 'Yaar, what will you give Rahul as a gift? I thought we could all pool together and give one big gift.' You are tight on money right now.",
+          "hypothesis": "The friend's pooling suggestion helps everyone avoid the embarrassment of giving a visibly small gift individually."
+        }
+      },
+      "explanation": "Suggesting a group gift is a well-understood face-saving strategy in Indian wedding gifting culture it lets contributors appear collectively generous while reducing individual financial pressure, so the hypothesis follows directly from this conventional social function.",
+      "metadata": {
+        "register": "wedding-social",
+        "cultural_markers": [
+          "shaadi gifting",
+          "group pooling",
+          "social face-saving"
+        ]
+      },
+      "label": "entailment"
+    }
+  ]
+}

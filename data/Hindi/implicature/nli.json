@@ -1,0 +1,493 @@
+{
+  "dataset": "Hindi Pragmatics - NLI",
+  "version": "0.2",
+  "items": [
+    {
+      "id": "hi_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "metaphor",
+        "weather-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Chalo bahar ghoomne chalte hain."
+            },
+            {
+              "speaker": "B",
+              "utterance": "Bahar aag baras rahi hai."
+            }
+          ],
+          "hypothesis": "B bahar jaana chahta hai."
+        },
+        "devanagari": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "चलो बाहर घूमने चलते हैं।"
+            },
+            {
+              "speaker": "B",
+              "utterance": "बाहर आग बरस रही है।"
+            }
+          ],
+          "hypothesis": "B बाहर जाना चाहता है।"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Let's go for a walk outside."
+            },
+            {
+              "speaker": "B",
+              "utterance": "It's raining fire outside."
+            }
+          ],
+          "hypothesis": "B wants to go outside."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "B's statement 'it's raining fire' is a metaphor for extreme heat, implying it's a bad idea to go out. This contradicts the hypothesis that B wants to go."
+    },
+    {
+      "id": "hi_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "hyperbole",
+        "idiom",
+        "goal-vs-literal"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Teacher ne Rahul se kaha, 'Tumne toh iss pareeksha mein pass hokar kila jeet liya.'",
+          "hypothesis": "Rahul ne ek asli kila jeeta hai."
+        },
+        "devanagari": {
+          "premise": "टीचर ने राहुल से कहा, 'तुमने तो इस परीक्षा में पास होकर किला जीत लिया।'",
+          "hypothesis": "राहुल ने एक असली किला जीता है।"
+        },
+        "english": {
+          "premise": "The teacher said to Rahul, 'You have won a fort by passing this exam.'",
+          "hypothesis": "Rahul has won an actual fort."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "'Winning a fort' (किला जीतना) is a common Hindi idiom for achieving a very difficult task. The teacher is using hyperbole, not stating a literal fact."
+    },
+    {
+      "id": "hi_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "sarcasm",
+        "implicature",
+        "irony",
+        "negative-evaluation"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Boss ne uss karmachari ko kaha jo 3 ghante late aaya, 'Badi jaldi aa gaye aaj tum.'",
+          "hypothesis": "Karmachari samay par aaya tha."
+        },
+        "devanagari": {
+          "premise": "बॉस ने उस कर्मचारी को कहा जो 3 घंटे लेट आया, 'बड़ी जल्दी आ गए आज तुम।'",
+          "hypothesis": "कर्मचारी समय पर आया था।"
+        },
+        "english": {
+          "premise": "The boss said to the employee who arrived 3 hours late, 'You've come very early today.'",
+          "hypothesis": "The employee arrived on time."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The boss's statement is sarcastic. The literal meaning ('you came early') is the exact opposite of the intended meaning ('you are very late')."
+    },
+    {
+      "id": "hi_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "indirect-refusal",
+        "politeness-implicature",
+        "pragmatic-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Kya tum meri shaadi mein agle hafte aa paoge?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Us din mera ek bahut zaroori kaam hai."
+            }
+          ],
+          "hypothesis": "B shaadi mein aayega."
+        },
+        "devanagari": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "क्या तुम मेरी शादी में अगले हफ्ते आ पाओगे?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "उस दिन मेरा एक बहुत ज़रूरी काम है।"
+            }
+          ],
+          "hypothesis": "B शादी में आएगा।"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Will you be able to come to my wedding next week?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "I have something very important that day."
+            }
+          ],
+          "hypothesis": "B will attend the wedding."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "B gives an indirect refusal using politeness. Mentioning an important commitment implies inability to attend, contradicting the hypothesis."
+    },
+    {
+      "id": "hi_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "scalar-implicature",
+        "partial-commitment",
+        "quantity-maxim"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Riya ne kaha, 'Maine assignment ke kuch sawaalon ke jawab de diye hain.'",
+          "hypothesis": "Riya ne assignment ke saare sawaalon ke jawab de diye hain."
+        },
+        "devanagari": {
+          "premise": "रिया ने कहा, 'मैंने असाइनमेंट के कुछ सवालों के जवाब दे दिए हैं।'",
+          "hypothesis": "रिया ने असाइनमेंट के सारे सवालों के जवाब दे दिए हैं।"
+        },
+        "english": {
+          "premise": "Riya said, 'I have answered some of the questions in the assignment.'",
+          "hypothesis": "Riya has answered all of the questions in the assignment."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The use of 'some' (कुछ) typically implicates 'not all' under scalar implicature. Therefore, the hypothesis that she answered all questions contradicts the pragmatic meaning."
+    },
+    {
+      "id": "hi_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "cultural-idiom",
+        "metaphor",
+        "emotion-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Match haarne ke baad Rohit ne kaha, 'Aaj toh meri naak kat gayi.'",
+          "hypothesis": "Rohit ki naak sach mein kaat di gayi."
+        },
+        "devanagari": {
+          "premise": "मैच हारने के बाद रोहित ने कहा, 'आज तो मेरी नाक कट गई।'",
+          "hypothesis": "रोहित की नाक सच में काट दी गई।"
+        },
+        "english": {
+          "premise": "After losing the match, Rohit said, 'My nose has been cut today.'",
+          "hypothesis": "Rohit's nose was literally cut off."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "'Naak katna' (नाक कटना) is a cultural Hindi idiom meaning to lose honor or feel ashamed. It is not a literal physical event, so the hypothesis is contradicted."
+    },
+    {
+      "id": "hi_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "metaphor",
+        "food-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Chalo aaj bahar khaana khaate hain."
+            },
+            {
+              "speaker": "B",
+              "utterance": "Mere paas toh is mahine phooti kaudi bhi nahi hai."
+            }
+          ],
+          "hypothesis": "B ke paas bahar khaana khaane ke liye paise hain."
+        },
+        "devanagari": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "चलो आज बाहर खाना खाते हैं।"
+            },
+            {
+              "speaker": "B",
+              "utterance": "मेरे पास तो इस महीने फूटी कौड़ी भी नहीं है।"
+            }
+          ],
+          "hypothesis": "B के पास बाहर खाना खाने के लिए पैसे हैं।"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Let's eat out today."
+            },
+            {
+              "speaker": "B",
+              "utterance": "I don't even have a broken cowrie shell this month."
+            }
+          ],
+          "hypothesis": "B has money to eat out."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "'Phooti kaudi na hona' (not having even a broken cowrie shell) is a Hindi idiom meaning to be completely broke. This directly contradicts the hypothesis that B has money."
+    },
+    {
+      "id": "hi_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "hyperbole",
+        "idiom",
+        "goal-vs-literal"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Coach ne team se kaha, 'Aaj tumne mैदान par aasmaan cheer diya.'",
+          "hypothesis": "Team ne sach mein aasmaan ko phaad diya."
+        },
+        "devanagari": {
+          "premise": "कोच ने टीम से कहा, 'आज तुमने मैदान पर आसमान चीर दिया।'",
+          "hypothesis": "टीम ने सच में आसमान को फाड़ दिया।"
+        },
+        "english": {
+          "premise": "The coach told the team, 'Today you tore through the sky on the field.'",
+          "hypothesis": "The team literally tore apart the sky."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "'Aasmaan cheer dena' is a hyperbolic expression praising an outstanding performance, not a literal claim about the sky, so the hypothesis is contradicted."
+    },
+    {
+      "id": "hi_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "sarcasm",
+        "implicature",
+        "irony",
+        "negative-evaluation"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Maa ne apne bete ke bikhre hue kamre ko dekhkar kaha, 'Bahut sundar tareeke se sab kuch sajaya hai tumne.'",
+          "hypothesis": "Kamra sundar tareeke se saja hua tha."
+        },
+        "devanagari": {
+          "premise": "माँ ने अपने बेटे के बिखरे हुए कमरे को देखकर कहा, 'बहुत सुंदर तरीके से सब कुछ सजाया है तुमने।'",
+          "hypothesis": "कमरा सुंदर तरीके से सजा हुआ था।"
+        },
+        "english": {
+          "premise": "The mother saw her son's messy room and said, 'You've arranged everything so beautifully.'",
+          "hypothesis": "The room was beautifully arranged."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The mother's sarcastic remark, made about a messy room, communicates the opposite of its literal meaning, contradicting the hypothesis that the room was actually well-arranged."
+    },
+    {
+      "id": "hi_nli_010",
+      "type": "nli",
+      "phenomena": [
+        "indirect-refusal",
+        "politeness-implicature",
+        "pragmatic-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Kya tum mujhe apni car kal ke liye de sakte ho?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Kal toh car ki servicing ke liye jaani hai."
+            }
+          ],
+          "hypothesis": "B apni car A ko de dega."
+        },
+        "devanagari": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "क्या तुम मुझे अपनी कार कल के लिए दे सकते हो?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "कल तो कार की सर्विसिंग के लिए जानी है।"
+            }
+          ],
+          "hypothesis": "B अपनी कार A को दे देगा।"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Can you lend me your car for tomorrow?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "It's supposed to go for servicing tomorrow."
+            }
+          ],
+          "hypothesis": "B will lend the car to A."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "B indirectly declines by citing a prior commitment for the car (servicing), implicating unavailability, which contradicts the hypothesis that B will lend it."
+    },
+    {
+      "id": "hi_nli_011",
+      "type": "nli",
+      "phenomena": [
+        "scalar-implicature",
+        "partial-commitment",
+        "quantity-maxim"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Manager ne kaha, 'Humne is quarter ke kuch targets achieve kar liye hain.'",
+          "hypothesis": "Company ne is quarter ke saare targets achieve kar liye hain."
+        },
+        "devanagari": {
+          "premise": "मैनेजर ने कहा, 'हमने इस क्वार्टर के कुछ टारगेट्स अचीव कर लिए हैं।'",
+          "hypothesis": "कंपनी ने इस क्वार्टर के सारे टारगेट्स अचीव कर लिए हैं।"
+        },
+        "english": {
+          "premise": "The manager said, 'We've achieved some of this quarter's targets.'",
+          "hypothesis": "The company has achieved all of this quarter's targets."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The scalar term 'kuch' (some) implicates 'not all' under the quantity maxim, so the hypothesis claiming all targets were achieved is contradicted."
+    },
+    {
+      "id": "hi_nli_012",
+      "type": "nli",
+      "phenomena": [
+        "cultural-idiom",
+        "metaphor",
+        "emotion-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Beti ki shaadi tay hone par pita ne kaha, 'Aaj mere sar se bahut bada bojh utar gaya.'",
+          "hypothesis": "Pita ki peeth par sach mein koi bhaari cheez rakhi thi jo utar gayi."
+        },
+        "devanagari": {
+          "premise": "बेटी की शादी तय होने पर पिता ने कहा, 'आज मेरे सर से बहुत बड़ा बोझ उतर गया।'",
+          "hypothesis": "पिता की पीठ पर सच में कोई भारी चीज़ रखी थी जो उतर गई।"
+        },
+        "english": {
+          "premise": "When his daughter's marriage was finalized, the father said, 'A huge burden has been lifted off my head today.'",
+          "hypothesis": "There was literally a heavy object placed on the father's back that was removed."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "'Sar se bojh utarna' (a burden lifted from one's head) is a Hindi idiom for emotional relief from a long-standing responsibility, not a literal physical event."
+    },
+    {
+      "id": "hi_nli_013",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "quality-critique"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ghar ki nayi paint job dekhkar padosi ne kaha, 'Wah, kya professional kaam kiya hai!'",
+          "hypothesis": "Padosi paint job se prabhavit hua tha, aur kaam professional tha."
+        },
+        "devanagari": {
+          "premise": "घर की नई पेंट जॉब देखकर पड़ोसी ने कहा, 'वाह, क्या प्रोफेशनल काम किया है!'",
+          "hypothesis": "पड़ोसी पेंट जॉब से प्रभावित हुआ था, और काम प्रोफेशनल था।"
+        },
+        "english": {
+          "premise": "Seeing the shoddy new paint job, the neighbor said, 'Wow, what professional work!'",
+          "hypothesis": "The neighbor was impressed by the paint job, and the work was professional."
+        }
+      },
+      "label": "neutral",
+      "explanation": "Without further context (e.g. tone, visible flaws mentioned), it is ambiguous whether the neighbor's remark is sincere praise or sarcasm; the premise alone does not confirm the hypothesis either way."
+    },
+    {
+      "id": "hi_nli_014",
+      "type": "nli",
+      "phenomena": [
+        "indirect-refusal",
+        "politeness-implicature",
+        "pragmatic-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Kya aap kal humari team meeting mein join kar sakte hain?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Bilkul, main apni calendar check karke turant confirm karta hoon."
+            }
+          ],
+          "hypothesis": "B ke meeting mein aane ki sambhaavna hai."
+        },
+        "devanagari": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "क्या आप कल हमारी टीम मीटिंग में जॉइन कर सकते हैं?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "बिल्कुल, मैं अपनी कैलेंडर चेक करके तुरंत कन्फर्म करता हूँ।"
+            }
+          ],
+          "hypothesis": "B के मीटिंग में आने की संभावना है।"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Can you join our team meeting tomorrow?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Absolutely, let me check my calendar and confirm right away."
+            }
+          ],
+          "hypothesis": "There is a reasonable chance B will attend the meeting."
+        }
+      },
+      "label": "entailment",
+      "explanation": "Unlike the indirect refusals elsewhere in this set, B's response here shows willingness and immediate action toward confirming attendance, which supports rather than contradicts the hypothesis."
+    }
+  ]
+}

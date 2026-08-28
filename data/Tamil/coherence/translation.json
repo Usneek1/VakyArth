@@ -1,0 +1,133 @@
+{
+  "dataset": "Tamil Pragmatics - Translation (Discourse & Coherence)",
+  "version": "0.1",
+  "direction": "tamil_to_english",
+  "task_description": "Translate the given Tamil passage into natural, idiomatic English. Correct translation requires preserving discourse-level coherence features causal chains, topic continuity, narrative arc, and the logical flow between sentences. A translation that renders each sentence correctly in isolation but breaks the connective tissue between them is a discourse-level failure even if lexically accurate.",
+  "items": [
+    {
+      "id": "ta_disc_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-chain",
+        "political-analysis"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Tamilnattil DMK matrum ADMK aagiya iru katchigalin balamaana amaippai thaandi, ippo nadigar Vijayyin Tamil Nadu Vetri Kazhagam matrum Seemanin Naam Tamilar Katchi aagiya iru katchi mattume kurippathakka maatramaaga karudappadugirathu. BJP matrum Congress pola dhesiya katchigal innum thiravida katchigal koottaniyaiye saarnthullana nilaiyil, 2026 Sattamandram therthal indha irumunai pottiyai maatri amaikkuma endra edhirpaarppu ezhundhullathu.",
+          "tamil": " தமிழ்நாட்டில் தி.மு.க மற்றும் அ.தி.மு.க ஆகிய இரு கட்சிகளின் பலமான அமைப்பை தாண்டி, இப்போது நடிகர் விஜய்யின் தமிழ் நாடு வெற்றி கழகம் மற்றும் சீமனின் நாம் தமிழர் கட்சி ஆகிய இரு கட்சி மட்டுமே குறிப்பிடத்தக்க மாற்றமாக கருதப்படுகின்றது. பா.ஜ.க  மற்றும் காங்கிரஸ் போல தேசிய கட்சிகள் இன்னும் திராவிட கட்சிகள் கூட்டணியையே சார்ந்துள்ள நிலையில், 2026 சட்டமன்ற தேர்தல் இந்த இருமுனை போட்டியை மாற்றி அமைக்குமா என்ற எதிர்பார்ப்பு எழுந்துள்ளது."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "In Tamil Nadu, beyond the strong organizational structure of the DMK and AIADMK, currently only Vijay’s TVK and Seeman’s NTK are considered significant alternatives. Since national parties like the BJP and Congress still largely rely on alliances with these Dravidian majors, there is high expectation regarding whether the 2026 assembly elections will reshape this traditional two-party contest."
+      },
+      "notes": "This passage contains a causal chain that must be preserved in translation. The first sentence sets up the political landscape, noting the decline of the traditional two-party dominance and the rise of two new parties. The second sentence explains the reason for this shift: national parties are still dependent on alliances with the old majors, which creates an opening for the new parties to challenge the status quo. The final clause about the 2026 elections is not just a standalone statement but the culmination of this causal chain, expressing the anticipation that these dynamics will lead to a significant change in the electoral contest. A translation that treats each sentence as an isolated fact without connecting them into a coherent argument would fail to capture the discourse-level structure of the original."
+    },
+    {
+      "id": "ta_disc_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "profile-continuity",
+        "character-contradiction"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Chennaiyai pathi sollanumna ennaala evvalavunaalum solla mudiyum. Pirandhathulairundhu muppathimoonu aagura varai vaazhnthathu Chennaiyila thaan. Illai 'Madras'la. Naan pirandhu, 26, Kattai Thottith Theru, Thiruvallikkeni. Mudhal pathinaandu varudangal vaazhnthathu indha veetila thaan. Epdi ellarukkum chinna vayasu nyabagthukku vilaiye illayo, athe madiri dhan enakkum. Antha vagaila intha veedu enakku manasukku romba nerukkamaanathu. Athumattum illama en appavoda irundha ella ninaivume intha veetula dhan.",
+          "tamil": "சென்னையை பற்றி சொல்லணும்னா என்னால எவ்வளவுனாலும் சொல்ல முடியும். பிறந்ததுலிருந்து முப்பத்திமூன்று ஆகுற வரை வாழ்ந்தது சென்னையில தான். இல்லை 'மெட்ராஸ்'ல. நான் பிறந்து, 26, கட்டை தொட்டித் தெரு, திருவல்லிக்கேணி. முதல் பதினாண்டு வருடங்கள் வாழ்ந்தது இந்த வீட்டில தான். எப்படி எல்லாருக்கும் சின்ன வயசு நியாபகத்துக்கு விலையே இல்லையோ, அதே மாதிரி தான் எனக்கும். அந்த வாசகையில் இந்த வீடு எனக்கு மனசுக்கு ரொம்ப நெருக்கமானது. அதுமட்டும் இல்லாமா என் அப்பாவோட இருந்தா எல்லா நினைவுமே இந்த வீட்டுல தான்."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "If you want me to talk about Chennai, I can go on and on. I lived in Chennai from birth until I turned 33. Actually, in 'Madras'. I was born at 26, Kattai Thotti Street, Thiruvallikkeni. The first 15 years of my life were spent in that very house. Just as everyone feels that their childhood memories are priceless, the same is true for me. In that way, that house is very close to my heart. Not just that, all my memories with my father are only in that house."
+      },
+      "notes": "This passage maintains coherence through profile continuity: Chennai/Madras framing -> birthplace and house details -> emotional culmination in memories with the father. Translation should preserve this progression as one connected monologue, not isolated factual lines."
+    },
+    {
+      "id": "ta_disc_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "profile-continuity"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "சோபனா பத்து வருஷமா பரதம் கத்துக்குறா, கிட்டத்தட்ட 5 வயசுல இருந்து. அவ முகபாவனா அவ்ளோ அழகா இருக்கும். போன வாரம் அவளோட அரங்கேற்றம் போயிருந்தேன். அவ்ளோ அழகா நளினமா ஆடுனா. எல்லாரோட கண்ணும் முதலிலிருந்து கடைசி வர அவ மேல தான் இருந்துச்சு. நான் இதுவரை இப்படியொரு அரங்கேற்றம் பாத்ததே இல்ல. அவ பரதநாட்டியத்துல பெரிய ஆளா வருவா.",
+          "latin": "Shobana pathu varushamaa baratham kathukkura, kittathatta 5 vayasula irundu. Ava mugabhaavana avlo azhaga irukkum. Pona vaaram avaloda arangetram poirunthen. Avlo azhaga nalinama aaduna. Ellaroda kannum mudhalla irundhu kadaisi vara ava mela dhan irundhuchu. Na ithu vara ipdi oru arangetarm paathathe illa. Ava bharathanatyathula periya aala varuva."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Shobana has been learning Bharatanatyam for 10 years, starting at the age of 5. Her facial expressions are so beautiful. Last week I attended her Arangetram. She danced with such grace and beauty. From the very beginning to the end, all eyes were on her. I have never seen such an Arangetram before. She is going to be a big name in Bharatanatyam."
+      },
+      "notes": " This passage maintains coherence through profile continuity: it starts with Shobana's background in Bharatanatyam, then describes her beauty and grace, leading up to the Arangetram performance, and concludes with the prediction of her future success. Each sentence builds on the previous one to create a cohesive narrative about Shobana's journey and talent in dance. A translation that treats each sentence as an isolated compliment without connecting them into a coherent story would fail to capture the discourse-level structure of the original."
+    },
+    {
+      "id": "ta_disc_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "concession-contrast",
+        "policy-discourse"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "திருக்குறள் பத்தி சொல்லணும்னா, அது நம்ம தமிழனோட வாழ்க்கை வழிகாட்டின்னே சொல்லலாம். ரெண்டே வரியில உலகத்துல இருக்குற எல்லா தத்துவத்தையும் அள்ளிக்கொடுத்தவரு நம்ம திருவள்ளுவர். யார் எந்த மதமா இருந்தாலும் சரி, எந்த ஊரா இருந்தாலும் சரி, எல்லாருக்கும் பொதுவான விஷயங்களை மட்டும் பேசறதாலதான் இதை உலகப் பொதுமறைன்னு கொண்டாடுறோம். அன்பு, ஒழுக்கம், நட்பு, உழைப்புன்னு மனுஷன் நிம்மதியா வாழ என்னென்ன தேவையோ, அதையெல்லாம் ரொம்ப சிம்பிளா, ஆனா ஆழமா சொல்லியிருப்பாரு. ஸ்கூல் படிக்கிறப்ப மனப்பாடம் பண்ணது ஒரு பக்கம் இருந்தாலும், வயசாகி நிஜ வாழ்க்கையில அடிபடும்போதுதான் அதுல இருக்குற ஒவ்வொரு குறளோட அருமையும் புரியுது.",
+          "latin": "Thirukkural pathi sollanumna, adhu namma Tamizhanoda vaazhkai vazhikaattiannae sollalaam. Rende variyil ulagathula irukkura ella thathuvaththaiyum allickoduththavaru namma Thiruvalluvar. Yaar yentha mathamaa irundhaalum sari, yentha ooraa irundhaalum sari, ellaarukkum pothuvana vishayangalai mattum pesarathaalathaan ithai ulaga pothumarainnnu kondadauroum. Anbu, ozhukkam, natpu, uzhaippunna manushan nimmathiya vaazha ennaenna thevaiyo, athaiyellam romba simpila, aanaa aazhamaa solliyiruppaaru. School padikkirappa manappaadam pannathu oru pakkam irundhaalum, vayasaagi nija vaazhkaiyil adipadumpothudhaan adhul irukkura ovvoru kuraloda arumaiyum puriyudhu."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "If we’re talking about Thirukkural, it’s basically the ultimate life guide for every Tamilian. Within just two short lines, Thiruvalluvar managed to pack in all the wisdom and philosophy in the world. Whether you follow a religion or not, or regardless of where you're from, it speaks to everyone, which is why it's celebrated as the Ulaga Pothumarai. Love, discipline, friendship, hard work, whatever a person needs to live a peaceful life, he explained it simply but deeply. We might have memorized it back in school just for marks, but it’s only when we face real-life struggles as adults that the true value of each couplet hits home."
+      },
+      "notes": "This passage maintains coherence through concession-contrast: it acknowledges that while the Thirukkural is often memorized in school for academic purposes, its true depth and value are only realized when one encounters real-life challenges. The translation should preserve this contrast between the superficial engagement with the text in an educational setting and the profound understanding that comes with lived experience. A translation that simply states the facts without connecting them into this coherent argument would miss the discourse-level structure of the original."
+    },
+    {
+      "id": "ta_disc_tr_005",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "thematic-continuity",
+        "cultural-tradition"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "காலையில சீக்கிரமா எழுந்து வாசல்ல சாணி தெளிச்சு, அரிசி மாவுல கோலம் போடுறது நம்ம ஊருக்கே உரிய ஒரு அழகு. இது வெறும் டிசைன் மட்டும் கிடையாது, இது ஒரு அழகான கலை. அரிசி மாவுல கோலம் போடுறதால எறும்பு, குருவிங்களுக்கு அது சாப்பாடா அமையுது. குனிஞ்சு நிமிர்ந்து கோலம் போடுறது ஒரு நல்ல உடற்பயிற்சி மாதிரி. மனசுக்கு ஒரு பாசிட்டிவ் எனர்ஜி கொடுக்கவும். விசேஷ நாள்னா செம்மண் பூசி அழகாக்குற நம்ம ஊரு ஸ்டைலே தனி தான்!",
+          "latin": "Kaalaayila seekkiramaa ezhundhu vaasalla saani thelichchu, arisi maavula kolam podurathu namma oorukkuye uriya oru azhagu. Ithu verum design mattum kidayaathu, ithu oru azhagana kalai. Arisi maavula kolam podurathaala erumbu, kuruvinkaluku adhu saapaada amaiyudhu. Kuninju nimirndhu kolam podurathu oru nalla udarpayirchi maathiri. Manasukku oru positive energy kodukkavum. Vishesha naalnaa semman poosi azhakkaakura namma ooru styleye thani thaan!"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Waking up early and drawing kolam with rice flour is a beautiful tradition unique to our town. It’s not just a design, it’s an art form. Drawing kolam with rice flour provides food for ants and birds. The constant bending and reaching while drawing a Kolam is actually a great form of exercise. It also gives a positive energy to the mind. On special days, our town’s style of decorating with red sand is truly one of a kind!"
+      },
+      "notes": "This passage maintains coherence through the theme of cultural tradition: it starts with the practice of drawing kolam, explains its significance and benefits, and concludes with a special mention of a unique local style. The translation should preserve this thematic continuity to maintain the flow of ideas. A translation that treats each sentence as an isolated fact without connecting them into a cohesive narrative about the cultural practice would fail to capture the discourse-level structure of the original."
+    },
+    {
+      "id": "ta_disc_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "narrative-arc",
+        "personal-story"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "நம்ம ஊர்ல வளர்ற ஒவ்வொருத்தருக்கும் ஸ்ட்ரீட் கிரிக்கெட் தான் முதல் காதல். ஸ்கூல் முடிஞ்சதும் பேக்-ஐ வீசிட்டு, ஒரு பிளாஸ்டிக் பேட்டோட தெருவுக்கு ஓடுறது ஒரு தனி சுகம். சந்து பொந்துல 'ஒன் பிட்ச் அவுட்'னு நம்மளே ரூல்ஸ் போட்டு விளையாடுறது நம்ம சிறுவயது நினைவுகள். அங்க ஆரம்பிச்ச அந்த கிரிக்கெட் வெறிதான், இன்னைக்கு வரைக்கும் நம்மள ஒரு CSK ரசிகனா, தோனி பக்தனா மாத்திருக்கு. கிரிக்கெட் நமக்கு வெறும் விளையாட்டு இல்ல, அது ஒரு எமோஷன்!",
+          "latin": "Namma oorla valarra ovvorutharukkum street cricket thaan mudhal kaadhal. School mudinjadhum bagai veesittu, oru plastic batoda theruvukku oodurathu oru thani sugam. Sandhu pondula 'one pitch out'nu nammale rules pottu vilaiyaaduraathu namma siruvayathu ninaivugal. Anga aarambicha andha cricket verithaan, inniku varaiyum nammale oru CSK rasikana, Dhoni bhaktana maaththirukku. Cricket namakku verum vilaiyaattu illa, adhu oru emotion!"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Street cricket is the first love for everyone growing up in our neck of the woods. There’s a special kind of joy in throwing your school bag aside and running to the street with a plastic bat after school. Playing in narrow lanes and alleys with our own rules like 'one pitch out' makes up our childhood memories. The cricket fever that started there is what has turned us into CSK fans and Dhoni devotees today. For us, cricket isn’t just a sport, it’s an emotion!"
+      },
+      "notes": "This passage maintains coherence through next-sentence coherence: each sentence builds on the previous one to create a narrative about the cultural significance of street cricket. The translation should preserve this flow of ideas to maintain the emotional impact. A translation that treats each sentence as an isolated statement without connecting them into a cohesive story about the love for cricket would fail to capture the discourse-level structure of the original."
+    }
+  ]
+}

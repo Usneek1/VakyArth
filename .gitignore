@@ -1,0 +1,24 @@
+# Secrets / environment
+.env
+.env.local
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Model run outputs
+outputs/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store

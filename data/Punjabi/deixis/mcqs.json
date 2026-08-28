@@ -1,0 +1,639 @@
+{
+  "dataset": "Punjabi Pragmatics - Deixis MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_deix_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "reported-speech",
+        "social-deixis"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Navjot ne papa nu keha, 'Papa, mere professor keh rhe si tussi unha nu phone kariyo.'",
+          "question": "Navjot ne 'tussi' kis baare keha?",
+          "options": [
+            "Papa baare",
+            "Professor baare",
+            "Apne baare",
+            "Kisi hor baare"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Papa baare"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਨਵਜੋਤ ਨੇ ਪਾਪਾ ਨੂੰ ਕਿਹਾ, 'ਪਾਪਾ, ਮੇਰੇ ਪ੍ਰੋਫ਼ੈਸਰ ਕਹਿ ਰਹੇ ਸੀ ਤੁੱਸੀਂ ਉਹਨਾਂ ਨੂੰ ਫ਼ੋਨ ਕਰੀਓ।'",
+          "question": "ਨਵਜੋਤ ਨੇ 'ਤੁੱਸੀਂ' ਕਿਸ ਬਾਰੇ ਕਿਹਾ?",
+          "options": [
+            "ਪਾਪਾ ਬਾਰੇ",
+            "ਪ੍ਰੋਫ਼ੈਸਰ ਬਾਰੇ",
+            "ਆਪਣੇ ਬਾਰੇ",
+            "ਕਿਸੇ ਹੋਰ ਬਾਰੇ"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ਪਾਪਾ ਬਾਰੇ"
+          }
+        },
+        "english": {
+          "context": "Navjot told his dad, 'Papa, my professor was saying you (tussi) should call him.'",
+          "question": "Who was Navjot referring to with 'tussi' (you-formal)?",
+          "options": [
+            "His dad",
+            "The professor",
+            "Himself",
+            "Someone else"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "His dad"
+          }
+        }
+      },
+      "explanation": "'Tussi' targets the current addressee (Papa), not the professor mentioned in reported speech.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "honorific person-deixis patterns"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "pa_deix_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "time-deixis",
+        "parso"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Somvar nu Harman ne mainu phone kita, kehndi, 'Parso mera birthday hai, tussi zaroor aayio.'",
+          "question": "Harman da birthday kado hai?",
+          "options": [
+            "Somvar",
+            "Buddhvar",
+            "Mangalvaar",
+            "Shanivaar"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Buddhvar"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਸੋਮਵਾਰ ਨੂੰ ਹਰਮਨ ਨੇ ਮੈਨੂੰ ਫ਼ੋਨ ਕੀਤਾ, ਕਹਿੰਦੀ, 'ਪਰਸੋਂ ਮੇਰਾ ਬਰਥਡੇ ਹੈ, ਤੁੱਸੀਂ ਜ਼ਰੂਰ ਆਇਓ।'",
+          "question": "ਹਰਮਨ ਦਾ ਬਰਥਡੇ ਕਦੋਂ ਹੈ?",
+          "options": [
+            "ਸੋਮਵਾਰ",
+            "ਬੁੱਧਵਾਰ",
+            "ਮੰਗਲਵਾਰ",
+            "ਸ਼ਨੀਵਾਰ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਬੁੱਧਵਾਰ"
+          }
+        },
+        "english": {
+          "context": "On Monday, Harman called me and said, 'My birthday is parso (day after tomorrow), you must come.'",
+          "question": "When is Harman's birthday?",
+          "options": [
+            "Monday",
+            "Wednesday",
+            "Tuesday",
+            "Saturday"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Wednesday"
+          }
+        }
+      },
+      "explanation": "'Parso' = day after tomorrow. Monday + 2 days = Wednesday.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "temporal deixis via colloquial terms like 'parso'"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "pa_deix_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Preeti",
+              "utterance": "Menu lagda online classes vich students dhyaan nahi dende."
+            },
+            {
+              "speaker": "Amit",
+              "utterance": "Haan, par offline vich vi eh problem hai."
+            },
+            {
+              "speaker": "Preeti",
+              "utterance": "Tusi theek keh rhe, par eh online vich zyada common hai."
+            }
+          ],
+          "question": "Preeti de aakhri sentence vich 'eh' kise nu refer karda hai?",
+          "options": [
+            "Online class",
+            "Students",
+            "Offline class",
+            "Dhyaan na dena"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Dhyaan na dena"
+          }
+        },
+        "gurmukhi": {
+          "dialogue": [
+            {
+              "speaker": "ਪ੍ਰੀਤੀ",
+              "utterance": "ਮੈਨੂੰ ਲੱਗਦਾ ਔਨਲਾਈਨ ਕਲਾਸਾਂ ਵਿੱਚ ਸਟੂਡੈਂਟਸ ਧਿਆਨ ਨਹੀਂ ਦਿੰਦੇ।"
+            },
+            {
+              "speaker": "ਅਮਿਤ",
+              "utterance": "ਹਾਂ, ਪਰ ਔਫ਼ਲਾਈਨ ਵਿੱਚ ਵੀ ਇਹ ਪ੍ਰੌਬਲਮ ਹੈ।"
+            },
+            {
+              "speaker": "ਪ੍ਰੀਤੀ",
+              "utterance": "ਤੁਸੀਂ ਠੀਕ ਕਹਿ ਰਹੇ, ਪਰ ਇਹ ਔਨਲਾਈਨ ਵਿੱਚ ਜ਼ਿਆਦਾ ਕੌਮਨ ਹੈ।"
+            }
+          ],
+          "question": "ਪ੍ਰੀਤੀ ਦੇ ਆਖਰੀ ਸੈਂਟੈਂਸ ਵਿੱਚ 'ਇਹ' ਕਿਸੇ ਨੂੰ ਰੈਫ਼ਰ ਕਰਦਾ ਹੈ?",
+          "options": [
+            "ਔਨਲਾਈਨ ਕਲਾਸ",
+            "ਸਟੂਡੈਂਟਸ",
+            "ਔਫ਼ਲਾਈਨ ਕਲਾਸ",
+            "ਧਿਆਨ ਨਾ ਦੇਣਾ"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "ਧਿਆਨ ਨਾ ਦੇਣਾ"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Preeti",
+              "utterance": "I think in online classes students don't pay attention."
+            },
+            {
+              "speaker": "Amit",
+              "utterance": "Yes, but this problem exists in offline too."
+            },
+            {
+              "speaker": "Preeti",
+              "utterance": "You're right, but this is more common online."
+            }
+          ],
+          "question": "In Preeti's last sentence, what does 'eh' (this) refer to?",
+          "options": [
+            "Online class",
+            "Students",
+            "Offline class",
+            "Not paying attention"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Not paying attention"
+          }
+        }
+      },
+      "explanation": "'Eh' refers to the **problem** (students not paying attention), not to the class mode.",
+      "metadata": {
+        "register": "professional-informal",
+        "cultural_markers": [
+          "abstract discourse deixis involving conceptual reference"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "pa_deix_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "reported-speech",
+        "reference-resolution"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ranjit ne apni behn nu keha, “Gurpreet keh reha si ke uhde papa ne mainu sandessa bhejiya ke tussi unhan nu mil ke aao.”",
+          "question": "'Tussi' kis layi vartiya gaya hai?",
+          "options": [
+            "Gurpreet",
+            "Gurpreet de papa",
+            "Ranjit",
+            "Ranjit di behn"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Ranjit di behn"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਰਣਜੀਤ ਨੇ ਆਪਣੀ ਭੈਣ ਨੂੰ ਕਿਹਾ, “ਗੁਰਪ੍ਰੀਤ ਕਹਿ ਰਿਹਾ ਸੀ ਕਿ ਉਸਦੇ ਪਾਪਾ ਨੇ ਮੈਨੂੰ ਸੰਦੇਸਾ ਭੇਜਿਆ ਕਿ ਤੁਸੀਂ ਉਨ੍ਹਾਂ ਨੂੰ ਮਿਲ ਕੇ ਆਓ।”",
+          "question": "'ਤੁਸੀਂ' ਕਿਸ ਲਈ ਵਰਤਿਆ ਗਿਆ ਹੈ?",
+          "options": [
+            "ਗੁਰਪ੍ਰੀਤ",
+            "ਗੁਰਪ੍ਰੀਤ ਦੇ ਪਾਪਾ",
+            "ਰਣਜੀਤ",
+            "ਰਣਜੀਤ ਦੀ ਭੈਣ"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "ਰਣਜੀਤ ਦੀ ਭੈਣ"
+          }
+        },
+        "english": {
+          "context": "Ranjit told his sister, “Gurpreet said that his father sent me a message that you should go and meet them.”",
+          "question": "Who does 'you' refer to?",
+          "options": [
+            "Gurpreet",
+            "Gurpreet’s father",
+            "Ranjit",
+            "Ranjit’s sister"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Ranjit’s sister"
+          }
+        }
+      },
+      "explanation": "The deictic 'tussi/you' shifts relative to Ranjit’s reported speech and refers to the sister being addressed.",
+      "metadata": {
+        "category": "deixis",
+        "subtype": "person-deixis"
+      }
+    },
+    {
+      "id": "pa_deix_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "time-deixis",
+        "reported-speech",
+        "temporal-shift"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Mangalvaar nu Seema ne mainu dassiya ki Priya ne pichle hafte Somvaar nu keha si ke ‘parso mera exam hai.’",
+          "question": "Priya da exam kado si?",
+          "options": [
+            "Pichle Buddhvaar nu",
+            "Pichle Mangalvaar nu",
+            "Is Somvaar nu",
+            "Is Mangalvaar nu"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Pichle Buddhvaar nu"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਮੰਗਲਵਾਰ ਨੂੰ ਸੀਮਾ ਨੇ ਮੈਨੂੰ ਦੱਸਿਆ ਕਿ ਪ੍ਰਿਆ ਨੇ ਪਿਛਲੇ ਹਫ਼ਤੇ ਸੋਮਵਾਰ ਨੂੰ ਕਿਹਾ ਸੀ ਕਿ ‘ਪਰਸੋ ਮੇਰਾ ਇਮਤਿਹਾਨ ਹੈ।’",
+          "question": "ਪ੍ਰਿਆ ਦਾ ਇਮਤਿਹਾਨ ਕਦੋਂ ਸੀ?",
+          "options": [
+            "ਪਿਛਲੇ ਬੁੱਧਵਾਰ ਨੂੰ",
+            "ਪਿਛਲੇ ਮੰਗਲਵਾਰ ਨੂੰ",
+            "ਇਸ ਸੋਮਵਾਰ ਨੂੰ",
+            "ਇਸ ਮੰਗਲਵਾਰ ਨੂੰ"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ਪਿਛਲੇ ਬੁੱਧਵਾਰ ਨੂੰ"
+          }
+        },
+        "english": {
+          "context": "On Tuesday, Seema told me that Priya had said last week on Monday, ‘My exam is the day after tomorrow.’",
+          "question": "When was Priya’s exam?",
+          "options": [
+            "Last Wednesday",
+            "Last Tuesday",
+            "This Monday",
+            "This Tuesday"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Last Wednesday"
+          }
+        }
+      },
+      "explanation": "‘Parso’ (day after tomorrow) is interpreted relative to last Monday. That makes the exam last Wednesday.",
+      "metadata": {
+        "category": "deixis",
+        "subtype": "time-deixis"
+      }
+    },
+    {
+      "id": "pa_deix_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "place-deixis",
+        "motion-deixis",
+        "spatial-reasoning"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Tourist ne puchheya, ‘Paaji, Darbar Sahib kiddhar nu payega?’ Dukaandaar ne keha, ‘Tussi ithon siddha jao (uttar nu ishara karde hoye), bus stand ton khabbe mur jao, fer siddha ja ke sajje murro jithe Ramdas di hatti hai, fer chaudi gali vich aakhri vaar khabbe murro te tussi Darbar Sahib pahunch jaoge.’",
+          "question": "Dukaandaar di reference de mutabik (bus stand nu starting point mann ke), Darbar Sahib kis disha val hai?",
+          "options": [
+            "Uttar-purab",
+            "Uttar-pacham",
+            "Pacham",
+            "Dakhan-purab"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "North-West"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਯਾਤਰੀ ਨੇ ਪੁੱਛਿਆ, ‘ਪਾਜੀ, ਦਰਬਾਰ ਸਾਹਿਬ ਕਿੱਧਰ ਨੂੰ ਪਵੇਗਾ?’ ਦੁਕਾਨਦਾਰ ਨੇ ਕਿਹਾ, ‘ਤੁਸੀਂ ਇੱਥੋਂ ਸਿੱਧਾ ਜਾਓ (ਉੱਤਰ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦੇ ਹੋਏ), ਬੱਸ ਸਟੈਂਡ ਤੋਂ ਖੱਬੇ ਮੁੜ ਜਾਓ, ਫਿਰ ਸਿੱਧਾ ਜਾ ਕੇ ਸੱਜੇ ਮੁੜੋ ਜਿੱਥੇ ਰਾਮਦਾਸ ਦੀ ਹੱਟੀ ਹੈ, ਫਿਰ ਚੌੜੀ ਗਲੀ ਵਿੱਚ ਆਖ਼ਰੀ ਵਾਰ ਖੱਬੇ ਮੁੜੋ ਤੇ ਤੁਸੀਂ ਦਰਬਾਰ ਸਾਹਿਬ ਪਹੁੰਚ ਜਾਵੋਗੇ।’",
+          "question": "ਦੁਕਾਨਦਾਰ ਦੀ ਰੇਫ਼ਰੈਂਸ ਮੁਤਾਬਕ (ਬੱਸ ਸਟੈਂਡ ਨੂੰ ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਮੰਨ ਕੇ), ਦਰਬਾਰ ਸਾਹਿਬ ਕਿਸ ਦਿਸ਼ਾ ਵੱਲ ਹੈ?",
+          "options": [
+            "ਉੱਤਰ–ਪੂਰਬ",
+            "ਉੱਤਰ–ਪੱਛਮ",
+            "ਪੱਛਮ",
+            "ਦੱਖਣ–ਪੂਰਬ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਉੱਤਰ–ਪੱਛਮ"
+          }
+        },
+        "english": {
+          "context": "A tourist asked, ‘Brother, which way is the Golden Temple?’ The shopkeeper replied, ‘Go straight from here (pointing north), turn left at the bus stand, then go straight and turn right at Ramdas’s shop, then in the wide lane take the last left — you will reach the Golden Temple.’",
+          "question": "Based on the shopkeeper’s reference (taking the bus stand as the starting point), which direction is the Golden Temple?",
+          "options": [
+            "North-East",
+            "North-West",
+            "West",
+            "South-East"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "North-West"
+          }
+        }
+      },
+      "explanation": "‘Straight’ is anchored to north by the explicit gesture. From the bus stand: go north, then left (west), then right (north), then left (west) → net displacement is north + west = North-West.",
+      "metadata": {
+        "category": "deixis",
+        "subtype": "place-deixis",
+        "anchoring": "explicit cardinal gesture (north)"
+      }
+    },
+    {
+      "id": "pa_deix_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "time-deixis",
+        "tense-disambiguation",
+        "lexical-ambiguity"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ajj Virvaar hai. Rohan ne Simran nu keha, 'Asi kal hi tan mile si.'",
+          "question": "Rohan de mutabik, oh Simran nu kado mileya?",
+          "options": [
+            "Buddhvaar",
+            "Shukarvaar",
+            "Virvaar",
+            "Agla Buddhvaar"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Buddhvaar"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਅੱਜ ਵੀਰਵਾਰ ਹੈ। ਰੋਹਨ ਨੇ ਸਿਮਰਨ ਨੂੰ ਕਿਹਾ, 'ਅਸੀਂ ਕੱਲ੍ਹ ਹੀ ਤਾਂ ਮਿਲੇ ਸੀ।'",
+          "question": "ਰੋਹਨ ਦੇ ਮੁਤਾਬਕ, ਉਹ ਸਿਮਰਨ ਨੂੰ ਕਦੋਂ ਮਿਲਿਆ?",
+          "options": [
+            "ਬੁੱਧਵਾਰ",
+            "ਸ਼ੁੱਕਰਵਾਰ",
+            "ਵੀਰਵਾਰ",
+            "ਅਗਲਾ ਬੁੱਧਵਾਰ"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ਬੁੱਧਵਾਰ"
+          }
+        },
+        "english": {
+          "context": "Today is Thursday. Rohan told Simran, 'We just met yesterday, remember?'",
+          "question": "According to Rohan, when did he meet Simran?",
+          "options": [
+            "Wednesday",
+            "Friday",
+            "Thursday",
+            "Next Wednesday"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Wednesday"
+          }
+        }
+      },
+      "explanation": "'Kal' is ambiguous between 'yesterday' and 'tomorrow' in Punjabi; here the past-tense marker 'si' (mile si = had met) disambiguates it as 'yesterday.' Since today is Thursday, that makes it Wednesday.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "'kal' meaning both yesterday and tomorrow, disambiguated only by verb tense"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "pa_deix_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "inclusive-exclusive-we",
+        "reference-resolution"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Sonia ne Aman nu keha, 'Asi kal ghuman ja rhe han, tu dasde je kuch tere vaste liyaye.'",
+          "question": "Aman vi Sonia naal trip te ja rha hai?",
+          "options": [
+            "Haan, oh vi ja reha hai",
+            "Nahi, oh nahi ja reha",
+            "Sirf agli trip te jaayega",
+            "Dasseya nahi gaya"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Nahi, oh nahi ja reha"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਸੋਨੀਆ ਨੇ ਅਮਨ ਨੂੰ ਕਿਹਾ, 'ਅਸੀਂ ਕੱਲ੍ਹ ਘੁੰਮਣ ਜਾ ਰਹੇ ਹਾਂ, ਤੂੰ ਦੱਸ ਦੇ ਜੇ ਕੁਝ ਤੇਰੇ ਵਾਸਤੇ ਲਿਆਵਾਂ।'",
+          "question": "ਅਮਨ ਵੀ ਸੋਨੀਆ ਨਾਲ ਟ੍ਰਿਪ 'ਤੇ ਜਾ ਰਿਹਾ ਹੈ?",
+          "options": [
+            "ਹਾਂ, ਉਹ ਵੀ ਜਾ ਰਿਹਾ ਹੈ",
+            "ਨਹੀਂ, ਉਹ ਨਹੀਂ ਜਾ ਰਿਹਾ",
+            "ਸਿਰਫ਼ ਅਗਲੀ ਟ੍ਰਿਪ 'ਤੇ ਜਾਵੇਗਾ",
+            "ਦੱਸਿਆ ਨਹੀਂ ਗਿਆ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਨਹੀਂ, ਉਹ ਨਹੀਂ ਜਾ ਰਿਹਾ"
+          }
+        },
+        "english": {
+          "context": "Sonia told Aman, 'We're going out tomorrow — let me know if you want me to bring you anything.'",
+          "question": "Is Aman also going on the trip with Sonia?",
+          "options": [
+            "Yes, he's going too",
+            "No, he isn't going",
+            "Only for the next trip",
+            "Not specified"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "No, he isn't going"
+          }
+        }
+      },
+      "explanation": "'Asi' (we) here excludes Aman: Sonia's offer to bring something back for him only makes sense if he is staying behind rather than being part of the group denoted by 'asi.'",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "'asi' resolved via pragmatic inference from a surrounding offer, not stated explicitly"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "pa_deix_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "place-deixis",
+        "deictic-center-shift",
+        "phone-call-context"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Karan",
+              "utterance": "Yaar, ethe office vich bahut garmi hai, AC kharab ho gaya."
+            },
+            {
+              "speaker": "Meher",
+              "utterance": "Oh nahi, othe taan bura haal hoyega. Ethe taan bahut thand hai, te baahar barish v ho rahi hai."
+            }
+          ],
+          "question": "Meher de doosre vaakya vich 'ethe' kise nu refer karda hai?",
+          "options": [
+            "Karan da office",
+            "Meher da ghar",
+            "Dono jagah",
+            "Koi hor jagah"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Meher da ghar"
+          }
+        },
+        "gurmukhi": {
+          "dialogue": [
+            {
+              "speaker": "ਕਰਨ",
+              "utterance": "ਯਾਰ, ਇੱਥੇ ਦਫ਼ਤਰ ਵਿੱਚ ਬਹੁਤ ਗਰਮੀ ਹੈ, ਏ.ਸੀ. ਖ਼ਰਾਬ ਹੋ ਗਿਆ।"
+            },
+            {
+              "speaker": "ਮੇਹਰ",
+              "utterance": "ਓ ਨਹੀਂ, ਉੱਥੇ ਤਾਂ ਬੁਰਾ ਹਾਲ ਹੋਵੇਗਾ। ਇੱਥੇ ਤਾਂ ਬਹੁਤ ਠੰਢ ਹੈ, ਤੇ ਬਾਹਰ ਬਾਰਿਸ਼ ਵੀ ਹੋ ਰਹੀ ਹੈ।"
+            }
+          ],
+          "question": "ਮੇਹਰ ਦੇ ਦੂਜੇ ਵਾਕ ਵਿੱਚ 'ਇੱਥੇ' ਕਿਸ ਨੂੰ ਰੈਫ਼ਰ ਕਰਦਾ ਹੈ?",
+          "options": [
+            "ਕਰਨ ਦਾ ਦਫ਼ਤਰ",
+            "ਮੇਹਰ ਦਾ ਘਰ",
+            "ਦੋਵੇਂ ਥਾਵਾਂ",
+            "ਕੋਈ ਹੋਰ ਥਾਂ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਮੇਹਰ ਦਾ ਘਰ"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Karan (calling from office)",
+              "utterance": "Man, it's really hot here in the office, the AC broke."
+            },
+            {
+              "speaker": "Meher (at home)",
+              "utterance": "Oh no, it must be awful there. It's very cold here, and it's raining outside."
+            }
+          ],
+          "question": "In Meher's second sentence, what does 'here' refer to?",
+          "options": [
+            "Karan's office",
+            "Meher's home",
+            "Both places",
+            "Some other place"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Meher's home"
+          }
+        }
+      },
+      "explanation": "'Ethe/othe' (here/there) are anchored to whoever is currently speaking. When Meher speaks, 'ethe' shifts to her own location (home); Karan's office, which was 'ethe' for him, becomes 'othe' from her perspective.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "ethe/othe shifting per speaker without any physical movement"
+        ],
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

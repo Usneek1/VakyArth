@@ -1,0 +1,517 @@
+{
+  "dataset": "Tamil Pragmatics - Deixis MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_deix_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "reported-speech",
+        "social-deixis"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Naanum appa madhiyam sapdida veliya porapo avanum varananu kekka sonnanganu en thambi ta keten'",
+          "question": "Nan 'avan' yendru yaarai solren?",
+          "options": [
+            "Appa",
+            "Avanaye",
+            "Thambi",
+            "Vera yaaro"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Thambi"
+          }
+        },
+        "tamil": {
+          "context": "நானும் அப்பா மதியம் சாப்பிட வெளியா போறபோ அவனும் வரணனு கேக்க சொன்னாங்கனு என் தம்பி டா கேட்டேன்'",
+          "question": "நான் 'அவன்' என்று யாரை சொல்றேன்?",
+          "options": [
+            "அப்பா",
+            "அவனையே",
+            "தம்பி",
+            "வேற யாரோ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "தம்பி"
+          }
+        },
+        "english": {
+          "context": "I told my brother that dad asked him if he would like to join dad and me for lunch.",
+          "question": "Who was 'he' referring to?",
+          "options": [
+            "Dad",
+            "Himself",
+            "The brother",
+            "Someone else"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "The brother"
+          }
+        }
+      },
+      "explanation": "Here 'அவன்' ('avan') refers to the brother (தம்பி); pronoun resolution links to the addressee in reported speech.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "person-deixis in reported speech",
+          "pronoun resolution aligned to the addressee",
+          "colloquial Tamil reporting style"
+        ],
+        "difficulty": "medium",
+        "authors_note": "Tests pronoun resolution in reported speech (referent = addressee)."
+      }
+    },
+    {
+      "id": "ta_deix_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "time-deixis",
+        "parso"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Sanikkelamai anaiku thatha, nalai maruunaal thiruvizhakku polaamnu sonnanga",
+          "question": "Thiruvizha eppo nadakkuthu?",
+          "options": [
+            "Sani",
+            "Thingal",
+            "Sevvaai",
+            "Velli"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Thingal"
+          }
+        },
+        "tamil": {
+          "context": "சனிக்கிழமை அன்று தாத்தா, நாளை மறுநாள் திருவிழாவுக்கு போலாம்நு சொன்னாங்க",
+          "question": "திருவிழா எப்போ நடக்குது?",
+          "options": [
+            "சனி",
+            "திங்கள்",
+            "செவ்வாய்",
+            "வெள்ளி"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "திங்கள்"
+          }
+        },
+        "english": {
+          "context": "On Saturday, Grandpa said we could go to the festival the day after tomorrow.",
+          "question": "When is the festival?",
+          "options": [
+            "Saturday",
+            "Monday",
+            "Tuesday",
+            "Friday"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Monday"
+          }
+        }
+      },
+      "explanation": "Here 'நாளை மறுநாள்' (day after tomorrow) requires adding two days to the given weekday: Saturday + 2 = Monday (திங்கள்).",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "temporal deixis: 'நாளை மறுநாள்' = day-after-tomorrow",
+          "weekday arithmetic in colloquial speech"
+        ],
+        "difficulty": "medium",
+        "authors_note": "Tests ability to compute day offsets from a given weekday expression."
+      }
+    },
+    {
+      "id": "ta_deix_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Kalai",
+              "utterance": "Kaalai saapadu na athu dosai dhan"
+            },
+            {
+              "speaker": "Durga",
+              "utterance": "Illaye, idli, pongal, vada, poori kooda saapidalam"
+            },
+            {
+              "speaker": "Kalai",
+              "utterance": "Ana athu dhaana ellarukum pidikkum"
+            }
+          ],
+          "question": "Kalai kadaisi vaakiyathula 'athu' nu etha solranga?",
+          "options": [
+            "Idli",
+            "Poori",
+            "Kaalai unavu",
+            "Dosai"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Dosai"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "கலை",
+              "utterance": "காலை சாப்பாடு நா அது தோசை தான்"
+            },
+            {
+              "speaker": "துர்கா",
+              "utterance": "இல்லையே, இட்லி, பொங்கல், வடை, பூரி கூட சாப்பிடலாம்"
+            },
+            {
+              "speaker": "கலை",
+              "utterance": "ஆனா அது தான் எல்லாருக்கும் பிடிக்கும்"
+            }
+          ],
+          "question": "கலை கடைசி வாக்கியத்தில 'அது'நு எதை சொல்றாங்க?",
+          "options": [
+            "இட்லி",
+            "பூரி",
+            "காலை உணவு",
+            "தோசை"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "தோசை"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Kalai",
+              "utterance": "Breakfast means dosa."
+            },
+            {
+              "speaker": "Durga",
+              "utterance": "No, we can also have idli, pongal, vada, or poori."
+            },
+            {
+              "speaker": "Kalai",
+              "utterance": "But that is what everyone likes."
+            }
+          ],
+          "question": "In Kalai's last sentence, what does 'that' refer to?",
+          "options": [
+            "Idli",
+            "Poori",
+            "Breakfast",
+            "Dosa"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Dosa"
+          }
+        }
+      },
+      "explanation": "Here 'அது' ('athu') refers to 'தோசை' (dosa), the specific menu item mentioned earlier.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "discourse-deixis selecting a previously mentioned nominal"
+        ],
+        "difficulty": "medium",
+        "authors_note": "Tests nominal anaphora resolution to a specific referent."
+      }
+    },
+    {
+      "id": "ta_deix_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "place-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Sekar",
+              "utterance": "Officeku kelambitingala"
+            },
+            {
+              "speaker": "Meena",
+              "utterance": "Illa, veetla dhan iruken, inime dhan"
+            },
+            {
+              "speaker": "Sekar",
+              "utterance": "Avasarathula bag eduthutu vara maranthuten, inga varumbothu eduthutu vandhudringala"
+            }
+          ],
+          "question": "Kadaisi linela Sekar 'inga'nu etha solranga?",
+          "options": [
+            "Veedu",
+            "Office",
+            "Bag",
+            "Saapadu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Office"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "சேகர்",
+              "utterance": "ஆபீஸ்க்கு கிளம்பிட்டிங்களா"
+            },
+            {
+              "speaker": "மீனா",
+              "utterance": "இல்ல, வீட்ட்ல தான் இருக்கேன், இனிமே தான்"
+            },
+            {
+              "speaker": "சேகர்",
+              "utterance": "அவசரத்துல பாக் எடுத்து வர மறந்துட்டேன், இங்க வரும்போது எடுத்து வந்துத்ரிங்களா"
+            }
+          ],
+          "question": "கடைசி லைன்ல சேகர் 'இங்க'னு எதை சொல்றாங்க?",
+          "options": [
+            "வீடு",
+            "ஆபீஸ்",
+            "பாக்",
+            "சாப்பாடு"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ஆபீஸ்"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Sekar",
+              "utterance": "Did you leave for the office?"
+            },
+            {
+              "speaker": "Meena",
+              "utterance": "No, I'm at home, just now."
+            },
+            {
+              "speaker": "Sekar",
+              "utterance": "I forgot to take the bag in a hurry, can you bring it when you come here?"
+            }
+          ],
+          "question": "In Sekar's last sentence, what does 'here' refer to?",
+          "options": [
+            "Home",
+            "Office",
+            "Bag",
+            "Food"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Office"
+          }
+        }
+      },
+      "explanation": "Here 'இங்க' ('inga') refers to 'ஆபீஸ்' (office), the specific location mentioned in the dialogue.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "place-deixis selecting a previously mentioned location"
+        ],
+        "difficulty": "medium",
+        "authors_note": "Tests place deixis resolution to a specific referent."
+      }
+    },
+    {
+      "id": "ta_deix_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "indirect-request"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Unakku thevayaana thuni mani ellam eduthu vechachanu amma unkitta kekka sonnanga. Ne eduthuvechuttiyanu en thangachi kitta na ketten",
+          "question": "Nan 'unakku' yendru yaarai solren?",
+          "options": [
+            "Appa",
+            "Amma",
+            "Thangachi",
+            "Akka"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Thangachi"
+          }
+        },
+        "tamil": {
+          "context": "உனக்கு தேவையான துணி மணி எல்லாம் எடுத்து வெச்சாச்சுனு அம்மா உன்கிட்ட கேக்க சொன்னாங்க. நீ எடுத்துவெச்சுட்டியனு என் தங்கச்சி கிட்ட நான் கேட்டேன்",
+          "question": "நான் 'உனக்கு' என்று யாரை சொல்றேன்?",
+          "options": [
+            "அப்பா",
+            "அம்மா",
+            "தங்கச்சி",
+            "அக்கா"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "தங்கச்சி"
+          }
+        },
+        "english": {
+          "context": "My mom told me to ask my younger sister if she had taken all the necessary clothes and jewelry. I asked my sister about it.",
+          "question": "Who was 'unakku' referring to?",
+          "options": [
+            "Dad",
+            "Mom",
+            "Younger sister",
+            "Older sister"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Younger sister"
+          }
+        }
+      },
+      "explanation": "Here 'unakku' (you) in the reported speech refers to the younger sister (தங்கச்சி), as the speaker is relaying what their mom said to the sister.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "social-deixis in reported speech",
+          "person-deixis aligned to the addressee",
+          "colloquial Tamil reporting style"
+        ],
+        "difficulty": "medium",
+        "authors_note": "Tests person deixis resolution in reported speech (referent = addressee)."
+      }
+    },
+    {
+      "id": "ta_deix_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "indirect-request"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Mani",
+              "utterance": "Naalaikku Radhaakku piranthanaal"
+            },
+            {
+              "speaker": "Malar",
+              "utterance": "Na vaazhthu sonnennu sollidunga, evlo vayasaaguthu paapakku ippo?"
+            },
+            {
+              "speaker": "Mani",
+              "utterance": "Naal romba vegama oduthu, poluthu vidunja avalukku 4 vayasu"
+            }
+          ],
+          "question": "Mani kadaisi vaakiyathula 'avalukku'nu yaara solraanga?",
+          "options": [
+            "Mani",
+            "Malar",
+            "Maniyin magal",
+            "Maniyin manaivi"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Mani's daughter"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "மணி",
+              "utterance": "நாளைக்கு ராதாக்கு பிறந்தநாள்"
+            },
+            {
+              "speaker": "மலர்",
+              "utterance": "நா வாழ்த்து சொன்னேன்னு சொல்லிடுங்க, எவ்ளோ வயசாகுது பாப்பக்கி இப்போ?"
+            },
+            {
+              "speaker": "மணி",
+              "utterance": "நாள் ரொம்ப வேகமா ஓடுது, பொலுது விடுஞ்சா அவளுக்கு 4 வயசு"
+            }
+          ],
+          "question": "மணி கடைசி வாக்கியத்தில 'அவளுக்கு'நு யாரை சொல்றாங்க?",
+          "options": [
+            "மணி",
+            "மலர்",
+            "மணியின் மகள்",
+            "மணியின் மனைவி"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "மணியின் மகள்"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Mani",
+              "utterance": "Tomorrow is Radha's birthday."
+            },
+            {
+              "speaker": "Malar",
+              "utterance": "Tell her I said happy birthday, how old is the baby now?"
+            },
+            {
+              "speaker": "Mani",
+              "utterance": "The days are running very fast, by the time sunrises she will be 4 years old."
+            }
+          ],
+          "question": "In Mani's last sentence, who does 'she' refer to?",
+          "options": [
+            "Mani",
+            "Malar",
+            "Mani's daughter",
+            "Mani's wife"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Mani's daughter"
+          }
+        }
+      },
+      "explanation": "Here 'avalukku' (she) in the reported speech refers to Mani's daughter, as the speaker is relaying what Mani said about his daughter to Malar.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "social-deixis in reported speech",
+          "person-deixis aligned to the addressee",
+          "colloquial Tamil reporting style"
+        ],
+        "difficulty": "medium",
+        "authors_note": "Tests person deixis resolution in reported speech (referent = addressee)."
+      }
+    }
+  ]
+}

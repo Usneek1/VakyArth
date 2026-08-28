@@ -1,0 +1,313 @@
+{
+  "dataset": "Punjabi Pragmatics - NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "weather-context",
+        "speaker-subject-mismatch"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "kapde sukne pa ditte?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "bahar nehri varga banya hoya aa"
+            }
+          ],
+          "hypothesis": "B ne kapde sukne pa ditte."
+        },
+        "gurmukhi": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "ਕੱਪੜੇ ਸੁੱਕਣ ਪਾ ਦਿੱਤੇ।"
+            },
+            {
+              "speaker": "B",
+              "utterance": "ਬਾਹਰ ਨਹਿਰ ਵਰਗਾ ਬਣਿਆ ਹੋਇਆ ਆ।"
+            }
+          ],
+          "hypothesis": "ਬੀ ਨੇ ਕੱਪੜੇ ਸੁੱਕਣ ਪਾ ਦਿੱਤੇ।"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Have you put the clothes out to dry?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "It looks stormy outside."
+            }
+          ],
+          "hypothesis": "B put the clothes out to dry."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "A claims the drying; B’s reply implies it’s too wet outside. The hypothesis incorrectly assigns the drying action to B."
+    },
+    {
+      "id": "pa_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "hyperbole/vow",
+        "implicature",
+        "goal-vs-literal"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "chachi kendi, 'bas meri kudi da viyah karke mai ganga nha lavan'",
+          "hypothesis": "chachi ganga vich nahuna chandi hai"
+        },
+        "gurmukhi": {
+          "premise": "ਚਾਚੀ ਕਹਿੰਦੀ, ‘ਬਸ ਮੇਰੀ ਕੁੜੀ ਦਾ ਵਿਆਹ ਹੋ ਜਾਵੇ, ਮੈਂ ਗੰਗਾ ਵਿੱਚ ਨ੍ਹਾ ਲਵਾਂਗੀ।’",
+          "hypothesis": "ਚਾਚੀ ਗੰਗਾ ਵਿੱਚ ਨ੍ਹਾਉਣਾ ਚਾਹੁੰਦੀ ਹੈ।"
+        },
+        "english": {
+          "premise": "Aunt says, ‘I will bathe in the Ganga after marrying my daughter’",
+          "hypothesis": "The aunt wants to bathe in the Ganga."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The statement is a vow/hyperbole expressing wish for the daughter’s marriage; it does not assert a current desire to bathe. Not entailed, not contradicted."
+    },
+    {
+      "id": "pa_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "sarcasm",
+        "implicature",
+        "negative-evaluation"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "mammi ne Gurpreet nu keha, 'tu kehda ethe aake chand chaadh lye'",
+          "hypothesis": "Gurpreet de aaun da fayada hoya"
+        },
+        "gurmukhi": {
+          "premise": "ਮੰਮੀ ਨੇ ਗੁਰਪ੍ਰੀਤ ਨੂੰ ਕਿਹਾ, ‘ਤੂੰ ਇੱਥੇ ਆ ਕੇ ਕਿਹੜਾ ਚੰਦ ਚਾੜ੍ਹ ਲਿਆ?’",
+          "hypothesis": "ਗੁਰਪ੍ਰੀਤ ਦੇ ਆਉਣ ਦਾ ਫ਼ਾਇਦਾ ਹੋਇਆ।"
+        },
+        "english": {
+          "premise": "Mom said to Gurpreet, ‘What a great feat did you achieve by coming here!’.",
+          "hypothesis": "Gurpreet’s coming was beneficial."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The sarcastic question implies no benefit was achieved; the hypothesis claims there was benefit."
+    },
+    {
+      "id": "pa_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "proverb",
+        "political-critique"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Mantri pind vich kudiyan di madad vaste nava program shuru karn lyi aaya si, te sarpanch ne keha, ‘sau chuhe kha ke billi hajj nu challi.’",
+          "hypothesis": "Mantri pind di kudiyan di madad nahi karna chahunda."
+        },
+        "gurmukhi": {
+          "premise": "ਮੰਤਰੀ ਪਿੰਡ ਵਿੱਚ ਕੁੜੀਆਂ ਦੀ ਮਦਦ ਵਾਸਤੇ ਨਵਾਂ ਪ੍ਰੋਗਰਾਮ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਆਇਆ ਸੀ, ਤੇ ਸਰਪੰਚ ਨੇ ਕਿਹਾ, ‘ਸੌ ਚੂਹੇ ਖਾ ਕੇ ਬਿੱਲੀ ਹੱਜ ਨੂੰ ਚੱਲੀ।’",
+          "hypothesis": "ਮੰਤਰੀ ਪਿੰਡ ਦੀਆਂ ਕੁੜੀਆਂ ਦੀ ਮਦਦ ਨਹੀਂ ਕਰਨਾ ਚਾਹੁੰਦਾ।"
+        },
+        "english": {
+          "premise": "A minister came to the village to start a new program for helping girls, and the village head said, ‘After eating a hundred mice, the cat goes on pilgrimage.’",
+          "hypothesis": "The minister does not want to help the girls in the village."
+        }
+      },
+      "label": "neutral",
+      "explanation": "The proverb criticizes hypocrisy or late moral action but does not assert that the minister lacks intent to help; the hypothesis is neither entailed nor contradicted."
+    },
+    {
+      "id": "pa_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "social-class-judgment"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Usdi kameez te sone de button vekh ke Davinder ne keha, ‘kakhan di kulli dand khand da parnala.’",
+          "hypothesis": "Davinder usdi kameez nu ghatiya keh rahi hai."
+        },
+        "gurmukhi": {
+          "premise": "ਉਸਦੀ ਕਮੀਜ਼ ‘ਤੇ ਸੋਨੇ ਦੇ ਬਟਨ ਵੇਖ ਕੇ ਦਵਿੰਦਰ ਨੇ ਕਿਹਾ, ‘ਕੱਖਾਂ ਦੀ ਕੁੱਲੀ ਦੰਦ ਖੰਡ ਦਾ ਪਰਣਾਲਾ।’",
+          "hypothesis": "ਦਵਿੰਦਰ ਉਸਦੀ ਕਮੀਜ਼ ਨੂੰ ਘਟੀਆ ਕਹਿ ਰਹੀ ਹੈ।"
+        },
+        "english": {
+          "premise": "Seeing the gold buttons on his shirt, Davinder said, ‘A hut of reeds with a sugar-spout.’",
+          "hypothesis": "Davinder is saying the shirt is cheap or low-quality."
+        }
+      },
+      "label": "entailment",
+      "explanation": "The idiom mocks superficial display over poor substance, implying negative evaluation of the shirt."
+    },
+    {
+      "id": "pa_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "dismissal",
+        "stance-denial"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jadon Amreek chor de pakh di gall karn laga, tan massi kehndi, ‘kwaje de gawah daddu.’",
+          "hypothesis": "Massi Amreek de pakh vich bol rahi hai."
+        },
+        "gurmukhi": {
+          "premise": "ਜਦੋਂ ਅਮਰੀਕ ਚੋਰ ਦੇ ਪੱਖ ਦੀ ਗੱਲ ਕਰਨ ਲੱਗਾ, ਤਾਂ ਮਾਸੀ ਕਹਿੰਦੀ, ‘ਖਵਾਜੇ ਦੇ ਗਵਾਹ ਡੱਡੂ।’",
+          "hypothesis": "ਮਾਸੀ ਅਮਰੀਕ ਦੇ ਪੱਖ ਵਿੱਚ ਬੋਲ ਰਹੀ ਹੈ।"
+        },
+        "english": {
+          "premise": "When Amreek started speaking in favor of the thief, the aunt said, ‘A frog as a witness for the saint.’",
+          "hypothesis": "The aunt is speaking in support of Amreek’s side."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The proverb dismisses the credibility of the speaker, implying rejection rather than support of Amreek’s stance."
+    },
+    {
+      "id": "pa_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "scalar-implicature",
+        "implicature-cancellation",
+        "defeasibility"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ravi ne keha, ‘Paper vich mainu kuch sawal aa gaye si — sach dassan taan saare hi aa gaye si.’",
+          "hypothesis": "Ravi nu paper de saare sawal aa gaye si."
+        },
+        "gurmukhi": {
+          "premise": "ਰਵੀ ਨੇ ਕਿਹਾ, ‘ਪੇਪਰ ਵਿੱਚ ਮੈਨੂੰ ਕੁਝ ਸਵਾਲ ਆ ਗਏ ਸੀ — ਸੱਚ ਦੱਸਾਂ ਤਾਂ ਸਾਰੇ ਹੀ ਆ ਗਏ ਸੀ।’",
+          "hypothesis": "ਰਵੀ ਨੂੰ ਪੇਪਰ ਦੇ ਸਾਰੇ ਸਵਾਲ ਆ ਗਏ ਸੀ।"
+        },
+        "english": {
+          "premise": "Ravi said, ‘I could do some of the questions on the paper — actually, to tell you the truth, I could do all of them.’",
+          "hypothesis": "Ravi could do all the questions on the paper."
+        }
+      },
+      "label": "entailment",
+      "explanation": "‘Kuch’ (some) would normally implicate ‘not all’, but the follow-up clause explicitly cancels that implicature. The item tests whether scalar implicatures are treated as defeasible; a model that applies the implicature mechanically will wrongly answer contradiction."
+    },
+    {
+      "id": "pa_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "relevance-maxim",
+        "indirect-refusal"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "Jaspreet",
+              "utterance": "Yaar, ajj sham nu apni gaddi de deve?"
+            },
+            {
+              "speaker": "Balwinder",
+              "utterance": "Mera bhra pind toh aa reha hai ajj, station toh lena hai."
+            }
+          ],
+          "hypothesis": "Balwinder ajj gaddi nahi dena chaunda."
+        },
+        "gurmukhi": {
+          "premise": [
+            {
+              "speaker": "ਜਸਪ੍ਰੀਤ",
+              "utterance": "ਯਾਰ, ਅੱਜ ਸ਼ਾਮ ਨੂੰ ਆਪਣੀ ਗੱਡੀ ਦੇ ਦੇਵੇਂ?"
+            },
+            {
+              "speaker": "ਬਲਵਿੰਦਰ",
+              "utterance": "ਮੇਰਾ ਭਰਾ ਪਿੰਡ ਤੋਂ ਆ ਰਿਹਾ ਹੈ ਅੱਜ, ਸਟੇਸ਼ਨ ਤੋਂ ਲੈਣਾ ਹੈ।"
+            }
+          ],
+          "hypothesis": "ਬਲਵਿੰਦਰ ਅੱਜ ਗੱਡੀ ਨਹੀਂ ਦੇਣਾ ਚਾਹੁੰਦਾ।"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "Jaspreet",
+              "utterance": "Hey, could you lend me your car this evening?"
+            },
+            {
+              "speaker": "Balwinder",
+              "utterance": "My brother is coming from the village today, I have to pick him up from the station."
+            }
+          ],
+          "hypothesis": "Balwinder does not want to lend the car today."
+        }
+      },
+      "label": "entailment",
+      "explanation": "Balwinder never says no. Mentioning a competing use for the car is relevant only as a refusal, so the refusal is derived from the relevance maxim rather than from any idiom or sarcastic expression."
+    },
+    {
+      "id": "pa_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "hedging",
+        "non-commitment"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "Nimrat",
+              "utterance": "Kal party te aayenga?"
+            },
+            {
+              "speaker": "Sukhwinder",
+              "utterance": "Vekhange yaar, kamm bahut peya hai."
+            }
+          ],
+          "hypothesis": "Sukhwinder kal party te nahi aayega."
+        },
+        "gurmukhi": {
+          "premise": [
+            {
+              "speaker": "ਨਿਮਰਤ",
+              "utterance": "ਕੱਲ੍ਹ ਪਾਰਟੀ ਤੇ ਆਵੇਂਗਾ?"
+            },
+            {
+              "speaker": "ਸੁਖਵਿੰਦਰ",
+              "utterance": "ਵੇਖਾਂਗੇ ਯਾਰ, ਕੰਮ ਬਹੁਤ ਪਿਆ ਹੈ।"
+            }
+          ],
+          "hypothesis": "ਸੁਖਵਿੰਦਰ ਕੱਲ੍ਹ ਪਾਰਟੀ ਤੇ ਨਹੀਂ ਆਵੇਗਾ।"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "Nimrat",
+              "utterance": "Will you come to the party tomorrow?"
+            },
+            {
+              "speaker": "Sukhwinder",
+              "utterance": "We'll see, yaar, I have a lot of work piled up."
+            }
+          ],
+          "hypothesis": "Sukhwinder will not come to the party tomorrow."
+        }
+      },
+      "label": "neutral",
+      "explanation": "‘Vekhange’ (we'll see) is a conventional hedge that leans negative without committing. The hypothesis is neither entailed nor contradicted — it counterbalances items where an indirect answer does license a firm inference, so that 'indirect answer' cannot be learned as a shortcut for 'contradiction'."
+    }
+  ]
+}

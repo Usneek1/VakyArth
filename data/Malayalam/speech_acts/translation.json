@@ -1,0 +1,214 @@
+{
+  "dataset": "Malayalam Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "malayalam_to_english",
+  "task_description": "Translate the given Tamil sentence or exchange into natural, idiomatic English. Correct translation requires recognizing the underlying speech act whether a question is really a command, a statement is really a warning, or a compliment is really a criticism and rendering the pragmatic force faithfully, not just the literal words.",
+  "items": [
+    {
+      "id": "ma_spa_tra_001",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "directive",
+        "social-pragmatics",
+        "traditional-knowledge",
+        "regional-context"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കുട്ടനാട്ടിലെ വെള്ളപ്പൊക്കകാലത്തെ ഒരു രാത്രിയായിരുന്നു. പുറത്തു കായലിലെ വെള്ളം കുത്തനെ ഉയരുമ്പോൾ വീട്ടിനുള്ളിൽ എല്ലാവരും ഭയന്ന് ഇരിക്കുകയായിരുന്നു. അപ്പോൾ വീട്ടിലെ മൂപ്പൻ ശാന്തമായി പറഞ്ഞു: \"കാറ്റ് വരുമ്പോൾ വാതിൽ അടയ്ക്കുക! വെള്ളം വരുമ്പോൾ വാതിൽ തുറക്കുക.\"",
+          "latin": "Kuttanaattile vellappokka-kaalathe oru raathriyaayirunnu. Purathu kaayalile vellam kuththane uyarumbol veetthinullil ellavarum bhayannu irikkukayirunnu. Appol veetile mooppan shaantamaayi paranju: 'Kaattu varumbol vaathil adaykkuka! Vellam varumbol vaathil thurakkuka.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "It was a night during the flood season in Kuttanad. As the backwater outside rose rapidly, everyone in the house sat in fear. Then the elder of the house calmly said, “When the wind comes, close the door; when the water comes, open the door.”"
+      },
+      "notes": "In Kuttanad, a low-lying region of Kerala where farming and settlements exist below sea level, flooding is common. The elder’s statement is a directive speech act expressing traditional local knowledge: doors should be closed against strong wind but opened when floodwater rises to equalize pressure and prevent structural damage to the house."
+    },
+    {
+      "id": "ma_spa_tra_002",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "expressive",
+        "comforting",
+        "social-pragmatics",
+        "parent-child-discourse"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "സ്കൂളിൽ നിന്ന് വീട്ടിലെത്തിയപ്പോൾ ഒരു കുട്ടി കരഞ്ഞുകൊണ്ടിരുന്നു. കൂട്ടുകാരുമായി ഉണ്ടായ ചെറിയ തർക്കം കാരണം അവൻ വളരെ വിഷമിച്ചിരുന്നു. അത് കണ്ട അമ്മ അവനെ ചേർത്ത് പിടിച്ച് മൃദുവായി പറഞ്ഞു: \"കരയല്ലേ മോനേ.\"",
+          "latin": "Schoolil ninnu veetilethiyappol oru kutti karanjukondirunnu. Koottukaarumaayi undaaya cheria tharkkam kaaranam avan valare vishamichirunnu. Athu kanda amma avane cherthu pidichu mruduvayi paranju: 'Karayalle mone.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When a boy returned home from school, he was crying. He was deeply upset because of a small quarrel with his classmates. Seeing this, his mother held him close and gently said, “Don’t cry, my son.”"
+      },
+      "notes": "The utterance 'കരയല്ലേ മോനേ' functions as a comforting speech act rather than a strict prohibition. Although grammatically a directive ('don’t cry'), in Malayalam parent–child discourse it pragmatically expresses empathy, reassurance, and emotional support."
+    },
+    {
+      "id": "ma_spa_tra_003",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "expressive",
+        "lament",
+        "rhetorical-question",
+        "social-pragmatics"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ഗ്രാമത്തിന്റെ പുറത്തുള്ള പഴയ പുളിമരം വെട്ടിമാറ്റാൻ ഭൂമിയുടമ തീരുമാനിച്ചു. ആ മരത്തിന്റെ തണലിൽ കുട്ടികൾ കളിക്കുകയും പക്ഷികൾ കൂടുകൂട്ടുകയും ചെയ്യാറുണ്ടായിരുന്നു. വെട്ടാനുള്ള ഒരുക്കങ്ങൾ തുടങ്ങുന്നത് കണ്ട ഒരു വയോധികൻ ദുഃഖത്തോടെ പറഞ്ഞു: \"മറുത്തു പറയാനാരുണ്ട,യ്യോ?\"",
+          "latin": "Graamathinte purathulla pazhaya pulimaram vettimaattaan bhoomiyudama theerumanichu. Aa marathinte thanalil kuttikal kalikkukayum pakshikal koodukootukayum cheyyaarunnu. Vettaanulla orukkangal thudangunnathu kanda oru vayodhikan duhkhatthode paranju: 'Maruthu parayaan aarundu, ayyo?'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The landowner decided to cut down the old tamarind tree on the edge of the village. Children used to play in its shade and birds nested on its branches. Seeing the preparations to cut it, an old man said sadly, “Who is there to oppose it, alas?”"
+      },
+      "notes": "The utterance 'മറുത്തു പറയാനാരുണ്ട,യ്യോ?' functions as an expressive speech act of helpless lament rather than a genuine question. Although structured as a question, it pragmatically conveys grief and powerlessness, implying that no one in the community has the authority to challenge the landowner’s decision."
+    },
+    {
+      "id": "ma_spa_tra_004",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "rhetorical-question",
+        "indirect-directive",
+        "social-pragmatics",
+        "patriarchal-power"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "വിവാഹം കഴിഞ്ഞ് പുതിയ വീട്ടിലേക്ക് വന്ന പെൺകുട്ടി ഒഴിവുസമയങ്ങളിൽ കവിതകളും ചെറുകഥകളും എഴുതാറുണ്ടായിരുന്നു. ഒരു ദിവസം അവൾ മുറിയിൽ ഇരുന്നു ഒരു നോട്ട്‌ബുക്കിൽ എന്തോ എഴുതിക്കൊണ്ടിരിക്കുകയായിരുന്നു. അതു ശ്രദ്ധിച്ച അമ്മായിയമ്മ അല്പം അസഹിഷ്ണുതയോടെ ചോദിച്ചു: \"എന്തിനാ പാട്ടും കഥേം?\"",
+          "latin": "Vivaham kazhinju puthiya veettilēkku vanna penkutti ozhivusamayangalil kavithakalum cherukathakalum ezhuthaarunnu. Oru divasam aval muriyil irunnu oru notebook-il entho ezhuthikkondirikkukayāyirunnu. Athu shraddhicha ammaayiyamma alpam asahishnuthayode chodichu: 'Enthinaa paattum kathayum?'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "After marriage, the young woman who had come to her new household used to spend her free time writing poems and short stories. One day she was sitting in her room writing something in a notebook. Noticing this, her mother-in-law asked with slight impatience, 'Why songs and stories?'"
+      },
+      "notes": "The utterance 'എന്തിനാ പാട്ടും കഥേം?' is grammatically a question but pragmatically functions as a discouraging speech act. Rather than seeking information, the rhetorical question implies that literary activity is unnecessary or inappropriate for a newly married woman. In this context it indirectly enforces patriarchal expectations that women should focus on domestic responsibilities rather than intellectual or creative pursuits."
+    },
+    {
+      "id": "ma_spa_tra_005",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "indirect-directive",
+        "environmental-warning",
+        "social-pragmatics"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "വയനാട്ടിലെ അടുത്തകാലത്തെ മണ്ണിടിച്ചിലും മലവെള്ളപ്പാച്ചിലും കഴിഞ്ഞ് ഒരു പരിസ്ഥിതി പ്രവർത്തകൻ ഗ്രാമസഭയിൽ പ്രഭാഷണം നടത്തുകയായിരുന്നു. വനങ്ങൾ വെട്ടിമാറ്റുന്നതും മലഞ്ചരിവുകളിൽ നിർമ്മാണങ്ങൾ കൂടുന്നതും കുറിച്ച് അദ്ദേഹം ആശങ്ക പ്രകടിപ്പിച്ചു. പ്രഭാഷണത്തിന്റെ അവസാനം അദ്ദേഹം പറഞ്ഞു: \"ആഗോളതാപനവും പ്രകൃതിക്ഷോഭങ്ങളുമൊക്കെത്തന്നെ പച്ചയിലേക്കും അവയുടെ വേരുകളിലേക്കും തിരിച്ചുനടത്താനുള്ള അറിവാണ് എന്ന യാഥാർഥ്യം മനസ്സിലാക്കേണ്ടിയിരിക്കുന്നു.\"",
+          "latin": "Wayanattile adutthakaalatte mannidichchilum malavellappaachchilum kazhinju oru paristhithi pravarthakan graamasabhayil prabhaashanam nadathukayāyirunnu. Vanangal vettimaattunnathum malancharivukalil nirmmaanangal koodunnathum kurichu adheham aashanka prakaadippichu. Prabhaashanathinte avasaanam adheham paranju: 'Aagolathaapanavum prakrithikshobhavumokke thanne pachayilekkum avayude verukalilekkum thirichu nadathaanulla arivaanu enna yaathaarthyam manassilaakkendiyirikkunnu.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "After the recent landslides and flash floods in Wayanad, an environmental activist was giving a speech at a village meeting. Expressing concern about deforestation and increasing construction on hill slopes, he concluded: 'The reality we must understand is that global warming and natural disasters are warnings that should lead us back to greenery and to the roots that sustain it.'"
+      },
+      "notes": "The utterance is grammatically declarative but pragmatically functions as an indirect directive. The speaker is not merely stating a fact; he is urging the community to change their environmental practices—protect forests and respect ecological roots. In the context of the Wayanad landslides, the statement serves as a warning and a call for collective responsibility."
+    },
+    {
+      "id": "ma_spa_tra_006",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "rhetorical-question",
+        "indirect-criticism",
+        "social-pragmatics",
+        "modernity-vs-tradition"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ഒരു പഴയ നായർ തറവാട്ടിൽ കുടുംബയോഗം നടക്കുകയായിരുന്നു. വീട്ടിലെ കാരണവർ പെൺകുട്ടികളെ സ്കൂളിലേക്ക് അയക്കുന്നത് പാരമ്പര്യത്തിന് വിരുദ്ധമാണെന്ന് പറഞ്ഞു. ഇംഗ്ലീഷ് വിദ്യാഭ്യാസം നേടിയ മാധവൻ അതിനെ ചോദ്യം ചെയ്ത് പെൺകുട്ടികൾക്കും പഠനം വേണമെന്ന് പറഞ്ഞു. അത് കേട്ട് ചില മുതിർന്നവർ മുഷിഞ്ഞു; കാരണവരുടെ വാക്കിനെ ഇങ്ങനെ ചോദ്യം ചെയ്യുന്നത് ഗുരുത്വക്കേടാണെന്ന് അവർ പറഞ്ഞു. അപ്പോൾ മാധവൻ ശാന്തമായി ചോദിച്ചു: \"ന്യായമായ വാക്കു പറഞ്ഞാൽ അദ്ദേഹം എന്തിന് മുഷിയണം?\"",
+          "latin": "Oru pazhaya Nayar tharavaatil kudumbayogam nadakkukayāyirunnu. Veetile kaaranavar penkuttikale schoolilekku ayakkunnathu paarambaryathinu viruddhamaanennu paranju. English vidhyabhyasam nediy Madhavan athine chodhyam cheythu penkuttikalkkum padhanam venamennu paranju. Athu kettu chila muthirnnvar mushinju; kaaranavarude vaakine ingane chodhyam cheyyunnathu guruthvakkedaanennu avar paranju. Appol Madhavan shanthamaayi chodichu: \"Nyāyamāya vākkŭ paranjāl adheham enthinu muṣhiyaṇam?\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "A family meeting was taking place in an old Nair household. The family elder said that sending girls to school was against tradition. Madhavan, who had received an English education, questioned this and argued that girls should also be educated. Hearing this, some elders became offended and said that questioning the elder's words in this way was disrespectful. Madhavan then calmly asked, 'If what I said is reasonable, why should he be offended?'"
+      },
+      "notes": "The utterance is grammatically a question but pragmatically functions as a rhetorical critique of unquestioned authority. Madhavan is not seeking an answer; he is challenging the expectation that the family elder’s word must be accepted without question. The exchange reflects the broader social change in late 19th-century Kerala, where English-educated youth began questioning traditional norms such as the restriction of women’s education."
+    },
+    {
+      "id": "ma_spa_tra_007",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "strategic-indirection",
+        "hesitant-disclosure",
+        "interactional-pragmatics",
+        "social-pragmatics"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ഗ്രാമത്തിന്റെ കാര്യത്തിനായി രാജാവിനെ കാണാനെത്തിയ ബ്രാഹ്മണനോട് രാജാവ് എന്തെങ്കിലും പ്രത്യേക കാര്യമുണ്ടോ എന്ന് ചോദിച്ചു. തന്റെ ബുദ്ധിമുട്ട് നേരെ പറഞ്ഞുതുടങ്ങാതെ ബ്രാഹ്മണൻ മറുപടി പറഞ്ഞു: “അങ്ങനൊന്നുണ്ടായിട്ടല്ല... എന്നാൽ ഒന്നുമില്ലെന്ന് അങ്ങോട്ട് പറയാനും വയ്യ.”",
+          "latin": "Graamathinte kaaryathinaayi raajaavine kaanaanethiya braahmananodu raajaavu enthenkilum prathyeka kaaryamundo ennu chodichu. Thante buddhimuttu nere paranjuthudangaathe braahmanan marupadi paranju: 'Anganonnum undaayittalla... ennaal onnumillennu angottu parayaanum vayya.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When the king asked the Brahmin whether there was some particular reason for his visit, he did not state his difficulty outright. Instead he replied, “It’s not that there’s anything in particular... but I can’t quite say there’s nothing, either.”"
+      },
+      "notes": "The speaker is not simply uncertain about whether he has a problem. The deliberately hesitant formulation postpones the actual complaint while signaling that there is indeed something he wishes to raise. Pragmatically, it encourages the king to ask further and gives the speaker room to introduce an awkward request indirectly. A strong translation should therefore preserve the self-effacing hesitation and conversational invitation without converting the line into either a clear denial ('there is nothing wrong') or an explicit request ('please ask me what the problem is')."
+    },
+    {
+      "id": "ma_spa_tra_008",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "ultimatum",
+        "indirect-directive",
+        "conditional-threat",
+        "pragmatic-force"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "അശ്വത്ഥാമാവ് രാത്രിയിൽ പാണ്ഡവപാളയത്തിൽ കയറി ദ്രൗപദിയുടെ അഞ്ചു പുത്രന്മാരെയും മറ്റു പലരെയും കൊന്നു. ഈ വാർത്ത കേട്ട് ദ്രൗപദി തകർന്നുപോയി. യുധിഷ്ഠിരൻ അവളെ ആശ്വസിപ്പിക്കാൻ ശ്രമിച്ചപ്പോൾ അവൾ പറഞ്ഞു: “ആ പാപിയായ ദ്രൗണിയെ ഇന്നു ചെന്നു കൊന്നില്ലെങ്കിൽ, ഞാനിവിടെ പ്രായോപവേശം കൊള്ളുകയാണ് — ഇതു മനസ്സിലാക്കിക്കൊൾവിൻ.”",
+          "latin": "Ashwatthamaavu raathriyil Paandava paalayathil kayari Draupadiyude anchu puthranmaareyum mattu palareyum konnu. Ee vaartha kettu Draupadi thakarnnupoyi. Yudhishthiran avale aashwasippikkaan shramichappol aval paranju: 'Aa paapiyaaya Drauniye innu chennu konnillenkil, njaanivide praayopavesham kollukayaanu — ithu manassilaakkikkolvin.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Ashwatthama entered the Pandava camp at night and killed Draupadi's five sons along with many others. Devastated by the news, Draupadi rejected Yudhishthira's attempt to console her and declared, “Unless you go and kill that wicked Ashwatthama today, I will fast here until death. Be clear about that.”"
+      },
+      "notes": "Draupadi is not merely informing the others about a future decision to fast. The conditional construction — 'if you do not kill him, I will fast unto death' — functions pragmatically as an ultimatum and a forceful indirect directive. Her threatened fast places pressure on the Pandavas to pursue and punish Ashwatthama. A good translation must preserve this coercive conditional force; rendering it merely as 'I may fast' or as a neutral statement of intention would weaken the speech act."
+    },
+    {
+      "id": "ma_spa_tra_009",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "rhetorical-question",
+        "indirect-assertion",
+        "pragmatic-force",
+        "argumentative-discourse"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കവിതയ്ക്കും ചിത്രകലയ്ക്കും ഒരേ വിഷയങ്ങളെ ഒരേവിധത്തിൽ അവതരിപ്പിക്കാൻ കഴിയില്ലെന്ന് നിരൂപകൻ വാദിക്കുന്നു. കവിയുടെ ഭാവനയിൽ സ്വാഭാവികമായി തോന്നുന്ന അതിമാനുഷികമായ കാര്യങ്ങൾ ചിത്രത്തിൽ ദൃശ്യരൂപം കൈക്കൊള്ളുമ്പോൾ വിചിത്രമായി തോന്നാം. ഉദാഹരണമായി, ഹോമർ വർണിക്കുന്ന ഒരു രംഗത്തിൽ അനേകം പേർക്ക് ഇളക്കാൻ പോലും കഴിയാത്ത ഒരു വലിയ കല്ല് മിനർവ എന്ന ദേവി പൊക്കിയെറിയുന്നു. ഇതു ചിത്രമായി അവതരിപ്പിക്കുന്നതിനെക്കുറിച്ച് നിരൂപകൻ ചോദിക്കുന്നു: “ആ ദേവിയെ എങ്ങനെയാണ് ചിത്രത്തിലെഴുതുക?”",
+          "latin": "Kavithaykkum chithrakalaykkum ore vishayangale ore vidhathil avatharippikkaan kazhiyillennu niroopakan vaadikkunnu. Kaviyude bhaavanayil swaabhaavikamaayi thonnunna athimaanushikamaaya kaaryangal chithrathil drishyaroopam kaikkollumbol vichithramaayi thonnaam. Udaaharanamaayi, Homer varnnikkunna oru rangathil anekam perkku ilakkaan polum kazhiyaatha oru valiya kallu Minerva enna devi pokkiyeriyunnu. Ithu chithramaayi avatharippikkunnathinekkurichu niroopakan chodikkunnu: “Aa deviye enganeyaanu chithrathilezhuthuka?”"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The critic argues that poetry and painting cannot always represent the same subjects in the same way. Supernatural events that seem natural within a poet's imagination can appear strange when given visible form in a painting. As an example, Homer describes the goddess Minerva lifting and hurling a huge stone that many people could not even move. Considering how such a scene could be represented visually, the critic asks, “How could one possibly depict such a goddess in a painting?”"
+      },
+      "notes": "The question 'ആ ദേവിയെ എങ്ങനെയാണ് ചിത്രത്തിലെഴുതുക?' is ambiguous in isolation: it could be understood as a genuine request about how the goddess should be painted. In context, however, the critic is using the interrogative rhetorically. The point is not to solicit a particular technique for depicting Minerva, but to challenge whether a supernatural figure of this kind can be represented visually without losing the effect produced by poetic imagination. The speech act is therefore closer to an indirect assertion of representational difficulty than an information-seeking question. The translation should retain the interrogative form while signaling its rhetorical force; 'How could one possibly depict such a goddess in a painting?' is preferable to the more literal and genuinely information-seeking 'How should that goddess be painted?'"
+    }
+  ]
+}

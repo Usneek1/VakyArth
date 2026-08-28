@@ -1,0 +1,328 @@
+{
+  "dataset": "Malayalam Social Pragmatics - NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ma_sop_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "gift-refusal",
+        "politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ningal ninre oru yuva bandhuvinte vivahathinu poyappol avan-nu kurachchu panam koduthu. Avan chirichukond paranju: “Ithonnum vendaayirunnu, chetta/chechi.”",
+          "hypothesis": "Bandhuvin panam venda enn thonnunnu."
+        },
+        "malayalam": {
+          "premise": "നിങ്ങൾ നിന്റെ ഒരു യുവ ബന്ധുവിന്റെ വിവാഹത്തിന് പോയപ്പോൾ അവന് കുറച്ച് പണം കൊടുത്തു. അവൻ ചിരിച്ചുകൊണ്ട് പറഞ്ഞു: \"ഇതൊന്നും വേണ്ടായിരുന്നു, ചെറ്റാ/ചേച്ചി.\"",
+          "hypothesis": "ബന്ധുവിന് പണം വേണ്ടെന്ന് തോന്നുന്നു."
+        },
+        "english": {
+          "premise": "When you attended your young relative’s wedding and gave him some money, he smiled and said, “This wasn’t necessary at all, chetta/chechi.”",
+          "hypothesis": "The relative does not want the money."
+        }
+      },
+      "explanation": "In Malayalam pragmatics, “ithonnum vendaayirunnu” is a polite modesty formula during gift-giving, not a genuine refusal. The hypothesis misreads courtesy as rejection.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "kaineettam",
+          "polite gift-dismissal formula in weddings"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_sop_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "leave-taking",
+        "politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Radha ammamma veettil ninn purath pokumbol, aval ammammaye nokki chirichu paranju: “Poyittu varam.”",
+          "hypothesis": "Aval poyi udane thanne thirichu varum ennanu aval parayunnathu."
+        },
+        "malayalam": {
+          "premise": "രാധ അമ്മമ്മയുടെ വീട്ടിൽ നിന്ന് പോകുമ്പോൾ, അവൾ അമ്മമ്മയെ നോക്കി ചിരിച്ച് പറഞ്ഞു: \"പോയിട്ട് വരാം.\"",
+          "hypothesis": "അവൾ പോയി ഉടൻ തന്നെ തിരിച്ച് വരുമെന്ന് അവൾ പറയുന്നു."
+        },
+        "english": {
+          "premise": "When Radha was leaving her grandmother’s house, she smiled at her and said, “Poyittu varam.”",
+          "hypothesis": "She is saying that she will go and come back immediately."
+        }
+      },
+      "explanation": "'Poyittu varam' is a polite Malayalam farewell meaning 'I'll go and come.' It does not mean the speaker will return right away. The hypothesis incorrectly assumes an immediate return, creating a contradiction.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "Malayalam leave-taking formula",
+          "grandparent–grandchild politeness"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_sop_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "polite-refusal",
+        "hospitality"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ningal oru akanna bandhuvinte veettil poyappol, avar ninnodu chaaya edukkamo ennu chodichu. Ningal paranju: ‘Ippo chaaya kudichette ullu.",
+          "hypothesis": "Ningal paranjathupole chaaya kudicchathayulla."
+        },
+        "malayalam": {
+          "premise": "നിങ്ങൾ ഒരു അകന്ന ബന്ധുവിന്റെ വീട്ടിൽ പോയപ്പോൾ,അവർ നിന്നോട് ചായ എടുക്കാമോ എന്ന് ചോദിച്ചു. നിങ്ങൾ പറഞ്ഞു: \"ഇപ്പോ ചായ കുടിച്ചിട്ടേ ഉളളു.\"",
+          "hypothesis": "നിങ്ങൾ പറഞ്ഞതുപോലെ ചായ കുടിച്ചതേയുള്ളൂ."
+        },
+        "english": {
+          "premise": "When you visited a distant relative’s house, she offered you tea. You replied, “I just drank tea.”",
+          "hypothesis": "You meant that you actually had tea just now."
+        }
+      },
+      "explanation": "In Malayalam hospitality contexts, 'Ippol chaaya kudichette ulla' is a polite refusal, not necessarily a factual statement. The speaker is declining tea gently, not reporting recent tea drinking. Thus the literal hypothesis contradicts the pragmatic meaning.",
+      "metadata": {
+        "register": "family/social",
+        "cultural_markers": [
+          "polite refusal",
+          "Malayali hospitality ritual"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_sop_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "generational-tension",
+        "cultural-criticism"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Onam dinam aayirunnu. Veettil ellavarum phone-il busy aayi social media-il photos upload cheyyukayirunnu. Appo oru pazhaya appooppan paranju: ‘Onavum poovum maranna Malayali aayi poyi ningal.’",
+          "hypothesis": "Appooppan uddeshichathu ningal innu Onam aanennu marannupoyi ennanu."
+        },
+        "malayalam": {
+          "premise": "ഓണദിനമായിരുന്നു. വീട്ടിൽ എല്ലാവരും ഫോണിൽ തിരക്കായി സോഷ്യൽ മീഡിയയിൽ ഫോട്ടോ അപ്‌ലോഡ് ചെയ്യുകയായിരുന്നു. അപ്പോൾ ഒരു പഴയ അപ്പൂപ്പൻ പറഞ്ഞു: \"ഓണവും പൂവും മറന്ന മലയാളിയായി പോയി നിങ്ങൾ.\"",
+          "hypothesis": "അപ്പൂപ്പൻ ഉദ്ദേശിച്ചത് നിങ്ങൾ ഇന്ന് ഓണമാണെന്ന് മറന്നുപോയെന്നാണ്."
+        },
+        "english": {
+          "premise": "It was Onam day. Everyone at home was busy on their phones uploading photos on social media. An elderly grandfather remarked, “You Malayalis have forgotten Onam and flowers.”",
+          "hypothesis": "The grandfather meant that you literally forgot that today is Onam."
+        }
+      },
+      "explanation": "The grandfather’s statement is a socially critical remark implying that the younger generation has lost the cultural essence and emotional depth of Onam. It does not literally mean that they forgot the date or were unaware that it was Onam. Therefore, the literal interpretation in the hypothesis contradicts the pragmatic meaning.",
+      "metadata": {
+        "register": "family/social",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Onam festival",
+          "generational criticism",
+          "digital distraction",
+          "cultural nostalgia"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_sop_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-meaning",
+        "gender-double-standard",
+        "cultural-criticism"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Graamathil oru vivahitha purushan mattoru sthreeyode bandham undennu kettappol aalukal athu valiya kaaryamaayi eduthilla. Pakse athupole oru vivahitha sthreeyude perril oru prema bandham kettappol graamam muzhuvan avale kuttappeduthi. Ithu kand oru vayodhikan paranju: ‘Purushante thettukal samuham marachuvekkum; sthree cheyyunna thettu shikshikkappedum.’",
+          "hypothesis": "Vayodhikan paranjathu prema bandham undaaya sthreeyude naithika pravarthanam aanu avar vimarshikkunnathu ennanu."
+        },
+        "malayalam": {
+          "premise": "ഗ്രാമത്തിൽ ഒരു വിവാഹിതനായ പുരുഷന് മറ്റൊരു സ്ത്രീയുമായി ബന്ധമുണ്ടെന്നു കേട്ടപ്പോൾ ആളുകൾ അതിനെ വലിയ കാര്യമാക്കിയില്ല. പക്ഷേ അതുപോലെ ഒരു വിവാഹിതയായ സ്ത്രീയെക്കുറിച്ച് ഒരു പ്രണയബന്ധത്തിന്റെ വാർത്ത കേട്ടപ്പോൾ ഗ്രാമം മുഴുവൻ അവളെ കുറ്റപ്പെടുത്തി. ഇത് കണ്ട ഒരു വയോധികൻ പറഞ്ഞു: \"പുരുഷന്റെ തെറ്റുകൾ സമൂഹം മറച്ചുവെച്ചപ്പോൾ സ്ത്രീയുടെ തെറ്റ് ശിക്ഷിക്കപ്പെട്ടു.\"",
+          "hypothesis": "വയോധികൻ ഉദ്ദേശിച്ചത് പ്രണയബന്ധത്തിൽപ്പെട്ട സ്ത്രീയുടെ നൈതിക പെരുമാറ്റത്തെ വിമർശിക്കുകയാണ്."
+        },
+        "english": {
+          "premise": "When people in the village heard that a married man was having an affair, they did not treat it as a serious issue. But when a rumor spread that a married woman had a romantic relationship, the entire village condemned her. Watching this, an old man said, “When men make mistakes society hides them, but when a woman errs she is punished.”",
+          "hypothesis": "The old man is criticizing the moral behavior of the woman involved in the affair."
+        }
+      },
+      "explanation": "The old man's statement criticizes the double standard in how society judges men and women. He is not blaming the woman for the affair; rather, he is pointing out that society hides men's wrongdoing while punishing women for similar actions. Therefore, the hypothesis misinterprets the target of criticism.",
+      "metadata": {
+        "register": "social commentary",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "village gossip",
+          "patriarchal norms",
+          "illicit relationship stigma",
+          "gender double standard"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_sop_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "purity-norms",
+        "gendered-religious-practice"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Prabhathathil oru yuvathi kshethrathilekku pokaan tayyarayi. Aval amma-yodu paranju avalkku innale rathriyil thante masappiravi thudangiyennu. Athu kettappol amma paranju: 'Innu nee varenda… naale vannal mathi.' Yuvathi pinnit kshethrathilekku poyilla.",
+          "hypothesis": "Ammayude vaakku yuvathikku innu kshethrathil pokaruthennulla oru soochanaayirunnu."
+        },
+        "malayalam": {
+          "premise": "പ്രഭാതത്തിൽ ഒരു യുവതി ക്ഷേത്രത്തിലേക്ക് പോകാൻ തയ്യാറായി. അവൾ അമ്മയോട് പറഞ്ഞു ഇന്നലെ രാത്രിയിൽ തന്റെ മാസപ്പിറവി തുടങ്ങിയെന്ന്. അത് കേട്ടപ്പോൾ അമ്മ പറഞ്ഞു: \"ഇന്ന് നീ വരേണ്ട… നാളെ വന്നാൽ മതി.\" പിന്നീട് യുവതി ക്ഷേത്രത്തിലേക്ക് പോയില്ല.",
+          "hypothesis": "അമ്മയുടെ വാക്കുകൾ യുവതിക്ക് ഇന്ന് ക്ഷേത്രത്തിൽ പോകേണ്ടതില്ലെന്ന ഒരു സൂചനയായിരുന്നു."
+        },
+        "english": {
+          "premise": "In the morning, a young woman was getting ready to go to the temple. She told her mother that her menstrual period had started the previous night. Hearing this, the mother said, “You don’t need to come today… you can come tomorrow.” The young woman then did not go to the temple.",
+          "hypothesis": "The mother’s words were an indirect signal that the young woman should not go to the temple that day."
+        }
+      },
+      "explanation": "The premise explicitly mentions that the young woman’s menstruation has started. The mother's statement remains indirect but pragmatically signals that the daughter should avoid entering the temple that day due to cultural purity norms. Therefore the hypothesis correctly captures the intended meaning.",
+      "metadata": {
+        "register": "everyday conversation",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "menstruation-related temple restrictions",
+          "indirect parental speech",
+          "religious purity norms",
+          "Malayalam household communication"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ma_sop_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "implicature",
+        "hunger",
+        "shame",
+        "dignity"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Randu divasamaayi bhakshanam kazhikkaatha ayaal vishappu sahikkaanaavaathe mattoraalude veettil kayari bhakshanam kazhichu. Pidikkappettappol thanne 'kallan' ennu vilicha ayaale veettukaaran shikshikkaathe vittayachu. Avide ninnu thala thaazhthi nadannupokumbol, mumpu anubhavicha shareerika peedanangalekkaal valiya vedana ayaalude manassil niranjnu.",
+          "hypothesis": "Vishappinu vendi moshtikkaan thudangiyathode ayaalkku kallan ennu vilikkappedunnathilulla lajja nashtappettirunnu; athukondu veettukaarante perumaattam ayaale prathyekichu baadhichilla."
+        },
+        "malayalam": {
+          "premise": "രണ്ടു ദിവസമായി ഭക്ഷണം കഴിക്കാത്ത അയാൾ വിശപ്പ് സഹിക്കാനാവാതെ മറ്റൊരാളുടെ വീട്ടിൽ കയറി ഭക്ഷണം കഴിച്ചു. പിടിക്കപ്പെട്ടപ്പോൾ തന്നെ ‘കള്ളൻ’ എന്നു വിളിച്ച അയാളെ വീട്ടുകാരൻ ശിക്ഷിക്കാതെ വിട്ടയച്ചു. അവിടെനിന്ന് തലതാഴ്ത്തി നടന്നുപോകുമ്പോൾ, മുമ്പ് അനുഭവിച്ച ശാരീരിക പീഡനങ്ങളേക്കാൾ വലിയ വേദന അയാളുടെ മനസ്സിൽ നിറഞ്ഞു.",
+          "hypothesis": "വിശപ്പിനുവേണ്ടി മോഷ്ടിക്കാൻ തുടങ്ങിയതോടെ അയാൾക്ക് ‘കള്ളൻ’ എന്നു വിളിക്കപ്പെടുന്നതിലുള്ള ലജ്ജ നഷ്ടപ്പെട്ടിരുന്നു; അതുകൊണ്ട് വീട്ടുകാരന്റെ പെരുമാറ്റം അയാളെ പ്രത്യേകിച്ച് ബാധിച്ചില്ല."
+        },
+        "english": {
+          "premise": "After going without food for two days, the man could no longer bear his hunger and entered another person's house to eat. When he was caught, he called himself a 'thief,' but the householder let him go without punishing him. As he walked away with his head lowered, he felt a pain deeper than the physical torture he had suffered before.",
+          "hypothesis": "Once hunger had driven him to stealing, he had lost his shame about being called a thief, so the householder's treatment did not affect him deeply."
+        }
+      },
+      "explanation": "The man's willingness to steal for food does not mean that he has lost his sense of shame or dignity. His lowered head and the intense emotional pain he feels after being treated without punishment imply that the encounter affects him deeply. The hypothesis therefore contradicts the social and emotional implication of the premise.",
+      "metadata": {
+        "register": "literary / social-moral",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "hunger and theft",
+          "thief stigma",
+          "shame and dignity",
+          "compassion instead of punishment"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_sop_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "generational-values",
+        "land-attachment",
+        "cultural-change",
+        "intergenerational-meaning"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jeevitham muzhuvan krishi cheytha bhoomi vilkkaruthennu vayodhikanaaya achan makkalodu veendum veendum paranju. Aa mannilu thante achanum appooppanum paniyeduthathum, kudumbam athil ninnu jeevichathum ayaal ormmippichu. Ennaal nagarathil joli cheyyunna makkal, bhoomi vittaal kittunna panam kondu vere nalla nikshhepangal nadathaamennu parasparam samsaarichu.",
+          "hypothesis": "Achan bhoomiye kudumbajeevithathinte thudarshayayi kaanumbol, makkal athine mattu swaththukalepole prayojanathinu maattaavunna oru sampaththaayi kaanunnu."
+        },
+        "malayalam": {
+          "premise": "ജീവിതം മുഴുവൻ കൃഷി ചെയ്ത ഭൂമി വിൽക്കരുതെന്ന് വയോധികനായ അച്ഛൻ മക്കളോട് വീണ്ടും വീണ്ടും പറഞ്ഞു. ആ മണ്ണിൽ തന്റെ അച്ഛനും അപ്പൂപ്പനും പണിയെടുത്തതും, കുടുംബം അതിൽ നിന്ന് ജീവിച്ചതും അയാൾ ഓർമ്മിപ്പിച്ചു. എന്നാൽ നഗരത്തിൽ ജോലി ചെയ്യുന്ന മക്കൾ, ഭൂമി വിറ്റാൽ കിട്ടുന്ന പണം കൊണ്ട് വേറെ നല്ല നിക്ഷേപങ്ങൾ നടത്താമെന്ന് പരസ്പരം സംസാരിച്ചു.",
+          "hypothesis": "അച്ഛൻ ഭൂമിയെ കുടുംബജീവിതത്തിന്റെ തുടർച്ചയായി കാണുമ്പോൾ, മക്കൾ അതിനെ മറ്റു സ്വത്തുകളെപ്പോലെ പ്രയോജനത്തിനായി മാറ്റാവുന്ന ഒരു സമ്പത്തായി കാണുന്നു."
+        },
+        "english": {
+          "premise": "An elderly father repeatedly told his sons not to sell the land he had cultivated all his life. He reminded them that his father and grandfather had worked the same soil and that the family had lived from it. His sons, who now worked in the city, discussed how the money from selling the land could instead be put into better investments.",
+          "hypothesis": "While the father treats the land as part of the continuity of family life, the sons view it more like an asset that can be exchanged for other opportunities."
+        }
+      },
+      "explanation": "The disagreement is not simply about whether selling the land is financially wise. The father's references to earlier generations and the family's life on the land give it inherited social and emotional meaning. The sons, by evaluating it in terms of sale value and alternative investments, assign it a more exchangeable economic meaning. The hypothesis therefore captures the generational shift in the social significance of the same property.",
+      "metadata": {
+        "register": "family / agrarian social context",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "intergenerational attachment to land",
+          "agrarian family continuity",
+          "urban occupational mobility",
+          "land as inheritance versus asset",
+          "generational value change"
+        ],
+        "authors_note": "Tests whether the model can infer that generational change alters the social meaning attached to land, rather than reducing the disagreement to simple obedience, affection, or financial preference."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ma_sop_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "belief-tolerance",
+        "institution-vs-individual",
+        "ideological-criticism",
+        "social-reform"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Pazhaya mathaachaarangaleyum saamudaayika niyanthranangaleyum ethirthirunna oru samoohika parishkarthaavinekurich bharya orkkunnu: 'Ambalangal chuttu kalayanam ennu vare adheham parayum. Ennaal aarudeyenkilum vishwasathe thadayunna reethiyonnum undaayirunnilla. Swantham kaaryathil maathram athokke valiya nishkarshayaayirunnu. Maranashesham chadangukal venda, oru pindam polum vaykkaruthu ennu enne prathyekam ormmippichirunnu.'",
+          "hypothesis": "Mathaachaarangalodu adheham prakatippicha kadutha ethirppu, mattullavarude vishwasajeevithatheyum athe maanadandathil vilayiruthanam enna nilapaadaayi kudumbathil pravarthichirunnu."
+        },
+        "malayalam": {
+          "premise": "പഴയ മതാചാരങ്ങളെയും സാമുദായിക നിയന്ത്രണങ്ങളെയും എതിർത്തിരുന്ന ഒരു സാമൂഹിക പരിഷ്കർത്താവിനെക്കുറിച്ച് ഭാര്യ ഓർക്കുന്നു: ‘അമ്പലങ്ങൾ ചുട്ടുകളയണം എന്നു വരെ അദ്ദേഹം പറയും. എന്നാലും ആരുടെയെങ്കിലും വിശ്വാസത്തെ തടയുന്ന രീതിയൊന്നും ഉണ്ടായിരുന്നില്ല. സ്വന്തം കാര്യത്തിൽ മാത്രം അതൊക്കെ വലിയ നിഷ്കർഷയായിരുന്നു. മരണശേഷം ചടങ്ങുകൾ വേണ്ട, ഒരു പിണ്ഡം പോലും വയ്ക്കരുത് എന്ന് എന്നെ പ്രത്യേകം ഓർമ്മിപ്പിച്ചിരുന്നു.’",
+          "hypothesis": "മതാചാരങ്ങളോട് അദ്ദേഹം പ്രകടിപ്പിച്ച കടുത്ത എതിർപ്പ്, മറ്റുള്ളവരുടെ വിശ്വാസജീവിതത്തെയും അതേ മാനദണ്ഡത്തിൽ വിലയിരുത്തണം എന്ന നിലപാടായി കുടുംബത്തിൽ പ്രവർത്തിച്ചിരുന്നു."
+        },
+        "english": {
+          "premise": "The wife of a social reformer who opposed old religious customs and social restrictions recalls: 'He would even say that temples should be burned down. Yet he never tried to interfere with anyone else's beliefs. It was in his own life that he was strict about such things. He specifically reminded me that after his death there should be no rituals, not even the customary offering for the dead.'",
+          "hypothesis": "Within the family, his fierce opposition to religious customs operated as an expectation that other people's religious lives should be judged by the same standards he set for himself."
+        }
+      },
+      "explanation": "The reformer's rhetoric is radical, but the wife's recollection establishes an important social distinction: he was uncompromising about the principles governing his own life while not interfering with other people's beliefs. The hypothesis collapses these two domains by interpreting his personal strictness as a standard he expected others to follow. That conflicts with the social stance conveyed by the passage.",
+      "metadata": {
+        "register": "literary / social-reform discourse",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Kerala social reform",
+          "religious customs",
+          "post-death rituals",
+          "personal conviction versus social tolerance",
+          "reform versus coercion"
+        ],
+        "authors_note": "The item is self-contained and requires no prior knowledge of V.T. Bhattathiripad. The challenge is to distinguish a person's radical private convictions and institutional criticism from the social norms they impose on other people."
+      },
+      "label": "contradiction"
+    }
+  ]
+}

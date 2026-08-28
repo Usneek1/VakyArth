@@ -1,0 +1,233 @@
+{
+  "dataset": "Tamil Implicature - NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_imp_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "weather-context",
+        "speaker-subject-mismatch"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Pothurathukku edhaachu irukaa?",
+          "hypothesis": "velila vekkaya irukku"
+        },
+        "tamil": {
+          "premise": "பொதுரத்துக்கு எதாச்சு இருக்கா?",
+          "hypothesis": "வெளியில வெக்கயா இருக்கு"
+        },
+        "english": {
+          "premise": "Is there anything to cover?",
+          "hypothesis": "It is humid outside."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The is indicating cold weather; the hypothesis claims it is humid (hot). Thus, they contradict."
+    },
+    {
+      "id": "ta_imp_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "Ajay",
+              "utterance": "Chicken biryani venuma?"
+            },
+            {
+              "speaker": "Barath",
+              "utterance": "Inaiku sanikelamai"
+            }
+          ],
+          "hypothesis": "Barath sanikelamai asaivam saapida matanga"
+        },
+        "tamil": {
+          "premise": [
+            {
+              "speaker": "Ajay",
+              "utterance": "சிக்கன் பிரியாணி வேணுமா?"
+            },
+            {
+              "speaker": "Barath",
+              "utterance": "இனைய்கு சனிக்கிழமை"
+            }
+          ],
+          "hypothesis": "பரத் சனிக்கிழமை ஆசைவம் சாப்பிட மாட்டாங்க"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "Ajay",
+              "utterance": "Do you want chicken biryani?"
+            },
+            {
+              "speaker": "Barath",
+              "utterance": "Today is Saturday."
+            }
+          ],
+          "hypothesis": "Barath does not eat meat on Saturdays."
+        }
+      },
+      "label": "entailment",
+      "explanation": "Many Tamil people avoid non-veg on Saturdays for religious reasons; Barath's 'Today is Saturday' implies he follows this, so the hypothesis is entailed."
+    },
+    {
+      "id": "ta_imp_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "idiom",
+        "implicature"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Sundar ku kaasu anuppiyaacha?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Nan avana kai kaluvivituten"
+            }
+          ],
+          "hypothesis": "Sundar ku panam thevai illa"
+        },
+        "tamil": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "சுந்தருக்கு காசு அனுப்பியாச்சா?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "நான் அவன கை கழுவிவிட்டேன்"
+            }
+          ],
+          "hypothesis": "சுந்தருக்கு பணம் தேவை இல்லை"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "A",
+              "utterance": "Did you send money to Sundar?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "I washed my hands of him."
+            }
+          ],
+          "hypothesis": "Sundar does not need money."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The idiom 'கை கழுவிவிட்டேன்' ('I washed my hands of him') signals B refuses further help, not that Sundar lacks need; thus the hypothesis is contradicted."
+    },
+    {
+      "id": "ta_imp_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "weather-context",
+        "speaker-subject-mismatch"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Intha edathula mudhal naal kanna katti kaattula vitta maadiri dhan irunduchu",
+          "hypothesis": "Inga neraya maram mattum dhan irukku"
+        },
+        "tamil": {
+          "premise": "இந்த இடத்து முதல் நாள் கண்ண கட்டி காட்டுல விட்ட மாதிரி தான் இருந்துச்சு",
+          "hypothesis": "இங்க நிறைய மரம் மட்டும்தான் இருக்கிறது"
+        },
+        "english": {
+          "premise": "On the first day here, it was like being blindfolded and thrown into the jungle.",
+          "hypothesis": "There are many trees here."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The premise implies the place is dense and disorienting like a jungle, but the hypothesis claims there are only trees, which contradicts the idea of a complex environment."
+    },
+    {
+      "id": "ta_imp_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "Manager",
+              "utterance": "Inaikku kalaila Karthik namma factory la vela irukkaanu kettan"
+            },
+            {
+              "speaker": "Employee",
+              "utterance": "Romba gettikaaaran sir, enga ponaalum polachuppan"
+            }
+          ],
+          "hypothesis": "Karthikku inga vela kudukkalam"
+        },
+        "tamil": {
+          "premise": [
+            {
+              "speaker": "Manager",
+              "utterance": "கார்த்திக் நம்மா ஃபேக்டரில வேலை இருக்கானு கேட்டான்"
+            },
+            {
+              "speaker": "Employee",
+              "utterance": "ரொம்ப கெட்டிகாரன் சார், எங்க போனாலும் பொலச்சுப்பான்"
+            }
+          ],
+          "hypothesis": "கார்த்திக்கு இங்க வேலை கொடுக்கலாம்"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "Manager",
+              "utterance": "Karthik asked if we have a job at the factory."
+            },
+            {
+              "speaker": "Employee",
+              "utterance": "He is very smart sir, he will live wherever he goes."
+            }
+          ],
+          "hypothesis": "Karthik can be given a job here."
+        }
+      },
+      "label": "entailment",
+      "explanation": "The employee's statement implies Karthik is adaptable and capable, which supports the idea that he can be given a job at the factory, thus entailing the hypothesis."
+    },
+    {
+      "id": "ta_imp_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Saraswathi avunga anna ellarum senthu kaala kooda tharaila padaama dhan valathaanga",
+          "hypothesis": "Saraswathikku nadakka mudiyaathu"
+        },
+        "tamil": {
+          "premise": "சரஸ்வதி அவுங்க அண்ணா எல்லாரும் செந்து கால கூட தரைல படாமா தான் வலதாங்க",
+          "hypothesis": "சரஸ்வதிக்கு நடக்க முடியாது"
+        },
+        "english": {
+          "premise": "Saraswathi's brother brought her up even without letting her feet touch the ground.",
+          "hypothesis": "Saraswathi cannot walk."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "The premise implies that Saraswathi was overprotected and not allowed to walk on her own, but it does not necessarily mean she cannot walk; she may simply have been sheltered. Thus, the hypothesis is contradicted."
+    }
+  ]
+}

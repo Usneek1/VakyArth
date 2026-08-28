@@ -1,0 +1,1095 @@
+{
+  "dataset": "Hindi Pragmatics - Discourse & Coherence MCQ",
+  "version": "0.2",
+  "items": [
+    {
+      "id": "hi_deix_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "demonstrative-deixis",
+        "spatial-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Market mein do sabzi waale hain. Ek tumhare paas khada hai aur doosra 20 meter door hai. Tumhare paas waala keh raha hai, 'Yeh tamatar 40 rupaye kilo hai.' Door waala chilla kar keh raha hai, 'Mere paas 30 mein mil jayega!'",
+          "question": "Door waale ne 'mere paas' kaunse tamatar ke bare mein kaha?",
+          "options": [
+            "Paas waale ke tamatar",
+            "Apne tamatar",
+            "Kisi aur ke tamatar",
+            "Dono ke tamatar"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Apne tamatar"
+          }
+        },
+        "devanagari": {
+          "context": "मार्केट में दो सब्ज़ी वाले हैं। एक तुम्हारे पास खड़ा है और दूसरा 20 मीटर दूर है। तुम्हारे पास वाला कह रहा है, 'यह टमाटर 40 रुपए किलो है।' दूर वाला चिल्ला कर कह रहा है, 'मेरे पास 30 में मिल जाएगा!'",
+          "question": "दूर वाले ने 'मेरे पास' कौनसे टमाटर के बारे में कहा?",
+          "options": [
+            "पास वाले के टमाटर",
+            "अपने टमाटर",
+            "किसी और के टमाटर",
+            "दोनों के टमाटर"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "अपने टमाटर"
+          }
+        },
+        "english": {
+          "context": "There are two vegetable sellers in the market. One is standing near you and another is 20 meters away. The one near you says, 'These tomatoes are 40 rupees per kilo.' The distant one shouts, 'You'll get them for 30 at my place!'",
+          "question": "Which tomatoes did the distant seller refer to with 'mere paas' (at my place)?",
+          "options": [
+            "The nearby seller's tomatoes",
+            "His own tomatoes",
+            "Someone else's tomatoes",
+            "Both sellers' tomatoes"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "His own tomatoes"
+          }
+        }
+      },
+      "explanation": "Each vendor uses deixis from their own perspective. The distant vendor's 'mere paas' refers to his own location and produce, establishing a competing deictic center.",
+      "metadata": {
+        "register": "market-transaction",
+        "cultural_markers": [
+          "competitive bargaining",
+          "multiple deictic centers"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "temporal-deixis",
+        "calendar-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Aaj 15 March, Shukravar hai. Deepak ne kaha, 'Agle hafte Somvar ko meri exam hai.'",
+          "question": "Deepak ki exam ki tarikh kya hai?",
+          "options": [
+            "18 March",
+            "20 March",
+            "22 March",
+            "25 March"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 1,
+            "text": "18 March"
+          }
+        },
+        "devanagari": {
+          "context": "आज 15 मार्च, शुक्रवार है। दीपक ने कहा, 'अगले हफ्ते सोमवार को मेरी एग्ज़ाम है।'",
+          "question": "दीपक की एग्ज़ाम की तारीख क्या है?",
+          "options": [
+            "18 मार्च",
+            "20 मार्च",
+            "22 मार्च",
+            "25 मार्च"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 1,
+            "text": "18 मार्च"
+          }
+        },
+        "english": {
+          "context": "Today is March 15, Friday. Deepak said, 'My exam is next week Monday.'",
+          "question": "What is the date of Deepak's exam?",
+          "options": [
+            "March 18",
+            "March 20",
+            "March 22",
+            "March 25"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 1,
+            "text": "March 18"
+          }
+        }
+      },
+      "explanation": "Friday March 15 + next week's Monday = March 18.",
+      "metadata": {
+        "register": "student-life",
+        "cultural_markers": [
+          "temporal deixis with week calculation"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "kinship-terms",
+        "perspective"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Anand",
+              "utterance": "Kal meri behan ka birthday hai."
+            },
+            {
+              "speaker": "Sunita",
+              "utterance": "Achha! Tumhari behan kitni saal ki ho rahi hai?"
+            },
+            {
+              "speaker": "Anand",
+              "utterance": "Vo 25 ki ho rahi hai."
+            }
+          ],
+          "question": "Anand ke teesre dialogue mein 'vo' kaun hai?",
+          "options": [
+            "Anand",
+            "Sunita",
+            "Anand ki behan",
+            "Koi aur"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Anand ki behan"
+          }
+        },
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "आनंद",
+              "utterance": "कल मेरी बहन का बर्थडे है।"
+            },
+            {
+              "speaker": "सुनीता",
+              "utterance": "अच्छा! तुम्हारी बहन कितनी साल की हो रही है?"
+            },
+            {
+              "speaker": "आनंद",
+              "utterance": "वो 25 की हो रही है।"
+            }
+          ],
+          "question": "आनंद के तीसरे डायलॉग में 'वो' कौन है?",
+          "options": [
+            "आनंद",
+            "सुनीता",
+            "आनंद की बहन",
+            "कोई और"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "आनंद की बहन"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Anand",
+              "utterance": "Tomorrow is my sister's birthday."
+            },
+            {
+              "speaker": "Sunita",
+              "utterance": "Oh! How old is your sister turning?"
+            },
+            {
+              "speaker": "Anand",
+              "utterance": "She (vo) is turning 25."
+            }
+          ],
+          "question": "In Anand's third dialogue, who is 'vo' (she)?",
+          "options": [
+            "Anand",
+            "Sunita",
+            "Anand's sister",
+            "Someone else"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Anand's sister"
+          }
+        }
+      },
+      "explanation": "'Vo' (she/he distal) maintains reference to Anand's sister who was introduced as the topic and is salient throughout the exchange.",
+      "metadata": {
+        "register": "casual-conversation",
+        "cultural_markers": [
+          "pronoun tracking across turns"
+        ],
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "demonstrative-deixis",
+        "proximal-distal-contrast"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ek kapde ki dukaan mein salesman keh raha hai, 'Yeh suit 5000 ka hai, voh 3000 ka hai, aur voh saamne wala shelf ka 8000 ka hai.' Grahak ne kaha, 'Mujhe beech wala dikhao.'",
+          "question": "Grahak ne kaunsa suit dekhna chaha?",
+          "options": [
+            "3000 wala suit",
+            "5000 wala suit",
+            "8000 wala suit",
+            "Teen suit ek saath"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "5000 wala suit"
+          }
+        },
+        "devanagari": {
+          "context": "एक कपड़े की दुकान में सेल्समैन कह रहा है, 'यह सूट 5000 का है, वो 3000 का है, और वो सामने वाले शेल्फ का 8000 का है।' ग्राहक ने कहा, 'मुझे बीच वाला दिखाओ।'",
+          "question": "ग्राहक ने कौनसा सूट देखना चाहा?",
+          "options": [
+            "3000 वाला सूट",
+            "5000 वाला सूट",
+            "8000 वाला सूट",
+            "तीनों सूट एक साथ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "5000 वाला सूट"
+          }
+        },
+        "english": {
+          "context": "In a clothing store, the salesman says, 'This suit is 5000, that one is 3000, and that one on the shelf in front is 8000.' The customer said, 'Show me the middle one.'",
+          "question": "Which suit did the customer want to see?",
+          "options": [
+            "The 3000 rupee suit",
+            "The 5000 rupee suit",
+            "The 8000 rupee suit",
+            "All three suits together"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The 5000 rupee suit"
+          }
+        }
+      },
+      "explanation": "Three suits are introduced in order: 5000 (yeh), 3000 (voh), 8000 (voh saamne wala). 'Beech wala' (the middle one) refers to the second item in this sequence the 5000 rupee suit.",
+      "metadata": {
+        "register": "commercial-transaction",
+        "cultural_markers": [
+          "ordinal reference in shopping",
+          "deictic chaining across three referents"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "temporal-deixis",
+        "reported-speech",
+        "tense-shift"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Aaj Mangalvar hai. Priya ne kal kaha tha, 'Kal mera interview hai.' Priya ki saheli Ritu use aaj pooch rahi hai, 'Toh tera interview kaisa gaya?'",
+          "question": "Priya ka interview kab tha?",
+          "options": [
+            "Aaj",
+            "Kal",
+            "Parson",
+            "Pichle hafte"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 1,
+            "text": "Aaj"
+          }
+        },
+        "devanagari": {
+          "context": "आज मंगलवार है। प्रिया ने कल कहा था, 'कल मेरा इंटरव्यू है।' प्रिया की सहेली रितु उसे आज पूछ रही है, 'तो तेरा इंटरव्यू कैसा गया?'",
+          "question": "प्रिया का इंटरव्यू कब था?",
+          "options": [
+            "आज",
+            "कल",
+            "परसों",
+            "पिछले हफ्ते"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "कल"
+          }
+        },
+        "english": {
+          "context": "Today is Tuesday. Yesterday Priya had said, 'My interview is tomorrow.' Priya's friend Ritu is asking her today, 'So how did your interview go?'",
+          "question": "When was Priya's interview?",
+          "options": [
+            "Today",
+            "Yesterday",
+            "Day after tomorrow",
+            "Last week"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Yesterday"
+          }
+        }
+      },
+      "explanation": "Priya spoke on Monday (yesterday relative to today's Tuesday) and said 'kal' (tomorrow) meaning Tuesday but Ritu's question 'kaisa gaya' (how did it go) confirms it is already over, placing the interview on Monday. The deictic anchor shifts: 'kal' in Priya's speech meant the next day from Monday, i.e. Tuesday, but from today's (Tuesday's) perspective it happened today. Wait re-anchoring: Priya spoke yesterday (Monday) and said 'kal mera interview hai', meaning her interview was on Tuesday. But Ritu asks today (Tuesday) 'how did it go', implying it happened today or is done. The correct answer is Tuesday (today), making option A correct.",
+      "metadata": {
+        "register": "casual-conversation",
+        "cultural_markers": [
+          "deictic tense shift in reported speech"
+        ],
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "honorific-register",
+        "social-distance"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Neha",
+              "utterance": "Kya aap Principal sahab se mil sakte hain?"
+            },
+            {
+              "speaker": "Receptionist",
+              "utterance": "Ek baar mujhe schedule check karne dijiye. To fir unki meeting Rajesh Sir se 1 ghante baad hai. Aur unki pichli meeting Rajeev Ji ke saath 10 minute pehle hi khatam hui hai. Rajeev Ji Ghanit ke teacher hai aur bacho se bahut pyaar karte hai. Unki itni tareefe suni hai. Ji, unka abhi koi meeting nahi hai. Aap andar ja sakte hain."
+            },
+            {
+              "speaker": "Neha",
+              "utterance": "Unhe bata dijiye ki main aa rahi hoon."
+            }
+          ],
+          "question": "Neha ke teesre dialogue mein 'unhe' kaun hai?",
+          "options": [
+            "Receptionist",
+            "Principal sahab",
+            "Neha khud",
+            "Rajesh Sir"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Principal sahab"
+          }
+        },
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "नेहा",
+              "utterance": "क्या आप प्रिंसिपल साहब से मिल सकते हैं?"
+            },
+            {
+              "speaker": "Receptionist",
+              "utterance": "जी, उनका अभी कोई मीटिंग नहीं है। आप अंदर जा सकते हैं।"
+            },
+            {
+              "speaker": "नेहा",
+              "utterance": "उन्हें बता दीजिए कि मैं आ रही हूँ।"
+            }
+          ],
+          "question": "नेहा के तीसरे डायलॉग में 'उन्हें' कौन है?",
+          "options": [
+            "रिसेप्शनिस्ट",
+            "प्रिंसिपल साहब",
+            "नेहा खुद",
+            "कोई और बाहर वाला"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "प्रिंसिपल साहब"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Neha",
+              "utterance": "Can you check if I can meet the Principal?"
+            },
+            {
+              "speaker": "Receptionist",
+              "utterance": "Yes, he has no meeting right now. You can go in."
+            },
+            {
+              "speaker": "Neha",
+              "utterance": "Please let him know (unhe) that I am coming."
+            }
+          ],
+          "question": "In Neha's third dialogue, who is 'unhe' (him/them-honorific)?",
+          "options": [
+            "The receptionist",
+            "The Principal",
+            "Neha herself",
+            "Someone else outside"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The Principal"
+          }
+        }
+      },
+      "explanation": "'Unhe' is the oblique honorific form of 'voh', used here to maintain respectful reference to the Principal, who is the established topic across all three turns. The receptionist is addressed with 'aap' directly, ruling out option A.",
+      "metadata": {
+        "register": "institutional-formal",
+        "cultural_markers": [
+          "honorific pronoun tracking",
+          "institutional hierarchy in Indian school setting"
+        ],
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "spatial-deixis",
+        "motion-verbs"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ravi apne ghar Delhi mein baitha hai aur apne dost Aman ko phone kar raha hai jo Mumbai mein hai. Ravi ne kaha, 'Agle hafte main tumhare paas aa raha hoon.' Aman ne kaha, 'Theek hai, main bhi tumhare paas jaane ki soch raha tha, lekin ab tum hi aa jao.'",
+          "question": "Ravi 'aa raha hoon' kehkar kis city jaane ki baat kar raha hai?",
+          "options": [
+            "Delhi",
+            "Mumbai",
+            "Koi teesra shehar",
+            "Dono cities"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Mumbai"
+          }
+        },
+        "devanagari": {
+          "context": "रवि अपने घर दिल्ली में बैठा है और अपने दोस्त अमन को फोन कर रहा है जो मुंबई में है। रवि ने कहा, 'अगले हफ्ते मैं तुम्हारे पास आ रहा हूँ।' अमन ने कहा, 'ठीक है, मैं भी तुम्हारे पास जाने की सोच रहा था, लेकिन अब तुम ही आ जाओ।'",
+          "question": "रवि 'आ रहा हूँ' कहकर किस शहर जाने की बात कर रहा है?",
+          "options": [
+            "दिल्ली",
+            "मुंबई",
+            "कोई तीसरा शहर",
+            "दोनों शहर"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "मुंबई"
+          }
+        },
+        "english": {
+          "context": "Ravi is sitting at his home in Delhi and calling his friend Aman, who is in Mumbai. Ravi said, 'Next week I'm coming (aa raha hoon) to your place.' Aman said, 'Okay, I was also thinking of going to your place, but now you come instead.'",
+          "question": "By saying 'aa raha hoon' (coming), which city is Ravi referring to travelling to?",
+          "options": [
+            "Delhi",
+            "Mumbai",
+            "Some third city",
+            "Both cities"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Mumbai"
+          }
+        }
+      },
+      "explanation": "The Hindi motion verb 'aana' (to come) is deictically anchored to the addressee's location. Since Aman is in Mumbai, Ravi's 'aa raha hoon' orients his movement toward Mumbai, not his own current location.",
+      "metadata": {
+        "register": "phone-conversation",
+        "cultural_markers": [
+          "deictic motion verbs aana/jaana"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "temporal-deixis",
+        "relative-time-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Aaj 10 August hai. Meera ne apni diary mein likha, 'Parso mera college shuru hoga.'",
+          "question": "Meera ka college kis tarikh ko shuru hoga?",
+          "options": [
+            "11 August",
+            "12 August",
+            "13 August",
+            "10 August"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "12 August"
+          }
+        },
+        "devanagari": {
+          "context": "आज 10 अगस्त है। मीरा ने अपनी डायरी में लिखा, 'परसों मेरा कॉलेज शुरू होगा।'",
+          "question": "मीरा का कॉलेज किस तारीख को शुरू होगा?",
+          "options": [
+            "11 अगस्त",
+            "12 अगस्त",
+            "13 अगस्त",
+            "10 अगस्त"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "12 अगस्त"
+          }
+        },
+        "english": {
+          "context": "Today is August 10. Meera wrote in her diary, 'The day after tomorrow (parso) my college will start.'",
+          "question": "On what date will Meera's college start?",
+          "options": [
+            "August 11",
+            "August 12",
+            "August 13",
+            "August 10"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "August 12"
+          }
+        }
+      },
+      "explanation": "In Hindi, 'parso' can mean either 'day before yesterday' or 'day after tomorrow' depending on tense context; here the future-tense 'shuru hoga' disambiguates it as two days ahead of today (August 10), i.e., August 12.",
+      "metadata": {
+        "register": "diary-entry",
+        "cultural_markers": [
+          "ambiguous temporal term 'parso' disambiguated by tense"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "inclusive-exclusive-we"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Rohan",
+              "utterance": "Kal hum log movie dekhne ja rahe hain."
+            },
+            {
+              "speaker": "Kavita",
+              "utterance": "Hum log matlab? Mujhe bhi bulaya hai kya?"
+            },
+            {
+              "speaker": "Rohan",
+              "utterance": "Nahi yaar, sirf main aur Sameer ja rahe hain."
+            }
+          ],
+          "question": "Rohan ke pehle dialogue mein 'hum log' mein kaun-kaun shaamil hai?",
+          "options": [
+            "Rohan aur Kavita",
+            "Rohan aur Sameer",
+            "Rohan, Kavita aur Sameer",
+            "Sirf Rohan"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Rohan aur Sameer"
+          }
+        },
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "रोहन",
+              "utterance": "कल हम लोग मूवी देखने जा रहे हैं।"
+            },
+            {
+              "speaker": "कविता",
+              "utterance": "हम लोग मतलब? मुझे भी बुलाया है क्या?"
+            },
+            {
+              "speaker": "रोहन",
+              "utterance": "नहीं यार, सिर्फ मैं और समीर जा रहे हैं।"
+            }
+          ],
+          "question": "रोहन के पहले डायलॉग में 'हम लोग' में कौन-कौन शामिल है?",
+          "options": [
+            "रोहन और कविता",
+            "रोहन और समीर",
+            "रोहन, कविता और समीर",
+            "सिर्फ रोहन"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "रोहन और समीर"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Rohan",
+              "utterance": "Tomorrow we (hum log) are going to watch a movie."
+            },
+            {
+              "speaker": "Kavita",
+              "utterance": "'We' meaning? Am I invited too?"
+            },
+            {
+              "speaker": "Rohan",
+              "utterance": "No yaar, only Sameer and I are going."
+            }
+          ],
+          "question": "In Rohan's first line, who does 'hum log' (we) refer to?",
+          "options": [
+            "Rohan and Kavita",
+            "Rohan and Sameer",
+            "Rohan, Kavita, and Sameer",
+            "Only Rohan"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Rohan and Sameer"
+          }
+        }
+      },
+      "explanation": "Kavita's confusion arises because Hindi 'hum' doesn't grammatically mark inclusive/exclusive 'we' the way some languages do. Rohan's clarification reveals the exclusive reading: 'hum log' referred only to himself and Sameer, not Kavita.",
+      "metadata": {
+        "register": "casual-conversation",
+        "cultural_markers": [
+          "ambiguous inclusive/exclusive 'hum'"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_010",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphoric-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Manager ne meeting mein kaha, 'Hume is quarter mein sales badhani hai aur costs kam karni hain. Yeh dono targets Diwali tak achieve karne hain.'",
+          "question": "'Yeh dono targets' mein kaunse do targets shaamil hain?",
+          "options": [
+            "Sales badhana aur naye employees hire karna",
+            "Sales badhana aur costs kam karna",
+            "Costs kam karna aur Diwali celebrate karna",
+            "Naye employees hire karna aur costs kam karna"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Sales badhana aur costs kam karna"
+          }
+        },
+        "devanagari": {
+          "context": "मैनेजर ने मीटिंग में कहा, 'हमें इस क्वार्टर में सेल्स बढ़ानी है और कॉस्ट्स कम करनी हैं। यह दोनों टारगेट्स दिवाली तक अचीव करने हैं।'",
+          "question": "'यह दोनों टारगेट्स' में कौनसे दो टारगेट्स शामिल हैं?",
+          "options": [
+            "सेल्स बढ़ाना और नए एम्प्लॉईज़ हायर करना",
+            "सेल्स बढ़ाना और कॉस्ट्स कम करना",
+            "कॉस्ट्स कम करना और दिवाली सेलिब्रेट करना",
+            "नए एम्प्लॉईज़ हायर करना और कॉस्ट्स कम करना"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "सेल्स बढ़ाना और कॉस्ट्स कम करना"
+          }
+        },
+        "english": {
+          "context": "The manager said in the meeting, 'We need to increase sales this quarter and reduce costs. These two targets (yeh dono targets) need to be achieved by Diwali.'",
+          "question": "What are the two targets referred to by 'yeh dono targets' (these two targets)?",
+          "options": [
+            "Increasing sales and hiring new employees",
+            "Increasing sales and reducing costs",
+            "Reducing costs and celebrating Diwali",
+            "Hiring new employees and reducing costs"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Increasing sales and reducing costs"
+          }
+        }
+      },
+      "explanation": "'Yeh dono targets' is a discourse-deictic expression pointing back to the two goals named in the immediately preceding sentence: increasing sales and reducing costs.",
+      "metadata": {
+        "register": "corporate-meeting",
+        "cultural_markers": [
+          "discourse anaphora tied to quarterly targets"
+        ],
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_011",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "honorific-register",
+        "social-distance"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Naukar",
+              "utterance": "Sahab, aapke liye chai laaun?"
+            },
+            {
+              "speaker": "Sahab",
+              "utterance": "Haan, aur Ramu se bhi keh do ki voh gaadi saaf kar de."
+            },
+            {
+              "speaker": "Naukar",
+              "utterance": "Ji, main abhi unhe bata deta hoon."
+            }
+          ],
+          "question": "Naukar ke teesre dialogue mein 'unhe' kisko refer kar raha hai?",
+          "options": [
+            "Sahab ko",
+            "Naukar khud ko",
+            "Ramu ko",
+            "Kisi mehmaan ko"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Ramu ko"
+          }
+        },
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "नौकर",
+              "utterance": "साहब, आपके लिए चाय लाऊं?"
+            },
+            {
+              "speaker": "साहब",
+              "utterance": "हाँ, और रामू से भी कह दो कि वो गाड़ी साफ कर दे।"
+            },
+            {
+              "speaker": "नौकर",
+              "utterance": "जी, मैं अभी उन्हें बता देता हूँ।"
+            }
+          ],
+          "question": "नौकर के तीसरे डायलॉग में 'उन्हें' किसको रेफर कर रहा है?",
+          "options": [
+            "साहब को",
+            "नौकर खुद को",
+            "रामू को",
+            "किसी मेहमान को"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "रामू को"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Servant",
+              "utterance": "Sir, shall I bring tea for you?"
+            },
+            {
+              "speaker": "Sahab",
+              "utterance": "Yes, and tell Ramu too to clean the car."
+            },
+            {
+              "speaker": "Servant",
+              "utterance": "Yes sir, I'll tell him (unhe) right away."
+            }
+          ],
+          "question": "In the servant's third line, who does 'unhe' (him, honorific) refer to?",
+          "options": [
+            "Sahab",
+            "The servant himself",
+            "Ramu",
+            "A guest"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Ramu"
+          }
+        }
+      },
+      "explanation": "Although 'unhe' is the honorific oblique pronoun typically reserved for socially superior referents, here it tracks Ramu, the most recently mentioned person the servant must inform showing that honorific pronouns can extend courtesy across peers in service-staff speech, not just to socially superior addressees.",
+      "metadata": {
+        "register": "domestic-staff-interaction",
+        "cultural_markers": [
+          "household staff hierarchy",
+          "honorific extension between peers"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_012",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "kinship-terms",
+        "perspective"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Aunty",
+              "utterance": "Beta, tumhare papa kahan hain?"
+            },
+            {
+              "speaker": "Chhotu",
+              "utterance": "Papa office gaye hain, lekin unke papa yahan hain, baithak mein baithe hain."
+            },
+            {
+              "speaker": "Aunty",
+              "utterance": "Achha, matlab tumhare dada ghar par hain."
+            }
+          ],
+          "question": "Chhotu ke dialogue mein 'unke papa' kaun hai?",
+          "options": [
+            "Chhotu ke papa ke papa (Chhotu ke dada)",
+            "Aunty ke papa",
+            "Chhotu ke mama",
+            "Chhotu khud ke papa"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Chhotu ke papa ke papa (Chhotu ke dada)"
+          }
+        },
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "आंटी",
+              "utterance": "बेटा, तुम्हारे पापा कहाँ हैं?"
+            },
+            {
+              "speaker": "छोटू",
+              "utterance": "पापा ऑफिस गए हैं, लेकिन उनके पापा यहाँ हैं, बैठक में बैठे हैं।"
+            },
+            {
+              "speaker": "आंटी",
+              "utterance": "अच्छा, मतलब तुम्हारे दादा घर पर हैं।"
+            }
+          ],
+          "question": "छोटू के डायलॉग में 'उनके पापा' कौन है?",
+          "options": [
+            "छोटू के पापा के पापा (छोटू के दादा)",
+            "आंटी के पापा",
+            "छोटू के मामा",
+            "छोटू खुद के पापा"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "छोटू के पापा के पापा (छोटू के दादा)"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Aunty",
+              "utterance": "Beta, where is your father?"
+            },
+            {
+              "speaker": "Chhotu",
+              "utterance": "Papa has gone to office, but his father (unke papa) is here, sitting in the living room."
+            },
+            {
+              "speaker": "Aunty",
+              "utterance": "Ah, so your grandfather is home."
+            }
+          ],
+          "question": "In Chhotu's line, who is 'unke papa' (his father)?",
+          "options": [
+            "Chhotu's father's father (Chhotu's grandfather)",
+            "Aunty's father",
+            "Chhotu's maternal uncle",
+            "Chhotu's own father"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Chhotu's father's father (Chhotu's grandfather)"
+          }
+        }
+      },
+      "explanation": "The pronoun 'unke' shifts its anchor from the previously mentioned 'papa' (Chhotu's father) to refer to that person's own father a nested kinship reference confirmed by Aunty's follow-up naming him 'tumhare dada' (your grandfather).",
+      "metadata": {
+        "register": "family-conversation",
+        "cultural_markers": [
+          "nested kinship deixis",
+          "multi-generational household"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_013",
+      "type": "mcq",
+      "phenomena": [
+        "spatial-deixis",
+        "here-there-contrast"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ravi Bangalore se apne gaon wale dost Shyam ko video call kar raha hai. Ravi ne kaha, 'Yahan bahut garmi hai aur traffic bhi bahut hai.' Shyam ne kaha, 'Yahan to mausam bahut achha hai, thandi hawa chal rahi hai.'",
+          "question": "Shyam ke 'yahan' kis jagah ko refer kar raha hai?",
+          "options": [
+            "Bangalore",
+            "Shyam ka gaon",
+            "Ravi ka office",
+            "Koi teesri jagah"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Shyam ka gaon"
+          }
+        },
+        "devanagari": {
+          "context": "रवि बैंगलोर से अपने गाँव वाले दोस्त श्याम को वीडियो कॉल कर रहा है। रवि ने कहा, 'यहाँ बहुत गर्मी है और ट्रैफिक भी बहुत है।' श्याम ने कहा, 'यहाँ तो मौसम बहुत अच्छा है, ठंडी हवा चल रही है।'",
+          "question": "श्याम के 'यहाँ' किस जगह को रेफर कर रहा है?",
+          "options": [
+            "बैंगलोर",
+            "श्याम का गाँव",
+            "रवि का ऑफिस",
+            "कोई तीसरी जगह"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "श्याम का गाँव"
+          }
+        },
+        "english": {
+          "context": "Ravi is video-calling his village friend Shyam from Bangalore. Ravi said, 'It's very hot here (yahan) and there's a lot of traffic too.' Shyam said, 'The weather here (yahan) is very nice, a cool breeze is blowing.'",
+          "question": "Which place is Shyam referring to with 'yahan' (here)?",
+          "options": [
+            "Bangalore",
+            "Shyam's village",
+            "Ravi's office",
+            "A third location"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Shyam's village"
+          }
+        }
+      },
+      "explanation": "In a video call, each speaker's 'yahan' (here) is anchored to their own physical location, not a shared one. Since Shyam is in the village, his 'yahan' refers to the village, contrasting with Ravi's 'yahan' referring to Bangalore.",
+      "metadata": {
+        "register": "video-call-conversation",
+        "cultural_markers": [
+          "dual deictic centers in remote calls",
+          "urban-rural contrast"
+        ],
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "hi_deix_mcq_014",
+      "type": "mcq",
+      "phenomena": [
+        "temporal-deixis",
+        "seasonal-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kisan ne apne bete se kaha, 'Pichhli baar jab baarish is tarah hui thi, tab hamari fasal barbaad ho gayi thi. Ab agar isi season mein phir aisa hua, to hume bahut nuksan hoga.'",
+          "question": "Kisan 'isi season' se kaunsa season refer kar raha hai?",
+          "options": [
+            "Woh season jab pichli baar fasal barbaad hui thi",
+            "Sardi ka season",
+            "Garmi ka season",
+            "Koi bhi random season"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Woh season jab pichli baar fasal barbaad hui thi"
+          }
+        },
+        "devanagari": {
+          "context": "किसान ने अपने बेटे से कहा, 'पिछली बार जब बारिश इस तरह हुई थी, तब हमारी फसल बर्बाद हो गई थी। अब अगर इसी सीज़न में फिर ऐसा हुआ, तो हमें बहुत नुकसान होगा।'",
+          "question": "किसान 'इसी सीज़न' से कौनसा सीज़न रेफर कर रहा है?",
+          "options": [
+            "वो सीज़न जब पिछली बार फसल बर्बाद हुई थी",
+            "सर्दी का सीज़न",
+            "गर्मी का सीज़न",
+            "कोई भी रैंडम सीज़न"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "वो सीज़न जब पिछली बार फसल बर्बाद हुई थी"
+          }
+        },
+        "english": {
+          "context": "A farmer told his son, 'Last time it rained like this, our crop was ruined. Now if the same thing happens again this season (isi season), we'll suffer huge losses.'",
+          "question": "Which season is the farmer referring to with 'isi season' (this same season)?",
+          "options": [
+            "The season during which the crop was ruined last time",
+            "Winter season",
+            "Summer season",
+            "Any random season"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "The season during which the crop was ruined last time"
+          }
+        }
+      },
+      "explanation": "'Isi season' anaphorically refers back to the same seasonal period described in the first sentence, when the earlier crop failure occurred, not to a generic or different season.",
+      "metadata": {
+        "register": "agrarian-conversation",
+        "cultural_markers": [
+          "seasonal deixis tied to farming cycles",
+          "recurring monsoon anxiety"
+        ],
+        "difficulty": "medium"
+      }
+    }
+  ]
+}

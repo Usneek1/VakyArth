@@ -1,0 +1,352 @@
+{
+  "dataset": "Malayalam Diexis - NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ma_di_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Aakhri vakyathil Arjun thante job-ne kurichaan parayunnath.",
+          "premise": [
+            {
+              "speaker": "Arjun",
+              "utterance": "Njan enre stable job vittu full-time photography cheyyan karuthunnu."
+            },
+            {
+              "speaker": "Rohit",
+              "utterance": "Ithoru valiya chodyam aanu, budhimuttum riskum undu."
+            },
+            {
+              "speaker": "Arjun",
+              "utterance": "Athu sari… pakshe ith cheyyate vayya enn thonnunnu."
+            }
+          ]
+        },
+        "malayalam": {
+          "hypothesis": "അവസാന വാചകത്തിൽ അർജുൻ തന്റെ ജോലിയെ കുറിച്ചാണ് പറയുന്നത്.",
+          "premise": [
+            {
+              "speaker": "അർജുൻ",
+              "utterance": "ഞാൻ എന്റെ സ്റ്റേബിൾ ജോബ് വിട്ട് ഫുൾ–ടൈം ഫോട്ടോഗ്രാഫി ചെയ്യാനാണ് ആലോചിക്കുന്നത്."
+            },
+            {
+              "speaker": "റോഹിത്",
+              "utterance": "ഇത് ഒരു വലിയ ചോദ്യമാണ്, കുറച്ച് റിസ്കുമുണ്ട്."
+            },
+            {
+              "speaker": "അർജുൻ",
+              "utterance": "അതെ… പക്ഷെ ഇത് ചെയ്യാതെ വയ്യെന്ന് തോന്നുന്നു."
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "In the last sentence, Arjun is talking about his job.",
+          "premise": [
+            {
+              "speaker": "Arjun",
+              "utterance": "I'm thinking of quitting my stable job to do full-time photography."
+            },
+            {
+              "speaker": "Rohit",
+              "utterance": "This is a big decision, with some risk."
+            },
+            {
+              "speaker": "Arjun",
+              "utterance": "Yes… but it feels like I can’t avoid doing this."
+            }
+          ]
+        }
+      },
+      "explanation": "In the final line, 'ഇത്' refers to the plan of pursuing full-time photography (the risky action), not to his current job. So the hypothesis is false.",
+      "metadata": {
+        "register": "friendly-conversation",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Malayalam use of 'ithu' for abstract propositions"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_di_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "reported-speech",
+        "person-deixis",
+        "social-deixis-kinship"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Arun Anilte paranju: \"Amma inn rattriyil purathekku pokunnu enn paranju.\"",
+          "hypothesis": "Arunum Anilum bhraathakkal aanu."
+        },
+        "malayalam": {
+          "premise": "അരുണ്‍ അനിലോട് പറഞ്ഞു: \"അമ്മ ഇന്ന് രാത്രിയിൽ പുറത്തേക്ക് പോകുമെന്ന് പറഞ്ഞു.\"",
+          "hypothesis": "അരുണും അനിലും സഹോദരങ്ങളാണ്."
+        },
+        "english": {
+          "premise": "Arun told Anil, “Mom said she is going out tonight.”",
+          "hypothesis": "Arun and Anil are brothers."
+        }
+      },
+      "explanation": "The kinship term 'അമ്മ' used directly while addressing Anil implies a shared mother under the dataset’s policy for family-register dialogue. Thus, the premise entails that Arun and Anil are brothers.",
+      "metadata": {
+        "register": "family",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam kinship deixis: 'Amma' implying shared parent in sibling speech"
+        ],
+        "annotation_policy_note": "Treat 'Amma' as shared mother when the speaker uses it to a peer in a family-like register."
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "ma_di_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "time-deixis",
+        "reported-speech",
+        "center-shift"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Megha raatri 2 manikku enne message cheythu: \"Innale raathri party adipoli aayirunnu.\"",
+          "hypothesis": "Party innu raatri aanu."
+        },
+        "malayalam": {
+          "premise": "മേഘ രാത്രി 2 മണിക്ക് എന്നെ മെസ്സേജ് ചെയ്തു: \"ഇന്നലെ രാത്രി പാർട്ടി അടിപൊളി ആയിരുന്നു.\"",
+          "hypothesis": "പാർട്ടി ഇന്ന് രാത്രിയാണ്."
+        },
+        "english": {
+          "premise": "Megha messaged me at 2 a.m.: \"Last night’s party was awesome.\"",
+          "hypothesis": "The party is tonight."
+        }
+      },
+      "explanation": "At 2 a.m., Megha's 'ഇന്നലെ രാത്രി' refers to the party that ended a few hours earlier (the previous night). The hypothesis incorrectly claims the party is *tonight* (a future event). Hence contradiction.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam temporal deixis around midnight rollover ('ഇന്നലെ രാത്രി' vs 'ഇന്ന് രാത്രി')"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_di_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "Demonstrative-Deixis",
+        "Spatial-Deixis"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Aduttha flattilē kuṭṭikaḷ calling bell aṭiccha sandarbhām. Vāthil thurannappōl avaril mootha kuṭṭi veettammayōdu chōdichu: \"Key uṇḍō?\" Veettamma: \"Nōkkattē.\" (Tirinjŭ akathēkk thanne veettamma pōyi. Avaruṭe vīṭinṟe key iṭānulla standil chennu nōkkiyappōzhākkatte raṇḍu key kaṇḍu. Raṇḍum eduthukoṇḍ avar maṭaṅṅi chennu.) Veettamma: \"Ithāṇō?\" (oru key koṭuttukoṇḍu) Mootha kuṭṭi ā key vāṅṅich avaruṭe vīṭinṟe lock thurakkān śramichu. Lock thurannappōl veettammayuṭe nērē tirinjŭ ingane paranju: \"Ithā.\" Avar uṭane vīṭinakkathēkk pōyi.",
+          "hypothesis": "Moothakkuttiyude kayyil thettāya key āṇ labhichathu"
+        },
+        "malayalam": {
+          "premise": "അടുത്ത ഫ്ലാറ്റിലെ കുട്ടികൾ കോളിംഗ് ബെൽ അടിച്ച സന്ദർഭം. വാതിൽ തുറന്നപ്പോൾ അവരിൽ മൂത്ത കുട്ടി വീട്ടമ്മയോട് ചോദിച്ചു. \"കീ ഉണ്ടോ?\" \n വീട്ടമ്മ : \"നോക്കട്ടെ\" ( തിരിഞ്ഞ് അകത്തേക്ക് തന്നെ വീട്ടമ്മ പോയി. അവരുടെ വീടിന്റെ കീ ഇടാനുള്ള സ്റ്റാൻഡിൽ ചെന്ന് നോക്കിയപ്പോഴാകട്ടെ രണ്ട് കീ കണ്ടു.  രണ്ടും എടുത്തുകൊണ്ട് അവർ മടങ്ങിച്ചെന്നു ). \n വീട്ടമ്മ : \"ഇതാണോ\" (ഒരു കീ കൊടുത്തുകൊണ്ട്) \n മൂത്തകുട്ടി ആ കീ വാങ്ങിച്ച് അവരുടെ വീടിന്റെ ലോക്ക് തുറക്കാൻ ശ്രമിച്ചു  ലോക്ക് തുറന്നപ്പോൾ വീട്ടമ്മയുടെ നേരെ തിരിഞ്ഞ് ഇങ്ങനെ പറഞ്ഞു: \"ഇതാ\". അവരുടനെ വീടിനകത്തേക്ക് പോയി",
+          "hypothesis": "മൂത്തകുട്ടിയുടെ കയ്യിൽ തെറ്റായ കീ ആണ് ലഭിച്ചത്"
+        },
+        "english": {
+          "premise": "It was an occasion when the children from the neighboring flat rang the calling bell. When the door was opened, the oldest among them asked the housewife, \"Do you have the key?\" Housewife: \"Let me check.\" (She turned and went inside. When she went to the key stand in her house and checked, she found two keys. She took both of them and returned.) Housewife: \"Is it this one?\" (handing over a key) The older child took the key and tried to open the lock of their house. When the lock opened, he turned toward the housewife and said, \"Here it is.\" Then he immediately went inside the house.",
+          "hypothesis": "The older child was given the wrong key."
+        }
+      },
+      "explanation": "The premise states that the key given to the older child successfully opened the lock. If the lock opened, the key cannot be wrong — therefore the hypothesis contradicts the premise.",
+      "metadata": {
+        "register": "narrative conversational",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "apartment living context",
+          "shared key-stand household practice"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_di_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "discourse-deixis",
+        "implicature"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Pathonpatham noottandinte avasaanathil Sreenarayana Guru samathwavum sahodaryavum pracharithu. Jaathibhedavum matha dveshavum illatha oru samuham aanu avar swapnam kandathu. Aa pravarthanangal Kerala samuhathil valiya maattangal undakki. Aa sambhavangale kurichu innu oru niroopakan parayunnu: \"Ee alakal innnum veeshikkondirikkunnu.\"",
+          "hypothesis": "\"Ee alakal\" ennu parayunnathu Sreenarayana Guruvinte samuhika parishkarana pravarthanangalude thudarunna prabhavam aanu."
+        },
+        "malayalam": {
+          "premise": "പത്തൊമ്പതാം നൂറ്റാണ്ടിന്റെ അവസാനത്തില്‍ ശ്രീനാരായണഗുരു സമത്വവും സാഹോദര്യവും പ്രബോധിപ്പിച്ചു. ജാതിഭേദവും മതദ്വേഷവും ഇല്ലാത്ത ഒരു സമൂഹമാണ് അദ്ദേഹം സ്വപ്നം കണ്ടത്. ആ പ്രവര്‍ത്തനങ്ങള്‍ കേരളസമൂഹത്തില്‍ വലിയ മാറ്റങ്ങള്‍ക്ക് വഴിവെച്ചു. ആ സംഭവങ്ങളെക്കുറിച്ച് ഇന്ന് ഒരു നിരൂപകന്‍ പറയുന്നു: \"ഈ അലകള്‍ ഇന്നും വീശിക്കൊണ്ടിരിക്കുന്നു.\"",
+          "hypothesis": "ഇവിടെ പറയുന്ന \"ഈ അലകള്‍\" ശ്രീനാരായണഗുരുവിന്റെ സാമൂഹികപരിഷ്കരണങ്ങളുടെ ഇന്നും തുടരുന്ന സ്വാധീനത്തെയാണ് സൂചിപ്പിക്കുന്നത്."
+        },
+        "english": {
+          "premise": "In the late nineteenth century, Sri Narayana Guru preached equality and brotherhood. He envisioned a society without caste discrimination or religious hatred. These actions led to major changes in Kerala society. Speaking about these events today, a commentator says: \"These waves are still blowing.\"",
+          "hypothesis": "The phrase \"these waves\" refers to the continuing influence of Sri Narayana Guru's social reform movement."
+        }
+      },
+      "explanation": "The phrase \"these waves\" refers back to the previously mentioned social reforms initiated by Sri Narayana Guru. It metaphorically denotes the continuing influence of those reforms in society today.",
+      "metadata": {
+        "register": "academic narrative",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Kerala renaissance",
+          "Sri Narayana Guru social reform movement",
+          "metaphorical discourse reference"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ma_deix_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "temporal-deixis",
+        "implicit-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Sunithayude train rathri 11 manikku purappetum. Station veettil ninnum 45 minute dhooram aanu. Boardinginu kurannathu 30 minute munpe stationil ethendathanu.",
+          "hypothesis": "Sunitha veettil ninnum rathri 9:45 manikku munpe purappettal mathram samayathil stationil ethum."
+        },
+        "malayalam": {
+          "premise": "സുനിതയുടെ ട്രെയിൻ രാത്രി 11 മണിക്ക് പുറപ്പെടും. സ്റ്റേഷൻ വീട്ടിൽ നിന്നും 45 മിനിറ്റ് ദൂരമാണ്. ബോർഡിംഗിന് കുറഞ്ഞത് 30 മിനിറ്റ് മുമ്പ് സ്റ്റേഷനിൽ എത്തണം.",
+          "hypothesis": "സുനിത വീട്ടിൽ നിന്നും രാത്രി 9:45 മണിക്ക് മുമ്പ് പുറപ്പെട്ടാൽ മാത്രമേ സമയത്ത് സ്റ്റേഷനിൽ എത്താൻ കഴിയൂ."
+        },
+        "english": {
+          "premise": "Sunita's train departs at 11 PM. The station is 45 minutes from home. She needs to arrive at the station at least 30 minutes before boarding.",
+          "hypothesis": "Sunita must leave home before 9:45 PM to reach the station on time."
+        }
+      },
+      "explanation": "Sunita must reach the station by 10:30 PM (11:00 PM minus 30 minutes). Since travel takes 45 minutes, she must leave home by 9:45 PM. Therefore, leaving before 9:45 PM logically entails that she will arrive on time.",
+      "metadata": {
+        "register": "travel-planning",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "train travel timing",
+          "temporal reasoning",
+          "Indian railway travel planning"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ma_di_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "discourse-deixis",
+        "demonstrative-reference",
+        "abstract-reference",
+        "cross-turn-anaphora"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "എം. എഫ്. ഹുസൈന്റെ ചിത്രങ്ങളെക്കുറിച്ച് ശിവരാമനും ഗിരിരാജും സംസാരിക്കുകയായിരുന്നു. ഹുസൈന്റെ ചിത്രങ്ങളെക്കുറിച്ച് ശിവരാമന്റെ പ്രധാന വിമർശനം വരകളിലെ നിർജീവതയായിരുന്നു. വരകളിലെ ജൈവാംശത്തെക്കുറിച്ച് പറയുമ്പോൾ അയാൾ സൂസയുടെ ചിത്രങ്ങളെ ഉദാഹരണമായി ചൂണ്ടിക്കാണിക്കാറുണ്ടായിരുന്നു. അത് കേട്ട ഗിരിരാജ് പറഞ്ഞു: “അതു തന്നെയാണ് എനിക്കും പറയാനുള്ളത്; സൂസയുമായി താരതമ്യം ചെയ്തെഴുതിയിരുന്നെങ്കിൽ ഹുസൈനെക്കുറിച്ചുള്ള നിങ്ങളുടെ പീസിന് കുറച്ചുകൂടി പഞ്ചുണ്ടാകുമായിരുന്നു.”",
+          "hypothesis": "“അതു തന്നെയാണ് എനിക്കും പറയാനുള്ളത്” എന്നതിലെ “അതു” സൂസയുടെ ചിത്രങ്ങളെയാണ് സൂചിപ്പിക്കുന്നത്."
+        },
+        "latin": {
+          "premise": "M. F. Husainte chithrangalekkurich Shivaramanum Girirajum samsaarikkukayirunnu. Husainte chithrangalekkurich Shivaramaninte pradhaana vimarshanam varakalile nirjeevathayaayirunnu. Varakalile jaivaamshathekkurich parayumbol ayaal Souzayude chithrangale udaaharanamaayi choondikkaanikkarundaayirunnu. Athu kettu Giriraj paranju: 'Athu thanneyaanu enikkum parayaanullathu; Souzayumaayi thaarathamyam cheyth ezhuthiyirunnenkil Husain-ekkurichulla ningalude piece-inu kurachukoodi punch undaakumaayirunnu.'",
+          "hypothesis": "'Athu thanneyaanu enikkum parayaanullathu' ennathile 'athu' Souzayude chithrangaleyaanu soochippikkunnathu."
+        },
+        "english": {
+          "premise": "Shivaraman and Giriraj were discussing M. F. Husain's paintings. Shivaraman's main criticism of Husain was the lifelessness of his lines. When discussing vitality in line, he often pointed to Souza's paintings as an example. Hearing this, Giriraj said, 'That's exactly what I mean too; if you had written the piece by comparing Husain with Souza, it would have had a little more punch.'",
+          "hypothesis": "In Giriraj's statement 'That's exactly what I mean too,' 'that' refers to Souza's paintings."
+        }
+      },
+      "explanation": "The demonstrative 'അതു' does not refer to the immediately preceding concrete entity, Souza's paintings. It refers discourse-deictically to the preceding point about the contrast between the lifelessness of Husain's lines and the vitality exemplified by Souza. Giriraj agrees with this point and suggests that Shivaraman should have made the comparison explicit in his article. Therefore, the hypothesis incorrectly resolves the referent of 'അതു' and is a contradiction.",
+      "metadata": {
+        "register": "literary / professional discussion",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam discourse demonstrative 'അതു'",
+          "propositional reference",
+          "cross-speaker reference",
+          "art criticism"
+        ],
+        "authors_note": "The hypothesis deliberately treats 'അതു' as nominal reference to the nearby phrase 'Souza's paintings', whereas its discourse-deictic referent is the preceding critical point."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_di_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "person-deixis",
+        "social-deixis",
+        "demonstrative-deixis",
+        "honorific-reference"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "ഡോക്ടർ തലത്ത് ജീവിച്ചിരുന്ന കാലത്ത് മിസ്സിസ് തലത്ത് ആഡംബരവും ഔപചാരികതയും നിറഞ്ഞ ജീവിതം നയിച്ചിരുന്ന സ്ത്രീയായിരുന്നു. ഭർത്താവിന്റെ മരണശേഷം വർഷങ്ങൾ കഴിഞ്ഞ് അവരെ കാണാനെത്തിയ സുധീറിനോട് അവർ പറഞ്ഞു: “മാഡം തലത്ത് മരിച്ചുപോയി മോനേ. ഡോക്ടർ തലത്തിനോടൊപ്പം അവരും പോയി. ഇത് അമ്മയാണ്; താഴത്തു കുഞ്ഞിക്കുട്ടിയമ്മ.” അതുകേട്ട് സുധീർ അവരുടെ പാദത്തിൽ നമസ്കരിച്ച് പറഞ്ഞു: “അതേ, അമ്മ. അവിടുത്തെ കണ്ടില്ലെങ്കിൽ ജീവിതത്തിൽ വലിയൊരു ഭാഗ്യം നഷ്ടപ്പെടുമായിരുന്നു! ഇനിയും വരാം. ഇതെന്റെ വീടാണ്. അവിടുന്ന് അമ്മയാണ്.”",
+          "hypothesis": "“ഇതെന്റെ വീടാണ്. അവിടുന്ന് അമ്മയാണ്” എന്നു പറയുമ്പോൾ സുധീർ തന്റെ സ്വന്തം താമസവീടിനെയും സ്വന്തം അമ്മയെയും കുറിച്ചാണ് പറയുന്നത്."
+        },
+        "latin": {
+          "premise": "Doctor Talath jeevichirunna kaalathu Mrs. Talath aadambaravum aupachaarikathayum niranja jeevitham nayichirunna sthreeyaayirunnu. Bharthaavinte maranashesham varshangal kazhinju avare kaanaanethiya Sudheerinodu avar paranju: “Madam Talath marichupoyi mone. Doctor Talathinodoppam avarum poyi. Ithu ammayaanu; Thazhathu Kunjikkuttiyamma.” Athukettu Sudheer avarude paadathil namaskarichu paranju: “Athe, amma. Aviduthe kandillenkil jeevithathil valiyoru bhaagyam nashtappedumaayirunnu! Iniyum varaam. Ithente veedaanu. Avidunnu ammayaanu.”",
+          "hypothesis": "“Ithente veedaanu. Avidunnu ammayaanu” ennu parayumbol Sudheer thante swantham thaamasaveetineyum swantham ammayeyum kurichaanu parayunnathu."
+        },
+        "english": {
+          "premise": "While Dr. Talath was alive, Mrs. Talath had lived an affluent and highly formal social life. Years after her husband's death, Sudheer comes to visit her. She tells him, “Madam Talath is dead, my son. She went away with Dr. Talath. This is Mother now—Thazhathu Kunjikkutti Amma.” Sudheer bows at her feet and replies, “Yes, Mother. If I had not seen you, I would have missed a great blessing in my life. I will come again. This is my home. You are my mother.”",
+          "hypothesis": "When Sudheer says, “This is my home. You are my mother,” he is referring to his own residence and his own biological mother."
+        }
+      },
+      "explanation": "The deictic expressions are anchored to Sudheer's immediate interaction with Mrs. Talath. “ഇത്” refers to Mrs. Talath's house, where the conversation is taking place, while the honorific person-deictic expression “അവിടുന്ന്” refers to Mrs. Talath herself. By calling the place “എന്റെ വീട്” and her “അമ്മ,” Sudheer accepts the maternal relationship she has just expressed. The hypothesis therefore misidentifies both referents.",
+      "metadata": {
+        "register": "literary / intimate conversation",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Malayalam honorific person deixis 'അവിടുന്ന്'",
+          "proximal demonstrative 'ഇത്'",
+          "shift from 'മാഡം' to 'അമ്മ'",
+          "relational use of kinship terms"
+        ],
+        "authors_note": "The premise preserves the crucial identity shift from the socially distant 'Madam Talath' to 'Amma', making Sudheer's subsequent deictic expressions interpretable without requiring access to the full story."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ma_di_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "discourse-deixis",
+        "event-reference",
+        "extended-discourse-reference",
+        "narrative-summary"
+      ],
+      "scripts": {
+        "malayalam": {
+          "premise": "കുരുക്ഷേത്രയുദ്ധം ആരംഭിക്കുമ്പോൾ ഇരുപക്ഷവും യുദ്ധധർമ്മങ്ങൾ പാലിക്കാമെന്ന് തീരുമാനിച്ചിരുന്നു: ആയുധമില്ലാത്തവനെയും ക്ഷീണിച്ചവനെയും ഉറങ്ങുന്നവനെയും കൊല്ലരുത്; യുദ്ധത്തിൽ നേരിട്ട് പങ്കെടുക്കാത്തവരെ ഉപദ്രവിക്കരുത്. എന്നാൽ യുദ്ധം മുന്നോട്ടുപോയപ്പോൾ ഈ വ്യവസ്ഥകൾ ഒന്നൊന്നായി ലംഘിക്കപ്പെട്ടു. അവസാന രാത്രിയിൽ അശ്വത്ഥാമാവ് ഉറങ്ങിക്കിടന്ന പാണ്ഡവപക്ഷക്കാരുടെ പാളയത്തിൽ കടന്ന് ധൃഷ്ടദ്യുമ്നനെയും ദ്രൗപദിയുടെ പുത്രന്മാരെയും അനേകം മറ്റുള്ളവരെയും കൊന്നു; പുറത്തേക്കോടിയവരെ കൃപരും കൃതവർമ്മാവും വധിച്ചു. ഇതെല്ലാം വിവരിച്ചശേഷം ലേഖകൻ പറയുന്നു: “ഇങ്ങനെയാണ് മഹാഭാരതയുദ്ധത്തിന്റെ പരിസമാപ്തി.”",
+          "hypothesis": "“ഇങ്ങനെയാണ്” എന്നതിലെ “ഇങ്ങനെ” അശ്വത്ഥാമാവ് പാളയത്തിൽ കയറിയ ഒരു പ്രവൃത്തിയെ മാത്രം സൂചിപ്പിക്കുന്നതാണ്."
+        },
+        "latin": {
+          "premise": "Kurukshethra yuddham aarambhikkumbol irupakshavum yuddhadharmangal paalikkaamennu theerumanichirunnu: aayudhamillaathavaneyum ksheenichavaneyum urangunnavaneyum kollaruthu; yuddhathil nerittu pankedukkaathavare upadravikkaruthu. Ennaal yuddham munnotupoyappol ee vyavasthakal onnonnaayi langhikkappettu. Avasana raathriyil Ashwatthamaavu urangikkidanna Paandavapakshakkaarude paalayathil kadannu Dhrishtadyumnaneyum Draupadiyude puthranmaareyum anekam mattullavareyum konnu; purathekku odiyavare Kriparum Kritavarmmaavum vadichu. Ithellaam vivarichashesham lekhakan parayunnu: 'Inganeayaanu Mahabharatha yuddhathinte parisamaapthi.'",
+          "hypothesis": "'Inganeayaanu' ennathile 'ingane' Ashwatthamaavu paalayathil kayariya oru pravrithiye maathram soochippikkunnathaanu."
+        },
+        "english": {
+          "premise": "At the beginning of the Kurukshetra war, both sides agreed to follow rules of warfare: the unarmed, the exhausted, and the sleeping were not to be killed, and those not directly taking part in combat were not to be harmed. As the war progressed, however, these rules were violated one after another. On the final night, Ashwatthama entered the camp of the sleeping Pandava forces and killed Dhrishtadyumna, Draupadi's sons, and many others, while Kripa and Kritavarma killed those who tried to flee. After recounting all this, the essayist says, 'This is how the Mahabharata war came to an end.'",
+          "hypothesis": "In the expression 'this is how,' 'this' refers only to the single act of Ashwatthama entering the camp."
+        }
+      },
+      "explanation": "“ഇങ്ങനെ” is discourse-deictic here. It does not pick out a single immediately preceding action such as Ashwatthama entering the camp. It points back to the larger sequence just narrated: the collapse of the original rules of righteous warfare and the final nocturnal massacre that completes that degeneration. The hypothesis narrows this extended discourse referent to one event and is therefore a contradiction.",
+      "metadata": {
+        "register": "literary criticism / epic narrative",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Mahabharata",
+          "Kurukshetra war",
+          "dharma-yuddha",
+          "Ashwatthama's night massacre",
+          "Malayalam discourse-deictic 'ഇങ്ങനെ'"
+        ],
+        "authors_note": "The difficulty comes from the scope of the deictic referent. A local-resolution strategy may attach 'ഇങ്ങനെ' to the immediately preceding massacre event, whereas the essay uses it to summarize the broader manner in which a war begun under rules of dharma deteriorated and finally ended."
+      },
+      "label": "contradiction"
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "dataset": "Hindi Pragmatics - Discourse & Coherence NLI",
+  "version": "0.2",
+  "items": [
+    {
+      "id": "hi_disc_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Diwali ke mausam mein patakhon ki bikri bahut badh jati hai. Bachhe aur bade sab patakhe jalate hain. Isse hawa mein dhuan aur pradushan fail jata hai. Saas ke marizon ko bahut takleef hoti hai. Hospitals mein emergency cases badh jate hain. Doctors ko extra duty karni padti hai.",
+          "hypothesis": "Agar patakhe zyada jalaye jayenge, to hospitals mein emergency cases badhenge."
+        },
+        "devanagari": {
+          "premise": "दिवाली के मौसम में पटाखों की बिक्री बहुत बढ़ जाती है। बच्चे और बड़े सब पटाखे जलाते हैं। इससे हवा में धुआं और प्रदूषण फैल जाता है। साँस के मरीज़ों को बहुत तकलीफ होती है। हॉस्पिटलों में इमरजेंसी केसेज़ बढ़ जाते हैं। डॉक्टरों को एक्स्ट्रा ड्यूटी करनी पड़ती है।",
+          "hypothesis": "अगर पटाखे ज़्यादा जलाए जाएंगे, तो हॉस्पिटलों में इमरजेंसी केसेज़ बढ़ेंगे।"
+        },
+        "english": {
+          "premise": "During Diwali season, firecracker sales increase a lot. Children and adults all burst crackers. This spreads smoke and pollution in the air. Respiratory patients suffer a lot. Emergency cases in hospitals increase. Doctors have to do extra duty.",
+          "hypothesis": "If more firecrackers are burst, emergency cases in hospitals will increase."
+        }
+      },
+      "explanation": "The premise directly connects firecracker use → air pollution → respiratory problems → increased hospital emergencies. Therefore the causal hypothesis is supported.",
+      "metadata": {
+        "register": "public-health",
+        "cultural_markers": [
+          "Diwali",
+          "firecracker pollution"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_disc_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "policy-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Pradhan Mantri Awas Yojana ke tahat gareebon ko ghar milne lage hain. Sarkar subsidy de rahi hai aur loan par interest bhi kam hai. Shahron aur gaon dono mein yeh yojana chal rahi hai. Kai parivar jo pahle jhuggion mein rehte the, ab pakke makan mein shift ho gaye hain. Lekin abhi bhi kai logon ke pass zameen ke kagzaat nahi hain.",
+          "hypothesis": "Agar sarkar zameen ke kagzaat ki prakriya asaan karegi, to zyada gareebon ko ghar milenge."
+        },
+        "devanagari": {
+          "premise": "प्रधानमंत्री आवास योजना के तहत गरीबों को घर मिलने लगे हैं। सरकार सब्सिडी दे रही है और लोन पर इंटरेस्ट भी कम है। शहरों और गाँव दोनों में यह योजना चल रही है। कई परिवार जो पहले झुग्गियों में रहते थे, अब पक्के मकान में शिफ्ट हो गए हैं। लेकिन अभी भी कई लोगों के पास ज़मीन के कागज़ात नहीं हैं।",
+          "hypothesis": "अगर सरकार ज़मीन के कागज़ात की प्रक्रिया आसान करेगी, तो ज़्यादा गरीबों को घर मिलेंगे।"
+        },
+        "english": {
+          "premise": "Under Pradhan Mantri Awas Yojana, poor people have started getting houses. The government is giving subsidies and loan interest is also low. This scheme is running in both cities and villages. Many families who previously lived in slums have now shifted to concrete houses. But still many people don't have land documents.",
+          "hypothesis": "If the government simplifies the land documentation process, more poor people will get houses."
+        }
+      },
+      "explanation": "While lack of documents is mentioned as an issue, the premise also mentions subsidies and low interest. Document simplification alone may not guarantee more houses, making this neutral.",
+      "metadata": {
+        "register": "government-policy",
+        "cultural_markers": [
+          "housing scheme",
+          "bureaucracy"
+        ]
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_disc_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "contradiction-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Aditya vegetarian hai aur kabhi non-veg nahi khata. Usne apne bachon ko bhi vegetarian diet par rakha hai. Ghar mein sirf shakahari khana banta hai. Vah janwaron ke prati dayalu hai aur unke rights ki baat karta hai. Lekin kal Aditya chicken biryani kha raha tha.",
+          "hypothesis": "Aditya vegetarian hai."
+        },
+        "devanagari": {
+          "premise": "आदित्य वेजीटेरियन है और कभी नॉन-वेज नहीं खाता। उसने अपने बच्चों को भी वेजीटेरियन डाइट पर रखा है। घर में सिर्फ शाकाहारी खाना बनता है। वह जानवरों के प्रति दयालु है और उनके राइट्स की बात करता है। लेकिन कल आदित्य चिकन बिरयानी खा रहा था।",
+          "hypothesis": "आदित्य वेजीटेरियन है।"
+        },
+        "english": {
+          "premise": "Aditya is vegetarian and never eats non-veg. He has also kept his children on a vegetarian diet. Only vegetarian food is cooked at home. He is compassionate towards animals and talks about their rights. But yesterday Aditya was eating chicken biryani.",
+          "hypothesis": "Aditya is vegetarian."
+        }
+      },
+      "explanation": "The last sentence directly contradicts the first sentence and the hypothesis about being vegetarian.",
+      "metadata": {
+        "register": "lifestyle/diet",
+        "cultural_markers": [
+          "vegetarianism",
+          "dietary practices"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_disc_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference",
+        "urban-infrastructure"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Delhi mein metro ka jaaal pichle 20 saalon mein bahut fail gaya hai. Hazaron log har roz metro se office jaate hain. Petrol aur diesel ki keemat badh rahi hai isliye log private gaadi kam use kar rahe hain. Metro time par chalti hai aur traffic jam se bachne ka sabse acha tarika hai. Nayi metro lines bhi shuru ho rahi hain jinse door-duraaz ke ilaake bhi jud rahe hain.",
+          "hypothesis": "Delhi mein metro ke aane ke baad road traffic mein poori tarah se kami aa gayi hai."
+        },
+        "devanagari": {
+          "premise": "दिल्ली में मेट्रो का जाल पिछले 20 सालों में बहुत फैल गया है। हज़ारों लोग हर रोज़ मेट्रो से ऑफिस जाते हैं। पेट्रोल और डीज़ल की कीमत बढ़ रही है इसलिए लोग प्राइवेट गाड़ी कम इस्तेमाल कर रहे हैं। मेट्रो टाइम पर चलती है और ट्रैफिक जाम से बचने का सबसे अच्छा तरीका है। नई मेट्रो लाइनें भी शुरू हो रही हैं जिनसे दूर-दराज़ के इलाके भी जुड़ रहे हैं।",
+          "hypothesis": "दिल्ली में मेट्रो के आने के बाद रोड ट्रैफिक में पूरी तरह से कमी आ गई है।"
+        },
+        "english": {
+          "premise": "Delhi's metro network has expanded greatly over the last 20 years. Thousands of people commute to office by metro every day. Petrol and diesel prices are rising so people are using private vehicles less. The metro runs on time and is the best way to avoid traffic jams. New metro lines are also starting, connecting far-off areas.",
+          "hypothesis": "After the arrival of metro, road traffic in Delhi has reduced completely."
+        }
+      },
+      "explanation": "The premise supports that metro has reduced traffic pressure and is widely used, but the hypothesis claims a complete elimination of road traffic, a much stronger claim than what the premise establishes. Metro expansion does not preclude continued private vehicle use, delivery traffic, or areas not yet covered. 'Poori tarah se' (completely) makes the hypothesis unprovable from the premise alone.",
+      "metadata": {
+        "register": "urban-infrastructure",
+        "cultural_markers": [
+          "Delhi Metro",
+          "urban commute",
+          "traffic congestion",
+          "public transport"
+        ]
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_disc_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "entailment",
+        "exam-culture"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "UPSC ki taiyari ke liye Sandeep ne apni IT job chhod di. Usne coaching institute join kiya aur roz 12-14 ghante padhna shuru kiya. Teen saal ki mehnat ke baad bhi uska selection nahi hua. Chauthe saal usne strategy badli, self-study par zyada focus kiya aur mock interviews diye. Is saal final list mein uska naam aaya.",
+          "hypothesis": "Sandeep ne UPSC crack karne ke liye apni job aur kaafi saal lagaye."
+        },
+        "devanagari": {
+          "premise": "UPSC की तैयारी के लिए संदीप ने अपनी IT जॉब छोड़ दी। उसने कोचिंग इंस्टिट्यूट जॉइन किया और रोज़ 12-14 घंटे पढ़ना शुरू किया। तीन साल की मेहनत के बाद भी उसका सेलेक्शन नहीं हुआ। चौथे साल उसने स्ट्रेटेजी बदली, सेल्फ-स्टडी पर ज़्यादा फोकस किया और मॉक इंटरव्यूज़ दिए। इस साल फाइनल लिस्ट में उसका नाम आया।",
+          "hypothesis": "संदीप ने UPSC क्रैक करने के लिए अपनी जॉब और काफी साल लगाए।"
+        },
+        "english": {
+          "premise": "Sandeep left his IT job to prepare for UPSC. He joined a coaching institute and started studying 12-14 hours every day. Even after three years of hard work, he was not selected. In the fourth year he changed his strategy, focused more on self-study and gave mock interviews. This year his name appeared in the final list.",
+          "hypothesis": "Sandeep sacrificed his job and several years to crack UPSC."
+        }
+      },
+      "explanation": "The premise explicitly states that Sandeep left his IT job and spent at minimum four years preparing before finally clearing the exam. The hypothesis that he sacrificed his job and several years is directly and fully supported. This also reflects a well-known cultural reality in India where UPSC aspirants routinely give up stable employment and spend multiple years in preparation.",
+      "metadata": {
+        "register": "exam-culture",
+        "cultural_markers": [
+          "UPSC preparation",
+          "government job aspiration",
+          "coaching culture",
+          "career sacrifice"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_disc_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "contradiction-detection",
+        "social-media-behavior"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Neha hamesha social media par positivity deti hai. Uske posts mein mental health awareness, khud se pyaar aur dusron ki madad karne ke messages hote hain. Uske followers usse ek role model maante hain. Lekin thodhi der pehle, usne apni hi saheli ki personal photo bina pooche story par daal di aur baad mein delete kar di. Jab saheli ne bura maana toh Neha ne kaha ki voh toh mazak kar rahi thi.",
+          "hypothesis": "Neha ke online aur offline behavior mein koi farq nahi hai."
+        },
+        "devanagari": {
+          "premise": "नेहा हमेशा सोशल मीडिया पर पॉज़िटिविटी देती है। उसके पोस्ट्स में मेंटल हेल्थ अवेयरनेस, खुद से प्यार और दूसरों की मदद करने के मैसेजेज़ होते हैं। उसके फॉलोअर्स उसे एक रोल मॉडल मानते हैं। लेकिन थोड़ी देर पहले, उसने अपनी ही सहेली की पर्सनल फोटो बिना पूछे स्टोरी पर डाल दी और बाद में डिलीट कर दी। जब सहेली ने बुरा माना तो नेहा ने कहा कि वो तो मज़ाक कर रही थी।",
+          "hypothesis": "नेहा के ऑनलाइन और ऑफलाइन बिहेवियर में कोई फर्क नहीं है।"
+        },
+        "english": {
+          "premise": "Neha always spreads positivity on social media. Her posts contain messages about mental health awareness, self-love, and helping others. Her followers consider her a role model. But just a while ago, she posted her friend's personal photo on her story without asking and later deleted it. When her friend was hurt by this, Neha said she was just joking.",
+          "hypothesis": "There is no difference between Neha's online and offline behavior."
+        }
+      },
+      "explanation": "The premise establishes a sharp gap between Neha's curated online persona, positivity, mental health advocacy, role model status, and her actual behaviour: sharing a friend's private photo without consent and then deflecting accountability with 'it was a joke'. This directly contradicts the hypothesis that her online and offline behaviour are consistent. The dismissal of the friend's hurt as oversensitivity further deepens the contradiction with her publicly stated values.",
+      "metadata": {
+        "register": "social-media-culture",
+        "cultural_markers": [
+          "performative positivity",
+          "online persona vs real behavior",
+          "consent culture",
+          "accountability deflection"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_disc_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Punjab ke kisan har saal dhaan ki katai ke baad khet mein bachi hui parali jala dete hain. Isse jaldi agla fasal boya ja sakta hai aur mazdoori bhi bachti hai. Lekin parali jalane se bahut zyada dhuan paida hota hai jo hawa mein fail jata hai. Yeh dhuan hawa ke saath Delhi tak pahunch jata hai aur wahan ki air quality kharab kar deta hai. Sardiyon mein Delhi ka AQI 'severe' category mein chala jata hai.",
+          "hypothesis": "Punjab mein parali jalane se Delhi ki hawa ki quality par asar padta hai."
+        },
+        "devanagari": {
+          "premise": "पंजाब के किसान हर साल धान की कटाई के बाद खेत में बची हुई पराली जला देते हैं। इससे जल्दी अगला फसल बोया जा सकता है और मज़दूरी भी बचती है। लेकिन पराली जलाने से बहुत ज़्यादा धुआं पैदा होता है जो हवा में फैल जाता है। यह धुआं हवा के साथ दिल्ली तक पहुँच जाता है और वहाँ की एयर क्वालिटी खराब कर देता है। सर्दियों में दिल्ली का AQI 'सीवियर' कैटेगरी में चला जाता है।",
+          "hypothesis": "पंजाब में पराली जलाने से दिल्ली की हवा की क्वालिटी पर असर पड़ता है।"
+        },
+        "english": {
+          "premise": "Every year after harvesting paddy, Punjab's farmers burn the leftover stubble in their fields. This allows the next crop to be sown quickly and also saves on labour. But stubble burning produces a huge amount of smoke that spreads into the air. This smoke travels with the wind all the way to Delhi and degrades the air quality there. In winter, Delhi's AQI enters the 'severe' category.",
+          "hypothesis": "Stubble burning in Punjab affects Delhi's air quality."
+        }
+      },
+      "explanation": "The premise traces a direct causal chain from stubble burning to smoke to Delhi's degraded air quality, fully supporting the hypothesis.",
+      "metadata": {
+        "register": "environmental-policy",
+        "cultural_markers": [
+          "stubble burning",
+          "Delhi air pollution",
+          "AQI"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_disc_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "policy-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kerala ne apne yahan literacy rate badhane ke liye kai dashak pehle hi adult education programs shuru kar diye the. Panchayat level par library banayi gayi aur schools mein midday meal scheme lagu ki gayi. Aaj Kerala ka literacy rate desh mein sabse zyada hai. Rajya ne health infrastructure par bhi kaafi invest kiya hai.",
+          "hypothesis": "Agar doosre rajya bhi Kerala jaise adult education programs lagu karenge, to unka literacy rate turant Kerala ke barabar ho jayega."
+        },
+        "devanagari": {
+          "premise": "केरल ने अपने यहाँ लिटरेसी रेट बढ़ाने के लिए कई दशक पहले ही एडल्ट एजुकेशन प्रोग्राम्स शुरू कर दिए थे। पंचायत लेवल पर लाइब्रेरी बनाई गई और स्कूलों में मिडडे मील स्कीम लागू की गई। आज केरल का लिटरेसी रेट देश में सबसे ज़्यादा है। राज्य ने हेल्थ इंफ्रास्ट्रक्चर पर भी काफी इन्वेस्ट किया है।",
+          "hypothesis": "अगर दूसरे राज्य भी केरल जैसे एडल्ट एजुकेशन प्रोग्राम्स लागू करेंगे, तो उनका लिटरेसी रेट तुरंत केरल के बराबर हो जाएगा।"
+        },
+        "english": {
+          "premise": "Kerala started adult education programs decades ago to raise its literacy rate. Libraries were set up at the panchayat level and midday meal schemes were implemented in schools. Today Kerala has the highest literacy rate in the country. The state has also invested significantly in health infrastructure.",
+          "hypothesis": "If other states also implement adult education programs like Kerala's, their literacy rate will immediately match Kerala's."
+        }
+      },
+      "explanation": "The premise shows a long, multi-decade combination of factors behind Kerala's literacy achievement, but does not establish that replicating one program alone would produce an immediate equivalent result elsewhere; the claim of immediacy and exact parity is unsupported.",
+      "metadata": {
+        "register": "government-policy",
+        "cultural_markers": [
+          "Kerala literacy model",
+          "adult education",
+          "midday meal scheme"
+        ]
+      },
+      "label": "neutral"
+    },
+    {
+      "id": "hi_disc_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "contradiction-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Vikram apne aap ko ek sacha environmentalist batata hai. Vah apne social media par plastic-free lifestyle ke baare mein baar baar likhta hai aur logon ko reusable bags use karne ki salaah deta hai. Uske ghar mein composting bhi hoti hai. Lekin kal jab uske dost uske ghar gaye, to unhone dekha ki Vikram ke kitchen mein plastic bags ka pura dher pada hai aur voh roz naye plastic bottles kharidta hai.",
+          "hypothesis": "Vikram apni rozmarra ki zindagi mein plastic ka istemal bilkul nahi karta."
+        },
+        "devanagari": {
+          "premise": "विक्रम अपने आप को एक सच्चा एनवायरनमेंटलिस्ट बताता है। वह अपने सोशल मीडिया पर प्लास्टिक-फ्री लाइफस्टाइल के बारे में बार बार लिखता है और लोगों को रीयूज़ेबल बैग्स इस्तेमाल करने की सलाह देता है। उसके घर में कंपोस्टिंग भी होती है। लेकिन कल जब उसके दोस्त उसके घर गए, तो उन्होंने देखा कि विक्रम की किचन में प्लास्टिक बैग्स का पूरा ढेर पड़ा है और वह रोज़ नए प्लास्टिक बोतलें खरीदता है।",
+          "hypothesis": "विक्रम अपनी रोज़मर्रा की ज़िंदगी में प्लास्टिक का इस्तेमाल बिल्कुल नहीं करता।"
+        },
+        "english": {
+          "premise": "Vikram describes himself as a true environmentalist. He repeatedly writes on social media about a plastic-free lifestyle and advises people to use reusable bags. Composting also happens at his home. But yesterday when his friends visited his house, they saw a whole pile of plastic bags in Vikram's kitchen and that he buys new plastic bottles every day.",
+          "hypothesis": "Vikram does not use plastic at all in his everyday life."
+        }
+      },
+      "explanation": "The observed pile of plastic bags and daily purchase of plastic bottles directly contradicts the hypothesis that Vikram avoids plastic entirely, despite his stated public image.",
+      "metadata": {
+        "register": "lifestyle/environment",
+        "cultural_markers": [
+          "performative environmentalism",
+          "plastic-free lifestyle claims"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_disc_nli_010",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "entailment"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Meena ne apni beti ki shaadi ke liye das saal se paise bachaye the. Usne ek chhoti si tailoring shop chalayi aur kabhi zyada kharcha nahi kiya. Jab beti ki shaadi ka waqt aaya, to usne apni sari jama-pooji nikaal di aur ek achhi shaadi karayi. Shaadi ke baad Meena ke paas bahut kam bachat bachi thi.",
+          "hypothesis": "Meena ne apni beti ki shaadi ke liye lambe samay tak paise jama kiye aur unhe shaadi mein istemal kiya."
+        },
+        "devanagari": {
+          "premise": "मीना ने अपनी बेटी की शादी के लिए दस साल से पैसे बचाए थे। उसने एक छोटी सी टेलरिंग शॉप चलाई और कभी ज़्यादा खर्चा नहीं किया। जब बेटी की शादी का वक्त आया, तो उसने अपनी सारी जमा-पूंजी निकाल दी और एक अच्छी शादी कराई। शादी के बाद मीना के पास बहुत कम बचत बची थी।",
+          "hypothesis": "मीना ने अपनी बेटी की शादी के लिए लंबे समय तक पैसे जमा किए और उन्हें शादी में इस्तेमाल किया।"
+        },
+        "english": {
+          "premise": "Meena had been saving money for her daughter's wedding for ten years. She ran a small tailoring shop and never spent much. When the time for the wedding came, she withdrew all her savings and organized a good wedding. After the wedding, Meena had very little savings left.",
+          "hypothesis": "Meena saved money over a long period for her daughter's wedding and used it for the wedding."
+        }
+      },
+      "explanation": "The premise explicitly describes ten years of saving followed by using all the savings for the wedding, directly supporting the hypothesis.",
+      "metadata": {
+        "register": "family-life",
+        "cultural_markers": [
+          "wedding savings",
+          "parental sacrifice"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_disc_nli_011",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "entailment"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Coach ne team ko match se pehle strict diet aur early morning training follow karne ko kaha. Players ne teen mahine tak lagataar mehnat ki aur koi bhi practice session miss nahi kiya. Match ke din team ka performance bahut acha raha aur unhone final jeet liya. Coach ne kaha ki yeh jeet un teen mahino ki mehnat ka nateeja hai.",
+          "hypothesis": "Team ki jeet ke peeche lambe samay ki mehnat aur discipline ka haath tha."
+        },
+        "devanagari": {
+          "premise": "कोच ने टीम को मैच से पहले स्ट्रिक्ट डाइट और अर्ली मॉर्निंग ट्रेनिंग फॉलो करने को कहा। प्लेयर्स ने तीन महीने तक लगातार मेहनत की और कोई भी प्रैक्टिस सेशन मिस नहीं किया। मैच के दिन टीम का परफॉर्मेंस बहुत अच्छा रहा और उन्होंने फाइनल जीत लिया। कोच ने कहा कि यह जीत उन तीन महीनों की मेहनत का नतीजा है।",
+          "hypothesis": "टीम की जीत के पीछे लंबे समय की मेहनत और डिसिप्लिन का हाथ था।"
+        },
+        "english": {
+          "premise": "The coach asked the team to follow a strict diet and early morning training before the match. Players worked hard continuously for three months and did not miss a single practice session. On match day the team performed very well and won the final. The coach said this win was the result of those three months of hard work.",
+          "hypothesis": "The team's win was the result of long-term hard work and discipline."
+        }
+      },
+      "explanation": "The premise explicitly attributes the win to three months of consistent hard work and discipline, directly supporting the hypothesis.",
+      "metadata": {
+        "register": "sports-training",
+        "cultural_markers": [
+          "team discipline",
+          "coach attribution of success"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_disc_nli_012",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "contradiction-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Rahul apne aap ko ek punctual insaan maanta hai aur hamesha logon ko time par aane ki naseehat deta hai. Uske colleagues bhi jaante hain ki vah meetings mein late aana pasand nahi karta. Lekin pichle mahine, teen alag meetings mein khud Rahul hi bees-bees minute late pahuncha aur har baar traffic ka bahana diya.",
+          "hypothesis": "Rahul hamesha samay par pahuchta hai."
+        },
+        "devanagari": {
+          "premise": "राहुल अपने आप को एक पंक्चुअल इंसान मानता है और हमेशा लोगों को टाइम पर आने की नसीहत देता है। उसके कलीग्स भी जानते हैं कि वह मीटिंग्स में लेट आना पसंद नहीं करता। लेकिन पिछले महीने, तीन अलग मीटिंग्स में खुद राहुल ही बीस-बीस मिनट लेट पहुँचा और हर बार ट्रैफिक का बहाना दिया।",
+          "hypothesis": "राहुल हमेशा समय पर पहुँचता है।"
+        },
+        "english": {
+          "premise": "Rahul considers himself a punctual person and always advises others to arrive on time. His colleagues also know that he dislikes being late for meetings. But last month, Rahul himself arrived twenty minutes late to three separate meetings and used the excuse of traffic each time.",
+          "hypothesis": "Rahul always arrives on time."
+        }
+      },
+      "explanation": "The premise describes three instances of Rahul himself being late, directly contradicting the hypothesis that he always arrives on time.",
+      "metadata": {
+        "register": "workplace-behavior",
+        "cultural_markers": [
+          "punctuality norms",
+          "self-perception vs actual behavior"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_disc_nli_013",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Jab se Anita ne apna YouTube channel shuru kiya, usne cooking recipes daalna shuru kiya. Pehle uske subscribers bahut kam the. Dheere dheere uske videos share hone lage aur logon ne unse recipes try karna shuru kiya. Ek din uska ek recipe video viral ho gaya. Us din ke baad uske subscribers mein bahut tezi se izafa hua.",
+          "hypothesis": "Ek video ke viral hone ke baad Anita ke subscribers tezi se badhe."
+        },
+        "devanagari": {
+          "premise": "जब से अनीता ने अपना यूट्यूब चैनल शुरू किया, उसने कुकिंग रेसिपीज़ डालना शुरू किया। पहले उसके सब्सक्राइबर्स बहुत कम थे। धीरे धीरे उसके वीडियोज़ शेयर होने लगे और लोगों ने उनसे रेसिपीज़ ट्राई करना शुरू किया। एक दिन उसका एक रेसिपी वीडियो वायरल हो गया। उस दिन के बाद उसके सब्सक्राइबर्स में बहुत तेज़ी से इज़ाफ़ा हुआ।",
+          "hypothesis": "एक वीडियो के वायरल होने के बाद अनीता के सब्सक्राइबर्स तेज़ी से बढ़े।"
+        },
+        "english": {
+          "premise": "Ever since Anita started her YouTube channel, she began posting cooking recipes. At first her subscribers were very few. Gradually her videos started getting shared and people started trying her recipes. One day one of her recipe videos went viral. After that day, her subscribers grew very rapidly.",
+          "hypothesis": "After a video went viral, Anita's subscribers grew rapidly."
+        }
+      },
+      "explanation": "The premise explicitly states that after the viral video, subscriber growth accelerated rapidly, directly supporting the hypothesis.",
+      "metadata": {
+        "register": "content-creator-culture",
+        "cultural_markers": [
+          "YouTube cooking channel",
+          "viral video growth"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_disc_nli_014",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "policy-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Bangalore traffic police ne odd-even rule lagu karne ka prastav rakha hai taaki traffic kam ho sake. Kuch experts ka kehna hai ki isse thodi rahat mil sakti hai lekin sirf yeh kaafi nahi hoga. Public transport ko behtar banane, cycling lanes banane aur carpooling ko badhava dene ki bhi zarurat hai. Abhi tak rule lagu nahi hua hai, sirf discussion chal raha hai.",
+          "hypothesis": "Odd-even rule lagu hote hi Bangalore ka traffic poori tarah khatam ho jayega."
+        },
+        "devanagari": {
+          "premise": "बैंगलोर ट्रैफिक पुलिस ने ऑड-ईवन रूल लागू करने का प्रस्ताव रखा है ताकि ट्रैफिक कम हो सके। कुछ एक्सपर्ट्स का कहना है कि इससे थोड़ी राहत मिल सकती है लेकिन सिर्फ यह काफी नहीं होगा। पब्लिक ट्रांसपोर्ट को बेहतर बनाने, साइकलिंग लेन्स बनाने और कारपूलिंग को बढ़ावा देने की भी ज़रूरत है। अभी तक रूल लागू नहीं हुआ है, सिर्फ डिस्कशन चल रहा है।",
+          "hypothesis": "ऑड-ईवन रूल लागू होते ही बैंगलोर का ट्रैफिक पूरी तरह खत्म हो जाएगा।"
+        },
+        "english": {
+          "premise": "Bangalore traffic police have proposed implementing an odd-even rule to reduce traffic. Some experts say it could provide some relief but this alone won't be enough. There is also a need to improve public transport, build cycling lanes, and promote carpooling. The rule has not been implemented yet, only discussions are ongoing.",
+          "hypothesis": "As soon as the odd-even rule is implemented, Bangalore's traffic will completely disappear."
+        }
+      },
+      "explanation": "The premise explicitly states experts believe the rule alone won't be enough and that the rule hasn't even been implemented yet, directly contradicting the hypothesis of complete elimination of traffic.",
+      "metadata": {
+        "register": "urban-policy",
+        "cultural_markers": [
+          "odd-even traffic rule",
+          "Bangalore traffic congestion"
+        ]
+      },
+      "label": "contradiction"
+    }
+  ]
+}

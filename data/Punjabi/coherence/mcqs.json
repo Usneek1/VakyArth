@@ -1,0 +1,309 @@
+{
+  "dataset": "Punjabi Pragmatics - Discourse & Coherence MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_disc_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Amritsar vich traffic di bahut vaddi smasya ban gayi hai. Din vich tan sadkan te bahut jam lag janda hai. Log ghantaan barbaad karde hain traffic vich. Accidents di ginti vi vadh gayi hai. Productivity ate tel dono waste ho rahe hain.",
+          "question": "Agla sentence ki ho sakda (sab ton uchit)?",
+          "options": [
+            "Amritsar vich bahut tourist aaunde ne.",
+            "Lok traffic toh hun kaafi pareshan han.",
+            "Sarkar di eh tarkeeb iss da hall kar sakdi hai.",
+            "Roz akhbar vich es baare likhya hunda hai."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Lok traffic toh hun kaafi pareshan han."
+          }
+        },
+        "gurmukhi": {
+          "context": "ਅੰਮ੍ਰਿਤਸਰ ਵਿਚ ਟ੍ਰੈਫਿਕ ਦੀ ਬਹੁਤ ਵੱਡੀ ਸਮੱਸਿਆ ਬਣ ਗਈ ਹੈ। ਦਿਨ ਵਿਚ ਤਾਂ ਸੜਕਾਂ ‘ਤੇ ਬਹੁਤ ਜਾਮ ਲੱਗ ਜਾਂਦਾ ਹੈ। ਲੋਕ ਘੰਟਿਆਂ ਟ੍ਰੈਫਿਕ ਵਿਚ ਬਰਬਾਦ ਕਰਦੇ ਹਨ। ਐਕਸੀਡੈਂਟਸ ਦੀ ਗਿਣਤੀ ਵੀ ਵੱਧ ਗਈ ਹੈ। ਪ੍ਰੋਡਕਟਿਵਿਟੀ ਅਤੇ ਤੇਲ ਦੋਵੇਂ ਵੈਸਟ ਹੋ ਰਹੇ ਹਨ।",
+          "question": "ਅਗਲਾ ਵਾਕ ਕਿਹੜਾ ਹੋ ਸਕਦਾ (ਸਭ ਤੋਂ ਉਚਿਤ)?",
+          "options": [
+            "ਅੰਮ੍ਰਿਤਸਰ ਵਿਚ ਬਹੁਤ ਟੂਰਿਸਟ ਆਉਂਦੇ ਨੇ।",
+            "ਲੋਕ ਟ੍ਰੈਫਿਕ ਤੋਂ ਹੁਣ ਕਾਫ਼ੀ ਪਰੇਸ਼ਾਨ ਹਨ।",
+            "ਸਰਕਾਰ ਦੀ ਇਹ ਤਰਕੀਬ ਇਸ ਦਾ ਹੱਲ ਕਰ ਸਕਦੀ ਹੈ।",
+            "ਰੋਜ਼ ਅਖ਼ਬਾਰ ਵਿਚ ਇਸ ਬਾਰੇ ਲਿਖਿਆ ਹੁੰਦਾ ਹੈ।"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਲੋਕ ਟ੍ਰੈਫਿਕ ਤੋਂ ਹੁਣ ਕਾਫ਼ੀ ਪਰੇਸ਼ਾਨ ਹਨ।"
+          }
+        },
+        "english": {
+          "context": "Traffic has become a major problem in Amritsar. During the day, the roads get heavily jammed. People waste hours stuck in traffic. The number of accidents has also increased. Both productivity and fuel are being wasted.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Many tourists visit Amritsar.",
+            "People are now extremely frustrated with the traffic.",
+            "The government has a strategy to fix this.",
+            "Newspapers write about this every day."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "People are now extremely frustrated with the traffic."
+          }
+        }
+      },
+      "explanation": "The paragraph builds up the negative impacts of traffic congestion; the most coherent continuation is the public’s frustration.",
+      "metadata": {
+        "register": "public-issues",
+        "cultural_markers": []
+      }
+    },
+    {
+      "id": "pa_disc_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction",
+        "profile-continuity"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Simran apne school di sab ton honhar student hai. Oh padhai vich har semester top kardi hai. Usne khedan vich vi apna naam banya hai. Naale debate te cultural events vich kinne inam jitte hun. School de har event vich utsukta naal bhaag laindi hai.",
+          "question": "Agla sentence ki ho sakda (sab ton uchit)?",
+          "options": [
+            "Simran di mummy school vich teacher hai.",
+            "Par Simran ne iss saal debate vich sirf do hi inam jitte.",
+            "Iss karke Simran nu 'all rounder' da khitab mil reha hai.",
+            "Simran vich bahut energy hai."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Iss karke Simran nu 'all rounder' da khitab mil reha hai."
+          }
+        },
+        "gurmukhi": {
+          "context": "ਸਿਮਰਨ ਆਪਣੇ ਸਕੂਲ ਦੀ ਸਭ ਤੋਂ ਹੋਨਹਾਰ ਸਟੂਡੈਂਟ ਹੈ। ਉਹ ਪੜ੍ਹਾਈ ਵਿਚ ਹਰ ਸੈਮੇਸਟਰ ਟੌਪ ਕਰਦੀ ਹੈ। ਉਸਨੇ ਖੇਡਾਂ ਵਿਚ ਵੀ ਆਪਣਾ ਨਾਮ ਬਣਾਇਆ ਹੈ। ਨਾਲੇ ਡਿਬੇਟ ਅਤੇ ਕਲਚਰਲ ਇਵੈਂਟਸ ਵਿਚ ਕਿੰਨੇ ਇਨਾਮ ਜਿੱਤੇ ਹਨ। ਸਕੂਲ ਦੇ ਹਰ ਇਵੈਂਟ ਵਿਚ ਉਤਸੁਕਤਾ ਨਾਲ ਭਾਗ ਲੈਂਦੀ ਹੈ।",
+          "question": "ਅਗਲਾ ਵਾਕ ਕਿਹੜਾ ਹੋ ਸਕਦਾ (ਸਭ ਤੋਂ ਉਚਿਤ)?",
+          "options": [
+            "ਸਿਮਰਨ ਦੀ ਮੰਮੀ ਸਕੂਲ ਵਿਚ ਟੀਚਰ ਹੈ।",
+            "ਪਰ ਸਿਮਰਨ ਨੇ ਇਸ ਸਾਲ ਡਿਬੇਟ ਵਿਚ ਸਿਰਫ਼ ਦੋ ਹੀ ਇਨਾਮ ਜਿੱਤੇ।",
+            "ਇਸ ਕਰਕੇ ਸਿਮਰਨ ਨੂੰ 'ਆਲ-ਰਾਊਂਡਰ' ਦਾ ਖ਼ਿਤਾਬ ਮਿਲ ਰਿਹਾ ਹੈ।",
+            "ਸਿਮਰਨ ਵਿਚ ਬਹੁਤ energy ਹੈ।"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਇਸ ਕਰਕੇ ਸਿਮਰਨ ਨੂੰ 'ਆਲ-ਰਾਊਂਡਰ' ਦਾ ਖ਼ਿਤਾਬ ਮਿਲ ਰਿਹਾ ਹੈ।"
+          }
+        },
+        "english": {
+          "context": "Simran is the brightest student in her school. She tops every semester academically. She has also excelled in sports. She has won many prizes in debates and cultural events. She enthusiastically participates in every school function.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Simran’s mother is a teacher in the school.",
+            "But this year Simran won only two debate prizes.",
+            "Therefore, Simran is being given the title of 'all-rounder.'",
+            "Simran has a lot of energy."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Therefore, Simran is being given the title of 'all-rounder.'"
+          }
+        }
+      },
+      "explanation": "The paragraph lists achievements across academics, sports, and cultural events; the natural coherent continuation is the 'all-rounder' recognition.",
+      "metadata": {
+        "register": "school",
+        "cultural_markers": []
+      }
+    },
+    {
+      "id": "pa_disc_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Doctor banan lai bahut mehnat karni pendi hai. Pehla kadam hunda hai NEET da exam clear karna. Medical college vich 5.5 saal di MBBS degree karni hundi hai. Uthe padhayi kaafi aukhi hundi hai. Par doctory ek bahut nek seva hai. Doctory vich speciality vaaste tan hor kai saal lagg jande ne.",
+          "question": "Kehda sentence paragraph vich fit nahi ho reha?",
+          "options": [
+            "Doctor banan lai bahut mehnat karni pendi hai.",
+            "Uthe padhayi kaafi aukhi hundi hai.",
+            "Par doctory ek bahut nek seva hai.",
+            "Doctory vich speciality vaaste tan hor kai saal lagg jande ne."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Par doctory ek bahut nek seva hai."
+          }
+        },
+        "gurmukhi": {
+          "context": "ਡਾਕਟਰ ਬਣਨ ਲਈ ਬਹੁਤ ਮਿਹਨਤ ਕਰਨੀ ਪੈਂਦੀ ਹੈ। ਪਹਿਲਾ ਕਦਮ ਹੁੰਦਾ ਹੈ NEET ਦਾ ਇਕਜ਼ਾਮ ਕਲੀਅਰ ਕਰਨਾ। ਮੈਡੀਕਲ ਕਾਲਜ ਵਿਚ 5.5 ਸਾਲ ਦੀ MBBS ਡਿਗਰੀ ਕਰਨੀ ਹੁੰਦੀ ਹੈ। ਉੱਥੇ ਪੜ੍ਹਾਈ ਕਾਫ਼ੀ ਔਖੀ ਹੁੰਦੀ ਹੈ। ਪਰ ਡਾਕਟਰੀ ਇੱਕ ਬਹੁਤ ਨੇਕ ਸੇਵਾ ਹੈ। ਡਾਕਟਰੀ ਵਿਚ ਸਪੈਸ਼ਲਿਟੀ ਵਾਸਤੇ ਤਾਂ ਹੋਰ ਕਈ ਸਾਲ ਲੱਗ ਜਾਂਦੇ ਨੇ।",
+          "question": "ਕਿਹੜਾ ਵਾਕ ਪੈਰਾਗ੍ਰਾਫ ਵਿਚ ਫਿੱਟ ਨਹੀਂ ਹੋ ਰਿਹਾ?",
+          "options": [
+            "ਡਾਕਟਰ ਬਣਨ ਲਈ ਬਹੁਤ ਮਿਹਨਤ ਕਰਨੀ ਪੈਂਦੀ ਹੈ।",
+            "ਉੱਥੇ ਪੜ੍ਹਾਈ ਕਾਫ਼ੀ ਔਖੀ ਹੁੰਦੀ ਹੈ।",
+            "ਪਰ ਡਾਕਟਰੀ ਇੱਕ ਬਹੁਤ ਨੇਕ ਸੇਵਾ ਹੈ।",
+            "ਡਾਕਟਰੀ ਵਿਚ ਸਪੈਸ਼ਲਿਟੀ ਵਾਸਤੇ ਤਾਂ ਹੋਰ ਕਈ ਸਾਲ ਲੱਗ ਜਾਂਦੇ ਨੇ।"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਪਰ ਡਾਕਟਰੀ ਇੱਕ ਬਹੁਤ ਨੇਕ ਸੇਵਾ ਹੈ।"
+          }
+        },
+        "english": {
+          "context": "Becoming a doctor requires a lot of hard work. The first step is clearing the NEET exam. Medical college requires completing a 5.5-year MBBS degree. The studies there are quite difficult. But medicine is a noble profession. Specializing in medicine takes several additional years.",
+          "question": "Which sentence does NOT fit the paragraph?",
+          "options": [
+            "Becoming a doctor requires a lot of effort.",
+            "The studies there are very difficult.",
+            "But medicine is a noble service.",
+            "Specialization takes several more years."
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "But medicine is a noble service."
+          }
+        }
+      },
+      "explanation": "All sentences describe steps, duration, or effort; only the moral evaluation about 'noble service' breaks the structural coherence.",
+      "metadata": {
+        "register": "education/careers",
+        "cultural_markers": []
+      }
+    },
+    {
+      "id": "pa_disc_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction",
+        "causal-continuity"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Pichhle kuch saalan vich pind vich mobile phone di varton bahut vadh gayi hai. Hun lagbhag har ghar vich smartphone mil janda hai. Kisan vi mausam di jaankari te mandi de bhaav mobile ton hi check karde ne. Bacche online classes vi phone te hi attend karde ne. Par naal hi lokan da screen time bahut vadh gaya hai te akhan di samasya vi vad rahi hai.",
+          "question": "Agla sentence ki ho sakda (sab ton uchit)?",
+          "options": [
+            "Is karke kai doctor hun bachiyan nu phone ghatt vartan di salah dinde ne.",
+            "Mobile companies har saal nave model launch karde ne.",
+            "Pind de kai lok hun shehar vich kam karde ne.",
+            "Internet di speed ajj kal pehlan ton kaafi vadh gayi hai."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Is karke kai doctor hun bachiyan nu phone ghatt vartan di salah dinde ne."
+          }
+        },
+        "gurmukhi": {
+          "context": "ਪਿਛਲੇ ਕੁਝ ਸਾਲਾਂ ਵਿੱਚ ਪਿੰਡ ਵਿੱਚ ਮੋਬਾਇਲ ਫੋਨ ਦੀ ਵਰਤੋਂ ਬਹੁਤ ਵੱਧ ਗਈ ਹੈ। ਹੁਣ ਲਗਭਗ ਹਰ ਘਰ ਵਿੱਚ ਸਮਾਰਟਫੋਨ ਮਿਲ ਜਾਂਦਾ ਹੈ। ਕਿਸਾਨ ਵੀ ਮੌਸਮ ਦੀ ਜਾਣਕਾਰੀ ਅਤੇ ਮੰਡੀ ਦੇ ਭਾਅ ਮੋਬਾਇਲ ਤੋਂ ਹੀ ਚੈਕ ਕਰਦੇ ਹਨ। ਬੱਚੇ ਆਨਲਾਈਨ ਕਲਾਸਾਂ ਵੀ ਫੋਨ ‘ਤੇ ਹੀ ਅਟੈਂਡ ਕਰਦੇ ਹਨ। ਪਰ ਨਾਲ ਹੀ ਲੋਕਾਂ ਦਾ ਸਕਰੀਨ ਟਾਈਮ ਬਹੁਤ ਵੱਧ ਗਿਆ ਹੈ ਅਤੇ ਅੱਖਾਂ ਦੀ ਸਮੱਸਿਆ ਵੀ ਵੱਧ ਰਹੀ ਹੈ।",
+          "question": "ਅਗਲਾ ਵਾਕ ਕਿਹੜਾ ਹੋ ਸਕਦਾ (ਸਭ ਤੋਂ ਉਚਿਤ)?",
+          "options": [
+            "ਇਸ ਕਰਕੇ ਕਈ ਡਾਕਟਰ ਹੁਣ ਬੱਚਿਆਂ ਨੂੰ ਫੋਨ ਘੱਟ ਵਰਤਣ ਦੀ ਸਲਾਹ ਦਿੰਦੇ ਹਨ।",
+            "ਮੋਬਾਇਲ ਕੰਪਨੀਆਂ ਹਰ ਸਾਲ ਨਵੇਂ ਮਾਡਲ ਲਾਂਚ ਕਰਦੀਆਂ ਹਨ।",
+            "ਪਿੰਡ ਦੇ ਕਈ ਲੋਕ ਹੁਣ ਸ਼ਹਿਰ ਵਿੱਚ ਕੰਮ ਕਰਦੇ ਹਨ।",
+            "ਇੰਟਰਨੈੱਟ ਦੀ ਸਪੀਡ ਅੱਜ ਕੱਲ੍ਹ ਪਹਿਲਾਂ ਤੋਂ ਕਾਫ਼ੀ ਵੱਧ ਗਈ ਹੈ।"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ਇਸ ਕਰਕੇ ਕਈ ਡਾਕਟਰ ਹੁਣ ਬੱਚਿਆਂ ਨੂੰ ਫੋਨ ਘੱਟ ਵਰਤਣ ਦੀ ਸਲਾਹ ਦਿੰਦੇ ਹਨ।"
+          }
+        },
+        "english": {
+          "context": "In recent years, the use of mobile phones in villages has increased significantly. Now almost every household has a smartphone. Farmers check weather information and market prices through their phones. Children also attend online classes on their phones. However, people’s screen time has increased greatly, and eye-related problems are also becoming more common.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Because of this, many doctors now advise children to reduce phone usage.",
+            "Mobile companies launch new models every year.",
+            "Many villagers now work in cities.",
+            "Internet speed has become much faster nowadays."
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Because of this, many doctors now advise children to reduce phone usage."
+          }
+        }
+      },
+      "explanation": "The paragraph builds toward the negative consequences of increased screen time. A recommendation from doctors naturally follows this causal buildup.",
+      "metadata": {
+        "register": "technology/social-change",
+        "cultural_markers": []
+      }
+    },
+    {
+      "id": "pa_disc_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction",
+        "argument-structure"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kai shehran vich cycle lanes banan di gal chal rahi hai. Kai log kehnde ne ke is naal traffic ghatt hovega te pollution vi kat hovega. Kujh hor log kehnde ne ke sadkan pehlan hi tang ne, cycle lane naal hor jam vadhega. Kujh shehran vich trial project vi shuru kite gaye ne jithe kujh sadkan te alag cycle lane banayi gayi hai. Hun tak de results mix ne — kujh thavan te traffic sudhreya hai, par kujh thavan te logan nu hor mushkil aayi hai.",
+          "question": "Agla sentence ki ho sakda (sab ton uchit)?",
+          "options": [
+            "Is layi sarkar hun eh faisla karan lai hor data ikattha kar rahi hai.",
+            "Eh sab dikhaunda hai ke cycle lanes da asar har shehar vich ikko jeha nahi hunda.",
+            "Kai log hun cycle chalana pasand karan lagge ne.",
+            "Sadkan di marammat te hor paisa kharch kita ja reha hai."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Eh sab dikhaunda hai ke cycle lanes da asar har shehar vich ikko jeha nahi hunda."
+          }
+        },
+        "gurmukhi": {
+          "context": "ਕਈ ਸ਼ਹਿਰਾਂ ਵਿੱਚ ਸਾਈਕਲ ਲੇਨ ਬਣਾਉਣ ਦੀ ਗੱਲ ਚੱਲ ਰਹੀ ਹੈ। ਕਈ ਲੋਕ ਕਹਿੰਦੇ ਹਨ ਕਿ ਇਸ ਨਾਲ ਟ੍ਰੈਫਿਕ ਘੱਟ ਹੋਵੇਗਾ ਅਤੇ ਪ੍ਰਦੂਸ਼ਣ ਵੀ ਘੱਟ ਹੋਵੇਗਾ। ਕੁਝ ਹੋਰ ਲੋਕ ਕਹਿੰਦੇ ਹਨ ਕਿ ਸੜਕਾਂ ਪਹਿਲਾਂ ਹੀ ਤੰਗ ਹਨ ਅਤੇ ਸਾਈਕਲ ਲੇਨ ਨਾਲ ਹੋਰ ਜਾਮ ਵੱਧੇਗਾ। ਕੁਝ ਸ਼ਹਿਰਾਂ ਵਿੱਚ ਟ੍ਰਾਇਲ ਪ੍ਰੋਜੈਕਟ ਵੀ ਸ਼ੁਰੂ ਕੀਤੇ ਗਏ ਹਨ ਜਿੱਥੇ ਕੁਝ ਸੜਕਾਂ ‘ਤੇ ਵੱਖਰੀ ਸਾਈਕਲ ਲੇਨ ਬਣਾਈ ਗਈ ਹੈ। ਹੁਣ ਤੱਕ ਦੇ ਨਤੀਜੇ ਮਿਲੇ-ਜੁਲੇ ਹਨ — ਕੁਝ ਥਾਵਾਂ ‘ਤੇ ਟ੍ਰੈਫਿਕ ਸੁਧਰਿਆ ਹੈ, ਪਰ ਕੁਝ ਥਾਵਾਂ ‘ਤੇ ਲੋਕਾਂ ਨੂੰ ਹੋਰ ਮੁਸ਼ਕਲ ਆਈ ਹੈ।",
+          "question": "ਅਗਲਾ ਵਾਕ ਕਿਹੜਾ ਹੋ ਸਕਦਾ (ਸਭ ਤੋਂ ਉਚਿਤ)?",
+          "options": [
+            "ਇਸ ਲਈ ਸਰਕਾਰ ਹੁਣ ਇਹ ਫੈਸਲਾ ਕਰਨ ਲਈ ਹੋਰ ਡਾਟਾ ਇਕੱਠਾ ਕਰ ਰਹੀ ਹੈ।",
+            "ਇਹ ਸਭ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਸਾਈਕਲ ਲੇਨ ਦਾ ਅਸਰ ਹਰ ਸ਼ਹਿਰ ਵਿੱਚ ਇਕੋ ਜਿਹਾ ਨਹੀਂ ਹੁੰਦਾ।",
+            "ਕਈ ਲੋਕ ਹੁਣ ਸਾਈਕਲ ਚਲਾਉਣਾ ਪਸੰਦ ਕਰਨ ਲੱਗੇ ਹਨ।",
+            "ਸੜਕਾਂ ਦੀ ਮੁਰੰਮਤ ‘ਤੇ ਹੋਰ ਪੈਸਾ ਖਰਚ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਇਹ ਸਭ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਸਾਈਕਲ ਲੇਨ ਦਾ ਅਸਰ ਹਰ ਸ਼ਹਿਰ ਵਿੱਚ ਇਕੋ ਜਿਹਾ ਨਹੀਂ ਹੁੰਦਾ।"
+          }
+        },
+        "english": {
+          "context": "Many cities are discussing building bicycle lanes. Some people say this would reduce traffic and pollution. Others argue that roads are already narrow and bicycle lanes would increase congestion. In some cities, trial projects have been started where separate bicycle lanes were built on certain roads. So far the results are mixed — traffic improved in some places, but in others people faced more difficulties.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "Therefore, the government is collecting more data before making a decision.",
+            "All this shows that the impact of bicycle lanes is not the same in every city.",
+            "Many people have now started liking cycling.",
+            "More money is being spent on road repairs."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "All this shows that the impact of bicycle lanes is not the same in every city."
+          }
+        }
+      },
+      "explanation": "The paragraph presents arguments, counterarguments, and mixed trial results. The most coherent continuation is a summary that generalizes the mixed outcomes rather than immediately proposing a policy action.",
+      "metadata": {
+        "register": "public-policy",
+        "cultural_markers": []
+      }
+    }
+  ]
+}

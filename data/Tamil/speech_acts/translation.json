@@ -1,0 +1,129 @@
+{
+  "dataset": "Tamil Pragmatics - Translation (Speech Acts)",
+  "version": "0.2",
+  "direction": "tamil_to_english",
+  "task_description": "Translate the given Tamil sentence or exchange into natural, idiomatic English. Correct translation requires recognizing the underlying speech act whether a question is really a command, a statement is really a warning, or a compliment is really a criticism and rendering the pragmatic force faithfully, not just the literal words.",
+  "items": [
+    {
+      "id": "ta_sa_tr_001",
+      "type": "translation",
+      "phenomena": [
+        "phatic-communion",
+        "greeting-as-small-talk"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Vidaama mazha kottuthu, edhukku mazhaila azhanjjuttu, pesaama auto piduchuttu veetukku poidalaam",
+          "tamil": "இது என்ன இப்படி மழை கொட்டுது, எதுக்கு மழைல அழஞ்சுட்டு, பேசாமா ஆட்டோ பிடுச்சுட்டு வீட்டுக்கு போய்டலாம்"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Its raining continuously, why suffer in the rain, let's just take an auto and go home."
+      },
+      "notes": "This is a common phatic communion exchange where the speaker comments on the weather and then makes a suggestion. The speech act is not just describing the rain but also proposing a course of action to avoid it. The English must capture both the observation and the implied suggestion to be a faithful translation of the speech act."
+    },
+    {
+      "id": "ta_sa_tr_002",
+      "type": "translation",
+      "phenomena": [
+        "declaration",
+        "wedding-ritual",
+        "family-roles"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Thaali katturappo, mama kan kalanguna appa kai piduchuttu, Suruthi enga veettu Mahalakshmi, en ponnu madiri paathukurennu sonnanga",
+          "tamil": "தாலி கட்டுரப்போ, மாமா கண் கலங்குன அப்பா கை பிடுச்சுட்டு, சுருதி எங்க வீட்டு மகாலட்சுமி, என் பொண்ணு மாதிரி பாத்துக்குறென்னு சொன்னாங்க"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When tying the thaali, uncle held the hand of my father, who had tears in his eyes, and said, 'Suruthi is the Mahalakshmi of our house, I will take care of her like my daughter.'"
+      },
+      "notes": "This is a declaration speech act performed during a wedding ritual. The uncle is not just making a statement about Suruthi but is also performing the act of welcoming her into the family and promising to care for her. The English translation must capture the emotional weight and social significance of this declaration, not just the literal words."
+    },
+    {
+      "id": "ta_sa_tr_003",
+      "type": "translation",
+      "phenomena": [
+        "reassurance",
+        "devotional-allusion",
+        "encouragement"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Yaam irukka bayam aen? Nee vanthaa mattum pothum, ella planningum naane paathukkuren",
+          "tamil": "யாம் இருக்க பயம் ஏன்? நீ வந்தா மட்டும் போதும், எல்லா பிளானிஙும் நானே பாதுக்குறேன்"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Why be afraid when I'm here? You just have to come, I will take care of all the planning."
+      },
+      "notes": "This is a reassurance speech act. The line 'Yaam irukka bayam aen?' carries a familiar devotional allusion associated with Lord Murugan's protective assurance ('Why fear when I am here?'). The speaker is calming the listener and taking responsibility. The English translation should preserve this comforting, confidence-giving force."
+    },
+    {
+      "id": "ta_sa_tr_004",
+      "type": "translation",
+      "phenomena": [
+        "credibility-assertion",
+        "oath-like-assurance",
+        "trust-building"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "En vaakku Harichandhran vakkukku samam, neenga enna nambalaam.",
+          "tamil": "என் வாக்கு ஹரிசந்திரன் வாக்குக்கு சமம், நீங்கள் என்ன நம்பலாம்."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "My word is as good as Harishchandra's, you can trust me."
+      },
+      "notes": "This is a credibility assertion where the speaker is comparing their trustworthiness to that of Harishchandra, a legendary figure known for his unwavering honesty. The English translation must capture this strong assurance of reliability and the cultural reference to effectively convey the speaker's intent to build trust."
+    },
+    {
+      "id": "ta_sa_tr_005",
+      "type": "translation",
+      "phenomena": [],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "pathinaaru pettru perum vaazhvu vaazhganu thathaum paattium engala aasirvaadham pannanga",
+          "tamil": "பதினாறு பெற்று பெரும் வாழ்வு வாழ்கனு தாத்தாவும் பாட்தியும் எங்கள ஆசிர்வாதம் பண்ணாங்க"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "My grandfather and grandmother blessed us, saying, 'May you be graced with the sixteen forms of wealth and lead a magnificent life.'"
+      },
+      "notes": "The phrase 'pathinaaru pettru' refers to the sixteen forms of wealth (Shodasha Lakshmi) in Hindu tradition, symbolizing a wish for prosperity in all aspects of life. Without cultural context, this can be easily misunderstood as 'having 16 children', but it actually refers to the comprehensive blessing for prosperity in multiple dimensions. The translation must preserve this cultural reference to convey the full meaning and significance of the blessing."
+    },
+    {
+      "id": "ta_sa_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "apologetic-utterance",
+        "cultural-nuance",
+        "sincerity-expression"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Un kaalla vizhunthu kooda mannippu kekkuren, enna mannichuru.",
+          "tamil": "உன் கால்ல விழுந்து கூட மன்னிப்பு கேக்குறேன், என்ன மன்னிச்சுரு."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "I'll even fall at your feet and ask for forgiveness, just please forgive me."
+      },
+      "notes": "The phrase 'Un kaalla vizhunthu' (fall at your feet) is a culturally specific expression of deep humility and earnestness in seeking forgiveness. The translation must capture this level of sincerity and the cultural nuance of the expression to convey the speaker's genuine remorse and plea for forgiveness."
+    }
+  ]
+}

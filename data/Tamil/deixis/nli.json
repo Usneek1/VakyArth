@@ -1,0 +1,277 @@
+{
+  "dataset": "Tamil Diexis - NLI",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_di_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Kadaisi vaakiyathula Bavani avunga velai paartha valara mudiyumnu solranga",
+          "premise": [
+            {
+              "speaker": "Bavani",
+              "utterance": "Na vela mudunja aproma saaingalam oru puthu class poga poren"
+            },
+            {
+              "speaker": "Chithra",
+              "utterance": "Aana unaku velai pakurathukke neram seriya irukke"
+            },
+            {
+              "speaker": "Bavani",
+              "utterance": "Aama ana ithu en valarchikku romba mukkiyamnu nenaikuren"
+            }
+          ]
+        },
+        "tamil": {
+          "hypothesis": "கடைசி வாக்கியத்தில் பவானி அவங்க வேலை பார்த்தா வளர்ச்சி அடையும்னு சொல்றாங்க",
+          "premise": [
+            {
+              "speaker": "பவானி",
+              "utterance": "நா வேலை முடிஞ்ச அப்புறம் சாயங்காலம் ஒரு புது கிளாஸ் போக போறேன்"
+            },
+            {
+              "speaker": "சித்ரா",
+              "utterance": "ஆனா உனக்கு வேலை பார்க்குறதுக்கு நேரம் சரியா இருக்கே"
+            },
+            {
+              "speaker": "பவானி",
+              "utterance": "ஆமா ஆனா இது என் வளர்ச்சிக்கு ரொம்ப முக்கியம்னு நினைக்குறேன்"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "In the last sentence, Bavani says that attending to her job will help her grow.",
+          "premise": [
+            {
+              "speaker": "Bavani",
+              "utterance": "After I finish work, I am going to attend a new class in the evening."
+            },
+            {
+              "speaker": "Chithra",
+              "utterance": "But you don’t have enough time even for your job?"
+            },
+            {
+              "speaker": "Bavani",
+              "utterance": "Yes, but I think this is very important for my growth."
+            }
+          ]
+        }
+      },
+      "explanation": "The demonstrative 'this' ('இது'/'ithu') refers to Bavani's plan to attend the new class, not her job; therefore the hypothesis is false (contradiction).",
+      "metadata": {
+        "register": "friendly-conversation",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Tamil discourse deixis: 'இது' often points to the immediately preceding plan or action"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_di_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "reported-speech",
+        "person-deixis",
+        "social-deixis-kinship"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Arun Ram kitta Amma raathiri veliyila poranganu sonnan",
+          "hypothesis": "Arunum Ramum sagodharargal"
+        },
+        "tamil": {
+          "premise": "அருண் ராம் கிட்ட அம்மா ராத்திரி வெளியில போறாங்கனு சொன்னான்",
+          "hypothesis": "அருணும் ராமும் சகோதரர்கள்"
+        },
+        "english": {
+          "premise": "Arun told Ram, “Mom said she is going out tonight.”",
+          "hypothesis": "Arun and Ram are brothers."
+        }
+      },
+      "explanation": "The kinship term 'அம்மா' used directly while addressing Ram implies a shared mother under the dataset’s policy for family-register dialogue. Thus, the premise entails that Arun and Ram are brothers.",
+      "metadata": {
+        "register": "family",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Tamil kinship deixis: 'அம்மா' implying shared parent in sibling speech"
+        ],
+        "annotation_policy_note": "Treat 'அம்மா' as shared mother when the speaker uses it to a peer in a family-like register."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_di_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "time-deixis",
+        "reported-speech",
+        "center-shift"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kalaila intha velai nalaiku mudiyumnu Managerkitta sonnen",
+          "hypothesis": "Intha velai nalai marunaal thayaara irukum"
+        },
+        "tamil": {
+          "premise": "காலைல இந்த வேலை நாளைக்கு முடியும்னு மேனேஜர்கிட்ட சொன்னேன்",
+          "hypothesis": "இந்த வேலை நாளை மறுநாள் தயாரா இருக்கும்"
+        },
+        "english": {
+          "premise": "I told the manager that this work will be done tomorrow, in the morning.",
+          "hypothesis": "This work will be ready the day after tomorrow."
+        }
+      },
+      "explanation": "The premise states the work will be completed tomorrow; if it is completed tomorrow it will also be ready the next day. Hence the hypothesis (ready the day after tomorrow) is entailed.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Tamil temporal inference: completed tasks persist as 'ready' on subsequent days"
+        ],
+        "annotation_policy_note": "Assume persistence of completed tasks across days when making temporal entailment judgments."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_di_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "discourse-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Kadaisi vaakiyathula Bavani avunga velai paartha valara mudiyumnu solranga",
+          "premise": [
+            {
+              "speaker": "Bavani",
+              "utterance": "Na vela mudunja aproma saaingalam oru puthu class poga poren"
+            },
+            {
+              "speaker": "Chithra",
+              "utterance": "Aana unaku velai pakurathukke neram seriya irukke"
+            },
+            {
+              "speaker": "Bavani",
+              "utterance": "Aama ana ithu en valarchikku romba mukkiyamnu nenaikuren"
+            }
+          ]
+        },
+        "tamil": {
+          "hypothesis": "கடைசி வாக்கியத்தில் பவானி அவங்க வேலை பார்த்தா வளர்ச்சி அடையும்னு சொல்றாங்க",
+          "premise": [
+            {
+              "speaker": "பவானி",
+              "utterance": "நா வேலை முடிஞ்ச அப்புறம் சாயங்காலம் ஒரு புது கிளாஸ் போக போறேன்"
+            },
+            {
+              "speaker": "சித்ரா",
+              "utterance": "ஆனா உனக்கு வேலை பார்க்குறதுக்கு நேரம் சரியா இருக்கே"
+            },
+            {
+              "speaker": "பவானி",
+              "utterance": "ஆமா ஆனா இது என் வளர்ச்சிக்கு ரொம்ப முக்கியம்னு நினைக்குறேன்"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "In the last sentence, Bavani says that attending to her job will help her grow.",
+          "premise": [
+            {
+              "speaker": "Bavani",
+              "utterance": "After I finish work, I am going to attend a new class in the evening."
+            },
+            {
+              "speaker": "Chithra",
+              "utterance": "But you don’t have enough time even for your job?"
+            },
+            {
+              "speaker": "Bavani",
+              "utterance": "Yes, but I think this is very important for my growth."
+            }
+          ]
+        }
+      },
+      "explanation": "The demonstrative 'this' ('இது'/'ithu') refers to Bavani's plan to attend the new class, not her job; therefore the hypothesis is false (contradiction).",
+      "metadata": {
+        "register": "friendly-conversation",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Tamil discourse deixis: 'இது' often points to the immediately preceding plan or action"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_di_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "time-deixis",
+        "temporal-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Intha vaarathula irundu sanikkizhamai anikum school ku ponum. Athunaala nalaikku namma veliya poga mudiyaathu",
+          "hypothesis": "Innaikku sanikkizhamai"
+        },
+        "tamil": {
+          "premise": "இந்த வாரத்துல இருந்து சனிக்கிழமை அனிக்கும் பள்ளிக்கு போனும். அதுனால நாளைக்கு நம்ம வெளியா போக முடியாது",
+          "hypothesis": "இன்னைக்கு சனிக்கிழமை"
+        },
+        "english": {
+          "premise": "From this week onwards, we have to go to school on Saturdays. So tomorrow we cannot go out.",
+          "hypothesis": "Today is Saturday."
+        }
+      },
+      "explanation": "The premise states that we can't go out tomorrow because we have to go to school on Saturdays. This implies today is not Saturday. Therefore, the hypothesis that today is Saturday is contradicted.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Tamil temporal deixis: 'நாளை' (tomorrow) implies the current day is not Saturday when referring to a new Saturday school schedule"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_di_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "place-deixis",
+        "anaphora",
+        "abstract-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Intha Maasatha pannalana aduthu Margazhi maasam vanthurum aprom thai maasathula dhan kalyanam panna mudiyum.",
+          "hypothesis": "Kaarthigai maasathula kalyanam panna mudiyum"
+        },
+        "tamil": {
+          "premise": "இந்த மாதத்துல பண்ணலனா அடுத்த மார்கழி மாதம் வந்துரும் அப்புறம் தை மாதத்துல தான் கல்யாணம் பண்ண முடியும்.",
+          "hypothesis": "கார்த்திகை மாதத்துல கல்யாணம் பண்ண முடியும்"
+        },
+        "english": {
+          "premise": "If we don't do it this month, the next month of Margazhi will come and then we can only do the wedding in the month of Thai.",
+          "hypothesis": "The wedding can be done in the month of Kaarthigai."
+        }
+      },
+      "explanation": "The premise states that if the wedding is not done this month, it can only be done in the month of Thai after Margazhi. This implies that it can be done in Kaarthigai, which is before Margazhi. Therefore, the hypothesis that the wedding can be done in Kaarthigai is entailed.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "Tamil temporal deixis: understanding the sequence of months and their cultural significance for events like weddings"
+        ]
+      },
+      "label": "entailment"
+    }
+  ]
+}

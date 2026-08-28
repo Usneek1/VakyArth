@@ -1,0 +1,527 @@
+{
+  "dataset": "Punjabi Pragmatics - Speech Acts MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "pa_sa_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Simran raat tak apna homework kar rahi si, te uhdi mummy ne keha, \"Ajj tenu bhukh nhi lagi?\"",
+          "question": "Simran di maa ki keh rahi hai?",
+          "options": [
+            "Simran di sehat baare puchh rahi hai",
+            "Simran nu puchh rahi hai ki usnu kado bhukh lagegi",
+            "Simran nu khaana khaun lai keh rahi hai",
+            "Simran nu puchh rahi hai ki oh ki kahegi"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Simran nu khaana khaun lai keh rahi hai"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਸਿਮਰਨ ਰਾਤ ਤੱਕ ਆਪਣਾ ਹੋਮਵਰਕ ਕਰ ਰਹੀ ਸੀ, ਤੇ ਉਸ ਦੀ ਮਾਂ ਨੇ ਕਿਹਾ, \"ਅੱਜ ਤੈਨੂੰ ਭੁੱਖ ਨਹੀਂ ਲੱਗੀ?\"",
+          "question": "ਸਿਮਰਨ ਦੀ ਮਾਂ ਕੀ ਕਹਿ ਰਹੀ ਹੈ?",
+          "options": [
+            "ਸਿਮਰਨ ਦੀ ਸਿਹਤ ਬਾਰੇ ਪੁੱਛ ਰਹੀ ਹੈ",
+            "ਸਿਮਰਨ ਨੂੰ ਪੁੱਛ ਰਹੀ ਹੈ ਕਿ ਉਸਨੂੰ ਕਦੋਂ ਭੁੱਖ ਲੱਗੇਗੀ",
+            "ਸਿਮਰਨ ਨੂੰ ਖਾਣਾ ਖਾਣ ਲਈ ਕਹਿ ਰਹੀ ਹੈ",
+            "ਸਿਮਰਨ ਨੂੰ ਪੁੱਛ ਰਹੀ ਹੈ ਕਿ ਉਹ ਕੀ ਕਹੇਗੀ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਸਿਮਰਨ ਨੂੰ ਖਾਣਾ ਖਾਣ ਲਈ ਕਹਿ ਰਹੀ ਹੈ"
+          }
+        },
+        "english": {
+          "context": "Simran was doing her homework till late at night, and her mom said, \"Aren’t you hungry today?\"",
+          "question": "What is Simran’s mom actually doing with this question?",
+          "options": [
+            "Asking about Simran’s health",
+            "Asking when Simran will feel hungry",
+            "Telling Simran to go eat food",
+            "Asking Simran what she will say"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Telling Simran to go eat food"
+          }
+        }
+      },
+      "explanation": "Surface form is a question, but the illocutionary force is an indirect request/offer for Simran to eat.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "indirect offer of food to child",
+          "South Asian household pattern"
+        ],
+        "authors_note": "Tests recognition of indirect request framed as a concern question."
+      }
+    },
+    {
+      "id": "pa_sa_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "offer",
+        "politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Jado Priya mehmanan nu khana serve kar rahi si, usne keha, \"Kuch khaas nahi baneya ajj, par try karo.\"",
+          "question": "Priya ki kar rahi hai?",
+          "options": [
+            "Apni cooking skills di nindya kar rahi hai",
+            "Khaane di quality di warning de rahi hai",
+            "Polite tareeke naal khaana offer kar rahi hai",
+            "Dass rahi hai ki usne khaane vich koi effort nahi paaya"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Polite tareeke naal khaana offer kar rahi hai"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਜਦੋਂ ਪ੍ਰਿਆ ਮਹਿਮਾਨਾਂ ਨੂੰ ਖਾਣਾ ਸਰਵ ਕਰ ਰਹੀ ਸੀ, ਉਸ ਨੇ ਕਿਹਾ, \"ਕੁਝ ਖਾਸ ਨਹੀਂ ਬਣਿਆ ਅੱਜ, ਪਰ ਟਰਾਈ ਕਰੋ।\"",
+          "question": "ਪ੍ਰਿਆ ਕੀ ਕਰ ਰਹੀ ਹੈ?",
+          "options": [
+            "ਆਪਣੀ ਕੁਕਿੰਗ ਸਕਿਲਜ਼ ਦੀ ਨਿੰਦਾ ਕਰ ਰਹੀ ਹੈ",
+            "ਖਾਣੇ ਦੀ ਕੁਆਲਿਟੀ ਦੀ ਚੇਤਾਵਨੀ ਦੇ ਰਹੀ ਹੈ",
+            "ਨਰਮ ਤਰੀਕੇ ਨਾਲ ਖਾਣਾ ਆਫ਼ਰ ਕਰ ਰਹੀ ਹੈ",
+            "ਦੱਸ ਰਹੀ ਹੈ ਕਿ ਉਸਨੇ ਖਾਣੇ ਵਿੱਚ ਕੋਈ ਮਿਹਨਤ ਨਹੀਂ ਕੀਤੀ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਨਰਮ ਤਰੀਕੇ ਨਾਲ ਖਾਣਾ ਆਫ਼ਰ ਕਰ ਰਹੀ ਹੈ"
+          }
+        },
+        "english": {
+          "context": "While Priya was serving food to the guests, she said, \"Nothing special is made today, but please try.\"",
+          "question": "What is Priya doing with this utterance?",
+          "options": [
+            "Criticizing her own cooking skills",
+            "Warning the guests about the quality of the food",
+            "Politely offering the food",
+            "Saying she didn’t put any effort into the food"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Politely offering the food"
+          }
+        }
+      },
+      "explanation": "Downplaying the food is a conventional politeness strategy; the main speech act is a polite offer, not a literal warning/critique.",
+      "metadata": {
+        "register": "family/guests",
+        "cultural_markers": [
+          "ritual modesty about food",
+          "guest-host politeness"
+        ],
+        "authors_note": "Targets recognition of offer + politeness in a culturally marked formula."
+      }
+    },
+    {
+      "id": "pa_sa_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "refusal",
+        "appropriate-response"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Host",
+              "utterance": "Beta, kuch hor taa khao."
+            },
+            {
+              "speaker": "Guest",
+              "utterance": "Nhi ji, bas bas kaafi kha leya."
+            }
+          ],
+          "question": "Hun host nu ki karna chahida?",
+          "options": [
+            "Ik vaar hor pyaar naal puchhna chahida",
+            "Naraaz ho jana chahida",
+            "Kuch hor nahi kehna chahida kyunki guest hor nahi khaega",
+            "Khaana zabardasti plate te paana chahida"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Ik vaar hor pyaar naal puchhna chahida"
+          }
+        },
+        "gurmukhi": {
+          "dialogue": [
+            {
+              "speaker": "ਹੋਸਟ",
+              "utterance": "ਬੇਟਾ, ਕੁਝ ਹੋਰ ਤਾਂ ਖਾਓ।"
+            },
+            {
+              "speaker": "ਮਹਿਮਾਨ",
+              "utterance": "ਨਹੀਂ ਜੀ, ਬਸ ਬਸ, ਕਾਫ਼ੀ ਖਾ ਲਿਆ।"
+            }
+          ],
+          "question": "ਹੁਣ ਹੋਸਟ ਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+          "options": [
+            "ਇੱਕ ਵਾਰ ਹੋਰ ਪਿਆਰ ਨਾਲ ਪੁੱਛਣਾ ਚਾਹੀਦਾ",
+            "ਨਾਰਾਜ਼ ਹੋ ਜਾਣਾ ਚਾਹੀਦਾ",
+            "ਹੁਣ ਕੁਝ ਹੋਰ ਨਹੀਂ ਕਹਿਣਾ ਚਾਹੀਦਾ ਕਿਉਂਕਿ ਮਹਿਮਾਨ ਹੋਰ ਨਹੀਂ ਖਾਏਗਾ",
+            "ਜ਼ਬਰਦਸਤੀ ਪਲੇਟ ਵਿੱਚ ਹੋਰ ਖਾਣਾ ਪਾਉਣਾ ਚਾਹੀਦਾ"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ਇੱਕ ਵਾਰ ਹੋਰ ਪਿਆਰ ਨਾਲ ਪੁੱਛਣਾ ਚਾਹੀਦਾ"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Host",
+              "utterance": "Beta, have some more."
+            },
+            {
+              "speaker": "Guest",
+              "utterance": "No ji, that’s enough, I’ve eaten a lot."
+            }
+          ],
+          "question": "What should the host do now?",
+          "options": [
+            "Ask one more time politely",
+            "Get upset",
+            "Say nothing more because the guest will not eat more",
+            "Force more food onto the guest’s plate"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Ask one more time politely"
+          }
+        }
+      },
+      "explanation": "In many Punjabi families, the culturally appropriate pattern is a short ritual of offer–refusal–gentle re-offer. A single extra polite offer is expected and affiliative.",
+      "metadata": {
+        "register": "family/guests",
+        "cultural_markers": [
+          "ritual second offer of food",
+          "hospitality norm"
+        ],
+        "authors_note": "Tests culturally appropriate next speech act after a polite refusal."
+      }
+    },
+    {
+      "id": "pa_sa_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Raj ajj Ramesh de ghar aaya hoya hai. Usne Ramesh nu keha, \"AC thoda thanda lag reha hai.\"",
+          "question": "Raj di gall da asal matlab ki hai?",
+          "options": [
+            "AC bahut powerful hai",
+            "AC di hawa changi lag rahi hai",
+            "AC band kar do",
+            "AC da temperature thoda vadhha do"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "AC da temperature thoda vadhha do"
+          }
+        }
+      },
+      "explanation": "Raj is not simply describing the AC. The statement functions as an indirect request asking the host to reduce the cold by increasing the AC temperature.",
+      "metadata": {
+        "register": "friends/home",
+        "cultural_markers": [
+          "indirect request in casual conversation"
+        ],
+        "authors_note": "Tests recognition of indirect request framed as a complaint about temperature."
+      }
+    },
+    {
+      "id": "pa_sa_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "ritual-modesty"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Simran di naukri laggan ton baad oh kehndi hai, \"Bas kismat di gal hai, mainu tan koi khaas umeed nahi si.\"",
+          "question": "Simran di gall da sab ton vadhiya arth ki hai?",
+          "options": [
+            "Simran nu lagda hai ki oh job layak nahi si",
+            "Simran keh rahi hai ki job sirf kismat naal mili",
+            "Simran nimrata dikhake apni kamyabi share kar rahi hai",
+            "Simran job ton khush nahi hai"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Simran nimrata dikhake apni kamyabi share kar rahi hai"
+          }
+        }
+      },
+      "explanation": "The utterance expresses ritual modesty. Instead of openly praising herself, Simran downplays her success as 'just luck', which is a common politeness strategy.",
+      "metadata": {
+        "register": "social conversation",
+        "cultural_markers": [
+          "ritual modesty",
+          "downplaying achievement"
+        ],
+        "authors_note": "Targets recognition of humility conventions in South Asian discourse."
+      }
+    },
+    {
+      "id": "pa_sa_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "tone",
+        "protective-warning"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Vyah ton baad, Anu de bhra ne Anu de husband nu keha, \"Anu saadi behen bahut pyaari hai, sambhaal ke rakhna.\"",
+          "question": "Eh gall kehnde hoye bhra da tone sab ton vadhiya keda hai?",
+          "options": [
+            "Friendly advice",
+            "Protective warning",
+            "Formal order",
+            "Joke"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Protective warning"
+          }
+        }
+      },
+      "explanation": "Although phrased politely, the statement conveys a protective warning from the brother, emphasizing care and responsibility toward his sister.",
+      "metadata": {
+        "register": "family/wedding",
+        "cultural_markers": [
+          "protective sibling role",
+          "family honor expectations"
+        ],
+        "authors_note": "Tests recognition of tone and implied warning within a culturally familiar statement."
+      }
+    },
+    {
+      "id": "pa_sa_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "commissive",
+        "threat",
+        "indirect-force"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Munda school toh late aaya te ghar da sheesha tod ditta. Mummy ne bilkul shant awaaz vich keha, \"Koi gal nahi puttar, papa nu aaun de, fer gal kardi haan.\"",
+          "question": "Mummy asal vich ki kar rahi hai?",
+          "options": [
+            "Munde nu maaf kar rahi hai",
+            "Papa naal salah karan da wada kar rahi hai",
+            "Munde nu dhamki de rahi hai",
+            "Papa nu shikayat na karan da bharosa de rahi hai"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Munde nu dhamki de rahi hai"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਮੁੰਡਾ ਸਕੂਲ ਤੋਂ ਲੇਟ ਆਇਆ ਤੇ ਘਰ ਦਾ ਸ਼ੀਸ਼ਾ ਤੋੜ ਦਿੱਤਾ। ਮੰਮੀ ਨੇ ਬਿਲਕੁਲ ਸ਼ਾਂਤ ਆਵਾਜ਼ ਵਿੱਚ ਕਿਹਾ, \"ਕੋਈ ਗੱਲ ਨਹੀਂ ਪੁੱਤਰ, ਪਾਪਾ ਨੂੰ ਆਉਣ ਦੇ, ਫਿਰ ਗੱਲ ਕਰਦੀ ਹਾਂ।\"",
+          "question": "ਮੰਮੀ ਅਸਲ ਵਿੱਚ ਕੀ ਕਰ ਰਹੀ ਹੈ?",
+          "options": [
+            "ਮੁੰਡੇ ਨੂੰ ਮਾਫ਼ ਕਰ ਰਹੀ ਹੈ",
+            "ਪਾਪਾ ਨਾਲ ਸਲਾਹ ਕਰਨ ਦਾ ਵਾਅਦਾ ਕਰ ਰਹੀ ਹੈ",
+            "ਮੁੰਡੇ ਨੂੰ ਧਮਕੀ ਦੇ ਰਹੀ ਹੈ",
+            "ਪਾਪਾ ਨੂੰ ਸ਼ਿਕਾਇਤ ਨਾ ਕਰਨ ਦਾ ਭਰੋਸਾ ਦੇ ਰਹੀ ਹੈ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਮੁੰਡੇ ਨੂੰ ਧਮਕੀ ਦੇ ਰਹੀ ਹੈ"
+          }
+        },
+        "english": {
+          "context": "The boy came home late from school and broke the mirror at home. His mother said in a completely calm voice, \"It's alright, son. Just let your father get home, and then we'll talk.\"",
+          "question": "What is the mother actually doing?",
+          "options": [
+            "Forgiving the boy",
+            "Promising to consult the father",
+            "Threatening the boy",
+            "Assuring him she won't complain to the father"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Threatening the boy"
+          }
+        }
+      },
+      "explanation": "Every word is forgiving ('koi gal nahi', 'puttar'), and the calm delivery amplifies rather than softens the threat. The utterance is a commissive: the speaker commits to a future reckoning, disguised as reassurance.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "deferred punishment invoking the father's authority"
+        ],
+        "authors_note": "Targets commissive force; no commissive items existed in the set previously.",
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "pa_sa_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "declaration",
+        "performative",
+        "institutional-authority"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Panchayat de saamne khade ho ke sarpanch ne keha, \"Ajj toh eh zameen pind de school de naam kar diti gayi hai.\"",
+          "question": "Sarpanch de eh kehn naal ki hoya?",
+          "options": [
+            "Oh sirf ik purani khabar suna reha hai",
+            "Ohde eh kehn naal hi zameen school di ho gayi",
+            "Oh apni niji raye de reha hai",
+            "Oh pind valeyan ton benati kar reha hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ohde eh kehn naal hi zameen school di ho gayi"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਪੰਚਾਇਤ ਦੇ ਸਾਹਮਣੇ ਖੜ੍ਹੇ ਹੋ ਕੇ ਸਰਪੰਚ ਨੇ ਕਿਹਾ, \"ਅੱਜ ਤੋਂ ਇਹ ਜ਼ਮੀਨ ਪਿੰਡ ਦੇ ਸਕੂਲ ਦੇ ਨਾਮ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ।\"",
+          "question": "ਸਰਪੰਚ ਦੇ ਇਹ ਕਹਿਣ ਨਾਲ ਕੀ ਹੋਇਆ?",
+          "options": [
+            "ਉਹ ਸਿਰਫ਼ ਇੱਕ ਪੁਰਾਣੀ ਖ਼ਬਰ ਸੁਣਾ ਰਿਹਾ ਹੈ",
+            "ਉਸਦੇ ਇਹ ਕਹਿਣ ਨਾਲ ਹੀ ਜ਼ਮੀਨ ਸਕੂਲ ਦੀ ਹੋ ਗਈ",
+            "ਉਹ ਆਪਣੀ ਨਿੱਜੀ ਰਾਏ ਦੇ ਰਿਹਾ ਹੈ",
+            "ਉਹ ਪਿੰਡ ਵਾਲਿਆਂ ਤੋਂ ਬੇਨਤੀ ਕਰ ਰਿਹਾ ਹੈ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਉਸਦੇ ਇਹ ਕਹਿਣ ਨਾਲ ਹੀ ਜ਼ਮੀਨ ਸਕੂਲ ਦੀ ਹੋ ਗਈ"
+          }
+        },
+        "english": {
+          "context": "Standing before the panchayat, the sarpanch said, \"From today, this land has been transferred to the village school.\"",
+          "question": "What happened by the sarpanch saying this?",
+          "options": [
+            "He is merely reporting old news",
+            "By saying it, the land became the school's",
+            "He is offering his personal opinion",
+            "He is making a request to the villagers"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "By saying it, the land became the school's"
+          }
+        }
+      },
+      "explanation": "A declaration: given the speaker's institutional authority and the formal setting, uttering the sentence is itself the act of transferring the land, rather than a description of a transfer that happened elsewhere.",
+      "metadata": {
+        "register": "village/institutional",
+        "cultural_markers": [
+          "panchayat as a site of binding public declaration"
+        ],
+        "authors_note": "Targets performative/declarative force; the only category where the utterance changes the world rather than describing it.",
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": "pa_sa_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "expressive",
+        "apology",
+        "blame-shifting"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Mehmaan ton mez te peya mehnga guldasta tut gaya. Usne keha, \"Hai ji, mainu bahut afsos hoya, par eh guldasta vi bilkul kinare te hi rakhya hoya si.\"",
+          "question": "Mehmaan is gall naal ki kar reha hai?",
+          "options": [
+            "Sirf dil toh maafi mang reha hai",
+            "Mezbaan di sajawat di tareef kar reha hai",
+            "Nawa guldasta lya ke den da wada kar reha hai",
+            "Maafi mangde hoye naal hi kasoor mezbaan te paa reha hai"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Maafi mangde hoye naal hi kasoor mezbaan te paa reha hai"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਮਹਿਮਾਨ ਤੋਂ ਮੇਜ਼ ਤੇ ਪਿਆ ਮਹਿੰਗਾ ਗੁਲਦਸਤਾ ਟੁੱਟ ਗਿਆ। ਉਸਨੇ ਕਿਹਾ, \"ਹਾਏ ਜੀ, ਮੈਨੂੰ ਬਹੁਤ ਅਫ਼ਸੋਸ ਹੋਇਆ, ਪਰ ਇਹ ਗੁਲਦਸਤਾ ਵੀ ਬਿਲਕੁਲ ਕਿਨਾਰੇ ਤੇ ਹੀ ਰੱਖਿਆ ਹੋਇਆ ਸੀ।\"",
+          "question": "ਮਹਿਮਾਨ ਇਸ ਗੱਲ ਨਾਲ ਕੀ ਕਰ ਰਿਹਾ ਹੈ?",
+          "options": [
+            "ਸਿਰਫ਼ ਦਿਲੋਂ ਮਾਫ਼ੀ ਮੰਗ ਰਿਹਾ ਹੈ",
+            "ਮੇਜ਼ਬਾਨ ਦੀ ਸਜਾਵਟ ਦੀ ਤਾਰੀਫ਼ ਕਰ ਰਿਹਾ ਹੈ",
+            "ਨਵਾਂ ਗੁਲਦਸਤਾ ਲਿਆ ਕੇ ਦੇਣ ਦਾ ਵਾਅਦਾ ਕਰ ਰਿਹਾ ਹੈ",
+            "ਮਾਫ਼ੀ ਮੰਗਦੇ ਹੋਏ ਨਾਲ ਹੀ ਕਸੂਰ ਮੇਜ਼ਬਾਨ ਤੇ ਪਾ ਰਿਹਾ ਹੈ"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "ਮਾਫ਼ੀ ਮੰਗਦੇ ਹੋਏ ਨਾਲ ਹੀ ਕਸੂਰ ਮੇਜ਼ਬਾਨ ਤੇ ਪਾ ਰਿਹਾ ਹੈ"
+          }
+        },
+        "english": {
+          "context": "A guest knocked over and broke an expensive vase on the table. He said, \"Oh dear, I'm so sorry — though this vase was placed right at the very edge.\"",
+          "question": "What is the guest doing with this utterance?",
+          "options": [
+            "Only apologizing sincerely",
+            "Complimenting the host's decor",
+            "Promising to bring a new vase",
+            "Apologizing while shifting the blame onto the host"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Apologizing while shifting the blame onto the host"
+          }
+        }
+      },
+      "explanation": "Two acts are packed into one utterance and joined by 'par': an apology followed by a blame-shift. The item tests whether the whole utterance is read, rather than stopping at the apology formula.",
+      "metadata": {
+        "register": "guest/host",
+        "cultural_markers": [
+          "face-saving apology that redistributes responsibility"
+        ],
+        "authors_note": "Targets expressive force with a competing second act in the same turn.",
+        "difficulty": "hard"
+      }
+    }
+  ]
+}

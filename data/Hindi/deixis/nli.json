@@ -1,0 +1,696 @@
+{
+  "dataset": "Hindi Pragmatics - Discourse & Coherence NLI",
+  "version": "0.2",
+  "items": [
+    {
+      "id": "hi_deix_nli_001",
+      "type": "nli",
+      "phenomena": [
+        "demonstrative-deixis",
+        "anaphora"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Customer 1500 wali shirt le raha hai.",
+          "premise": [
+            {
+              "speaker": "Shopkeeper",
+              "utterance": "Yeh shirt 1500 ki hai aur voh wali 2000 ki."
+            },
+            {
+              "speaker": "Customer",
+              "utterance": "Main voh wali lunga."
+            }
+          ]
+        },
+        "devanagari": {
+          "hypothesis": "ग्राहक 1500 वाली शर्ट ले रहा है।",
+          "premise": [
+            {
+              "speaker": "दुकानदार",
+              "utterance": "यह शर्ट 1500 की है और वो वाली 2000 की।"
+            },
+            {
+              "speaker": "ग्राहक",
+              "utterance": "मैं वो वाली लूंगा।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "The customer is taking the 1500 rupee shirt.",
+          "premise": [
+            {
+              "speaker": "Shopkeeper",
+              "utterance": "This shirt is 1500 and that one is 2000."
+            },
+            {
+              "speaker": "Customer",
+              "utterance": "I'll take that one."
+            }
+          ]
+        }
+      },
+      "explanation": "Customer explicitly chooses 'voh wali' (that one) which refers to the 2000 rupee shirt, contradicting the hypothesis.",
+      "metadata": {
+        "register": "commercial-transaction",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "demonstrative contrast in shopping"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_deix_nli_002",
+      "type": "nli",
+      "phenomena": [
+        "temporal-deixis",
+        "sequencing"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Ravi ne kaha, 'Kal subah main gym gaya tha, phir breakfast kiya, aur uske baad office gaya.'",
+          "hypothesis": "Ravi pehle breakfast karta hai phir gym jata hai."
+        },
+        "devanagari": {
+          "premise": "रवि ने कहा, 'कल सुबह मैं जिम गया था, फिर ब्रेकफास्ट किया, और उसके बाद ऑफिस गया।'",
+          "hypothesis": "रवि पहले ब्रेकफास्ट करता है फिर जिम जाता है।"
+        },
+        "english": {
+          "premise": "Ravi said, 'Yesterday morning I went to gym, then had breakfast, and then went to office.'",
+          "hypothesis": "Ravi has breakfast first then goes to gym."
+        }
+      },
+      "explanation": "The premise explicitly states gym → breakfast → office sequence, contradicting the hypothesis that claims breakfast comes before gym.",
+      "metadata": {
+        "register": "daily-routine",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "temporal sequencing with 'phir' and 'uske baad'"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_deix_nli_003",
+      "type": "nli",
+      "phenomena": [
+        "temporal-deixis",
+        "relative-time"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Aaj 10 January hai. Rajesh ne kaha, 'Mere exam 5 din baad shuru honge aur 10 din tak chalenge.'",
+          "hypothesis": "Rajesh ke exam 25 January ko khatam honge."
+        },
+        "devanagari": {
+          "premise": "आज 10 जनवरी है। राजेश ने कहा, 'मेरे एग्ज़ाम 5 दिन बाद शुरू होंगे और 10 दिन तक चलेंगे।'",
+          "hypothesis": "राजेश के एग्ज़ाम 25 जनवरी को खत्म होंगे।"
+        },
+        "english": {
+          "premise": "Today is January 10. Rajesh said, 'My exams will start in 5 days and will continue for 10 days.'",
+          "hypothesis": "Rajesh's exams will end on January 25."
+        }
+      },
+      "explanation": "January 10 + 5 days = January 15 (start date). Exams run for 10 days starting January 15: Day 1 = Jan 15, Day 10 = Jan 24. So the last exam is on January 24, which means exams are done by/end on January 25 (the day after the last exam day). This matches the hypothesis.",
+      "metadata": {
+        "register": "student-life",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "temporal calculation with duration"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_deix_nli_004",
+      "type": "nli",
+      "phenomena": [
+        "person-deixis",
+        "pronoun-resolution"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Meera kisi aise insaan ke liye khana pack karegi jo party mein nahi aa raha.",
+          "premise": [
+            {
+              "speaker": "Meera",
+              "utterance": "Kya tum aaj party mein aa rahe ho?"
+            },
+            {
+              "speaker": "Arjun",
+              "utterance": "Haan, main aaunga, lekin woh nahi aayega."
+            },
+            {
+              "speaker": "Meera",
+              "utterance": "Theek hai, main uske liye khana pack kar dungi."
+            }
+          ]
+        },
+        "devanagari": {
+          "hypothesis": "मीरा किसी ऐसे इंसान के लिए खाना पैक करेगी जो पार्टी में नहीं आ रहा।",
+          "premise": [
+            {
+              "speaker": "मीरा",
+              "utterance": "क्या तुम आज पार्टी में आ रहे हो?"
+            },
+            {
+              "speaker": "अर्जुन",
+              "utterance": "हाँ, मैं आऊँगा, लेकिन वो नहीं आएगा।"
+            },
+            {
+              "speaker": "मीरा",
+              "utterance": "ठीक है, मैं उसके लिए खाना पैक कर दूँगी।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "Meera will pack food for someone who is not attending the party.",
+          "premise": [
+            {
+              "speaker": "Meera",
+              "utterance": "Are you coming to the party today?"
+            },
+            {
+              "speaker": "Arjun",
+              "utterance": "Yes, I'll come, but he won't."
+            },
+            {
+              "speaker": "Meera",
+              "utterance": "Okay, I'll pack food for him."
+            }
+          ]
+        }
+      },
+      "explanation": "'Woh' (he) refers to a third person who will not attend the party. Meera says she will pack food for 'us' (him), who is the absent person entailing the hypothesis.",
+      "metadata": {
+        "register": "social-planning",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "third-person pronoun resolution in social context"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_deix_nli_005",
+      "type": "nli",
+      "phenomena": [
+        "spatial-deixis",
+        "directional-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Post office tak pahunchne ke liye ek right turn lena zaroori hai.",
+          "premise": [
+            {
+              "speaker": "Rahul",
+              "utterance": "Post office yahan se seedha jaao, phir pehli left lo woh building ke bilkul saamne hai."
+            },
+            {
+              "speaker": "Stranger",
+              "utterance": "Toh kya mujhe koi right turn lena hoga?"
+            }
+          ]
+        },
+        "devanagari": {
+          "hypothesis": "पोस्ट ऑफिस तक पहुँचने के लिए एक राइट टर्न लेना ज़रूरी है।",
+          "premise": [
+            {
+              "speaker": "राहुल",
+              "utterance": "पोस्ट ऑफिस यहाँ से सीधे जाओ, फिर पहली लेफ्ट लो वो बिल्डिंग के बिल्कुल सामने है।"
+            },
+            {
+              "speaker": "Stranger",
+              "utterance": "तो क्या मुझे कोई राइट टर्न लेना होगा?"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "A right turn is necessary to reach the post office.",
+          "premise": [
+            {
+              "speaker": "Rahul",
+              "utterance": "Go straight from here, then take the first left it's right in front of that building."
+            },
+            {
+              "speaker": "Stranger",
+              "utterance": "So do I need to take any right turn?"
+            }
+          ]
+        }
+      },
+      "explanation": "Rahul's directions only involve going straight and taking a left turn. No right turn is mentioned, directly contradicting the hypothesis.",
+      "metadata": {
+        "register": "navigation",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "spatial direction-giving in urban context"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_deix_nli_006",
+      "type": "nli",
+      "phenomena": [
+        "temporal-deixis",
+        "implicit-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Sunita ki train raat 11 baje chhootegi. Station ghar se 45 minute door hai. Unhe boarding se kam se kam 30 minute pehle station pahunchna hai.",
+          "hypothesis": "Sunita ko ghar se raat 9:45 baje se pehle nikal jaana chahiye."
+        },
+        "devanagari": {
+          "premise": "सुनीता की ट्रेन रात 11 बजे छूटेगी। स्टेशन घर से 45 मिनट दूर है। उन्हें बोर्डिंग से कम से कम 30 मिनट पहले स्टेशन पहुँचना है।",
+          "hypothesis": "सुनीता को घर से रात 9:45 बजे से पहले निकल जाना चाहिए।"
+        },
+        "english": {
+          "premise": "Sunita's train departs at 11 PM. The station is 45 minutes from home. She needs to arrive at the station at least 30 minutes before boarding.",
+          "hypothesis": "Sunita should leave home before 9:45 PM."
+        }
+      },
+      "explanation": "Sunita must arrive by 10:30 PM (11:00 PM minus 30 minutes). Travel takes 45 minutes, so she must leave by 10:30 − 0:45 = 9:45 PM. Leaving before 9:45 PM satisfies this, entailing the hypothesis.",
+      "metadata": {
+        "register": "travel-planning",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "temporal backward-chaining for Indian rail travel"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_deix_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "demonstrative-deixis",
+        "anaphora"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Customer 25000 wala phone kharid raha hai.",
+          "premise": [
+            {
+              "speaker": "Salesman",
+              "utterance": "Yeh phone 15000 ka hai, iska camera bahut accha hai. Voh wala 25000 ka hai, uski battery life zyada hai."
+            },
+            {
+              "speaker": "Customer",
+              "utterance": "Mujhe accha camera chahiye, main yeh wala lunga."
+            }
+          ]
+        },
+        "devanagari": {
+          "hypothesis": "ग्राहक 25000 वाला फोन खरीद रहा है।",
+          "premise": [
+            {
+              "speaker": "सेल्समैन",
+              "utterance": "यह फोन 15000 का है, इसका कैमरा बहुत अच्छा है। वो वाला 25000 का है, उसकी बैटरी लाइफ ज़्यादा है।"
+            },
+            {
+              "speaker": "ग्राहक",
+              "utterance": "मुझे अच्छा कैमरा चाहिए, मैं यह वाला लूंगा।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "The customer is buying the 25000 rupee phone.",
+          "premise": [
+            {
+              "speaker": "Salesman",
+              "utterance": "This phone is 15000, its camera is very good. That one is 25000, it has longer battery life."
+            },
+            {
+              "speaker": "Customer",
+              "utterance": "I need a good camera, I'll take this one."
+            }
+          ]
+        }
+      },
+      "explanation": "The customer explicitly chooses 'yeh wala' (this one), which refers to the 15000 rupee phone with the good camera, contradicting the hypothesis that they bought the 25000 rupee phone.",
+      "metadata": {
+        "register": "commercial-transaction",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "demonstrative contrast in electronics shopping"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_deix_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "temporal-deixis",
+        "sequencing"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Anjali ne kaha, 'Pehle maine roti banayi, uske baad sabzi banayi, aur sabse aakhir mein chawal chadhaye.'",
+          "hypothesis": "Anjali ne sabse pehle chawal banaye."
+        },
+        "devanagari": {
+          "premise": "अंजलि ने कहा, 'पहले मैंने रोटी बनाई, उसके बाद सब्ज़ी बनाई, और सबसे आखिर में चावल चढ़ाए।'",
+          "hypothesis": "अंजलि ने सबसे पहले चावल बनाए।"
+        },
+        "english": {
+          "premise": "Anjali said, 'First I made roti, then I made the vegetable curry, and lastly I put the rice on to cook.'",
+          "hypothesis": "Anjali made rice first."
+        }
+      },
+      "explanation": "The premise explicitly states the order as roti → sabzi → rice, with rice being last, directly contradicting the hypothesis that rice was made first.",
+      "metadata": {
+        "register": "domestic-cooking",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "temporal sequencing markers 'pehle', 'uske baad', 'sabse aakhir mein'"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_deix_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "temporal-deixis",
+        "relative-time"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Aaj 3 June hai. Vikas ne kaha, 'Meri flight 8 din baad hai aur mujhe usse 3 din pehle visa lena hai.'",
+          "hypothesis": "Vikas ko 8 June tak visa mil jaana chahiye."
+        },
+        "devanagari": {
+          "premise": "आज 3 जून है। विकास ने कहा, 'मेरी फ्लाइट 8 दिन बाद है और मुझे उससे 3 दिन पहले वीज़ा लेना है।'",
+          "hypothesis": "विकास को 8 जून तक वीज़ा मिल जाना चाहिए।"
+        },
+        "english": {
+          "premise": "Today is June 3. Vikas said, 'My flight is in 8 days, and I need to get the visa 3 days before that.'",
+          "hypothesis": "Vikas should get his visa by June 8."
+        }
+      },
+      "explanation": "The flight is on June 3 + 8 = June 11. Getting the visa 3 days before that means by June 8, which matches the hypothesis exactly.",
+      "metadata": {
+        "register": "travel-planning",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "temporal calculation with dual offsets"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_deix_nli_010",
+      "type": "nli",
+      "phenomena": [
+        "person-deixis",
+        "pronoun-resolution"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Ravi ke bhai ke bachche bhi weekend par ghar aa rahe hain.",
+          "premise": [
+            {
+              "speaker": "Ravi",
+              "utterance": "Mera bhai aur uski wife dono is weekend aa rahe hain."
+            },
+            {
+              "speaker": "Sneha",
+              "utterance": "Achha, toh unke bachche nahi aa rahe?"
+            },
+            {
+              "speaker": "Ravi",
+              "utterance": "Nahi, voh dono akele aa rahe hain, bachche naani ke ghar hain."
+            }
+          ]
+        },
+        "devanagari": {
+          "hypothesis": "रवि के भाई के बच्चे भी वीकेंड पर घर आ रहे हैं।",
+          "premise": [
+            {
+              "speaker": "रवि",
+              "utterance": "मेरा भाई और उसकी वाइफ दोनों इस वीकेंड आ रहे हैं।"
+            },
+            {
+              "speaker": "स्नेहा",
+              "utterance": "अच्छा, तो उनके बच्चे नहीं आ रहे?"
+            },
+            {
+              "speaker": "रवि",
+              "utterance": "नहीं, वो दोनों अकेले आ रहे हैं, बच्चे नानी के घर हैं।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "Ravi's brother's children are also coming home for the weekend.",
+          "premise": [
+            {
+              "speaker": "Ravi",
+              "utterance": "My brother and his wife are both coming this weekend."
+            },
+            {
+              "speaker": "Sneha",
+              "utterance": "Oh, so their kids aren't coming?"
+            },
+            {
+              "speaker": "Ravi",
+              "utterance": "No, just the two of them are coming, the kids are at their grandmother's."
+            }
+          ]
+        }
+      },
+      "explanation": "Ravi explicitly clarifies that only 'voh dono' (the two of them) are coming, while the children remain at their grandmother's house, contradicting the hypothesis.",
+      "metadata": {
+        "register": "family-conversation",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "pronoun tracking across family members",
+          "naani ke ghar (maternal grandmother's house)"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_deix_nli_011",
+      "type": "nli",
+      "phenomena": [
+        "spatial-deixis",
+        "directional-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Guide ke mutabik pehle signal par turn lena zaroori hai.",
+          "premise": [
+            {
+              "speaker": "Guide",
+              "utterance": "Mandir yahan se seedha jaake, do signal paar karke, teesre signal par right lo. Mandir left haath par aayega."
+            },
+            {
+              "speaker": "Tourist",
+              "utterance": "Toh mujhe pehle signal par hi turn lena hoga?"
+            }
+          ]
+        },
+        "devanagari": {
+          "hypothesis": "गाइड के मुताबिक पहले सिग्नल पर टर्न लेना ज़रूरी है।",
+          "premise": [
+            {
+              "speaker": "गाइड",
+              "utterance": "मंदिर यहाँ से सीधे जाके, दो सिग्नल पार करके, तीसरे सिग्नल पर राइट लो। मंदिर लेफ्ट हाथ पर आएगा।"
+            },
+            {
+              "speaker": "Tourist",
+              "utterance": "तो मुझे पहले सिग्नल पर ही टर्न लेना होगा?"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "According to the guide, a turn is needed at the first signal.",
+          "premise": [
+            {
+              "speaker": "Guide",
+              "utterance": "Go straight from here, cross two signals, and take a right at the third signal. The temple will be on your left."
+            },
+            {
+              "speaker": "Tourist",
+              "utterance": "So do I need to turn at the first signal?"
+            }
+          ]
+        }
+      },
+      "explanation": "The guide specifies going straight through the first two signals and turning only at the third, directly contradicting the hypothesis that a turn is needed at the first signal.",
+      "metadata": {
+        "register": "navigation",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "landmark-based directions",
+          "temple visit"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_deix_nli_012",
+      "type": "nli",
+      "phenomena": [
+        "temporal-deixis",
+        "implicit-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Amit ki flight subah 6 baje hai. Airport ghar se 1 ghanta door hai. Unhe departure se kam se kam 2 ghante pehle airport pahunchna hai.",
+          "hypothesis": "Amit ko raat 3 baje se pehle ghar se nikal jaana chahiye."
+        },
+        "devanagari": {
+          "premise": "अमित की फ्लाइट सुबह 6 बजे है। एयरपोर्ट घर से 1 घंटा दूर है। उन्हें डिपार्चर से कम से कम 2 घंटे पहले एयरपोर्ट पहुँचना है।",
+          "hypothesis": "अमित को रात 3 बजे से पहले घर से निकल जाना चाहिए।"
+        },
+        "english": {
+          "premise": "Amit's flight is at 6 AM. The airport is 1 hour from home. He needs to reach the airport at least 2 hours before departure.",
+          "hypothesis": "Amit should leave home before 3 AM."
+        }
+      },
+      "explanation": "Amit must reach the airport by 4 AM (6 AM minus 2 hours). Since travel takes 1 hour, he must leave by 4 AM − 1 hour = 3 AM. Leaving before 3 AM satisfies this, entailing the hypothesis.",
+      "metadata": {
+        "register": "travel-planning",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "backward temporal chaining for early flight"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "hi_deix_nli_013",
+      "type": "nli",
+      "phenomena": [
+        "demonstrative-deixis",
+        "spatial-reference"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Client second floor wala flat dekhna chahta hai.",
+          "premise": [
+            {
+              "speaker": "Broker",
+              "utterance": "Yeh flat 2BHK hai, second floor par, aur voh wala 3BHK hai, fifth floor par."
+            },
+            {
+              "speaker": "Client",
+              "utterance": "Mujhe zyada space chahiye, main voh wala dekhna chahunga."
+            }
+          ]
+        },
+        "devanagari": {
+          "hypothesis": "क्लाइंट सेकंड फ्लोर वाला फ्लैट देखना चाहता है।",
+          "premise": [
+            {
+              "speaker": "ब्रोकर",
+              "utterance": "यह फ्लैट 2BHK है, सेकंड फ्लोर पर, और वो वाला 3BHK है, फिफ्थ फ्लोर पर।"
+            },
+            {
+              "speaker": "क्लाइंट",
+              "utterance": "मुझे ज़्यादा स्पेस चाहिए, मैं वो वाला देखना चाहूंगा।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "The client wants to see the flat on the second floor.",
+          "premise": [
+            {
+              "speaker": "Broker",
+              "utterance": "This flat is a 2BHK on the second floor, and that one is a 3BHK on the fifth floor."
+            },
+            {
+              "speaker": "Client",
+              "utterance": "I need more space, I'd like to see that one."
+            }
+          ]
+        }
+      },
+      "explanation": "The client selects 'voh wala' (that one), which refers to the 3BHK flat on the fifth floor, directly contradicting the hypothesis that they want the second-floor flat.",
+      "metadata": {
+        "register": "real-estate",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "demonstrative contrast in property viewing",
+          "BHK terminology"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "hi_deix_nli_014",
+      "type": "nli",
+      "phenomena": [
+        "person-deixis",
+        "honorific-register"
+      ],
+      "scripts": {
+        "latin": {
+          "hypothesis": "Madam ko khud manager se milne jaana padega.",
+          "premise": [
+            {
+              "speaker": "Clerk",
+              "utterance": "Madam, aapke documents complete hain. Manager sahab se sign lene ke baad file aage badhegi."
+            },
+            {
+              "speaker": "Madam",
+              "utterance": "Toh kya mujhe khud unse milna hoga?"
+            },
+            {
+              "speaker": "Clerk",
+              "utterance": "Nahi, main khud unke paas le jaunga, aap yahin wait kariye."
+            }
+          ]
+        },
+        "devanagari": {
+          "hypothesis": "मैडम को खुद मैनेजर से मिलने जाना पड़ेगा।",
+          "premise": [
+            {
+              "speaker": "क्लर्क",
+              "utterance": "मैडम, आपके डॉक्युमेंट्स कम्पलीट हैं। मैनेजर साहब से साइन लेने के बाद फाइल आगे बढ़ेगी।"
+            },
+            {
+              "speaker": "मैडम",
+              "utterance": "तो क्या मुझे खुद उनसे मिलना होगा?"
+            },
+            {
+              "speaker": "क्लर्क",
+              "utterance": "नहीं, मैं खुद उनके पास ले जाऊंगा, आप यहीं वेट कीजिए।"
+            }
+          ]
+        },
+        "english": {
+          "hypothesis": "Madam will need to go meet the manager herself.",
+          "premise": [
+            {
+              "speaker": "Clerk",
+              "utterance": "Madam, your documents are complete. Once the manager signs, the file will move forward."
+            },
+            {
+              "speaker": "Madam",
+              "utterance": "So do I need to meet him myself?"
+            },
+            {
+              "speaker": "Clerk",
+              "utterance": "No, I'll take it to him myself, please wait here."
+            }
+          ]
+        }
+      },
+      "explanation": "The clerk explicitly states he will take the file to the manager himself and asks Madam to wait, contradicting the hypothesis that she must meet the manager personally.",
+      "metadata": {
+        "register": "institutional-formal",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "honorific 'sahab'",
+          "office/bureaucratic interaction"
+        ]
+      },
+      "label": "contradiction"
+    }
+  ]
+}

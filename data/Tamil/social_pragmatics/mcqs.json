@@ -1,0 +1,471 @@
+{
+  "dataset": "Tamil Pragmatics - Social Pragmatics MCQ",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ta_social_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness",
+        "address-forms",
+        "honorifics"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Neenga veetukku varappo unga paatti thatha oru virunthaalikitta pesitu irukanga. Unga thatha ithu Saraswathi, unga paattioda thangachinu arimuga paduthuraanga.",
+          "question": "Neenga tamizhla epdi avungala mariyaathaya koopduvinga",
+          "options": [
+            "saraswathi",
+            "akka",
+            "paatti",
+            "aunty"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "paatti"
+          }
+        },
+        "tamil": {
+          "context": "நீங்கள் வீட்டுக்கு வரப்போ உங்க பாட்டி தாத்தா ஒரு விருந்தாளிக்கிட்ட பேசிட்டு இருக்காங்க. உங்க தாத்தா இது சரஸ்வதி, உங்கள் பாட்டியோட தங்கச்சின்னு அறிமுகப்படுத்துறாங்க.",
+          "question": "நீங்க தமிழில் எப்படி அவங்களை மரியாதையா கூப்பிடுவீங்க?",
+          "options": [
+            "சரஸ்வதி",
+            "அக்கா",
+            "பாட்டி",
+            "ஆன்டி"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "பாட்டி"
+          }
+        },
+        "english": {
+          "context": "You come home and see see a guest talking to your grandparents. Your grandparents introduce her as Saraswathi, your grandmother's sister.",
+          "question": "How should you address her politely in Tamil?",
+          "options": [
+            "Saraswathi",
+            "akka",
+            "Paatti(grandmother)",
+            "Aunty"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Paatti (grandmother)"
+          }
+        }
+      },
+      "explanation": "In Tamil social norms, addressing a guest who is your grandmother's sister as ‘Paatti’ signals respect and appropriate relational distance.",
+      "metadata": {
+        "register": "family/guests",
+        "cultural_markers": [
+          "Tamil honorific address forms",
+          "kinship-based politeness"
+        ]
+      }
+    },
+    {
+      "id": "ta_social_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "respectful-departure",
+        "gestural-politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Unga teacherah unga kalyanathukku invite panna avunga veetuku poittu, kelamba poringa.",
+          "question": "Porathukku munnadi enna pannuvinga?",
+          "options": [
+            "Kaal la vizhunthu aasirvadham vaanganum",
+            "Bye sollanum",
+            "Edhuvum panna theva illa",
+            "kai koduthuttu ponum"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Kaal la vizhunthu aasirvadham vaanganum"
+          }
+        },
+        "tamil": {
+          "context": "உங்க டீச்சர உங்க கல்யாணத்துக்கு இன்வைட் பண்ண அவங்க வீட்டுக்கு போயிட்டு, கிளம்பப் போறிங்க.",
+          "question": "போறதுக்கு முன்னாடி என்ன பண்ணுவீங்க?",
+          "options": [
+            "கால்ல விழுந்து ஆசிர்வாதம் வாங்கனும்",
+            "பை சொல்லனும்",
+            "எதுவும் பண்ண தேவையில்லை",
+            "கை கொடுத்துட்டு போனும்"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "கால்ல விழுந்து ஆசிர்வாதம் வாங்கனும்"
+          }
+        },
+        "english": {
+          "context": "You have invited your teacher to your wedding, and after visiting their home, you are about to leave.",
+          "question": "What will you do before leaving?",
+          "options": [
+            "Touching his feet seeking blessings",
+            "Say \"bye\" casually",
+            "Nothing special",
+            "Shake hands and leave"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Touching his feet as a sign of respect"
+          }
+        }
+      },
+      "explanation": "In Tamil culture, it is customary to show respect to elders and teachers by touching their feet and seeking blessings before departing, especially on significant occasions like weddings.",
+      "metadata": {
+        "register": "formal/wedding",
+        "cultural_markers": [
+          "Tamil gestural politeness",
+          "respect for elders and teachers"
+        ]
+      }
+    },
+    {
+      "id": "ta_social_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "indirect-refusal",
+        "face-saving"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Sumathi",
+              "utterance": "Kaaikari veetla perusa ethuvum illa, ippo kadaikku poi edhaachu vaangitu varingala"
+            },
+            {
+              "speaker": "Paari",
+              "utterance": "Aproma paathukalam, vela irukku"
+            }
+          ],
+          "question": "Paari \"Aproma paathukalam\" nu sonna artham enna?",
+          "options": [
+            "Kadaikku poi paakalam",
+            "Ippo poga venam",
+            "Ippo polaam",
+            "Konja nerathula polaam"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ippo poga venam"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "Sumathi",
+              "utterance": "காய்கறி வீட்ட்ல பெருசா எதுவும் இல்லை, இப்போ கடைக்கு போய் எதாச்சு வாங்கிட்டு வரிங்கலா?"
+            },
+            {
+              "speaker": "Paari",
+              "utterance": "அப்போமா பாதுக்கலாம், வேலை இருக்கு"
+            }
+          ],
+          "question": "பாரி \"அப்போமா பாதுக்கலாம்\" என்று சொன்னா அர்த்தம் என்ன?",
+          "options": [
+            "கடைக்கு போய் பார்க்கலாம்",
+            "இப்போ போக வேண்டாம்",
+            "இப்போ போலாம்",
+            "கொஞ்ச நேரத்துல போலாம்"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "இப்போ போக வேண்டாம்"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Sumathi",
+              "utterance": "There isn't much in the vegetable house, can you go to the shop and buy something now?"
+            },
+            {
+              "speaker": "Paari",
+              "utterance": "We can see later, I have work"
+            }
+          ],
+          "question": "What does Paari mean by saying \"We can see later\"?",
+          "options": [
+            "Go to the shop and see",
+            "Don't want to go now",
+            "We can go now",
+            "We can go after some time"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Don't want to go now"
+          }
+        }
+      },
+      "explanation": "Here, Paari uses a polite indirect refusal by saying \"We can see later,\" which implies that he does not want to go to the shop now due to having work. This is a common face-saving strategy in Tamil culture to avoid direct refusals within family contexts.",
+      "metadata": {
+        "register": "informal/family",
+        "cultural_markers": [
+          "Tamil indirect refusals",
+          "face-saving in family requests"
+        ]
+      }
+    },
+    {
+      "id": "ta_social_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "respectful-address",
+        "workplace-culture"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Officela unga cabin la vela paathuttu irukkappo, manager unga kitta pesanumnu varananga.",
+          "question": "Neenga enna panna koodathu?",
+          "options": [
+            "Ukkaara sollitu aproma pesanum",
+            "Neengalum enthiruchu ninnu pesanum",
+            "Mariayaathaya pesanum",
+            "Manager ninnu pesittu irukkapo neenga ukkanthutu mariyaathai illama pesalam"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 1,
+            "text": "Manager ninnu pesittu irukkapo neenga ukkanthutu mariyaathai illama pesalam"
+          }
+        },
+        "tamil": {
+          "context": "ஆபீஸ்ல உங்க கேபின்ல வேலை பார்த்துட்டு இருக்கப்போ, மேனேஜர் உங்க கிட்ட பேசணும்னு வராங்க.",
+          "question": "நீங்க என்ன பண்ண கூடாது?",
+          "options": [
+            "உக்கார சொல்லிட்டு அப்புறம் பேசணும்",
+            "நீங்களும் எந்திருச்சு நின்று பேசணும்",
+            "மரியாதையா பேசணும்",
+            "மேனேஜர் நின்று பேசிட்டு இருக்கப்போ நீங்க உக்கந்துட்டு மரியாதை இல்லாம பேசலாம்"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "மேனேஜர் நின்று பேசிட்டு இருக்கப்போ நீங்க உக்கந்துட்டு மரியாதை இல்லாம பேசலாம்"
+          }
+        },
+        "english": {
+          "context": "At work, when you are working in your cabin, the manager comes to talk to you.",
+          "question": "What should you not do?",
+          "options": [
+            "Ask him to sit and then talk",
+            "Stand up and talk",
+            "Talk respectfully",
+            "When the manager is standing and talking to you, you can sit down and talk without showing respect"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "When the manager is standing and talking to you, you can sit down and talk without showing respect"
+          }
+        }
+      },
+      "explanation": "In Tamil workplace culture, it is expected to show respect to superiors by standing when they approach and talk to you. Sitting down while the manager is standing can be seen as disrespectful, so the correct answer is that you should not sit down and talk without showing respect.",
+      "metadata": {
+        "register": "formal/workplace",
+        "cultural_markers": [
+          "Tamil workplace respect norms",
+          "expectation to stand when talking to superiors"
+        ]
+      }
+    },
+    {
+      "id": "ta_social_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "respectful-address",
+        "polite-departure"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Vaanathi",
+              "utterance": "Ungala paathu pesunathu manasukku romba niraivaa irukku, odamaba paathukkonga, na varen"
+            },
+            {
+              "speaker": "Sudhan",
+              "utterance": "Iru iru, na vaasal varaikkum varen"
+            }
+          ],
+          "question": "Sudhan edhukku vaasalukku ponum?",
+          "options": [
+            "Vaanathi varennu sonnadhaala",
+            "Vaanathiya vazhi anuppa",
+            "Vaanathikitta innum pesurathukku",
+            "Vaanathiya pogaatha nu solraaru"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Vaanathiya vazhi anuppa"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "வானதி",
+              "utterance": "உங்களை பார்த்து பேசுனது மனசுக்கு ரொம்ப நிறைவா இருக்கு, ஓடமா பாதுக்கொங்க, நான் வரேன்"
+            },
+            {
+              "speaker": "சுதன்",
+              "utterance": "இரு இரு, நான் வாசல் வரைக்கும் வரேன்"
+            }
+          ],
+          "question": "சுதன் எதுக்கு வாசலுக்கு போனும்?",
+          "options": [
+            "வானதி வரென்னு சொன்னதால",
+            "வானதிய வழி அனுப்ப",
+            "வானதிக்கிட்ட இன்னும் பேசுரதுக்கு",
+            "வானதியை போகாதா என்று சொல்றாரு"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "வானதிய வழி அனுப்ப"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Vaanathi",
+              "utterance": "It was fulfilling talking to you, take care of your health, I will come back"
+            },
+            {
+              "speaker": "Sudhan",
+              "utterance": "Wait wait, I will come till the gate"
+            }
+          ],
+          "question": "Why does Sudhan want to go to the gate?",
+          "options": [
+            "Because Vaanathi said she will come back",
+            "To send off Vaanathi",
+            "To continue talking to Vaanathi",
+            "He is asking Vaanathi not to go"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "To send off Vaanathi"
+          }
+        }
+      },
+      "explanation": "In this dialogue, Sudhan says he will come to the gate to see Vaanathi off. In Tamil social practice, accompanying someone to the gate is a common and respectful way to send them off.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "Tamil polite departure norms",
+          "seeing someone off to the gate"
+        ]
+      }
+    },
+    {
+      "id": "ta_social_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Arun",
+              "utterance": "Aarthi, enga irukka, inga ellarum vandhutaanga, unakkaaga dhan kaathuttu irukkom"
+            },
+            {
+              "speaker": "Aarthi",
+              "utterance": "Ayo sorry, kelamba neram aayiduchu, neenga aarambinga, na vandhuruven"
+            }
+          ],
+          "question": "Arun enna pannanum?",
+          "options": [
+            "Aarthi vara varaikkum wait pannanum",
+            "Aarthiya thittanum",
+            "Aarthiya vara venam nu sollanum",
+            "Aarthiya vittuttu aarambikka sollanum"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Aarthi vara varaikkum wait pannanum"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "அருண்",
+              "utterance": "ஆர்த்தி, எங்க இருக்க, இங்க எல்லாரும் வந்துட்டாங்க, உனக்காக தான் காத்துட்டிருக்கோம்"
+            },
+            {
+              "speaker": "ஆர்த்தி",
+              "utterance": "அய்யோ சோரி, கிளம்ப நேரம் ஆயிடுச்சு, நீங்க ஆரம்பிங்க, நான் வந்துருவேன்"
+            }
+          ],
+          "question": "அருண் என்ன பண்ணனும்?",
+          "options": [
+            "ஆர்த்தி வர வரைக்கும் வேட் பண்ணனும்",
+            "ஆர்த்தியை திட்டனும்",
+            "ஆர்த்தி வர வேணாம்னு சொல்லணும்",
+            "ஆர்த்தியை விட்டுட்டு ஆரம்பிக்க சொல்லணும்"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ஆர்த்தி வர வரைக்கும் வேட் பண்ணனும்"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Arun",
+              "utterance": "Aarthi, we are here, everyone has come, we are waiting for you"
+            },
+            {
+              "speaker": "Aarthi",
+              "utterance": "Oh sorry, it took time to leave, you all start, I will be there"
+            }
+          ],
+          "question": "What should Arun do?",
+          "options": [
+            "Wait for Aarthi to come",
+            "Scold Aarthi",
+            "Tell Aarthi not to come",
+            "Tell Aarthi to leave and start without her"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Wait for Aarthi to come"
+          }
+        }
+      },
+      "explanation": "In this dialogue, Arun is waiting for Aarthi to arrive before starting the event. Aarthi apologizes for being late and says that they can start without her. However, in Tamil social norms, it is polite to wait for the person who is late, especially if they are an important part of the event, rather than starting without them.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "Tamil norms of waiting for latecomers",
+          "politeness in social gatherings"
+        ]
+      }
+    }
+  ]
+}

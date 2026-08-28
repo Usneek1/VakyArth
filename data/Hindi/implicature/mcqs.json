@@ -1,0 +1,1023 @@
+{
+  "dataset": "Hindi Pragmatics - Implicature MCQ",
+  "version": "0.2",
+  "items": [
+    {
+      "id": "hi_imp_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "work-critique"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "पूर्वजा ने रिपोर्ट देखकर कहा, “वाह, सच में कमाल की मेहनत दिखाई है!”",
+          "question": "पूर्वजा का क्या मतलब है?",
+          "options": [
+            "रिपोर्ट बहुत अच्छी है",
+            "रिपोर्ट में बहुत गड़बड़ है",
+            "रिपोर्ट सामान्य है",
+            "पूर्वजा रिपोर्ट नहीं पढ़ी"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "रिपोर्ट में बहुत गड़बड़ है"
+          }
+        },
+        "latin": {
+          "context": "Poorvaja ne report dekhkar kaha, 'wah, sach mein kamaal ki mehnat dikhai hai!'",
+          "question": "Poorvaja ka kya matlab hai?",
+          "options": [
+            "Report bahut acchi hai",
+            "Report mein bahut gadbad hai",
+            "Report normal hai",
+            "Poorvaja report nahi padhi"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Report mein bahut gadbad hai"
+          }
+        },
+        "english": {
+          "context": "Poorvaja saw the report and said, 'Wow, truly incredible effort!'",
+          "question": "What does Poorvaja mean?",
+          "options": [
+            "The report is very good",
+            "The report is very messy",
+            "The report is average",
+            "Poorvaja didn’t read the report"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The report is very messy"
+          }
+        },
+        "explanation": "Sarcastic praise implies the report is poorly done.",
+        "metadata": {
+          "register": "colleague/student",
+          "cultural_markers": [
+            "sarcastic praise to critique quality of work"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hi_imp_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "politeness",
+        "indirect-criticism"
+      ],
+      "scripts": {
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "मुझे लगता है तुम्हारा प्रेजेंटेशन अच्छा नहीं है।"
+            },
+            {
+              "speaker": "B",
+              "utterance": "शायद पहले अपनी प्रेजेंटेशन ठीक से पढ़ लेना चाहिए।"
+            }
+          ],
+          "question": "बी का क्या मतलब है?",
+          "options": [
+            "A का प्रेजेंटेशन ठीक है",
+            "B, A से कह रहा है कि किसी ने तुम्हारी राय नहीं मांगी और तुम गलत हो।",
+            "B ने A की मदद की",
+            "B ने विषय बदल दिया"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B, A से कह रहा है कि किसी ने तुम्हारी राय नहीं मांगी और तुम गलत हो।"
+          }
+        },
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Mujhe lagta hai tumhara presentation accha nahi hai."
+            },
+            {
+              "speaker": "B",
+              "utterance": "Shayad pehle apni presentation theek se padh lena chahiye."
+            }
+          ],
+          "question": "B ka kya matlab hai?",
+          "options": [
+            "A ka presentation theek hai",
+            "B, A se keh raha hai ki kisi ne tumhari rai nahi maangi aur tum galat ho",
+            "B ne A ki madad ki",
+            "B ne vishay badal diya"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B, A se keh raha hai ki kisi ne tumhari rai nahi maangi aur tum galat ho"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "I think your presentation isn’t very good."
+            },
+            {
+              "speaker": "B",
+              "utterance": "Maybe you should review yours first."
+            }
+          ],
+          "question": "What does B mean?",
+          "options": [
+            "A’s presentation is fine",
+            "B is criticizing A",
+            "B helped A",
+            "B changed the topic"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B is criticizing A"
+          }
+        },
+        "explanation": "B uses indirect speech to criticize A.",
+        "metadata": {
+          "register": "classroom/professional",
+          "cultural_markers": [
+            "indirect criticism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hi_imp_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "overstatement"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "मोनिका ने कहा, “वाह, पर्व तो आज बहुत जल्दी आया—बस एक घंटा लेट!”",
+          "question": "मोनिका का क्या मतलब है?",
+          "options": [
+            "पर्व समय पर आया",
+            "पर्व बहुत जल्दी आया",
+            "पर्व देर से आया",
+            "मोनिका पर्व की तारीफ़ कर रही है"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "पर्व देर से आया"
+          }
+        },
+        "latin": {
+          "context": "Monika ne kaha, 'wah, Parv to aaj bahut jaldi aaya—bas ek ghanta late!'",
+          "question": "Monika ka kya matlab hai?",
+          "options": [
+            "Parv samay par aaya",
+            "Parv bahut jaldi aaya",
+            "Parv der se aaya",
+            "Monika Parv ki tarif kar rahi hai"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Parv der se aaya"
+          }
+        },
+        "english": {
+          "context": "Monika said, 'Wow, Parv came so early today—only an hour late!'",
+          "question": "What does Monika mean?",
+          "options": [
+            "Parv came on time",
+            "Parv came early",
+            "Parv came late",
+            "Monika is praising Parv"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Parv came late"
+          }
+        }
+      },
+      "explanation": "Monika’s exaggerated statement is sarcastic; she means Parv is late, not early.",
+      "metadata": {
+        "register": "friends/casual",
+        "cultural_markers": [
+          "sarcastic praise for habitual lateness"
+        ]
+      }
+    },
+    {
+      "id": "hi_imp_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "indirect-refusal",
+        "politeness-implicature",
+        "social-obligation"
+      ],
+      "scripts": {
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "क्या तुम इस रविवार को मेरे घर डिनर पर आओगे?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "काश आ पाता, लेकिन उस दिन घर में मेहमान आ रहे हैं।"
+            }
+          ],
+          "question": "बी का क्या मतलब है?",
+          "options": [
+            "B डिनर पर आएगा",
+            "B डिनर पर नहीं आएगा",
+            "B को डिनर पसंद नहीं है",
+            "B को A का घर पसंद नहीं है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B डिनर पर नहीं आएगा"
+          }
+        },
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Kya tum is ravivaar ko mere ghar dinner par aaoge?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Kaash aa pata, lekin us din ghar mein mehmaan aa rahe hain."
+            }
+          ],
+          "question": "B ka kya matlab hai?",
+          "options": [
+            "B dinner par aayega",
+            "B dinner par nahi aayega",
+            "B ko dinner pasand nahi hai",
+            "B ko A ka ghar pasand nahi hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B dinner par nahi aayega"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Will you come to my house for dinner this Sunday?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "I wish I could, but we’re having guests at home that day."
+            }
+          ],
+          "question": "What does B mean?",
+          "options": [
+            "B will come to dinner",
+            "B will not come to dinner",
+            "B dislikes dinner",
+            "B dislikes A’s house"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B will not come to dinner"
+          }
+        },
+        "explanation": "B uses a polite indirect refusal. 'I wish I could' plus giving a reason implies declining the invitation.",
+        "metadata": {
+          "register": "social/formal",
+          "cultural_markers": [
+            "polite refusal strategy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hi_imp_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "scalar-implicature",
+        "quantity-maxim",
+        "partial-commitment"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "आदित्य ने कहा, “मैंने फिल्म का थोड़ा सा हिस्सा देखा है।”",
+          "question": "आदित्य का क्या मतलब है?",
+          "options": [
+            "उसने पूरी फिल्म देख ली है",
+            "उसने फिल्म का कुछ हिस्सा देखा है लेकिन पूरी नहीं",
+            "उसने फिल्म बिल्कुल नहीं देखी",
+            "उसे फिल्म बहुत पसंद आई"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "उसने फिल्म का कुछ हिस्सा देखा है लेकिन पूरी नहीं"
+          }
+        },
+        "latin": {
+          "context": "Aditya ne kaha, 'Maine film ka thoda sa hissa dekha hai.'",
+          "question": "Aditya ka kya matlab hai?",
+          "options": [
+            "Usne poori film dekh li hai",
+            "Usne film ka kuch hissa dekha hai lekin poori nahi",
+            "Usne film bilkul nahi dekhi",
+            "Use film bahut pasand aayi"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Usne film ka kuch hissa dekha hai lekin poori nahi"
+          }
+        },
+        "english": {
+          "context": "Aditya said, 'I’ve watched a little bit of the movie.'",
+          "question": "What does Aditya mean?",
+          "options": [
+            "He has watched the entire movie",
+            "He has watched part of the movie but not all",
+            "He has not watched the movie at all",
+            "He loved the movie"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He has watched part of the movie but not all"
+          }
+        },
+        "explanation": "The scalar term 'a little bit' (थोड़ा सा) implicates 'not the whole movie' under the quantity maxim.",
+        "metadata": {
+          "register": "casual",
+          "cultural_markers": [
+            "scalar implicature"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hi_imp_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "cultural-idiom",
+        "metaphor",
+        "emotion-implicature"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "इंटरव्यू के बाद सीमा ने कहा, “आज तो मेरी तो जान ही निकल गई।”",
+          "question": "सीमा का क्या मतलब है?",
+          "options": [
+            "सीमा की सच में मृत्यु हो गई",
+            "इंटरव्यू बहुत आसान था",
+            "इंटरव्यू बहुत तनावपूर्ण था",
+            "सीमा इंटरव्यू में नहीं गई"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "इंटरव्यू बहुत तनावपूर्ण था"
+          }
+        },
+        "latin": {
+          "context": "Interview ke baad Seema ne kaha, 'Aaj to meri to jaan hi nikal gayi.'",
+          "question": "Seema ka kya matlab hai?",
+          "options": [
+            "Seema ki sach mein mrityu ho gayi",
+            "Interview bahut aasaan tha",
+            "Interview bahut tanavpurn tha",
+            "Seema interview mein nahi gayi"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Interview bahut tanavpurn tha"
+          }
+        },
+        "english": {
+          "context": "After the interview, Seema said, 'My life almost left me today.'",
+          "question": "What does Seema mean?",
+          "options": [
+            "Seema literally died",
+            "The interview was very easy",
+            "The interview was extremely stressful",
+            "Seema did not attend the interview"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "The interview was extremely stressful"
+          }
+        },
+        "explanation": "'Jaan nikal jana' (जान निकल जाना) is a Hindi idiom expressing extreme stress or fear, not literal death.",
+        "metadata": {
+          "register": "casual/personal",
+          "cultural_markers": [
+            "idiomatic exaggeration for stress"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hi_imp_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "punctuality-critique"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "बॉस ने मीटिंग में 40 मिनट लेट पहुंचे कर्मचारी से कहा, “वाह, आज तो बहुत जल्दी आ गए आप!”",
+          "question": "बॉस का क्या मतलब है?",
+          "options": [
+            "कर्मचारी समय पर आया",
+            "कर्मचारी बहुत लेट आया",
+            "बॉस कर्मचारी की तारीफ़ कर रहे हैं",
+            "बॉस को समय की जानकारी नहीं है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "कर्मचारी बहुत लेट आया"
+          }
+        },
+        "latin": {
+          "context": "Boss ne meeting mein 40 minute late pahunche employee se kaha, 'Wah, aaj to bahut jaldi aa gaye aap!'",
+          "question": "Boss ka kya matlab hai?",
+          "options": [
+            "Employee samay par aaya",
+            "Employee bahut late aaya",
+            "Boss employee ki tarif kar rahe hain",
+            "Boss ko samay ki jaankari nahi hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Employee bahut late aaya"
+          }
+        },
+        "english": {
+          "context": "The boss said to an employee who arrived 40 minutes late to the meeting, 'Wow, you came so early today!'",
+          "question": "What does the boss mean?",
+          "options": [
+            "The employee arrived on time",
+            "The employee arrived very late",
+            "The boss is genuinely complimenting the employee",
+            "The boss doesn't know the actual time"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The employee arrived very late"
+          }
+        }
+      },
+      "explanation": "Sarcastic praise about arriving 'early' implicates the opposite the employee was actually very late.",
+      "metadata": {
+        "register": "workplace/formal",
+        "cultural_markers": [
+          "sarcastic praise to critique punctuality"
+        ]
+      }
+    },
+    {
+      "id": "hi_imp_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "indirect-refusal",
+        "politeness-implicature",
+        "social-obligation"
+      ],
+      "scripts": {
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "क्या तुम मुझे 5000 रुपये उधार दे सकते हो?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "यार, इस महीने मेरा खुद का बजट बहुत टाइट चल रहा है।"
+            }
+          ],
+          "question": "बी का क्या मतलब है?",
+          "options": [
+            "B पैसे देगा",
+            "B पैसे नहीं दे पाएगा",
+            "B को पैसों की जानकारी नहीं है",
+            "B, A से नाराज़ है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B पैसे नहीं दे पाएगा"
+          }
+        },
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Kya tum mujhe 5000 rupaye udhaar de sakte ho?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Yaar, is mahine mera khud ka budget bahut tight chal raha hai."
+            }
+          ],
+          "question": "B ka kya matlab hai?",
+          "options": [
+            "B paise dega",
+            "B paise nahi de payega",
+            "B ko paison ki jaankari nahi hai",
+            "B, A se naraaz hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B paise nahi de payega"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Can you lend me 5000 rupees?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Dude, my own budget is really tight this month."
+            }
+          ],
+          "question": "What does B mean?",
+          "options": [
+            "B will lend the money",
+            "B will not be able to lend the money",
+            "B doesn't know about money",
+            "B is angry at A"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B will not be able to lend the money"
+          }
+        }
+      },
+      "explanation": "By citing his own tight budget instead of a direct 'no', B indirectly declines A's request for a loan.",
+      "metadata": {
+        "register": "friends/casual",
+        "cultural_markers": [
+          "polite refusal via financial excuse"
+        ]
+      }
+    },
+    {
+      "id": "hi_imp_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "scalar-implicature",
+        "quantity-maxim",
+        "partial-commitment"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "टीचर ने पूछा कि कितने छात्रों ने होमवर्क किया है। मॉनिटर ने कहा, “कुछ छात्रों ने होमवर्क किया है।”",
+          "question": "मॉनिटर का क्या मतलब है?",
+          "options": [
+            "सभी छात्रों ने होमवर्क किया है",
+            "कुछ छात्रों ने किया है, सभी ने नहीं",
+            "किसी ने भी होमवर्क नहीं किया",
+            "मॉनिटर को जानकारी नहीं है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "कुछ छात्रों ने किया है, सभी ने नहीं"
+          }
+        },
+        "latin": {
+          "context": "Teacher ne poocha ki kitne students ne homework kiya hai. Monitor ne kaha, 'Kuchh students ne homework kiya hai.'",
+          "question": "Monitor ka kya matlab hai?",
+          "options": [
+            "Sabhi students ne homework kiya hai",
+            "Kuchh students ne kiya hai, sabhi ne nahi",
+            "Kisi ne bhi homework nahi kiya",
+            "Monitor ko jaankari nahi hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Kuchh students ne kiya hai, sabhi ne nahi"
+          }
+        },
+        "english": {
+          "context": "The teacher asked how many students had done their homework. The class monitor said, 'Some students have done the homework.'",
+          "question": "What does the monitor mean?",
+          "options": [
+            "All students have done the homework",
+            "Some students have done it, but not all",
+            "No one has done the homework",
+            "The monitor doesn't know"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Some students have done it, but not all"
+          }
+        }
+      },
+      "explanation": "The scalar term 'kuchh' (some) implicates 'not all' under the quantity maxim if all students had done it, the monitor would have said 'sabhi' (all).",
+      "metadata": {
+        "register": "classroom",
+        "cultural_markers": [
+          "scalar implicature in classroom reporting"
+        ]
+      }
+    },
+    {
+      "id": "hi_imp_mcq_010",
+      "type": "mcq",
+      "phenomena": [
+        "cultural-idiom",
+        "metaphor",
+        "emotion-implicature"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "रिज़ल्ट देखकर अर्जुन ने कहा, “आज तो मेरे पैरों तले ज़मीन खिसक गई।”",
+          "question": "अर्जुन का क्या मतलब है?",
+          "options": [
+            "अर्जुन सच में गिर गया",
+            "अर्जुन को बहुत झटका और सदमा लगा",
+            "अर्जुन बहुत खुश है",
+            "अर्जुन को रिज़ल्ट की परवाह नहीं है"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "अर्जुन को बहुत झटका और सदमा लगा"
+          }
+        },
+        "latin": {
+          "context": "Result dekhkar Arjun ne kaha, 'Aaj to mere pairon tale zameen khisak gayi.'",
+          "question": "Arjun ka kya matlab hai?",
+          "options": [
+            "Arjun sach mein gir gaya",
+            "Arjun ko bahut jhatka aur sadma laga",
+            "Arjun bahut khush hai",
+            "Arjun ko result ki parwaah nahi hai"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Arjun ko bahut jhatka aur sadma laga"
+          }
+        },
+        "english": {
+          "context": "After seeing his result, Arjun said, 'Today the ground slipped out from under my feet.'",
+          "question": "What does Arjun mean?",
+          "options": [
+            "Arjun literally fell down",
+            "Arjun was deeply shocked and shaken",
+            "Arjun is very happy",
+            "Arjun doesn't care about the result"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Arjun was deeply shocked and shaken"
+          }
+        }
+      },
+      "explanation": "'Pairon tale zameen khisakna' (ground slipping from under one's feet) is a Hindi idiom for sudden, overwhelming shock, not a literal physical event.",
+      "metadata": {
+        "register": "casual/personal",
+        "cultural_markers": [
+          "idiomatic exaggeration for shock"
+        ]
+      }
+    },
+    {
+      "id": "hi_imp_mcq_011",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "sarcasm",
+        "traffic-critique"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "दो घंटे ट्रैफिक में फंसे रहने के बाद प्रिया ने कहा, “वाह, आज तो सफर बहुत तेज़ रहा!”",
+          "question": "प्रिया का क्या मतलब है?",
+          "options": [
+            "सफर में बहुत ज़्यादा समय लगा",
+            "सफर बहुत जल्दी खत्म हुआ",
+            "प्रिया को ट्रैफिक पसंद है",
+            "प्रिया आज सफर पर नहीं गई"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "सफर में बहुत ज़्यादा समय लगा"
+          }
+        },
+        "latin": {
+          "context": "Do ghante traffic mein phanse rehne ke baad Priya ne kaha, 'Wah, aaj to safar bahut tez raha!'",
+          "question": "Priya ka kya matlab hai?",
+          "options": [
+            "Safar mein bahut zyada samay laga",
+            "Safar bahut jaldi khatam hua",
+            "Priya ko traffic pasand hai",
+            "Priya aaj safar par nahi gayi"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Safar mein bahut zyada samay laga"
+          }
+        },
+        "english": {
+          "context": "After being stuck in traffic for two hours, Priya said, 'Wow, that was such a quick trip today!'",
+          "question": "What does Priya mean?",
+          "options": [
+            "The trip took a very long time",
+            "The trip ended very quickly",
+            "Priya likes traffic",
+            "Priya didn't travel today"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "The trip took a very long time"
+          }
+        }
+      },
+      "explanation": "Priya's sarcastic remark about the trip being 'quick' communicates the opposite it took an unusually long time due to traffic.",
+      "metadata": {
+        "register": "casual/commute",
+        "cultural_markers": [
+          "sarcasm about traffic delays"
+        ]
+      }
+    },
+    {
+      "id": "hi_imp_mcq_012",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "politeness",
+        "indirect-criticism"
+      ],
+      "scripts": {
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "मेरा नया गाना कैसा लगा तुम्हें?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "तुम्हारी आवाज़ में बहुत मेहनत झलकती है।"
+            }
+          ],
+          "question": "बी का क्या मतलब है?",
+          "options": [
+            "गाना उतना अच्छा नहीं है, बी सीधे नहीं कह रहा",
+            "गाना बहुत अच्छा है",
+            "बी को गाना पसंद है",
+            "बी गाना सुनना नहीं चाहता"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "गाना उतना अच्छा नहीं है, बी सीधे नहीं कह रहा"
+          }
+        },
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Mera naya gaana kaisa laga tumhe?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Tumhari awaaz mein bahut mehnat jhalakti hai."
+            }
+          ],
+          "question": "B ka kya matlab hai?",
+          "options": [
+            "Gaana utna accha nahi hai, B seedhe nahi keh raha",
+            "Gaana bahut accha hai",
+            "B ko gaana pasand hai",
+            "B gaana sunna nahi chahta"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Gaana utna accha nahi hai, B seedhe nahi keh raha"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "How did you like my new song?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "You can really hear the effort you put into it."
+            }
+          ],
+          "question": "What does B mean?",
+          "options": [
+            "The song isn't that good, but B isn't saying so directly",
+            "The song is very good",
+            "B likes the song",
+            "B doesn't want to listen to the song"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "The song isn't that good, but B isn't saying so directly"
+          }
+        }
+      },
+      "explanation": "By praising the 'effort' rather than the quality of the song, B avoids directly criticizing it while still implying it wasn't good a classic politeness-driven indirect evaluation.",
+      "metadata": {
+        "register": "friends/casual",
+        "cultural_markers": [
+          "praising effort to soften criticism"
+        ]
+      }
+    },
+    {
+      "id": "hi_imp_mcq_013",
+      "type": "mcq",
+      "phenomena": [
+        "indirect-refusal",
+        "politeness-implicature",
+        "social-obligation"
+      ],
+      "scripts": {
+        "devanagari": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "क्या तुम इस वीकेंड मेरे साथ शॉपिंग चलोगी?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "इस वीकेंड मुझे बहुत सारा काम निपटाना है, देखते हैं।"
+            }
+          ],
+          "question": "बी का क्या मतलब है?",
+          "options": [
+            "B ज़रूर शॉपिंग पर जाएगी",
+            "B के जाने की संभावना कम है",
+            "B को शॉपिंग पसंद नहीं है",
+            "B ने साफ मना कर दिया"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B के जाने की संभावना कम है"
+          }
+        },
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Kya tum is weekend mere saath shopping chalogi?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "Is weekend mujhe bahut saara kaam nipatana hai, dekhte hain."
+            }
+          ],
+          "question": "B ka kya matlab hai?",
+          "options": [
+            "B zaroor shopping par jaayegi",
+            "B ke jaane ki sambhavna kam hai",
+            "B ko shopping pasand nahi hai",
+            "B ne saaf mana kar diya"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "B ke jaane ki sambhavna kam hai"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "A",
+              "utterance": "Will you come shopping with me this weekend?"
+            },
+            {
+              "speaker": "B",
+              "utterance": "I have a lot of work to finish this weekend, we'll see."
+            }
+          ],
+          "question": "What does B mean?",
+          "options": [
+            "B will definitely go shopping",
+            "It's unlikely B will go",
+            "B dislikes shopping",
+            "B has flatly refused"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "It's unlikely B will go"
+          }
+        }
+      },
+      "explanation": "'Dekhte hain' (we'll see) combined with citing pending work is a softened, non-committal way of signaling a likely 'no' without an outright refusal.",
+      "metadata": {
+        "register": "friends/casual",
+        "cultural_markers": [
+          "hedged non-commitment as implied refusal"
+        ]
+      }
+    },
+    {
+      "id": "hi_imp_mcq_014",
+      "type": "mcq",
+      "phenomena": [
+        "scalar-implicature",
+        "quantity-maxim",
+        "partial-commitment"
+      ],
+      "scripts": {
+        "devanagari": {
+          "context": "मैनेजर ने पूछा कि प्रोजेक्ट कितना पूरा हुआ है। टीम लीड ने कहा, “ज़्यादातर काम हो गया है।”",
+          "question": "टीम लीड का क्या मतलब है?",
+          "options": [
+            "प्रोजेक्ट पूरी तरह खत्म हो गया है",
+            "प्रोजेक्ट पर काम शुरू ही नहीं हुआ",
+            "प्रोजेक्ट का काफी हिस्सा हो गया है, पर पूरा नहीं",
+            "टीम लीड को स्टेटस नहीं पता"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "प्रोजेक्ट का काफी हिस्सा हो गया है, पर पूरा नहीं"
+          }
+        },
+        "latin": {
+          "context": "Manager ne poocha ki project kitna poora hua hai. Team lead ne kaha, 'Zyaadatar kaam ho gaya hai.'",
+          "question": "Team lead ka kya matlab hai?",
+          "options": [
+            "Project poori tarah khatam ho gaya hai",
+            "Project par kaam shuru hi nahi hua",
+            "Project ka kaafi hissa ho gaya hai, par poora nahi",
+            "Team lead ko status nahi pata"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Project ka kaafi hissa ho gaya hai, par poora nahi"
+          }
+        },
+        "english": {
+          "context": "The manager asked how much of the project was complete. The team lead said, 'Most of the work is done.'",
+          "question": "What does the team lead mean?",
+          "options": [
+            "The project is entirely finished",
+            "Work on the project hasn't started",
+            "A large portion is done, but not all of it",
+            "The team lead doesn't know the status"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "A large portion is done, but not all of it"
+          }
+        }
+      },
+      "explanation": "'Zyaadatar' (most) is weaker than 'poora' (all) on the quantity scale; using it implicates that the project is not fully complete.",
+      "metadata": {
+        "register": "workplace/formal",
+        "cultural_markers": [
+          "scalar implicature in project status updates"
+        ]
+      }
+    }
+  ]
+}

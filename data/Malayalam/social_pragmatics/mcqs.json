@@ -1,0 +1,610 @@
+{
+  "dataset": "Malayalam Social Pragmatics - MCQs",
+  "version": "0.1",
+  "items": [
+    {
+      "id": "ma_sop_mcq_001",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness",
+        "address-forms",
+        "honorifics"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Nee ninte suhruthinu veettil poyappol avante valiya sahodhari 'Anjana'ye kandu.",
+          "question": "Anjana ne nee engane polite aayi vilikkum?",
+          "options": [
+            "Anjana",
+            "Anjana chechi",
+            "Chechi",
+            "Aunty"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Anjana chechi"
+          }
+        },
+        "malayalam": {
+          "context": "നീ നിന്റെ സുഹൃത്തിന്റെ വീട്ടിൽ പോയപ്പോൾ അവന്റെ വലിയ സഹോദരി ‘അഞ്ജന’യെ കണ്ടു.",
+          "question": "അഞ്ജനയെ നീ എങ്ങനെ വിനയത്തോടെ വിളിക്കും?",
+          "options": [
+            "അഞ്ജന",
+            "അഞ്ജന ചേച്ചി",
+            "ചേച്ചി",
+            "ആന്റി"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "അഞ്ജന ചേച്ചി"
+          }
+        },
+        "english": {
+          "context": "You visit your friend’s home and meet his older sister Anjana.",
+          "question": "How should you politely address her in Malayalam?",
+          "options": [
+            "Anjana",
+            "Anjana chechi (older sister Anjana)",
+            "Chechi (older sister)",
+            "Aunty"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Anjana chechi (older sister Anjana)"
+          }
+        }
+      },
+      "explanation": "In Malayalam social norms, addressing a friend’s older sister as ‘Anjana chechi’ shows respect while maintaining an appropriate familial politeness level.",
+      "metadata": {
+        "register": "family/friend",
+        "cultural_markers": [
+          "Malayali kinship-based address terms"
+        ]
+      }
+    },
+    {
+      "id": "ma_sop_mcq_002",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness",
+        "respect-for-elders"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ningal oru KSRTC basil irikkumbol, bus stop-il ninn oru vrudha kayari. Avarkku seat kittunnillenn thonnunnu.",
+          "question": "Itharam saahacharyathil ningal enthananu cheyyendath?",
+          "options": [
+            "Avare avaganikkuka",
+            "Conductor-ode avarkku seat kodukkan parayu",
+            "Avarkku ningalude seat kodukku",
+            "Music kettu thudaruka"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Avarkku ningalude seat kodukku"
+          }
+        },
+        "malayalam": {
+          "context": "നിങ്ങൾ ഒരു കെ.എസ്.ആർ.ടി.സി ബസിൽ ഇരിക്കുമ്പോൾ, ബസ് സ്റ്റോപ്പിൽ നിന്ന് ഒരു വൃദ്ധ കയറി. അവർക്ക് സീറ്റ് കിട്ടുന്നില്ലെന്ന് തോന്നുന്നു.",
+          "question": "ഇത്തരം സാഹചര്യത്തിൽ നിങ്ങൾ എന്താണ് ചെയ്യേണ്ടത്?",
+          "options": [
+            "അവരെ അവഗണിക്കുക",
+            "കണ്ടക്ടറോട് അവർക്ക് സീറ്റ് കൊടുക്കാൻ പറയൂ.",
+            "അവർക്ക് നിങ്ങളുടെ സീറ്റ് കൊടുക്കൂ.",
+            "മ്യൂസിക് കേട്ട് തുടരുക"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "അവർക്ക് നിങ്ങളുടെ സീറ്റ് കൊടുക്കൂ."
+          }
+        },
+        "english": {
+          "context": "You are sitting in a KSRTC bus when an elderly woman boards at a stop. It seems she is unable to find a seat.",
+          "question": "In such a situation, what should you do?",
+          "options": [
+            "Ignore her",
+            "Ask the conductor to give her a seat",
+            "Give her your seat",
+            "Continue listening to music"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Give her your seat"
+          }
+        }
+      },
+      "explanation": "In Malayali social norms, offering your seat to an elderly person in a bus is considered respectful and polite behavior.",
+      "metadata": {
+        "register": "public-transport",
+        "cultural_markers": [
+          "respect for elders",
+          "KSRTC bus etiquette"
+        ]
+      }
+    },
+    {
+      "id": "ma_sop_mcq_003",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "politeness",
+        "respect-for-elders"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Ningalude veedinu purath nilkkumbol, ningalude ayalvaasiyaya ammayavan ningalodu chodikunnu: “Nee degree poorthiyaakkiyille? Joli kittiyo makane?”",
+          "question": "Itharam saahacharyathil ningal ethu pravarthanam aanu vinayathode cheyyendath?",
+          "options": [
+            "Oru vinayamulla cheriya marupadi nalkuka",
+            "Avare poornamaayi avaganikkuka",
+            "Aashankayode avarkku utharam nalkuka.",
+            "Vishayam maatti mattoronn samsarikkuka"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Oru vinayamulla cheriya marupadi nalkuka"
+          }
+        },
+        "malayalam": {
+          "context": "നിങ്ങളുടെ വീടിനു പുറത്ത് നിൽക്കുമ്പോൾ, നിങ്ങളുടെ അയൽവാസിയായ അമ്മാവൻ നിങ്ങളോട് ചോദിക്കുന്നു: \"നീ ഡിഗ്രി പൂർത്തിയാക്കിയില്ലേ? ജോലി കിട്ടിയോ മകനേ?\"",
+          "question": "ഇത്തരം സാഹചര്യത്തിൽ നിങ്ങൾ എന്താണ് ചെയ്യേണ്ടത്?",
+          "options": [
+            "ഒരു വിനയമുള്ള ചെറിയ മറുപടി നൽകുക",
+            "അവരെ പൂർണ്ണമായി അവഗണിക്കുക",
+            "ആശങ്കയോടെ അവർക്ക് ഉത്തരം നൽകുക",
+            "വിഷയം മാറ്റി മറ്റൊന്ന് സംസാരിക്കുക"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "ഒരു വിനയമുള്ള ചെറിയ മറുപടി നൽകുക"
+          }
+        },
+        "english": {
+          "context": "While standing outside your home, your neighbour uncle asks you: “You finished your degree, right? Did you get a job, son?”",
+          "question": "In such a situation, what should you do?",
+          "options": [
+            "Give a polite, brief reply",
+            "Completely ignore him",
+            "Respond in an irritated tone",
+            "Change the topic and talk about something else"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Give a polite, brief reply"
+          }
+        }
+      },
+      "explanation": "In Malayali social norms, when elders or neighbours ask personal questions, the expected response is to reply politely and briefly, even if the question feels intrusive.",
+      "metadata": {
+        "register": "neighbourhood-interaction",
+        "cultural_markers": [
+          "Malayali politeness norms",
+          "respect for elders",
+          "common neighbour questions"
+        ]
+      }
+    },
+    {
+      "id": "ma_sop_mcq_004",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "indirect-warning",
+        "gendered-safety-norms",
+        "community-concern"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Rathriyil valare neram kazhinju. Oru yuvathi bus stop-il thanichu nilkkunnu. Avide kadannu pokunna oru prayamulla sthri avalodu parayunnu: “Ee nerath ingane thanichu nilkkenda kaalam kettathaanu… kollarruthathavar ellayidathum undu.”",
+          "question": "Ithil prayamulla sthri enthaanu uddeshikkunnath?",
+          "options": [
+            "Yuvathi thettayi pravarthikkunnu ennu kuttappetuttunnu",
+            "Rathriyile suraksha kuravinekurichu oru munnariyipp nalkunnu",
+            "Avale veettil pokaruthennu vilakkunnu",
+            "Avalude svathanthryam parihasikkunnu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Rathriyile suraksha kuravinekurichu oru munnariyipp nalkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "രാത്രിയിൽ വളരെ നേരം കഴിഞ്ഞു. ഒരു യുവതി ബസ് സ്റ്റോപ്പിൽ തനിച്ച് നിൽക്കുന്നു. അവിടെ കടന്നുപോകുന്ന ഒരു പ്രായമുള്ള സ്ത്രീ അവളോട് പറയുന്നു: “ഈ നേരത്ത് ഇങ്ങനെ തനിച്ച് നിൽക്കേണ്ട കാലംകെട്ട കാലമാണ്… കൊള്ളരുതാത്തവന്മാർ എല്ലായിടത്തും ഉണ്ടു.”",
+          "question": "ഇവിടെ പ്രായമുള്ള സ്ത്രീയുടെ ഉദ്ദേശം എന്താണ്?",
+          "options": [
+            "യുവതി തെറ്റായി പെരുമാറുന്നു എന്ന് കുറ്റപ്പെടുത്തുക",
+            "രാത്രിയിലെ സുരക്ഷാ പ്രശ്നത്തെ കുറിച്ച് മുന്നറിയിപ്പ് നൽകുക",
+            "അവളെ വീട്ടിലേക്ക് പോകരുത് എന്ന് വിലക്കുക",
+            "അവളുടെ സ്വാതന്ത്ര്യം പരിഹസിക്കുക"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "രാത്രിയിലെ സുരക്ഷാ പ്രശ്നത്തെ കുറിച്ച് മുന്നറിയിപ്പ് നൽകുക"
+          }
+        },
+        "english": {
+          "context": "It is very late at night. A young woman is standing alone at a bus stop. An elderly woman passing by tells her: “At this hour, it’s not a good time to stand alone… there are bad people everywhere.”",
+          "question": "What is the elderly woman most likely intending to convey?",
+          "options": [
+            "She is blaming the young woman for standing there",
+            "She is warning her about safety risks at night",
+            "She is forbidding her from going home",
+            "She is mocking her independence"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "She is warning her about safety risks at night"
+          }
+        }
+      },
+      "explanation": "The elderly woman is a passerby, not someone personally connected to the young woman. Her statement functions as an indirect protective warning, reflecting a broader community-oriented safety discourse common in Malayali contexts.",
+      "metadata": {
+        "register": "public-space-interaction",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Indirect warning style",
+          "Public moral commentary",
+          "Gendered safety discourse in public spaces"
+        ]
+      }
+    },
+    {
+      "id": "ma_sop_mcq_005",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "implicit-criticism",
+        "class-consciousness",
+        "industrialization-discourse"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Oru puthiya IT park thurannathinekurichu charcha nadakkunnu. Yuvakkal athilulla avasaramgalekkurichu santhoshathode samsarikkunnu. Appol oru idathupaksha pravarthakan parayunnu: “Oru karshakante mukhath prasannatha anveshikan Keralathinu neramilla ippol.”",
+          "question": "Ithil pravarthakan enthaanu uddeshikkunnath?",
+          "options": [
+            "IT park thurannathil avanu valare santhoshamanu",
+            "Keralathil karshakar santhoshathode jeevikkunnu ennanu",
+            "Vikasathinte peru paranju karshakare marannupokunnu ennoru vimarshanamanu",
+            "Karshakar IT mekhayil joli kittunnathinekurichu parayunnu"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Vikasathinte peru paranju karshakare marannupokunnu ennoru vimarshanamanu"
+          }
+        },
+        "malayalam": {
+          "context": "ഒരു പുതിയ ഐ.ടി. പാർക്ക് തുറന്നതിനെക്കുറിച്ച് ചർച്ച നടക്കുന്നു. യുവാക്കൾ അതിലെ അവസരങ്ങളെക്കുറിച്ച് സന്തോഷത്തോടെ സംസാരിക്കുന്നു. അപ്പോൾ ഒരു ഇടതുപക്ഷ പ്രവർത്തകൻ പറയുന്നു: “ഒരു കർഷകന്റെ മുഖത്ത് പ്രസന്നത അന്വേഷിക്കാൻ കേരളത്തിനു നേരമില്ല ഇപ്പോൾ.”",
+          "question": "ഇവിടെ പ്രവർത്തകന്റെ ഉദ്ദേശം എന്താണ്?",
+          "options": [
+            "ഐ.ടി. പാർക്ക് തുറന്നതിൽ അദ്ദേഹത്തിന് വലിയ സന്തോഷമുണ്ട്",
+            "കേരളത്തിലെ കർഷകർ സന്തോഷത്തോടെ ജീവിക്കുന്നു എന്നാണ് പറയുന്നത്",
+            "വികസനത്തിന്റെ പേരിൽ കർഷകരെ മറക്കുകയാണ് എന്ന വിമർശനമാണ്",
+            "കർഷകർ ഐ.ടി. മേഖലയിലേക്ക് മാറുന്നു എന്നാണ് പറയുന്നത്"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "വികസനത്തിന്റെ പേരിൽ കർഷകരെ മറക്കുകയാണ് എന്ന വിമർശനമാണ്"
+          }
+        },
+        "english": {
+          "context": "A discussion is happening about the opening of a new IT park. Young people are happily talking about the opportunities it brings. A left-leaning activist remarks: “Kerala has no time to look for happiness on a farmer’s face anymore.”",
+          "question": "What is the activist most likely intending to convey?",
+          "options": [
+            "He is happy about the IT park opening",
+            "He believes farmers in Kerala are very happy",
+            "He is criticizing that development is happening at the cost of farmers",
+            "He is saying farmers are shifting to the IT sector"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "He is criticizing that development is happening at the cost of farmers"
+          }
+        }
+      },
+      "explanation": "The activist’s statement is not literal. It implies that in the rush toward industrialization and IT-driven development, agrarian communities and farmers’ well-being are being neglected. This reflects class-conscious social criticism common in Kerala’s political discourse.",
+      "metadata": {
+        "register": "public-political-discourse",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Kerala agrarian history",
+          "Left political discourse",
+          "Industrialization vs farming tension",
+          "Class-based social critique"
+        ]
+      }
+    },
+    {
+      "id": "ma_sop_mcq_006",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "cultural-humor",
+        "metaphor",
+        "political-discourse"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kerala charithrathinekurichu classil charcha nadakkumbol oru adhyapakan paranju: “Kerala-yil ‘communist pacha’ ennu vilikkunna oru chedi undu. Peru kettal athu rashtreeyavumayi bandhapettathaanennu thonnum. Pakse aa peru vannathinte kaaranam kurachu rasakaram aanu.”",
+          "question": "Ivide adhyapakan suuchippikkunnathu enthaanu?",
+          "options": [
+            "Communist partyyude kodi pachaniramullathaanennu",
+            "Communist pravarthakar ee chedi valarthiyirunnu ennanu",
+            "Vegathil padarunna oru chediyude padarchaye Kerala-yil communism padarnnathode thulyamakki janangal rasakaramaayi peru nalkiyathaanu",
+            "Kerala-yilulla ella pachappum communism-ine suuchippikkunnu ennanu"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Vegathil padarunna oru chediyude padarchaye Kerala-yil communism padarnnathode thulyamakki janangal rasakaramaayi peru nalkiyathaanu"
+          }
+        },
+        "malayalam": {
+          "context": "കേരള ചരിത്രത്തെക്കുറിച്ച് ക്ലാസിൽ ചർച്ച നടക്കുമ്പോൾ ഒരു അധ്യാപകൻ പറഞ്ഞു: “കേരളത്തിൽ ‘കമ്യൂണിസ്റ്റ് പച്ച’ എന്ന് വിളിക്കുന്ന ഒരു ചെടിയുണ്ട്. പേര് കേട്ടാൽ അത് രാഷ്ട്രീയവുമായി ബന്ധമുള്ളതാണെന്ന് തോന്നും. പക്ഷേ ആ പേര് വന്നതിന്റെ കാരണം കുറച്ച് രസകരമാണ്.”",
+          "question": "ഇവിടെ അധ്യാപകൻ സൂചിപ്പിക്കുന്നത് എന്താണ്?",
+          "options": [
+            "കമ്മ്യൂണിസ്റ്റ് പാർട്ടിയുടെ കൊടി പച്ചനിറത്തിലുള്ളതാണ് എന്ന്",
+            "കമ്മ്യൂണിസ്റ്റ് പ്രവർത്തകർ ഈ ചെടി വളർത്തിയിരുന്നു എന്ന്",
+            "വേഗത്തിൽ പടരുന്ന ഒരു ചെടിയുടെ പടർച്ചയെ കേരളത്തിൽ കമ്മ്യൂണിസം പടർന്നതോട് ഉപമിച്ച് ജനങ്ങൾ രസകരമായി നൽകിയ പേരാണ്",
+            "കേരളത്തിലെ എല്ലാ പച്ചപ്പും കമ്മ്യൂണിസത്തെ സൂചിപ്പിക്കുന്നു എന്ന്"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "വേഗത്തിൽ പടരുന്ന ഒരു ചെടിയുടെ പടർച്ചയെ കേരളത്തിൽ കമ്മ്യൂണിസം പടർന്നതോട് ഉപമിച്ച് ജനങ്ങൾ രസകരമായി നൽകിയ പേരാണ്"
+          }
+        },
+        "english": {
+          "context": "During a classroom discussion about Kerala’s history, a teacher said: “There is a plant in Kerala called ‘communist green’. When you hear the name, it may sound like it is related to politics. But the reason behind the name is actually quite amusing.”",
+          "question": "What is the teacher most likely implying?",
+          "options": [
+            "The communist party flag is green",
+            "Communists were responsible for cultivating this plant",
+            "People humorously named a fast-spreading plant after the rapid spread of communism",
+            "All greenery in Kerala represents communist ideology"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "People humorously named a fast-spreading plant after the rapid spread of communism"
+          }
+        }
+      },
+      "explanation": "‘കമ്യൂണിസ്റ്റ് പച്ച’ refers to a fast-spreading plant (Chromolaena odorata). In Kerala, people humorously compared the rapid spread of this plant to the spread of communist politics in the mid-20th century and gave it this nickname.",
+      "metadata": {
+        "register": "classroom-discussion",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "Kerala political culture",
+          "folk humor in naming",
+          "spread of communism in mid-20th century Kerala",
+          "Chromolaena odorata invasive plant"
+        ]
+      }
+    },
+    {
+      "id": "ma_sop_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "status-signaling",
+        "class-performance",
+        "social-perception"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Vaadaka kudishika theerkkaan polum kadam vaangenda avasthayilulla Unnikrishnan oru construction companyyude office-il ethi, City Club-inu aduthulla pathimoonnara cent plot thanteyathaanennum veedinu ekadesham pathinanchu laksham roopa chelavazhikkaamennum paranju. Athuvare valiya thalparyam kaanikkaathirunna jeevanakkaran pettennu utsaahathode samsaarikkaan thudangi. Cheriya plottil kuranja budgettil veedu paniyaan varunnavare ayaal parihasikkukayum cheythu.",
+          "question": "Unnikrishnante yathaartha saahacharyavum ayaal parayunna kaaryangalum koottivaayikkumbol, jeevanakkarante maariya sameepanam enthaanu velippeduthunnathu?",
+          "options": [
+            "Unnikrishnante saambathika buddhimuttukal jeevanakkaran manassilaakkiyathukondu ayaal sahaayikkaan shramikkunnu",
+            "Plot, athinte sthaanam, budget ennivayiloode Unnikrishnan avatharippikkunna sampannante roopam sathyamaanennu karuthi jeevanakkaran ayaalkku kooduthal pariganana nalkunnu",
+            "Unnikrishnan parayunnathu kallamaanennu jeevanakkaran manassilaakkiyenkilum oru customer enna nilayil bahumaanikkunnu",
+            "Unnikrishnante veedu paniyaanulla theerumaanathinte gauravam manassilaakkiyathukondu maathramaanu jeevanakkaran utsaaham kaanikkunnathu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Plot, athinte sthaanam, budget ennivayiloode Unnikrishnan avatharippikkunna sampannante roopam sathyamaanennu karuthi jeevanakkaran ayaalkku kooduthal pariganana nalkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "വാടകക്കുടിശ്ശിക തീർക്കാൻപോലും കടം വാങ്ങേണ്ട അവസ്ഥയിലുള്ള ഉണ്ണികൃഷ്ണൻ ഒരു കൺസ്ട്രക്ഷൻ കമ്പനിയുടെ ഓഫീസിലെത്തി, സിറ്റി ക്ലബ്ബിനോട് ചേർന്ന പതിമൂന്നര സെന്റ് പ്ലോട്ട് തന്റേതാണെന്നും വീടിന് ഏകദേശം പതിനഞ്ച് ലക്ഷം രൂപ ചെലവഴിക്കാമെന്നും പറഞ്ഞു. അതുവരെ വലിയ താൽപര്യം കാണിക്കാതിരുന്ന ജീവനക്കാരൻ പെട്ടെന്ന് ഉത്സാഹത്തോടെ സംസാരിക്കാൻ തുടങ്ങി. ചെറിയ പ്ലോട്ടിൽ കുറഞ്ഞ ബജറ്റിൽ വീട് പണിയാൻ വരുന്നവരെ അയാൾ പരിഹസിക്കുകയും ചെയ്തു.",
+          "question": "ഉണ്ണികൃഷ്ണന്റെ യഥാർഥ സാഹചര്യവും അയാൾ പറയുന്ന കാര്യങ്ങളും കൂട്ടിവായിക്കുമ്പോൾ, ജീവനക്കാരന്റെ മാറിയ സമീപനം എന്താണ് വെളിപ്പെടുത്തുന്നത്?",
+          "options": [
+            "ഉണ്ണികൃഷ്ണന്റെ സാമ്പത്തിക ബുദ്ധിമുട്ടുകൾ ജീവനക്കാരൻ മനസ്സിലാക്കിയതിനാൽ അയാളെ സഹായിക്കാൻ ശ്രമിക്കുന്നു",
+            "പ്ലോട്ട്, അതിന്റെ സ്ഥാനം, ബജറ്റ് എന്നിവയിലൂടെ ഉണ്ണികൃഷ്ണൻ അവതരിപ്പിക്കുന്ന സമ്പന്നന്റെ രൂപം സത്യമാണെന്ന് കരുതി ജീവനക്കാരൻ അയാൾക്ക് കൂടുതൽ പരിഗണന നൽകുന്നു",
+            "ഉണ്ണികൃഷ്ണൻ പറയുന്നത് കള്ളമാണെന്ന് ജീവനക്കാരൻ മനസ്സിലാക്കിയിട്ടും ഒരു ഉപഭോക്താവെന്ന നിലയിൽ അയാളെ ബഹുമാനിക്കുന്നു",
+            "ഉണ്ണികൃഷ്ണന്റെ വീട് പണിയാനുള്ള തീരുമാനത്തിന്റെ ഗൗരവം മനസ്സിലാക്കിയതുകൊണ്ടു മാത്രമാണ് ജീവനക്കാരൻ ഉത്സാഹം കാണിക്കുന്നത്"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "പ്ലോട്ട്, അതിന്റെ സ്ഥാനം, ബജറ്റ് എന്നിവയിലൂടെ ഉണ്ണികൃഷ്ണൻ അവതരിപ്പിക്കുന്ന സമ്പന്നന്റെ രൂപം സത്യമാണെന്ന് കരുതി ജീവനക്കാരൻ അയാൾക്ക് കൂടുതൽ പരിഗണന നൽകുന്നു"
+          }
+        },
+        "english": {
+          "context": "Unnikrishnan, who has had to borrow money even to clear his overdue rent, walks into a construction company's office and claims that he owns a thirteen-and-a-half-cent plot beside the City Club and can spend around fifteen lakh rupees on a house. The employee, who had shown little interest until then, suddenly becomes enthusiastic. He even mocks customers who come with small plots and modest budgets.",
+          "question": "When Unnikrishnan's actual circumstances are read alongside his claims, what does the employee's changed attitude most strongly reveal?",
+          "options": [
+            "The employee recognizes Unnikrishnan's financial difficulties and tries to help him",
+            "The employee accepts the affluent identity Unnikrishnan projects through the plot, its location, and the budget, and accordingly treats him as a more valued client",
+            "The employee realizes that Unnikrishnan is lying but respects him nonetheless as a customer",
+            "The employee becomes enthusiastic simply because he recognizes how serious Unnikrishnan is about building a house"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The employee accepts the affluent identity Unnikrishnan projects through the plot, its location, and the budget, and accordingly treats him as a more valued client"
+          }
+        }
+      },
+      "explanation": "The employee does not know that Unnikrishnan's claims are part of a fantasy of affluence. He responds to socially recognizable signs of wealth—the prestigious location, the large plot, and the substantial construction budget—and changes his manner accordingly. The scene therefore exposes how socioeconomic identity can be performed through such signals and how readily interpersonal treatment changes once those signals are accepted as real.",
+      "metadata": {
+        "register": "commercial-service-interaction",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "property ownership as a status marker",
+          "plot size and location as socioeconomic signals",
+          "housing budget as a class marker",
+          "performed affluence",
+          "class-sensitive customer treatment"
+        ]
+      }
+    },
+    {
+      "id": "ma_sop_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "caste-hierarchy",
+        "deferential-language",
+        "status-asymmetry"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Janmiyude veettil pani kazhinju kooli vaangaan ethiy Ramanodu janmi chodichu: “Mazhayil ninte veedinu vallathum pattiyo?” Raman marupadi paranju: “Kuppamaadathinte melkoora kurachu chorunnundu, thambra.”",
+          "question": "Ee sambhaashanathile ‘ninte’, ‘kuppamaadam’, ‘thambra’ ennee prayogangal enthaanu velippeduthunnathu?",
+          "options": [
+            "Ramanum janmiyum thammil adutha sauhridhamullathukondu randuperum anaupachaarikamaayi samsaarikkunnu",
+            "Janmi Ramanodu thaazhna nilayil samsaarikkumbol, Raman janmiyodu bahumaanavum swantham nilaye thaazhthiyum prakatippikkunna bhaasha upayogikkunnu",
+            "Ramanude veedu moshamaya avasthayilaayathukondu janmi ayaalodu sahathaapathode samsaarikkunnu",
+            "‘Ninte’, ‘kuppamaadam’, ‘thambra’ ennivayellaam annathe Malayalam sambhaashanathile saadhaarana prayogangalaanu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Janmi Ramanodu thaazhna nilayil samsaarikkumbol, Raman janmiyodu bahumaanavum swantham nilaye thaazhthiyum prakatippikkunna bhaasha upayogikkunnu"
+          }
+        },
+        "malayalam": {
+          "context": "ജന്മിയുടെ വീട്ടിൽ പണി കഴിഞ്ഞ് കൂലി വാങ്ങാനെത്തിയ രാമനോട് ജന്മി ചോദിച്ചു: “മഴയിൽ നിന്റെ വീടിന് വല്ലതും പറ്റിയോ?” രാമൻ മറുപടി പറഞ്ഞു: “കുപ്പമാടത്തിന്റെ മേൽക്കൂര കുറച്ച് ചോരുന്നുണ്ട്, തമ്പ്രാ.”",
+          "question": "ഈ സംഭാഷണത്തിലെ ‘നിന്റെ’, ‘കുപ്പമാടം’, ‘തമ്പ്രാ’ എന്നീ പ്രയോഗങ്ങൾ എന്താണ് വെളിപ്പെടുത്തുന്നത്?",
+          "options": [
+            "രാമനും ജന്മിയും തമ്മിൽ അടുത്ത സൗഹൃദമുള്ളതിനാൽ രണ്ടുപേരും അനൗപചാരികമായി സംസാരിക്കുന്നു",
+            "ജന്മി രാമനോട് താഴ്ന്ന നിലയിൽ സംസാരിക്കുമ്പോൾ, രാമൻ ജന്മിയോട് ബഹുമാനവും സ്വന്തം നിലയെ താഴ്ത്തിയും പ്രകടിപ്പിക്കുന്ന ഭാഷ ഉപയോഗിക്കുന്നു",
+            "രാമന്റെ വീട് മോശമായ അവസ്ഥയിലായതുകൊണ്ട് ജന്മി അയാളോട് സഹതാപത്തോടെ സംസാരിക്കുന്നു",
+            "‘നിന്റെ’, ‘കുപ്പമാടം’, ‘തമ്പ്രാ’ എന്നിവയെല്ലാം അക്കാലത്തെ മലയാള സംഭാഷണത്തിലെ സാധാരണ പ്രയോഗങ്ങളാണ്"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ജന്മി രാമനോട് താഴ്ന്ന നിലയിൽ സംസാരിക്കുമ്പോൾ, രാമൻ ജന്മിയോട് ബഹുമാനവും സ്വന്തം നിലയെ താഴ്ത്തിയും പ്രകടിപ്പിക്കുന്ന ഭാഷ ഉപയോഗിക്കുന്നു"
+          }
+        },
+        "english": {
+          "context": "After finishing work at a landlord's house, Raman came to collect his wages. The landlord asked him, using the non-honorific form of 'your': “Did the rain cause any damage to your house?” Raman replied, “The roof of my kuppamaadam leaks a little, thambra.”",
+          "question": "What do the contrasting expressions used by the landlord and Raman most strongly reveal about their interaction?",
+          "options": [
+            "Raman and the landlord are close friends and therefore both speak informally",
+            "The landlord addresses Raman downward, while Raman uses deferential and self-lowering language toward the landlord",
+            "The landlord speaks sympathetically to Raman because Raman's house is in poor condition",
+            "The expressions used by both men are simply ordinary forms of speech with no relation to social status"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "The landlord addresses Raman downward, while Raman uses deferential and self-lowering language toward the landlord"
+          }
+        }
+      },
+      "explanation": "The contrast in address forms encodes an unequal social relationship. The janmi uses the non-honorific ‘നിന്റെ’ when addressing Raman, whereas Raman addresses him deferentially as ‘തമ്പ്രാ’ and refers to his own house with the self-lowering term ‘കുപ്പമാടം’. In the historical caste-ordered speech practices described in the source, such differences in vocabulary and address reflected social hierarchy rather than merely the physical condition of Raman's house.",
+      "metadata": {
+        "register": "historical-social-interaction",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "historical caste hierarchy in Kerala",
+          "janmi-worker social hierarchy",
+          "non-honorific downward address",
+          "deferential address",
+          "self-lowering vocabulary",
+          "status-conditioned language"
+        ]
+      }
+    },
+    {
+      "id": "ma_sop_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "status-signaling",
+        "prestige",
+        "symbolic-possession"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kovilakath orukaalath ezhu aanakal undaayirunnu. Ippol oru pidiyana maathram baakki. Athine theettippottaan polum valiya chelavaayirunnu. Ennaal Tamburaan paranju: “Muttath aanayillaate enthu kovilakam?” Pinne pidiyanaye vittittu, theettayo paappaano vendaatha, jeevanullathupole thonnunna valiya plastic kombanaye muttath nirtti. Athine kaanaan naattukaarum ayalgramakkaarum ethi, kovilakathinte prasasthiyum koodi.",
+          "question": "Yathaartha aanaye vittittum plastic aanaye muttath nirttiyathil Tamburaan santhoshichath pradhaanmayaayi enthaanu velippeduthunnathu?",
+          "options": [
+            "Tamburaanu mrugangalodu thaalparyam nashtappettirunnu",
+            "Plastic aana yathaartha aanayekkaal shakthamaayirunnu",
+            "Kovilakathinu vendathu upayogapradamaaya oru mrugamalla, sandarshakare vinodippikkaanulla oru kaazhchavastuvaayirunnu",
+            "Aana kovilakathinte prathaapavum samooha padaviyum kaanikkunna adayalam aayirunnathinaal, aa kaazhcha nilanirthiya plastic aana Tamburaante aavashyam niravetti"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Aana kovilakathinte prathaapavum samooha padaviyum kaanikkunna adayalam aayirunnathinaal, aa kaazhcha nilanirthiya plastic aana Tamburaante aavashyam niravetti"
+          }
+        },
+        "malayalam": {
+          "context": "കോവിലകത്ത് ഒരുകാലത്ത് ഏഴ് ആനകളുണ്ടായിരുന്നു. ഇപ്പോൾ ഒരു പിടിയാന മാത്രമാണ് ബാക്കി. അതിനെ തീറ്റിപ്പോറ്റാൻ പോലും വലിയ ചെലവായിരുന്നു. എന്നാൽ തമ്പുരാൻ പറഞ്ഞു: “മുറ്റത്ത് ആനയില്ലാതെ എന്ത് കോവിലകം?” പിന്നീട് പിടിയാനയെ വിറ്റിട്ട്, തീറ്റയോ പാപ്പാനോ വേണ്ടാത്ത, ജീവനുള്ളതുപോലെ തോന്നുന്ന വലിയ പ്ലാസ്റ്റിക് കൊമ്പനാനയെ മുറ്റത്ത് നിർത്തി. അതിനെ കാണാൻ നാട്ടുകാരും അയൽഗ്രാമക്കാരും എത്തി; കോവിലകത്തിന്റെ പ്രശസ്തിയും കൂടി.",
+          "question": "യഥാർഥ ആനയെ വിറ്റിട്ടും പ്ലാസ്റ്റിക് ആനയെ മുറ്റത്ത് നിർത്തിയതിൽ തമ്പുരാൻ സന്തോഷിച്ചതിലൂടെ പ്രധാനമായും എന്താണ് വെളിപ്പെടുന്നത്?",
+          "options": [
+            "തമ്പുരാന് മൃഗങ്ങളോടുള്ള താൽപര്യം നഷ്ടപ്പെട്ടിരുന്നു",
+            "പ്ലാസ്റ്റിക് ആന യഥാർഥ ആനയെക്കാൾ ശക്തമായിരുന്നു",
+            "കോവിലകത്തിന് വേണ്ടത് ഉപയോഗപ്രദമായ ഒരു മൃഗമല്ല, സന്ദർശകരെ വിനോദിപ്പിക്കാനുള്ള ഒരു കാഴ്ചവസ്തുവായിരുന്നു",
+            "ആന കോവിലകത്തിന്റെ പ്രതാപവും സാമൂഹിക പദവിയും കാണിക്കുന്ന അടയാളമായിരുന്നതിനാൽ, ആ കാഴ്ച നിലനിർത്തിയ പ്ലാസ്റ്റിക് ആന തമ്പുരാന്റെ ആവശ്യം നിറവേറ്റി"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "ആന കോവിലകത്തിന്റെ പ്രതാപവും സാമൂഹിക പദവിയും കാണിക്കുന്ന അടയാളമായിരുന്നതിനാൽ, ആ കാഴ്ച നിലനിർത്തിയ പ്ലാസ്റ്റിക് ആന തമ്പുരാന്റെ ആവശ്യം നിറവേറ്റി"
+          }
+        },
+        "english": {
+          "context": "The aristocratic household once had seven elephants, but only one female elephant remained. Even feeding and maintaining her had become expensive. Yet the Tamburan insisted, “What kind of kovilakam is it without an elephant in the courtyard?” He eventually sold the living elephant and replaced her with a large plastic tusker that looked real but required neither food nor a mahout. People came from nearby villages to see it, and the household's fame increased.",
+          "question": "What does the Tamburan's satisfaction with the plastic elephant most strongly reveal?",
+          "options": [
+            "He had lost all interest in animals",
+            "He believed a plastic elephant was physically stronger than a real one",
+            "What the household really needed was an object that could entertain visitors",
+            "The elephant primarily functioned as a symbol of aristocratic prestige, so preserving its appearance was enough to preserve the status it represented"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "The elephant primarily functioned as a symbol of aristocratic prestige, so preserving its appearance was enough to preserve the status it represented"
+          }
+        }
+      },
+      "explanation": "The Tamburan cannot afford the living elephant, yet he is unwilling to have a courtyard without one because the elephant signifies the grandeur and social standing of the kovilakam. The plastic elephant satisfies that social function while eliminating the cost of maintaining a real animal. The scene therefore shows that the elephant's value to him lies primarily in the prestige it displays rather than in its practical usefulness.",
+      "metadata": {
+        "register": "literary / aristocratic social setting",
+        "difficulty": "hard",
+        "cultural_markers": [
+          "kovilakam",
+          "elephant as a status symbol",
+          "declining aristocratic wealth",
+          "prestige through visible possessions",
+          "appearance replacing substance"
+        ]
+      }
+    }
+  ]
+}

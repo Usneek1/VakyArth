@@ -1,0 +1,197 @@
+{
+  "dataset": "Malayalam Pragmatics - Translation",
+  "version": "0.1",
+  "direction": "malayalam_to_english",
+  "task_description": "Translate the given Malayam sentence into natural, idiomatic English. Correct translation requires understanding deictic expressions words that encode spatial, temporal, and personal reference and rendering them accurately in context, not just literally.",
+  "items": [
+    {
+      "id": "ma_di_tra_001",
+      "type": "translation",
+      "phenomena": [
+        "person-deixis"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "Ningalkku upayogapradamallaatha grihopakaranangal nalki upayogamullathu nedu.",
+          "latin": "Ningalkku upayōgapradamallātha gr̥hōpakaraṇṅaḷ nalki upayōgamullathu nēḍū"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Give away household items that are not useful to you and get something useful."
+      },
+      "notes": "Contains person deixis through the second-person pronoun 'ningalkku' (to you), which depends on the addressee."
+    },
+    {
+      "id": "ma_di_tra_002",
+      "type": "translation",
+      "phenomena": [
+        "spatial-deixis",
+        "demonstrative-deixis",
+        "person-deixis"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കോവിലകത്തെ ആനക്കാരനായ രാമൻ നായ തെങ്ങുകേറ്റക്കാരനായ രാഘവനോട്: \"ആരാത്? രാഘവനല്ലേ. നിൽക്കൂ അവിടെ.\"",
+          "latin": "Kōvilakatte ānakkāranāya Rāman Nāyar tengukēṭṭakkāranāya Rāghavanōdu: \"Ārāth? Rāghavanallē. Nilkkū avide.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Raman Nair, the palace mahout, said to Raghavan, the coconut climber: \"Who is that? Isn’t it Raghavan? Stand there.\""
+      },
+      "notes": "Contains demonstrative deixis in 'ārāth?' (who is that?), spatial deixis in 'avide' (there), and person deixis through second-person imperative 'nilkkū' (stand), which is anchored to the addressee."
+    },
+    {
+      "id": "ma_di_tra_003",
+      "type": "translation",
+      "phenomena": [
+        "demonstrative-deixis",
+        "temporal-deixis",
+        "person-deixis"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ഈ കുട്ടിയല്ലേ അന്ന് തലമുടി വെട്ടാൻ വന്നത്? അല്ല, അത് അവളുടെ അനിയത്തിയാണ്.",
+          "latin": "Ee kuṭṭiyallē annu thalamudi vettān vannath? Alla, athu avalude aniyaththiyāṇ."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Wasn't it this girl who came to cut her hair that day? No, that is her younger sister."
+      },
+      "notes": "Contains demonstrative deixis in 'ee' (this) and 'athu' (that), temporal deixis in 'annu' (that day), and person deixis in 'avalude' (her), where interpretation depends on discourse context."
+    },
+    {
+      "id": "ma_di_tra_004",
+      "type": "translation",
+      "phenomena": [
+        "place-deixis",
+        "speaker-perspective",
+        "movement-reference"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "അരുൺ മീരയോട് പറഞ്ഞു: 'ഞാൻ ഇപ്പോഴും സ്റ്റേഷന്റെ പിന്നിലെ ഗേറ്റിലാണ്. ഇവിടെ വരണ്ട; നീ അവിടെ തന്നെ നിൽക്കൂ, ഞാൻ തന്നെ അവിടെ വരാം.'",
+          "latin": "Arun Meerayodu paranju: 'Njan ippozhum stationinte pinnile gate-il aanu. Ivide varenda; nee avide thanne nilkku, njan thanne avide varam.'"
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Arun told Meera, 'I’m still at the back gate of the station. Don’t come here; stay where you are, I’ll come there myself.'"
+      },
+      "notes": "Contains place deixis in 'ivide' (here) and 'avide' (there). The spatial interpretation depends on the speaker's location (Arun at the station) and the addressee's location (Meera elsewhere). Movement deixis appears in 'varam' (I will come there), indicating motion toward the addressee."
+    },
+    {
+      "id": "ma_di_tra_005",
+      "type": "translation",
+      "phenomena": [
+        "discourse-deixis",
+        "temporal-deixis",
+        "narrative-perspective"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കുടുംബത്തിലെ കാരണവരുടെ അധികാരത്തെയും ഇംഗ്ലീഷ് പഠനത്തിന്റെ ആവശ്യകതയെയും കുറിച്ച് മാധവനും ചാത്തരമേനോനും തമ്മിൽ വാദിച്ചു കൊണ്ടിരിക്കുകയായിരുന്നു. ഇങ്ങിനെ ഇവർ സംസാരിച്ചുകൊണ്ടു നില്ക്കുന്ന മദ്ധ്യേ ഒരു വേലക്കാരൻ വന്നു മാധവനെ അമ്മാമൻ ശങ്കരമേനോൻ വിളിക്കുന്നു എന്നു പറഞ്ഞു.",
+          "latin": "Kudumbathile kaaranavarude adhikaaratheyum English padhanathinte aavasyakathayeyum kurichu Madhavanum Chathara Menonum thammil vaadichu kondirikkukayirunnu. Ingane ivar samsarichukondu nilkkunna madhye oru velakkaran vannu Madhavane ammaman Shankara Menon vilikkunnu ennu paranju."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Madhavan and Chathara Menon were arguing about the authority of the family elder and the need for English education. While they were standing there talking like this, a servant came and told Madhavan that his uncle Shankara Menon was calling him."
+      },
+      "notes": "Contains discourse deixis in 'ഇങ്ങിനെ' (like this), referring to the manner of the ongoing argument mentioned earlier. The word 'മദ്ധ്യേ' (in the middle of) signals temporal deixis, marking that the servant arrived during the conversation. Interpretation depends on the narrator’s perspective in the narrative."
+    },
+    {
+      "id": "ma_di_tr_006",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "relative-time"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "മിനിഞ്ഞാന്ന് സായാഹ്നത്തോടെയാണ് വാർത്ത വന്നത്. പിന്നെ അടുത്ത ദിവസം ടിക്കറ്റ് എടുത്ത് ഇന്നാണ് ഇവിടെ എത്തിയത്.",
+          "latin": "Mininjānnu sāyāhnathōṭeyāṇ vārtha vannath. Pinne aduttha divasam ticket eduthu innāṇ ivide ethiyath."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The news came around dusk the day before yesterday. Then the next day we booked the ticket, and we arrived here today."
+      },
+      "notes": "The temporal deixis 'പിന്നെ' (then), 'അടുത്ത ദിവസം' (the next day), and 'ഇന്ന്' (today) must be interpreted relative to the timeline of the narrated events. The sequence describes three time points: the day before yesterday evening, the following day when the ticket was booked, and the present day when the speaker arrived."
+    },
+    {
+      "id": "ma_di_tra_007",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "person-deixis",
+        "context-dependent-reference",
+        "deictic-shift"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "ജോലിയും വീടും നഷ്ടപ്പെട്ട അറുമുഖനും ഭാര്യയും പാർക്കിനരികിലെ ഫുട്പാത്തിലാണ് കഴിയുന്നത്. അവരോട് സംസാരിച്ചിരുന്ന യുവാവ് യാത്ര പറഞ്ഞപ്പോൾ അറുമുഖന്റെ ഭാര്യ തന്റെ ചെറിയ ഭാണ്ഡത്തിൽനിന്ന് അറ്റം പിഞ്ഞിയതെങ്കിലും കട്ടിയുള്ള ഒരു രോമപ്പുതപ്പെടുത്ത് അയാൾക്കു നീട്ടി. അയാൾ നടന്നകന്നുകഴിഞ്ഞപ്പോൾ അറുമുഖൻ എഴുന്നേറ്റിരുന്നുകൊണ്ടു ചോദിച്ചു: \"നമ്മുടെ ആകെയുള്ള ഒരു സ്വത്തായിരുന്നു ആ പുതപ്പ്. മഴക്കാലം വന്നാൽ ഇനി നമുക്കെവിടെയാണ് ഒരു രക്ഷ?\"",
+          "latin": "Joliyum veedum nashtappetta Arumukhanum bharyayum parkkinarikile footpathilaanu kazhiyunnathu. Avarodu samsaarichirunna yuvaavu yaathra paranjappol Arumukhante bharya thante cheriya bhaandathilninnu attam pinjiyathenkilum kattiyulla oru romapputhappu eduthu ayaalkku neetti. Ayaal nadannakannukazhinjappol Arumukhan ezhunnett irunnukondu chodichu: \"Nammude aakeyulla oru swaththaayirunnu aa puthappu. Mazhakkaalam vannaal ini namukkevidayaanu oru raksha?\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Having lost his job and home, Arumukhan and his wife are living on the pavement near a park. As the young man who had been talking with them was leaving, Arumukhan's wife took the thick woollen blanket, frayed at the edges, from her small bundle and held it out to him. After he had walked away, Arumukhan sat up and asked, \"That blanket was the only thing we owned. When the rainy season comes, what protection will we have now?\""
+      },
+      "notes": "The crucial expression is 'ഇനി'. It is anchored to the changed situation after the blanket has passed out of their possession, while 'മഴക്കാലം വന്നാൽ' projects the consequence into the future. 'നമുക്ക്' refers jointly to Arumukhan and his wife. A successful translation must therefore preserve the contrast between their newly changed present circumstances and the future rainy season."
+    },
+    {
+      "id": "ma_di_tra_008",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "deictic-anchoring",
+        "habitual-time",
+        "speaker-perspective"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "വർഷങ്ങൾക്കുശേഷം ബഷീർ ഒരു രാത്രി വൈകി വീട്ടിലെത്തി. അമ്മ അവനുവേണ്ടി ചോറും കറിയും വെച്ച് ഉറങ്ങാതെ കാത്തിരിക്കുകയായിരുന്നു. അത്ഭുതപ്പെട്ട ബഷീർ ചോദിച്ചു: \"ഞാൻ ഇന്നു വരുമെന്ന് ഉമ്മ എങ്ങനെ അറിഞ്ഞു?\" അമ്മ പറഞ്ഞു: \"ഓ... ചോറും കറിയും വെച്ച് എല്ലാ രാത്രിയും ഞാൻ കാത്തിരിക്കും.\"",
+          "latin": "Varshangalkkushesham Basheer oru raathri vaiki veettilethi. Amma avanuvendi chorum kariyum vechu urangaathe kaathirikkukayaayirunnu. Athbhuthappetta Basheer chodichu: \"Njaan innu varumennu Umma engane arinju?\" Amma paranju: \"O... chorum kariyum vechu ellaa raathriyum njaan kaathirikkum.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Years later, Basheer arrived home late one night. His mother was still awake, having kept rice and curry ready for him. Surprised, Basheer asked, \"How did you know I would come home today?\" His mother replied, \"Oh... I keep rice and curry ready and wait for you every night.\""
+      },
+      "notes": "The temporal deictic expression 'ഇന്നു' ('today') is anchored to the night on which Basheer actually returns home. Basheer initially assumes that his mother's waiting that night means she somehow knew that this was the day he would return. Her reply, however, introduces the habitual expression 'എല്ലാ രാത്രിയും' ('every night'), revealing that she had no knowledge of his particular return date: she waited for him night after night. The translation must preserve the contrast between the single deictically anchored day ('ഇന്നു') and the repeated habitual period ('എല്ലാ രാത്രിയും')."
+    },
+    {
+      "id": "ma_di_tra_009",
+      "type": "translation",
+      "phenomena": [
+        "discourse-deixis",
+        "textual-deixis",
+        "spatial-to-discourse-shift",
+        "deictic-anchoring"
+      ],
+      "source": {
+        "language": "malayalam",
+        "scripts": {
+          "malayalam": "കവിതയിൽ നിശ്ചലമായ ഒരു ചിത്രത്തെ മാത്രം അവതരിപ്പിക്കുന്നതിനുപകരം മാറിക്കൊണ്ടിരിക്കുന്ന അനുഭവങ്ങളെയും ഭാവങ്ങളെയും അവതരിപ്പിക്കാൻ കഴിയുമെന്ന് നിരൂപകൻ വിശദീകരിക്കുന്നു. 'നളിനി'യിലെ ഒരു ഭാഗം ഉദാഹരണമായി ഉദ്ധരിച്ചശേഷം അദ്ദേഹം പറയുന്നു: \"ഇവിടെയും മാറിമാറിക്കൊണ്ടിരിക്കുന്ന ഭാവവ്യത്യാസങ്ങളാണ് നാം കാണുന്നത്.\"",
+          "latin": "Kavithayil nishchalamaaya oru chithrathe maathram avatharippikkunnathinu pakaram maarikkondirikkunna anubhavangaleyum bhaavangaleyum avatharippikkaan kazhiyumennu niroopakan vishadeekarikkunnu. 'Nalini'yile oru bhaagam udaaharanamaayi uddharichashesham adheham parayunnu: \"Ivideyum maari-maarikkondirikkunna bhaavavyathyaasangalaanu naam kaanunnathu.\""
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The critic explains that poetry can present changing experiences and emotions rather than merely a static picture. After quoting a passage from 'Nalini' as an example, he says, \"Here too, what we see are shifting shades of emotion.\""
+      },
+      "notes": "The expression 'ഇവിടെയും' literally contains the spatial deictic 'ഇവിടെ' ('here'), but it does not refer to the critic's physical location. It functions as textual or discourse deixis, pointing to the passage from 'Nalini' that has just been quoted: 'here too' means 'in this passage/example too.' A correct translation should preserve this discourse-deictic anchoring. Translating the sentence as though 'here' referred to a physical place would misinterpret the deictic center."
+    }
+  ]
+}
