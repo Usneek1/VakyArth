@@ -2,11 +2,6 @@
 
 **Evaluating Pragmatic Competence in LLMs across Indic Languages**
 
-Usneek Singh, Poorvaja Veera Balaji Kumar, Parth Nanda, Anand Madhusoodanan, Geyang Guo, Wei Xu, Junyi Jessy Li
-Georgia Institute of Technology · University of Texas at Austin
-**EMNLP 2026**
-
----
 
 Real-world communication often requires pragmatic reasoning — interpreting meanings implied through context and cultural convention rather than stated literally. Existing pragmatic evaluation remains largely limited to English and other high-resource languages, leaving Indic languages unexplored despite their linguistic and cultural diversity.
 
