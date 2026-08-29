@@ -472,6 +472,293 @@
         ],
         "authors_note": "Tests understanding of indirect requests and polite language: the son's positive comment about the field implies a request to take a photo, which is a common way to ask for permission in Tamil culture."
       }
+    },
+    {
+      "id": "ta_imp_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "kinship",
+        "guest-culture"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Karthik",
+              "utterance": "Chithi veetukku poren"
+            },
+            {
+              "speaker": "Amma",
+              "utterance": "Verum kaiyoda pogaatha"
+            }
+          ],
+          "question": "Amma enna solraanga?",
+          "options": [
+            "Kaila vazhayal pottutu po",
+            "Pazham illana vera edhachu vaangittu po",
+            "Chithi veetukku poga vendaam",
+            "Kai kaluvittu po"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Pazham illana vera edhachu vaangittu po"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "Karthik",
+              "utterance": "சித்தி வீட்டுக்கு போறேன்"
+            },
+            {
+              "speaker": "Amma",
+              "utterance": "வெறும் கையோட போகாத"
+            }
+          ],
+          "question": "அம்மா என்ன சொல்றாங்க?",
+          "options": [
+            "கையில வளையல் போட்டுட்டு போ",
+            "பழம் இல்லனா வேற ஏதாச்சு வாங்கிட்டு போ",
+            "சித்தி வீட்டுக்கு போக வேண்டாம்",
+            "கை கழுவிட்டு போ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "பழம் இல்லனா வேற ஏதாச்சு வாங்கிட்டு போ"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Karthik",
+              "utterance": "I am going to aunt's house."
+            },
+            {
+              "speaker": "Amma",
+              "utterance": "Don't go empty-handed."
+            }
+          ],
+          "question": "What is mother saying?",
+          "options": [
+            "Wear bangles in your hands and go",
+            "Take fruit or some thing else with you",
+            "Don't go to aunt's house",
+            "Wash your hands and go"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Take fruit or some thing else with you"
+          }
+        }
+      },
+      "explanation": "'Verum kaiyoda pogaatha' literally means don't go with empty hands. In Tamil kinship visits, it is a reminder to take fruit, sweets, or a small gift. It is not a ban on going, and it is not about bangles or washing one's hands.",
+      "metadata": {
+        "register": "family/kin-visit",
+        "cultural_markers": [
+          "never visit a relative's house empty-handed",
+          "fruit or sweets as a routine visiting gift"
+        ],
+        "authors_note": "Tests whether empty-handed is read as a gift obligation, not as a literal remark about hands."
+      }
+    },
+    {
+      "id": "ta_imp_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "euphemism",
+        "marriage-talk"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Pakkathu veetu aunty",
+              "utterance": "Ponnu padippu mudinjuduchaa?"
+            },
+            {
+              "speaker": "Amma",
+              "utterance": "Aama, ippo velaikkum poitaa"
+            },
+            {
+              "speaker": "Pakkathu veetu aunty",
+              "utterance": "Aprom enna, nalla naal paathu oru nalla kaariyam pesalaame"
+            }
+          ],
+          "question": "Aunty enna solraanga?",
+          "options": [
+            "Ponnu padippu pathi kekkuraanga",
+            "Ponnukku kalyanam pesalaam nu solraanga",
+            "Ponnu velai pathi pesuraanga",
+            "Nalla naal eppo varum nu kekkuraanga"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Ponnukku kalyanam pesalaam nu solraanga"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "பக்கத்து வீட்டு ஆன்ட்டி",
+              "utterance": "பொண்ணு படிப்பு முடிஞ்சுடுச்சா?"
+            },
+            {
+              "speaker": "அம்மா",
+              "utterance": "ஆமா, இப்போ வேலைக்கும் போயிட்டா"
+            },
+            {
+              "speaker": "பக்கத்து வீட்டு ஆன்ட்டி",
+              "utterance": "அப்புறம் என்ன, நல்ல நாள் பாத்து ஒரு நல்ல காரியம் பேசலாமே"
+            }
+          ],
+          "question": "ஆன்ட்டி என்ன சொல்றாங்க?",
+          "options": [
+            "பொண்ணு படிப்பு பத்தி கேக்குறாங்க",
+            "பொண்ணுக்கு கல்யாணம் பேசலாம்னு சொல்றாங்க",
+            "பொண்ணு வேலை பத்தி பேசுறாங்க",
+            "நல்ல நாள் எப்போ வரும்னு கேக்குறாங்க"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "பொண்ணுக்கு கல்யாணம் பேசலாம்னு சொல்றாங்க"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Neighbour aunty",
+              "utterance": "Has your daughter finished her studies?"
+            },
+            {
+              "speaker": "Amma",
+              "utterance": "Yes, she has started working too."
+            },
+            {
+              "speaker": "Neighbour aunty",
+              "utterance": "Then what, we can pick an auspicious day and talk about a good matter."
+            }
+          ],
+          "question": "What is the aunty saying?",
+          "options": [
+            "She is asking about the daughter's studies",
+            "She is suggesting they arrange the daughter's marriage",
+            "She is talking about the daughter's job",
+            "She is asking when the next auspicious day falls"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "She is suggesting they arrange the daughter's marriage"
+          }
+        }
+      },
+      "explanation": "'Nalla kaariyam' (a good matter) is a standard Tamil euphemism for a wedding, and the aunty never uses the word kalyanam. Coming right after studies and a job, the remark implies it is time to arrange the daughter's marriage, not a question about school, work, or the calendar.",
+      "metadata": {
+        "register": "neighbours/family-talk",
+        "cultural_markers": [
+          "'nalla kaariyam' as a euphemism for marriage",
+          "studies then job then marriage as the expected life sequence",
+          "neighbours raising marriage prospects indirectly"
+        ],
+        "authors_note": "Tests whether the euphemism is read as a marriage proposal cue rather than taken at face value."
+      }
+    },
+    {
+      "id": "ta_imp_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "implicature",
+        "scalar-implicature"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Anbu",
+              "utterance": "Kural ellam padichuttiya?"
+            },
+            {
+              "speaker": "Suriya",
+              "utterance": "Ne vera, rendu kural padikkurathukke inga mandai kaayuthu"
+            }
+          ],
+          "question": "Suriya enna solraan?",
+          "options": [
+            "Kural ellam padichitaan",
+            "Kural ellam padikkala, rendu kural padikkurathe kashtama irukku",
+            "Kural padikkurathu avanukku romba easy",
+            "Anbu va paaraattitu irukkaan"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Kural ellam padikkala, rendu kural padikkurathe kashtama irukku"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "அன்பு",
+              "utterance": "குறள் எல்லாம் படிச்சுட்டியா?"
+            },
+            {
+              "speaker": "சூர்யா",
+              "utterance": "நீ வேற, ரெண்டு குறள் படிக்குறதுக்கே இங்க மண்டை காயுது"
+            }
+          ],
+          "question": "சூர்யா என்ன சொல்றான்?",
+          "options": [
+            "குறள் எல்லாம் படிச்சிட்டான்",
+            "குறள் எல்லாம் படிக்கல, ரெண்டு குறள் படிக்குறதே கஷ்டமா இருக்கு",
+            "குறள் படிக்குறது அவனுக்கு ரொம்ப ஈஸி",
+            "அன்புவை பாராட்டிட்டு இருக்கான்"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "குறள் எல்லாம் படிக்கல, ரெண்டு குறள் படிக்குறதே கஷ்டமா இருக்கு"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Anbu",
+              "utterance": "Have you studied all the kurals?"
+            },
+            {
+              "speaker": "Suriya",
+              "utterance": "You're something else, even reading two kurals makes my head hurt."
+            }
+          ],
+          "question": "What is Suriya saying?",
+          "options": [
+            "He has read all the kurals",
+            "He has not read all of them; even two kurals is a struggle",
+            "Reading kurals is very easy for him",
+            "He is praising Anbu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "He has not read all of them; even two kurals is a struggle"
+          }
+        }
+      },
+      "explanation": "Suriya never says no. Saying that even two kurals make his head hurt implies he is nowhere near reading all of them. 'Ne vera' is mock exasperation at the question, not praise, and the struggle rules out the reading being easy.",
+      "metadata": {
+        "register": "friends/study",
+        "cultural_markers": [
+          "'kural' refers to a Thirukkural couplet, commonly assigned to students"
+        ],
+        "authors_note": "Tests scalar implicature: reporting a small part implies the whole is not done."
+      }
     }
   ]
 }

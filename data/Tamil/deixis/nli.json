@@ -140,77 +140,6 @@
       "label": "entailment"
     },
     {
-      "id": "ta_di_nli_004",
-      "type": "nli",
-      "phenomena": [
-        "discourse-deixis",
-        "anaphora",
-        "abstract-reference"
-      ],
-      "scripts": {
-        "latin": {
-          "hypothesis": "Kadaisi vaakiyathula Bavani avunga velai paartha valara mudiyumnu solranga",
-          "premise": [
-            {
-              "speaker": "Bavani",
-              "utterance": "Na vela mudunja aproma saaingalam oru puthu class poga poren"
-            },
-            {
-              "speaker": "Chithra",
-              "utterance": "Aana unaku velai pakurathukke neram seriya irukke"
-            },
-            {
-              "speaker": "Bavani",
-              "utterance": "Aama ana ithu en valarchikku romba mukkiyamnu nenaikuren"
-            }
-          ]
-        },
-        "tamil": {
-          "hypothesis": "கடைசி வாக்கியத்தில் பவானி அவங்க வேலை பார்த்தா வளர்ச்சி அடையும்னு சொல்றாங்க",
-          "premise": [
-            {
-              "speaker": "பவானி",
-              "utterance": "நா வேலை முடிஞ்ச அப்புறம் சாயங்காலம் ஒரு புது கிளாஸ் போக போறேன்"
-            },
-            {
-              "speaker": "சித்ரா",
-              "utterance": "ஆனா உனக்கு வேலை பார்க்குறதுக்கு நேரம் சரியா இருக்கே"
-            },
-            {
-              "speaker": "பவானி",
-              "utterance": "ஆமா ஆனா இது என் வளர்ச்சிக்கு ரொம்ப முக்கியம்னு நினைக்குறேன்"
-            }
-          ]
-        },
-        "english": {
-          "hypothesis": "In the last sentence, Bavani says that attending to her job will help her grow.",
-          "premise": [
-            {
-              "speaker": "Bavani",
-              "utterance": "After I finish work, I am going to attend a new class in the evening."
-            },
-            {
-              "speaker": "Chithra",
-              "utterance": "But you don’t have enough time even for your job?"
-            },
-            {
-              "speaker": "Bavani",
-              "utterance": "Yes, but I think this is very important for my growth."
-            }
-          ]
-        }
-      },
-      "explanation": "The demonstrative 'this' ('இது'/'ithu') refers to Bavani's plan to attend the new class, not her job; therefore the hypothesis is false (contradiction).",
-      "metadata": {
-        "register": "friendly-conversation",
-        "difficulty": "medium",
-        "cultural_markers": [
-          "Tamil discourse deixis: 'இது' often points to the immediately preceding plan or action"
-        ]
-      },
-      "label": "contradiction"
-    },
-    {
       "id": "ta_di_nli_005",
       "type": "nli",
       "phenomena": [
@@ -272,6 +201,103 @@
         ]
       },
       "label": "entailment"
+    },
+    {
+      "id": "ta_di_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "person-deixis",
+        "honorifics",
+        "social-deixis"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Teacher class ku vanthanga. Pasanga ellarum enthirichu ninnanga. Avunga ukkaarunga nu sonnanga.",
+          "hypothesis": "Pasanga teacher kitta ukkaara sonnanga."
+        },
+        "tamil": {
+          "premise": "டீச்சர் கிளாஸ்க்கு வந்தாங்க. பசங்க எல்லாரும் எந்திரிச்சு நின்னாங்க. அவங்க உக்காருங்கனு சொன்னாங்க.",
+          "hypothesis": "பசங்க டீச்சர் கிட்ட உக்கார சொன்னாங்க."
+        },
+        "english": {
+          "premise": "The teacher came into class. All the children stood up. They said, 'Please sit.'",
+          "hypothesis": "The children told the teacher to sit."
+        }
+      },
+      "explanation": "'Avunga' is honorific person deixis pointing to the teacher, who tells the students to sit. The hypothesis that the children issued the sit-command misassigns the deictic subject.",
+      "metadata": {
+        "register": "school",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "avunga honorific for teacher",
+          "standing when teacher enters"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_di_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "place-deixis",
+        "demonstratives"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Meena sandhaiyila irukkapo thangachi kitta, inga pazham nalla irukke, anga kaai kadai kooda irukku nu sonna.",
+          "hypothesis": "Pazham kadai um kaai kadai um ore kadai."
+        },
+        "tamil": {
+          "premise": "மீனா சந்தையில இருக்கப்போ தங்கச்சி கிட்ட, இங்க பழம் நல்லா இருக்கே, அங்க காய்கடை கூட இருக்குனு சொன்னா.",
+          "hypothesis": "பழக் கடையும் காய்கடையும் ஒரே கடை."
+        },
+        "english": {
+          "premise": "While Meena was at the market she told her younger sister, 'the fruit is good here, and the vegetable shop is over there too.'",
+          "hypothesis": "The fruit stall and the vegetable shop are the same shop."
+        }
+      },
+      "explanation": "'Inga' marks the fruit as close to Meena and 'anga' places the vegetable shop away from her, so they cannot be one and the same shop.",
+      "metadata": {
+        "register": "market",
+        "difficulty": "easy",
+        "cultural_markers": [
+          "inga vs anga spatial contrast",
+          "sandhai stalls"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_di_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "time-deixis",
+        "anaphora"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Nethu mazhai vandhappo dhan current pochu, ippo irukku.",
+          "hypothesis": "Innikku current illa."
+        },
+        "tamil": {
+          "premise": "நேத்து மழை வந்தப்போ தான் கரண்ட் போச்சு, இப்போ இருக்கு.",
+          "hypothesis": "இன்னிக்கு கரண்ட் இல்ல."
+        },
+        "english": {
+          "premise": "The power went out only when it rained yesterday; now it is back.",
+          "hypothesis": "There is no power today."
+        }
+      },
+      "explanation": "'Vandhappo' anchors the outage to yesterday's rain, while 'ippo' points to the present, when the power is back. So the claim that there is no power today is contradicted.",
+      "metadata": {
+        "register": "informal",
+        "difficulty": "medium",
+        "cultural_markers": [
+          "-appo relative time clause",
+          "ippo as present reference"
+        ]
+      },
+      "label": "contradiction"
     }
   ]
 }

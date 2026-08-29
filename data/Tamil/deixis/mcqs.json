@@ -512,6 +512,229 @@
         "difficulty": "medium",
         "authors_note": "Tests person deixis resolution in reported speech (referent = addressee)."
       }
+    },
+    {
+      "id": "ta_deix_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "person-deixis",
+        "inclusive-we",
+        "social-deixis"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Amma paiyan kitta, naama kovilukku pogalaam, nee bag eduthukkonu sonnanga. Appa office ku poittaar.",
+          "question": "'Naama' nu yaara solluraanga?",
+          "options": [
+            "Amma mattum",
+            "Appa um paiyan um",
+            "Amma um paiyan um",
+            "Veetla irukka ellarum illa appa um"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Amma um paiyan um"
+          }
+        },
+        "tamil": {
+          "context": "அம்மா பையன் கிட்ட, நாம கோவிலுக்கு போலாம், நீ பேக் எடுத்துக்கோனு சொன்னாங்க. அப்பா ஆபீஸ்க்கு போயிட்டார்.",
+          "question": "'நாம'னு யாரை சொல்றாங்க?",
+          "options": [
+            "அம்மா மட்டும்",
+            "அப்பாவும் பையனும்",
+            "அம்மாவும் பையனும்",
+            "வீட்ல இருக்க எல்லாரும் இல்ல அப்பாவும்"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "அம்மாவும் பையனும்"
+          }
+        },
+        "english": {
+          "context": "Mother told her son, 'We can go to the temple, you take the bag.' Father has already left for the office.",
+          "question": "Who does 'naama' (we) refer to?",
+          "options": [
+            "Only mother",
+            "Father and the son",
+            "Mother and the son",
+            "Everyone in the house including father"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Mother and the son"
+          }
+        }
+      },
+      "explanation": "'Naama' is inclusive of speaker and addressee. Father has left, so the temple 'we' is mother and son, not father.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "naama inclusive person deixis",
+          "temple visit with parent"
+        ],
+        "difficulty": "medium",
+        "authors_note": "Tests inclusive-we against a third person who is already gone."
+      }
+    },
+    {
+      "id": "ta_deix_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "place-deixis",
+        "speaker-orientation"
+      ],
+      "scripts": {
+        "latin": {
+          "dialogue": [
+            {
+              "speaker": "Kannan",
+              "utterance": "Naan ipo bus stand la irukken"
+            },
+            {
+              "speaker": "Revathi",
+              "utterance": "Naan appo oda thoppula iruken, veetla yaarum illa, ne inga variya, illa anga poriya"
+            }
+          ],
+          "question": "Revathi 'inga' nu etha solra?",
+          "options": [
+            "Bus stand",
+            "Revathi irukkura veedu",
+            "Thoppu",
+            "Appa oda veedu"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Thoppu"
+          }
+        },
+        "tamil": {
+          "dialogue": [
+            {
+              "speaker": "கண்ணன்",
+              "utterance": "நான் இப்போ பஸ் ஸ்டாண்ட்ல இருக்கேன்"
+            },
+            {
+              "speaker": "ரேவதி",
+              "utterance": "நான் அப்பா ஓட தோப்புல இருக்கேன், வீட்ல யாரும் இல்ல, நீ இங்க வரியா, இல்ல அங்க போறியா"
+            }
+          ],
+          "question": "ரேவதி 'இங்க'னு எதை சொல்றா?",
+          "options": [
+            "பஸ் ஸ்டாண்ட்",
+            "ரேவதி இருக்கிற வீடு",
+            "தோப்பு",
+            "அப்பா ஓட வீடு"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "தோப்பு"
+          }
+        },
+        "english": {
+          "dialogue": [
+            {
+              "speaker": "Kannan",
+              "utterance": "I am at the bus stand now."
+            },
+            {
+              "speaker": "Revathi",
+              "utterance": "I am at father's grove, there is nobody at home; will you come here, or will you go there?"
+            }
+          ],
+          "question": "What does Revathi's 'here' refer to?",
+          "options": [
+            "The bus stand",
+            "Revathi's house",
+            "The grove",
+            "Father's house"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "The grove"
+          }
+        }
+      },
+      "explanation": "'Inga' is anchored to where Revathi is speaking from, the grove, not the house she says is empty. 'Anga' points away from her. The deictic center is the speaker, not the addressee.",
+      "metadata": {
+        "register": "informal",
+        "cultural_markers": [
+          "inga/anga speaker-anchored place deixis"
+        ],
+        "difficulty": "medium",
+        "authors_note": "Tests that here/there follow the current speaker, not the other person."
+      }
+    },
+    {
+      "id": "ta_deix_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "time-deixis",
+        "reported-speech",
+        "center-shift"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Thingatkizhamai amma, naalai maru naal paatti veetukku pogalaam nu sonnanga. Innaikku buthankilamai ayiduchu",
+          "question": "Paatti veetukku eppo poga sonnanga?",
+          "options": [
+            "Thingal",
+            "Sevvaai",
+            "Budhan",
+            "Vyaazhan"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Budhan"
+          }
+        },
+        "tamil": {
+          "context": "திங்கட்கிழமை அம்மா, நாளை மறுநாள் பாட்டி வீட்டுக்கு போலாம்னு சொன்னாங்க. இன்னைக்கு புதன்கிழமை ஆயிடுச்சு.",
+          "question": "பாட்டி வீட்டுக்கு எப்போ போக சொன்னாங்க?",
+          "options": [
+            "திங்கள்",
+            "செவ்வாய்",
+            "புதன்",
+            "வியாழன்"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "புதன்"
+          }
+        },
+        "english": {
+          "context": "On Monday mother said, 'we can go to grandmother's house the day after tomorrow.' Today it has become Wednesday.",
+          "question": "When did she say they would go to grandmother's house?",
+          "options": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Wednesday"
+          }
+        }
+      },
+      "explanation": "'Naalai maru naal' is anchored to the Monday speech event, so it means Monday plus two days, which is Wednesday, the current day. It is not Thursday, which would be the day after tomorrow counted from now.",
+      "metadata": {
+        "register": "family",
+        "cultural_markers": [
+          "naalai maru naal relative to reported speech time",
+          "weekday arithmetic"
+        ],
+        "difficulty": "hard",
+        "authors_note": "Tests temporal deixis center in reported speech vs utterance time: the target day turns out to be today, not two days from now."
+      }
     }
   ]
 }

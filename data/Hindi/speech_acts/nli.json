@@ -218,73 +218,6 @@
       "type": "nli",
       "phenomena": [
         "speech-acts",
-        "phatic-communion",
-        "greeting-ritual"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": "Do purane parichit society ke gate par mile. Ek ne muskura kar poocha, 'Aur bhai, sab badhiya?' Doosre ne bina rukte jawab diya, 'Haan bhai, sab theek.'",
-          "hypothesis": "Pehla insaan doosre ke jeevan ke baare mein detail information ikattha karna chahta hai."
-        },
-        "devanagari": {
-          "premise": "दो पुराने परिचित सोसाइटी के गेट पर मिले। एक ने मुस्कुरा कर पूछा, 'और भाई, सब बढ़िया?' दूसरे ने बिना रुके जवाब दिया, 'हाँ भाई, सब ठीक।'",
-          "hypothesis": "पहला इंसान दूसरे के जीवन के बारे में डिटेल इंफॉर्मेशन इकट्ठा करना चाहता है।"
-        },
-        "english": {
-          "premise": "Two acquaintances met at the society gate. One smiled and asked, 'So bhai, all good?' The other replied without stopping, 'Yeah bhai, all fine.'",
-          "hypothesis": "The first person wants to gather detailed information about the other person's life."
-        }
-      },
-      "explanation": "This is a phatic exchange the quick, formulaic question-and-answer without either party stopping signals its function is social acknowledgment, not information-seeking, directly contradicting a reading where genuine detailed inquiry is intended.",
-      "metadata": {
-        "register": "neighbourhood-casual",
-        "cultural_markers": [
-          "passing greeting",
-          "phatic ritual",
-          "society gate exchange"
-        ],
-        "difficulty": "medium"
-      },
-      "label": "contradiction"
-    },
-    {
-      "id": "hi_sa_nli_008",
-      "type": "nli",
-      "phenomena": [
-        "speech-acts",
-        "indirect-offer",
-        "hospitality"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": "Chai peete waqt mehmaan ke paas baithe Sharma ji ne kaha, 'Arre, bahar toh bahut garmi hai aaj.'",
-          "hypothesis": "Sharma ji mehmaan ko thanda paani ya pankha jaisi koi comfort dene ka soch rahe hain."
-        },
-        "devanagari": {
-          "premise": "चाय पीते वक़्त मेहमान के पास बैठे शर्मा जी ने कहा, 'अरे, बाहर तो बहुत गर्मी है आज।'",
-          "hypothesis": "शर्मा जी मेहमान को ठंडा पानी या पंखा जैसी कोई कम्फर्ट देने का सोच रहे हैं।"
-        },
-        "english": {
-          "premise": "While having tea with the guest, Sharma ji said, 'Oh, it's very hot outside today.'",
-          "hypothesis": "Sharma ji is thinking of offering the guest some comfort, like cold water or a fan."
-        }
-      },
-      "explanation": "In a hosting context, an unprompted remark about heat conventionally functions as a lead-in to a comfort offer (fan, cold drink, insisting the guest stay). The pragmatic force of the utterance entails this offer-oriented intent even though it is not stated directly.",
-      "metadata": {
-        "register": "host-guest",
-        "cultural_markers": [
-          "Indian hospitality cue",
-          "indirect comfort offer"
-        ],
-        "difficulty": "medium"
-      },
-      "label": "entailment"
-    },
-    {
-      "id": "hi_sa_nli_009",
-      "type": "nli",
-      "phenomena": [
-        "speech-acts",
         "indirect-refusal",
         "cost-mention"
       ],
@@ -314,7 +247,7 @@
       "label": "entailment"
     },
     {
-      "id": "hi_sa_nli_010",
+      "id": "hi_sa_nli_008",
       "type": "nli",
       "phenomena": [
         "speech-acts",
@@ -347,40 +280,7 @@
       "label": "entailment"
     },
     {
-      "id": "hi_sa_nli_011",
-      "type": "nli",
-      "phenomena": [
-        "speech-acts",
-        "sarcasm",
-        "workplace"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": "Rohan roz office late aata tha. Ek din voh 10 baje aaya, jabki office time 9 baja tha. Boss ne muskura kar kaha, 'Wah Rohan, aaj toh sabse pehle aa gaye!'",
-          "hypothesis": "Boss Rohan ki punctuality se khush hai."
-        },
-        "devanagari": {
-          "premise": "रोहन रोज़ ऑफिस लेट आता था। एक दिन वो 10 बजे आया, जबकि ऑफिस टाइम 9 बजा था। बॉस ने मुस्कुरा कर कहा, 'वाह रोहन, आज तो सबसे पहले आ गए!'",
-          "hypothesis": "बॉस रोहन की पंक्चुऐलिटी से खुश है।"
-        },
-        "english": {
-          "premise": "Rohan came to office late every day. One day he came at 10 AM, while office time was 9 AM. The boss smiled and said, 'Wow Rohan, today you're the first one here!'",
-          "hypothesis": "The boss is pleased with Rohan's punctuality."
-        }
-      },
-      "explanation": "The literal praise is contradicted by the context (Rohan is an hour late, again). The utterance is sarcastic, functioning as criticism, so reading it as genuine satisfaction directly contradicts the intended meaning.",
-      "metadata": {
-        "register": "workplace-formal",
-        "cultural_markers": [
-          "sarcasm as soft reprimand",
-          "boss-employee dynamic"
-        ],
-        "difficulty": "medium"
-      },
-      "label": "contradiction"
-    },
-    {
-      "id": "hi_sa_nli_012",
+      "id": "hi_sa_nli_009",
       "type": "nli",
       "phenomena": [
         "speech-acts",
@@ -414,7 +314,7 @@
       "label": "entailment"
     },
     {
-      "id": "hi_sa_nli_013",
+      "id": "hi_sa_nli_010",
       "type": "nli",
       "phenomena": [
         "speech-acts",
@@ -447,7 +347,7 @@
       "label": "neutral"
     },
     {
-      "id": "hi_sa_nli_014",
+      "id": "hi_sa_nli_011",
       "type": "nli",
       "phenomena": [
         "speech-acts",

@@ -211,109 +211,6 @@
       "id": "hi_nli_007",
       "type": "nli",
       "phenomena": [
-        "implicature",
-        "metaphor",
-        "food-context"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": [
-            {
-              "speaker": "A",
-              "utterance": "Chalo aaj bahar khaana khaate hain."
-            },
-            {
-              "speaker": "B",
-              "utterance": "Mere paas toh is mahine phooti kaudi bhi nahi hai."
-            }
-          ],
-          "hypothesis": "B ke paas bahar khaana khaane ke liye paise hain."
-        },
-        "devanagari": {
-          "premise": [
-            {
-              "speaker": "A",
-              "utterance": "चलो आज बाहर खाना खाते हैं।"
-            },
-            {
-              "speaker": "B",
-              "utterance": "मेरे पास तो इस महीने फूटी कौड़ी भी नहीं है।"
-            }
-          ],
-          "hypothesis": "B के पास बाहर खाना खाने के लिए पैसे हैं।"
-        },
-        "english": {
-          "premise": [
-            {
-              "speaker": "A",
-              "utterance": "Let's eat out today."
-            },
-            {
-              "speaker": "B",
-              "utterance": "I don't even have a broken cowrie shell this month."
-            }
-          ],
-          "hypothesis": "B has money to eat out."
-        }
-      },
-      "label": "contradiction",
-      "explanation": "'Phooti kaudi na hona' (not having even a broken cowrie shell) is a Hindi idiom meaning to be completely broke. This directly contradicts the hypothesis that B has money."
-    },
-    {
-      "id": "hi_nli_008",
-      "type": "nli",
-      "phenomena": [
-        "hyperbole",
-        "idiom",
-        "goal-vs-literal"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": "Coach ne team se kaha, 'Aaj tumne mैदान par aasmaan cheer diya.'",
-          "hypothesis": "Team ne sach mein aasmaan ko phaad diya."
-        },
-        "devanagari": {
-          "premise": "कोच ने टीम से कहा, 'आज तुमने मैदान पर आसमान चीर दिया।'",
-          "hypothesis": "टीम ने सच में आसमान को फाड़ दिया।"
-        },
-        "english": {
-          "premise": "The coach told the team, 'Today you tore through the sky on the field.'",
-          "hypothesis": "The team literally tore apart the sky."
-        }
-      },
-      "label": "contradiction",
-      "explanation": "'Aasmaan cheer dena' is a hyperbolic expression praising an outstanding performance, not a literal claim about the sky, so the hypothesis is contradicted."
-    },
-    {
-      "id": "hi_nli_009",
-      "type": "nli",
-      "phenomena": [
-        "sarcasm",
-        "implicature",
-        "irony",
-        "negative-evaluation"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": "Maa ne apne bete ke bikhre hue kamre ko dekhkar kaha, 'Bahut sundar tareeke se sab kuch sajaya hai tumne.'",
-          "hypothesis": "Kamra sundar tareeke se saja hua tha."
-        },
-        "devanagari": {
-          "premise": "माँ ने अपने बेटे के बिखरे हुए कमरे को देखकर कहा, 'बहुत सुंदर तरीके से सब कुछ सजाया है तुमने।'",
-          "hypothesis": "कमरा सुंदर तरीके से सजा हुआ था।"
-        },
-        "english": {
-          "premise": "The mother saw her son's messy room and said, 'You've arranged everything so beautifully.'",
-          "hypothesis": "The room was beautifully arranged."
-        }
-      },
-      "label": "contradiction",
-      "explanation": "The mother's sarcastic remark, made about a messy room, communicates the opposite of its literal meaning, contradicting the hypothesis that the room was actually well-arranged."
-    },
-    {
-      "id": "hi_nli_010",
-      "type": "nli",
-      "phenomena": [
         "indirect-refusal",
         "politeness-implicature",
         "pragmatic-inference"
@@ -363,7 +260,7 @@
       "explanation": "B indirectly declines by citing a prior commitment for the car (servicing), implicating unavailability, which contradicts the hypothesis that B will lend it."
     },
     {
-      "id": "hi_nli_011",
+      "id": "hi_nli_008",
       "type": "nli",
       "phenomena": [
         "scalar-implicature",
@@ -413,32 +310,7 @@
       "explanation": "'Sar se bojh utarna' (a burden lifted from one's head) is a Hindi idiom for emotional relief from a long-standing responsibility, not a literal physical event."
     },
     {
-      "id": "hi_nli_013",
-      "type": "nli",
-      "phenomena": [
-        "implicature",
-        "sarcasm",
-        "quality-critique"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": "Ghar ki nayi paint job dekhkar padosi ne kaha, 'Wah, kya professional kaam kiya hai!'",
-          "hypothesis": "Padosi paint job se prabhavit hua tha, aur kaam professional tha."
-        },
-        "devanagari": {
-          "premise": "घर की नई पेंट जॉब देखकर पड़ोसी ने कहा, 'वाह, क्या प्रोफेशनल काम किया है!'",
-          "hypothesis": "पड़ोसी पेंट जॉब से प्रभावित हुआ था, और काम प्रोफेशनल था।"
-        },
-        "english": {
-          "premise": "Seeing the shoddy new paint job, the neighbor said, 'Wow, what professional work!'",
-          "hypothesis": "The neighbor was impressed by the paint job, and the work was professional."
-        }
-      },
-      "label": "neutral",
-      "explanation": "Without further context (e.g. tone, visible flaws mentioned), it is ambiguous whether the neighbor's remark is sincere praise or sarcasm; the premise alone does not confirm the hypothesis either way."
-    },
-    {
-      "id": "hi_nli_014",
+      "id": "hi_nli_009",
       "type": "nli",
       "phenomena": [
         "indirect-refusal",

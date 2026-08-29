@@ -124,6 +124,69 @@
         "text": "I'll even fall at your feet and ask for forgiveness, just please forgive me."
       },
       "notes": "The phrase 'Un kaalla vizhunthu' (fall at your feet) is a culturally specific expression of deep humility and earnestness in seeking forgiveness. The translation must capture this level of sincerity and the cultural nuance of the expression to convey the speaker's genuine remorse and plea for forgiveness."
+    },
+    {
+      "id": "ta_sa_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "warning",
+        "question-as-command"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Kudai eduthuttiya? Velila iruttittu varuthu, mazha vara poguthu nu nenaikkuren.",
+          "tamil": "குடை எடுத்துட்டியா? வெளியில இருட்டிட்டு வருது, மழை வர போகுதுனு நினைக்கிறேன்."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Did you take the umbrella? It is getting dark outside; I think it is going to rain."
+      },
+      "notes": "The question is not a request for information. Followed by the darkening sky and the speaker's guess about rain, it is a warning to carry the umbrella. A translation that treats it as a genuine yes/no question misses the directive force."
+    },
+    {
+      "id": "ta_sa_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "consolation",
+        "offer-of-support"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Nadanthadhu nadanthuduchu, neenga thairiyamaa irunga, naanga ellaam koodave irukkom.",
+          "tamil": "நடந்தது நடந்துடுச்சு, நீங்க தைரியமா இருங்க, நாங்க எல்லாம் கூடவே இருக்கோம்."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "What has happened has happened; stay strong, all of us are right here with you."
+      },
+      "notes": "'Thairiyamaa irunga' is consolation, not an order to feel brave, and 'koodave irukkom' offers continued support rather than reporting where the speakers are standing. Rendering the two as a command plus a statement of location loses the condolence force."
+    },
+    {
+      "id": "ta_sa_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "speech-acts",
+        "apology",
+        "promise"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Sari sari, na dhan thappu, kovappadaatha, innoruthadava idhu nadakkathu, enna nambalam",
+          "tamil": "சரி சரி, நான் தான் தப்பு, கோவப்படாத, இன்னொரு தடவ இது நடக்காது, என்ன நம்பலாம்."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "All right, all right, it was my fault; don't be angry, this will not happen again, you can trust me."
+      },
+      "notes": "Stacked speech acts: conceding the point, admitting fault, asking the hearer to calm down, promising no repeat, and finally inviting trust. 'Enna nambalam' is not a question about ability but a bid for the hearer's confidence, and dropping any one of these flattens the repair."
     }
   ]
 }

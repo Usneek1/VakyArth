@@ -228,68 +228,6 @@
         "text": "Well, it's a government office what do you expect, this is just how things work here."
       },
       "notes": "'Yahan toh aisa hi chalta hai' (this is just how it goes here) is a resigned acknowledgment of systemic inefficiency, not a genuine description of a rule. The phrase carries a shrug of weary acceptance toward Indian bureaucratic delays, which the English translation must render with a similarly resigned, slightly exasperated tone rather than a neutral statement of fact."
-    },
-    {
-      "id": "hi_tr_012",
-      "type": "translation",
-      "phenomena": [
-        "sarcasm",
-        "irony",
-        "household-context"
-      ],
-      "source": {
-        "language": "hindi",
-        "scripts": {
-          "devanagari": "दो प्लेट धो दीं और लग रहा है जैसे पूरा घर संभाल लिया।",
-          "latin": "Do plate dho din aur lag raha hai jaise poora ghar sambhal liya."
-        }
-      },
-      "reference_translation": {
-        "language": "english",
-        "text": "Washed two plates and now it's like he's single-handedly run the whole household."
-      },
-      "notes": "The speech act is sarcastic mockery of someone overstating a minor domestic contribution. There is no explicit marker of sarcasm in the Hindi it relies on the absurd gap between the trivial act (washing two plates) and the grand claim implied ('running the whole household'). The English must preserve this deadpan disproportion for the irony to land."
-    },
-    {
-      "id": "hi_tr_013",
-      "type": "translation",
-      "phenomena": [
-        "euphemism",
-        "unemployment"
-      ],
-      "source": {
-        "language": "hindi",
-        "scripts": {
-          "devanagari": "फिलहाल वो घर पर ही हैं, कुछ नया देख रहे हैं।",
-          "latin": "Filhaal voh ghar par hi hain, kuchh naya dekh rahe hain."
-        }
-      },
-      "reference_translation": {
-        "language": "english",
-        "text": "He's at home for now, looking into something new."
-      },
-      "notes": "This is a softened way of saying someone is currently unemployed or between jobs, avoiding the more direct and socially uncomfortable 'berozgaar hai' (is unemployed). 'Kuchh naya dekh rahe hain' (looking at something new) is a face-saving euphemism, and the English translation should preserve this same vague, hopeful phrasing rather than stating unemployment outright."
-    },
-    {
-      "id": "hi_tr_014",
-      "type": "translation",
-      "phenomena": [
-        "social-obligation",
-        "kinship",
-        "duty"
-      ],
-      "source": {
-        "language": "hindi",
-        "scripts": {
-          "devanagari": "माता-पिता का ख्याल रखना बेटे का फ़र्ज़ होता है।",
-          "latin": "Maata-pita ka khyaal rakhna bete ka farz hota hai."
-        }
-      },
-      "reference_translation": {
-        "language": "english",
-        "text": "Taking care of one's parents is a son's duty."
-      },
-      "notes": "This is a cultural value statement rooted in filial obligation, similar in register to the 'respecting elders' example. 'Farz' (duty/obligation) carries moral and social weight beyond a simple preference, and the English translation should retain the sense of an expected, near-obligatory social role rather than softening it to a suggestion."
     }
   ]
 }

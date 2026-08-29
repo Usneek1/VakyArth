@@ -444,6 +444,200 @@
         ],
         "authors_note": "Tests recognition of indirect suggestion for conflict resolution through communication with an elder."
       }
+    },
+    {
+      "id": "ta_sa_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Deepakum thambium veetukku veliyila vilayaaditu irundhaanga. Deepak thambi kitta, potta veyil adikkuthu, oru glass thanni iruntha nalla irukkum nu sonnan.",
+          "question": "Deepak enna kekkuran?",
+          "options": [
+            "Veyil pathi pesuran",
+            "Thambi kitta thanni konduvara kekkuran",
+            "Vilayaandathu podhum nu sonnan",
+            "Thambi ku thanni venuma nu kekkuran"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Thambi kitta thanni konduvara kekkuran"
+          }
+        },
+        "tamil": {
+          "context": "தீபக்கும் தம்பியும் வீட்டுக்கு வெளியில விளையாடிட்டு இருந்தாங்க. தீபக் தம்பி கிட்ட, பொட்ட வெயில் அடிக்குது, ஒரு கிளாஸ் தண்ணி இருந்தா நல்லா இருக்கும்னு சொன்னான்.",
+          "question": "தீபக் என்ன கேக்குறான்?",
+          "options": [
+            "வெயில் பத்தி பேசுறான்",
+            "தம்பி கிட்ட தண்ணி கொண்டுவர கேக்குறான்",
+            "விளையாண்டது போதும்னு சொன்னான்",
+            "தம்பிக்கு தண்ணி வேணுமானு கேக்குறான்"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "தம்பி கிட்ட தண்ணி கொண்டுவர கேக்குறான்"
+          }
+        },
+        "english": {
+          "context": "Deepak and his younger brother were playing outside the house. Deepak told his brother, 'the sun is blazing, it would be nice to have a glass of water.'",
+          "question": "What is Deepak asking?",
+          "options": [
+            "Talking about the heat",
+            "Asking his brother to bring water",
+            "Saying they have played enough",
+            "Asking if his brother wants water"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Asking his brother to bring water"
+          }
+        }
+      },
+      "explanation": "Mentioning the blazing sun only sets up the request; the point of saying a glass of water would be nice is to get the younger brother to fetch it. It is not a comment on the weather, a call to stop playing, or an offer of water to the brother.",
+      "metadata": {
+        "register": "siblings/play",
+        "cultural_markers": [
+          "indirect request via stating a want",
+          "asking a younger sibling to fetch"
+        ],
+        "authors_note": "From the generation prompt: request water without a direct imperative."
+      }
+    },
+    {
+      "id": "ta_sa_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "apology",
+        "promise"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Appa ponna school la irunthu kootittu vara romba late aayiduchu. Teacher munnaadi, innaikku office la vela mudiyala, adutha thadava nerathukku vanthuduren nu sonnaanga.",
+          "question": "Appa enna panraanga?",
+          "options": [
+            "Teacher ah thitturaanga",
+            "Mannippu kettu, adutha thadava nerathukku varen nu promise panraanga",
+            "Ponna school la thangi irukka solraanga",
+            "Teacher kitta time enna nu kekkuraanga"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Mannippu kettu, adutha thadava nerathukku varen nu promise panraanga"
+          }
+        },
+        "tamil": {
+          "context": "அப்பா பொண்ண ஸ்கூல்ல இருந்து கூட்டிட்டு வர ரொம்ப லேட் ஆயிடுச்சு. டீச்சர் முன்னாடி, இன்னைக்கு ஆபீஸ்ல வேலை முடியல, அடுத்த தடவ நேரத்துக்கு வந்துடுறேன்னு சொன்னாங்க.",
+          "question": "அப்பா என்ன பண்றாங்க?",
+          "options": [
+            "டீச்சரை திட்டுறாங்க",
+            "மன்னிப்பு கேட்டு, அடுத்த தடவ நேரத்துக்கு வரேன்னு ப்ராமிஸ் பண்றாங்க",
+            "பொண்ண ஸ்கூல்ல தங்கி இருக்க சொல்றாங்க",
+            "டீச்சர் கிட்ட டைம் என்னனு கேக்குறாங்க"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "மன்னிப்பு கேட்டு, அடுத்த தடவ நேரத்துக்கு வரேன்னு ப்ராமிஸ் பண்றாங்க"
+          }
+        },
+        "english": {
+          "context": "The father was very late to pick his daughter up from school. In front of the teacher he said, 'the work at the office did not get finished today; next time I will come on time.'",
+          "question": "What is the father doing?",
+          "options": [
+            "Scolding the teacher",
+            "Apologizing and promising to come on time next time",
+            "Telling them to keep the girl at school",
+            "Asking the teacher what the time is"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Apologizing and promising to come on time next time"
+          }
+        }
+      },
+      "explanation": "The father never says sorry outright, but offering the unfinished office work as the reason for the delay does the apologizing, and 'next time I will come on time' commits him to being punctual. It is neither a complaint about the teacher nor a request for the time.",
+      "metadata": {
+        "register": "school/parent",
+        "cultural_markers": [
+          "excuse standing in for an explicit apology",
+          "promise of punctuality to a teacher"
+        ],
+        "authors_note": "Drawn from the generation item on late pickup; tests recognition of an implicit apology fused with a commissive."
+      }
+    },
+    {
+      "id": "ta_sa_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "speech-acts",
+        "warning",
+        "rhetorical-question"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Paiyan scooter pidichuttu helmet illama kelamburappo, appa, thalai la edachu irukka unakku nu kettaar.",
+          "question": "Appa enna solraar?",
+          "options": [
+            "Thalai vali irukka nu kekkuraar",
+            "Helmet pottu po nu thitturaaru",
+            "Scooter vela paaru nu solraar",
+            "Paiyan ku thalai nalla irukku nu paaraatturaar"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Helmet pottu po nu thitturaaru"
+          }
+        },
+        "tamil": {
+          "context": "பையன் ஸ்கூட்டர் பிடிச்சுட்டு ஹெல்மெட் இல்லாம கிளம்பறப்போ, அப்பா, தலைல எதாச்சும் இருக்கா உனக்குனு கேட்டார்.",
+          "question": "அப்பா என்ன சொல்றார்?",
+          "options": [
+            "தலை வலி இருக்கான்னு கேக்குறார்",
+            "ஹெல்மெட் போட்டு போனு திட்டுறார்",
+            "ஸ்கூட்டர் வேல பாருன்னு சொல்றார்",
+            "பையனுக்கு தலை நல்லா இருக்குனு பாராட்டுறார்"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ஹெல்மெட் போட்டு போனு திட்டுறார்"
+          }
+        },
+        "english": {
+          "context": "When the son took the scooter and was leaving without a helmet, father asked, 'is there anything at all inside your head?'",
+          "question": "What is father saying?",
+          "options": [
+            "Asking if he has a headache",
+            "Scolding him to wear a helmet",
+            "Telling him to service the scooter",
+            "Praising that the boy has a good head"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Scolding him to wear a helmet"
+          }
+        }
+      },
+      "explanation": "Asking whether there is anything inside the boy's head questions his sense, not his anatomy, and coming just as he leaves without a helmet it works as a scolding warning to put one on. It is not a question about a headache, an instruction about the scooter.",
+      "metadata": {
+        "register": "family/safety",
+        "cultural_markers": [
+          "rhetorical question about sense as a rebuke",
+          "helmet before riding"
+        ],
+        "authors_note": "Tests a warning delivered as a scolding rhetorical question."
+      }
     }
   ]
 }

@@ -128,6 +128,69 @@
         "text": "Street cricket is the first love for everyone growing up in our neck of the woods. There’s a special kind of joy in throwing your school bag aside and running to the street with a plastic bat after school. Playing in narrow lanes and alleys with our own rules like 'one pitch out' makes up our childhood memories. The cricket fever that started there is what has turned us into CSK fans and Dhoni devotees today. For us, cricket isn’t just a sport, it’s an emotion!"
       },
       "notes": "This passage maintains coherence through next-sentence coherence: each sentence builds on the previous one to create a narrative about the cultural significance of street cricket. The translation should preserve this flow of ideas to maintain the emotional impact. A translation that treats each sentence as an isolated statement without connecting them into a cohesive story about the love for cricket would fail to capture the discourse-level structure of the original."
+    },
+    {
+      "id": "ta_disc_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "causal-chain",
+        "coastal-livelihood"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Vaanilai arikkaila puyal echarikkai vandhadhum, meenavargal vallaththai karaikku thallitaanga. Kadalukku poga thadai irukkirathunaala market la meen kammi aayiduchu, vilai romba eriduchu. Adhanaala oru vaaram meen kadai kaaranga ice la irukkirathaye vithaanga. Puyal thaandi kadal amaidhi aana dhan meenava kudumbangalukku nimmadhi",
+          "tamil": "வானிலை அறிக்கைல புயல் எச்சரிக்கை வந்ததும், மீனவர்கள் வள்ளத்தை கரைக்கு தள்ளிட்டாங்க. கடலுக்கு போக தடை இருக்கிறதுனால மார்க்கெட்ல மீன் கம்மி ஆயிடுச்சு, விலை ரொம்ப ஏறிடுச்சு. அதனால ஒரு வாரம் மீன் கடைக்காரங்க ஐஸ்ல இருக்கிறதையே விற்றாங்க. புயல் தாண்டி கடல் அமைதி ஆனா தான் மீனவ குடும்பங்களுக்கு நிம்மதி."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "As soon as the weather report carried a cyclone warning, the fishermen pushed their boats up onto the shore. With the sea out of bounds, fish became scarce in the market and the price rose a great deal. So for a week the fish sellers sold only what they had left in the ice. Only after the cyclone passes and the sea calms will the fishing families have any peace of mind."
+      },
+      "notes": "The passage is one causal chain: cyclone warning, so the boats come ashore; no fishing, so the market runs short and prices rise; hence sellers fall back on iced stock; and only when the sea calms do the families get any relief. 'Adhanaala' and the '-aana dhan' construction carry the links, so a translation that drops them turns a single argument into four unrelated news facts."
+    },
+    {
+      "id": "ta_disc_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "concession-contrast",
+        "migration"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Naan Chennai IT company la vela paakraen, sambalam nalla kudukkuraanga. Aana oorula dhan thatha paatti irukkaanga, vayasaana kaalathula kooda irukka mudiyala. Weekend la bus pidichuttu ooru poi avanga mugathha paatha odane ellam marandhudum. Sambalam irundhaalum, ooru dhan manasukku nimmadhi.",
+          "tamil": "நான் சென்னை ஐடி கம்பெனில வேலை பாக்குறேன், சம்பளம் நல்லா குடுக்குறாங்க. ஆனா ஊருல தான் தாத்தா பாட்டி இருக்காங்க, வயசான காலத்துல கூட இருக்க முடியல. வீக்எண்ட்ல பஸ் பிடிச்சுட்டு ஊரு போய் அவங்க முகத்த பாத்த உடனே எல்லாம் மறந்துடும். சம்பளம் இருந்தாலும், ஊரு தான் மனசுக்கு நிம்மதி."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "I work at an IT company in Chennai, and they pay well. But it is back in the native town that my grandparents are, and I cannot be with them in their old age. When I catch a bus home for the weekend, the moment I see their faces everything else is forgotten. Even with the salary, it is the native town that gives the mind peace."
+      },
+      "notes": "Concession-contrast: the city job and its pay against not being present for the grandparents in their old age, then the weekend visit, then the verdict that the native town is where the mind rests. Keep 'aana' and the final turn so the argument reads as one piece rather than two unrelated lifestyles."
+    },
+    {
+      "id": "ta_disc_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "discourse-coherence",
+        "thematic-continuity",
+        "food-culture"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Kaalaila filter coffee illama namma veetla naal aarambame aagadhu. Davara tumblerla first decoction oothitu paal oothi nalla aathi koduppaanga. Oru vaai kuducha odane thookkam ellam poidum. Guest vanthaalum mudhalla coffee, aprom dhan pechu, adhu dhan namma hospitality.",
+          "tamil": "காலைல ஃபில்டர் காபி இல்லாம நம்ம வீட்ல நாள் ஆரம்பமே ஆகாது. தவறா டம்ளர்ல ஃபர்ஸ்ட் டிகாக்ஷன் ஊத்திட்டு பால் ஊத்தி நல்லா ஆத்தி கொடுப்பாங்க. ஒரு வாய் குடிச்ச உடனே தூக்கம் எல்லாம் போயிடும். கெஸ்ட் வந்தாலும் முதல்ல காபி, அப்புறம் தான் பேச்சு, அது தான் நம்ம ஹாஸ்பிடாலிட்டி."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Without filter coffee in the morning, the day does not really begin in our house. They pour the first decoction into the davara-tumbler, add milk, and cool it well by pouring it back and forth before handing it over. One mouthful and your sleepiness is gone. Even when a guest comes, coffee first and talk later; that is our hospitality."
+      },
+      "notes": "Thematic continuity around filter coffee: the morning ritual, the serving method, the effect, then guest hospitality. 'Aathi koduppaanga' is the pouring back and forth between davara and tumbler to cool the coffee, not merely stirring, and the last sentence is the culmination of the theme rather than a separate note on etiquette."
     }
   ]
 }

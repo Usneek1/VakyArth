@@ -51,11 +51,11 @@ data/
 
 | Language | Total items |
 |---|---|
-| Hindi | 212 |
+| Hindi | 185 |
 | Punjabi | 125 |
-| Tamil | 90 |
+| Tamil | 134 |
 | Malayalam | 134 |
-| **Total** | **561** |
+| **Total** | **578** |
 
 Counts are summed across MCQ, NLI, and Translation items for all 5 phenomena. The dataset is still growing — these numbers, and the corresponding table in the paper, will be updated together before the camera-ready draft.
 

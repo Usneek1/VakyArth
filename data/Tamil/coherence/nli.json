@@ -182,6 +182,103 @@
         ]
       },
       "label": "entailment"
+    },
+    {
+      "id": "ta_disc_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-inference",
+        "festival-sequence"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Thai Pongal anaiku kaalaila ezhundhu vaasal thelichu kolam pottanga. Appuram pongal paanaiyila vellamum pasum paalum pottu ponga vittaanga. Paal pongi valiyadhum suriyanukku padaiyal vechu ellarum serndhu kumbittanga.",
+          "hypothesis": "Indha kudumbam Thai Pongal vizha kondaduranga."
+        },
+        "tamil": {
+          "premise": "தை பொங்கல் அன்னைக்கு காலைல எழுந்து வாசல் தெளிச்சு கோலம் போட்டாங்க. அப்புறம் பொங்கல் பானையில வெல்லமும் பசும் பாலும் போட்டு பொங்க விட்டாங்க. பால் பொங்கி வழியதும் சூரியனுக்கு படையல் வெச்சு எல்லாரும் சேர்ந்து கும்பிட்டாங்க.",
+          "hypothesis": "இந்த குடும்பம் தை பொங்கல் விழா கொண்டாடுறாங்க."
+        },
+        "english": {
+          "premise": "On Thai Pongal morning they woke up, washed the doorway, and drew kolam. Then they put jaggery and cow's milk in the Pongal pot and let it boil. As the milk boiled over, they set out the offering for the Sun and everyone worshipped together.",
+          "hypothesis": "This family is celebrating the Thai Pongal festival."
+        }
+      },
+      "explanation": "The sequenced actions, the kolam at the doorway, the pot boiling over, and the offering to the Sun, are the standard Thai Pongal ritual chain, which entails that the family is celebrating the festival.",
+      "metadata": {
+        "register": "family/festival",
+        "cultural_markers": [
+          "Thai-Pongal",
+          "kolam",
+          "overflowing-pongal-pot",
+          "surya-padaiyal"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_disc_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "topic-inference"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Kanchipuram silk saree quality nalla irukkum. Kalyanathukku ellarum inga dhan vaanguraanga. Vilai konjam adhigam aana nithiyama irukkum nu solluvaanga.",
+          "hypothesis": "Kanchipuram silk romba cheap, kalyanathukku yaarum vaanga maattaanga."
+        },
+        "tamil": {
+          "premise": "காஞ்சிபுரம் சில்க் சேலை குவாலிட்டி நல்லா இருக்கும். கல்யாணத்துக்கு எல்லாரும் இங்க தான் வாங்குறாங்க. விலை கொஞ்சம் அதிகமா ஆனா நித்தியமா இருக்கும்னு சொல்லுவாங்க.",
+          "hypothesis": "காஞ்சிபுரம் சில்க் ரொம்ப சீப், கல்யாணத்துக்கு யாரும் வாங்க மாட்டாங்க."
+        },
+        "english": {
+          "premise": "Kanchipuram silk sarees are known for good quality. Everyone buys them for weddings. People say the price is a bit high but the silk lasts.",
+          "hypothesis": "Kanchipuram silk is very cheap, and nobody buys it for weddings."
+        }
+      },
+      "explanation": "The passage presents Kanchipuram silk as a durable, sought-after wedding purchase despite the cost, which contradicts the claim that it is cheap and unused for weddings.",
+      "metadata": {
+        "register": "cultural-commerce",
+        "cultural_markers": [
+          "Kanchipuram-silk",
+          "wedding-saree"
+        ]
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_disc_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "discourse-coherence",
+        "temporal-ordering"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Margazhi maasathula naalu manikku ezhundhu thiruppavai padichu kovilukku povaanga. Veetla sakkarai pongalum nei appamum veppaanga. Kovil la irundhu thirumbi vandhu prasadhathai pangittu, aprom dhan velaikku kelambuvaanga.",
+          "hypothesis": "Margazhi la makkal late ah thoongitu kovilukku poga maattaanga."
+        },
+        "tamil": {
+          "premise": "மார்கழி மாசத்துல நாலு மணிக்கு எழுந்து திருப்பாவை படிச்சு கோவிலுக்கு போறாங்க. வீட்ல சக்கரை பொங்கலும் நெய் அப்பமும் வெப்பாங்க. கோவில்ல இருந்து திரும்பி வந்து பிரசாதத்த பங்கிட்டு, அப்புறம் தான் வேலைக்கு கிளம்புவாங்க.",
+          "hypothesis": "மார்கழில மக்கள் லேட் ஆ தூங்கிட்டு கோவிலுக்கு போக மாட்டாங்க."
+        },
+        "english": {
+          "premise": "In the month of Margazhi people wake at four, recite Thiruppavai, and go to the temple. At home they make sakkarai pongal and nei appam. Only after they come back from the temple and share out the prasadam do they leave for work.",
+          "hypothesis": "In Margazhi people sleep late and do not go to the temple."
+        }
+      },
+      "explanation": "The discourse lays out an ordered Margazhi morning: waking at four, Thiruppavai, the temple, the sweets at home, and work only after the prasadam is shared. Sleeping late and skipping the temple contradicts that routine, and the closing 'aprom dhan' makes the temple visit a precondition for the rest of the day rather than an optional extra.",
+      "metadata": {
+        "register": "devotional/seasonal",
+        "cultural_markers": [
+          "Margazhi",
+          "Thiruppavai",
+          "sakkarai-pongal"
+        ]
+      },
+      "label": "contradiction"
     }
   ]
 }

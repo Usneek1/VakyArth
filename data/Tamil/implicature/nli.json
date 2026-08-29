@@ -228,6 +228,108 @@
       },
       "label": "contradiction",
       "explanation": "The premise implies that Saraswathi was overprotected and not allowed to walk on her own, but it does not necessarily mean she cannot walk; she may simply have been sheltered. Thus, the hypothesis is contradicted."
+    },
+    {
+      "id": "ta_imp_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "indirect-refusal",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": [
+            {
+              "speaker": "Ravi",
+              "utterance": "Nalaikku padathukku polaama?"
+            },
+            {
+              "speaker": "Priya",
+              "utterance": "Naalaiku kalaila exam irukke, enna panrathunu pakren"
+            }
+          ],
+          "hypothesis": "Priya movie ku vara maatta"
+        },
+        "tamil": {
+          "premise": [
+            {
+              "speaker": "Ravi",
+              "utterance": "நாளைக்கு படத்துக்கு போலாமா?"
+            },
+            {
+              "speaker": "Priya",
+              "utterance": "நாளைக்கு காலைல எக்ஸாம் இருக்கே, என்ன பண்றதுனு பாக்கறேன்"
+            }
+          ],
+          "hypothesis": "பிரியா மூவிக்கு வர மாட்டா"
+        },
+        "english": {
+          "premise": [
+            {
+              "speaker": "Ravi",
+              "utterance": "Shall we go to the movie tomorrow?"
+            },
+            {
+              "speaker": "Priya",
+              "utterance": "I have an exam tomorrow morning, I'll see what to do."
+            }
+          ],
+          "hypothesis": "Priya will not come to the movie."
+        }
+      },
+      "label": "entailment",
+      "explanation": "Priya does not say no. She mentions an exam the next morning and says she will see what to do, which is an indirect refusal of the invitation, so the hypothesis that she will not come is entailed."
+    },
+    {
+      "id": "ta_imp_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "indirect-hint",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Velila veyil koluthudhunu veetukku vanthadhum AC on pannappo amma jannal thiranthu irukkunu sonnanga.",
+          "hypothesis": "Amma jannal thirandhu vekkanum nu nenaikkiraanga"
+        },
+        "tamil": {
+          "premise": "வெளியில வெயில் கொளுத்துதுனு வீட்டுக்கு வந்ததும் ஏசி ஆன் பண்ணப்போ அம்மா ஜன்னல் திறந்து இருக்குனு சொன்னாங்க.",
+          "hypothesis": "அம்மா ஜன்னலை திறந்து வைக்கணும் நு நினைக்கிறாங்க"
+        },
+        "english": {
+          "premise": "It was scorching hot outside, so as soon as I came home and turned on the AC, mother said the window is open.",
+          "hypothesis": "Mother wants the window to be kept open."
+        }
+      },
+      "label": "contradiction",
+      "explanation": "It is blazing hot, and the AC has just been turned on. Mother mentioning that the window is open is a hint to close it, not a request to leave it open, so the hypothesis is contradicted."
+    },
+    {
+      "id": "ta_imp_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "implicature",
+        "indirect-request",
+        "social-context"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Naan kelambura neram, paal theernthuduchu nu amma sonnanga.",
+          "hypothesis": "Amma pannaikku poi paal vaangitu vara sonnanga"
+        },
+        "tamil": {
+          "premise": "நான் கிளம்புற நேரம், பால் தீர்ந்துடுச்சுநு அம்மா சொன்னாங்க.",
+          "hypothesis": "அம்மா பண்ணைக்கு போய் பால் வாங்கிட்டு வர சொன்னாங்க"
+        },
+        "english": {
+          "premise": "When I was about to leave, mother said the milk is over.",
+          "hypothesis": "Mother told me to go to the farm and buy milk."
+        }
+      },
+      "label": "entailment",
+      "explanation": "Mother does not directly ask anyone to buy milk. Stating that the milk is over just as the speaker is leaving is an indirect request to pick some up. The hypothesis is therefore entailed."
     }
   ]
 }

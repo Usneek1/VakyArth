@@ -203,6 +203,103 @@
         "authors_note": "Tests whether models correctly identify that an expression of willingness to buy does not entail that the buyer has arrived at the store or that the purchase is certain."
       },
       "label": "neutral"
+    },
+    {
+      "id": "ta_sa_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "indirect-request",
+        "hint-as-command"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Amma paiyan kitta, saavi enga irukku nu theriyalaye, un kaiyila bag irukka.",
+          "hypothesis": "Amma saavi eduthu thara solraanga."
+        },
+        "tamil": {
+          "premise": "அம்மா பையன் கிட்ட, சாவி எங்க இருக்குனு தெரியலயே, உன் கையில பேக் இருக்கா.",
+          "hypothesis": "அம்மா சாவி எடுத்து தர சொல்றாங்க."
+        },
+        "english": {
+          "premise": "Mother said to her son, 'I have no idea where the keys are; the bag is in your hand, isn't it?'",
+          "hypothesis": "Mother is telling him to take the keys out and give them to her."
+        }
+      },
+      "explanation": "Saying she cannot find the keys and then pointing out that the bag is in his hand is a hint aimed at getting the son to look and hand them over. Read as a mere report of her own ignorance plus an idle observation, the mother's turn would have no point.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "stated ignorance plus observation used as a request"
+        ],
+        "authors_note": "Tests recognition of an indirect request delivered as a hint rather than an imperative."
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_sa_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "conditional-permission",
+        "not-refusal"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Paiyan friend veetuku poganum nu ketkurappo amma, saapadu saapittu homework mudichuttu po nu sonnanga.",
+          "hypothesis": "Amma poga vendaam nu sollitaanga."
+        },
+        "tamil": {
+          "premise": "பையன் ஃபிரெண்ட் வீட்டுக்கு போகணும்னு கேக்குறப்போ அம்மா, சாப்பாடு சாப்பிட்டு ஹோம்வொர்க் முடிச்சுட்டு போனு சொன்னாங்க.",
+          "hypothesis": "அம்மா போக வேண்டாம்னு சொல்லிட்டாங்க."
+        },
+        "english": {
+          "premise": "When the boy asked to go to his friend's house, mother said, 'eat your food, finish your homework, and then go.'",
+          "hypothesis": "Mother refused to let him go."
+        }
+      },
+      "explanation": "Listing what has to be done first and ending with 'then go' grants permission on conditions, and setting up that order only makes sense if the visit is allowed. Reading the conditions as a denial reverses the speech act.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "permission granted with conditions attached",
+          "food and homework before play"
+        ],
+        "authors_note": "Tests conditional permission against a refusal reading."
+      },
+      "label": "contradiction"
+    },
+    {
+      "id": "ta_sa_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "speech-acts",
+        "blessing",
+        "not-greeting-only"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Paiyan oorukku kelamburappo thatha vaasal la ninnu, nallabadiya poittu va pa, saami thunaiya irukkumnu sonnaaru.",
+          "hypothesis": "Thatha chumma bye sonnaar, aasirvadham illa."
+        },
+        "tamil": {
+          "premise": "பையன் ஊருக்கு கிளம்புறப்போ தாத்தா வாசல்ல நின்னு, நல்லபடியா போயிட்டு வா பா, சாமி துணையா இருக்கும்னு சொன்னார்.",
+          "hypothesis": "தாத்தா சும்மா பை சொன்னார், ஆசிர்வாதம் இல்ல."
+        },
+        "english": {
+          "premise": "When the boy was leaving for the native place, grandfather stood at the doorway and said, 'go and come back safely, son; God will be with you.'",
+          "hypothesis": "Grandfather only said a casual bye and gave no blessing."
+        }
+      },
+      "explanation": "'Nallabadiya poittu va' wishes the journey well and expects a return, and 'saami thunaiya irukkum' invokes divine protection, so the elder is blessing the boy at the threshold rather than just seeing him off.",
+      "metadata": {
+        "register": "family/elders",
+        "cultural_markers": [
+          "departure blessing at the threshold"
+        ],
+        "authors_note": "Tests blessing vs phatic goodbye."
+      },
+      "label": "contradiction"
     }
   ]
 }

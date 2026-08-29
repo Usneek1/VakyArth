@@ -466,6 +466,197 @@
           "politeness in social gatherings"
         ]
       }
+    },
+    {
+      "id": "ta_social_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "deference",
+        "seating-etiquette"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Akka Vazhagaappu function apo ellarum ukkanthu irukkumbodhu vayasaana periyamma ulla vanthaanga, oru edamum kaaliya illa.",
+          "question": "Mariyaathaiyaana seyal edhu?",
+          "options": [
+            "Ezhunthu avangaluku edam kudukkalam",
+            "Ukkanthadhe irunthu phone paakkalam",
+            "Avanga kitta veliyila ukkara solalam",
+            "Yaaravadhu ezhunthu kuduppaanga nu summa irukkalam"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Ezhunthu avangaluku edam kudukkalam"
+          }
+        },
+        "tamil": {
+          "context": "அக்கா வளைகாப்பு ஃபங்ஷன்ல எல்லாரும் உக்காந்து இருக்கும்போது வயசான பெரியம்மா உள்ள வந்தாங்க, ஒரு இடமும் காலியா இல்ல.",
+          "question": "மரியாதையான செயல் எது?",
+          "options": [
+            "எழுந்து அவங்களுக்கு இடம் குடுக்கலாம்",
+            "உக்காந்ததே இருந்து ஃபோன் பாக்கலாம்",
+            "அவங்க கிட்ட வெளியில உக்கார சொல்லலாம்",
+            "யாராவது எழுந்து குடுப்பாங்கனு சும்மா இருக்கலாம்"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "எழுந்து அவங்களுக்கு இடம் குடுக்கலாம்"
+          }
+        },
+        "english": {
+          "context": "At your elder sister's valaikaappu function everyone is seated when an elderly periyamma walks in, and not a single seat is free.",
+          "question": "Which is the respectful thing to do?",
+          "options": [
+            "Get up and give her your seat",
+            "Stay seated and look at your phone",
+            "Tell her to sit outside",
+            "Say nothing, assuming someone else will get up"
+          ],
+          "answer": {
+            "label": "A",
+            "index": 0,
+            "text": "Get up and give her your seat"
+          }
+        }
+      },
+      "explanation": "Standing up to seat an elder is the expected deference, and a younger person is the one who should move. Staying seated with a phone, sending her elsewhere, or waiting for somebody else to act all fail the norm, even though none of them is rude in words.",
+      "metadata": {
+        "register": "family/valaikaappu",
+        "cultural_markers": [
+          "valaikaappu gathering with elders present",
+          "giving up a seat for an elder",
+          "deference shown through posture rather than words"
+        ]
+      }
+    },
+    {
+      "id": "ta_social_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "temple-etiquette"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kovil ullae pugurappo neenga cheruppu kalattaama ulla poga nenaikireenga.",
+          "question": "Ippo enna panna koodathu?",
+          "options": [
+            "Cheruppu veliyila vechuttu ulla pagalaam",
+            "Thalai moodi ulla pogalaam",
+            "Cheruppu kalattaama ulla pogalaam",
+            "Kai kooppi vanakkam solli ulla pogalaam"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Cheruppu kalattaama ulla pogalaam"
+          }
+        },
+        "tamil": {
+          "context": "கோவில் உள்ளே புகுறப்போ நீங்க செருப்பு கழட்டாம உள்ள போகலாம் நினைக்குறீங்க.",
+          "question": "இப்போ என்ன பண்ண கூடாது?",
+          "options": [
+            "செருப்பு வெளியில வெச்சுட்டு உள்ள போகலாம்",
+            "தலை மூடி உள்ள போகலாம்",
+            "செருப்பு கழட்டாம உள்ள போகலாம்",
+            "கை கூப்பி வணக்கம் சொல்லி உள்ள போகலாம்"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "செருப்பு கழட்டாம உள்ள போகலாம்"
+          }
+        },
+        "english": {
+          "context": "When entering the temple you are thinking of going in without removing your sandals.",
+          "question": "What should you not do?",
+          "options": [
+            "Leave the sandals outside and go in",
+            "Cover your head and go in",
+            "Go inside without removing sandals",
+            "Fold your hands, greet, and go in"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Go inside without removing sandals"
+          }
+        }
+      },
+      "explanation": "Entering a Tamil temple with sandals on is the breach. Leaving them outside, covering the head, and folding hands are all acceptable.",
+      "metadata": {
+        "register": "temple",
+        "cultural_markers": [
+          "remove sandals before garbhagriha/temple interior"
+        ]
+      }
+    },
+    {
+      "id": "ta_social_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "social-pragmatics",
+        "polite-departure",
+        "blessing"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Exam ku kelamburappo paatti vibhuti pottu aasirvadham kudukka koopidranga.",
+          "question": "Neenga enna panna koodathu?",
+          "options": [
+            "Kai kooppi vanakkam solli vaangikalam",
+            "Paatti kaal la thottu aasirvadham vaangalam",
+            "Vibhuti vaangitu kelambalam",
+            "Late ayiduchu nu solli odi pogalam"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Late ayiduchu nu solli odi pogalam"
+          }
+        },
+        "tamil": {
+          "context": "எக்ஸாம்க்கு கிளம்புறப்போ பாட்டி விபூதி போட்டு ஆசிர்வாதம் குடுக்க கூப்பிடுறாங்க.",
+          "question": "நீங்க என்ன பண்ண கூடாது?",
+          "options": [
+            "கை கூப்பி வணக்கம் சொல்லி வாங்கிக்கலாம்",
+            "பாட்டி கால்ல தொட்டு ஆசிர்வாதம் வாங்கலாம்",
+            "விபூதி வாங்கிட்டு கிளம்பலாம்",
+            "லேட் ஆயிடுச்சுனு சொல்லி ஓடிட்டு போகலாம்"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "லேட் ஆயிடுச்சுனு சொல்லி ஓடிட்டு போகலாம்"
+          }
+        },
+        "english": {
+          "context": "When you are leaving for an exam, grandmother calls you over to put vibhuti on you and give a blessing.",
+          "question": "What should you not do?",
+          "options": [
+            "Fold your hands, greet her, and receive it",
+            "Touch her feet and take the blessing",
+            "Receive the vibhuti and then leave",
+            "Say it has gotten late and run off"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Say it has gotten late and run off"
+          }
+        }
+      },
+      "explanation": "When an elder calls you over for a vibhuti blessing before an exam, the respectful options are to receive it and then go. Brushing the call aside because it has gotten late is the socially wrong move.",
+      "metadata": {
+        "register": "family/elders",
+        "cultural_markers": [
+          "vibhuti blessing before exam",
+          "do not skip elder's aasirvadham"
+        ]
+      }
     }
   ]
 }

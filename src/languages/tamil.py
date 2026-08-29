@@ -115,9 +115,9 @@ def translation_instruction(category: str, prompt_style: str, script: str = "lat
     )
     if prompt_style == "fewshot":
         examples = [
-            ("Avanga onnu sernthu velai pannanga.", "They worked together."),
+            ("Avanga ellarum onnu sernthu velai pannanga.", "They all worked together."),
             ("Sandhaiyil pala vidhamaana porutkal kidaikkum.", "A wide variety of goods is available in the market."),
-            ("Avan than vaakkai kaathu, samayathirku vandhaan.", "He kept his promise and arrived on time."),
+            ("Avan than vaakkai kaappatri, samayathirku vandhaan.", "He kept his promise and arrived on time."),
         ]
     else:
         examples = []

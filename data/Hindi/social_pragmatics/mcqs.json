@@ -466,72 +466,6 @@
       "type": "mcq",
       "phenomena": [
         "social-pragmatics",
-        "matrimonial-euphemism",
-        "arranged-marriage"
-      ],
-      "scripts": {
-        "latin": {
-          "context": "Shaadi ke biodata mein likha tha, 'Ladki homely hai, ghar-parivar sambhalne mein expert hai.'",
-          "question": "'Homely' word ka is context mein kya implication hai?",
-          "options": [
-            "Ladki sirf apne ghar mein rehti hai, bahar nahi jaati",
-            "Ladki ka career-oriented hone se zyada, gharelu zimmedariyon ko priority dene ka expectation signal kiya jaa raha hai",
-            "Ladki ka ghar bahut bada hai",
-            "Ladki interior design mein interested hai"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "Ladki ka career-oriented hone se zyada, gharelu zimmedariyon ko priority dene ka expectation signal kiya jaa raha hai"
-          }
-        },
-        "devanagari": {
-          "context": "शादी के बायोडाटा में लिखा था, 'लड़की होमली है, घर-परिवार संभालने में एक्सपर्ट है।'",
-          "question": "'होमली' वर्ड का इस कॉन्टेक्स्ट में क्या इम्प्लीकेशन है?",
-          "options": [
-            "लड़की सिर्फ अपने घर में रहती है, बाहर नहीं जाती",
-            "लड़की का करियर-ओरिएंटेड होने से ज़्यादा, घरेलू ज़िम्मेदारियों को प्रायोरिटी देने का एक्सपेक्टेशन सिग्नल किया जा रहा है",
-            "लड़की का घर बहुत बड़ा है",
-            "लड़की इंटीरियर डिज़ाइन में इंटरेस्टेड है"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "लड़की का करियर-ओरिएंटेड होने से ज़्यादा, घरेलू ज़िम्मेदारियों को प्रायोरिटी देने का एक्सपेक्टेशन सिग्नल किया जा रहा है"
-          }
-        },
-        "english": {
-          "context": "A matrimonial biodata read, 'The girl is homely, expert at managing the household.'",
-          "question": "What does the word 'homely' imply in this context?",
-          "options": [
-            "The girl only stays inside her house and never goes out",
-            "It signals an expectation that she prioritizes domestic responsibility over being career-focused",
-            "The girl's house is very large",
-            "The girl is interested in interior design"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "It signals an expectation that she prioritizes domestic responsibility over being career-focused"
-          }
-        }
-      },
-      "explanation": "In Indian matrimonial listings, 'homely' is a coded descriptor that communicates traditional gender-role expectations around domesticity, rather than meaning 'physically stays at home' or referring to the literal house it's a socially loaded euphemism specific to this genre.",
-      "metadata": {
-        "register": "matrimonial-formal",
-        "cultural_markers": [
-          "biodata euphemism",
-          "arranged marriage vocabulary",
-          "gender-role coding"
-        ],
-        "difficulty": "hard"
-      }
-    },
-    {
-      "id": "hi_social_mcq_009",
-      "type": "mcq",
-      "phenomena": [
-        "social-pragmatics",
         "digital-etiquette",
         "whatsapp-group"
       ],
@@ -594,7 +528,7 @@
       }
     },
     {
-      "id": "hi_social_mcq_010",
+      "id": "hi_social_mcq_009",
       "type": "mcq",
       "phenomena": [
         "social-pragmatics",
@@ -660,73 +594,7 @@
       }
     },
     {
-      "id": "hi_social_mcq_011",
-      "type": "mcq",
-      "phenomena": [
-        "social-pragmatics",
-        "queue-culture",
-        "jugaad-request"
-      ],
-      "scripts": {
-        "latin": {
-          "context": "Bank ki line mein khade ho, tumhare aage kaafi log hain. Ek aadmi peeche se aakar bolta hai, 'Bhai sahab, bas ek minute ka kaam hai, thoda aage se nikal jaaun?'",
-          "question": "Iss request ka social function kya hai?",
-          "options": [
-            "Voh emergency mein hai isliye sach mein sirf ek minute lagega",
-            "Voh line ke baare mein poochh raha hai",
-            "Voh tumhari madad karne ki offer de raha hai",
-            "Yeh line jump karne ki polite-sounding request hai, jiska matlab hai voh apni jagah chhod kar aage aa jayega"
-          ],
-          "answer": {
-            "label": "D",
-            "index": 3,
-            "text": "Yeh line jump karne ki polite-sounding request hai, jiska matlab hai voh apni jagah chhod kar aage aa jayega"
-          }
-        },
-        "devanagari": {
-          "context": "बैंक की लाइन में खड़े हो, तुम्हारे आगे काफी लोग हैं। एक आदमी पीछे से आकर बोलता है, 'भाई साहब, बस एक मिनट का काम है, थोड़ा आगे से निकल जाऊँ?'",
-          "question": "इस रिक्वेस्ट का सोशल फंक्शन क्या है?",
-          "options": [
-            "वो इमरजेंसी में है इसलिए सच में सिर्फ एक मिनट लगेगा",
-            "वो लाइन के बारे में पूछ रहा है",
-            "वो तुम्हारी मदद करने की ऑफर दे रहा है",
-            "यह लाइन जंप करने की पोलाइट-साउंडिंग रिक्वेस्ट है, जिसका मतलब है वो अपनी जगह छोड़ कर आगे आ जाएगा"
-          ],
-          "answer": {
-            "label": "D",
-            "index": 3,
-            "text": "यह लाइन जंप करने की पोलाइट-साउंडिंग रिक्वेस्ट है, जिसका मतलब है वो अपनी जगह छोड़ कर आगे आ जाएगा"
-          }
-        },
-        "english": {
-          "context": "You're standing in a bank queue with many people ahead of you. A man comes from behind and says, 'Bhai sahab, it's just a one-minute task, can I just slip ahead a bit?'",
-          "question": "What is the social function of this request?",
-          "options": [
-            "He's in a real emergency and it will genuinely take one minute",
-            "He's asking about how the queue works",
-            "He's offering to help you",
-            "This is a politely-worded line-jumping request, meaning he'll skip ahead of his actual place in line"
-          ],
-          "answer": {
-            "label": "D",
-            "index": 3,
-            "text": "This is a politely-worded line-jumping request, meaning he'll skip ahead of his actual place in line"
-          }
-        }
-      },
-      "explanation": "Framing a request to cut the queue as a tiny, harmless favour ('bas ek minute ka kaam hai') is a conventional softening strategy for what is functionally a request for special treatment/jugaad; the phrase minimizes the imposition to make it harder to refuse.",
-      "metadata": {
-        "register": "public-queue",
-        "cultural_markers": [
-          "queue jumping request",
-          "jugaad softening language",
-          "politeness minimization"
-        ],
-        "difficulty": "medium"
-      }
-    },
-    {
-      "id": "hi_social_mcq_012",
+      "id": "hi_social_mcq_010",
       "type": "mcq",
       "phenomena": [
         "social-pragmatics",

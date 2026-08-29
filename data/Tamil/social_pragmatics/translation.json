@@ -130,6 +130,69 @@
         "text": "I have told my son many times that this habit is not good for our family, but he is so adamant that he insists the rabbit he caught has only three legs."
       },
       "notes": "The speaker is expressing helplessness: she has repeatedly advised her son, but he refuses to listen and remains stubborn. The line is a complaint that highlights her lack of control over him. Social-pragmatically, it also reflects a cultural expectation that a son should listen to his mother and uphold family norms."
+    },
+    {
+      "id": "ta_social_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "indirect-disagreement",
+        "family-hierarchy"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "ராத்திரி சாப்பாட்டு டேபிள்ல அப்பா சொன்னது எனக்கு சரிப்படல. நான் 'சரி அப்பா'னு சொல்லிட்டு, கொஞ்ச நேரம் கழிச்சு 'அதை இன்னொரு தடவ யோசிச்சு பாக்கலாமா'னு மெதுவா கேட்டேன்.",
+          "latin": "Raathiri saapaattu table la appa sonnadhu enakku sariyapadala. Naan 'sari appa' nu sollittu, konjam neram kazhichu 'athai innoru thadava yosichu paakkalaama' nu medhuva ketten."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "At the dinner table what father said did not sit right with me. I said 'all right, Appa,' and after a little while I softly asked, 'could we think about that once more?'"
+      },
+      "notes": "'Sariyapadala' reports that the remark did not sit right rather than announcing open disagreement, and the social force is hierarchy-sensitive: first a respectful acknowledgement, then a softened request to reconsider. Translating it as a blunt 'I disagreed with my father' loses both the hedge and the two-step politeness."
+    },
+    {
+      "id": "ta_social_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "gift-refusal-softening",
+        "festival-money"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "தீபாவளி முடிஞ்சு சித்தி வீட்ல இருந்து கிளம்புறப்போ கையில காசு குடுத்தாங்க. நான் 'இதெல்லாம் எதுக்கு சித்தி, வேணாம்'னு சொல்லிட்டு, அவங்க கையை மடக்கி மறுபடியும் குடுத்தப்போ வாங்கிக்கிட்டேன்.",
+          "latin": "Deepavali mudinju chithi veetla irundhu kelamburappo kaiyila kaasu kuduthanga. Naan 'ithellaam edhukku chithi, venam' nu sollittu, avanga kaiya madakki marupadiyum kuduthappo vaangikitten."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When I was leaving aunt's house after Deepavali, she put money in my hand. I said 'why all this, Chithi, I don't need it,' but when she folded my hand and gave it again, I accepted it."
+      },
+      "notes": "The first 'venam' is ritual modest refusal of an elder's festival gift, not a true rejection. The translation must keep both the refusal formula and the later acceptance."
+    },
+    {
+      "id": "ta_social_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "social-pragmatics",
+        "death-euphemism",
+        "taboo-avoidance"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "பாட்டி பத்தி சொல்லும்போது அம்மா, 'பாட்டி நம்மள விட்டு போயிட்டாங்க'னு தான் சொன்னாங்க, 'செத்துட்டாங்க'னு வாய் விட்டு சொல்லவே மாட்டாங்க.",
+          "latin": "Paatti pathi sollumbodhu amma, 'paatti nammala vittu poitaanga' nu dhan sonnaanga, 'sethuttaanga' nu vaai vittu sollave maattaanga."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Whenever she spoke about grandmother, mother would only say, 'grandmother has left us,' she would never let the word 'died' out of her mouth."
+      },
+      "notes": "'Poitaanga' literally says she went, but in this context it is the standard euphemism for having passed away, and the translation has to convey the death rather than a departure. At the same time the avoided word 'sethuttaanga' must stay blunt in English, since the contrast between the gentle phrase and the word the mother will not say is the whole point."
     }
   ]
 }

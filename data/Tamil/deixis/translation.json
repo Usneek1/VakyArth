@@ -127,6 +127,67 @@
         "text": "Don't ever forget what I said now, until your last breath."
       },
       "notes": "The discourse deixis 'ippo' (now) refers to the current moment of speaking, 'eppodhum' (ever/always) emphasizes the permanence of the instruction, while 'kadaisi moochu vara' (until your last breath) is a temporal expression that extends indefinitely into the future. The translation must maintain this contrast between the immediate present and the indefinite future, along with the emphatic nature of 'eppodhum', to preserve the speaker's emphasis on the importance of their words."
+    },
+    {
+      "id": "ta_deix_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "spatial-deixis",
+        "demonstratives",
+        "vertical-orientation"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "ட்ரெயின் கிளம்பற நேரம் ஆச்சு, இங்க நீ படுத்துக்கோ, கீழ தாத்தா, நடுவுல நான்.",
+          "latin": "Train kilambara neram aachu, inga nee paduthuko, keela thatha, naduvula naan."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "It is almost time for the train to leave; you sleep up here, grandfather below, and I will be in the middle."
+      },
+      "notes": "'Inga' is spoken from the upper berth, so it means up here rather than a flat 'here.' Since 'keela' (below) goes to grandfather and 'naduvula' (middle) to the speaker, the only place left for the addressee is the berth above, and the translation must recover that vertical reference."
+    },
+    {
+      "id": "ta_deix_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "person-deixis",
+        "honorific-plural"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "மாமியார் வந்துட்டாங்க, அவங்களுக்கு காபி போட்டு எடுத்துட்டு வா, நான் இங்கயே இருக்கேன்.",
+          "latin": "Maamiyaar vanthuttaanga, avangalukku coffee pottu eduthuttu va, naan ingaye irukken."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "Mother-in-law has arrived; make coffee for her and bring it over, I will stay here."
+      },
+      "notes": "'Avanga' / 'avangalukku' is honorific person deixis for a single elder, not a literal group; rendering it as 'they' would misread social deixis as number. 'Pottu eduthuttu va' is make it and bring it here, so the motion is toward the speaker. 'Ingaye' is the speaker's own place with emphasis, hence 'here.'"
+    },
+    {
+      "id": "ta_deix_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "temporal-deixis",
+        "relative-time"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "tamil": "இந்த வாரத்துல வேலை முடிஞ்சதும், ஒரு வாரம் பாத்துட்டு அதுக்கு அடுத்த வாரம் ஊருக்கு போகலாம், அப்போ தான் தாத்தாவை பாக்க முடியும்.",
+          "latin": "Intha vaarathula vela mudinjudum, oru vaaram paathuttu athukku adutha vaaram oorukku pogalaam, appo dhan thathaava paakka mudiyum."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "As soon as this week's work is done, we will wait a week and go to our native place the week after that; only then can we see grandfather."
+      },
+      "notes": "The time reference is built up in steps from speech time: 'intha vaaram' is the current week, 'oru vaaram paathuttu' adds a week of waiting, 'athukku adutha vaaram' is the week following that one, and 'appo' picks out that later week as when grandfather can be seen. Reading 'adutha vaaram' as next week from now, or flattening every expression to 'then', loses the two-step offset."
     }
   ]
 }

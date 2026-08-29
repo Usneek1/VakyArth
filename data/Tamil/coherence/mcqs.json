@@ -384,6 +384,200 @@
           "cooked-peanuts"
         ]
       }
+    },
+    {
+      "id": "ta_disc_mcq_007",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Alanganallurla Pongal nerathula Jallikattu kootam alaimodum. Maadu vaadi vaasalai vittu veliye vanthaale, veerargal athoda thimila pidikka oduvaanga. Kalathula jeichutu vanthaa, athu antha oorukke perumai.",
+          "question": "Aduthu vaakiyam enna irukkalaam?",
+          "options": [
+            "Ippo cricket stadium la CSK match aarambikkuthu",
+            "Andha naal oore radio la commentary ketkum",
+            "Kovil gopuram mela snow vizhuthu",
+            "School la NEET class start aagapoguthu"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Andha naal oore radio la commentary ketkum"
+          }
+        },
+        "tamil": {
+          "context": "அலங்காநல்லூர்ல பொங்கல் நேரத்துல ஜல்லிக்கட்டு கூட்டம் அலைமோதும். மாடு வாடி வாசலை விட்டு வெளியே வந்தாலே, வீரர்கள் அதோட திமிலை பிடிக்க ஓடுவாங்க. களத்துல ஜெயிச்சுட்டு வந்தா, அது அந்த ஊருக்கே பெருமை.",
+          "question": "அடுத்த வாக்கியம் என்ன இருக்கலாம்?",
+          "options": [
+            "இப்போ கிரிக்கெட் ஸ்டேடியம்ல சிஎஸ்கே மேட்ச் ஆரம்பிக்குது",
+            "அந்த நாள் ஊரே ரேடியோல கமெண்டரி கேக்கும்",
+            "கோவில் கோபுரம் மேல ஸ்னோ விழுது",
+            "ஸ்கூல்ல நீட் கிளாஸ் ஸ்டார்ட் ஆகப்போகுது"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "அந்த நாள் ஊரே ரேடியோல கமெண்டரி கேக்கும்"
+          }
+        },
+        "english": {
+          "context": "At Alanganallur during Pongal the jallikattu crowd swells. The moment a bull leaves the vaadi vaasal, the tamers run to grab its hump. If a man comes back having won in the arena, it is a pride for the whole town.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "A CSK match is starting in the cricket stadium now.",
+            "That day the whole town listens to the radio commentary.",
+            "Snow is falling on the temple gopuram.",
+            "The school NEET class is about to start."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "That day the whole town listens to the radio commentary."
+          }
+        }
+      },
+      "explanation": "The paragraph builds up the jallikattu at Alanganallur, from the crowd to the vaadi vaasal to the town's pride in a winner, so town-wide radio commentary on the same day continues the thread. A CSK match, snow on the gopuram, and a NEET class all break it.",
+      "metadata": {
+        "register": "festival/sport",
+        "cultural_markers": [
+          "jallikattu",
+          "Alanganallur",
+          "Pongal",
+          "vaadi vaasal",
+          "thimil grip"
+        ]
+      }
+    },
+    {
+      "id": "ta_disc_mcq_008",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "incoherence-detection"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Kaveri thanneer vandhaale delta vivasayigalukku nimmadhiya irukkum. Nel nalla vilaiyum. Anaa indha varusham thanneer kammiya irundhadhunaala payir vaadudhu. Ippo rasam saapida venam nu ellarum mudivu pottanga.",
+          "question": "Entha vari intha paragraphukku sariya serala?",
+          "options": [
+            "Kaveri thanneer vandhaale delta vivasayigalukku nimmadhiya irukkum.",
+            "Nel nalla vilaiyum.",
+            "Anaa indha varusham thanneer kammiya irundhadhunaala payir vaadudhu.",
+            "Ippo rasam saapida venam nu ellarum mudivu pottanga."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Ippo rasam saapida venam nu ellarum mudivu pottanga."
+          }
+        },
+        "tamil": {
+          "context": "காவேரி தண்ணீர் வந்தாலே டெல்டா விவசாயிகளுக்கு நிம்மதியா இருக்கும். நெல் நல்லா விளையும். ஆனா இந்த வருஷம் தண்ணீர் கம்மியா இருந்ததால பயிர் வாடுது. இப்போ ரசம் சாப்பிட வேணாம்னு எல்லாரும் முடிவு போட்டாங்க.",
+          "question": "எந்த வரி இந்த பாராக்ராஃபுக்கு சரியா சேரல?",
+          "options": [
+            "காவேரி தண்ணீர் வந்தாலே டெல்டா விவசாயிகளுக்கு நிம்மதியா இருக்கும்.",
+            "நெல் நல்லா விளையும்.",
+            "ஆனா இந்த வருஷம் தண்ணீர் கம்மியா இருந்ததால பயிர் வாடுது.",
+            "இப்போ ரசம் சாப்பிட வேணாம்னு எல்லாரும் முடிவு போட்டாங்க."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "இப்போ ரசம் சாப்பிட வேணாம்னு எல்லாரும் முடிவு போட்டாங்க."
+          }
+        },
+        "english": {
+          "context": "When Cauvery water arrives, delta farmers can be at ease. Paddy grows well. But this year water was short, so the crop is wilting. Now everyone has decided they should not eat rasam.",
+          "question": "Which sentence does NOT fit the paragraph?",
+          "options": [
+            "When Cauvery water arrives, delta farmers can be at ease.",
+            "Paddy grows well.",
+            "But this year water was short, so the crop is wilting.",
+            "Now everyone has decided they should not eat rasam."
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Now everyone has decided they should not eat rasam."
+          }
+        }
+      },
+      "explanation": "The paragraph is about irrigation and paddy. A sudden decision not to eat rasam is off-topic and breaks coherence.",
+      "metadata": {
+        "register": "agriculture",
+        "cultural_markers": [
+          "Cauvery-delta",
+          "paddy"
+        ]
+      }
+    },
+    {
+      "id": "ta_disc_mcq_009",
+      "type": "mcq",
+      "phenomena": [
+        "discourse-coherence",
+        "next-sentence-prediction",
+        "profile-continuity"
+      ],
+      "scripts": {
+        "latin": {
+          "context": "Madurai Meenakshi amman kovilai gopuram thoorathula irunthe kandupidikkalaam. Ullae nuzhainjadhum thoongal, vilakkugal, mandapam nu ellame romba nalla padum. Chithirai thiruvizha annaikku kootam thaanga mudiyaadhu.",
+          "question": "Aduthu vaakiyam enna irukkalaam?",
+          "options": [
+            "Chennai Marina beach la kootam thanni kulikka poidum",
+            "Annaikku therottam paakka oore theruvula koodirum",
+            "IT company la night shift aarambichidum",
+            "Himalaya malai mela snow vizhum"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Annaikku therottam paakka oore theruvula koodirum"
+          }
+        },
+        "tamil": {
+          "context": "மதுரை மீனாக்ஷி அம்மன் கோவிலை கோபுரம் தூரத்துல இருந்தே கண்டுபிடிக்கலாம். உள்ளே நுழைஞ்சதும் தூண்கள், விளக்குகள், மண்டபம்னு எல்லாமே ரொம்ப நல்லா இருக்கும். சித்திரை திருவிழா அன்னைக்கு கூட்டம் தாங்க முடியாது.",
+          "question": "அடுத்த வாக்கியம் என்ன இருக்கலாம்?",
+          "options": [
+            "சென்னை மெரினா பீச்ல கூட்டம் தண்ணி குளிக்க போயிடும்",
+            "அன்னைக்கு தேரோட்டம் பாக்க ஊரே தெருவுல குதிரும்",
+            "ஐடி கம்பெனில நைட் ஷிப்ட் ஆரம்பிச்சிடும்",
+            "இமயமலை மேல ஸ்னோ விழும்"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "அன்னைக்கு தேரோட்டம் பாக்க ஊரே தெருவுல குதிரும்"
+          }
+        },
+        "english": {
+          "context": "You can spot Madurai Meenakshi Amman temple by its gopuram from far away itself. The moment you step inside, the pillars, the lamps, the mandapam, everything looks wonderful. On the day of the Chithirai festival the crowd is more than you can bear.",
+          "question": "What is the most coherent next sentence?",
+          "options": [
+            "The crowd will go bathing at Marina Beach in Chennai.",
+            "That day the whole town will pour into the streets to watch the chariot procession.",
+            "The night shift will start at the IT company.",
+            "Snow will fall on the Himalayas."
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "That day the whole town will pour into the streets to watch the chariot procession."
+          }
+        }
+      },
+      "explanation": "The paragraph moves from the temple seen from a distance, to how beautiful it is inside, to the size of the Chithirai festival crowd, so the chariot procession on that same day carries both the place and the occasion forward. Marina Beach, an IT night shift, and Himalayan snow each drop the temple and the festival.",
+      "metadata": {
+        "register": "travel/temple",
+        "cultural_markers": [
+          "Madurai-Meenakshi",
+          "Chithirai thiruvizha",
+          "therottam"
+        ]
+      }
     }
   ]
 }

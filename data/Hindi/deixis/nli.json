@@ -566,65 +566,6 @@
       "id": "hi_deix_nli_013",
       "type": "nli",
       "phenomena": [
-        "demonstrative-deixis",
-        "spatial-reference"
-      ],
-      "scripts": {
-        "latin": {
-          "hypothesis": "Client second floor wala flat dekhna chahta hai.",
-          "premise": [
-            {
-              "speaker": "Broker",
-              "utterance": "Yeh flat 2BHK hai, second floor par, aur voh wala 3BHK hai, fifth floor par."
-            },
-            {
-              "speaker": "Client",
-              "utterance": "Mujhe zyada space chahiye, main voh wala dekhna chahunga."
-            }
-          ]
-        },
-        "devanagari": {
-          "hypothesis": "क्लाइंट सेकंड फ्लोर वाला फ्लैट देखना चाहता है।",
-          "premise": [
-            {
-              "speaker": "ब्रोकर",
-              "utterance": "यह फ्लैट 2BHK है, सेकंड फ्लोर पर, और वो वाला 3BHK है, फिफ्थ फ्लोर पर।"
-            },
-            {
-              "speaker": "क्लाइंट",
-              "utterance": "मुझे ज़्यादा स्पेस चाहिए, मैं वो वाला देखना चाहूंगा।"
-            }
-          ]
-        },
-        "english": {
-          "hypothesis": "The client wants to see the flat on the second floor.",
-          "premise": [
-            {
-              "speaker": "Broker",
-              "utterance": "This flat is a 2BHK on the second floor, and that one is a 3BHK on the fifth floor."
-            },
-            {
-              "speaker": "Client",
-              "utterance": "I need more space, I'd like to see that one."
-            }
-          ]
-        }
-      },
-      "explanation": "The client selects 'voh wala' (that one), which refers to the 3BHK flat on the fifth floor, directly contradicting the hypothesis that they want the second-floor flat.",
-      "metadata": {
-        "register": "real-estate",
-        "difficulty": "easy",
-        "cultural_markers": [
-          "demonstrative contrast in property viewing",
-          "BHK terminology"
-        ]
-      },
-      "label": "contradiction"
-    },
-    {
-      "id": "hi_deix_nli_014",
-      "type": "nli",
-      "phenomena": [
         "person-deixis",
         "honorific-register"
       ],

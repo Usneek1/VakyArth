@@ -438,69 +438,6 @@
       "id": "hi_imp_mcq_007",
       "type": "mcq",
       "phenomena": [
-        "implicature",
-        "sarcasm",
-        "punctuality-critique"
-      ],
-      "scripts": {
-        "devanagari": {
-          "context": "बॉस ने मीटिंग में 40 मिनट लेट पहुंचे कर्मचारी से कहा, “वाह, आज तो बहुत जल्दी आ गए आप!”",
-          "question": "बॉस का क्या मतलब है?",
-          "options": [
-            "कर्मचारी समय पर आया",
-            "कर्मचारी बहुत लेट आया",
-            "बॉस कर्मचारी की तारीफ़ कर रहे हैं",
-            "बॉस को समय की जानकारी नहीं है"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "कर्मचारी बहुत लेट आया"
-          }
-        },
-        "latin": {
-          "context": "Boss ne meeting mein 40 minute late pahunche employee se kaha, 'Wah, aaj to bahut jaldi aa gaye aap!'",
-          "question": "Boss ka kya matlab hai?",
-          "options": [
-            "Employee samay par aaya",
-            "Employee bahut late aaya",
-            "Boss employee ki tarif kar rahe hain",
-            "Boss ko samay ki jaankari nahi hai"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "Employee bahut late aaya"
-          }
-        },
-        "english": {
-          "context": "The boss said to an employee who arrived 40 minutes late to the meeting, 'Wow, you came so early today!'",
-          "question": "What does the boss mean?",
-          "options": [
-            "The employee arrived on time",
-            "The employee arrived very late",
-            "The boss is genuinely complimenting the employee",
-            "The boss doesn't know the actual time"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "The employee arrived very late"
-          }
-        }
-      },
-      "explanation": "Sarcastic praise about arriving 'early' implicates the opposite the employee was actually very late.",
-      "metadata": {
-        "register": "workplace/formal",
-        "cultural_markers": [
-          "sarcastic praise to critique punctuality"
-        ]
-      }
-    },
-    {
-      "id": "hi_imp_mcq_008",
-      "type": "mcq",
-      "phenomena": [
         "indirect-refusal",
         "politeness-implicature",
         "social-obligation"
@@ -588,70 +525,7 @@
       }
     },
     {
-      "id": "hi_imp_mcq_009",
-      "type": "mcq",
-      "phenomena": [
-        "scalar-implicature",
-        "quantity-maxim",
-        "partial-commitment"
-      ],
-      "scripts": {
-        "devanagari": {
-          "context": "टीचर ने पूछा कि कितने छात्रों ने होमवर्क किया है। मॉनिटर ने कहा, “कुछ छात्रों ने होमवर्क किया है।”",
-          "question": "मॉनिटर का क्या मतलब है?",
-          "options": [
-            "सभी छात्रों ने होमवर्क किया है",
-            "कुछ छात्रों ने किया है, सभी ने नहीं",
-            "किसी ने भी होमवर्क नहीं किया",
-            "मॉनिटर को जानकारी नहीं है"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "कुछ छात्रों ने किया है, सभी ने नहीं"
-          }
-        },
-        "latin": {
-          "context": "Teacher ne poocha ki kitne students ne homework kiya hai. Monitor ne kaha, 'Kuchh students ne homework kiya hai.'",
-          "question": "Monitor ka kya matlab hai?",
-          "options": [
-            "Sabhi students ne homework kiya hai",
-            "Kuchh students ne kiya hai, sabhi ne nahi",
-            "Kisi ne bhi homework nahi kiya",
-            "Monitor ko jaankari nahi hai"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "Kuchh students ne kiya hai, sabhi ne nahi"
-          }
-        },
-        "english": {
-          "context": "The teacher asked how many students had done their homework. The class monitor said, 'Some students have done the homework.'",
-          "question": "What does the monitor mean?",
-          "options": [
-            "All students have done the homework",
-            "Some students have done it, but not all",
-            "No one has done the homework",
-            "The monitor doesn't know"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "Some students have done it, but not all"
-          }
-        }
-      },
-      "explanation": "The scalar term 'kuchh' (some) implicates 'not all' under the quantity maxim if all students had done it, the monitor would have said 'sabhi' (all).",
-      "metadata": {
-        "register": "classroom",
-        "cultural_markers": [
-          "scalar implicature in classroom reporting"
-        ]
-      }
-    },
-    {
-      "id": "hi_imp_mcq_010",
+      "id": "hi_imp_mcq_008",
       "type": "mcq",
       "phenomena": [
         "cultural-idiom",
@@ -714,7 +588,7 @@
       }
     },
     {
-      "id": "hi_imp_mcq_011",
+      "id": "hi_imp_mcq_009",
       "type": "mcq",
       "phenomena": [
         "implicature",
@@ -777,7 +651,7 @@
       }
     },
     {
-      "id": "hi_imp_mcq_012",
+      "id": "hi_imp_mcq_010",
       "type": "mcq",
       "phenomena": [
         "implicature",
@@ -867,97 +741,7 @@
       }
     },
     {
-      "id": "hi_imp_mcq_013",
-      "type": "mcq",
-      "phenomena": [
-        "indirect-refusal",
-        "politeness-implicature",
-        "social-obligation"
-      ],
-      "scripts": {
-        "devanagari": {
-          "dialogue": [
-            {
-              "speaker": "A",
-              "utterance": "क्या तुम इस वीकेंड मेरे साथ शॉपिंग चलोगी?"
-            },
-            {
-              "speaker": "B",
-              "utterance": "इस वीकेंड मुझे बहुत सारा काम निपटाना है, देखते हैं।"
-            }
-          ],
-          "question": "बी का क्या मतलब है?",
-          "options": [
-            "B ज़रूर शॉपिंग पर जाएगी",
-            "B के जाने की संभावना कम है",
-            "B को शॉपिंग पसंद नहीं है",
-            "B ने साफ मना कर दिया"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "B के जाने की संभावना कम है"
-          }
-        },
-        "latin": {
-          "dialogue": [
-            {
-              "speaker": "A",
-              "utterance": "Kya tum is weekend mere saath shopping chalogi?"
-            },
-            {
-              "speaker": "B",
-              "utterance": "Is weekend mujhe bahut saara kaam nipatana hai, dekhte hain."
-            }
-          ],
-          "question": "B ka kya matlab hai?",
-          "options": [
-            "B zaroor shopping par jaayegi",
-            "B ke jaane ki sambhavna kam hai",
-            "B ko shopping pasand nahi hai",
-            "B ne saaf mana kar diya"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "B ke jaane ki sambhavna kam hai"
-          }
-        },
-        "english": {
-          "dialogue": [
-            {
-              "speaker": "A",
-              "utterance": "Will you come shopping with me this weekend?"
-            },
-            {
-              "speaker": "B",
-              "utterance": "I have a lot of work to finish this weekend, we'll see."
-            }
-          ],
-          "question": "What does B mean?",
-          "options": [
-            "B will definitely go shopping",
-            "It's unlikely B will go",
-            "B dislikes shopping",
-            "B has flatly refused"
-          ],
-          "answer": {
-            "label": "B",
-            "index": 1,
-            "text": "It's unlikely B will go"
-          }
-        }
-      },
-      "explanation": "'Dekhte hain' (we'll see) combined with citing pending work is a softened, non-committal way of signaling a likely 'no' without an outright refusal.",
-      "metadata": {
-        "register": "friends/casual",
-        "cultural_markers": [
-          "hedged non-commitment as implied refusal"
-        ]
-      }
-    },
-    {
-      "id": "hi_imp_mcq_014",
+      "id": "hi_imp_mcq_011",
       "type": "mcq",
       "phenomena": [
         "scalar-implicature",

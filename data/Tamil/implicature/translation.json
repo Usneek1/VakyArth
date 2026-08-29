@@ -121,6 +121,66 @@
         "text": "If he keeps thinking about her like this and keep drinking, he will end up like Devadas."
       },
       "notes": "The reference to 'Devadas' is a cultural allusion to a tragic character who is known for his excessive drinking and heartbreak. The sentence implies that if he continues to dwell on her and drink, he will meet a similar tragic fate."
+    },
+    {
+      "id": "ta_tr_007",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "indirect-hint",
+        "social-context"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Annaiku en friend raathiri varaikkum veetla irundhappo, appa mani paathuttu naram aayiduchenu sonnanga."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "The other day, when my friend stayed at our house until night, father looked at the clock and said it was late."
+      },
+      "notes": "Father is not merely reporting the time. With a guest still present late at night, stating the hour implicates that the visit should end. A literal translation that only conveys the clock time misses the hint that the friend should go home."
+    },
+    {
+      "id": "ta_tr_008",
+      "type": "translation",
+      "phenomena": [
+        "idiom",
+        "kinship",
+        "in-law-relations"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Maapillai veetukku vanthappo, amma appa, avara thala mele vechi kondaada arambichitaanga, avaru kaal kooda tharaila padaama paathukkutanga."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "When the son-in-law came home, mother and father began celebrating him, and they would not even let his feet touch the ground."
+      },
+      "notes": "The idiom 'thala mele vechi kondaada' literally means celebrating him by placing him on their heads. It implies treating the son-in-law as precious or as an honored guest, not a physical act. 'Kaal kooda tharaila padaama paathukkutanga' literally means they took care that even his feet did not touch the ground; it implies extreme pampering, not that he was unable to walk."
+    },
+    {
+      "id": "ta_tr_009",
+      "type": "translation",
+      "phenomena": [
+        "implicature",
+        "indirect-refusal",
+        "social-context"
+      ],
+      "source": {
+        "language": "tamil",
+        "scripts": {
+          "latin": "Movie ku varuviya nu Priya kitta ketten, ava naalaiku morning exam irukku nu sonna."
+        }
+      },
+      "reference_translation": {
+        "language": "english",
+        "text": "I asked Priya if she wanted to come to the movie, and she said she has an exam tomorrow morning"
+      },
+      "notes": "Priya does not say no. She only mentions an exam the next morning. In context, that remark is an indirect refusal of the movie invitation. A literal translation that only reports the exam misses the declined invitation, which is inferred from conversational implicature rather than from any idiom or figure of speech."
     }
   ]
 }

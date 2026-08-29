@@ -266,37 +266,6 @@
       "type": "nli",
       "phenomena": [
         "discourse-coherence",
-        "contradiction-detection"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": "Vikram apne aap ko ek sacha environmentalist batata hai. Vah apne social media par plastic-free lifestyle ke baare mein baar baar likhta hai aur logon ko reusable bags use karne ki salaah deta hai. Uske ghar mein composting bhi hoti hai. Lekin kal jab uske dost uske ghar gaye, to unhone dekha ki Vikram ke kitchen mein plastic bags ka pura dher pada hai aur voh roz naye plastic bottles kharidta hai.",
-          "hypothesis": "Vikram apni rozmarra ki zindagi mein plastic ka istemal bilkul nahi karta."
-        },
-        "devanagari": {
-          "premise": "विक्रम अपने आप को एक सच्चा एनवायरनमेंटलिस्ट बताता है। वह अपने सोशल मीडिया पर प्लास्टिक-फ्री लाइफस्टाइल के बारे में बार बार लिखता है और लोगों को रीयूज़ेबल बैग्स इस्तेमाल करने की सलाह देता है। उसके घर में कंपोस्टिंग भी होती है। लेकिन कल जब उसके दोस्त उसके घर गए, तो उन्होंने देखा कि विक्रम की किचन में प्लास्टिक बैग्स का पूरा ढेर पड़ा है और वह रोज़ नए प्लास्टिक बोतलें खरीदता है।",
-          "hypothesis": "विक्रम अपनी रोज़मर्रा की ज़िंदगी में प्लास्टिक का इस्तेमाल बिल्कुल नहीं करता।"
-        },
-        "english": {
-          "premise": "Vikram describes himself as a true environmentalist. He repeatedly writes on social media about a plastic-free lifestyle and advises people to use reusable bags. Composting also happens at his home. But yesterday when his friends visited his house, they saw a whole pile of plastic bags in Vikram's kitchen and that he buys new plastic bottles every day.",
-          "hypothesis": "Vikram does not use plastic at all in his everyday life."
-        }
-      },
-      "explanation": "The observed pile of plastic bags and daily purchase of plastic bottles directly contradicts the hypothesis that Vikram avoids plastic entirely, despite his stated public image.",
-      "metadata": {
-        "register": "lifestyle/environment",
-        "cultural_markers": [
-          "performative environmentalism",
-          "plastic-free lifestyle claims"
-        ]
-      },
-      "label": "contradiction"
-    },
-    {
-      "id": "hi_disc_nli_010",
-      "type": "nli",
-      "phenomena": [
-        "discourse-coherence",
         "entailment"
       ],
       "scripts": {
@@ -324,7 +293,7 @@
       "label": "entailment"
     },
     {
-      "id": "hi_disc_nli_011",
+      "id": "hi_disc_nli_010",
       "type": "nli",
       "phenomena": [
         "discourse-coherence",
@@ -355,7 +324,7 @@
       "label": "entailment"
     },
     {
-      "id": "hi_disc_nli_012",
+      "id": "hi_disc_nli_011",
       "type": "nli",
       "phenomena": [
         "discourse-coherence",
@@ -386,7 +355,7 @@
       "label": "contradiction"
     },
     {
-      "id": "hi_disc_nli_013",
+      "id": "hi_disc_nli_012",
       "type": "nli",
       "phenomena": [
         "discourse-coherence",
@@ -415,37 +384,6 @@
         ]
       },
       "label": "entailment"
-    },
-    {
-      "id": "hi_disc_nli_014",
-      "type": "nli",
-      "phenomena": [
-        "discourse-coherence",
-        "policy-inference"
-      ],
-      "scripts": {
-        "latin": {
-          "premise": "Bangalore traffic police ne odd-even rule lagu karne ka prastav rakha hai taaki traffic kam ho sake. Kuch experts ka kehna hai ki isse thodi rahat mil sakti hai lekin sirf yeh kaafi nahi hoga. Public transport ko behtar banane, cycling lanes banane aur carpooling ko badhava dene ki bhi zarurat hai. Abhi tak rule lagu nahi hua hai, sirf discussion chal raha hai.",
-          "hypothesis": "Odd-even rule lagu hote hi Bangalore ka traffic poori tarah khatam ho jayega."
-        },
-        "devanagari": {
-          "premise": "बैंगलोर ट्रैफिक पुलिस ने ऑड-ईवन रूल लागू करने का प्रस्ताव रखा है ताकि ट्रैफिक कम हो सके। कुछ एक्सपर्ट्स का कहना है कि इससे थोड़ी राहत मिल सकती है लेकिन सिर्फ यह काफी नहीं होगा। पब्लिक ट्रांसपोर्ट को बेहतर बनाने, साइकलिंग लेन्स बनाने और कारपूलिंग को बढ़ावा देने की भी ज़रूरत है। अभी तक रूल लागू नहीं हुआ है, सिर्फ डिस्कशन चल रहा है।",
-          "hypothesis": "ऑड-ईवन रूल लागू होते ही बैंगलोर का ट्रैफिक पूरी तरह खत्म हो जाएगा।"
-        },
-        "english": {
-          "premise": "Bangalore traffic police have proposed implementing an odd-even rule to reduce traffic. Some experts say it could provide some relief but this alone won't be enough. There is also a need to improve public transport, build cycling lanes, and promote carpooling. The rule has not been implemented yet, only discussions are ongoing.",
-          "hypothesis": "As soon as the odd-even rule is implemented, Bangalore's traffic will completely disappear."
-        }
-      },
-      "explanation": "The premise explicitly states experts believe the rule alone won't be enough and that the rule hasn't even been implemented yet, directly contradicting the hypothesis of complete elimination of traffic.",
-      "metadata": {
-        "register": "urban-policy",
-        "cultural_markers": [
-          "odd-even traffic rule",
-          "Bangalore traffic congestion"
-        ]
-      },
-      "label": "contradiction"
     }
   ]
 }

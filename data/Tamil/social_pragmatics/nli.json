@@ -190,6 +190,102 @@
         ]
       },
       "label": "entailment"
+    },
+    {
+      "id": "ta_social_nli_007",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "personal-questions",
+        "polite-deflection"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Function la thoora sondhakkaara atha, sambalam evlo, kalyanam eppo nu ketkuraanga, naan sirichuttu vera vishayathukku maathiten.",
+          "hypothesis": "Naan neradiya badhil sollama, mariyaadhaiya thappichen."
+        },
+        "tamil": {
+          "premise": "ஃபங்ஷன்ல தூர சொந்தக்கார அத்த, சம்பளம் எவ்ளோ, கல்யாணம் எப்போனு கேட்டாங்க, நான் சிரிச்சுட்டு வேற விஷயத்துக்கு மாத்திட்டேன்.",
+          "hypothesis": "நான் நேரடியா பதில் சொல்லாம, மரியாதையா தப்பிச்சேன்."
+        },
+        "english": {
+          "premise": "At the function a distant athai, my father's sister, asked how much my salary is and when I am getting married; I laughed and switched the talk to something else.",
+          "hypothesis": "Instead of answering directly, I deflected the questions politely."
+        }
+      },
+      "explanation": "An older relative like an athai is granted the licence to ask about salary and marriage, and a flat refusal to answer would be rude. Laughing and steering the conversation elsewhere is the sanctioned way to withhold the information while keeping her face intact, so the deflection reading follows.",
+      "metadata": {
+        "register": "family/function",
+        "cultural_markers": [
+          "athai's licence to ask personal questions",
+          "laughing off instead of refusing"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_social_nli_008",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "gratitude-norms",
+        "intimacy-vs-formality"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Amma saapaadu parcel katti kuduthaanga, naan 'thank you amma' nu sonnen, amma 'enna ithu pudhusa' nu sirichaanga.",
+          "hypothesis": "Kudumbathukkulla thanks sollradhu vazhakkam illa."
+        },
+        "tamil": {
+          "premise": "அம்மா சாப்பாடு பார்சல் கட்டி குடுத்தாங்க, நான் 'தேங்க் யூ அம்மா'னு சொன்னேன், அம்மா 'என்ன இது புதுசா'னு சிரிச்சாங்க.",
+          "hypothesis": "குடும்பத்துக்குள்ள தேங்க்ஸ் சொல்றது வழக்கம் இல்ல."
+        },
+        "english": {
+          "premise": "Mother packed food for me and I said 'thank you amma'; she laughed and said, 'what is this, something new?'",
+          "hypothesis": "Inside the family, saying thanks is not the usual practice."
+        }
+      },
+      "explanation": "Calling the thanks 'something new' marks it as out of the ordinary between a mother and her child, which only makes sense if gratitude among close kin is taken for granted rather than spoken. She is teasing the novelty of the words, not objecting to his manners.",
+      "metadata": {
+        "register": "family/home",
+        "cultural_markers": [
+          "explicit thanks treated as unusual among close kin",
+          "gratitude assumed rather than stated"
+        ]
+      },
+      "label": "entailment"
+    },
+    {
+      "id": "ta_social_nli_009",
+      "type": "nli",
+      "phenomena": [
+        "social-pragmatics",
+        "praise-deflection",
+        "evil-eye-belief"
+      ],
+      "scripts": {
+        "latin": {
+          "premise": "Pakkathu veetu aunty kuzhandhaiya paathu, evlo azhaga kolukku molukku nu irukku nu sonnaanga; amma 'apdi ellam sollaadheenga, kannu pattidum' nu sonnaanga.",
+          "hypothesis": "Amma santhosappattu, innum pugazhunga nu sonnaanga."
+        },
+        "tamil": {
+          "premise": "பக்கத்து வீட்டு ஆன்ட்டி குழந்தைய பாத்து, எவ்ளோ அழகா கொழுக்கு மொழுக்குனு இருக்குனு சொன்னாங்க; அம்மா 'அப்படி எல்லாம் சொல்லாதீங்க, கண்ணு பட்டிடும்'னு சொன்னாங்க.",
+          "hypothesis": "அம்மா சந்தோஷப்பட்டு, இன்னும் புகழுங்கனு சொன்னாங்க."
+        },
+        "english": {
+          "premise": "The neighbour aunty looked at the baby and said how lovely it is, all plump and chubby; mother said, 'don't say such things, the evil eye will fall on the child.'",
+          "hypothesis": "Mother was pleased and asked her to praise the baby some more."
+        }
+      },
+      "explanation": "Dwelling on how plump and healthy a baby looks is exactly the kind of praise thought to draw kannu, so the mother cuts the compliment off rather than accepting it. Asking for more praise is the opposite of what she does, and her deflection is not treated as rudeness toward the neighbour.",
+      "metadata": {
+        "register": "neighbours/home",
+        "cultural_markers": [
+          "kannu padudhal from praising a child",
+          "deflecting a compliment to protect the baby"
+        ]
+      },
+      "label": "contradiction"
     }
   ]
 }
