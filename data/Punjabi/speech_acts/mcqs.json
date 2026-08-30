@@ -245,6 +245,36 @@
             "index": 3,
             "text": "AC da temperature thoda vadhha do"
           }
+        },
+        "gurmukhi": {
+          "context": "ਰਾਜ ਅੱਜ ਰਮੇਸ਼ ਦੇ ਘਰ ਆਇਆ ਹੋਇਆ ਹੈ। ਉਸਨੇ ਰਮੇਸ਼ ਨੂੰ ਕਿਹਾ, \"ਏ.ਸੀ. ਥੋੜ੍ਹਾ ਠੰਡਾ ਲੱਗ ਰਿਹਾ ਹੈ।\"",
+          "question": "ਰਾਜ ਦੀ ਗੱਲ ਦਾ ਅਸਲ ਮਤਲਬ ਕੀ ਹੈ?",
+          "options": [
+            "ਏ.ਸੀ. ਬਹੁਤ ਪਾਵਰਫੁੱਲ ਹੈ",
+            "ਏ.ਸੀ. ਦੀ ਹਵਾ ਚੰਗੀ ਲੱਗ ਰਹੀ ਹੈ",
+            "ਏ.ਸੀ. ਬੰਦ ਕਰ ਦਿਓ",
+            "ਏ.ਸੀ. ਦਾ ਤਾਪਮਾਨ ਥੋੜ੍ਹਾ ਵਧਾ ਦਿਓ"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "ਏ.ਸੀ. ਦਾ ਤਾਪਮਾਨ ਥੋੜ੍ਹਾ ਵਧਾ ਦਿਓ"
+          }
+        },
+        "english": {
+          "context": "Raj has come to Ramesh's house today. He said to Ramesh, \"The AC feels a bit too cold.\"",
+          "question": "What does Raj's statement actually mean?",
+          "options": [
+            "The AC is very powerful",
+            "The AC's air feels nice",
+            "Turn off the AC",
+            "Increase the AC's temperature a little"
+          ],
+          "answer": {
+            "label": "D",
+            "index": 3,
+            "text": "Increase the AC's temperature a little"
+          }
         }
       },
       "explanation": "Raj is not simply describing the AC. The statement functions as an indirect request asking the host to reduce the cold by increasing the AC temperature.",
@@ -278,6 +308,36 @@
             "index": 2,
             "text": "Simran nimrata dikhake apni kamyabi share kar rahi hai"
           }
+        },
+        "gurmukhi": {
+          "context": "ਸਿਮਰਨ ਦੀ ਨੌਕਰੀ ਲੱਗਣ ਤੋਂ ਬਾਅਦ ਉਹ ਕਹਿੰਦੀ ਹੈ, \"ਬਸ ਕਿਸਮਤ ਦੀ ਗੱਲ ਹੈ, ਮੈਨੂੰ ਤਾਂ ਕੋਈ ਖਾਸ ਉਮੀਦ ਨਹੀਂ ਸੀ।\"",
+          "question": "ਸਿਮਰਨ ਦੀ ਗੱਲ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਅਰਥ ਕੀ ਹੈ?",
+          "options": [
+            "ਸਿਮਰਨ ਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਉਹ ਨੌਕਰੀ ਲਾਇਕ ਨਹੀਂ ਸੀ",
+            "ਸਿਮਰਨ ਕਹਿ ਰਹੀ ਹੈ ਕਿ ਨੌਕਰੀ ਸਿਰਫ਼ ਕਿਸਮਤ ਨਾਲ ਮਿਲੀ",
+            "ਸਿਮਰਨ ਨਿਮਰਤਾ ਦਿਖਾ ਕੇ ਆਪਣੀ ਕਾਮਯਾਬੀ ਸਾਂਝੀ ਕਰ ਰਹੀ ਹੈ",
+            "ਸਿਮਰਨ ਨੌਕਰੀ ਤੋਂ ਖੁਸ਼ ਨਹੀਂ ਹੈ"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "ਸਿਮਰਨ ਨਿਮਰਤਾ ਦਿਖਾ ਕੇ ਆਪਣੀ ਕਾਮਯਾਬੀ ਸਾਂਝੀ ਕਰ ਰਹੀ ਹੈ"
+          }
+        },
+        "english": {
+          "context": "After getting her job, Simran says, \"It's just luck, I didn't have any special hope for it.\"",
+          "question": "What is the best interpretation of Simran's statement?",
+          "options": [
+            "Simran feels she wasn't deserving of the job",
+            "Simran is saying the job was obtained only through luck",
+            "Simran is sharing her success while showing modesty",
+            "Simran is not happy about the job"
+          ],
+          "answer": {
+            "label": "C",
+            "index": 2,
+            "text": "Simran is sharing her success while showing modesty"
+          }
         }
       },
       "explanation": "The utterance expresses ritual modesty. Instead of openly praising herself, Simran downplays her success as 'just luck', which is a common politeness strategy.",
@@ -302,6 +362,36 @@
         "latin": {
           "context": "Vyah ton baad, Anu de bhra ne Anu de husband nu keha, \"Anu saadi behen bahut pyaari hai, sambhaal ke rakhna.\"",
           "question": "Eh gall kehnde hoye bhra da tone sab ton vadhiya keda hai?",
+          "options": [
+            "Friendly advice",
+            "Protective warning",
+            "Formal order",
+            "Joke"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "Protective warning"
+          }
+        },
+        "gurmukhi": {
+          "context": "ਵਿਆਹ ਤੋਂ ਬਾਅਦ, ਅਨੂ ਦੇ ਭਰਾ ਨੇ ਅਨੂ ਦੇ ਪਤੀ ਨੂੰ ਕਿਹਾ, \"ਅਨੂ ਸਾਡੀ ਭੈਣ ਬਹੁਤ ਪਿਆਰੀ ਹੈ, ਸੰਭਾਲ ਕੇ ਰੱਖਣਾ।\"",
+          "question": "ਇਹ ਗੱਲ ਕਹਿੰਦੇ ਹੋਏ ਭਰਾ ਦਾ ਟੋਨ ਸਭ ਤੋਂ ਵਧੀਆ ਕਿਹੜਾ ਹੈ?",
+          "options": [
+            "ਦੋਸਤਾਨਾ ਸਲਾਹ",
+            "ਸੁਰੱਖਿਆਤਮਕ ਚੇਤਾਵਨੀ",
+            "ਰਸਮੀ ਹੁਕਮ",
+            "ਮਜ਼ਾਕ"
+          ],
+          "answer": {
+            "label": "B",
+            "index": 1,
+            "text": "ਸੁਰੱਖਿਆਤਮਕ ਚੇਤਾਵਨੀ"
+          }
+        },
+        "english": {
+          "context": "After the wedding, Anu's brother said to Anu's husband, \"Anu, our sister, is very dear to us — take good care of her.\"",
+          "question": "What is the best description of the brother's tone while saying this?",
           "options": [
             "Friendly advice",
             "Protective warning",
