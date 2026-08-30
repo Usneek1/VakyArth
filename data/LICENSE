@@ -1,0 +1,12 @@
+The VakyArth dataset (everything under data/) is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0) —
+the same license the ACL Anthology publishes EMNLP papers under.
+
+You are free to share and adapt this data for any purpose, including
+commercially, as long as you give appropriate credit to the VakyArth
+authors, provide a link to the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The code used to produce and evaluate this dataset (src/, and all files
+at the repository root) is licensed separately under MIT — see ../LICENSE.

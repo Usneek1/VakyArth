@@ -124,4 +124,4 @@ Each `translation.json` also carries a top-level `direction` field (e.g. `"hindi
 
 ## License
 
-TBD — see the top-level [README](../README.md) for release status.
+CC BY 4.0 — see [LICENSE](LICENSE).

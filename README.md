@@ -68,19 +68,6 @@ Score translation predictions (COMET, the metric reported in the paper):
 python evaluate_translation_comet.py --language Hindi
 ```
 
-## Citation
-
-If you use VakyArth in your work, please cite:
-
-```bibtex
-@inproceedings{vakyarth2026,
-  title     = {VakyArth: Evaluating Pragmatic Competence in LLMs across Indic Languages},
-  author    = {Singh, Usneek and Kumar, Poorvaja Veera Balaji and Nanda, Parth and Madhusoodanan, Anand and Guo, Geyang and Xu, Wei and Li, Junyi Jessy},
-  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2026}
-}
-```
-
 ## License
 
-TBD.
+The dataset (`data/`) is licensed under [CC BY 4.0](data/LICENSE) — the same license the ACL Anthology publishes EMNLP papers under. The code (`src/`, and everything else in this repository) is licensed under [MIT](LICENSE).
