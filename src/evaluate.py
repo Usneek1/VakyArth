@@ -112,8 +112,15 @@ def build_gold_index(
 # ---------- METRIC COMPUTATION HELPERS ----------
 
 def get_mcq_gold_label(item: dict) -> str:
-    # assume latin script gold label is authoritative
-    return item["scripts"]["latin"]["answer"]["label"].upper()
+    # The answer letter (A/B/C/D) is the same across script variants of an
+    # item, so prefer latin but fall back to any other available script --
+    # a handful of items (e.g. ma_imp_mcq_009) have no latin block at all,
+    # which only matters when scoring a --script native run.
+    scripts = item.get("scripts", {})
+    for key in ("latin", *scripts.keys()):
+        if key in scripts and "answer" in scripts[key]:
+            return scripts[key]["answer"]["label"].upper()
+    raise KeyError(f"No script with an answer found for item {item.get('id')}")
 
 
 def get_nli_gold_label(item: dict) -> str:
