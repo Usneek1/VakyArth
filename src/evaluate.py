@@ -117,11 +117,9 @@ def get_mcq_gold_label(item: dict) -> str:
 
 
 def get_nli_gold_label(item: dict) -> str:
-    # assume latin script label
-    latin = item.get("scripts", {}).get("latin", {})
-    label = latin.get("label")
+    # label is top-level on every NLI item (see data/README.md schema)
+    label = item.get("label")
     if label is None:
-        # Optionally log a warning
         print(f"[WARN] Missing 'label' for id={item.get('id')}")
         return None
     return label.lower()

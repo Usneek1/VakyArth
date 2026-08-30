@@ -140,7 +140,9 @@ def run_xcomet_evaluation(model, xcomet_data, batch_size):
     if not xcomet_data:
         return [], 0.0
     print(f"[xcomet] Evaluating {len(xcomet_data)} examples with batch_size={batch_size}")
-    output = model.predict(xcomet_data, batch_size=batch_size, gpus=1 if str(next(model.parameters()).device) != "cpu" else 0)
+    gpus = 1 if str(next(model.parameters()).device) != "cpu" else 0
+    # num_workers=1 works around a comet bug on Apple Silicon (see evaluate_translation_comet.py)
+    output = model.predict(xcomet_data, batch_size=batch_size, gpus=gpus, num_workers=1)
     return output.scores, output.system_score
 
 

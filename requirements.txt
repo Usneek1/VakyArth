@@ -6,6 +6,7 @@ accelerate>=0.30.0
 # Translation metrics (COMET / XCOMET)
 unbabel-comet>=2.2.0
 numpy>=1.24.0
+setuptools<82  # pkg_resources was removed in setuptools 82.0 (Feb 2026); torchmetrics/pytorch_lightning still import it
 
 # OpenAI SDK (used to hit Sarvam's and Cohere's OpenAI-compatible endpoints)
 openai>=1.0.0

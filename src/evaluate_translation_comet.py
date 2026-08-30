@@ -120,7 +120,10 @@ def prepare_comet_data(result_file, gold_by_id, max_examples):
 def run_comet(model, comet_inputs: List[dict], batch_size: int) -> Tuple[List[float], float]:
     import torch
     gpus = 1 if torch.cuda.is_available() else 0
-    output = model.predict(comet_inputs, batch_size=batch_size, gpus=gpus)
+    # num_workers=1 works around a comet bug: on Apple Silicon it always sets
+    # multiprocessing_context="fork" (since MPS is available), which PyTorch's
+    # DataLoader rejects when num_workers defaults to 0 (2 * gpus, and gpus=0 on CPU/MPS).
+    output = model.predict(comet_inputs, batch_size=batch_size, gpus=gpus, num_workers=1)
     return output.scores, output.system_score
 
 

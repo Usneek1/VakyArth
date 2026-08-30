@@ -9,6 +9,7 @@ __pycache__/
 
 # Model run outputs
 outputs/
+outputs2/
 
 # Environments
 .venv/
